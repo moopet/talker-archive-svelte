@@ -12,19 +12,17 @@
 	let { children }: LayoutProps = $props();
 </script>
 
-<div class="common-layout">
-  <Header />
-
+<Header />
+<main>
   {@render children?.()}
-
-  <Footer />
-</div>
+</main>
+<Footer />
 
 <style>
-  div {
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-		max-width: 64rem;
-  }
+main {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  max-width: 64rem;
+}
 </style>
 

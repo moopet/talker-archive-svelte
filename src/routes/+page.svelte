@@ -30,8 +30,8 @@
   </div>
 
   <div>
-    <label for="hide-empty-entries-toggle">Hide talkers without screenshots</label>
     <input type="checkbox" bind:checked={hideEmptyEntries} id="hide-empty-entries-toggle" />
+    <label for="hide-empty-entries-toggle">Hide talkers without screenshots</label>
   </div>
 </fieldset>
 
@@ -75,40 +75,38 @@ fieldset {
 	width: 0;
 }
 
-label[for=hide-empty-entries] {
+label[for=hide-empty-entries-toggle] {
 	cursor: pointer;
-	text-indent: -9999px;
-	width: 46px;
-	height: 26px;
-	background-color: var(--color-gruvbox-brown);
+	text-indent: -20rem;
+	width: 40px;
+	height: 16px;
+	background-color: var(--color-light-dim);
 	display: block;
 	border-radius: 25px;
 	position: relative;
 }
 
-label[for=hide-empty-entries]:after {
-	content: '';
-	position: absolute;
-	top: 3px;
-	left: 4px;
-	width: 20px;
-	height: 20px;
-	background-color: var(--color-gruvbox-beige);
-	border-radius: 25px;
-	transition: 0.3s;
+label[for=hide-empty-entries-toggle] {
+  &:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+  }
 }
 
 input:checked + label {
-	background-color: var(--color-gruvbox-beige);
+	background-color: var(--color-accent-dim);
 }
 
 input:checked + label:after {
-	left: calc(100% - 3px);
-	background-color: var(--color-gruvbox-brown);
+	left: calc(100% + 3px);
+	background-color: var(--link-color);
 	transform: translateX(-100%);
-}
-
-label:active:after {
-	width: 30px;
 }
 </style>
