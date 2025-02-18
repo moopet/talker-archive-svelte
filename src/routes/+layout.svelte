@@ -19,10 +19,5 @@
 <Footer />
 
 <style>
-main {
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  max-width: 64rem;
-}
 </style>
 

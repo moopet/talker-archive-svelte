@@ -17,11 +17,13 @@ ol {
   padding-inline-start: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
 li {
   list-style-type: none;
+  margin-block-end: 1rem;
 }
 </style>
 

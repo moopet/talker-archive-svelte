@@ -72,6 +72,12 @@ h6 {
   font-family: var(--font-heading);
 }
 
+main {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  max-width: 70rem;
+}
+
 section {
   padding-block-start: 2rem;
   padding-block-end: 4rem;
