@@ -1,0 +1,33 @@
+:root {
+  --color-dark: #272727;
+  --color-darker: #121212;
+  --color-light: rgba(255, 255, 255, 0.7);
+
+  --body-background-color: var(--color-darker);
+  --card-background-color: var(--color-dark);
+  --body-text-color: var(--color-light);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+  font-family: sans-serif;
+}
+
+section {
+  padding-block-start: 2rem;
+  padding-block-end: 4rem;
+  text-align: center;
+  max-width: 36rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+input[type=text] {
+  font-size: inherit;
+  color: inherit;
+}

@@ -1,0 +1,30 @@
+<script lang="ts">
+  import type { Snippet } from 'svelte';
+
+	import '../app.css';
+  import Header from '$lib/components/Header.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+
+  type LayoutProps = {
+    children: Snippet;
+  };
+
+	let { children }: LayoutProps = $props();
+</script>
+
+<div class="common-layout">
+  <Header />
+
+  {@render children?.()}
+
+  <Footer />
+</div>
+
+<style>
+  div {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+		max-width: 64rem;
+  }
+</style>
+
