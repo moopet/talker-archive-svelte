@@ -17,6 +17,7 @@ export type DataOrigin = {
 export type Resource = {
   icon?: string;
   name?: string;
+  description?: string;
   type: string;
   url: string;
 };

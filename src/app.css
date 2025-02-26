@@ -9,12 +9,14 @@
   --color-light: rgba(255, 255, 255, 0.7);
   --color-light-dim: rgba(255, 255, 255, 0.4);
   --color-accent: rgb(144, 202, 249);
+  --color-other-dunno-color: #90caf9;
   --color-accent-dim: rgba(144, 202, 249, 0.4);
 
   --body-background-color: var(--color-darker);
   --card-background-color: var(--color-dark);
   --body-text-color: var(--color-light);
   --link-color: var(--color-accent);
+  --link-hover-color: var(--color-accent-dim);
 
   scroll-behavior: smooth;
 }
@@ -47,7 +49,6 @@ body {
   color: var(--body-text-color);
 	font-family: var(--font-body);
   line-height: 1.5;
-  font-size: 1rem;
 }
 
 main {
@@ -60,7 +61,6 @@ main {
   padding-block-start: 0;
   padding-block-end: 0;
   width: 100%;
-  font-size: 1.2rem;
 }
 
 h1,
