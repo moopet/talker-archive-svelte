@@ -1,0 +1,21 @@
+  8P*UOO9*D       _/_/_/_/    _/_/_/_/  _/_/_/_/  _/_/_/  _/_/_/_/  _/_/_/
+ 0*89PBC*SOBB*   _/    _/    _/        _/        _/  _/  _/    _/    _/
+  bU8*UO*UOcb   _/_/_/      _/_/_/    _/_/_/_/  _/  _/  _/_/_/      _/
+     \\ //     _/    _/    _/              _/  _/  _/  _/    _/    _/
+      ||/     _/      _/  _/_/_/_/  _/_/_/_/  _/_/_/  _/      _/  _/
+ ,,,,/|||\,,,   ------=====>* M A P *<=====------   By:RapidRacer
+
+CONV Convention     ARBO Arboretum        ARCD Arcade         'to pool'
+lndr Laundry        NLWD Newlywed     playgrnd Playground          ^
+REST Restaurant     DKRM Darkroom         JACZ Jacuzzi             |
+ /--<----<------one way out of lobby--<-----<-----<---[LOBBY]  [VISTA]<-----\
+ |     |     |     |     |     |     |           |     |    \ /     |       |
+ v     v     v     v     v     v     v           v     |     Y      |       |
+CONV->ARBO->POOL->ARCD->REST->NLWD->DKRM->lndr->JACZ  STEAMY |      v       |
+ |     |     |     |     |     |     |     |     |     |     |  playgrnd--\ |
+ |     |     |     |     |     |     |     |     |     |     |  /    ^    | |
+ v     v     v     v     v     v     v     v     v     v     | /     |    | |
+ \-->---->------>--one way to lounge-->----->----->---->--[LOUNGE]--ranch | |
+Rooms without entrances are:                                 |            v |
+SNOWFIELD     and      Chapel at (trans annex.chapel)        \________haven_/
+-=>NOTE:Names in CAPS denotes room access by simply typing the room name.<=-

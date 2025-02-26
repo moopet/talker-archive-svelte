@@ -6,7 +6,7 @@
   const slug = talker.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]+/g, '');
   const href = `/details/${slug}`;
   const defaultImage = '/placeholder.png';
-  const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/${talker.screencaps[0]}` : defaultImage;
+  const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/login/${talker.screencaps[0]}` : defaultImage;
 </script>
 
 <a {href}>
