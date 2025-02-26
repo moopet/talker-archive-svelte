@@ -6,7 +6,7 @@
   {#if resource.type === 'image'}
     <img src={resource.url} alt="{resource.alt}" />
   {:else}
-    <a href={resource.url}>{resource.name}</a>
+    <a href={resource.url}>{resource.name.replace(/^https?:\/\//, '')}</a>
   {/if}
 
   <span>{resource?.description ?? resource.type}</span>
@@ -14,7 +14,7 @@
 
 <style>
 img {
-  max-width: 352px;
+  max-width: 300px;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1);

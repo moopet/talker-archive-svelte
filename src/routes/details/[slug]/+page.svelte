@@ -16,6 +16,7 @@
       name: `${item.hostname}:${item.port}`,
       type: 'host',
       url: `telnet:${item.hostname}:${item.port}`,
+      description: ""
     };
   });
 
@@ -26,20 +27,44 @@
         alt: "",
         name: emailResource.url,
         type: 'contact',
-        url: `mailto:${emailResource.url}`
+        url: `mailto:${emailResource.url}`,
+        description: ""
       };
   });
 
-  const websiteResources: Array<Resource> = [];
+  const websiteResources: Array<Resource> = resources
+    .filter(resource => ['website', 'wayback'].includes(resource.type))
+    .map(websiteResource => {
+      return {
+        alt: "",
+        name: websiteResource.type === "wayback" ? `http${websiteResource.url.split("/http")[1]}` : websiteResource.url,
+        type: 'website',
+        url: websiteResource.url,
+        description: websiteResource.type === "wayback" ? "(wayback machine copy)" : ""
+      };
+  });
+
   const otherResources: Array<Resource> = [];
+
+  if (ewtooAbbr) {
+    otherResources.push({
+        alt: "",
+        type: 'website',
+        name: "Grim's list entry",
+        url: `http://list.ewtoo.org/details.cgi?abbr=${ewtooAbbr}`,
+        description: ""
+    });
+  }
+
   const imageResources: Array<Resource> = screencaps.map(filename => {
     return {
       alt: "",
       name: filename,
       type: 'image',
       url: `/screencaps/login/${filename}`,
+      description: ""
     };
-  });
+  }).slice(1);
 
 const heroImage = screencaps.length > 0 ? `/screencaps/login/${screencaps[0]}` : '/placeholder.png';
 </script>
