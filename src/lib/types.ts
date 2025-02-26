@@ -15,10 +15,19 @@ export type DataOrigin = {
 };
 
 export type Resource = {
-  icon: string;
-  name: string;
+  icon?: string;
+  name?: string;
   type: string;
   url: string;
+};
+
+export type ResourceItemProps = {
+  resource: Resource;
+};
+
+export type ResourceListProps = {
+  title: string;
+  resources: Array<Resource>;
 };
 
 export type Host = {
