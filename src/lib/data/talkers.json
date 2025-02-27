@@ -5869,7 +5869,9 @@
       "screencaps": [
         "cptalker.com_9900.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "crystal-palace.map.txt"
+      ],
       "resources": [
         {
           "type": "website",

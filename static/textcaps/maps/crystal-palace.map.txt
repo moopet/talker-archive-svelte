@@ -1,0 +1,14 @@
+{ YOUR ROOM - type .myroom to get there.  They're FREE! }
+                       _____________
+         { library }--{ dining_hall }--{ slave_quarters }
+                       ~~~~~~|~~~~~~
+{ auction_block }            |
+         \_______       _____|_____       __________
+         { arena }-----{ reception }-----{ holodeck }
+         /~~~|~~~       ~~~~~|~~~~~       ~~~~~~~~~~
+{ stockade } |               |
+        { voyeur }           | { haven }
+                          ___|___/
+               { jail }--{ forum }--{ management }
+                          ~~~~~~~
+
