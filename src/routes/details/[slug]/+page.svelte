@@ -4,9 +4,11 @@
   import { talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
 
-  const slug = (page.params?.slug ?? "").trim().toLowerCase();
+  const slugify = (text: string): string => text.trim().toLowerCase().replace(/[^a-z0-9]+/, '-');
+  const slug = slugify(page.params?.slug ?? "");
 
-  const talker: Talker = talkers.find(talker => talker.name.toLowerCase() === slug);
+  const talker: Talker = talkers.find(talker => slugify(talker.name) === slug);
+  console.log({slug, talker});
 
   const { name, hosts = [], screencaps = [], textcaps = [], description, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
 

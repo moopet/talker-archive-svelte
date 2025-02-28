@@ -3,8 +3,9 @@
 
   let { talker }: TalkerCardProps = $props();
 
-  const slug = talker.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]+/g, '');
-  const href = `/details/${slug}`;
+  const slugify = (text: string): string => text.trim().toLowerCase().replace(/[^a-z0-9]+/, '-');
+
+  const href = `/details/${slugify(talker.name)}`;
   const defaultImage = '/placeholder.png';
   const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/login/${talker.screencaps[0]}` : defaultImage;
 </script>

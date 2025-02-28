@@ -8,7 +8,7 @@
 
 <ol>
   {#each talkers as talker: Talker (talker.name)}
-    <li><TalkerCard {talker} {talkers} /></li>
+    <li><TalkerCard {talker} /></li>
   {/each}
 </ol>
 
