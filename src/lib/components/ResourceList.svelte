@@ -7,11 +7,17 @@
 <div>
   <h2>{title}</h2>
   <ul>
-    {#each resources as resource: Resource}
-      <li>
-        <ResourceItem {resource} />
+    {#if resources.length > 0}
+      {#each resources as resource: Resource}
+        <li>
+          <ResourceItem {resource} />
+        </li>
+      {/each}
+    {:else}
+      <li class="empty">
+        Nothing here...
       </li>
-    {/each}
+    {/if}
   </ul>
 </div>
 
@@ -40,6 +46,10 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.empty {
+  color: rgba(255, 255, 255, 0.3);
 }
 </style>
 
