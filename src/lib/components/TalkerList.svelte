@@ -7,8 +7,8 @@
 </script>
 
 <ol>
-  {#each talkers as talker: Talker }
-    <li><TalkerCard {talker} /></li>
+  {#each talkers as talker: Talker (talker.name)}
+    <li><TalkerCard {talker} {talkers} /></li>
   {/each}
 </ol>
 
