@@ -3136,19 +3136,6 @@
       ]
     },
     {
-      "name": "Crimson Dawn",
-      "dataOrigin": "talkers.ws",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "crimson.talker.com",
-          "port": 7404
-        }
-      ]
-    },
-    {
       "name": "The Crypt",
       "dataOrigin": "talkers.ws",
       "codebase": "crypt",
@@ -3617,20 +3604,6 @@
         {
           "hostname": "ns.kconline.com",
           "port": 2600
-        }
-      ]
-    },
-    {
-      "name": "Jaffa",
-      "dataorigin": "talkers.ws",
-      "ewtooAbbr": "Jaffa",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "jaffa.custard.org",
-          "port": 4040
         }
       ]
     },
@@ -4391,6 +4364,10 @@
         {
           "hostname": "talker.com",
           "port": 7414
+        },
+        {
+          "hostname": "crimson.talker.com",
+          "port": 7404
         }
       ]
     },
@@ -5991,6 +5968,10 @@
       "hosts": [
         {
           "hostname": "spod.org",
+          "port": 4040
+        },
+        {
+          "hostname": "jaffa.custard.org",
           "port": 4040
         }
       ]
