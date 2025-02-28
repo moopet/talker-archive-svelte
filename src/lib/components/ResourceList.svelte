@@ -17,7 +17,7 @@
 
 <style>
 div {
-  text-align: left;
+  text-align: start;
   flex-basis: 300px;
 }
 
