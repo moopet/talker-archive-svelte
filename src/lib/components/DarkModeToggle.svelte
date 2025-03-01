@@ -67,7 +67,7 @@ label {
 	text-indent: -9999px;
 	width: 46px;
 	height: 26px;
-	background-color: var(--color-toggle-track-off, #333);
+	background-color: var(--color-toggle-track-off, #aaa);
 	display: block;
 	border-radius: 25px;
 	position: relative;
@@ -80,7 +80,7 @@ label:after {
 	left: 4px;
 	width: 20px;
 	height: 20px;
-	background-color: var(--color-toggle-switch-off, #aaa);
+	background-color: var(--color-toggle-switch-off, #333);
 	border-radius: 25px;
 	transition: 0.3s;
 }
@@ -91,12 +91,12 @@ label:after {
 }
 
 input:checked + label {
-	background-color: var(--color-toggle-track-on, #aaa);
+	background-color: var(--color-toggle-track-on, #333);
 }
 
 input:checked + label:after {
 	left: calc(100% - 3px);
-	background-color: var(--color-toggle-switch-on, #333);
+	background-color: var(--color-toggle-switch-on, #aaa);
 	transform: translateX(-100%);
 }
 

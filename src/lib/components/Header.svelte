@@ -51,14 +51,4 @@ svg {
 a {
   display: inline-block;
 }
-
-nav a {
-  text-decoration: underline;
-  color: var(--link-color);
-  text-decoration-color: rgba(144, 202, 249, 0.4);
-
-  &:hover {
-    text-decoration-color: inherit;
-  }
-}
 </style>

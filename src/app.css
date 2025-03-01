@@ -19,6 +19,11 @@
   --link-color: var(--color-accent);
   --link-hover-color: var(--color-accent-dim);
 
+  --toggle-track-color-off: var(--color-accent-dim);
+  --toggle-track-color-on: var(--toggle-track-color-off);
+  --toggle-knob-color-off: var(--color-accent);
+  --toggle-knob-color-on: var(--toggle-knob-color-off);
+
   scroll-behavior: smooth;
 }
 
@@ -30,8 +35,12 @@ body.dark-mode {
   --card-text-color: var(--color-dark);
   --body-text-color: var(--color-dark);
   --border-color: #666;
-  --link-color: #333;
+  --link-color: #14f;
   --link-hover-color: #111;
+  --toggle-track-color-off: var(--color-dark);
+  --toggle-track-color-on: var(--toggle-track-color-off);
+  --toggle-knob-color-off: var(--color-off-white);
+  --toggle-knob-color-on: var(--toggle-knob-color-off);
 }
 
 * {
@@ -113,3 +122,13 @@ button {
 input[type=text] {
   color: inherit;
 }
+
+a {
+  color: var(--link-color);
+  text-decoration-color: var(--color-accent-dim);
+
+  &:hover {
+    text-decoration-color: inherit;
+  }
+}
+

@@ -26,15 +26,6 @@ div {
   margin-block-end: 1rem;
 }
 
-a {
-  color: var(--color-accent);
-  text-decoration-color: var(--color-accent-dim);
-
-  &:hover {
-    text-decoration-color: inherit;
-  }
-}
-
 span {
   font-size: 0.9rem;
 }

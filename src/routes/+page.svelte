@@ -24,14 +24,14 @@
 </section>
 
 <fieldset>
-  <div>
+  <div class="search-term">
     <label for="search-term">Talker name</label>
     <input type="text" bind:value={searchTerm} id="search-term" />
   </div>
 
-  <div>
+  <div class="hide-empty-entries">
     <input type="checkbox" bind:checked={hideEmptyEntries} id="hide-empty-entries-toggle" />
-    <label for="hide-empty-entries-toggle">Hide talkers without screenshots</label>
+    <label for="hide-empty-entries-toggle"><span>Hide talkers without screenshots</span></label>
   </div>
 </fieldset>
 
@@ -52,8 +52,8 @@ fieldset {
   border-width: 0;
   background-color: var(--card-background-color);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  font-size: 1.2rem;
 }
 
 [type=text] {
@@ -77,16 +77,20 @@ fieldset {
 
 label[for=hide-empty-entries-toggle] {
 	cursor: pointer;
-	text-indent: -20rem;
+	text-indent: -15rem;
 	width: 40px;
 	height: 16px;
-	background-color: var(--color-light-dim);
+	background-color: var(--toggle-track-color-off);
 	display: block;
 	border-radius: 25px;
 	position: relative;
-}
 
-label[for=hide-empty-entries-toggle] {
+  span {
+    position: absolute;
+    left: 0;
+    top: -4px;
+  }
+
   &:after {
     content: '';
     position: absolute;
@@ -94,19 +98,31 @@ label[for=hide-empty-entries-toggle] {
     left: 0;
     width: 20px;
     height: 20px;
-    background-color: white;
+    background-color: var(--toggle-knob-color-off);
     border-radius: 25px;
     transition: 0.3s;
   }
 }
 
 input:checked + label {
-	background-color: var(--color-accent-dim);
+	background-color: var(--toggle-track-color-on);
 }
 
 input:checked + label:after {
 	left: calc(100% + 3px);
-	background-color: var(--link-color);
+	background-color: var(--toggle-knob-color-on);
 	transform: translateX(-100%);
 }
+
+.hide-empty-entries {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  fieldset {
+    flex-direction: row;
+  }
+}
+
 </style>

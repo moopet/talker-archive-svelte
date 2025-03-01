@@ -17,7 +17,7 @@ ol {
   padding-inline-start: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 1rem;
 }
 
