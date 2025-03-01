@@ -28,7 +28,7 @@ div {
 }
 
 h2 {
-  color: white;
+  color: var(--text-color-strong);
   font-size: 1rem;
   font-weight: normal;
   white-space: nowrap;
@@ -37,7 +37,7 @@ h2 {
   border-block-start-width: 0;
   border-block-end-width: 1px;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--border-color);
 }
 
 ul {

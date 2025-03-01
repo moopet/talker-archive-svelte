@@ -16,7 +16,7 @@ footer {
 }
 
 strong {
-  color: white;
+  color: var(--color-text-strong);
   font-size: 1.5rem;
 }
 </style>
