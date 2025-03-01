@@ -1,5 +1,10 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
+  import { browser } from '$app/environment';
+
+  if (browser) {
+    document.body.dataset.hasJs = "true";
+  }
 
 	import '../app.css';
   import Header from '$lib/components/Header.svelte';

@@ -141,7 +141,7 @@ section {
 .hero {
   padding-block-start: 0;
   padding-block-end: 0;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--card-background-color);
 }
 
 .information {

@@ -18,10 +18,10 @@
 <style>
 a {
   display: flex;
-  border: 1px solid #333333;
+  border: 1px solid var(--border-color, #333333);
   border-radius: 4px;
-  background-color: var(--card-background-color);
-  color: white;
+  background-color: var(--card-background-color, black);
+  color: var(--card-text-color, white);
   flex-direction: column;
   text-decoration: none;
   justify-content: space-between;
