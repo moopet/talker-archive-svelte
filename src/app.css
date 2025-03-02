@@ -28,6 +28,7 @@
   --toggle-knob-color-on: var(--toggle-knob-color-off);
   --color-text-strong: black;
   --border-color: rgba(0, 0, 0, 0.1);
+  --color-inactive: rgba(0, 0, 0, 0.3);
 }
 
 /* This used to use @media (prefers-color-scheme: dark) */
@@ -44,6 +45,7 @@ body.dark-mode {
   --toggle-knob-color-on: var(--toggle-knob-color-off);
   --color-text-strong: white;
   --border-color: rgba(255, 255, 255, 0.1);
+  --color-inactive: rgba(255, 255, 255, 0.3);
 }
 
 * {

@@ -49,7 +49,7 @@ li {
 }
 
 .empty {
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--color-inactive);
 }
 </style>
 
