@@ -21,6 +21,12 @@ ol {
   gap: 1rem;
 }
 
+@media(min-width: 1100px) {
+  ol {
+    justify-content: flex-start;
+  }
+}
+
 li {
   list-style-type: none;
   margin-block-end: 1rem;
