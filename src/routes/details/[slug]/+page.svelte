@@ -1,12 +1,12 @@
 <script lang="ts">
   import { page } from '$app/state';
+  import slugify from 'slugify';
   import type { Codebase, DataOrigin, Talker } from '$lib/types';
   import { codebases, dataOrigins, talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
 
-  const slugify = (text: string): string => text.trim().toLowerCase().replace(/[^a-z0-9]+/, '-');
-  const slug = slugify(page.params?.slug ?? "");
-  const talker: Talker = talkers.find(talker => slugify(talker.name) === slug);
+  const slug: string = slugify(page.params?.slug ?? "", {lower: true});
+  const talker: Talker = talkers.find(talker => slugify(talker.name, {lower: true}) === slug);
 
   const getCodebaseDescription = (codebaseName: string): string => {
     const codebase: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebaseName.toLowerCase());

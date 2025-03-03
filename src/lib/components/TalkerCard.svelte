@@ -1,11 +1,10 @@
 <script lang="ts">
   import type { TalkerCardProps } from '$lib/types';
+  import slugify from 'slugify';
 
   let { talker }: TalkerCardProps = $props();
 
-  const slugify = (text: string): string => text.trim().toLowerCase().replace(/[^a-z0-9]+/, '-');
-
-  const href = `/details/${slugify(talker.name)}`;
+  const href = `/details/${slugify(talker.name, {lower: true})}`;
   const defaultImage = '/placeholder.png';
   const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/login/${talker.screencaps[0]}` : defaultImage;
 </script>

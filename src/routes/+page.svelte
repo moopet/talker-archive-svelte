@@ -1,15 +1,23 @@
 <script lang="ts">
+  import slugify from 'slugify';
+
   import { talkers, resources, codebases } from '$lib/data/talkers.json';
 
   import TalkerList from '$lib/components/TalkerList.svelte';
 
-  let hideEmptyEntries: boolean = $state(false);
+  let showEmptyEntries: boolean = $state(false);
   let searchTerm: string = $state("");
 
   let filteredTalkers = $derived(
     talkers
-      .filter(talker => (talker?.screencaps?.length ?? 0) !== 0 || !hideEmptyEntries)
-      .filter(talker => talker.name.toLowerCase().includes(searchTerm.toLowerCase()))
+      .filter(talker => (talker?.screencaps?.length ?? 0) !== 0 || showEmptyEntries)
+      .filter(talker => talker.name.toLowerCase().includes(searchTerm.toLowerCase().trim()))
+      .sort((a, b) => {
+        const slugA: string = slugify(a.name).replace(/^(a|the)-/, '');
+        const slugB: string = slugify(b.name).replace(/^(a|the)-/, '');
+
+        return slugA.localeCompare(slugB);
+      })
   );
 </script>
 
@@ -29,9 +37,9 @@
     <input type="text" bind:value={searchTerm} id="search-term" />
   </div>
 
-  <div class="hide-empty-entries">
-    <input type="checkbox" bind:checked={hideEmptyEntries} id="hide-empty-entries-toggle" />
-    <label for="hide-empty-entries-toggle"><span>Hide talkers without screenshots</span></label>
+  <div class="show-empty-entries">
+    <input type="checkbox" bind:checked={showEmptyEntries} id="show-empty-entries-toggle" />
+    <label for="show-empty-entries-toggle"><span>show talkers without screenshots</span></label>
   </div>
 </fieldset>
 
@@ -79,9 +87,9 @@ fieldset {
 	width: 0;
 }
 
-label[for=hide-empty-entries-toggle] {
+label[for=show-empty-entries-toggle] {
 	cursor: pointer;
-	text-indent: -15rem;
+	text-indent: -16rem;
 	width: 40px;
 	height: 16px;
 	background-color: var(--toggle-track-color-off);
@@ -118,7 +126,7 @@ input:checked + label:after {
 	transform: translateX(-100%);
 }
 
-.hide-empty-entries {
+.show-empty-entries {
   display: flex;
   flex-direction: column;
 }
