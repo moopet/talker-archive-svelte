@@ -57,7 +57,7 @@ fieldset {
 }
 
 [type=text] {
-  background-color: transparent;
+  background-color: var(--input-background-color, transparent);
   padding-inline-start: 2rem;
   padding-inline-end: 0.5rem;
   padding-block-start: 0.5rem;
@@ -67,6 +67,10 @@ fieldset {
   border-block-start-width: 0;
   border-block-end-width: 2px;
   border-color: inherit;
+
+  &:focus-visible {
+    border-color: var(--color-accent);
+  }
 }
 
 [type=checkbox] {
@@ -124,5 +128,4 @@ input:checked + label:after {
     flex-direction: row;
   }
 }
-
 </style>

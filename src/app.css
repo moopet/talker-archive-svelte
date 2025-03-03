@@ -29,6 +29,7 @@
   --color-text-strong: black;
   --border-color: rgba(0, 0, 0, 0.1);
   --color-inactive: rgba(0, 0, 0, 0.3);
+  --input-background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* This used to use @media (prefers-color-scheme: dark) */
@@ -36,6 +37,7 @@ body.dark-mode {
   --color-dark: #272727;
   --body-background-color: var(--color-darker);
   --card-background-color: var(--color-dark);
+  --card-text-color: var(--color-off-white);
   --body-text-color: var(--color-light);
   --link-color: var(--color-accent);
   --link-hover-color: var(--color-accent-dim);
@@ -46,6 +48,7 @@ body.dark-mode {
   --color-text-strong: white;
   --border-color: rgba(255, 255, 255, 0.1);
   --color-inactive: rgba(255, 255, 255, 0.3);
+  --input-background-color: rgba(255, 255, 255, 0.05);
 }
 
 * {
