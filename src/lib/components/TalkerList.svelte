@@ -23,7 +23,7 @@ ol {
 
 @media(min-width: 1100px) {
   ol {
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 }
 
