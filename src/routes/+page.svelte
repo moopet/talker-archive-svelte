@@ -34,7 +34,8 @@
 <fieldset>
   <div class="search-term">
     <label for="search-term">Talker name</label>
-    <input type="text" bind:value={searchTerm} id="search-term" />
+    <input type="text" bind:value={searchTerm} id="search-term" placeholder="Filter by talker name..." />
+    <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
   </div>
 
   <div class="show-empty-entries">
@@ -64,21 +65,54 @@ fieldset {
   justify-content: space-between;
 }
 
+.search-term {
+  position: relative;
+}
+
 [type=text] {
-  background-color: var(--input-background-color, transparent);
+  background-color: transparent;
+  background-image: url('/static/ui/search.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   padding-inline-start: 2rem;
   padding-inline-end: 0.5rem;
   padding-block-start: 0.5rem;
   padding-block-end: 0.5rem;
+  border-style: solid;
   border-inline-start-width: 0;
   border-inline-end-width: 0;
   border-block-start-width: 0;
-  border-block-end-width: 2px;
+  border-block-end-width: 1px;
   border-color: inherit;
+  outline: none;
+
+  &:hover {
+    border-color: white;
+  }
 
   &:focus-visible {
     border-color: var(--color-accent);
   }
+}
+
+label[for=search-term] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+svg {
+  fill: currentColor;
+  width: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 6px;
 }
 
 [type=checkbox] {
@@ -87,15 +121,21 @@ fieldset {
 	width: 0;
 }
 
+.show-empty-entries:focus-within {
+  outline: medium auto currentColor;
+}
+
 label[for=show-empty-entries-toggle] {
 	cursor: pointer;
-	text-indent: -16rem;
 	width: 40px;
 	height: 16px;
 	background-color: var(--toggle-track-color-off);
 	display: block;
 	border-radius: 25px;
 	position: relative;
+  margin-inline-start: 16rem;
+  margin-block-start: 1rem;
+  text-indent: -16rem;
 
   span {
     position: absolute;
@@ -131,9 +171,14 @@ input:checked + label:after {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   fieldset {
     flex-direction: row;
+  }
+
+  label[for=show-empty-entries-toggle] {
+    margin-inline-start: 0;
+    margin-block-start: 0;
   }
 }
 </style>
