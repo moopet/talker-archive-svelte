@@ -71,7 +71,6 @@ fieldset {
 
 [type=text] {
   background-color: transparent;
-  background-image: url('/static/ui/search.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-inline-start: 2rem;
