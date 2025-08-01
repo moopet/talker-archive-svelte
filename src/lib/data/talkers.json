@@ -129,6 +129,10 @@
       "name": "Moe's talker listing on Dark Fantastic Net"
     },
     {
+      "shortName": "nick",
+      "name": "Nick's talker page"
+    },
+    {
       "shortName": "razor",
       "name": "The Razor's Edge Talker List"
     }
@@ -1324,6 +1328,10 @@
       "resources": [],
       "hosts": [
         {
+          "hostname": "talkers.skl.com",
+          "port": 8000
+        },
+        {
           "hostname": "island.subnigra.com",
           "port": 8000
         },
@@ -1902,6 +1910,10 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "vivid.net",
+          "port": 7979
+        },
         {
           "hostname": "world.vivid.net",
           "port": 7979
@@ -2834,6 +2846,20 @@
       "textcaps": [],
       "resources": [],
       "hosts": []
+    },
+    {
+      "name": "Detroid City",
+      "description": "Detroit City came about when City closed down",
+      "dataOrigin": "nick",
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "hostname": "benland.muc.edu",
+          "port": 4567
+        }
+      ]
     },
     {
       "name": "Dreamers",
@@ -6559,6 +6585,33 @@
       "screencaps": [],
       "textcaps": [],
       "hosts": []
+    },
+    {
+      "name": "StarShip",
+      "dataOrigin": "nick",
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "hostname": "starship.megalinx.net",
+          "port": 4567
+        }
+      ]
+    },
+    {
+      "name": "Walt",
+      "description": "A Disney-based talker",
+      "dataOrigin": "nick",
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "hostname": "genesis.skl.com",
+          "port": 6969
+        }
+      ]
     },
     {
       "name": "Winter's Edge",
