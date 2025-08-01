@@ -12,6 +12,7 @@ export type Codebase = {
 export type DataOrigin = {
   name: string;
   shortName: string;
+  link?: string;
 };
 
 export type Resource = {

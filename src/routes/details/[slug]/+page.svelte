@@ -27,7 +27,13 @@
   const getCitation = (dataOriginName: string): string => {
     const dataOrigin: DataOrigin = dataOrigins.find(item => item.shortName.toLowerCase() === dataOriginName.toLowerCase());
 
-    return dataOrigin ? `Information presented here was - at least in part - sourced from ${dataOrigin.name}.` : '';
+    if (!dataOrigin) {
+      return '';
+    }
+
+    const link = dataOrigin.link ? `<a href="${dataOrigin.link}">${dataOrigin.name}</a>` : dataOrigin.name;
+
+    return `Information presented here was - at least in part - sourced from ${link}.`;
   };
 
   const { name, hosts = [], screencaps = [], textcaps = [], description, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
@@ -113,7 +119,7 @@
 
   {#if citation}
     <p>
-      {citation}
+      {@html citation}
     </p>
   {/if}
 
