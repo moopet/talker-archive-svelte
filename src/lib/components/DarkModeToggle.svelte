@@ -2,7 +2,7 @@
 import { browser } from '$app/environment';
 import Icon from '$lib/assets/icons/dark-mode.png';
 
-const defaultColorMode: string = 'light';
+const defaultColorMode: string = 'dark';
 
 const getBrowserColorMode = (): string => {
   if (!browser) {
