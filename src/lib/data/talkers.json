@@ -3378,6 +3378,10 @@
         {
           "hostname": "dragonsbane.skl.com",
           "port": 6677
+        },
+        {
+          "hostname": "dragon.yavapai.cc.az.us",
+          "port": 6677
         }
       ]
     },
