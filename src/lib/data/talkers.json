@@ -1921,6 +1921,10 @@
         },
         {
           "hostname": "slack.nosuchluck.net",
+          "port": 7879
+        },
+        {
+          "hostname": "slack.nosuchluck.net",
           "port": 7979
         }
       ]
