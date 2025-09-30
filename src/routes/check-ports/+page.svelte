@@ -45,7 +45,7 @@
           {#if result.isConnectable}
             <li>
               {result.name} 
-              <a href="telnet:{result.hostname}:{result.port}">{result.hostname}:{result.port}</a>
+              <a href="telnet://{result.hostname}:{result.port}">{result.hostname}:{result.port}</a>
             </li>
           {/if}
         {/each}
