@@ -144,9 +144,21 @@
       "name": "HTTP Chat"
     },
     {
+      "shortName": "arien",
+      "name": "ArIEN",
+      "family": "nuts",
+      "platform": "*nix"
+    },
+    {
       "shortName": "amnuts",
       "repo": "https://github.com/talkersource/amnuts",
       "name": "Andy's modified NUTS",
+      "family": "nuts",
+      "platform": "*nix"
+    },
+    {
+      "shortName": "mamnuts",
+      "name": "MAmNUTS",
       "family": "nuts",
       "platform": "*nix"
     },
@@ -160,6 +172,18 @@
       "name": "NUTS",
       "family": "nuts",
       "platform": "*nix"
+    },
+    {
+      "shortName": "retrobar",
+      "name": "RetroBar"
+    },
+    {
+      "shortName": "sm",
+      "name": "SM"
+    },
+    {
+      "shortName": "tdg",
+      "name": "TDG"
     },
     {
       "shortName": "rnuts",
@@ -2152,7 +2176,7 @@
       "name": "Enchantment Under The Sea",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "eutsii",
-      "codebase": "ArIEN",
+      "codebase": "arien",
       "screencaps": [
         "euts.org_2000.png"
       ],
@@ -2289,6 +2313,7 @@
     },
     {
       "name": "Bicol Channel",
+      "codebase": "amnuts",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -2301,6 +2326,88 @@
         {
           "hostname": "bc.kelotz.net",
           "port": 2018
+        }
+      ]
+    },
+    {
+      "name": "Night Runners",
+      "codebase": "amnuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "nr.kelotz.net",
+          "port": 2474
+        }
+      ]
+    },
+    {
+      "name": "Retro Bar",
+      "codebase": "retrobar",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "rb.kelotz.net",
+          "port": 1981
+        }
+      ]
+    },
+    {
+      "name": "Down Under",
+      "codebase": "amnuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "du.kelotz.net",
+          "port": 2003
+        }
+      ]
+    },
+    {
+      "name": "Selva Virtual",
+      "codebase": "mamnuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "cognitio.no-ip.org",
+          "port": 9999
+        },
+        {
+          "hostname": "selva.grogue.org",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "Shell Matrix",
+      "codebase": "sm",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "sm.kelotz.net",
+          "port": 2223
+        }
+      ]
+    },
+    {
+      "name": "The Dating Game",
+      "codebase": "tdg",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "the-dating-game.net",
+          "port": 5959
         }
       ]
     },
@@ -5151,7 +5258,8 @@
       ]
     },
     {
-      "name": "TypoTown",
+      "name": "Typo Town",
+      "codebase": "mamnuts",
       "description": "",
       "dataOrigin": "talker.com",
       "screencaps": [],
@@ -5169,6 +5277,10 @@
       "hosts": [
         {
           "hostname": "talker.com",
+          "port": 6666
+        },
+        {
+          "hostname": "typotown.net",
           "port": 6666
         }
       ]
@@ -6150,19 +6262,6 @@
         {
           "hostname": "redclaw.org.uk",
           "port": 2000
-        }
-      ]
-    },
-    {
-      "name": "Selva",
-      "dataOrigin": "spodlist",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "cognitio.no-ip.org",
-          "port": 9999
         }
       ]
     },
