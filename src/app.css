@@ -140,3 +140,22 @@ a {
   }
 }
 
+table {
+  width: 100%;
+}
+
+th {
+  background-color: var(--card-text-color);
+  color: var(--card-background-color);
+}
+
+th, td {
+  text-align: left;
+  padding: 0.2rem 0.5rem;
+}
+
+td.error {
+  opacity: 0.5;
+}
+
+

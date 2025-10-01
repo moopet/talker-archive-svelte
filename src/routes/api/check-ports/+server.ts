@@ -1,9 +1,8 @@
 import { json } from '@sveltejs/kit';
 import net from 'net';
-import { promises as dns } from 'dns';
 import { talkers } from '$lib/data/talkers.json';
 
-const SOCKET_TIMEOUT = 3000; // ms.
+const SOCKET_TIMEOUT = 10000; // ms.
 
 interface Host {
   hostname: string;
@@ -15,16 +14,12 @@ interface InputObject {
 }
 
 interface CheckPortResult {
+  name: string;
   hostname: string;
-  ip?: string;
   port: number;
   isConnectable: boolean;
   error?: string;
 }
-
-const isIPv4 = (hostname: string): boolean => {
-  return /^(\d{1,3}\.){3}\d{1,3}$/.test(hostname) && hostname.split('.').every(num => parseInt(num) <= 255);
-};
 
 const isValidPort = (port: number): boolean => {
   return Number.isInteger(port) && port >= 1 && port <= 65535;
@@ -46,31 +41,18 @@ export async function GET() {
 
       }))
     }))
-    .flatMap((talker: InputObject) => talker.hosts);
+    .flatMap((talker: InputObject) => talker.hosts)
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   const results: CheckPortResult[] = await Promise.all(
     allHosts.map(async ({ name, hostname, port }) => {
-      if (!hostname || typeof hostname !== 'string') {
-        return { name, hostname: hostname || 'unknown', port, isConnectable: false, error: 'Invalid or missing hostname' };
-      }
-
-      if (!isValidPort(port)) {
-        return { hostname, port, isConnectable: false, error: 'Invalid or missing port' };
-      }
-
       try {
-        let ip: string;
-
-        if (isIPv4(hostname)) {
-          ip = hostname;
-        }
-        else {
-          const addresses = await dns.resolve4(hostname);
-          ip = addresses[0];
+        if (!hostname || typeof hostname !== 'string') {
+          return { name, hostname: hostname || 'unknown', port, isConnectable: false, error: 'Invalid or missing hostname' };
         }
 
-        if (!ip) {
-          return { name, hostname, port, isConnectable: false, error: 'No IP address resolved' };
+        if (!isValidPort(port)) {
+          return { hostname, port, isConnectable: false, error: 'Invalid or missing port' };
         }
 
         return new Promise<CheckPortResult>((resolve) => {
@@ -80,20 +62,20 @@ export async function GET() {
 
           socket.on('connect', () => {
             socket.destroy();
-            resolve({ name, hostname, ip, port, isConnectable: true });
+            resolve({ name, hostname, port, isConnectable: true });
           });
 
           socket.on('timeout', () => {
             socket.destroy();
-            resolve({ name, hostname, ip, port, isConnectable: false, error: 'Connection timed out' });
+            resolve({ name, hostname, port, isConnectable: false, error: 'Connection timed out' });
           });
 
           socket.on('error', (err) => {
             socket.destroy();
-            resolve({ name, hostname, ip, port, isConnectable: false, error: err.message });
+            resolve({ name, hostname, port, isConnectable: false, error: err.message });
           });
 
-          socket.connect(port, ip);
+          socket.connect(port, hostname);
         });
       } catch (err) {
         return { name, hostname, port, isConnectable: false, error: `Failed: ${err.message}` };
