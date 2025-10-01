@@ -1,6 +1,9 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
   import { browser } from '$app/environment';
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+  injectSpeedInsights();
 
   if (browser) {
     document.body.dataset.hasJs = "true";
