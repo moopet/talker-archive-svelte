@@ -2,7 +2,8 @@ import { json } from '@sveltejs/kit';
 import net from 'net';
 import { talkers } from '$lib/data/talkers.json';
 
-const SOCKET_TIMEOUT = 10000; // ms.
+// Vercel timeout is 10 seconds.
+const SOCKET_TIMEOUT = 6000; // ms.
 
 interface Host {
   hostname: string;
@@ -21,18 +22,49 @@ interface CheckPortResult {
   error?: string;
 }
 
+const isValidIPv4 = (address: string): boolean => {
+  const ipv4Regex = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+  return ipv4Regex.test(address);
+}
+
 const isValidPort = (port: number): boolean => {
   return Number.isInteger(port) && port >= 1 && port <= 65535;
 };
 
-export async function GET() {
-  if (!Array.isArray(talkers)) {
-    return json({ error: 'Invalid talkers.json: must be a non-empty array of objects with hosts array' }, { status: 500 });
-  }
+const isKnownDefunctHost = (hostname: string): boolean => {
+  const patterns: RegExp[] = [
+    /\.ac\.uk$/,
+    /amber\.org\.uk$/,
+    /atlantis\.org$/,
+    /custard\.org$/,
+    /\.edu$/,
+    /\.edu\.au$/,
+    /ewtoo\.org$/,
+    /homeip\.net/,
+    /ilserv\.com$/,
+    /infomagic\.com$/,
+    /mopemansions\.org/,
+    /mytalker\.org$/,
+    /no-ip\.org/,
+    /offswn\.net$/,
+    /spod\.org$/,
+    /talker\.com$/,
+    /talkernet\.net$/,
+    /talkerhost\.com$/,
+    /talkers\.org$/,
+    /talkers\.ws$/,
+    /temple2k\.org/,
+    /themanor\.org$/,
+    /tirsek\.com$/,
+    /yuss\.org$/,
+  ];
 
-  const allHosts = talkers
+  return patterns.some(pattern => pattern.test(hostname));
+};
+
+const getAllPotentialHosts = (letter: string): Host[] => {
+  return talkers
     .filter(talker => talker?.hosts?.length > 0)
-    // .slice(0, 30)
     .map(talker => ({
       ...talker,
       hosts: talker.hosts.map(host => ({
@@ -42,19 +74,24 @@ export async function GET() {
       }))
     }))
     .flatMap((talker: InputObject) => talker.hosts)
+    .filter(host => !host?.blocked)
+    .filter(host => host?.hostname && host?.port)
+    .filter(host => host.name.toLowerCase().startsWith(letter))
+    .filter(host => !isValidIPv4(host.hostname))
+    .filter(host => !isKnownDefunctHost(host.hostname))
     .sort((a, b) => a.name.localeCompare(b.name));
+};
+
+export async function GET({url}) {
+  const letter = (url.searchParams.get('letter') ?? 'a').slice(0, 1).toLowerCase();
+  const potentialHosts = getAllPotentialHosts(letter);
+
+ // console.log(potentialHosts);
+  console.log({letter, talkers: talkers.length, hosts: potentialHosts.length});
 
   const results: CheckPortResult[] = await Promise.all(
-    allHosts.map(async ({ name, hostname, port }) => {
+    potentialHosts.map(async ({ name, hostname, port }) => {
       try {
-        if (!hostname || typeof hostname !== 'string') {
-          return { name, hostname: hostname || 'unknown', port, isConnectable: false, error: 'Invalid or missing hostname' };
-        }
-
-        if (!isValidPort(port)) {
-          return { hostname, port, isConnectable: false, error: 'Invalid or missing port' };
-        }
-
         return new Promise<CheckPortResult>((resolve) => {
           const socket = new net.Socket();
 
@@ -62,22 +99,26 @@ export async function GET() {
 
           socket.on('connect', () => {
             socket.destroy();
+            console.log({status: "up", name, hostname, port});
             resolve({ name, hostname, port, isConnectable: true });
           });
 
           socket.on('timeout', () => {
             socket.destroy();
+            //console.log({status: "down", name, hostname, port});
             resolve({ name, hostname, port, isConnectable: false, error: 'Connection timed out' });
           });
 
           socket.on('error', (err) => {
             socket.destroy();
+            //console.log({status: "down", name, hostname, port});
             resolve({ name, hostname, port, isConnectable: false, error: err.message });
           });
 
           socket.connect(port, hostname);
         });
       } catch (err) {
+        //console.log({status: "down", name, hostname, port});
         return { name, hostname, port, isConnectable: false, error: `Failed: ${err.message}` };
       }
     })

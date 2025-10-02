@@ -3,29 +3,14 @@
   import { onMount } from 'svelte';
   import { talkers } from '$lib/data/talkers.json';
 
-  const allHosts = talkers
-    .filter(talker => talker?.hosts?.length > 0)
-    // .slice(0, 30)
-    .map(talker => ({
-      ...talker,
-      hosts: talker.hosts.map(host => ({
-        ...host,
-        name: talker.name
-      }))
-    }))
-    .flatMap((talker: InputObject) => talker.hosts)
-    .sort((a, b) => a.name.localeCompare(b.name));
-
   let results = [];
   let loading = false;
+  let currentLetterIndex = 0;
   let error = '';
 
-  async function checkPorts() {
-    loading = true;
-    error = '';
-
+  async function checkPort(letter: string) {
     try {
-      const response = await fetch('/api/check-ports', {
+      const response = await fetch(`/api/check-ports?letter=${letter}`, {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
       });
@@ -34,11 +19,27 @@
         throw new Error(`HTTP error: ${response.status}`);
       }
 
-      results = await response.json();
-      results = results.filter(result => result.isConnectable);
+      let resultsForLetter = await response.json();
+      resultsForLetter = resultsForLetter.filter(result => result.isConnectable);
+
+      results = [...results, ...resultsForLetter];
     } catch (err) {
       error = `Error: ${err.message}`;
     }
+
+    currentLetterIndex++;
+  }
+
+  async function checkPorts() {
+    const alphabet: string[] = 'abcdefghijklmnopqrstuvwxyz'.split('');
+
+    loading = true;
+    currentLetterIndex = 0;
+
+    for (const letter of alphabet) {
+      await checkPort(letter);
+    }
+
     loading = false;
   }
 
@@ -67,7 +68,11 @@
   {/if}
 
   {#if loading}
-    <p>please wait up to 30 seconds&hellip;</p>
+      <label for="connectivity">Checking for open talkers:</label>
+      <p>please wait up to 30 seconds&hellip;</p>
+      <progress id="connectivity" value={currentLetterIndex} max="26">
+        {(currentLetterIndex * 100 / 26).toFixed(1)}%
+      </progress>
   {/if}
 
   {#if results.length > 0}
@@ -104,7 +109,7 @@
 
   button {
     padding: 10px 20px;
-    margin: 10px 0;
+    margin: 10px auto;
     background-color: #0070f3;
     color: white;
     border: none;
@@ -115,5 +120,14 @@
   button:disabled {
     background-color: #cccccc;
     cursor: not-allowed;
+  }
+
+  label {
+    display: block;
+  }
+
+  progress {
+    display: block;
+    margin: 1rem auto;
   }
 </style>
