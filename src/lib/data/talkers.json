@@ -208,6 +208,13 @@
       "name": "SM"
     },
     {
+      "shortName": "talkeros",
+      "name": "TalkerOS",
+      "family": "nuts",
+      "language": "C",
+      "platform": "*nix"
+    },
+    {
       "shortName": "tdg",
       "name": "TDG"
     },
@@ -774,6 +781,7 @@
     },
     {
       "name": "Crazylands",
+      "description": "CrazyLands is a cozy, secure talker with a friendly environment. Sure, sure...other talkers claim that they are the best, but we all know the truth. If you want to have fun being silly and talking to lots of interesting people all over the world, CrazyLands is the place to be.<br>Don't worry if you don't know what you're doing, our dedicated staff listen to suggestions and are always willing to help out. So what are you waiting for? Step inside and join the CrazyLands family.",
       "dataOrigin": "spodlist",
       "screencaps": [
         "crazylands.org_6969.png"
@@ -2862,6 +2870,7 @@
     {
       "name": "Valdemar",
       "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
+      "review": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
       "dataOrigin": "galaxy",
       "ewtooAbbr": "Val",
       "screencaps": [
@@ -2872,6 +2881,10 @@
         {
           "type": "email",
           "url": "admin@valdemar.org"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030401235402/http://www.valdemar.org/"
         },
         {
           "type": "website",
@@ -5135,11 +5148,16 @@
     },
     {
       "name": "Philadelphia",
-      "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.",
+      "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.<br>Welcome To Philly The Talker! This talker is running TalkerOs which was written by William. Based on Nuts 3.3.3 which was written by Neil Robertson. Our original code was modified by Whizkid. We welcome users over 18 years of age who have an interest in chatting with others from all over the globe.",
       "dataOrigin": "talker.com",
+      "codebase": "talkeros",
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990222110413/http://www.talker.com/philadelphia/"
+        },
         {
           "type": "email",
           "url": "philly@talker.com"
@@ -6688,7 +6706,7 @@
     },
     {
       "name": "On Stage",
-      "description": "An all age place to chat, open 24/7",
+      "description": "You float down slowly, onto a hardwood stage...the curtains are drawn, and it is pitch black, you can hear the antisipation of everyone on stage. The crowd grows silent, as the curtains are thrust open with emensity, the lights flicker on, putting you in the spot light... you start what you rehearsed and converse with the other people on stage..<br>An all age place to chat, open 24/7",
       "dataOrigin": "galaxy",
       "screencaps": [],
       "textcaps": [],
