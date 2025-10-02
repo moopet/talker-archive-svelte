@@ -105,7 +105,7 @@
     <h1>{name}</h1>
 
     <p class="description">
-      {description ?? "There doesn't seem to be any description here..."}
+      {@html description ?? "There doesn't seem to be any description here..."}
     </p>
   </div>
 </section>
@@ -148,6 +148,12 @@ section {
   justify-content: space-between;
   max-width: 100%;
   text-align: start;
+
+  :global {
+    br {
+      margin-block-end: 0.5rem;
+    }
+  }
 }
 
 .hero {

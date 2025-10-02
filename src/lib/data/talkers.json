@@ -781,6 +781,10 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20031203191027/http://crazylands.org/index.html"
+        },
+        {
           "type": "website",
           "url": "http://crazylands.org"
         },
@@ -2467,17 +2471,27 @@
     },
     {
       "name": "Dominia",
-      "description": "Dominia: The Multiverse of Existence",
+      "description": "Dominia: The Multiverse of Existence.<br>Dominia is a talker where you can meet other people, talk, go to various rooms, execute commands, write messages on the boards, mail other people, and a wide variety of other things.<br>Theme wise, in the Magic: The Gathering universe, Dominia is the name for \"the multiverse of existence\", a group of \"planes\", or seperate universes, all linked together. Powerful spellcrafters called Planeswalkers have the ablity to transcend these planes at will.",
       "dataOrigin": "galaxy",
+      "codebase": "amnuts",
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020928120248/http://www.spellcrafter.net/"
+        },
         {
           "type": "website",
           "url": "http://www.spellcrafter.net/"
         }
       ],
-      "hosts": []
+      "hosts": [
+        {
+          "hostname": "spellcrafter.net",
+          "port": 1418
+        }
+      ]
     },
     {
       "name": "Shell Matrix",
