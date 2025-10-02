@@ -2383,8 +2383,12 @@
     },
     {
       "name": "Cuban Bar",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "cubanbar.hochstenbach.net_1234.png"
+      ],
+      "textcaps": [
+        "cubanbar.hochstenbach.net_1234.txt"
+      ],
       "resources": [
         {
           "type": "website",
@@ -2715,10 +2719,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "chatmud.com",
           "port": 7443
         },
         {
+          "blocked": true,
           "hostname": "chatmud.com",
           "port": 7777
         }
@@ -3404,6 +3410,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "yerevan.acp.da.ru",
           "port": 7777
         }
