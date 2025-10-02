@@ -6726,6 +6726,10 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20070930191251/http://www.foreverbeyond.org/"
+        },
+        {
           "type": "website",
           "url": "http://www.foreverbeyond.org/"
         }
