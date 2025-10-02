@@ -42,6 +42,13 @@
     },
     {
       "type": "Website",
+      "description": "Talker list",
+      "icon": "Article",
+      "name": "Galaxy/einet :: Talkers",
+      "url": "https://www.einet.net/dir68120/Talkers.htm"
+    },
+    {
+      "type": "Website",
       "icon": "Article",
       "name": "MUDStats",
       "url": "http://mudstats.com/"
@@ -113,16 +120,23 @@
       "name": "Facebook group chats"
     },
     {
+      "shortName": "galaxy",
+      "name": "Galaxy/einet :: Talkers",
+      "link": "https://www.einet.net/dir68120/Talkers.htm"
+    },
+    {
       "shortName": "user",
       "name": "unverified user submission"
     },
     {
       "shortName": "ewtoo",
-      "name": "Silver's talker charts on ewtoo.org"
+      "name": "Silver's talker charts on ewtoo.org",
+      "link": "http://list.ewtoo.org"
     },
     {
       "shortName": "spodlist",
-      "name": "the talker listing on spodlist.org"
+      "name": "the talker listing on spodlist.org",
+      "link": "http://spodlist.org"
     },
     {
       "shortName": "tdf",
@@ -136,6 +150,11 @@
     {
       "shortName": "razor",
       "name": "The Razor's Edge Talker List"
+    },
+    {
+      "shortName": "talkers.ws",
+      "name": "talkers.ws",
+      "link": "http://talkers.ws"
     }
   ],
   "codebases": [
@@ -147,19 +166,24 @@
       "shortName": "arien",
       "name": "ArIEN",
       "family": "nuts",
+      "language": "C",
       "platform": "*nix"
     },
     {
       "shortName": "amnuts",
       "repo": "https://github.com/talkersource/amnuts",
-      "name": "Andy's modified NUTS",
+      "name": "AmNUTS",
+      "description": "Andy's modified NUTS",
       "family": "nuts",
+      "language": "C",
       "platform": "*nix"
     },
     {
       "shortName": "mamnuts",
       "name": "MAmNUTS",
+      "repo": "https://github.com/talkersource/mamnuts",
       "family": "nuts",
+      "language": "C",
       "platform": "*nix"
     },
     {
@@ -170,7 +194,9 @@
     {
       "shortName": "nuts",
       "name": "NUTS",
+      "description": "Neil's Unix Talk Server",
       "family": "nuts",
+      "language": "C",
       "platform": "*nix"
     },
     {
@@ -190,26 +216,30 @@
       "repo": "https://github.com/talkersource/rnuts",
       "name": "rNUTS",
       "family": "nuts",
+      "language": "C",
       "platform": "*nix"
     },
     {
       "shortName": "talkernode",
       "repo": "https://github.com/talkersource/TalkerNode",
       "name": "TalkerNode",
-      "language": "node",
+      "language": "JavaScript",
       "platform": "Any"
     },
     {
       "shortName": "bolts",
       "repo": "https://github.com/talkersource/bolts",
       "name": "BOLTS",
+      "language": "C",
       "family": "nuts",
       "platform": "*nix"
     },
     {
       "shortName": "ncohafmuta",
       "repo": "http://ncohafmuta.net/index.shtml",
+      "family": "nuts",
       "name": "Ncohafmuta",
+      "language": "C",
       "platform": "*nix"
     },
     {
@@ -239,18 +269,21 @@
       "shortName": "summink",
       "name": "Summink",
       "family": "ewtoo",
+      "language": "C",
       "platform": "*nix"
     },
     {
       "shortName": "sensipg",
       "name": "Sensi-Playground",
       "family": "ewtoo",
+      "language": "C",
       "platform": "*nix"
     },
     {
       "shortName": "sensisummink",
       "name": "Sensi-Summink",
       "family": "ewtoo",
+      "language": "C",
       "platform": "*nix"
     },
     {
@@ -297,7 +330,7 @@
       "resources": [
         {
           "type": "website",
-          "url": "http://mopemansions.org.uk"
+          "url": "http://mopemansions.org"
         }
       ],
       "hosts": [
@@ -382,6 +415,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "acad.stewards.edu",
           "port": 4040
         }
@@ -395,6 +429,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "wilderness.homeip.net",
           "port": 4000
         }
@@ -452,10 +487,12 @@
           "port": 9390
         },
         {
+          "blocked": true,
           "hostname": "bandicoot.merseine.nu",
           "port": 9390
         },
         {
+          "blocked": true,
           "hostname": "brigandine.black-ops.net",
           "port": 9390
         }
@@ -473,6 +510,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "island.talkernet.net",
           "port": 8100
         },
@@ -510,7 +548,9 @@
       "screencaps": [
         "burbs.org_4567.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "burbs.org_4567.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -527,6 +567,7 @@
           "port": 4567
         },
         {
+          "blocked": true,
           "hostname": "toybox.infomagic.com",
           "port": 4567
         }
@@ -564,6 +605,7 @@
           "port": 8888
         },
         {
+          "blocked": true,
           "hostname": "tangent.dune.net",
           "port": 3333
         },
@@ -572,10 +614,12 @@
           "port": 3333
         },
         {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 3000
         },
         {
+          "blocked": true,
           "hostname": "talkernet.net",
           "port": 3500
         }
@@ -625,10 +669,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "caves.tf",
           "port": 5000
         },
         {
+          "blocked": true,
           "hostname": "caves.uk.net",
           "port": 5000
         }
@@ -664,6 +710,7 @@
           "port": 2323
         },
         {
+          "blocked": true,
           "hostname": "presidium.org",
           "port": 2222
         }
@@ -709,14 +756,17 @@
           "port": 6969
         },
         {
+          "blocked": true,
           "hostname": "cn.talkers.org",
           "port": 4040
         },
         {
+          "blocked": true,
           "hostname": "cotn.tetsuo.cx",
           "port": 6969
         },
         {
+          "blocked": true,
           "hostname": "62.49.231.25",
           "port": 6969
         }
@@ -730,6 +780,10 @@
       ],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://crazylands.org"
+        },
         {
           "type": "website",
           "url": "http://crazy.skl.com/"
@@ -817,6 +871,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ddngr.org.uk",
           "port": 4001
         }
@@ -837,6 +892,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "doughnuts.co.uk",
           "port": 4000
         }
@@ -866,6 +922,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dune.net",
           "port": 4560
         }
@@ -992,6 +1049,7 @@
           "port": 8000
         },
         {
+          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 8000
         }
@@ -1029,11 +1087,12 @@
       "textcaps": [],
       "hosts": [
         {
-          "hostname": "squeak.fitz.cam.ac.uk",
+          "hostname": "snowplains.org",
           "port": 3456
         },
         {
-          "hostname": "snowplains.org",
+          "blocked": true,
+          "hostname": "squeak.fitz.cam.ac.uk",
           "port": 3456
         }
       ]
@@ -1270,27 +1329,34 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "foothills.tk",
           "port": 2010
         },
         {
+          "blocked": true,
           "hostname": "toybox.infomagic.com",
           "port": 2010
         },
         {
+          "blocked": true,
           "hostname": "boris.infomagic.com",
           "port": 2010
         },
         {
+          "blocked": true,
           "hostname": "loligo.cc.fsu.edu"
         },
         {
+          "blocked": true,
           "hostname": "backus.mtsu.edu"
         },
         {
+          "blocked": true,
           "hostname": "vulture.dcs.king.ac.uk"
         },
         {
+          "blocked": true,
           "hostname": "marble.bu.edu"
         }
       ]
@@ -1338,6 +1404,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ice.offswn.net",
           "port": 4444
         }
@@ -1476,6 +1543,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ncc.spod.org",
           "port": 1701
         }
@@ -1530,6 +1598,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "realm.progsoc.uts.edu.au",
           "port": 3000
         }
@@ -1579,10 +1648,10 @@
           "port": 2010
         },
         {
-          "hostname": "altantis.sk"
+          "hostname": "atlantis.sk"
         },
         {
-          "hostname": "altantis.talker.sk"
+          "hostname": "atlantis.talker.sk"
         }
       ]
     },
@@ -1612,6 +1681,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "spod.org",
           "port": 2010
         }
@@ -1697,6 +1767,10 @@
         {
           "type": "email",
           "url": "paradox@talker.com"
+        },
+        {
+          "type": "website",
+          "url": "http://www.talker.com/paradox"
         },
         {
           "type": "website",
@@ -1827,10 +1901,12 @@
           "port": 2323
         },
         {
+          "blocked": true,
           "hostname": "evans.cudenver.edu",
           "port": 2323
         },
         {
+          "blocked": true,
           "hostname": "evans.denver.colorado.edu",
           "port": 2323
         }
@@ -1885,10 +1961,12 @@
           "port": 4242
         },
         {
+          "blocked": true,
           "hostname": "surfers.spods.co.uk",
           "port": 4242
         },
         {
+          "blocked": true,
           "hostname": "muscle.rai.kcl.ac.uk"
         }
       ]
@@ -2122,6 +2200,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "temple2k.org",
           "port": 2222
         }
@@ -2376,6 +2455,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "cognitio.no-ip.org",
           "port": 9999
         },
@@ -2384,6 +2464,20 @@
           "port": 8888
         }
       ]
+    },
+    {
+      "name": "Dominia",
+      "description": "Dominia: The Multiverse of Existence",
+      "dataOrigin": "galaxy",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.spellcrafter.net/"
+        }
+      ],
+      "hosts": []
     },
     {
       "name": "Shell Matrix",
@@ -2400,10 +2494,21 @@
     },
     {
       "name": "The Dating Game",
+      "description": "100% more cheese than other talkers ...",
+      "daataOrigin": "galaxy",
       "codebase": "tdg",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://the-dating-game.net"
+        },
+        {
+          "type": "website",
+          "url": "http://www.talker.com/tdg"
+        }
+      ],
       "hosts": [
         {
           "hostname": "the-dating-game.net",
@@ -2569,6 +2674,10 @@
         {
           "hostname": "chatmud.com",
           "port": 7443
+        },
+        {
+          "hostname": "chatmud.com",
+          "port": 7777
         }
       ]
     },
@@ -2611,6 +2720,7 @@
     },
     {
       "name": "The Dominion",
+      "review": "The Dominion was run from from 28/09/1996 to 06/01/2004 by MushyPea.",
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
@@ -2629,12 +2739,16 @@
     },
     {
       "name": "The Gathering",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "gathering.org.uk_5000.png"
+      ],
+      "textcaps": [
+        "gathering.org.uk_5000.txt"
+      ],
       "resources": [
         {
           "type": "website",
-          "url": "http://gathering.org.uk"
+          "url": "https://www.gathering.org.uk"
         },
         {
           "type": "email",
@@ -2725,10 +2839,7 @@
           "port": 7777
         },
         {
-          "hostname": "unreal.snowplains.org",
-          "port": 7777
-        },
-        {
+          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 7777
         }
@@ -2736,6 +2847,8 @@
     },
     {
       "name": "Valdemar",
+      "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
+      "dataOrigin": "galaxy",
       "ewtooAbbr": "Val",
       "screencaps": [
         "valdemar.org_2345.png"
@@ -2757,6 +2870,7 @@
           "port": 2345
         },
         {
+          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 2345
         }
@@ -2874,9 +2988,15 @@
     },
     {
       "name": "Castle of Desire",
+      "description": "A companion talker to the Desire MUD.",
+      "dataOrigin": "galaxy",
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "https://www.angelfire.com/stars2/shimmer4/Castle.html"
+        },
         {
           "type": "email",
           "url": "talker4748@yahoo.com"
@@ -2884,10 +3004,16 @@
       ],
       "hosts": [
         {
+          "hostname": "russville.com",
+          "port": 7900
+        },
+        {
+          "blocker": true,
           "hostname": "dune.net",
           "port": 4748
         },
         {
+          "blocker": true,
           "hostname": "abyss.bcl.net",
           "port": 7000
         }
@@ -2968,6 +3094,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "benland.muc.edu",
           "port": 4567
         }
@@ -2987,6 +3114,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tzone.homeip.net",
           "port": 5000
         }
@@ -3017,6 +3145,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ab.spod.org",
           "port": 6000
         }
@@ -3266,6 +3395,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "emc2.caltech.edu",
           "port": 9390
         }
@@ -3417,6 +3547,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "globegate.utm.edu",
           "port": 9624
         }
@@ -3543,6 +3674,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dream.custarg.org",
           "port": 2222
         }
@@ -3643,6 +3775,7 @@
           "port": 2121
         },
         {
+          "blocked": true,
           "hostname": "future.kdcol.com",
           "port": 5000
         }
@@ -3656,6 +3789,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "polypc47.chem.rug.nl",
           "port": 5000
         }
@@ -3669,6 +3803,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "globegate.utm.edu",
           "port": 8000
         }
@@ -3762,10 +3897,16 @@
     },
     {
       "name": "Labyrinth",
-      "dataorigin": "talkers.ws",
+      "dataOrigin": "talkers.ws",
+      "description": "Themed upon the classic movie Labyrinth starring David Bowie and Jennifer Connelly. Set in a fantasy world, with goblins and fairies. Welcome to the world of Labyrinth where nothing is as it seems and things are further than you think.",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.lintilla.df.lth.se/~amano/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "allitnil.df.lth.se",
@@ -5757,6 +5898,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ice.offswn.net",
           "port": 4444
         }
@@ -5833,10 +5975,17 @@
     },
     {
       "name": "The Funk",
-      "dataOrigin": "doughnuts",
+      "dataOrigin": "galaxy",
+      "codebase": "amnuts",
+      "description": "100% more cheese than other talkers ...",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.the-funk.net/talker/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "the-funk.net",
@@ -5958,6 +6107,10 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://www.talkers.org"
+        },
+        {
+          "type": "website",
           "url": "http://www.helix.net/~cirrus"
         }
       ],
@@ -6007,6 +6160,7 @@
           "port": 9900
         },
         {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 9900
         }
@@ -6112,10 +6266,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "spod.org",
           "port": 4040
         },
         {
+          "blocked": true,
           "hostname": "jaffa.custard.org",
           "port": 4040
         }
@@ -6351,6 +6507,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "temple2k.org",
           "port": 7777
         }
@@ -6415,6 +6572,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "benland.muc.edu",
           "port": 5555
         },
@@ -6515,12 +6673,31 @@
       ]
     },
     {
-      "name": "The Forever Beyond",
-      "description": "tdf",
-      "dataOrigin": "tdf",
+      "name": "On Stage",
+      "description": "An all age place to chat, open 24/7",
+      "dataOrigin": "galaxy",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.angelfire.com/musicals/zacfaucher/"
+        }
+      ],
+      "hosts": []
+    },
+    {
+      "name": "The Forever Beyond",
+      "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.",
+      "dataOrigin": "galaxy",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.foreverbeyond.org/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "foreverbeyond.org",
@@ -6639,6 +6816,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talkerspt.no-ip.org",
           "port": 10000
         }
@@ -6725,7 +6903,9 @@
       "name": "Winter's Edge",
       "dataOrigin": "tdf",
       "resources": [],
-      "screencaps": [],
+      "screencaps": [
+        "winter.mushpark.com_3000.png"
+      ],
       "textcaps": [],
       "hosts": [
         {

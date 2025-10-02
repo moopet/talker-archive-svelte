@@ -36,7 +36,7 @@
     return `Information presented here was - at least in part - sourced from ${link}.`;
   };
 
-  const { name, hosts = [], screencaps = [], textcaps = [], description, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
+  const { name, hosts = [], screencaps = [], textcaps = [], description, review, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
@@ -111,6 +111,12 @@
 </section>
 
 <section class="information">
+  {#if review}
+    <p class="review">
+      {@html review}
+    </p>
+  {/if}
+
   {#if codebaseDescription}
     <p>
       {codebaseDescription}
@@ -118,12 +124,12 @@
   {/if}
 
   {#if citation}
-    <p>
+    <p class="data-origin">
       {@html citation}
     </p>
   {/if}
 
-  <p>
+  <p class="disclaimer">
     It's <em>highly</em> likely that most of the links presented here haven't worked for years.
   </p>
 </section>
@@ -155,6 +161,16 @@ section {
 
   p {
     margin-block-end: 0;
+  }
+
+  .review {
+    padding-block-end: 1rem;
+    border-inline-start-width: 0;
+    border-inline-end-width: 0;
+    border-block-start-width: 0;
+    border-block-end-width: 1px;
+    border-style: solid;
+    border-color: var(--border-color);
   }
 }
 
