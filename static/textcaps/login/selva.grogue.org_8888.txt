@@ -1,0 +1,33 @@
+    ____       _             __     ___      _               _ 
+   / ___|  ___| |_   ____ _  \ \   / (_)_ __| |_ _   _  __ _| |
+   \___ \ / _ \ \ \ / / _` |  \ \ / /| | '__| __| | | |/ _` | |
+    ___) |  __/ |\ V / (_| |   \ V / | | |  | |_| |_| | (_| | |
+   |____/ \___|_| \_/ \__,_|    \_/  |_|_|   \__|\__,_|\__,_|_|
+                                                               
+[ O primeiro e ainda existente Mundo Virtual Português...        ]
+
+ ================================================================
+|                                                                |
+|              Formas de chegar 'a Selva Virtual:                |
+|                                                                |
+|  Web: https://selva.grogue.org/                                |
+|                                                                |
+|  Telnet: telnet selva.grogue.org 8888                          |
+|          telnet portugal-virtual.org 6969                      |
+|                                                                |
+|  SSL: telnet -z ssl selva.grogue.org 7777                      |
+|       telnet -z ssl portugal-virtual.org 6069                  |
+|       openssl s_client -host selva.grogue.org -port 7777       |
+|       openssl s_client -host portugal-virtual.org -port 6069   |
+|       gnutls-cli --insecure selva.grogue.org:7777              |
+|       gnutls-cli --insecure portugal-virtual.org:6069          |
+|                                                                |
+|  Telegram: http://t.me/SelvaVirtual_bot                        |
+|                                                                |
+ ================================================================
+
+��[0mGive me a name: [0m[0m
+[0m
+*** Abandoning login attempt ***[0m
+[0m
+[0m

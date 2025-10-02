@@ -215,10 +215,6 @@
       "platform": "*nix"
     },
     {
-      "shortName": "tdg",
-      "name": "TDG"
-    },
-    {
       "shortName": "rnuts",
       "repo": "https://github.com/talkersource/rnuts",
       "name": "rNUTS",
@@ -2405,8 +2401,12 @@
     {
       "name": "Bicol Channel",
       "codebase": "amnuts",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "bc.kelotz.net_2018.png"
+      ],
+      "textcaps": [
+        "bc.kelotz.net_2018.txt"
+      ],
       "resources": [
         {
           "type": "website",
@@ -2423,8 +2423,12 @@
     {
       "name": "Night Runners",
       "codebase": "amnuts",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "nr.kelotz.net_2474.png"
+      ],
+      "textcaps": [
+        "nr.kelotz.net_2474.txt"
+      ],
       "resources": [],
       "hosts": [
         {
@@ -2436,8 +2440,12 @@
     {
       "name": "Retro Bar",
       "codebase": "retrobar",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "rb.kelotz.net_1981.png"
+      ],
+      "textcaps": [
+        "rb.kelotz.net_1981.txt"
+      ],
       "resources": [],
       "hosts": [
         {
@@ -2449,8 +2457,12 @@
     {
       "name": "Down Under",
       "codebase": "amnuts",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "du.kelotz.net_2003.png"
+      ],
+      "textcaps": [
+        "du.kelotz.net_2003.txt"
+      ],
       "resources": [],
       "hosts": [
         {
@@ -2461,9 +2473,14 @@
     },
     {
       "name": "Selva Virtual",
+      "description": "O primeiro e ainda existente Mundo Virtual Português...",
       "codebase": "mamnuts",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "selva.grogue.org_8888.png"
+      ],
+      "textcaps": [
+        "selva.grogue.org_8888.txt"
+      ],
       "resources": [],
       "hosts": [
         {
@@ -2519,8 +2536,12 @@
       "description": "100% more cheese than other talkers ...",
       "daataOrigin": "galaxy",
       "codebase": "tdg",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "the-dating-game_5959.png"
+      ],
+      "textcaps": [
+        "the-dating-game_5959.txt"
+      ],
       "resources": [
         {
           "type": "website",
@@ -5435,8 +5456,12 @@
       "codebase": "mamnuts",
       "description": "",
       "dataOrigin": "talker.com",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "typotown.net_6666.png"
+      ],
+      "textcaps": [
+        "typotown.net_6666.txt"
+      ],
       "resources": [
         {
           "type": "email",
