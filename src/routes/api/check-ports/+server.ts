@@ -76,18 +76,15 @@ const getAllPotentialHosts = (letter: string): Host[] => {
     .flatMap((talker: InputObject) => talker.hosts)
     .filter(host => !host?.blocked)
     .filter(host => host?.hostname && host?.port)
-    .filter(host => host.name.toLowerCase().startsWith(letter))
+    .filter(host => host.name.toLowerCase().replace(/^the /, '').startsWith(letter))
     .filter(host => !isValidIPv4(host.hostname))
     .filter(host => !isKnownDefunctHost(host.hostname))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));
 };
 
 export async function GET({url}) {
   const letter = (url.searchParams.get('letter') ?? 'a').slice(0, 1).toLowerCase();
   const potentialHosts = getAllPotentialHosts(letter);
-
- // console.log(potentialHosts);
-  console.log({letter, talkers: talkers.length, hosts: potentialHosts.length});
 
   const results: CheckPortResult[] = await Promise.all(
     potentialHosts.map(async ({ name, hostname, port }) => {
