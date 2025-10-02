@@ -96,26 +96,22 @@ export async function GET({url}) {
 
           socket.on('connect', () => {
             socket.destroy();
-            console.log({status: "up", name, hostname, port});
             resolve({ name, hostname, port, isConnectable: true });
           });
 
           socket.on('timeout', () => {
             socket.destroy();
-            //console.log({status: "down", name, hostname, port});
             resolve({ name, hostname, port, isConnectable: false, error: 'Connection timed out' });
           });
 
           socket.on('error', (err) => {
             socket.destroy();
-            //console.log({status: "down", name, hostname, port});
             resolve({ name, hostname, port, isConnectable: false, error: err.message });
           });
 
           socket.connect(port, hostname);
         });
       } catch (err) {
-        //console.log({status: "down", name, hostname, port});
         return { name, hostname, port, isConnectable: false, error: `Failed: ${err.message}` };
       }
     })
