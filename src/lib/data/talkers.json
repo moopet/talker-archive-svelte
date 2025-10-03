@@ -312,10 +312,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ateam.darksilence.net",
           "port": 1972
         },
         {
+          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 1972
         }
@@ -338,6 +340,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "angst.mopemansions.org",
           "port": 2003
         }
@@ -348,6 +351,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "sun1.gwent.ac.uk",
           "port": 6666
         }
@@ -393,14 +397,17 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "atlantis.org",
           "port": 5050
         },
         {
+          "blocked": true,
           "hostname": "mopemansions.org",
           "port": 5050
         },
         {
+          "blocked": true,
           "hostname": "yuss.org",
           "port": 5050
         }
@@ -524,6 +531,7 @@
           "port": 8100
         },
         {
+          "blocked": true,
           "hostname": "forgottenisland.net",
           "port": 8100
         }
@@ -965,6 +973,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dune.net",
           "port": 3003
         }
@@ -995,6 +1004,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 3000
         }
@@ -1025,6 +1035,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 5000
         }
@@ -1046,6 +1057,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "elementalworld.net",
           "port": 5555
         }
@@ -1063,6 +1075,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "elite.snowplains.org",
           "port": 8000
         },
@@ -1141,14 +1154,17 @@
           "port": 7779
         },
         {
+          "blocked": true,
           "hostname": "revival.talkerhome.com",
           "port": 7779
         },
         {
+          "blocked": true,
           "hostname": "revival.pgplus.org",
           "port": 8000
         },
         {
+          "blocked": true,
           "hostname": "talker.pgplus.org",
           "port": 8000
         }
@@ -1303,6 +1319,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "wibble.merlin.net",
           "port": 2010
         }
@@ -1439,6 +1456,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talkers.skl.com",
           "port": 8000
         },
@@ -1639,10 +1657,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "redclaw.org.uk",
           "port": 7777
         },
         {
+          "blocked": true,
           "hostname": "puzlebox.dynip.com",
           "port": 7777
         }
@@ -1778,6 +1798,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dune.net",
           "port": 3333
         }
@@ -2018,10 +2039,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "scarlet-citadel.co.uk",
           "port": 2000
         },
         {
+          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 2000
         }
@@ -2151,6 +2174,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "kama.dyndns.dk",
           "port": 6969
         }
@@ -2165,6 +2189,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "enigma.dune.net",
           "port": 5454
         }
@@ -2179,6 +2204,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 4242
         }
@@ -2193,6 +2219,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "nethosting.net",
           "port": 6462
         }
@@ -2338,6 +2365,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ubervillage.org",
           "port": 3131
         },
@@ -2641,14 +2669,17 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dune.net",
           "port": 4405
         },
         {
+          "blocked": true,
           "hostname": "alg.dune.net",
           "port": 4405
         },
         {
+          "blocked": true,
           "hostname": "talker.net",
           "port": 4405
         }
@@ -2815,6 +2846,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dominion.net.uk",
           "port": 2468
         }
@@ -2876,6 +2908,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "cats.meow.at",
           "port": 3000
         }
@@ -2918,6 +2951,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "unreal.snowplains.org",
           "port": 7777
         },
@@ -3094,16 +3128,17 @@
       ],
       "hosts": [
         {
+	  "blocked": true,
           "hostname": "russville.com",
           "port": 7900
         },
         {
-          "blocker": true,
+          "blocked": true,
           "hostname": "dune.net",
           "port": 4748
         },
         {
-          "blocker": true,
+          "blocked": true,
           "hostname": "abyss.bcl.net",
           "port": 7000
         }
@@ -3146,6 +3181,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "illusions.dune.net",
           "port": 1234
         }
@@ -3163,6 +3199,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tangent.dune.net",
           "port": 7070
         }
@@ -3274,6 +3311,7 @@
       "resources": [],
       "hosts": [
         {
+	  "blocked": true,
           "hostname": "valinor.rivendel.com",
           "port": 4000
         }
@@ -3287,6 +3325,7 @@
       "resources": [],
       "hosts": [
         {
+	  "blocked": true,
           "hostname": "thereeses.net",
           "port": 4040
         }
@@ -3385,6 +3424,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tamarisk.ab.ca",
           "port": 1414
         }
@@ -3422,6 +3462,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "hambleton.net",
           "port": 1111
         }
@@ -3435,6 +3476,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "subnigra.com",
           "port": 8888
         }
@@ -3615,6 +3657,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "darkfantastic.net",
           "port": 3333
         }
@@ -3628,6 +3671,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talkersworld.com",
           "port": 3669
         }
@@ -3686,6 +3730,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dm.trica.com",
           "port": 8888
         }
@@ -3699,6 +3744,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "host213-1-81-219.btinternet.com",
           "port": 5555
         }
@@ -3712,10 +3758,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dragonsbane.skl.com",
           "port": 6677
         },
         {
+          "blocked": true,
           "hostname": "dragon.yavapai.cc.az.us",
           "port": 6677
         }
@@ -3742,6 +3790,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "gobbyland.co.uk",
           "port": 5000
         }
@@ -3755,6 +3804,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "rivendel.com",
           "port": 7777
         }
@@ -3787,6 +3837,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dreamscape.bernstein.com",
           "port": 4040
         }
@@ -3800,6 +3851,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talkers.skl.com",
           "port": 5000
         }
@@ -3839,6 +3891,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "whispers.org",
           "port": 9000
         }
@@ -3852,6 +3905,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "freehold.signwave.com",
           "port": 1313
         }
@@ -3911,6 +3965,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "rhun.satanic.net",
           "port": 4242
         }
@@ -3937,6 +3992,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "hooters.frequencyshift.com",
           "port": 6969
         },
@@ -3954,6 +4010,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "evros.cc.ece.ntua.gr",
           "port": 5050
         }
@@ -3984,6 +4041,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "aldus.northnet.org",
           "port": 3400
         }
@@ -4003,6 +4061,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "allitnil.df.lth.se",
           "port": 6100
         }
@@ -4042,6 +4101,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "limbo.dune.net",
           "port": 3333
         }
@@ -4055,10 +4115,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "madhouse.signwave.com",
           "port": 5000
         },
         {
+          "blocked": true,
           "hostname": "madhouse.dune.net",
           "port": 5550
         }
@@ -4072,6 +4134,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "innismir.sweet.com",
           "port": 4242
         }
@@ -4283,6 +4346,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "hysteria.sk",
           "port": 7000
         }
@@ -4499,10 +4563,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "animal.megalinx.net",
           "port": 3456
         },
         {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 3456
         }
@@ -5977,6 +6043,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ztalker.netpower.no",
           "port": 3278
         }
@@ -6060,6 +6127,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ztalker.netpower.no",
           "port": 3280
         }
@@ -6099,6 +6167,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "the-funk.net",
           "port": 7000
         }
@@ -6112,6 +6181,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ramtits.ca",
           "port": 6980
         }
@@ -6297,6 +6367,7 @@
           "port": 6543
         },
         {
+          "blocked": true,
           "hostname": "dotuk.org.uk",
           "port": 2131
         }
@@ -6350,6 +6421,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "yerevan.daemon.sh",
           "port": 6900
         }
@@ -6400,6 +6472,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "mog.disintegration.org",
           "port": 7777
         }
@@ -6427,6 +6500,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "neonumbra.lycanthrope.org",
           "port": 4561
         }
@@ -6440,6 +6514,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "forest.subnigra.com",
           "port": 9696
         }
@@ -6507,6 +6582,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "yerevan.acp.da.ru",
           "port": 3456
         }
@@ -6548,6 +6624,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tangent.dune.net",
           "port": 3333
         }
@@ -6561,6 +6638,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "my-harmonix.com",
           "port": 2224
         }
@@ -6574,6 +6652,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 1701
         }
@@ -6587,6 +6666,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "downtown.notnet.co.uk",
           "port": 5051
         }
@@ -6600,6 +6680,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "thebishop.ne.mediaone.net",
           "port": 7777
         }
@@ -6640,6 +6721,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 2442
         }
@@ -6667,6 +6749,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "trekkers-rest.org.uk",
           "port": 3000
         }
@@ -6710,6 +6793,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "binhost.com",
           "port": 9990
         }
@@ -6828,6 +6912,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "foreverbeyond.org",
           "port": 7000
         }
@@ -6853,6 +6938,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "leisure.omnifarious.org",
           "port": 3000
         }
@@ -6866,6 +6952,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "mush.ennersea.net",
           "port": 4201
         }
@@ -6892,6 +6979,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "sycotic-asylum.com",
           "port": 3300
         }
@@ -6918,6 +7006,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talker.ironrose.org",
           "port": 3000
         }
@@ -6931,6 +7020,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talker.ironrose.org",
           "port": 7000
         }
@@ -6972,6 +7062,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tangent.dune.net",
           "port": 2001
         }
@@ -7053,6 +7144,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "hotel.dune.net",
           "port": 6969
         }
