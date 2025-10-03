@@ -34,18 +34,19 @@
     padding: 0.25rem 1rem;
     margin-block-end: 1rem;
     width: 100%;
-    color: white;
 
     &.loading {
       visibility: hidden;
     }
   }
 
-  .active {
-    background-color: rgba(0, 255, 0, 0.5);
+  .defunct {
+    background-color: var(--status-defunct-background-color);
+    color: var(--status-defunct-color);
   }
 
-  .defunct {
-    background-color: rgba(255, 0, 0, 0.5);
+  .active {
+    background-color: var(--status-active-background-color);
+    color: var(--status-active-color);
   }
 </style>

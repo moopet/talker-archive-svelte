@@ -30,6 +30,10 @@
   --border-color: rgba(0, 0, 0, 0.1);
   --color-inactive: rgba(0, 0, 0, 0.3);
   --input-background-color: rgba(0, 0, 0, 0.1);
+  --status-defunct-background-color: rgba(255, 0, 0, 0.7);
+  --status-defunct-color: #222;
+  --status-active-background-color: rgba(0, 255, 0, 0.7);
+  --status-active-color: #222;
 }
 
 /* This used to use @media (prefers-color-scheme: dark) */
@@ -49,6 +53,10 @@ body.dark-mode {
   --border-color: rgba(255, 255, 255, 0.1);
   --color-inactive: rgba(255, 255, 255, 0.3);
   --input-background-color: rgba(255, 255, 255, 0.05);
+  --status-defunct-background-color: rgba(255, 0, 0, 0.5);
+  --status-defunct-color: var(--color-off-white);
+  --status-active-background-color: rgba(0, 255, 0, 0.5);
+  --status-active-color: var(--color-off-white);
 }
 
 * {
