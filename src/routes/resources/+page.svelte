@@ -20,8 +20,6 @@
     'Hosting',
     'Website'
   ];
-
-console.log(otherResourceTypes);
 </script>
 
 <section>

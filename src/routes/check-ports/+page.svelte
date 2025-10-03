@@ -8,7 +8,7 @@
   let loading = false;
   let error = false;
 
-  async function checkPorts() {
+  async function highlightActiveTalkers() {
     loading = true;
 
     try {
@@ -21,7 +21,7 @@
   }
 
   onMount(() => {
-    checkPorts();
+   highlightActiveTalkers();
   });
 </script>
 

@@ -20,3 +20,15 @@
 
     return activeTalkers.talkers.some(activeTalker => activeTalker.name === talker.name);
   }
+
+  export async function getTalkerStatus(talker: Talker): Promise<string> {
+    if (talker.hosts.length === 0) {
+      return 'unknown';
+    }
+
+    if (talker.hosts.every(host => host?.blocked)) {
+      return 'defunct';
+    }
+
+    return await isTalkerActive(talker) ? 'active' : 'unknown';
+  }

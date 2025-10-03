@@ -4,6 +4,7 @@
   import type { Codebase, DataOrigin, Talker } from '$lib/types';
   import { codebases, dataOrigins, talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
+  import TalkerStatus from '$lib/components/TalkerStatus.svelte';
 
   const slug: string = slugify(page.params?.slug ?? "", {lower: true});
   const talker: Talker = talkers.find(talker => {
@@ -101,6 +102,8 @@
   const citation = getCitation(talker?.dataOrigin ?? '');
   const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
 </script>
+
+<TalkerStatus talker={talker} />
 
 <section class="hero">
   <img src={heroImage} alt="" />
