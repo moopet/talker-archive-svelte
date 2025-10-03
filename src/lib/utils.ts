@@ -15,3 +15,8 @@
     return await response.json();
   }
 
+  export async function isTalkerActive(talker: Talker): Promise<boolean> {
+    const activeTalkers = await getActiveTalkers();
+
+    return activeTalkers.talkers.some(activeTalker => activeTalker.name === talker.name);
+  }

@@ -1,15 +1,27 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import type { TalkerCardProps } from '$lib/types';
   import slugify from 'slugify';
+  import { isTalkerActive } from '$lib/utils.ts';
 
   let { talker }: TalkerCardProps = $props();
 
   const href = `/details/${slugify(talker.name, {lower: true})}`;
   const defaultImage = '/placeholder.png';
   const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/login/${talker.screencaps[0]}` : defaultImage;
+
+  let isActive = $state(false);
+
+  async function checkActive() {
+    isActive = await isTalkerActive(talker);
+  }
+
+  onMount(() => {
+    checkActive();
+  });
 </script>
 
-<a {href}>
+<a {href} class={isActive ? 'active' : ''}>
   <img {src} alt="" />
   <span>{talker.name}</span>
 </a>
@@ -25,6 +37,11 @@ a {
   text-decoration: none;
   justify-content: space-between;
   overflow: hidden;
+
+  &.active {
+    border-color: green;
+    border-width: 2px;
+  }
 }
 
 span {
