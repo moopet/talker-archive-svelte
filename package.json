@@ -11,7 +11,9 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"static": "http-server static -p 2525 --cors",
+		"cron": "ts-node cron.ts"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
@@ -22,8 +24,10 @@
 		"eslint": "^9.18.0",
 		"eslint-plugin-svelte": "^2.46.1",
 		"globals": "^15.14.0",
+		"http-server": "^14.1.1",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
+		"ts-node": "^10.9.2",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
 		"vite": "^6.0.0"

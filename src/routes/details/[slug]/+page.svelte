@@ -6,7 +6,10 @@
   import ResourceList from '$lib/components/ResourceList.svelte';
 
   const slug: string = slugify(page.params?.slug ?? "", {lower: true});
-  const talker: Talker = talkers.find(talker => slugify(talker.name, {lower: true}) === slug);
+  const talker: Talker = talkers.find(talker => {
+    const talkerSlug = slugify(talker.name, {lower: true});
+    return [talkerSlug, talkerSlug.replace(/^the-/, '')].includes(slug);
+  });
 
   const getCodebaseDescription = (codebaseName: string): string => {
     const codebase: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebaseName.toLowerCase());
