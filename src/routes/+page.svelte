@@ -12,12 +12,7 @@
     talkers
       .filter(talker => (talker?.screencaps?.length ?? 0) !== 0 || showEmptyEntries)
       .filter(talker => talker.name.toLowerCase().includes(searchTerm.toLowerCase().trim()))
-      .sort((a, b) => {
-        const slugA: string = slugify(a.name).replace(/^(a|the)-/, '');
-        const slugB: string = slugify(b.name).replace(/^(a|the)-/, '');
-
-        return slugA.localeCompare(slugB);
-      })
+      .sort((a, b) => a.name.replace(/^the /i, '').replace("'", '').localeCompare(b.name.replace(/^the /i, '').replace("'", '')))
   );
 </script>
 
