@@ -72,7 +72,7 @@ const isKnownDefunctHost = (hostname: string): boolean => {
   return patterns.some(pattern => pattern.test(hostname));
 };
 
-const getAllPotentialHosts = (letter: string): Host[] => {
+const getAllPotentialHosts = (): Host[] => {
   return talkersData.talkers
     .filter(talker => talker?.hosts?.length > 0)
     .map(talker => ({

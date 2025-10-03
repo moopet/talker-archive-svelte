@@ -448,6 +448,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "bagend.tzo.org",
           "port": 2060
         }
@@ -518,6 +519,7 @@
           "port": 8100
         },
         {
+          "blocked": true,
           "hostname": "island.tdf.ca",
           "port": 8100
         },
@@ -539,6 +541,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "blamecanada.bering.gl",
           "port": 1977
         }
@@ -600,10 +603,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "camelot.megalinx.net",
           "port": 4242
         },
         {
+          "blocked": true,
           "hostname": "camelot.subnigra.com",
           "port": 8888
         },
@@ -613,6 +618,7 @@
           "port": 3333
         },
         {
+          "blocked": true,
           "hostname": "vampire.dune.net",
           "port": 3333
         },
@@ -649,6 +655,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "castle2k.org.uk",
           "port": 5050
         }
@@ -729,6 +736,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "cheekynet.com.au",
           "port": 4242
         }
@@ -799,6 +807,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "crazy.skl.com",
           "port": 6969
         },
@@ -864,6 +873,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "cut.pre.org",
           "port": 4040
         }
@@ -1260,6 +1270,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "vineyard.igc.net",
           "port": 4242
         }
@@ -1471,6 +1482,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "magic.kicks-ass.org",
           "port": 4000
         }
@@ -1523,14 +1535,17 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "mytalker.org",
           "port": 2222
         },
         {
+          "blocked": true,
           "hostname": "amnesiahouse.org",
           "port": 2222
         },
         {
+          "blocked": true,
           "hostname": "ah.talkers.org",
           "port": 2222
         }
@@ -1572,10 +1587,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "cats.megalinx.net",
           "port": 4444
         },
         {
+          "blocked": true,
           "hostname": "phoenix.lsds.com",
           "port": 9876
         }
@@ -1652,13 +1669,16 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "sass.jg.ee",
           "port": 2010
         },
         {
+          "blocked": true,
           "hostname": "atlantis.sk"
         },
         {
+          "blocked": true,
           "hostname": "atlantis.talker.sk"
         }
       ]
@@ -1673,6 +1693,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "sirius.zepa.net",
           "port": 8500
         }
@@ -1711,6 +1732,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "fgate.flevel.co.uk",
           "port": 3003
         },
@@ -1816,6 +1838,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talker.rekka.net",
           "port": 4242
         }
@@ -1852,6 +1875,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "shadows.megalinx.net",
           "port": 1509
         },
@@ -1860,6 +1884,7 @@
           "port": 8688
         },
         {
+          "blocked": true,
           "hostname": "talon.wolfpaw.net",
           "port": 2323
         }
@@ -1875,6 +1900,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 8888
         }
@@ -2022,10 +2048,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "vivid.net",
           "port": 7979
         },
         {
+          "blocked": true,
           "hostname": "world.vivid.net",
           "port": 7979
         },
@@ -2062,6 +2090,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "darkfantastic.net",
           "port": 2323
         }
@@ -2089,6 +2118,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "pgtoo.org",
           "port": 2060
         }
@@ -2690,6 +2720,7 @@
           "port": 8342
         },
         {
+          "blocked": true,
           "hostname": "reliant.lasermoon.co.uk",
           "port": 8342
         }
@@ -2750,6 +2781,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tower.vivid.net",
           "port": 8008
         },
@@ -2758,10 +2790,12 @@
           "port": 2011
         },
         {
+          "blocked": true,
           "hostname": "underworld.demon.co.uk",
           "port": 2010
         },
         {
+          "blocked": true,
           "hostname": "dismayl.demon.co.uk",
           "port": 2010
         }
@@ -2977,6 +3011,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "whispers.org",
           "port": 4000
         }
@@ -2991,6 +3026,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "www.nsgso.co.uk",
           "port": 1929
         }
@@ -3186,6 +3222,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "zeta.aquilae.org",
           "port": 3456
         }
@@ -3305,6 +3342,7 @@
           "port": 4242
         },
         {
+          "blocked": true,
           "hostname": "premis.lod.com",
           "port": 4242
         }
@@ -3437,6 +3475,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ncohafmuta.com",
           "port": 1978
         }
@@ -4046,6 +4085,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "midnight.zipcon.com",
           "port": 7979
         }
@@ -4077,10 +4117,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "pug.7thlevel.com",
           "port": 2010
         },
         {
+          "blocked": true,
           "hostname": "mpft.dhs.org",
           "port": 2010
         }
@@ -5976,6 +6018,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 6669
         }
@@ -5989,6 +6032,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 6969
         }
@@ -6002,6 +6046,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "rira.dune.net",
           "port": 2087
         }
@@ -6028,10 +6073,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 2121
         },
         {
+          "blocked": true,
           "hostname": "darkages.darkfantastic.net",
           "port": 2121
         }
@@ -6091,6 +6138,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 1955
         }
@@ -6104,6 +6152,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "yuss.net",
           "port": 5000
         }
@@ -6145,6 +6194,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "btech-online.net",
           "port": 5555
         }
@@ -6313,6 +6363,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 8888
         },
@@ -6362,6 +6413,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "magic.kicks-ass.org",
           "port": 4000
         }
@@ -6427,6 +6479,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "helios.spang.org.uk",
           "port": 4000
         }
@@ -6440,6 +6493,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "pern.dhs.org",
           "port": 1234
         }
@@ -6466,6 +6520,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "stimpy.2y.net",
           "port": 3000
         }
@@ -6598,6 +6653,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "thevalley.eporcupine.co.uk",
           "port": 1234
         }
@@ -6667,6 +6723,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "barentouhk.com",
           "port": 3050
         }
@@ -6680,6 +6737,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "bondagebay.dune.net",
           "port": 6006
         }
@@ -6705,6 +6763,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "derrecklowe.name",
           "port": 1337
         }
@@ -6718,6 +6777,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "energy.talker.ee",
           "port": 5555
         }
@@ -6898,6 +6958,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tdf.ca",
           "port": 7000
         }
@@ -6948,6 +7009,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "starship.megalinx.net",
           "port": 4567
         }
@@ -6962,6 +7024,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "genesis.skl.com",
           "port": 6969
         }
