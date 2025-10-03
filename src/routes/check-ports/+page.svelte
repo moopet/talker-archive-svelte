@@ -65,7 +65,7 @@
       <tbody>
         {#each results.talkers as talker}
           <tr>
-            <td><a href={`/details/${slugify(result.name, { lower: true}).replace(/^the /,'')}`}>{result.name}</a></td>
+            <td><a href={`/details/${slugify(talker.name, { lower: true}).replace(/^the-/,'')}`}>{talker.name}</a></td>
             <td>
               <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
             </td>
