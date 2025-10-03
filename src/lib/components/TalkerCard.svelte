@@ -40,7 +40,11 @@ a {
 
   &.active {
     border-color: green;
-    border-width: 2px;
+
+    span {
+      background-color: green;
+      color: white;
+    }
   }
 }
 
@@ -49,7 +53,6 @@ span {
   padding-inline-end: 1rem;
   padding-block-start: 1rem;
   padding-block-end: 1rem;
-  max-width: 16rem;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
