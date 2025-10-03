@@ -15,3 +15,11 @@ It's now a SvelteKit project, again partially so I can learn Svelte and partiall
 ## Data source
 
 The data which drives everything lives in src/lib/data/talkers.json, and there are also some original vintage text captures under static/textcaps/.
+
+## "Real-time" connection status
+
+This is driven from a remote service, because Vercel hobby instances aren't good enough. So I made a simple cron task that could generate a JSON file instead.
+
+On a spare machine with no restrictions (a raspberry pi is fine) set up a cron job for `bun run cron` however often you like. Serve the JSON with, e.g. `node http-server static -p1234 --cors` and put the full URL into the STATUS_JSON_URL environment variable.
+
+Without this, nothing bad will happen, but the connection stats won't appear.
