@@ -2,31 +2,19 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import slugify from 'slugify';
+  import { getActiveTalkers } from '$lib/utils.ts';
 
   let results = [];
   let loading = false;
-  let error = '';
+  let error = false;
 
   async function checkPorts() {
     loading = true;
 
     try {
-      const now = new Date();
-      // Cache lasts 10 minutes.
-      const cacheBust = `${now.getDate()}-${now.getHours()}-${Math.floor(now.getMinutes() / 10)}`;
-
-      const response = await fetch(`/api/check-ports?cb=${cacheBust}`, {
-        method: 'GET',
-        headers: { 'Content-Type': 'application/json' },
-      });
-
-      if (!response.ok) {
-        throw new Error(`HTTP error: ${response.status}`);
-      }
-
-      results = await response.json();
+      results = await getActiveTalkers();
     } catch (err) {
-      error = `Error: ${err.message}`;
+      error = true;
     }
 
     loading = false;
@@ -45,7 +33,9 @@
   </p>
 
   {#if error}
-    <p class="error">{error}</p>
+    <p class="error">There was an error fetching the data.</p>
+    <p>Sorry, it looks like the connectivity checker service is offline at the moment.</p>
+    <p>Come back and try again later or pester the maintainer, if you can find them.</p>
   {/if}
 
   {#if results.dateChecked}
@@ -69,7 +59,6 @@
             <td>
               <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
             </td>
-            <td>UP</td>
           </tr>
         {/each}
       </tbody>
