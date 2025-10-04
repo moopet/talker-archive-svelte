@@ -49,6 +49,13 @@
     },
     {
       "type": "Website",
+      "description": "Talker list",
+      "icon": "Article",
+      "name": "The Great Big List of Talkers and Talk-Oriented Muds",
+      "url": "http://proffa.cc.tut.fi/~k113973/talkers/"
+    },
+    {
+      "type": "Website",
       "icon": "Article",
       "name": "MUDStats",
       "url": "http://mudstats.com/"
@@ -119,6 +126,13 @@
       "icon": "Article",
       "name": "What is a 'spod'?",
       "url": "http://www.catb.org/~esr/jargon/html/S/spod.html"
+    },
+    {
+      "type": "Article",
+      "description": "Newsgroup",
+      "icon": "Article",
+      "name": "alt.talkers FAQ",
+      "url": "https://groups.google.com/g/alt.talkers.ewtoo/c/dHOULty2bGM?pli=1"
     }
   ],
   "dataOrigins": [
@@ -130,6 +144,11 @@
       "shortName": "galaxy",
       "name": "Galaxy/einet :: Talkers",
       "link": "https://www.einet.net/dir68120/Talkers.htm"
+    },
+    {
+      "shortName": "greatbiglist",
+      "name": "The Great Big List of Talkers and Talk-Oriented Muds",
+      "link": "http://proffa.cc.tut.fi/~k113973/talkers/"
     },
     {
       "shortName": "user",
@@ -165,6 +184,10 @@
     }
   ],
   "codebases": [
+    {
+      "shortName": "joot",
+      "name": "JOOT"
+    },
     {
       "shortName": "http",
       "name": "HTTP Chat"
@@ -213,6 +236,13 @@
     {
       "shortName": "sm",
       "name": "SM"
+    },
+    {
+      "shortName": "tombstone",
+      "name": "Tombstone",
+      "family": "ewtoo",
+      "language": "C",
+      "platform": "*nix"
     },
     {
       "shortName": "talkeros",
@@ -685,15 +715,20 @@
     },
     {
       "name": "Caves",
+      "description": "Caves is a 3 year old talker based loosely on the neanderthal/dinosaur eras.<br>It is now out of its infancy, and is growing in size every day.<br>It is certainly small and friendly, and always welcomes any new users into its family like atmosphere.",
       "ewtooAbbr": "Caves",
       "dataOrigin": "spodlist",
-      "codebase": "ewtoo",
+      "codebase": "tombstone",
       "screencaps": [
         "caves.uk.net_5000.png",
         "caves.tf_5000.png"
       ],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://www.caves.tf"
+        },
         {
           "type": "website",
           "url": "http://www.caves.uk.net"
@@ -2885,6 +2920,7 @@
     },
     {
       "name": "The Gathering",
+      "description": "The Gathering is a fun and exciting place where you can meet people from all around the world. But then aren't all talkers like that? What makes The Gathering so special is that there are no SuperUsers or whatever telling you want you can or cannot do. _YOU_ the users are the ones that do that.<br> Every user gets to decide if they don't want to hear someone, or if they should be allowed in the group with a unique democratic voting system. So come and try it today - you _KNOW_ you want to.",
       "screencaps": [
         "gathering.org.uk_5000.png"
       ],
@@ -2904,6 +2940,10 @@
       "hosts": [
         {
           "hostname": "gathering.org.uk",
+          "port": 5000
+        },
+        {
+          "hostname": "tg.spods.dcs.kcl.ac.uk",
           "port": 5000
         }
       ]
@@ -3346,7 +3386,7 @@
       "resources": [],
       "hosts": [
         {
-	  "blocked": true,
+	        "blocked": true,
           "hostname": "valinor.rivendel.com",
           "port": 4000
         }
@@ -3360,7 +3400,7 @@
       "resources": [],
       "hosts": [
         {
-	  "blocked": true,
+	        "blocked": true,
           "hostname": "thereeses.net",
           "port": 4040
         }
@@ -6920,6 +6960,25 @@
       ]
     },
     {
+      "name": "The Land of Mu",
+      "description": "This is the Majestic land of Mu. A place for people of any race, religion, age, gender or sexual preference *grin* to gather and converse with one another. The Land of Mu is a thematic talker. Our theme is that of Magic and Mystery.",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://home.dmv.com/~keener/mumu.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "mumu.oanet.com",
+          "port": 4321
+        }
+      ]
+    },
+    {
       "name": "On Stage",
       "description": "You float down slowly, onto a hardwood stage...the curtains are drawn, and it is pitch black, you can hear the antisipation of everyone on stage. The crowd grows silent, as the curtains are thrust open with emensity, the lights flicker on, putting you in the spot light... you start what you rehearsed and converse with the other people on stage..<br>An all age place to chat, open 24/7",
       "dataOrigin": "galaxy",
@@ -6935,8 +6994,8 @@
     },
     {
       "name": "The Forever Beyond",
-      "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.",
-      "dataOrigin": "galaxy",
+      "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.<br>We are a talker for all ages, with color. We have the Starship Enterprise section and a plethora of interesting users from all over. The server is running only this talker, so the lag is at a minimum. Come on over for a good time, because this is new! Up since Jan 1997 and it has only a 5 to 10 user load at night, CST. Come on by! ",
+      "dataOrigin": "greatbiglist",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6946,10 +7005,19 @@
         },
         {
           "type": "website",
+          "url": "https://web.archive.org/web/19970805053512/http://paul.luther.edu/~prallena/tfb.html"
+        },
+        {
+          "type": "website",
           "url": "http://www.foreverbeyond.org/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "scott.luther.edu",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "foreverbeyond.org",
@@ -7117,11 +7185,22 @@
     },
     {
       "name": "Lighthouse",
-      "dataOrigin": "facebook",
-      "resources": [],
+      "description": "The LightHouse is a great fun place to hang out. With a fantastic web interface and an offline who, you can always see when your friends are on. There are lotsa people there to chat with. They are fun, intelligent and always there for you to lean on and get cheered up! Drop by, you won't regret it! Also the program their running JATS rocks! Offers lotsa commands and stuff for everyone!!",
+      "dataOrigin": "greatbiglist",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.lehigh.edu/~rjw4/LH/"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
-      "hosts": []
+      "hosts": [
+        {
+          "hostname": "pl122d.eecs.lehigh.edu",
+          "port": 6969
+        }
+      ]
     },
     {
       "name": "Sleepy's Men's Corner",
@@ -7186,6 +7265,96 @@
           "blocked": true,
           "hostname": "hotel.dune.net",
           "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Hectic House",
+      "review": "The first NUTS talker, from 1992.",
+      "codebase": "nuts",
+      "dataOrigin": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ogham.demon.co.uk/nuts.html"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": []
+    },
+    {
+      "name": "Barenaked On Ice",
+      "description": "We are simply put, the most fun place online. We only have one rule: respect others. We don't care if you swear, make raunchy jokes, sit on people, etc. All we ask is that you don't attack others. Aside from all that, we are a unique talker because we chose the band, Barenaked Ladies as our theme (if that isn't serious fandom, I don't know what is!) and there are a lot of goofy rooms and commands, including .kraft, which has you tossing boxes of Kraft Dinner at each other :) Besides, if you come on, you get to see why they voted me \"User Most Likely To Go To School Naked!\" Can't beat that, eh?",
+      "dataOrigin": "greatbiglist",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/Hollywood/Set/9587/boi.html"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "snafu.net.au",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "Pod's Inn",
+      "dataOrigin": "greatbiglist",
+      "description": "Pod's Inn is a JOOT based talker that welcome users of all ages. We are striving to have a good talker that will welcome new users, and make them feel at home! We would appreciate your stopping by, and giving us a try. And tell them Footsie personaly invited you! I am there quite often. I'd be glad to see you! Thanks :)",
+      "codebase": "joot",
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "linux.syspac.com",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Isle",
+      "dataOrigin": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.angelfire.com/ga/dragonisle/index.html"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "shell.acmenet.net",
+          "port": 7050
+        }
+      ]
+    },
+    {
+      "name": "The Rainbow Room",
+      "description": "The Rainbow Room is the friendliest cyber community online. The Rainbow room is a small talker which seems to attract dynamic people who enjoy intelligent conversation and many laughs. This is a family talker that is open to all ages for people of the lesbian/bisexual/gay/transgendered communities and their friends.<br>This talker encourages users to participate strongly by contributing rooms, room descriptions, and other assorted files. The Rainbow Room is constantly changing with the users and the seasons.<br>On this talker users are also encouraged to take advantage of the standing offer to make tailor made special occasion rooms, perfect for net.weddings. One last thing, Bottom, our bot, we like him, hope you do too!",
+      "dataOrigin": "greatbiglist",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://lintilla.df.lth.se/~swantis/"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 6040
         }
       ]
     },
