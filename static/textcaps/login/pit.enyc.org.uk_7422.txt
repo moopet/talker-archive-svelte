@@ -1,0 +1,27 @@
+---------------------------------------------------
+  m.......mMMMMMMMMMMMMMMMMMm.......m
+  MMMm........MMm.....mMm........mMMM
+  MMMMMMm.....................mMMMMMM   T   B
+  MMMMMMMMm..................mMMMMMMM   h   o
+  MMMMMMMm.....................mMMMMM   e   t
+  Mm...............................mM       t
+  ......mMMM...88o...o88...MMMm......       o
+  mmMMMMM......888o.o888......MMMMMmm       m
+  MMMMMM.......8888.8888.......MMMMMM       l
+  MMMM....M....8888.8888....M....MMMM       e
+  MM...mMMMm...888...888...mMMMm...MM       s
+  M..MMMMMMMMM...........MMMMMMMMM..M       s   P
+  MmMMMMMMMMMM...........MMMMMMMMMMmM           i
+  MMMMMMMMMMMM...........MMMMMMMMMMMM           t
+  MMMMMMMMMMMM....MMMM...MMMMMMMMMMMM
+  MMMMMMMMMMMMM...MMM...MMMMMMMMMMMMM
+                           ASCII Art (c)2008, spot
+
+  HC Admin:  Ginny, Trinity
+    Coders:  DarkGoddess, enyc, Ghostrider
+     Admin:  starry
+
+---------------------------------------------------
+
+Please enter a name: : 
+
