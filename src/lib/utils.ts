@@ -3,7 +3,7 @@
     // Cache lasts 10 minutes.
     const cacheBust = `${now.getDate()}-${now.getHours()}-${Math.floor(now.getMinutes() / 10)}`;
 
-    const response = await fetch(`/api/check-ports?cb=${cacheBust}`, {
+    const response = await fetch(`/api/active-talkers?cb=${cacheBust}`, {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' },
     });

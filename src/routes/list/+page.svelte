@@ -1,4 +1,3 @@
-<!-- src/routes/check-ports/+page.svelte -->
 <script lang="ts">
   import { onMount } from 'svelte';
   import slugify from 'slugify';
