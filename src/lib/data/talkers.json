@@ -303,6 +303,13 @@
       "platform": "Windows"
     },
     {
+      "shortName": "vints",
+      "family": "NUTS",
+      "name": "VINTS",
+      "platform": "*nix",
+      "language": "C"
+    },
+    {
       "shortName": "custom",
       "name": "Custom"
     }
@@ -7179,6 +7186,27 @@
           "blocked": true,
           "hostname": "hotel.dune.net",
           "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Weave's World",
+      "review": "Weave's World ran from 1996 to 2001, hosted on a 486.<br>Read more on <a href=\"http://deater.net/weave/cool/talker.html\">Vince Weaver's homepage</a>.",
+      "codebase": "vints",
+      "dataOrigin": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://deater.net/weave/index.html"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "deranged.student.umd.edu",
+          "port": 7000
         }
       ]
     }
