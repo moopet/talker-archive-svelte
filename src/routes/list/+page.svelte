@@ -47,7 +47,6 @@
         <tr>
           <th>Talker name</th>
           <th>Address</th>
-          <th>Status</th>
         </tr>
       </thead>
 

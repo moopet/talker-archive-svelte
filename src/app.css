@@ -166,4 +166,6 @@ td.error {
   opacity: 0.5;
 }
 
-
+tr:nth-child(even) {
+  background-color: var(--card-background-color);
+}
