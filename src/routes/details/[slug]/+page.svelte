@@ -151,6 +151,7 @@
 <style>
 section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 100%;
   text-align: start;
@@ -159,6 +160,18 @@ section {
     br {
       margin-block-end: 0.5rem;
     }
+  }
+}
+
+@media(max-width: 640px) {
+  section img {
+    max-width: 100%;
+  }
+}
+
+@media(min-width: 1024px) {
+  section {
+    flex-direction: row;
   }
 }
 
