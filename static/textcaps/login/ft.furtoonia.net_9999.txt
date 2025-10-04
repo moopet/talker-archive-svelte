@@ -1,0 +1,20 @@
+Welcome to:
+
+           #####                ######
+         #######              ########                 (Running fb5.68)
+        ##                      ##
+       ######  ##  ##  #####   ##   ####    ####   ##  ##  ######   ####
+      ######  ##  ##  ##  ##  ##  ##  ##  ##  ##  ### ##    ##    ##  ##
+     ##      ##  ##  #####   ##  ##  ##  ##  ##  ######    ##    ######
+    ##      ##  ##  ##  ##  ##  ##  ##  ##  ##  ## ###    ##    ##  ##
+   ##       ####   ##  ##  ##   ####    ####   ##  ##  ######  ##  ##
+
+                             ft.furtoonia.net 9999
+
+To connect to your existing character, enter "connect name password"
+To visit as a guest, enter "connect guest guest"
+To receive a new character, send email to ftadmin@furtoonia.net
+
+Use the WHO command to find out who is currently active.
+You can disconnect using the QUIT command, which must be capitalized as shown.
+

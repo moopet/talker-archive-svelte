@@ -1,0 +1,19 @@
++-------------------------------------------------------------------------+
+ [====]            66  66  d6666   6666b   666666  d66666           [====]
+  ||||            66  66  66  66  66  66  66      66                 ||||
+  ||||           666666  666666  66  66  66666   d6666b              ||||
+  ||||   .      66  66  66  66  66  66  66          66     .     .   ||||
+  ||||   W. . .66 .66. 66  66  6666P . 666666  66666P  .   W     W   ||||
+  ||||  WW. W W   W    .  .W.     .  W     W   W  .    W   W    .W   ||||
+  ||||  W.WW.W W  W.W   W  W.W  .  W W.W   W.W W.W W   W.W W.W. .WW  ||||
+ [====] WWWW.W..W..W.W.W...W.WW.W.W.W.W.W.W.W.W..W.W.W.W.W.W.W.WW.W [====]
++-----------------------=[ hades-talker.org 6660 ]=-----------------------+
+ Please enter your chosen user name at the prompt below.
+
+ To see who is online before logging in, issue the 'who' command at the
+ prompt in place of a user name.  You may also try 'version', and if you
+ wish to leave, 'quit'.
++-------------------------------------------------------------------------+
+
+Enter your user name: 
+

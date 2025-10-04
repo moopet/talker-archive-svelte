@@ -832,7 +832,9 @@
       "screencaps": [
         "culturalwasteland.tv_4000.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "culturalwasteland.tv_4000.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -1887,7 +1889,9 @@
       "screencaps": [
         "ds.enyc.org.uk_8688.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "ds.enyc.org.uk_8688.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -2324,7 +2328,9 @@
       "screencaps": [
         "euts.org_2000.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "euts.org_2000.txt"
+      ],
       "resources": [
         {
           "type": "website",
@@ -2623,8 +2629,12 @@
     },
     {
       "name": "Hades",
-      "screencaps": [],
-      "textcaps": [],
+      "screencaps": [
+        "hades-talker.org_6660.png"
+      ],
+      "textcaps": [
+        "hades-talker.org_6660.txt"
+      ],
       "resources": [
         {
           "type": "website",
@@ -2644,6 +2654,7 @@
       "screencaps": [
         "dune.net_4405.png"
       ],
+      "adult": true,
       "textcaps": [],
       "resources": [
         {
@@ -2687,8 +2698,13 @@
     },
     {
       "name": "Hot Mess",
-      "screencaps": [],
-      "textcaps": [],
+      "adult": true,
+      "screencaps": [
+        "hot-mess.net_9900.png"
+      ],
+      "textcaps": [
+        "hot-mess.net_9900.png"
+      ],
       "resources": [
         {
           "type": "website",
@@ -2742,7 +2758,8 @@
         }
       ],
       "screencaps": [
-        "thechattingzone.uk_8342.png"
+        "thechattingzone.uk_8342.png",
+        "thechattingzone.uk_8342_2.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -3072,7 +3089,9 @@
       "screencaps": [
         "ft.furtoonia.net_9999.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "ft.furtoonia.net_9999.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -3096,7 +3115,9 @@
       "screencaps": [
         "zmc-place.enyc.org.uk_8682.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "zmc-place.enyc.org.uk_8682.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -4889,6 +4910,7 @@
     {
       "name": "Harem",
       "description": "Harem is a talker for adults 18 and over. Harem is a mature atmosphere, dedicated to alternitive life-styles, role-play and interacting with others.",
+      "adult": true,
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
@@ -5427,6 +5449,7 @@
     {
       "name": "Utopia",
       "description": "Utopia is a talker for adults that started in 1995. We only permit users over 18 and strive to maintain a warm, friendly and mostly mature atmosphere, while still having fun. Utopia is set in an imaginary town where you will find a growing yet still close-knit community of wonderful people.",
+      "adult": true,
       "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
       "screencaps": [],
@@ -6234,7 +6257,9 @@
       "screencaps": [
         "republic.snowplains.org_4001.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "republic.snowplains.org_4001.txt"
+      ],
       "resources": [],
       "hosts": [
         {
