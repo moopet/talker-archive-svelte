@@ -112,6 +112,13 @@
       "icon": "Article",
       "name": "Talkers - Elusive Internet Chat Rooms",
       "url": "https://h2g2.com/edited_entry/A1010106"
+    },
+    {
+      "type": "Article",
+      "description": "Jargon file entry",
+      "icon": "Article",
+      "name": "What is a 'spod'?",
+      "url": "http://www.catb.org/~esr/jargon/html/S/spod.html"
     }
   ],
   "dataOrigins": [
