@@ -350,6 +350,21 @@
   ],
   "talkers": [
     {
+      "name": "14AD",
+      "location": "USA",
+      "dataOrigin": "spodlist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "204.248.169.7",
+          "port": 3003
+        }
+      ]
+    },
+    {
       "name": "The A-Team",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "ateam",
@@ -605,6 +620,7 @@
     },
     {
       "name": "The 'Burbs",
+      "location": "USA",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "burbs",
       "screencaps": [
@@ -621,6 +637,10 @@
         {
           "type": "website",
           "url": "http://www.burbs.org"
+        },
+        {
+          "type": "website",
+          "url": "http://toybox.infomagic.com/~city/"
         }
       ],
       "hosts": [
@@ -651,6 +671,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/camelot"
+        },
+        {
+          "type": "website",
+          "url": "http://user1.megalinx.net/~camelot/"
         },
         {
           "type": "wayback",
@@ -687,6 +711,39 @@
           "blocked": true,
           "hostname": "talkernet.net",
           "port": 3500
+        }
+      ]
+    },
+    {
+      "name": "The Camp Ground",
+      "codebase": "ewtoo",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.skl.com/~camp/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "skl.com",
+          "port": 2267
+        }
+      ]
+    },
+    {
+      "name": "Casino",
+      "codebase": "ewtoo",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "paintbox.dircon.co.uk",
+          "port": 9999
         }
       ]
     },
@@ -1554,7 +1611,9 @@
     },
     {
       "name": "Astral Planes",
+      "location": "Canada",
       "dataOrigin": "spodlist",
+      "codebase": "pg96",
       "screencaps": [
         "login/madrory.com_4444.png"
       ],
@@ -1564,6 +1623,10 @@
         {
           "hostname": "madrory.com",
           "port": 4444
+        },
+        {
+          "hostname": "215.233.242.2",
+          "port": 2323
         }
       ]
     },
@@ -3511,7 +3574,12 @@
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://w3.one.net/~strycher/asylum.html"
+        }
+      ],
       "hosts": [
         {
           "hostname": "shore3.intercom.net",
@@ -3525,11 +3593,82 @@
       ]
     },
     {
+      "name": "Aurora",
+      "location": "Australia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "wisdom.psinet.net.au",
+          "port": 2010
+        }
+      ]
+    },
+    {
+      "name": "Batcave",
+      "location": "Australia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.interline.com.au/~mudman/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "interline.com.au",
+          "port": 4545
+        }
+      ]
+    },
+    {
+      "name": "Beach",
+      "location": "USA",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "134.241.143.4",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Boardwalk",
+      "location": "USA",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/thetropics/Shores/2120/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lod.com",
+          "port": 6969
+        }
+      ]
+    },
+    {
       "name": "Argoed",
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.spods.dcs.kcl.ac.uk/~argoed/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "zippy.spods.dcs.kcl.ac.uk",
@@ -4720,10 +4859,15 @@
     {
       "name": "Animal House",
       "codebase": "pg96",
+      "location": "USA",
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://home.megalinx.net/~animal/"
+        },
         {
           "type": "email",
           "url": "animal@talker.com"
