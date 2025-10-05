@@ -1349,6 +1349,7 @@
     },
     {
       "name": "Vineyard",
+      "location": "USA",
       "dataOrigin": "user",
       "codebase": "ewtoo",
       "screencaps": [],
@@ -1360,6 +1361,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "207.89.0.40.",
+          "port": 4242
+        },
         {
           "blocked": true,
           "hostname": "vineyard.igc.net",
@@ -2133,6 +2139,7 @@
     },
     {
       "name": "The World",
+      "location": "USA",
       "dataOrigin": "spodlist",
       "codebase": "ewtoo",
       "ewtooAbbr": "TWD",
@@ -2141,6 +2148,10 @@
       ],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://toybox.infomagic.com/~world/"
+        },
         {
           "type": "website",
           "url": "https://nosuchluck.incredulous.org"
@@ -2159,6 +2170,11 @@
         {
           "blocked": true,
           "hostname": "world.vivid.net",
+          "port": 7979
+        },
+        {
+          "blocked": true,
+          "hostname": "toybox.infomagic.com",
           "port": 7979
         },
         {
@@ -3154,6 +3170,7 @@
     },
     {
       "name": "Whispers in the Dark",
+      "location": "USA",
       "screencaps": [
         "login/whispers.org_4000.png"
       ],
@@ -4646,6 +4663,37 @@
         {
           "hostname": "talker.com",
           "port": 4305
+        }
+      ]
+    },
+    {
+      "name": "Ancient Realms",
+      "review": "This talker was launched in 1995 and replaced in 1997 by <a data-sveltekit-reload href=\"/details/hall-of-the-silver-dragon\">Hall of the Silver Dragon</a>, which used the same code.",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://realms.palni.edi"
+        }
+      ],
+      "hosts": []
+    },
+    {
+      "name": "Hall of the Silver Dragon",
+      "review": "This talker was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>.",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://realms.palni.edi"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "198.62.84.157",
+          "port": 9889
         }
       ]
     },
@@ -7015,7 +7063,7 @@
       ]
     },
     {
-      "name": "Void",
+      "name": "The Void",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
