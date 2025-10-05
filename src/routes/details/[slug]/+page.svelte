@@ -93,12 +93,12 @@
       alt: "",
       name: filename,
       type: 'image',
-      url: `/screencaps/login/${filename}`,
+      url: `/screencaps/${filename}`,
       description: ""
     };
   }).slice(1);
 
-  const heroImage = screencaps.length > 0 ? `/screencaps/login/${screencaps[0]}` : '/placeholder.png';
+  const heroImage = screencaps.length > 0 ? `/screencaps/${screencaps[0]}` : '/placeholder.png';
   const citation = getCitation(talker?.dataOrigin ?? '');
   const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
 </script>

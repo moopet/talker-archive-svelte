@@ -8,7 +8,7 @@
 
   const href = `/details/${slugify(talker.name, {lower: true})}`;
   const defaultImage = '/placeholder.png';
-  const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/login/${talker.screencaps[0]}` : defaultImage;
+  const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/${talker.screencaps[0]}` : defaultImage;
 
   let isActive = $state(false);
 

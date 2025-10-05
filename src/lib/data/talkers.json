@@ -350,7 +350,7 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "ateam",
       "screencaps": [
-        "ateam.darksilence.net_1972.png"
+        "login/ateam.darksilence.net_1972.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -373,7 +373,7 @@
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
       "codebase": "sensisummink",
       "screencaps": [
-        "angst.mopemansions.org_2003.png"
+        "login/angst.mopemansions.org_2003.png"
       ],
       "textcaps": [],
       "resources": [
@@ -434,9 +434,9 @@
       ],
       "codebase": "sensisummink",
       "screencaps": [
-        "yuss.org_5050.png",
-        "atlantis.org.uk_5050.png",
-        "mopemansions.org_5050.png"
+        "login/yuss.org_5050.png",
+        "login/atlantis.org.uk_5050.png",
+        "login/mopemansions.org_5050.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -493,7 +493,7 @@
       "name": "Bag End",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "bagend.tzo.org_2060.png"
+        "login/bagend.tzo.org_2060.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -511,15 +511,15 @@
       "dataOrigin": "spodlist",
       "codebase": "pgplus",
       "screencaps": [
-        "brigandine.org_9390_4.png",
-        "bandicoot.merseine.nu_9390_2.png",
-        "bandicoot.merseine.nu_9390.png",
-        "brigandine.org_9390_3.png",
-        "brigandine.org_9390_5.png",
-        "brigandine.org_9390_6.png",
-        "brigandine.org_9390_7.png",
-        "brigandine.org_9390_8.png",
-        "brigandine.org_9390_9.png"
+        "login/brigandine.org_9390_4.png",
+        "login/bandicoot.merseine.nu_9390_2.png",
+        "login/bandicoot.merseine.nu_9390.png",
+        "login/brigandine.org_9390_3.png",
+        "login/brigandine.org_9390_5.png",
+        "login/brigandine.org_9390_6.png",
+        "login/brigandine.org_9390_7.png",
+        "login/brigandine.org_9390_8.png",
+        "login/brigandine.org_9390_9.png"
       ],
       "textcaps": [],
       "resources": [
@@ -586,8 +586,8 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "BC",
       "screencaps": [
-        "blamecanada.bering.gl_1977_2.png",
-        "blamecanada.bering.gl_1977.png"
+        "login/blamecanada.bering.gl_1977_2.png",
+        "login/blamecanada.bering.gl_1977.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -604,7 +604,7 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "burbs",
       "screencaps": [
-        "burbs.org_4567.png"
+        "login/burbs.org_4567.png"
       ],
       "textcaps": [
         "burbs.org_4567.txt"
@@ -636,7 +636,7 @@
       "dataOrigin": "spodlist",
       "description": "An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
       "screencaps": [
-        "vampire.dune.net_3333.png"
+        "login/vampire.dune.net_3333.png"
       ],
       "textcaps": [],
       "resources": [
@@ -692,7 +692,7 @@
       "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
       "codebase": "pgplus",
       "screencaps": [
-        "castle2k.org.uk_5050.png"
+        "login/castle2k.org.uk_5050.png"
       ],
       "textcaps": [],
       "resources": [
@@ -720,8 +720,8 @@
       "dataOrigin": "spodlist",
       "codebase": "tombstone",
       "screencaps": [
-        "caves.uk.net_5000.png",
-        "caves.tf_5000.png"
+        "login/caves.uk.net_5000.png",
+        "login/caves.tf_5000.png"
       ],
       "textcaps": [],
       "resources": [
@@ -753,8 +753,8 @@
       "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
       "screencaps": [
-        "centralperk.us_2323.png",
-        "presidium.org_2222.png"
+        "login/centralperk.us_2323.png",
+        "login/presidium.org_2222.png"
       ],
       "textcaps": [],
       "resources": [
@@ -787,7 +787,7 @@
       "name": "BOBNet",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "cheekynet.com.au_4242.png"
+        "login/cheekynet.com.au_4242.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -806,8 +806,8 @@
       "codebase": "nuts",
       "ewtooAbbr": "cotn",
       "screencaps": [
-        "cotn.subnigra.com_6969.png",
-        "cn.talkers.org_4040.png"
+        "login/cotn.subnigra.com_6969.png",
+        "login/cn.talkers.org_4040.png"
       ],
       "resources": [
         {
@@ -816,7 +816,7 @@
         }
       ],
       "textcaps": [
-        "62.49.231.25_6969.txt"
+        "login/62.49.231.25_6969.txt"
       ],
       "hosts": [
         {
@@ -845,7 +845,7 @@
       "description": "CrazyLands is a cozy, secure talker with a friendly environment. Sure, sure...other talkers claim that they are the best, but we all know the truth. If you want to have fun being silly and talking to lots of interesting people all over the world, CrazyLands is the place to be.<br>Don't worry if you don't know what you're doing, our dedicated staff listen to suggestions and are always willing to help out. So what are you waiting for? Step inside and join the CrazyLands family.",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "crazylands.org_6969.png"
+        "login/crazylands.org_6969.png"
       ],
       "textcaps": [],
       "resources": [
@@ -879,10 +879,10 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "waste",
       "screencaps": [
-        "culturalwasteland.tv_4000.png"
+        "login/culturalwasteland.tv_4000.png"
       ],
       "textcaps": [
-        "culturalwasteland.tv_4000.txt"
+        "login/culturalwasteland.tv_4000.txt"
       ],
       "resources": [
         {
@@ -905,7 +905,7 @@
       "name": "FurryMUCK",
       "ewtooAbbr": "trump",
       "screencaps": [
-        "furrymuck.com_8888.png"
+        "login/furrymuck.com_8888.png"
       ],
       "textcaps": [],
       "resources": [
@@ -926,7 +926,7 @@
       "ewtooAbbr": "cut",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "cut.pre.org_4040.png"
+        "login/cut.pre.org_4040.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -942,7 +942,7 @@
       "name": "Marooned",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "ddngr.org.uk_4001.png"
+        "login/ddngr.org.uk_4001.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -958,7 +958,7 @@
       "name": "The Pub",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "doughnuts.co.uk_4000.png"
+        "login/doughnuts.co.uk_4000.png"
       ],
       "textcaps": [],
       "resources": [
@@ -979,7 +979,7 @@
       "name": "Tasmania",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "draconic.fyremoon.net_2424.png"
+        "login/draconic.fyremoon.net_2424.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -993,7 +993,7 @@
     {
       "name": "Fractured Singularity",
       "screencaps": [
-        "dune.net_4560.png"
+        "login/dune.net_4560.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1009,7 +1009,7 @@
       "name": "Infinite Spirit",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "dune.net_3003.png"
+        "login/dune.net_3003.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1034,7 +1034,7 @@
       "name": "Dusk Till Dawn",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "duskdawn.mytalker.org_4444.png"
+        "login/duskdawn.mytalker.org_4444.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1049,7 +1049,7 @@
       "name": "Law And Order",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "eeek.org.uk_3000.png"
+        "login/eeek.org.uk_3000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1065,7 +1065,7 @@
       "name": "The Airport",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "eeek.org.uk_4321.png"
+        "login/eeek.org.uk_4321.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1080,7 +1080,7 @@
       "name": "Hollywood Central",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "eeek.org.uk_5000.png"
+        "login/eeek.org.uk_5000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1097,7 +1097,7 @@
       "dataOrigin": "spodlist",
       "codebase": "ICE",
       "screencaps": [
-        "elementalworld.net_5555.png"
+        "login/elementalworld.net_5555.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1120,7 +1120,7 @@
       "description": "Heavily modified ewtoo talker based on Elite",
       "codebase": "ewtoo",
       "screencaps": [
-        "elite.snowplains.org_8000.png"
+        "login/elite.snowplains.org_8000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1163,8 +1163,8 @@
         }
       ],
       "screencaps": [
-        "snowplains.org_3456.png",
-        "snowplains.org_3456_map.png"
+        "login/snowplains.org_3456.png",
+        "maps/snowplains.map.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -1196,7 +1196,7 @@
         }
       ],
       "screencaps": [
-        "revivaltalker.com_7779.png"
+        "login/revivaltalker.com_7779.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -1250,7 +1250,7 @@
       "name": "Unknown",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "ewtoo.org_5252.png"
+        "login/ewtoo.org_5252.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1279,7 +1279,7 @@
       "name": "UglyMUG",
       "dataOrigin": "user",
       "screencaps": [
-        "uglymug.org.uk_6239.png"
+        "login/uglymug.org.uk_6239.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1410,8 +1410,8 @@
         }
       ],
       "screencaps": [
-        "foothills.tk_2010.png",
-        "foothills.map.png"
+        "login/foothills.tk_2010.png",
+        "maps/foothills.map.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -1469,7 +1469,7 @@
       "name": "Inspector Gadget's Talker",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "gadget.ewtoo.org_7000.png"
+        "login/gadget.ewtoo.org_7000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1485,7 +1485,7 @@
       "dataOrigin": "spodlist",
       "codebase": "ICE",
       "screencaps": [
-        "ice.offswn.net_4444.png"
+        "login/ice.offswn.net_4444.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1501,7 +1501,7 @@
       "name": "Island",
       "ewtooAbbr": "isl",
       "screencaps": [
-        "island.subnigra.com_8000.png"
+        "login/island.subnigra.com_8000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1525,7 +1525,7 @@
       "name": "Astral Planes",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "madrory.com_4444.png"
+        "login/madrory.com_4444.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1540,7 +1540,7 @@
       "name": "The Crystal Labyrinth",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "magic.kicks-ass.org_4000.png"
+        "login/magic.kicks-ass.org_4000.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1561,7 +1561,7 @@
       "name": "Comatose: Blissful Sleep",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "mysterious.mytalker.org_9999.png"
+        "login/mysterious.mytalker.org_9999.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1581,7 +1581,7 @@
       "dataOrigin": "spodlist",
       "codebase": "talker",
       "screencaps": [
-        "mytalker.org_2222.png"
+        "login/mytalker.org_2222.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1624,7 +1624,7 @@
       "name": "USS Enterprise NCC-1701-D",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "ncc.spod.org_1701.png"
+        "login/ncc.spod.org_1701.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1645,7 +1645,7 @@
       "name": "Cats Cradle",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "phoenix.lsds.com_9876.png"
+        "login/phoenix.lsds.com_9876.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1687,7 +1687,7 @@
         }
       ],
       "screencaps": [
-        "realm.progsoc.uts.edu.au_3000.png"
+        "login/realm.progsoc.uts.edu.au_3000.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -1702,7 +1702,7 @@
       "name": "The Gimp",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "redclaw.org.uk_7777.png"
+        "login/redclaw.org.uk_7777.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1725,7 +1725,7 @@
       "ewtooAbbr": "s2k",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "sass.jg.ee_2010.png"
+        "login/sass.jg.ee_2010.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1758,7 +1758,7 @@
       "name": "The Magic Toaster",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "sirius.zepa.net_8500.png"
+        "login/sirius.zepa.net_8500.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1775,7 +1775,7 @@
       "ewtooAbbr": "spod.org",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "spod.org_2010.png"
+        "login/spod.org_2010.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1792,7 +1792,7 @@
       "ewtooAbbr": "dome",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "spod.org_3003.png"
+        "login/spod.org_3003.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1817,7 +1817,7 @@
       "name": "Glantri's Labyrinth II",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "talker.com_2200.png"
+        "login/talker.com_2200.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1862,7 +1862,7 @@
       "description": "Ours is a queer safe talker that has been on the net for the past 5 years or so. We are a large community of people from around the world who share many interests and come online to meet new friends and chat with old ones. We protect all our users against any persons who come to our talker to harass our community and will take whatever measures are necessary to resolve those problems.",
       "codebase": "pgplus",
       "screencaps": [
-        "talker.com_4040.png"
+        "login/talker.com_4040.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1895,7 +1895,7 @@
       "ewtooAbbr": "tws",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "talker.rekka.net_4242.png"
+        "login/talker.rekka.net_4242.png"
       ],
       "textcaps": [],
       "resources": [
@@ -1920,7 +1920,7 @@
       "name": "Eire",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "tb.yi.org_1221.png"
+        "login/tb.yi.org_1221.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1936,10 +1936,10 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "ds",
       "screencaps": [
-        "ds.enyc.org.uk_8688.png"
+        "login/ds.enyc.org.uk_8688.png"
       ],
       "textcaps": [
-        "ds.enyc.org.uk_8688.txt"
+        "login/ds.enyc.org.uk_8688.txt"
       ],
       "resources": [
         {
@@ -1968,7 +1968,7 @@
       "name": "Dark Sins",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "tdf.ca_8888.png"
+        "login/tdf.ca_8888.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -1986,7 +1986,8 @@
       "ewtooAbbr": "resort",
       "description": "The Resort is a free, full featured virtual chat community, specially designed to be a fun, comfortable, and secure atmosphere to make new friends, and meet people.",
       "screencaps": [
-        "resort.org_2323.png"
+        "login/resort.org_2323.png",
+        "maps/resort.map.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2056,7 +2057,7 @@
         }
       ],
       "screencaps": [
-        "surfers.fysh.org_4242.png"
+        "login/surfers.fysh.org_4242.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -2086,7 +2087,7 @@
       "codebase": "nuts",
       "ewtooAbbr": "sc",
       "screencaps": [
-        "scarlet-citadel.co.uk_2000.png"
+        "login/scarlet-citadel.co.uk_2000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -2109,7 +2110,7 @@
       "codebase": "ewtoo",
       "ewtooAbbr": "TWD",
       "screencaps": [
-        "nosuchluck.incredulous.org_7979.png"
+        "login/nosuchluck.incredulous.org_7979.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2282,7 +2283,7 @@
       "name": "Haven",
       "ewtooAbbr": "haven",
       "screencaps": [
-        "haven.enyc.org.uk_7777.png"
+        "login/haven.enyc.org.uk_7777.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2303,7 +2304,7 @@
       "name": "Temple 2K",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "temple2k.org_2222.png"
+        "login/temple2k.org_2222.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2329,7 +2330,7 @@
       "dataOrigin": "spodlist",
       "ewtooAbbr": "manor",
       "screencaps": [
-        "themanor.org_4242.png"
+        "login/themanor.org_4242.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2349,7 +2350,7 @@
       "name": "TrueFriends",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "truefriends.org.uk_3000.png"
+        "login/truefriends.org.uk_3000.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2375,10 +2376,10 @@
       "ewtooAbbr": "eutsii",
       "codebase": "arien",
       "screencaps": [
-        "euts.org_2000.png"
+        "login/euts.org_2000.png"
       ],
       "textcaps": [
-        "euts.org_2000.txt"
+        "login/euts.org_2000.txt"
       ],
       "resources": [
         {
@@ -2414,7 +2415,7 @@
       "name": "The Village",
       "codebase": "tiptop",
       "screencaps": [
-        "ubervillage.org_3131.png"
+        "login/ubervillage.org_3131.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -2484,7 +2485,7 @@
         }
       ],
       "screencaps": [
-        "emisle.org_5000.png"
+        "login/emisle.org_5000.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -2497,10 +2498,10 @@
     {
       "name": "Cuban Bar",
       "screencaps": [
-        "cubanbar.hochstenbach.net_1234.png"
+        "login/cubanbar.hochstenbach.net_1234.png"
       ],
       "textcaps": [
-        "cubanbar.hochstenbach.net_1234.txt"
+        "login/cubanbar.hochstenbach.net_1234.txt"
       ],
       "resources": [
         {
@@ -2519,10 +2520,10 @@
       "name": "Bicol Channel",
       "codebase": "amnuts",
       "screencaps": [
-        "bc.kelotz.net_2018.png"
+        "login/bc.kelotz.net_2018.png"
       ],
       "textcaps": [
-        "bc.kelotz.net_2018.txt"
+        "login/bc.kelotz.net_2018.txt"
       ],
       "resources": [
         {
@@ -2541,10 +2542,10 @@
       "name": "Night Runners",
       "codebase": "amnuts",
       "screencaps": [
-        "nr.kelotz.net_2474.png"
+        "login/nr.kelotz.net_2474.png"
       ],
       "textcaps": [
-        "nr.kelotz.net_2474.txt"
+        "login/nr.kelotz.net_2474.txt"
       ],
       "resources": [],
       "hosts": [
@@ -2558,10 +2559,10 @@
       "name": "Retro Bar",
       "codebase": "retrobar",
       "screencaps": [
-        "rb.kelotz.net_1981.png"
+        "login/rb.kelotz.net_1981.png"
       ],
       "textcaps": [
-        "rb.kelotz.net_1981.txt"
+        "login/rb.kelotz.net_1981.txt"
       ],
       "resources": [],
       "hosts": [
@@ -2575,10 +2576,10 @@
       "name": "Down Under",
       "codebase": "amnuts",
       "screencaps": [
-        "du.kelotz.net_2003.png"
+        "login/du.kelotz.net_2003.png"
       ],
       "textcaps": [
-        "du.kelotz.net_2003.txt"
+        "login/du.kelotz.net_2003.txt"
       ],
       "resources": [],
       "hosts": [
@@ -2593,10 +2594,10 @@
       "description": "O primeiro e ainda existente Mundo Virtual Português...",
       "codebase": "mamnuts",
       "screencaps": [
-        "selva.grogue.org_8888.png"
+        "login/selva.grogue.org_8888.png"
       ],
       "textcaps": [
-        "selva.grogue.org_8888.txt"
+        "login/selva.grogue.org_8888.txt"
       ],
       "resources": [],
       "hosts": [
@@ -2654,10 +2655,10 @@
       "daataOrigin": "galaxy",
       "codebase": "tdg",
       "screencaps": [
-        "the-dating-game_5959.png"
+        "login/the-dating-game_5959.png"
       ],
       "textcaps": [
-        "the-dating-game_5959.txt"
+        "login/the-dating-game_5959.txt"
       ],
       "resources": [
         {
@@ -2679,10 +2680,10 @@
     {
       "name": "Hades",
       "screencaps": [
-        "hades-talker.org_6660.png"
+        "login/hades-talker.org_6660.png"
       ],
       "textcaps": [
-        "hades-talker.org_6660.txt"
+        "login/hades-talker.org_6660.txt"
       ],
       "resources": [
         {
@@ -2701,7 +2702,7 @@
       "name": "Alice's Looking Glass",
       "description": "A very friendly adult talker with a Lewis Carroll theme!",
       "screencaps": [
-        "dune.net_4405.png"
+        "login/dune.net_4405.png"
       ],
       "adult": true,
       "textcaps": [],
@@ -2749,10 +2750,10 @@
       "name": "Hot Mess",
       "adult": true,
       "screencaps": [
-        "hot-mess.net_9900.png"
+        "login/hot-mess.net_9900.png"
       ],
       "textcaps": [
-        "hot-mess.net_9900.png"
+        "login/hot-mess.net_9900.png"
       ],
       "resources": [
         {
@@ -2807,7 +2808,7 @@
         }
       ],
       "screencaps": [
-        "thechattingzone.uk_8342.png",
+        "login/thechattingzone.uk_8342.png",
         "thechattingzone.uk_8342_2.png"
       ],
       "textcaps": [],
@@ -2840,10 +2841,10 @@
         }
       ],
       "textcaps": [
-        "chatmud.com_7777.txt"
+        "login/chatmud.com_7777.txt"
       ],
       "screencaps": [
-        "chatmud.com_7777.png"
+        "login/chatmud.com_7777.png"
       ],
       "hosts": [
         {
@@ -2922,10 +2923,10 @@
       "name": "The Gathering",
       "description": "The Gathering is a fun and exciting place where you can meet people from all around the world. But then aren't all talkers like that? What makes The Gathering so special is that there are no SuperUsers or whatever telling you want you can or cannot do. _YOU_ the users are the ones that do that.<br> Every user gets to decide if they don't want to hear someone, or if they should be allowed in the group with a unique democratic voting system. So come and try it today - you _KNOW_ you want to.",
       "screencaps": [
-        "gathering.org.uk_5000.png"
+        "login/gathering.org.uk_5000.png"
       ],
       "textcaps": [
-        "gathering.org.uk_5000.txt"
+        "login/gathering.org.uk_5000.txt"
       ],
       "resources": [
         {
@@ -2952,7 +2953,7 @@
       "name": "Uberworld",
       "ewtooAbbr": "uber",
       "screencaps": [
-        "uberworld.org_2020.png"
+        "login/uberworld.org_2020.png"
       ],
       "textcaps": [],
       "resources": [
@@ -2988,7 +2989,7 @@
     {
       "name": "Universe",
       "screencaps": [
-        "universe.tirsek.com_2631.png"
+        "login/universe.tirsek.com_2631.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -3003,7 +3004,7 @@
       "name": "Unreal",
       "description": " A place out of sync with reality",
       "screencaps": [
-        "unreal.snowplains.org_7777.png"
+        "login/unreal.snowplains.org_7777.png"
       ],
       "textcaps": [],
       "resources": [
@@ -3040,7 +3041,7 @@
       "dataOrigin": "galaxy",
       "ewtooAbbr": "Val",
       "screencaps": [
-        "valdemar.org_2345.png"
+        "login/valdemar.org_2345.png"
       ],
       "textcaps": [],
       "resources": [
@@ -3070,9 +3071,26 @@
       ]
     },
     {
+      "name": "Las Vegas",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/TimesSquare/6964/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "pioneer.nevada.edu",
+          "port": 7000
+        }
+      ]
+    },
+    {
       "name": "Vega$",
       "screencaps": [
-        "vegas.cep.net_7979.png"
+        "login/vegas.cep.net_7979.png"
       ],
       "textcaps": [],
       "resources": [
@@ -3096,7 +3114,7 @@
       "name": "Western World",
       "codebase": "pg96",
       "screencaps": [
-        "western.mytalker.org_2010.png"
+        "login/western.mytalker.org_2010.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -3110,7 +3128,7 @@
     {
       "name": "Whispers in the Dark",
       "screencaps": [
-        "whispers.org_4000.png"
+        "login/whispers.org_4000.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -3125,7 +3143,7 @@
     {
       "name": "Chicago",
       "screencaps": [
-        "www.nsgso.co.uk_1929.png"
+        "login/www.nsgso.co.uk_1929.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -3141,10 +3159,10 @@
       "name": "Furtoonia",
       "ewtooAbbr": "wank",
       "screencaps": [
-        "ft.furtoonia.net_9999.png"
+        "login/ft.furtoonia.net_9999.png"
       ],
       "textcaps": [
-        "ft.furtoonia.net_9999.txt"
+        "login/ft.furtoonia.net_9999.txt"
       ],
       "resources": [
         {
@@ -3167,10 +3185,10 @@
       "name": "zmc-place",
       "ewtooAbbr": "zp",
       "screencaps": [
-        "zmc-place.enyc.org.uk_8682.png"
+        "login/zmc-place.enyc.org.uk_8682.png"
       ],
       "textcaps": [
-        "zmc-place.enyc.org.uk_8682.txt"
+        "login/zmc-place.enyc.org.uk_8682.txt"
       ],
       "resources": [
         {
@@ -3328,7 +3346,7 @@
       "dataOrigin": "spodlist",
       "codebase": "ewtoo",
       "screencaps": [
-        "zeta.aquilae.org_3456.png"
+        "login/zeta.aquilae.org_3456.png"
       ],
       "textcaps": [],
       "resources": [],
@@ -5335,6 +5353,20 @@
       ]
     },
     {
+      "name": "House Party",
+      "description": "Looking for a great place to hang out and chat with your friends around the world. If your answer is yes then come to House Party. You can play a nice game of paintball, send ascii pictures to your friends, or just hang out and chat. Lots more fun stuff is waiting for you.",
+      "dataOrigin": "talker.com",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "moink.nmsu.edu",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "Party Time",
       "codebase": "nuts",
       "description": "A talker for all ages. Come, chat, play games, or do whatever else you want to do. We are continually updating code to make your stay more enjoyable. Stop on by and check us out.",
@@ -5649,10 +5681,10 @@
       "description": "",
       "dataOrigin": "talker.com",
       "screencaps": [
-        "typotown.net_6666.png"
+        "login/typotown.net_6666.png"
       ],
       "textcaps": [
-        "typotown.net_6666.txt"
+        "login/typotown.net_6666.txt"
       ],
       "resources": [
         {
@@ -5851,8 +5883,14 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 9800
+        },
+        {
+          "blocked": true,
+          "hostname": "lod.com",
+          "port": 1998
         }
       ]
     },
@@ -6113,12 +6151,63 @@
       ]
     },
     {
-      "name": "Flex's Saloon",
-      "dataOrigin": "doughnuts",
+      "name": "Home Sweet Home",
+      "dataOrigin": "greatbiglist",
+      "description": "A new talker, the theme is based around a home. Rooms are Living Room, Dining Room, etc! A cozy place to come and enjoy yourself! This talker has been up for 3 weeks, we have *java* chat<br>Open for people of all ages, talker rated \"G\". Stop by! ",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "webpage",
+          "url": "http://funcity.newaygo.mi.us/~hsh/"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "funcity.newaygo.mi.us",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Soaring Emporium",
+      "dataOrigin": "greatbiglist",
+      "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "webpage",
+          "url": "http://www.netpower.no:3275/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "louise.netpower.no",
+          "port": 3280
+        }
+      ]
+    },
+    {
+      "name": "Flex's Saloon",
+      "dataOrigin": "greatbiglist",
+      "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "webpage",
+          "url": "http://www.netpower.no:3275/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "louise.netpower.no",
+          "port": 3278
+        },
         {
           "blocked": true,
           "hostname": "ztalker.netpower.no",
@@ -6309,10 +6398,10 @@
       "name": "Republic",
       "dataOrigin": "facebook",
       "screencaps": [
-        "republic.snowplains.org_4001.png"
+        "login/republic.snowplains.org_4001.png"
       ],
       "textcaps": [
-        "republic.snowplains.org_4001.txt"
+        "login/republic.snowplains.org_4001.txt"
       ],
       "resources": [],
       "hosts": [
@@ -6402,13 +6491,64 @@
       ]
     },
     {
+      "name": "Majick",
+      "description": "A talker based on the majicks of the talker universe, ..many new coding and commands, ..bustling little place, ..not to old, ..come join us at Majick.",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lod.com",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "The Sport Zone",
+      "description": "The \"Lintilla Sport Zone\" is Lintilla's first foray into a talker with a sports theme. The administration of the Sport Zone and it's regular users are all either athletes, coaches, or avid sports fans who enjoy a good chat about a whole variety of professional and amateur sports from around the globe.<br>A hilighted feature is the group of sport themed chat rooms -- each representing a particular sport ranging from soccer to baseball.<br><br>The mood is relaxed and friendly and we of the Sport Zone would like you to be our welcomed guest.",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://lintilla.df.lth.se/~ipkiss/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4050
+        }
+      ]
+    },
+    {
+      "name": "Crystal Forest",
+      "description": "Crystal Forest has been built around a MYSTICAL or Magical theme with room names like 'Stonehenge' and 'Meadow', and of course a dozen or so others. It's meant to give the user a feeling of tranquility and peace.<br> There isn't any promotional process to go through or any such madness.... we welcome everyone. From your very first login you are considered a 'resident'. We invite you to come and at least visit us, we'd love the chance to say 'hi'.",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "205.161.214.69",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "Crystal Palace",
       "dataOrigin": "spodlist",
       "screencaps": [
-        "cptalker.com_9900.png"
+        "login/cptalker.com_9900.png",
+        "maps/crystal-palace.map.png"
       ],
       "textcaps": [
-        "crystal-palace.map.txt"
+        "login/crystal-palace.map.txt"
       ],
       "resources": [
         {
@@ -7244,7 +7384,7 @@
       "dataOrigin": "tdf",
       "resources": [],
       "screencaps": [
-        "winter.mushpark.com_3000.png"
+        "login/winter.mushpark.com_3000.png"
       ],
       "textcaps": [],
       "hosts": [
@@ -7341,6 +7481,7 @@
     {
       "name": "The Rainbow Room",
       "description": "The Rainbow Room is the friendliest cyber community online. The Rainbow room is a small talker which seems to attract dynamic people who enjoy intelligent conversation and many laughs. This is a family talker that is open to all ages for people of the lesbian/bisexual/gay/transgendered communities and their friends.<br>This talker encourages users to participate strongly by contributing rooms, room descriptions, and other assorted files. The Rainbow Room is constantly changing with the users and the seasons.<br>On this talker users are also encouraged to take advantage of the standing offer to make tailor made special occasion rooms, perfect for net.weddings. One last thing, Bottom, our bot, we like him, hope you do too!",
+      "codebase": "nuts",
       "dataOrigin": "greatbiglist",
       "resources": [
         {
@@ -7348,7 +7489,9 @@
           "url": "http://lintilla.df.lth.se/~swantis/"
         }
       ],
-      "screencaps": [],
+      "screencaps": [
+        "maps/rainbow-room.map.png"
+      ],
       "textcaps": [],
       "hosts": [
         {
