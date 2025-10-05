@@ -42,6 +42,7 @@ export type Talker = {
   dataOrigin?: string;
   description?: string;
   review?: string;
+  location?: string;
   ewtooAbbr?: string;
   hosts?: Array<Host>;
   name: string;

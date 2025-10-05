@@ -1402,6 +1402,7 @@
     },
     {
       "name": "Foothills",
+      "location": "USA",
       "ewtooAbbr": "fh",
       "dataOrigin": "spodlist",
       "codebase": "ewtoo",
@@ -2006,6 +2007,7 @@
     },
     {
       "name": "The Resort",
+      "location": "USA",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "resort",
       "description": "The Resort is a free, full featured virtual chat community, specially designed to be a fun, comfortable, and secure atmosphere to make new friends, and meet people.",
@@ -2058,6 +2060,7 @@
     },
     {
       "name": "Surfers",
+      "location": "UK",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "surfers",
       "resources": [
