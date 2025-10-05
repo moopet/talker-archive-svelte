@@ -185,6 +185,10 @@
   ],
   "codebases": [
     {
+      "shortName": "jats",
+      "name": "JATS"
+    },
+    {
       "shortName": "joot",
       "name": "JOOT"
     },
@@ -1176,6 +1180,26 @@
           "blocked": true,
           "hostname": "squeak.fitz.cam.ac.uk",
           "port": 3456
+        }
+      ]
+    },
+    {
+      "name": "LightHouse",
+      "dataOrigin": "greatbiglist",
+      "codebase": "jats",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.lehigh.edu/~rjw4/LH/"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "pl122d.eecs.lehigh.edu",
+          "port": 6969
         }
       ]
     },
