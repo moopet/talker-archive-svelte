@@ -798,6 +798,26 @@
       ]
     },
     {
+      "name": "Castle DarkHold",
+      "dataOrigin": "greatbiglist",
+      "location": "UK",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.castle2k.org.uk"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "spodbox.linux.org.uk",
+          "port": 1995
+        }
+      ]
+    },
+    {
       "name": "Caves",
       "description": "Caves is a 3 year old talker based loosely on the neanderthal/dinosaur eras.<br>It is now out of its infancy, and is growing in size every day.<br>It is certainly small and friendly, and always welcomes any new users into its family like atmosphere.",
       "ewtooAbbr": "Caves",
@@ -927,6 +947,7 @@
     {
       "name": "Crazylands",
       "description": "CrazyLands is a cozy, secure talker with a friendly environment. Sure, sure...other talkers claim that they are the best, but we all know the truth. If you want to have fun being silly and talking to lots of interesting people all over the world, CrazyLands is the place to be.<br>Don't worry if you don't know what you're doing, our dedicated staff listen to suggestions and are always willing to help out. So what are you waiting for? Step inside and join the CrazyLands family.",
+      "location": "Canada",
       "dataOrigin": "spodlist",
       "screencaps": [
         "login/crazylands.org_6969.png"
@@ -955,6 +976,25 @@
         {
           "hostname": "crazylands.org",
           "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "The Cult",
+      "dataOrigin": "greatbiglist",
+      "location": "UK",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://cult.meep.org/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "cult.meep.org",
+          "port": 6666
         }
       ]
     },
@@ -1007,6 +1047,7 @@
     },
     {
       "name": "Cut",
+      "location": "UK",
       "ewtooAbbr": "cut",
       "dataOrigin": "spodlist",
       "screencaps": [
@@ -1019,6 +1060,11 @@
           "blocked": true,
           "hostname": "cut.pre.org",
           "port": 4040
+        },
+        {
+          "blocked": true,
+          "hostname": "mayhem.chu.cam.ac.uk",
+          "port": 3030
         }
       ]
     },
@@ -1759,7 +1805,9 @@
       ]
     },
     {
-      "name": "Cats Cradle",
+      "name": "Cat's Cradle",
+      "slug": "cats-cradle",
+      "location": "USA",
       "dataOrigin": "spodlist",
       "screencaps": [
         "login/phoenix.lsds.com_9876.png"
@@ -1769,6 +1817,10 @@
         {
           "type": "website",
           "url": "http://home.megalinx.net/~felines"
+        },
+        {
+          "type": "website",
+          "url": "http://home.megalinx.net/~safari/cats/"
         }
       ],
       "hosts": [
@@ -1781,6 +1833,21 @@
           "blocked": true,
           "hostname": "phoenix.lsds.com",
           "port": 9876
+        }
+      ]
+    },
+    {
+      "name": "Caverns",
+      "location": "USA",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "caverns.citycom.net",
+          "port": 5050
         }
       ]
     },
@@ -3797,6 +3864,39 @@
       ]
     },
     {
+      "name": "Chaos",
+      "dataOrigin": "greatbiglist",
+      "location": "USA",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "darkstar.cortland.edu",
+          "port": 4242
+        }
+      ]
+    },
+    {
+      "name": "Cicely's Place",
+      "dataOrigin": "greatbiglist",
+      "location": "USA",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www2.vivid.net/~cicely/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "vivid.net",
+          "port": 4040
+        }
+      ]
+    },
+    {
       "name": "Cirque De Chaos",
       "dataOrigin": "talkers.ws",
       "screencaps": [],
@@ -3840,7 +3940,8 @@
     {
       "name": "The Crypt",
       "dataOrigin": "talkers.ws",
-      "codebase": "crypt",
+      "location": "USA",
+      "codebase": "summink",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -3864,7 +3965,11 @@
         },
         {
           "hostname": "churchnet2.uscm.ac.uk",
-          "port": 666
+          "port": 6660
+        },
+        {
+          "hostname": "mamaclaus.opup.org",
+          "port": 4242
         }
       ]
     },
@@ -4735,6 +4840,20 @@
         {
           "hostname": "talker.com",
           "port": 2502
+        }
+      ]
+    },
+    {
+      "name": "Clouds",
+      "location": "USA",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "darkstar.cortland.edu",
+          "port": 4242
         }
       ]
     },
@@ -6703,6 +6822,10 @@
         {
           "type": "website",
           "url": "http://www.talkers.org"
+        },
+        {
+          "type": "website",
+          "url": "http://www.talkers.org/cn/"
         },
         {
           "type": "website",
