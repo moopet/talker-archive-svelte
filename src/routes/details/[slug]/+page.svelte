@@ -208,6 +208,10 @@ section {
     border-style: solid;
     border-color: var(--border-color);
   }
+
+  .disambiguation {
+    font-style: italic;
+  }
 }
 
 .resources {
