@@ -350,21 +350,6 @@
   ],
   "talkers": [
     {
-      "name": "14AD",
-      "location": "USA",
-      "dataOrigin": "spodlist",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "204.248.169.7",
-          "port": 3003
-        }
-      ]
-    },
-    {
       "name": "The A-Team",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "ateam",
@@ -1269,6 +1254,7 @@
     },
     {
       "name": "Snowplains",
+      "location": "UK",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "SP",
       "description": "The theme of the talker (or MUG or MUSH or whatever you wish to call it, but it's not really a MUD) is, erm, a snowplain. The guides, superusers and admin are all penguins of varying sorts (Chocolate, Royal and King/Emperor as appropriate).",
@@ -1280,6 +1266,10 @@
         {
           "type": "website",
           "url": "http://squeak.fitz.cam.ac.uk/snowplains/"
+        },
+        {
+          "type": "website",
+          "url": "http://snowplains.enquiries.com/snowplains/"
         },
         {
           "type": "email",
@@ -1306,6 +1296,11 @@
           "blocked": true,
           "hostname": "squeak.fitz.cam.ac.uk",
           "port": 3456
+        },
+        {
+          "hostname": "snowplains.enquiries.com",
+          "port": 3456,
+          "blocked": true
         }
       ]
     },
@@ -1500,21 +1495,9 @@
       ]
     },
     {
-      "name": "Elsewhere",
-      "dataOrigin": "user",
-      "codebase": "ewtoo",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "lily.warwick.ac.uk"
-        }
-      ]
-    },
-    {
       "name": "Somewhere Else",
       "dataOrigin": "user",
+      "location": "USA",
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
@@ -1522,6 +1505,10 @@
         {
           "type": "website",
           "url": "http://www.merlin.net/somewhere"
+        },
+        {
+          "type": "website",
+          "url": "http://schnuggles.visi.net/~somewher/"
         }
       ],
       "hosts": [
@@ -1661,7 +1648,12 @@
         "login/island.subnigra.com_8000.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~island/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -1793,6 +1785,10 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://mrbounce.compsoc.man.ac.uk/~pip/ncc/"
+        },
+        {
+          "type": "website",
           "url": "http://ncc.spod.org"
         }
       ],
@@ -1801,6 +1797,11 @@
           "blocked": true,
           "hostname": "ncc.spod.org",
           "port": 1701
+        },
+        {
+          "hostname": "benden.net",
+          "port": 1701,
+          "blocked": true
         }
       ]
     },
@@ -1879,6 +1880,11 @@
           "blocked": true,
           "hostname": "realm.progsoc.uts.edu.au",
           "port": 3000
+        },
+        {
+          "hostname": "138.25.6.30",
+          "port": 3000,
+          "blocked": true
         }
       ]
     },
@@ -2065,12 +2071,21 @@
         {
           "type": "website",
           "url": "http://www.geocities.com/doxer4life/"
+        },
+        {
+          "type": "website",
+          "url": "http://ag.arizona.edu/~dave/paradox.html"
         }
       ],
       "hosts": [
         {
           "hostname": "talker.com",
           "port": 4040
+        },
+        {
+          "hostname": "paradox.talkers.net",
+          "port": 4040,
+          "blocked": true
         }
       ]
     },
@@ -2127,24 +2142,33 @@
       ],
       "resources": [
         {
+          "type": "website",
+          "url": "http://www.geocities.com/athens/7001/index.html"
+        },
+        {
           "type": "email",
           "url": "ds@enyc.org.uk"
         }
       ],
       "hosts": [
         {
-          "blocked": true,
-          "hostname": "shadows.megalinx.net",
-          "port": 1509
-        },
-        {
           "hostname": "ds.enyc.org.uk",
           "port": 8688
         },
         {
           "blocked": true,
+          "hostname": "shadows.megalinx.net",
+          "port": 1509
+        },
+        {
+          "blocked": true,
           "hostname": "talon.wolfpaw.net",
           "port": 2323
+        },
+        {
+          "hostname": "paradise.ashpool.com",
+          "port": 3456,
+          "blocked": true
         }
       ]
     },
@@ -2412,21 +2436,6 @@
         {
           "hostname": "tmp.talkerhost.com",
           "port": 3000
-        }
-      ]
-    },
-    {
-      "name": "Kama Sutra",
-      "ewtooAbbr": "kama",
-      "dataOrigin": "ewtoo",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "kama.dyndns.dk",
-          "port": 6969
         }
       ]
     },
@@ -2905,7 +2914,7 @@
       "resources": [
         {
           "type": "email",
-        "url": "madhatter@taker.com"
+          "url": "madhatter@taker.com"
         },
         {
           "type": "email",
@@ -3071,6 +3080,10 @@
         {
           "type": "website",
           "url": "http://www.riverbend.net/tower"
+        },
+        {
+          "type": "website",
+          "url": "http://www.demon.co.uk/underworld/"
         }
       ],
       "hosts": [
@@ -3092,6 +3105,11 @@
           "blocked": true,
           "hostname": "dismayl.demon.co.uk",
           "port": 2010
+        },
+        {
+          "hostname": "underworld.demon.co.uk",
+          "port": 2010,
+          "blocked": true
         }
       ]
     },
@@ -3147,6 +3165,7 @@
     },
     {
       "name": "Uberworld",
+      "location": "Netherlands",
       "ewtooAbbr": "uber",
       "screencaps": [
         "login/uberworld.org_2020.png"
@@ -3160,12 +3179,21 @@
         {
           "type": "website",
           "url": "http://www.uberworld.org"
+        },
+        {
+          "type": "website",
+          "url": "http://members.tripod.com/~uberworld/"
         }
       ],
       "hosts": [
         {
           "hostname": "uberworld.org",
           "port": 2020
+        },
+        {
+          "hostname": "uberworld.ml.org",
+          "port": 2020,
+          "blocked": true
         }
       ]
     },
@@ -3418,7 +3446,7 @@
       ],
       "hosts": [
         {
-	  "blocked": true,
+	        "blocked": true,
           "hostname": "russville.com",
           "port": 7900
         },
@@ -3503,7 +3531,8 @@
       "hosts": []
     },
     {
-      "name": "Detroid City",
+      "name": "Detroit City",
+      "location": "USA",
       "description": "Detroit City came about when City closed down",
       "dataOrigin": "nick",
       "resources": [],
@@ -3672,6 +3701,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "shore3.intercom.net",
           "port": 4242
         },
@@ -3685,6 +3715,7 @@
     {
       "name": "Aurora",
       "location": "Australia",
+      "dataOrigin": "greatbiglist",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -3699,6 +3730,7 @@
     {
       "name": "Batcave",
       "location": "Australia",
+      "dataOrigin": "greatbiglist",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -3712,20 +3744,6 @@
           "blocked": true,
           "hostname": "interline.com.au",
           "port": 4545
-        }
-      ]
-    },
-    {
-      "name": "Beach",
-      "location": "USA",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "134.241.143.4",
-          "port": 6969
         }
       ]
     },
@@ -3872,6 +3890,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "darkstar.cortland.edu",
           "port": 4242
         }
@@ -3891,6 +3910,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "vivid.net",
           "port": 4040
         }
@@ -4157,6 +4177,7 @@
     },
     {
       "name": "Dragonsbane",
+      "location": "USA",
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
@@ -4249,20 +4270,6 @@
       ]
     },
     {
-      "name": "Embers",
-      "dataOrigin": "talkers.ws",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talkers.skl.com",
-          "port": 5000
-        }
-      ]
-    },
-    {
       "name": "Enchanted Bayou",
       "dataOrigin": "talkers.ws",
       "screencaps": [],
@@ -4313,24 +4320,6 @@
           "blocked": true,
           "hostname": "freehold.signwave.com",
           "port": 1313
-        }
-      ]
-    },
-    {
-      "name": "The Future",
-      "dataOrigin": "talkers.ws",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "futurecode.net",
-          "port": 2121
-        },
-        {
-          "blocked": true,
-          "hostname": "future.kdcol.com",
-          "port": 5000
         }
       ]
     },
@@ -4423,16 +4412,19 @@
     },
     {
       "name": "The Institution",
+      "location": "USA",
       "dataorigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ligtel.com",
           "port": 2600
         },
         {
+          "blocked": true,
           "hostname": "ns.kconline.com",
           "port": 2600
         }
@@ -4578,6 +4570,10 @@
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://www.prairienet.org/python/talker.html"
+        },
         {
           "type": "website",
           "url": "http://www.pythonline.com/mpft"
@@ -4838,6 +4834,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 2502
         }
@@ -4852,6 +4849,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "darkstar.cortland.edu",
           "port": 4242
         }
@@ -5682,12 +5680,21 @@
         {
           "type": "website",
           "url": "http://www.talker.com/paradiseisland"
+        },
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/TheTropics/4389/"
         }
       ],
       "hosts": [
         {
           "hostname": "talker.com",
           "port": 9257
+        },
+        {
+          "hostname": "stardust.mcs.clarkson.edu",
+          "port": 9999,
+          "blocked": true
         }
       ]
     },
@@ -5897,6 +5904,7 @@
     {
       "name": "Utopia",
       "description": "Utopia is a talker for adults that started in 1995. We only permit users over 18 and strive to maintain a warm, friendly and mostly mature atmosphere, while still having fun. Utopia is set in an imaginary town where you will find a growing yet still close-knit community of wonderful people.",
+      "location": "UK",
       "adult": true,
       "codebase": "ncohafmuta",
       "dataOrigin": "talker.com",
@@ -5912,13 +5920,19 @@
           "url": "http://www.geocities.com/SunsetStrip/4333"
         },
         {
+          "type": "website",
+          "url": "http://www.utopia.clara.net/"
+        },
+        {
           "type": "wayback",
           "url": "https://web.archive.org/web/19990429070918/http://www.geocities.com/SunsetStrip/4333"
         }
       ],
       "hosts": [
         {
-          "hostname": "talker.com"
+          "hostname": "utopia.clara.net",
+          "port": 4444,
+          "blocked": true
         }
       ]
     },
@@ -6286,12 +6300,17 @@
     },
     {
       "name": "Silver Circle",
+      "location": "USA",
       "description": "Silver Circle is a highly modified PG96 talker aimed at Wiccans, Pagans and spiritually open minded people on the internet. Our goal is to share ideas, thoughts, wisdom, laughs and some good times. Silver Circle also serves as a stepping stone and as a source of a wealth of information for those who seek information about Paganism and Wicca. We are open to people of all paths; the only thing we ask is that you have an open mind.",
       "codebase": "ewtoo",
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/Athen/7422/"
+        },
         {
           "type": "email",
           "url": "sc@talker.com"
@@ -6305,6 +6324,11 @@
         {
           "hostname": "canadagaming.com",
           "port": 9191
+        },
+        {
+          "hostname": "cachenet.com",
+          "port": 1919,
+          "blocked": true
         }
       ]
     },
@@ -6959,19 +6983,6 @@
       ]
     },
     {
-      "name": "Elysium",
-      "dataOrigin": "spodlist",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "ewtoo.org",
-          "port": 2222
-        }
-      ]
-    },
-    {
       "name": "Flump",
       "dataOrigin": "spodlist",
       "screencaps": [],
@@ -7088,20 +7099,6 @@
           "blocked": true,
           "hostname": "neonumbra.lycanthrope.org",
           "port": 4561
-        }
-      ]
-    },
-    {
-      "name": "Oasis",
-      "dataOrigin": "spodlist",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "forest.subnigra.com",
-          "port": 9696
         }
       ]
     },
@@ -7350,23 +7347,6 @@
         {
           "hostname": "yerevan.acp.da.ru",
           "port": 4523
-        }
-      ]
-    },
-    {
-      "name": "The Void",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "benland.muc.edu",
-          "port": 5555
-        },
-        {
-          "hostname": "void.greenfinch.com",
-          "port": 1234
         }
       ]
     },
@@ -7732,9 +7712,15 @@
     },
     {
       "name": "Walt",
+      "location": "Scotland",
       "description": "A Disney-based talker",
       "dataOrigin": "nick",
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://genesis.skl.com/~walt/walt.html"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -7887,6 +7873,1375 @@
           "port": 7000
         }
       ]
+    },
+    {
+      "name": "14AD",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "204.248.169.7",
+          "port": 3003,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Beach",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "134.241.143.4",
+          "port": 6969,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "CyberCity",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.wild.net/~deo/cybercity.phtml"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "lama.wild.net",
+          "port": 6969,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Da Luv Thing",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://webpages.marshall.edu/~blair9/dlt.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "phymat.bham.ac.uk",
+          "port": 1708,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The DarkSide of Nothing",
+      "location": "Canada",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~dfish99/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 6868,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Depravity",
+      "location": "Australia",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "css.tuu.utas.edu.au",
+          "port": 6565,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Diner",
+      "location": "UK",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "obsidian.king.ac.uk",
+          "port": 2222,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "DotUK",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://dotuk.org.uk/~dotuk/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "dotuk.org.uk",
+          "port": 6543,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Dreamland",
+      "location": "Canada",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~dream/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 6669,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Ecstasy",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://ecstasy-online.ml.org/~khatri/ecstasy"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "ecstasy-online.ml.org",
+          "port": 3456,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Elsewhere",
+      "location": "Canada",
+      "codebase": "ewtoo",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://genesis.skl.com/~orchid/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "genesis.skl.com",
+          "port": 4444,
+          "blocked": true
+        },
+        {
+          "hostname": "lily.warwick.ac.uk",
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Elysium",
+      "location": "Scotland",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "cig.co.uk",
+          "port": 1234,
+          "blocked": true
+        },
+        {
+          "hostname": "ewtoo.org",
+          "port": 2222
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Embers",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.skl.com/~embers/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 5000,
+          "blocked": true
+        },
+        {
+          "hostname": "skl.com",
+          "port": 5000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Future",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "futurecode.net",
+          "port": 2121
+        },
+        {
+          "hostname": "future.wavetech.net",
+          "port": 4321,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Galaxy",
+      "location": "Canada",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://genesis.skl.com/~galaxy/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "genesis.skl.com",
+          "port": 4040,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Gamehendge",
+      "location": "UK",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "meep.org",
+          "port": 4444,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Grange",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://gstv.gsu.edu/~chrish/grange/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "orangey-beard.csc.stu.mmu.ac.uk",
+          "port": 3232,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Graveyard",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "infobase.exo.com",
+          "port": 5231,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Highways",
+      "location": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.uscom.com/~talkbox/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "onramp.uscom.com",
+          "port": 5357,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Icezone",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "genesis.skl.com",
+          "port": 6666,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Immortal Realm",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "wtower.com",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Jaffa Cake",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ifi.uio.no/~bjornmar/jaffa/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "adams.bathl.westnet.net.uk",
+          "port": 4040,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Kama Sutra",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://cha.vivid.net/~kama/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "kama.vivid.net",
+          "port": 6969,
+          "blocked": true
+        },
+        {
+          "blocked": true,
+          "hostname": "kama.dyndns.dk",
+          "port": 6969
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Kether",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.wpi.edu/~simmons/kether.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "lod.com",
+          "port": 3001,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Legacy of the Damned",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.tcat.ac.uk/~legacy/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "legacy.tcat.ac.uk",
+          "port": null,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Lollapalooza II",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "204.185.45.60",
+          "port": 6969,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Lone Knight",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "lk.ceap.wcu.edu",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Lonesome October",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://dilbert.shawnee.edu/~october/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "dilbert.shawnee.edu",
+          "port": 3000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Looney Tunes",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/Hollywood/Set/1820/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "lod.com",
+          "port": 3030,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "M275",
+      "location": "UK",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "anubis.sis.port.ac.uk",
+          "port": 2323,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Main Street",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://local.uaa.alaska.edu/~asjlg7/mainstrt/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "lod.com",
+          "port": 7970,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Margaritaville",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://genesis.skl.com/~puzzle/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "genesis.skl.com",
+          "port": 9000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Meadow",
+      "location": "UK",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "asimov.flevel.co.uk",
+          "port": 9090,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Midnight",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "zipcon.net",
+          "port": 7979,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Moominvalley",
+      "location": "Estonia",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://moomin.wcfauna.ee/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "moomin.wcfauna.ee",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Nemesis",
+      "location": "Sweden",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://simba.uppbro.se/~nemesis/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "simba.uppbro.se",
+          "port": 3535,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Necropolis",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://lightspeed.csh.rit.edu/~necro/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "yabbs.phred.org",
+          "port": 6660,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Neo Chat",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geopages.com/broadway/2040/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "unix.neont.com",
+          "port": 3456,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Nirvana",
+      "location": "Canada",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~nirvana/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 2000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Oasis",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.mudservices.com/~oasis/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "oasis.mudservices.com",
+          "port": 4242,
+          "blocked": true
+        },
+        {
+          "blocked": true,
+          "hostname": "forest.subnigra.com",
+          "port": 9696
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Obsession",
+      "location": "UK",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "obs.electronic.co.uk",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Olympus",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://bungle.spods.dcs.kcl.ac.uk/~olyweb/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "bungle.spods.dcs.kcl.ac.uk",
+          "port": 2123,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "On Distant Shores",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "lk.ceap.wcu.edu",
+          "port": 1616,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Oyaron Hill",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "witten.hartwick.edu",
+          "port": 9669,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Paradise",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "zipcon.net",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Pharcyde Cafe",
+      "location": "Zaire",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/SiliconValley/3304/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "woods.bch.uct.ac.za",
+          "port": 3456,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Pirates",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://goliath.mersinet.co.uk/~pirates/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "pirates.org.uk",
+          "port": 3232,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Playground",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www2.potsdam.edu/robarg80/playground/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "piglet.success.net",
+          "port": 2060,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Portal",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "xavier.varmm.com",
+          "port": 6900,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "PRIDE!",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "206.136.17.84",
+          "port": 4040,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Quickening",
+      "location": "UK",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "wells.bathl.westnet.net.uk",
+          "port": 4040,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Reality Bytes",
+      "location": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://kite.fcgnet.com/~reality/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "servint.com",
+          "port": 8686,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Road Trip",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 6669,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Safari",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://safari.megalinx.net/~safari/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "safari.megalinx.net",
+          "port": 7979,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Sea of Tranquility",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://bankswith.apollotrust.com/ps.html/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "bankswith.apollotrust.com",
+          "port": 7000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Shogun",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.netheaven.com/~hcprobst/brian/shogun.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "empireone.net",
+          "port": 6116,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Siege",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 3030,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Spaceboy's Multiple Worlds: Planet M",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ids.net/~suffer/pm/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "conan.ids.net",
+          "port": 8881,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Spaceboy's Multiple Worlds: Demon Knight",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ids.net/~suffer/pm/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "conan.ids.net",
+          "port": 8882,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Spaceboy's Multiple Worlds: Tower of High Sorcery",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ids.net/~suffer/pm/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "conan.ids.net",
+          "port": 8888,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Starship",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://home.megalinx.net/~starship/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "starship.megalinx.net",
+          "port": 4567,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The SunsetStrip",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "martin.carthage.edu",
+          "port": 3000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "SWiX-Chat",
+      "location": "Switzerland",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "swix.ch",
+          "port": 2001,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Tainted Love",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.isync.net/~almnahal/home.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "escargot.com",
+          "port": 4000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Talho",
+      "location": "Portugal",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "alfa.ist.utl.pt",
+          "port": 7000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Tavern",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://134.241.143.4/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "andromeda.mt.ic.ac.uk",
+          "port": 3456,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Timeworlds",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://tworlds.telmaron.com/~tworlds/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "tworlds.telmaron.com",
+          "port": 7777,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Tower",
+      "location": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.riverbend.net/tower/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "vivid.net",
+          "port": 8008,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Tropics",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/TheTropics/6851/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "134.241.143.4",
+          "port": 5000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "University",
+      "location": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.virtual-cafe.com/~uni/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "virtual-cafe.com",
+          "port": 2000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Void",
+      "location": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://benland.muc.edu/~void/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "benland.muc.edu",
+          "port": 5555,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Warp",
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://asimov.fievel.co.uk/~warp/warp.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "194.6.101.12",
+          "port": 3001,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Windy City",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "wc.68k.org",
+          "port": 7777,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Zoo",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ntrek.com/~clef/zoo.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "jag.ntrek.com",
+          "port": 2952,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
     }
   ]
 }
