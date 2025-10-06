@@ -716,7 +716,9 @@
     },
     {
       "name": "The Camp Ground",
+      "location": "USA",
       "codebase": "ewtoo",
+      "dataOrigin": "greatbiglist",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -735,6 +737,7 @@
     },
     {
       "name": "Casino",
+      "location": "UK",
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
@@ -748,7 +751,24 @@
       ]
     },
     {
+      "name": "The Castle",
+      "slug": "the-castle",
+      "location": "USA",
+      "codebase": "nuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "athens.serverint.com",
+          "port": 4014
+        }
+      ]
+    },
+    {
       "name": "Castle",
+      "slug": "castle",
       "dataOrigin": "spodlist",
       "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
       "codebase": "pgplus",
@@ -3641,6 +3661,7 @@
     },
     {
       "name": "Boardwalk",
+      "dataOrigin": "greatbiglist",
       "location": "USA",
       "screencaps": [],
       "textcaps": [],
