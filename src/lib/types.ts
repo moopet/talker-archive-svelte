@@ -41,6 +41,7 @@ export type Talker = {
   codebase?: string;
   dataOrigin?: string;
   description?: string;
+  disambiguation?: string;
   review?: string;
   location?: string;
   ewtooAbbr?: string;

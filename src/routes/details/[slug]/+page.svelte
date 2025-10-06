@@ -119,6 +119,12 @@
   </section>
 
   <section class="information">
+    {#if talker?.disambiguation}
+      <p class="disambiguation">
+        {@html talker?.disambiguation}
+      </p>
+    {/if}
+
     {#if review}
       <p class="review">
         {@html review}
