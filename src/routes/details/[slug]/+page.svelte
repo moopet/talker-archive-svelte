@@ -2,15 +2,16 @@
   import { page } from '$app/state';
   import slugify from 'slugify';
   import type { Codebase, DataOrigin, Talker } from '$lib/types';
+  import { findTalkerBySlug } from '$lib/utils.ts';
   import { codebases, dataOrigins, talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
 
-  const slug: string = slugify(page.params?.slug ?? "", {lower: true});
-  const talker: Talker = talkers.find(talker => {
-    const talkerSlug = slugify(talker.name, {lower: true});
-    return [talkerSlug, talkerSlug.replace(/^the-/, '')].includes(slug);
-  });
+  const nullTalker = {
+    name: "Talker not found"
+  };
+
+  const talker: Talker = findTalkerBySlug(page.params?.slug ?? "") ?? nullTalker;
 
   const getCodebaseDescription = (codebaseName: string): string => {
     const codebase: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebaseName.toLowerCase());
@@ -103,50 +104,54 @@
   const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
 </script>
 
-<TalkerStatus talker={talker} />
+{#if talker}
+  <TalkerStatus talker={talker} />
 
-<section class="hero">
-  <img src={heroImage} alt="" />
-  <div>
-    <h1>{name}</h1>
+  <section class="hero">
+    <img src={heroImage} alt="" />
+    <div>
+      <h1>{name}</h1>
 
-    <p class="description">
-      {@html description ?? "There doesn't seem to be any description here..."}
+      <p class="description">
+        {@html description ?? "There doesn't seem to be any description here..."}
+      </p>
+    </div>
+  </section>
+
+  <section class="information">
+    {#if review}
+      <p class="review">
+        {@html review}
+      </p>
+    {/if}
+
+    {#if codebaseDescription}
+      <p>
+        {codebaseDescription}
+      </p>
+    {/if}
+
+    {#if citation}
+      <p class="data-origin">
+        {@html citation}
+      </p>
+    {/if}
+
+    <p class="disclaimer">
+      It's <em>highly</em> likely that most of the links presented here haven't worked for years.
     </p>
-  </div>
-</section>
+  </section>
 
-<section class="information">
-  {#if review}
-    <p class="review">
-      {@html review}
-    </p>
-  {/if}
-
-  {#if codebaseDescription}
-    <p>
-      {codebaseDescription}
-    </p>
-  {/if}
-
-  {#if citation}
-    <p class="data-origin">
-      {@html citation}
-    </p>
-  {/if}
-
-  <p class="disclaimer">
-    It's <em>highly</em> likely that most of the links presented here haven't worked for years.
-  </p>
-</section>
-
-<section class="resources">
-  <ResourceList title="Hosts" resources={hostResources} />
-  <ResourceList title="Contacts" resources={contactResources} />
-  <ResourceList title="Websites" resources={websiteResources} />
-  <ResourceList title="Other resources" resources={otherResources} />
-  <ResourceList title="Other screen captures" resources={imageResources} />
-</section>
+  <section class="resources">
+    <ResourceList title="Hosts" resources={hostResources} />
+    <ResourceList title="Contacts" resources={contactResources} />
+    <ResourceList title="Websites" resources={websiteResources} />
+    <ResourceList title="Other resources" resources={otherResources} />
+    <ResourceList title="Other screen captures" resources={imageResources} />
+  </section>
+{:else}
+  <h1>Talker not found</h1>
+{/if}
 
 <style>
 section {

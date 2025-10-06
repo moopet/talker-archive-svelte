@@ -1,34 +1,64 @@
-  export async function getActiveTalkers() {
-    const now = new Date();
-    // Cache lasts 10 minutes.
-    const cacheBust = `${now.getDate()}-${now.getHours()}-${Math.floor(now.getMinutes() / 10)}`;
+import slugify from 'slugify';
+import { talkers } from '$lib/data/talkers.json';
 
-    const response = await fetch(`/api/active-talkers?cb=${cacheBust}`, {
-      method: 'GET',
-      headers: { 'Content-Type': 'application/json' },
-    });
+export async function getActiveTalkers() {
+  const now = new Date();
+  // Cache lasts 10 minutes.
+  const cacheBust = `${now.getDate()}-${now.getHours()}-${Math.floor(now.getMinutes() / 10)}`;
 
-    if (!response.ok) {
-      throw new Error(`HTTP error: ${response.status}`);
-    }
+  const response = await fetch(`/api/active-talkers?cb=${cacheBust}`, {
+    method: 'GET',
+    headers: { 'Content-Type': 'application/json' },
+  });
 
-    return await response.json();
+  if (!response.ok) {
+    throw new Error(`HTTP error: ${response.status}`);
   }
 
-  export async function isTalkerActive(talker: Talker): Promise<boolean> {
-    const activeTalkers = await getActiveTalkers();
+  return await response.json();
+}
 
-    return activeTalkers.talkers.some(activeTalker => activeTalker.name === talker.name);
+export async function isTalkerActive(talker: Talker): Promise<boolean> {
+  const activeTalkers = await getActiveTalkers();
+
+  return activeTalkers.talkers.some(activeTalker => activeTalker.name === talker.name);
+}
+
+export async function getTalkerStatus(talker: Talker): Promise<string> {
+  if (talker.hosts.length === 0) {
+    return 'unknown';
   }
 
-  export async function getTalkerStatus(talker: Talker): Promise<string> {
-    if (talker.hosts.length === 0) {
-      return 'unknown';
-    }
-
-    if (talker.hosts.every(host => host?.blocked)) {
-      return 'defunct';
-    }
-
-    return await isTalkerActive(talker) ? 'active' : 'unknown';
+  if (talker.hosts.every(host => host?.blocked)) {
+    return 'defunct';
   }
+
+  return await isTalkerActive(talker) ? 'active' : 'unknown';
+}
+
+export function getTalkerSlug(talker: Talker): string {
+  if (talker?.slug) {
+    return talker.slug;
+  }
+
+  return slugify(talker.name, { lower: true }).replace(/^the-/, '');
+}
+
+export function findTalkerBySlug(slug: string): Talker {
+  console.log(`looking for ${slug}`);
+  const explicitSlugMatch = talkers.find(talker => talker?.slug === slug);
+  console.log({explicitSlugMatch});
+
+  if (explicitSlugMatch) {
+    return explicitSlugMatch;
+  }
+
+  const talker: Talker = talkers.find(talker => {
+    const talkerSlug = slugify(talker.name, {lower: true});
+
+    return [talkerSlug, talkerSlug.replace(/^the-/, '')].includes(slug);
+  });
+
+  console.log({talker});
+  return talker;
+}
