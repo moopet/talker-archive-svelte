@@ -198,6 +198,10 @@
       "name": "JOOT"
     },
     {
+      "shortName": "ztalker",
+      "name": "Ztalker"
+    },
+    {
       "shortName": "http",
       "name": "HTTP Chat"
     },
@@ -417,6 +421,7 @@
       "name": "Atlantis",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "atl",
+      "codebase": "sensisummink",
       "resources": [
         {
           "name": "Grim's list entry",
@@ -444,7 +449,11 @@
           "url": "https://web.archive.org/web/20030925183416/http://www.moopet.net/atlantis/"
         }
       ],
-      "codebase": "sensisummink",
+      "admins": [
+        "Swish",
+        "Smokey",
+        "Moopet"
+      ],
       "screencaps": [
         "login/yuss.org_5050.png",
         "login/atlantis.org.uk_5050.png",
@@ -472,6 +481,7 @@
     {
       "name": "Atlantis II",
       "codebase": "nuts",
+      "location": "USA",
       "dataOrigin": "razor",
       "resources": [
         {
@@ -567,6 +577,7 @@
     },
     {
       "name": "Forgotten Island",
+      "disambiguation": "Not to be confused with <a href=\"/details/forgotten-isle\" data-sveltekit-reload>Forgotten Isle</a>.",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -590,6 +601,32 @@
           "blocked": true,
           "hostname": "forgottenisland.net",
           "port": 8100
+        }
+      ]
+    },
+    {
+      "name": "Forgotten Isle",
+      "disambiguation": "Not to be confused with <a href=\"/details/forgotten-island\" data-sveltekit-reload>Forgotten Island</a>.",
+      "codebase": "joot",
+      "admins": [
+        "Europol",
+        "Whisper",
+        "Druid"
+      ],
+      "location": "USA",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/Broadway/1536/fi.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "shell.acmenet.net",
+          "port": 7020
         }
       ]
     },
@@ -831,10 +868,33 @@
       ]
     },
     {
+      "name": "The Caves",
+      "slug": "the-caves",
+      "disambiguation": "Not to be confused with <a href=\"/details/caves\" data-sveltekit-reload>Caves</a>.",
+      "location": "Norway",
+      "dataOrigin": "greatbiglist",
+      "codebase": "ztalker",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "louise.netpower.no",
+          "port": 3279
+        }
+      ]
+    },
+    {
       "name": "Caves",
+      "slug": "the-caves",
+      "disambiguation": "Not to be confused with <a href=\"/details/the-caves\" data-sveltekit-reload>The Caves</a>.",
       "description": "Caves is a 3 year old talker based loosely on the neanderthal/dinosaur eras.<br>It is now out of its infancy, and is growing in size every day.<br>It is certainly small and friendly, and always welcomes any new users into its family like atmosphere.",
       "ewtooAbbr": "Caves",
       "dataOrigin": "spodlist",
+      "admins": [
+        "Balloon"
+      ],
       "codebase": "tombstone",
       "screencaps": [
         "login/caves.uk.net_5000.png",
@@ -1063,6 +1123,21 @@
         {
           "hostname": "furrymuck.com",
           "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "Genesis",
+      "location": "USA",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "scully.relocate.net",
+          "port": 3000
         }
       ]
     },
@@ -2321,6 +2396,9 @@
       "location": "UK",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "surfers",
+      "admins": [
+        "Sanman"
+      ],
       "resources": [
         {
           "type": "Facebook community",
@@ -3879,7 +3957,49 @@
       ]
     },
     {
+      "name": "Computer Chat",
+      "admins": [
+        "Sidekick"
+      ],
+      "location": "USA",
+      "codebase": "ncohafmuta",
+      "dataOrigin": "rosen",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "The Concert",
+      "location": "USA",
+      "admins": [
+        "Shark"
+      ],
+      "codebase": "ncohafmuta",
+      "dataOrigin": "rosen",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gadget.newaygo.mi.us",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "The Club",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Mav"
+      ],
       "dataOrigin": "rosen",
       "screencaps": [],
       "textcaps": [],
@@ -3889,6 +4009,11 @@
           "blocked": true,
           "hostname": "vogue.anyland.com",
           "port": 3313
+        },
+        {
+          "blocked": true,
+          "hostname": "net2.intserv.com",
+          "port": 6075
         }
       ]
     },
@@ -4032,6 +4157,14 @@
     },
     {
       "name": "Jungle",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Ike",
+        "Melinda",
+        "Viper",
+        "Chip",
+        "Sunshine"
+      ],
       "location": "Mexico",
       "dataOrigin": "rosen",
       "screencaps": [],
@@ -4232,10 +4365,34 @@
       ]
     },
     {
+      "name": "Volcanic Isle",
+      "codebase": "joot",
+      "dataOrigin": "rosen",
+      "screencaps": [],
+      "location": "USA",
+      "admins": [
+        "Koala"
+      ],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "shell.acmenet.net",
+          "port": 7040
+        }
+      ]
+    },
+    {
       "name": "Way of the Force",
       "codebase": "ncohafmuta",
       "dataOrigin": "rosen",
       "screencaps": [],
+      "location": "USA",
+      "admins": [
+        "Thunder",
+        "Lightsabre"
+      ],
       "textcaps": [],
       "resources": [],
       "hosts": [
@@ -5538,7 +5695,39 @@
       ]
     },
     {
+      "name": "Pinwheels",
+      "codebase": "ncohafmuta",
+      "location": "USA",
+      "admins": [
+        "Cygnus"
+      ],
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.inxpress.net/~joelie/pinwheel.html"
+        },
+        {
+          "type": "email",
+          "url": "cygnus@misty.com"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "pw.misty.com",
+          "port": 5000
+        }
+      ]
+    },
+    {
       "name": "The Globe",
+      "codebase": "ncohafmuta",
+      "location": "USA",
+      "admins": [
+        "Touchstone"
+      ],
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
@@ -5549,6 +5738,10 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "talker.com",
+          "port": 9050
+        },
         {
           "hostname": "talker.com",
           "port": 9052
@@ -6266,6 +6459,12 @@
     {
       "name": "Journeys",
       "description": "Journeys is an all-ages talker based on travelling (Journeys :-). Everyone is welcome here to meet new people of all ages and backgrounds and enjoy themselves. Enjoy your Journeys!",
+      "location": "USA",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Gyrfalcon",
+        "Ulli"
+      ],
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
@@ -6283,6 +6482,10 @@
         {
           "hostname": "talker.com",
           "port": 8999
+        },
+        {
+          "hostname": "talker.com",
+          "port": 9000
         }
       ]
     },
@@ -7191,6 +7394,12 @@
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
+      "location": "USA",
+      "admins": [
+        "Oracle",
+        "Mickey",
+        "Delilah"
+      ],
       "resources": [
         {
           "type": "email",
@@ -7201,6 +7410,10 @@
         {
           "hostname": "talker.com",
           "port": 9990
+        },
+        {
+          "hostname": "talker.com",
+          "port": 9999
         }
       ]
     },
@@ -7224,10 +7437,36 @@
       ]
     },
     {
+      "name": "Land of Confusion",
+      "disambiguation": "Not to be confused with <a href=\"/details/state-of-confusion-university\" data-sveltekit-reload>State of Confusion University</a>.",
+      "codebase": "joot",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "admins": [
+        "Dirk",
+        "Rael",
+        "Cashew"
+      ],
+      "location": "USA",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "confusion.talkermud.com",
+          "port": 2500
+        }
+      ]
+    },
+    {
       "name": "State of Confusion University",
+      "disambiguation": "Not to be confused with <a href=\"/details/land-of-confusion\" data-sveltekit-reload>Land of Confusion</a>.",
       "codebase": "nuts",
       "dataOrigin": "talker.com",
       "screencaps": [],
+      "admins": [
+        "Deltazeta"
+      ],
+      "location": "USA",
       "textcaps": [],
       "resources": [
         {
@@ -7237,9 +7476,17 @@
         {
           "type": "website",
           "url": "http://www.talker.com/delta"
+        },
+        {
+          "type": "website",
+          "url": "http://dtc.net/~delta/scu.html"
         }
       ],
       "hosts": [
+        {
+          "hostname": "talker.com",
+          "port": 3500
+        },
         {
           "hostname": "talker.com",
           "port": 3501
@@ -7325,6 +7572,8 @@
     },
     {
       "name": "Soaring Emporium",
+      "codebase": "ztalker",
+      "location": "Norway",
       "dataOrigin": "greatbiglist",
       "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
       "screencaps": [],
@@ -7909,16 +8158,51 @@
       ]
     },
     {
-      "name": "Pern",
-      "dataOrigin": "spodlist",
+      "name": "The Farm",
+      "codebase": "joot",
+      "location": "USA",
+      "admins": [
+        "Murray",
+        "Europol"
+      ],
+      "dataOrigin": "greatbiglist",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
           "blocked": true,
+          "hostname": "shell.acmenet.net",
+          "port": 7010
+        }
+      ]
+    },
+    {
+      "name": "Pern",
+      "codebase": "joot",
+      "admins": [
+        "Cubby",
+        "Thangalin"
+      ],
+      "dataOrigin": "spodlist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.wonderd.com/pern/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
           "hostname": "pern.dhs.org",
           "port": 1234
+        },
+        {
+          "blocked": true,
+          "hostname": "sidhe.wonderd.com",
+          "port": 5000
         }
       ]
     },
@@ -8577,10 +8861,59 @@
       ]
     },
     {
+      "name": "The Slide",
+      "dataOrigin": "greatbiglist",
+      "location": "USA",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Siglite"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://patriot.net/~siglite/slide.html"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "patriot.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "The Polyester Lounge",
+      "dataOrigin": "greatbiglist",
+      "location": "USA",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Both"
+      ],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gobears.berkeley.edu",
+          "port": 6666
+        }
+      ]
+    },
+    {
       "name": "Pod's Inn",
       "dataOrigin": "greatbiglist",
       "description": "Pod's Inn is a JOOT based talker that welcome users of all ages. We are striving to have a good talker that will welcome new users, and make them feel at home! We would appreciate your stopping by, and giving us a try. And tell them Footsie personaly invited you! I am there quite often. I'd be glad to see you! Thanks :)",
+      "location": "USA",
       "codebase": "joot",
+      "admins": [
+        "Podsim",
+        "Kayla",
+        "Ginger"
+      ],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
