@@ -47,6 +47,7 @@ export type Talker = {
   ewtooAbbr?: string;
   hosts?: Array<Host>;
   name: string;
+  admins?: Array<string>;
   aka?: Array<string>;
   resources?: Array<Resource>;
   screencaps?: Array<string>;

@@ -378,6 +378,9 @@
     },
     {
       "name": "Mope Mansions",
+      "admins": [
+        "moopet"
+      ],
       "dataOrigin": "spodlist",
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
       "codebase": "sensisummink",
@@ -1780,6 +1783,10 @@
     },
     {
       "name": "Amnesia House",
+      "admins": [
+        "Blimey",
+        "Doolittle"
+      ],
       "dataOrigin": "spodlist",
       "codebase": "talker",
       "screencaps": [
@@ -1813,6 +1820,11 @@
         {
           "blocked": true,
           "hostname": "amnesiahouse.org",
+          "port": 2222
+        },
+        {
+          "blocked": true,
+          "hostname": "ah.cannock.ac.uk",
           "port": 2222
         },
         {
@@ -4221,11 +4233,17 @@
     },
     {
       "name": "Way of the Force",
+      "codebase": "ncohafmuta",
       "dataOrigin": "rosen",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "interport.net",
