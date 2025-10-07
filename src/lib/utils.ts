@@ -45,9 +45,7 @@ export function getTalkerSlug(talker: Talker): string {
 }
 
 export function findTalkerBySlug(slug: string): Talker {
-  console.log(`looking for ${slug}`);
   const explicitSlugMatch = talkers.find(talker => talker?.slug === slug);
-  console.log({explicitSlugMatch});
 
   if (explicitSlugMatch) {
     return explicitSlugMatch;
@@ -59,6 +57,5 @@ export function findTalkerBySlug(slug: string): Talker {
     return [talkerSlug, talkerSlug.replace(/^the-/, '')].includes(slug);
   });
 
-  console.log({talker});
   return talker;
 }
