@@ -10,6 +10,12 @@
 
 <style>
 footer {
+  border-inline-start-width: 0;
+  border-inline-end-width: 0;
+  border-block-start-width: 1px; 
+  border-block-end-width: 0;
+  border-color: var(--border-color);
+  border-style: solid;
   padding-block-start: 3rem;
   padding-block-end: 3rem;
   text-align: center;
