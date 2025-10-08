@@ -296,6 +296,13 @@
       "platform": "*nix"
     },
     {
+      "shortName": "sinco",
+      "family": "ncohafmuta",
+      "name": "Sinco",
+      "language": "C",
+      "platform": "*nix"
+    },
+    {
       "shortName": "ewtoo",
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
@@ -607,7 +614,9 @@
     {
       "name": "Forgotten Isle",
       "disambiguation": "Not to be confused with <a href=\"/details/forgotten-island\" data-sveltekit-reload>Forgotten Island</a>.",
-      "codebase": "joot",
+      "review": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/dragons-isle\">Dragon's Isle</a>.",
+      "adult": true,
+      "codebase": "sinco",
       "admins": [
         "Europol",
         "Whisper",
@@ -619,10 +628,19 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://forgottenisle.net"
+        },
+        {
+          "type": "website",
           "url": "http://www.geocities.com/Broadway/1536/fi.html"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "forgottenisle.net",
+          "port": 7020
+        },
         {
           "blocked": true,
           "hostname": "shell.acmenet.net",
@@ -8927,6 +8945,8 @@
     },
     {
       "name": "Dragon's Isle",
+      "slug": "dragons-isle",
+      "review": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
       "dataOrigin": "",
       "resources": [
         {
