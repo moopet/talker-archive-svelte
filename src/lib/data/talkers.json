@@ -415,12 +415,43 @@
     },
     {
       "name": "Addicted",
+      "disambiguation": "Not to be confused with <a href=\"/details/addictive\" data-sveltekit-reload>Addictive</a>.",
       "resources": [],
       "hosts": [
         {
           "blocked": true,
           "hostname": "sun1.gwent.ac.uk",
           "port": 6666
+        }
+      ]
+    },
+    {
+      "name": "Addictive",
+      "disambiguation": "Not to be confused with <a href=\"/details/addicted\" data-sveltekit-reload>Addicted</a>.",
+      "dataOrigin": "greatbiglist",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lod.com",
+          "port": 9090
+        }
+      ]
+    },
+    {
+      "name": "Alcatraz",
+      "dataOrigin": "greatbiglist",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~charming"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 7777
         }
       ]
     },
@@ -480,6 +511,11 @@
         },
         {
           "blocked": true,
+          "hostname": "atlantis.talkers.uk.com",
+          "port": 5050
+        },
+        {
+          "blocked": true,
           "hostname": "yuss.org",
           "port": 5050
         }
@@ -505,7 +541,22 @@
       ]
     },
     {
+      "name": "The Wilderness",
+      "disambiguation": "Not to be confused with <a href=\"/details/wilderness-chat\" data-sveltekit-reload>Wilderness Chat</a>.",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.135.49.8",
+          "port": 1414
+        }
+      ]
+    },
+    {
       "name": "Wilderness Chat",
+      "disambiguation": "Not to be confused with <a href=\"/details/wilderness\" data-sveltekit-reload>The Wilderness</a>.",
       "codebase": "cams",
       "screencaps": [],
       "textcaps": [],
@@ -614,7 +665,7 @@
     {
       "name": "Forgotten Isle",
       "disambiguation": "Not to be confused with <a href=\"/details/forgotten-island\" data-sveltekit-reload>Forgotten Island</a>.",
-      "review": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/dragons-isle\">Dragon's Isle</a>.",
+      "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/dragons-isle\">Dragon's Isle</a>.",
       "adult": true,
       "codebase": "sinco",
       "admins": [
@@ -1092,6 +1143,10 @@
       ],
       "hosts": [
         {
+          "hostname": "cult.talkers.org",
+          "port": 6666
+        },
+        {
           "hostname": "cult.meep.org",
           "port": 6666
         }
@@ -1540,12 +1595,17 @@
       "screencaps": [
         "login/ewtoo.org_5252.png"
       ],
+      "notes": "This talker was found listed under the name \"unknown\" but it's possible mutliple talkers share this name.",
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
           "hostname": "ewtoo.org",
           "port": 5252
+        },
+        {
+          "hostname": "newt.vallnet.com",
+          "port": 4040
         }
       ]
     },
@@ -1612,7 +1672,7 @@
       ]
     },
     {
-      "name": "Vineyard",
+      "name": "The Vineyard",
       "location": "USA",
       "dataOrigin": "user",
       "codebase": "ewtoo",
@@ -1621,10 +1681,19 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://www.thevineyard.org"
+        },
+        {
+          "type": "website",
           "url": "http://gstv.gsu.edu/vineyard/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "thevineyard.org",
+          "port": 4242
+        },
         {
           "blocked": true,
           "hostname": "207.89.0.40.",
@@ -1743,12 +1812,20 @@
         {
           "type": "website",
           "url": "http://www.compsoc.man.ac.uk/~seph/tombframe.html"
+        },
+        {
+          "type": "website",
+          "url": "http://tombstone.base.org"
         }
       ],
       "hosts": [
         {
           "hostname": "andromeda.mt.ic.ac.uk",
           "port": 3000
+        },
+        {
+          "hostname": "tombstone.ml.org",
+          "port": 1860
         }
       ]
     },
@@ -2286,14 +2363,24 @@
     {
       "name": "Eire",
       "dataOrigin": "spodlist",
+      "codebase": "pgplus",
       "screencaps": [
         "login/tb.yi.org_1221.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://eire.tb.dynip.com/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "tb.yi.org",
+          "port": 1221
+        },
+        {
+          "hostname": "tb.dynip.com",
           "port": 1221
         }
       ]
@@ -2314,6 +2401,10 @@
           "url": "http://www.geocities.com/athens/7001/index.html"
         },
         {
+          "type": "website",
+          "url": "http://www.geocities.com/TimesSquare/Lair/6665"
+        },
+        {
           "type": "email",
           "url": "ds@enyc.org.uk"
         }
@@ -2322,6 +2413,10 @@
         {
           "hostname": "ds.enyc.org.uk",
           "port": 8688
+        },
+        {
+          "hostname": "ds.mudservices.com",
+          "port": 2323
         },
         {
           "blocked": true,
@@ -2688,7 +2783,23 @@
       ]
     },
     {
+      "name": "Temple",
+      "disambiguation": "Not to be confused with <a href=\"/details/temple2k\" data-sveltekit-reload>Temple 2K</a>.",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lod.com",
+          "port": 2005
+        }
+      ]
+    },
+    {
       "name": "Temple 2K",
+      "disambiguation": "Not to be confused with <a href=\"/details/temple\" data-sveltekit-reload>Temple</a>.",
       "dataOrigin": "spodlist",
       "screencaps": [
         "login/temple2k.org_2222.png"
@@ -2843,6 +2954,10 @@
         {
           "type": "website",
           "url": "http://mba4.org/"
+        },
+        {
+          "type": "website",
+          "url": "http://www.alpha4.com"
         }
       ],
       "screencaps": [],
@@ -2850,6 +2965,10 @@
       "hosts": [
         {
           "hostname": "mba4.org",
+          "port": 3214
+        },
+        {
+          "hostname": "alpha4.com",
           "port": 3214
         },
         {
@@ -2907,6 +3026,18 @@
         {
           "hostname": "cubanbar.hochstenbach.net",
           "port": 1234
+        }
+      ]
+    },
+    {
+      "name": "Mayhem",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "bungle.spods.dcs.kcl.ac.uk",
+          "port": 6666
         }
       ]
     },
@@ -3316,14 +3447,14 @@
     },
     {
       "name": "The Dominion",
-      "review": "The Dominion was run from from 28/09/1996 to 06/01/2004 by MushyPea.",
+      "notes": "The Dominion was run from from 28/09/1996 to 06/01/2004 by MushyPea.",
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
           "type": "website",
-          "url": "http://dominion.net.uk/"
+          "url": "http://www.dominion.net.uk/"
         }
       ],
       "hosts": [
@@ -3369,6 +3500,19 @@
         {
           "hostname": "tg.spods.dcs.kcl.ac.uk",
           "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Tulac",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "etwoo.org",
+          "port": 5600
         }
       ]
     },
@@ -3470,9 +3614,10 @@
     {
       "name": "Valdemar",
       "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
-      "review": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
+      "notes": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
       "dataOrigin": "galaxy",
       "ewtooAbbr": "Val",
+      "codebase": "pgplus",
       "screencaps": [
         "login/valdemar.org_2345.png"
       ],
@@ -3488,12 +3633,21 @@
         },
         {
           "type": "website",
+          "url": "http://valdemar.ewtoo.org"
+        },
+        {
+          "type": "website",
           "url": "http://www.valdemar.org"
         }
       ],
       "hosts": [
         {
           "hostname": "valdemar.org",
+          "port": 2345
+        },
+        {
+          "blocked": true,
+          "hostname": "valdemar.ewtoo.org",
           "port": 2345
         },
         {
@@ -3565,7 +3719,12 @@
         "login/whispers.org_4000.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.zipcon.net/ciaran/whispers"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -3866,6 +4025,9 @@
     },
     {
       "name": "Ansalon",
+      "aka": [
+        "Lands of Ansalon"
+      ],
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
@@ -3911,6 +4073,10 @@
         {
           "type": "website",
           "url": "http://w3.one.net/~strycher/asylum.html"
+        },
+        {
+          "type": "website",
+          "url": "http://francis.ads.uga.edu/Asylum"
         }
       ],
       "hosts": [
@@ -3922,6 +4088,11 @@
         {
           "blocked": true,
           "hostname": "premis.lod.com",
+          "port": 4242
+        },
+        {
+          "blocked": true,
+          "hostname": "asylum.ewtoo.org",
           "port": 4242
         }
       ]
@@ -3958,6 +4129,7 @@
     {
       "name": "The City",
       "dataOrigin": "rosen",
+      "notes": "The City and The City II ran on the same host and port, so are possibly continuations of one another.",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -3971,6 +4143,26 @@
           "blocked": true,
           "hostname": "toybox.infomagic.com",
           "port": 4567
+        }
+      ]
+    },
+    {
+      "name": "Civil Anarchy ][",
+      "slug": "civil-anarchy",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.infomagic.com/~city"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "joelville.muc.edu",
+          "port": 2010
         }
       ]
     },
@@ -4032,6 +4224,39 @@
           "blocked": true,
           "hostname": "net2.intserv.com",
           "port": 6075
+        }
+      ]
+    },
+    {
+      "name": "The Cruise",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.aston.ac.uk/~raithbsj/cruise/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ohms.electronic.co.uk",
+          "port": 4242 
+        }
+      ]
+    },
+    {
+      "name": "The Crusade",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lod.com",
+          "port": 9999
         }
       ]
     },
@@ -4338,6 +4563,10 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://www.interstellar-designs.com/snowcrash"
+        },
+        {
+          "type": "website",
           "url": "http://www.rsabbs.com/snow/"
         }
       ],
@@ -4345,6 +4574,11 @@
         {
           "blocked": true,
           "hostname": "syrinx.rsabbs.com",
+          "port": 2112
+        },
+        {
+          "blocked": true,
+          "hostname": "kharduin.net",
           "port": 2112
         }
       ]
@@ -4630,6 +4864,34 @@
       ]
     },
     {
+      "name": "Cemetary Gates",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.mozdom.com",
+          "port": 2113
+        }
+      ]
+    },
+    {
+      "name": "Cerulian Skies",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "starpilot.com",
+          "port": 4242
+        }
+      ]
+    },
+    {
       "name": "Caliburn",
       "dataOrigin": "rosen",
       "screencaps": [],
@@ -4788,6 +5050,20 @@
           "blocked": true,
           "hostname": "darkstar.cortland.edu",
           "port": 4242
+        }
+      ]
+    },
+    {
+      "name": "Cheese Factory",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "endor.cfni.com",
+          "port": 2222
         }
       ]
     },
@@ -5052,7 +5328,12 @@
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://dm.trica.com"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5124,11 +5405,23 @@
     },
     {
       "name": "Dragon's Lair",
+      "slug": "dragons-lair",
+      "codebase": "pgplus",
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.angelfire.com/mt/DragonsLair"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dragonslair.talker.com",
+          "port": 3131
+        },
         {
           "blocked": true,
           "hostname": "rivendel.com",
@@ -5141,7 +5434,12 @@
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://dream.custard.org"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5197,6 +5495,10 @@
           "port": 7777
         },
         {
+          "hostname": "fantasy.eni.net",
+          "port": 3333
+        },
+        {
           "hostname": "cachenet.com",
           "port": 5050
         }
@@ -5204,6 +5506,7 @@
     },
     {
       "name": "Fear The Penguin",
+      "codebase": "sensisummink",
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
@@ -5213,6 +5516,20 @@
           "blocked": true,
           "hostname": "whispers.org",
           "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "50 Miles Underground",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "50miles.thegeek.net",
+          "port": 5050
         }
       ]
     },
@@ -5227,6 +5544,20 @@
           "blocked": true,
           "hostname": "freehold.signwave.com",
           "port": 1313
+        }
+      ]
+    },
+    {
+      "name": "Funny Farm",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.168.112.78",
+          "port": 3030
         }
       ]
     },
@@ -5398,7 +5729,23 @@
       ]
     },
     {
+      "name": "The Mansion",
+      "codebase": "pgplus",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "themansion.ml.org",
+          "port": 8080
+        }
+      ]
+    },
+    {
       "name": "Limbo",
+      "codebase": "pgplus",
       "dataorigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
@@ -5459,12 +5806,47 @@
       ]
     },
     {
+      "name": "Mirage",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 3303
+        }
+      ]
+    },
+    {
+      "name": "Misty Falls",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~drcow"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 4567
+        }
+      ]
+    },
+    {
       "name": "Milliways",
       "dataorigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "talkers.org",
+          "port": 9669
+        },
         {
           "hostname": "milliways.socomm.net",
           "port": 3000
@@ -5477,6 +5859,10 @@
     },
     {
       "name": "Monty Python's Flying Talker",
+      "slug": "mpft",
+      "aka": [
+        "MPFT"
+      ],
       "dataorigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
@@ -5500,6 +5886,46 @@
           "blocked": true,
           "hostname": "mpft.dhs.org",
           "port": 2010
+        }
+      ]
+    },
+    {
+      "name": "Next Millenium",
+      "codebase": "pgplus",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talkers.skl.com/~milenia"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 2544
+        }
+      ]
+    },
+    {
+      "name": "Necrolith",
+      "codebase": "pgplus",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.figz.com/~necrolith"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "figz.com",
+          "port": 2000
         }
       ]
     },
@@ -5531,14 +5957,71 @@
       ]
     },
     {
+      "name": "Project X",
+      "dataorigin": "greatbiglist",
+      "codebase": "pgplus",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "zipcon.net",
+          "port": 4444
+        }
+      ]
+    },
+    {
+      "name": "Pure Exxtacy",
+      "dataorigin": "greatbiglist",
+      "adult": true,
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "ncohafmuta.com",
+          "port": 7074
+        }
+      ]
+    },
+    {
+      "name": "Purple Goo",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://genesis.skl.com/~death"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "genesis.skl.com",
+          "port": 2292
+        }
+      ]
+    },
+    {
       "name": "Red Dwarf",
       "dataorigin": "amber",
+      "codebase": "playground",
       "ewtooAbbr": "RDW",
       "description": "Based on the TV program Red Dwarf",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
-      "hosts": []
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.rdw.org.uk"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "rdw.org.uk",
+          "port": 5000
+        }
+      ]
     },
     {
       "name": "The Metro Hotel",
@@ -5613,9 +6096,24 @@
       ]
     },
     {
+      "name": "Tel'aran'rhiod",
+      "slug": "tel-aran-rhiod",
+      "dataorigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "numb.selah.net",
+          "port": 4747
+        }
+      ]
+    },
+    {
       "name": "Terminus",
       "dataorigin": "amber",
       "description": "Good staff, great residents, excellent code, basically we're fantastic!",
+      "codebase": "pgplus",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5793,12 +6291,22 @@
       "dataOrigin": "greatbiglist",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.fly.net/~clouds/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "darkstar.cortland.edu",
           "port": 4242
+        },
+        {
+          "blocked": true,
+          "hostname": "clouds.megalinx.net",
+          "port": 5010
         }
       ]
     },
@@ -5895,7 +6403,7 @@
     },
     {
       "name": "Ancient Realms",
-      "review": "This talker was launched in 1995 and replaced in 1997 by <a data-sveltekit-reload href=\"/details/hall-of-the-silver-dragon\">Hall of the Silver Dragon</a>, which used the same code.",
+      "notes": "This talker was launched in 1995 and replaced in 1997 by <a data-sveltekit-reload href=\"/details/hall-of-the-silver-dragon\">Hall of the Silver Dragon</a>, which used the same code.",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5908,7 +6416,7 @@
     },
     {
       "name": "Hall of the Silver Dragon",
-      "review": "This talker was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>.",
+      "notes": "This talker was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>.",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6007,6 +6515,24 @@
         {
           "hostname": "falkor.hacks.arizona.edu",
           "port": 5000
+        },
+        {
+          "hostname": "dabirds.com",
+          "port": 4242
+        }
+      ]
+    },
+    {
+      "name": "Blue Juice",
+      "dataOrigin": "greatbiglist",
+      "codebase": "pgplus",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "bluejuice.ewtoo.org",
+          "port": 5559
         }
       ]
     },
@@ -6111,6 +6637,61 @@
         {
           "hostname": "talker.com",
           "port": 2614
+        }
+      ]
+    },
+    {
+      "name": "Sprawls",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.electronic.co.uk/~segtor/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "sprawls.electronic.co.uk",
+          "port": 2053
+        }
+      ]
+    },
+    {
+      "name": "Spy vs Spy",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://spyvsspy.dhs.org"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "fujit.cx",
+          "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "The Talker",
+      "slug": "the-talker",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.thetalker.org"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "thetalker.org",
+          "port": 4242
         }
       ]
     },
@@ -6272,6 +6853,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/cybercity"
+        },
+        {
+          "type": "website",
+          "url": "http://www.wild.net/~deo/cybercity.phtml"
         }
       ],
       "hosts": [
@@ -6323,6 +6908,7 @@
       ],
       "hosts": [
         {
+          "blocked": "true",
           "hostname": "talker.com",
           "port": 6200
         }
@@ -6331,6 +6917,7 @@
     {
       "name": "Heaven",
       "description": "The heaven: el mejor chat en espaniol del mundo. :)",
+      "codebase": "pgplus",
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
@@ -6342,6 +6929,12 @@
       ],
       "hosts": [
         {
+          "blocked": "true",
+          "hostname": "dune.net",
+          "port": 5555
+        },
+        {
+          "blocked": "true",
           "hostname": "talker.com",
           "port": 7770
         }
@@ -6655,6 +7248,10 @@
         },
         {
           "type": "website",
+          "url": "http://pdisland.eni.net"
+        },
+        {
+          "type": "website",
           "url": "http://www.talker.com/paradiseisland"
         },
         {
@@ -6664,8 +7261,14 @@
       ],
       "hosts": [
         {
+          "hostname": "pdisland.eni.net",
+          "port": 9999,
+          "blocked": true
+        },
+        {
           "hostname": "talker.com",
-          "port": 9257
+          "port": 9257,
+          "blocked": true
         },
         {
           "hostname": "stardust.mcs.clarkson.edu",
@@ -7029,6 +7632,10 @@
         {
           "hostname": "talker.com",
           "port": 7500
+        },
+        {
+          "hostname": "134.241.143.4",
+          "port": 5000
         }
       ]
     },
@@ -7290,7 +7897,7 @@
       "name": "Silver Circle",
       "location": "USA",
       "description": "Silver Circle is a highly modified PG96 talker aimed at Wiccans, Pagans and spiritually open minded people on the internet. Our goal is to share ideas, thoughts, wisdom, laughs and some good times. Silver Circle also serves as a stepping stone and as a source of a wealth of information for those who seek information about Paganism and Wicca. We are open to people of all paths; the only thing we ask is that you have an open mind.",
-      "codebase": "ewtoo",
+      "codebase": "pg96",
       "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
@@ -7298,6 +7905,10 @@
         {
           "type": "website",
           "url": "http://www.geocities.com/Athen/7422/"
+        },
+        {
+          "type": "website",
+          "url": "http://www3.sympatico.ca/lucg/silvercircle.html"
         },
         {
           "type": "email",
@@ -7315,6 +7926,11 @@
         },
         {
           "hostname": "cachenet.com",
+          "port": 1919,
+          "blocked": true
+        },
+        {
+          "hostname": "talker.com",
           "port": 1919,
           "blocked": true
         }
@@ -7342,11 +7958,19 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "website",
+          "url": "http://www.shadowrealms.org"
+        },
+        {
           "type": "email",
           "url": "shadows@talker.com"
         }
       ],
       "hosts": [
+        {
+          "hostname": "shadowrealms.org",
+          "port": 2323
+        },
         {
           "hostname": "talker.com",
           "port": 7070
@@ -7451,6 +8075,33 @@
         {
           "hostname": "talker.com",
           "port": 2550
+        }
+      ]
+    },
+    {
+      "name": "Remote Control",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "benden.erols.com",
+          "port": 6666
+        }
+      ]
+    },
+    {
+      "name": "Serentiy",
+      "codebase": "pgplus",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "amber.org.uk",
+          "port": 2307
         }
       ]
     },
@@ -7996,6 +8647,10 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://dotuk.org.uk/~dotuk"
+        },
+        {
+          "type": "website",
           "url": "http://bungle.spods.dcs.kcl.ac.uk/~dotuk"
         }
       ],
@@ -8039,6 +8694,25 @@
         {
           "hostname": "ewtoo.org",
           "port": 5252
+        }
+      ]
+    },
+    {
+      "name": "Gateway: St Louis at Night",
+      "slug": "gateway-st-louis-at-night",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.talker.com/gateway"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "gateway.talker.com",
+          "port": 8770
         }
       ]
     },
@@ -8192,6 +8866,20 @@
           "blocked": true,
           "hostname": "shell.acmenet.net",
           "port": 7010
+        }
+      ]
+    },
+    {
+      "name": "The Phantom Menace",
+      "dataOrigin": "greatbiglist",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "amber.org.uk",
+          "port": 2468
         }
       ]
     },
@@ -8845,7 +9533,7 @@
     },
     {
       "name": "Hectic House",
-      "review": "The first NUTS talker, from 1992.",
+      "notes": "The first NUTS talker, from 1992.",
       "codebase": "nuts",
       "dataOrigin": "",
       "resources": [
@@ -8946,7 +9634,7 @@
     {
       "name": "Dragon's Isle",
       "slug": "dragons-isle",
-      "review": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
+      "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
       "dataOrigin": "",
       "resources": [
         {
@@ -8989,7 +9677,7 @@
     },
     {
       "name": "Weave's World",
-      "review": "Weave's World ran from 1996 to 2001, hosted on a 486.<br>Read more on <a href=\"http://deater.net/weave/cool/talker.html\">Vince Weaver's homepage</a>.",
+      "notes": "Weave's World ran from 1996 to 2001, hosted on a 486.<br>Read more on <a href=\"http://deater.net/weave/cool/talker.html\">Vince Weaver's homepage</a>.",
       "codebase": "vints",
       "dataOrigin": "",
       "resources": [
@@ -9087,6 +9775,25 @@
       "dataOrigin": "greatbiglist"
     },
     {
+      "name": "The Dark Abyss",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://thedarkabyss.org"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "thedarkabyss.talker.com",
+          "port": 4444,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
       "name": "Da Luv Thing",
       "location": "UK",
       "resources": [
@@ -9096,6 +9803,11 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "dlt.tcat.ac.uk",
+          "port": 1708,
+          "blocked": true
+        },
         {
           "hostname": "phymat.bham.ac.uk",
           "port": 1708,
@@ -9433,13 +10145,71 @@
       "dataOrigin": "greatbiglist"
     },
     {
-      "name": "Immortal Realm",
+      "name": "Inferno",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://inferno.talkers.org/~inferno"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "inferno.talkers.org",
+          "port": 8086,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Immortal Realms",
       "location": "USA",
       "resources": [],
       "hosts": [
         {
           "hostname": "wtower.com",
           "port": 2010,
+          "blocked": true
+        },
+        {
+          "hostname": "realms.org",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "KnightMare",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "bird.ml.org",
+          "port": 1266,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "Knight's Chamber",
+      "slug": "knights-chamber",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://surf.to/scoobydoo"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "tb.dynip.com",
+          "port": 5252,
           "blocked": true
         }
       ],
@@ -9460,6 +10230,20 @@
         {
           "hostname": "adams.bathl.westnet.net.uk",
           "port": 4040,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
+      "name": "The Jyhad",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "crust.flevel.co.uk",
+          "port": 6666,
           "blocked": true
         }
       ],
@@ -9901,6 +10685,25 @@
       "dataOrigin": "greatbiglist"
     },
     {
+      "name": "Pale Moon",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.talker.com/palemoon"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "talker.com",
+          "port": 9666,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
       "name": "Oyaron Hill",
       "location": "USA",
       "resources": [],
@@ -9919,10 +10722,20 @@
       "name": "Paradise",
       "disambiguation": "Not to be confused with <a href=\"/details/paradise-island\" data-sveltekit-reload>Paradise Island</a>.",
       "location": "USA",
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://paradise.spodnet.org"
+        }
+      ],
       "hosts": [
         {
           "hostname": "zipcon.net",
+          "port": 2010,
+          "blocked": true
+        },
+        {
+          "hostname": "paradise.spodnet.org",
           "port": 2010,
           "blocked": true
         },
@@ -9959,7 +10772,12 @@
     {
       "name": "Pirates",
       "location": "UK",
+      "dataOrigin": "greatbiglist",
       "resources": [
+        {
+          "type": "website",
+          "url": "http://www.pirates.org.uk"
+        },
         {
           "type": "website",
           "url": "http://goliath.mersinet.co.uk/~pirates/"
@@ -10133,6 +10951,11 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "rn101139.wcu.edu",
+          "port": 2112,
+          "blocked": true
+        },
         {
           "hostname": "empireone.net",
           "port": 6116,
@@ -10345,6 +11168,7 @@
     },
     {
       "name": "The Tower",
+      "description": "A Medieval Talker",
       "location": "",
       "resources": [
         {
@@ -10470,12 +11294,21 @@
         {
           "type": "website",
           "url": "http://www.ntrek.com/~clef/zoo.html"
+        },
+        {
+          "type": "website",
+          "url": "http://www.thezoo.org"
         }
       ],
       "hosts": [
         {
           "hostname": "jag.ntrek.com",
           "port": 2952,
+          "blocked": true
+        },
+        {
+          "hostname": "thezoo.org",
+          "port": 2222,
           "blocked": true
         }
       ],

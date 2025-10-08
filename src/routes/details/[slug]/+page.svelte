@@ -41,7 +41,7 @@
     return `Information presented here was - at least in part - sourced from ${link}.`;
   };
 
-  const { name, hosts = [], screencaps = [], textcaps = [], description, aka = [], review, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
+  const { name, hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
@@ -129,9 +129,9 @@
       <p class="aka">Also known as {aka.map(name => `"${name}"`).join(', ')}.</p>
     {/if}
 
-    {#if review}
-      <p class="review">
-        {@html review}
+    {#if notes}
+      <p class="notes">
+        {@html notes}
       </p>
     {/if}
 
@@ -203,7 +203,7 @@ section {
     margin-block-end: 0;
   }
 
-  .review {
+  .notes {
     padding-block-end: 1rem;
     border-inline-start-width: 0;
     border-inline-end-width: 0;
