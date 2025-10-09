@@ -5,10 +5,9 @@
   </div>
 
   <nav>
-    <a href="/">Home/Grid</a>
-    <a href="/list" title="All the talkers in list form">Talker list</a>
-    <a href="/resources">Resources</a>
-    <a href="/help">Help out</a>
+    <a href="/">Grid</a>
+    <a href="/list">List</a>
+    <a href="/about">About</a>
   </nav>
 </header>
 
