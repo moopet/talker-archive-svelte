@@ -1,19 +1,42 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import slugify from 'slugify';
+  import { formatDistanceToNow } from 'date-fns';
   import { getActiveTalkers } from '$lib/utils.ts';
+  import { talkers } from '$lib/data/talkers.json';
 
-  let results = [];
-  let loading = false;
-  let error = false;
+  let loading = $state(false);
+  let error = $state('');
+  let lastCheckedDate = $state(null);
+
+  let allTalkers = $state(talkers);
+  let activeTalkers = $state([]);
+
+  const sortedTalkers = talkers
+    .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));
 
   async function highlightActiveTalkers() {
     loading = true;
 
     try {
-      results = await getActiveTalkers();
+      const results = await getActiveTalkers();
+
+      activeTalkers = results.talkers;
+      lastCheckedDate = new Date(results.dateChecked);
+
+      const activeTalkerNames = activeTalkers.map(talker => talker.name);
+
+      allTalkers.forEach(talker => {
+        const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
+
+        if (match) {
+          talker.isActive = true;
+          talker.hostname = match.hostname;
+          talker.port = match.port;
+        }
+      });
     } catch (err) {
-      error = true;
+      error = err.message;
     }
 
     loading = false;
@@ -27,45 +50,79 @@
 <section>
   <h1>Talker Connectivity Checker</h1>
 
-  <p>
-    This tool checks connectivity with all the known talkers in the database.
-  </p>
-
   {#if error}
     <p class="error">There was an error fetching the data.</p>
-    <p>Sorry, it looks like the connectivity checker service is offline at the moment.</p>
-    <p>Come back and try again later or pester the maintainer, if you can find them.</p>
+    <p>
+      Sorry, it looks like the connectivity checker service is offline at the moment.<br>
+      Come back and try again later or pester the maintainer, if you can find them.
+    </p>
   {/if}
 
-  {#if results.dateChecked}
-    <h2>{results.talkers.length} <em>potentially</em> active talkers found</h2>
+  {#if lastCheckedDate}
+  <h2><span class="active-count">{activeTalkers.length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
 
-    <p>Last update: {results.dateChecked}</p>
+    <p>Last update: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}</p>
+  {/if}
 
-    <table>
-      <thead>
+  <table>
+    <thead>
+      <tr>
+        <th>Talker name</th>
+        <th>Address</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {#each allTalkers as talker}
         <tr>
-          <th>Talker name</th>
-          <th>Address</th>
-        </tr>
-      </thead>
+          <td><a href={`/details/${slugify(talker.name, { lower: true}).replace(/^the-/,'')}`}>{talker.name}</a></td>
 
-      <tbody>
-        {#each results.talkers as talker}
-          <tr>
-            <td><a href={`/details/${slugify(talker.name, { lower: true}).replace(/^the-/,'')}`}>{talker.name}</a></td>
-            <td>
+          <td>
+            {#if talker.isActive}
               <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
-            </td>
-          </tr>
-        {/each}
-      </tbody>
-    </table>
-  {/if}
+            {:else}
+              <span>n/a</span>
+            {/if}
+          </td>
+
+          {#if talker.isActive}
+            <td class="status-up">UP</td>
+          {:else}
+            <td class="status-down">DOWN</td>
+          {/if}
+        </tr>
+      {/each}
+    </tbody>
+  </table>
 </section>
 
 <style>
   .error {
     color: red;
+  }
+
+  .active-count {
+    background-color: var(--status-active-background-color);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .total-count {
+    font-weight: bold;
+  }
+
+  .status-up {
+    background-color: var(--status-active-background-color);
+    color: white;
+  }
+
+  .status-down {
+    color: var(--status-defunct-background-color);
+  }
+
+  td span {
+    opacity: 0.3;
   }
 </style>
