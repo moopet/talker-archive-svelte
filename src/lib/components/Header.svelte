@@ -5,7 +5,7 @@
   </div>
 
   <nav>
-    <a href="/list">Home</a>
+    <a href="/">Home</a>
     <a href="/list" title="All the talkers in list form">List</a>
     <a href="/resources">Resources</a>
   </nav>
