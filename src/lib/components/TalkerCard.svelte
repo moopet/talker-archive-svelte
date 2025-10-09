@@ -2,11 +2,11 @@
   import { onMount } from 'svelte';
   import type { TalkerCardProps } from '$lib/types';
   import slugify from 'slugify';
-  import { isTalkerActive } from '$lib/utils.ts';
+  import { getTalkerSlug, isTalkerActive } from '$lib/utils.ts';
 
   let { talker }: TalkerCardProps = $props();
 
-  const href = `/details/${slugify(talker.name, {lower: true})}`;
+  const href = `/details/${getTalkerSlug(talker)}`;
   const defaultImage = '/placeholder.png';
   const src = talker?.screencaps?.length ?? 0 > 0 ? `/screencaps/${talker.screencaps[0]}` : defaultImage;
 

@@ -41,7 +41,7 @@ export function getTalkerSlug(talker: Talker): string {
     return talker.slug;
   }
 
-  return slugify(talker.name, { lower: true }).replace(/^the-/, '');
+  return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/'/, '');
 }
 
 export function findTalkerBySlug(slug: string): Talker {
@@ -54,7 +54,7 @@ export function findTalkerBySlug(slug: string): Talker {
   const talker: Talker = talkers.find(talker => {
     const talkerSlug = slugify(talker.name, {lower: true});
 
-    return [talkerSlug, talkerSlug.replace(/^the-/, '')].includes(slug);
+    return [talkerSlug, talkerSlug.replace(/^the-/, '').replace(/'/, '')].includes(slug);
   });
 
   return talker;

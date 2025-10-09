@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
-  import { getActiveTalkers } from '$lib/utils.ts';
+  import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
   import { talkers } from '$lib/data/talkers.json';
 
   let loading = $state(false);
@@ -76,7 +76,7 @@
     <tbody>
       {#each allTalkers as talker}
         <tr>
-          <td><a href={`/details/${slugify(talker.name, { lower: true}).replace(/^the-/,'')}`}>{talker.name}</a></td>
+          <td><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
 
           <td>
             {#if talker.isActive}
