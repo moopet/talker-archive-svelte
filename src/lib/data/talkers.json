@@ -459,6 +459,7 @@
       "name": "Atlantis",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "atl",
+      "notes": "Originally based on Sensi-SumminkCoded, but extended heavily, first by Swish, and then later by Moopet, Atlantis was a smaller talker with a core of regulars who were prepared to put up with a lot of sarcasm and in-jokes - but it still welcomed newbies.",
       "codebase": "sensisummink",
       "resources": [
         {
