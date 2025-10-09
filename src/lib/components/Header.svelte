@@ -5,6 +5,8 @@
   </div>
 
   <nav>
+    <a href="/list">Home</a>
+    <a href="/list" title="All the talkers in list form">List</a>
     <a href="/resources">Resources</a>
   </nav>
 </header>
@@ -44,5 +46,6 @@ svg {
 
 a {
   display: inline-block;
+  margin-inline-start: 1.5rem;
 }
 </style>
