@@ -5,7 +5,7 @@
   import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
   import { talkers } from '$lib/data/talkers.json';
 
-  let loading = $state(false);
+  let loading = $state(true);
   let error = $state('');
   let lastCheckedDate = $state(null);
 
@@ -54,6 +54,7 @@
 
   {#if error}
     <p class="error">There was an error fetching the data.</p>
+
     <p>
       Sorry, it looks like the connectivity checker service is offline at the moment.<br>
       Come back and try again later or pester the maintainer, if you can find them.
@@ -61,7 +62,7 @@
   {/if}
 
   {#if lastCheckedDate}
-  <h2><span class="active-count">{activeTalkers.length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
+    <h2><span class="active-count">{activeTalkers.length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
 
     <p>Last update: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}</p>
   {/if}
@@ -88,13 +89,17 @@
             {/if}
           </td>
 
-          {#if talker.isActive}
-            <td class="status-up">UP</td>
+          {#if loading}
+              <td class="status-loading">...</td>
           {:else}
-            {#if talker.isClosed}
-              <td class="status-closed">CLOSED</td>
+            {#if talker.isActive}
+              <td class="status-up">UP</td>
             {:else}
-              <td class="status-down">DOWN</td>
+              {#if talker.isClosed}
+                <td class="status-closed">CLOSED</td>
+              {:else}
+                <td class="status-down">DOWN</td>
+              {/if}
             {/if}
           {/if}
         </tr>
