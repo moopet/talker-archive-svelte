@@ -390,7 +390,10 @@
     {
       "name": "Mope Mansions",
       "admins": [
-        "moopet"
+        "Moopet"
+      ],
+      "coders": [
+        "Moopet"
       ],
       "dataOrigin": "spodlist",
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
@@ -494,6 +497,10 @@
         "Moopet",
         "Nairn",
         "Sub"
+      ],
+      "coders": [
+        "Swish",
+        "Moopet"
       ],
       "screencaps": [
         "login/yuss.org_5050.png",
@@ -884,6 +891,9 @@
       "aka": [
         "Castle2k"
       ],
+      "admins": [
+        "Beaver"
+      ],
       "slug": "castle",
       "dataOrigin": "spodlist",
       "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
@@ -998,15 +1008,27 @@
     },
     {
       "name": "Central Perk",
+      "description": "Come and hang out with people from all over the world - virtually! Meet new people, share stories, experiences, and chat. Whether you want to escape reality or vent about it, there are always people around to relax and pass time with.<br>The friends at Central Perk are just like you! Looking for a talker where they can hang out and immerse themselves in conversations varying from the weather to the latest Friends episode, to spiritual and philosophical debates.",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
       "screencaps": [
-        "login/centralperk.us_2323.png",
-        "login/presidium.org_2222.png"
+        "login/centralperk.us_2323.png"
+      ],
+      "admins": [
+        "Monica",
+        "Rachel",
+        "Janice"
+      ],
+      "coders": [
+        "Chandler"
       ],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20060516143138/http://www.centralperk.us/"
+        },
         {
           "type": "website",
           "url": "http://centralperk.us"
@@ -1092,6 +1114,9 @@
     {
       "name": "Crazylands",
       "description": "CrazyLands is a cozy, secure talker with a friendly environment. Sure, sure...other talkers claim that they are the best, but we all know the truth. If you want to have fun being silly and talking to lots of interesting people all over the world, CrazyLands is the place to be.<br>Don't worry if you don't know what you're doing, our dedicated staff listen to suggestions and are always willing to help out. So what are you waiting for? Step inside and join the CrazyLands family.",
+      "admins": [
+        "Nexus"
+      ],
       "location": "Canada",
       "dataOrigin": "spodlist",
       "screencaps": [
@@ -1123,10 +1148,12 @@
           "port": 6969
         },
         {
+          "blocked": true,
           "hostname": "kdcol.com",
           "port": 6969
         },
         {
+          "blocked": true,
           "hostname": "crazylands.org",
           "port": 6969
         }
@@ -1294,6 +1321,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "draconic.fyremoon.net",
           "port": 2424
         }
@@ -1551,6 +1579,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "revivaltalker.com",
           "port": 7779
         },
@@ -1573,6 +1602,7 @@
     },
     {
       "name": "Reunion",
+      "location": "UK",
       "dataOrigin": "facebook",
       "codebase": "pgplus",
       "screencaps": [],
@@ -1591,6 +1621,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "reuniontalker.co.uk",
           "port": 4000
         }
@@ -1634,12 +1665,17 @@
     },
     {
       "name": "UglyMUG",
+      "description": "UglyMUG is an online, interactive, user-extensible world. It is the longest running in the UK.<br>Here people from around the world meet 24 hours a day, make friends, and form their own little communities. The landscape of Ugly is made of places that vary from the fantastic and enchanting, to the downright surreal and confusing. Ugly is not one specific game that can be described, rather it is a collection of the creative output of its players so it is constantly evolving.",
       "dataOrigin": "user",
       "screencaps": [
         "login/uglymug.org.uk_6239.png"
       ],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20250907165426/https://uglymug.org.uk/"
+        },
         {
           "type": "email",
           "url": "suggestions@uglymug.org.uk"
@@ -1651,6 +1687,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "uglymug.org.uk",
           "port": 6239
         }
@@ -1894,10 +1931,12 @@
           "port": 8000
         },
         {
+          "blocked": true,
           "hostname": "island.subnigra.com",
           "port": 8000
         },
         {
+          "blocked": true,
           "hostname": "island.ekto.org",
           "port": 8008
         }
@@ -1915,10 +1954,12 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "madrory.com",
           "port": 4444
         },
         {
+          "blocked": true,
           "hostname": "215.233.242.2",
           "port": 2323
         }
@@ -2977,6 +3018,10 @@
           "url": "mba4@mba4.org"
         },
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20240920095409/http://mba4.org/index.html"
+        },
+        {
           "type": "website",
           "url": "http://mba4.org/"
         },
@@ -2989,6 +3034,7 @@
       "textcaps": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "mba4.org",
           "port": 3214
         },
@@ -3596,13 +3642,28 @@
     },
     {
       "name": "Universe",
+      "description": "Theme: Our Universe!<br>The Big Bang marks the instant at which the universe began, when space and time came into existence and all the matter in the cosmos started to expand.",
       "screencaps": [
         "login/universe.tirsek.com_2631.png"
       ],
+      "admins": [
+        "Emmie",
+        "Ghostrider"
+      ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010301202003/http://universe.tirsek.com/"
+        },
+        {
+          "type": "website",
+          "url": "http://universe.tirsek.com"
+        }
+      ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "universe.tirsek.com",
           "port": 2631
         }
@@ -3673,6 +3734,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "valdemar.org",
           "port": 2345
         },
@@ -3724,6 +3786,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "vegas.cep.net",
           "port": 7979
         }
@@ -3739,6 +3802,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "western.mytalker.org",
           "port": 2010
         }
@@ -5892,6 +5956,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "talkers.skl.com",
           "port": 4567
         }
@@ -6031,6 +6096,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "zipcon.net",
           "port": 4444
         }
@@ -6045,6 +6111,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "ncohafmuta.com",
           "port": 7074
         }
@@ -6085,6 +6152,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "rdw.org.uk",
           "port": 5000
         }
@@ -6176,6 +6244,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "numb.selah.net",
           "port": 4747
         }
@@ -6309,6 +6378,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "pw.misty.com",
           "port": 5000
         }
@@ -6763,6 +6833,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "fujit.cx",
           "port": 4000
         }
@@ -6782,6 +6853,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "thetalker.org",
           "port": 4242
         }
@@ -8123,6 +8195,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "shadowrealms.org",
           "port": 2323
         },
@@ -9282,6 +9355,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "yerevan.acp.da.ru",
           "port": 4523
         }
@@ -9392,6 +9466,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "moomin.cs.ut.ee",
           "port": 2010
         }
