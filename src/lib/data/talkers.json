@@ -600,18 +600,28 @@
       "ewtooAbbr": "brigandine",
       "dataOrigin": "spodlist",
       "codebase": "pgplus",
+      "coders": [
+        "enyc",
+        "Sheer"
+      ],
+      "admins": [
+        "Briana",
+        "Scott"
+      ],
       "screencaps": [
         "login/brigandine.org_9390_4.png",
         "login/bandicoot.merseine.nu_9390_2.png",
         "login/bandicoot.merseine.nu_9390.png",
         "login/brigandine.org_9390_3.png",
         "login/brigandine.org_9390_5.png",
-        "login/brigandine.org_9390_6.png",
         "login/brigandine.org_9390_7.png",
         "login/brigandine.org_9390_8.png",
-        "login/brigandine.org_9390_9.png"
+        "login/brigandine.org_9390_9.png",
+        "login/brigandine_reconnect.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+          "login/brigandine_reconnect.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -5167,10 +5177,22 @@
     {
       "name": "Cheese Factory",
       "dataOrigin": "greatbiglist",
-      "screencaps": [],
+      "admins": [
+        "Nachoman",
+        "McBain",
+        "Jaycee"
+      ],
+      "screencaps": [
+        "login/darkstar.cortland.edu_2222.png"
+      ],
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkstar.cortland.edu",
+          "port": 2222
+        },
         {
           "blocked": true,
           "hostname": "endor.cfni.com",
