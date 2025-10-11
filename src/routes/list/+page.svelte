@@ -29,6 +29,8 @@
       allTalkers.forEach(talker => {
         const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
 
+        talker.isClosed = talker.hosts.every(h => h?.blocked);
+
         if (match) {
           talker.isActive = true;
           talker.hostname = match.hostname;
@@ -89,7 +91,11 @@
           {#if talker.isActive}
             <td class="status-up">UP</td>
           {:else}
-            <td class="status-down">DOWN</td>
+            {#if talker.isClosed}
+              <td class="status-closed">CLOSED</td>
+            {:else}
+              <td class="status-down">DOWN</td>
+            {/if}
           {/if}
         </tr>
       {/each}
@@ -111,6 +117,10 @@
 
   .total-count {
     font-weight: bold;
+  }
+
+  .status-closed {
+    color: #555;
   }
 
   .status-up {

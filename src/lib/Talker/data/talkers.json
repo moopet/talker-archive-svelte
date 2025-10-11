@@ -390,10 +390,7 @@
     {
       "name": "Mope Mansions",
       "admins": [
-        "Moopet"
-      ],
-      "coders": [
-        "Moopet"
+        "moopet"
       ],
       "dataOrigin": "spodlist",
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
@@ -497,10 +494,6 @@
         "Moopet",
         "Nairn",
         "Sub"
-      ],
-      "coders": [
-        "Swish",
-        "Moopet"
       ],
       "screencaps": [
         "login/yuss.org_5050.png",
@@ -891,9 +884,6 @@
       "aka": [
         "Castle2k"
       ],
-      "admins": [
-        "Beaver"
-      ],
       "slug": "castle",
       "dataOrigin": "spodlist",
       "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
@@ -1008,27 +998,15 @@
     },
     {
       "name": "Central Perk",
-      "description": "Come and hang out with people from all over the world - virtually! Meet new people, share stories, experiences, and chat. Whether you want to escape reality or vent about it, there are always people around to relax and pass time with.<br>The friends at Central Perk are just like you! Looking for a talker where they can hang out and immerse themselves in conversations varying from the weather to the latest Friends episode, to spiritual and philosophical debates.",
       "dataOrigin": "spodlist",
       "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
       "screencaps": [
-        "login/centralperk.us_2323.png"
-      ],
-      "admins": [
-        "Monica",
-        "Rachel",
-        "Janice"
-      ],
-      "coders": [
-        "Chandler"
+        "login/centralperk.us_2323.png",
+        "login/presidium.org_2222.png"
       ],
       "textcaps": [],
       "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20060516143138/http://www.centralperk.us/"
-        },
         {
           "type": "website",
           "url": "http://centralperk.us"
@@ -1114,9 +1092,6 @@
     {
       "name": "Crazylands",
       "description": "CrazyLands is a cozy, secure talker with a friendly environment. Sure, sure...other talkers claim that they are the best, but we all know the truth. If you want to have fun being silly and talking to lots of interesting people all over the world, CrazyLands is the place to be.<br>Don't worry if you don't know what you're doing, our dedicated staff listen to suggestions and are always willing to help out. So what are you waiting for? Step inside and join the CrazyLands family.",
-      "admins": [
-        "Nexus"
-      ],
       "location": "Canada",
       "dataOrigin": "spodlist",
       "screencaps": [
@@ -1148,12 +1123,10 @@
           "port": 6969
         },
         {
-          "blocked": true,
           "hostname": "kdcol.com",
           "port": 6969
         },
         {
-          "blocked": true,
           "hostname": "crazylands.org",
           "port": 6969
         }
@@ -1173,12 +1146,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "cult.talkers.org",
           "port": 6666
         },
         {
-          "blocked": true,
           "hostname": "cult.meep.org",
           "port": 6666
         }
@@ -1321,7 +1292,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "draconic.fyremoon.net",
           "port": 2424
         }
@@ -1377,7 +1347,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "duskdawn.mytalker.org",
           "port": 4444
         }
@@ -1409,7 +1378,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 4321
         }
@@ -1579,7 +1547,6 @@
       "textcaps": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "revivaltalker.com",
           "port": 7779
         },
@@ -1602,7 +1569,6 @@
     },
     {
       "name": "Reunion",
-      "location": "UK",
       "dataOrigin": "facebook",
       "codebase": "pgplus",
       "screencaps": [],
@@ -1621,7 +1587,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "reuniontalker.co.uk",
           "port": 4000
         }
@@ -1638,12 +1603,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 5252
         },
         {
-          "blocked": true,
           "hostname": "newt.vallnet.com",
           "port": 4040
         }
@@ -1665,17 +1628,12 @@
     },
     {
       "name": "UglyMUG",
-      "description": "UglyMUG is an online, interactive, user-extensible world. It is the longest running in the UK.<br>Here people from around the world meet 24 hours a day, make friends, and form their own little communities. The landscape of Ugly is made of places that vary from the fantastic and enchanting, to the downright surreal and confusing. Ugly is not one specific game that can be described, rather it is a collection of the creative output of its players so it is constantly evolving.",
       "dataOrigin": "user",
       "screencaps": [
         "login/uglymug.org.uk_6239.png"
       ],
       "textcaps": [],
       "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20250907165426/https://uglymug.org.uk/"
-        },
         {
           "type": "email",
           "url": "suggestions@uglymug.org.uk"
@@ -1687,7 +1645,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "uglymug.org.uk",
           "port": 6239
         }
@@ -1712,7 +1669,6 @@
       "textcaps": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "orchid.warwick.ac.uk",
           "port": 2001
         }
@@ -1867,12 +1823,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "andromeda.mt.ic.ac.uk",
           "port": 3000
         },
         {
-          "blocked": true,
           "hostname": "tombstone.ml.org",
           "port": 1860
         }
@@ -1888,7 +1842,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "gadget.ewtoo.org",
           "port": 7000
         }
@@ -1931,12 +1884,10 @@
           "port": 8000
         },
         {
-          "blocked": true,
           "hostname": "island.subnigra.com",
           "port": 8000
         },
         {
-          "blocked": true,
           "hostname": "island.ekto.org",
           "port": 8008
         }
@@ -1954,12 +1905,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "madrory.com",
           "port": 4444
         },
         {
-          "blocked": true,
           "hostname": "215.233.242.2",
           "port": 2323
         }
@@ -1996,12 +1945,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "comatose.mytalker.org",
           "port": 9999
         },
         {
-          "blocked": true,
           "hostname": "mysterious.mytalker.org",
           "port": 9999
         }
@@ -2323,12 +2270,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2203
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2200
         }
@@ -2382,7 +2327,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4040
         },
@@ -2435,12 +2379,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "tb.yi.org",
           "port": 1221
         },
         {
-          "blocked": true,
           "hostname": "tb.dynip.com",
           "port": 1221
         }
@@ -2476,7 +2418,6 @@
           "port": 8688
         },
         {
-          "blocked": true,
           "hostname": "ds.mudservices.com",
           "port": 2323
         },
@@ -2562,7 +2503,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "shadowfax.surr.ac.uk"
         }
       ]
@@ -2713,7 +2653,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 4746
         }
@@ -2743,7 +2682,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 4242
         }
@@ -2772,12 +2710,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "wombat.tirsek.com",
           "port": 4000
         },
         {
-          "blocked": true,
           "hostname": "tmp.talkerhost.com",
           "port": 3000
         }
@@ -2906,7 +2842,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "themanor.org",
           "port": 4242
         }
@@ -2997,7 +2932,6 @@
           "port": 3131
         },
         {
-          "blocked": true,
           "hostname": "village.pb.net",
           "port": 5000
         }
@@ -3021,10 +2955,6 @@
           "url": "mba4@mba4.org"
         },
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20240920095409/http://mba4.org/index.html"
-        },
-        {
           "type": "website",
           "url": "http://mba4.org/"
         },
@@ -3037,17 +2967,14 @@
       "textcaps": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "mba4.org",
           "port": 3214
         },
         {
-          "blocked": true,
           "hostname": "alpha4.com",
           "port": 3214
         },
         {
-          "blocked": true,
           "hostname": "jumper.mcc.ac.uk",
           "port": 3214
         }
@@ -3112,7 +3039,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "bungle.spods.dcs.kcl.ac.uk",
           "port": 6666
         }
@@ -3233,7 +3159,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "spellcrafter.net",
           "port": 1418
         }
@@ -3572,12 +3497,10 @@
           "port": 5000
         },
         {
-          "blocked": true,
           "hostname": "137.73.8.13",
           "port": 5000
         },
         {
-          "blocked": true,
           "hostname": "tg.spods.dcs.kcl.ac.uk",
           "port": 5000
         }
@@ -3591,7 +3514,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "etwoo.org",
           "port": 5600
         }
@@ -3646,28 +3568,13 @@
     },
     {
       "name": "Universe",
-      "description": "Theme: Our Universe!<br>The Big Bang marks the instant at which the universe began, when space and time came into existence and all the matter in the cosmos started to expand.",
       "screencaps": [
         "login/universe.tirsek.com_2631.png"
       ],
-      "admins": [
-        "Emmie",
-        "Ghostrider"
-      ],
       "textcaps": [],
-      "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010301202003/http://universe.tirsek.com/"
-        },
-        {
-          "type": "website",
-          "url": "http://universe.tirsek.com"
-        }
-      ],
+      "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "universe.tirsek.com",
           "port": 2631
         }
@@ -3738,7 +3645,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "valdemar.org",
           "port": 2345
         },
@@ -3766,7 +3672,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "pioneer.nevada.edu",
           "port": 7000
         }
@@ -3790,7 +3695,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "vegas.cep.net",
           "port": 7979
         }
@@ -3806,7 +3710,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "western.mytalker.org",
           "port": 2010
         }
@@ -3946,7 +3849,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "nowhereland.dune.net",
           "port": 1234
         }
@@ -4091,7 +3993,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "abyss.talker.com",
           "port": 6669
         }
@@ -4136,7 +4037,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "pi.dune.net",
           "port": 7679
         }
@@ -4150,7 +4050,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 4000
         }
@@ -4164,7 +4063,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "morgon.dyndns.org"
         }
       ]
@@ -4505,8 +4403,6 @@
     },
     {
       "name": "Jungle",
-      "slug": "jungle",
-      "disambiguation": "Not to be confused with <a href=\"/details/the-jungle\" data-sveltekit-reload>The Jungle</a>.",
       "codebase": "ncohafmuta",
       "admins": [
         "Ike",
@@ -5044,12 +4940,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "zippy.spods.dcs.kcl.ac.uk",
           "port": 3000
         },
         {
-          "blocked": true,
           "hostname": "argoed.ilserv.com",
           "port": 3000
         }
@@ -5063,7 +4957,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "dark.x.dtu.dk"
         }
       ]
@@ -5101,7 +4994,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 6886
         }
@@ -5206,7 +5098,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "dune.net",
           "port": 6969
         }
@@ -5263,17 +5154,14 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 6660
         },
         {
-          "blocked": true,
           "hostname": "churchnet2.uscm.ac.uk",
           "port": 6660
         },
         {
-          "blocked": true,
           "hostname": "mamaclaus.opup.org",
           "port": 4242
         }
@@ -5297,7 +5185,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2340
         }
@@ -5312,7 +5199,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "206.245.154.72",
           "port": 8900
         }
@@ -5326,7 +5212,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "208.200.226.2",
           "port": 5000
         }
@@ -5341,12 +5226,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "cybercoven.com",
           "port": 9669
         },
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 9669
         }
@@ -5361,12 +5244,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8071
         },
         {
-          "blocked": true,
           "hostname": "phymat.bham.ac.uk",
           "port": 2111
         }
@@ -5423,12 +5304,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "208.200.226.2",
           "port": 3000
         },
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 9000
         }
@@ -5442,7 +5321,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 7890
         }
@@ -5509,7 +5387,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ekto.org",
           "port": 7070
         }
@@ -5601,7 +5478,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "cafe.mudservices.com",
           "port": 4567
         }
@@ -5618,17 +5494,14 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "fantasy.talkers.ws",
           "port": 7777
         },
         {
-          "blocked": true,
           "hostname": "fantasy.eni.net",
           "port": 3333
         },
         {
-          "blocked": true,
           "hostname": "cachenet.com",
           "port": 5050
         }
@@ -5741,7 +5614,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "tb.yi.org",
           "port": 5055
         }
@@ -5760,7 +5632,6 @@
           "port": 6969
         },
         {
-          "blocked": true,
           "hostname": "tb.yi.org",
           "port": 4321
         }
@@ -5842,7 +5713,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8008
         }
@@ -5856,7 +5726,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "legends.talker.com",
           "port": 6606
         }
@@ -5947,7 +5816,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talkers.skl.com",
           "port": 3303
         }
@@ -5966,7 +5834,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talkers.skl.com",
           "port": 4567
         }
@@ -5980,17 +5847,14 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talkers.org",
           "port": 9669
         },
         {
-          "blocked": true,
           "hostname": "milliways.socomm.net",
           "port": 3000
         },
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 5559
         }
@@ -6076,7 +5940,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "harmless.ewtoo.org",
           "port": 4242
         }
@@ -6091,7 +5954,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 9990
         }
@@ -6106,7 +5968,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "zipcon.net",
           "port": 4444
         }
@@ -6121,7 +5982,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ncohafmuta.com",
           "port": 7074
         }
@@ -6140,7 +6000,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "genesis.skl.com",
           "port": 2292
         }
@@ -6162,7 +6021,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "rdw.org.uk",
           "port": 5000
         }
@@ -6178,7 +6036,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 3456
         }
@@ -6194,7 +6051,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 3333
         }
@@ -6209,7 +6065,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 1200
         }
@@ -6224,7 +6079,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 4321
         }
@@ -6239,7 +6093,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 5555
         }
@@ -6254,7 +6107,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "numb.selah.net",
           "port": 4747
         }
@@ -6270,7 +6122,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 6556
         }
@@ -6286,7 +6137,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 1111
         }
@@ -6326,7 +6176,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 4242
         }
@@ -6341,7 +6190,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 9999
         }
@@ -6360,7 +6208,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4415
         }
@@ -6388,7 +6235,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "pw.misty.com",
           "port": 5000
         }
@@ -6412,12 +6258,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9050
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9052
         }
@@ -6482,7 +6326,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2707
         }
@@ -6507,7 +6350,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 5678
         }
@@ -6532,7 +6374,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8040
         }
@@ -6558,7 +6399,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4305
         }
@@ -6590,7 +6430,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "198.62.84.157",
           "port": 9889
         }
@@ -6611,7 +6450,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4113
         }
@@ -6665,7 +6503,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4400
         }
@@ -6679,12 +6516,10 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "falkor.hacks.arizona.edu",
           "port": 5000
         },
         {
-          "blocked": true,
           "hostname": "dabirds.com",
           "port": 4242
         }
@@ -6699,7 +6534,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "bluejuice.ewtoo.org",
           "port": 5559
         }
@@ -6720,7 +6554,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7050
         }
@@ -6744,7 +6577,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2535
         }
@@ -6763,7 +6595,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2222
         }
@@ -6784,7 +6615,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2112
         }
@@ -6808,7 +6638,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2614
         }
@@ -6827,7 +6656,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "sprawls.electronic.co.uk",
           "port": 2053
         }
@@ -6846,7 +6674,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "fujit.cx",
           "port": 4000
         }
@@ -6866,7 +6693,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "thetalker.org",
           "port": 4242
         }
@@ -6891,7 +6717,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 5000
         }
@@ -6912,7 +6737,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7577
         }
@@ -6937,7 +6761,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8001
         }
@@ -6962,7 +6785,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4605
         }
@@ -6986,12 +6808,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7414
         },
         {
-          "blocked": true,
           "hostname": "crimson.talker.com",
           "port": 7404
         }
@@ -7016,7 +6836,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 5150
         }
@@ -7024,16 +6843,9 @@
     },
     {
       "name": "Cyber City",
-      "location": "USA",
-      "aka": [
-        "CyberCity"
-      ],
       "description": "Cyber City is based on the theme of what it would be like if people actually lived in Cyberspace. it is set up very much like a city. This talker is open to all ages, so come on in and enjoy the fun!",
       "codebase": "nuts",
-      "dataOrigins": [
-        "talker.com",
-        "greatbiglist"
-      ],
+      "dataOrigin": "talker.com",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7052,14 +6864,8 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3030
-        },
-        {
-          "hostname": "lama.wild.net",
-          "port": 6969,
-          "blocked": true
         }
       ]
     },
@@ -7081,7 +6887,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9502
         }
@@ -7157,7 +6962,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4752
         }
@@ -7178,7 +6982,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3234
         }
@@ -7199,7 +7002,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7411
         }
@@ -7220,7 +7022,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3300
         }
@@ -7241,7 +7042,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9786
         }
@@ -7249,8 +7049,6 @@
     },
     {
       "name": "The Jungle",
-      "slug": "the-jungle",
-      "disambiguation": "Not to be confused with <a href=\"/details/jungle\" data-sveltekit-reload>Jungle</a>.",
       "description": "The Jungle is a fun and friendly place to chat!",
       "dataOrigin": "talker.com",
       "screencaps": [],
@@ -7267,7 +7065,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3050
         }
@@ -7297,12 +7094,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8999
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9000
         }
@@ -7326,7 +7121,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7010
         }
@@ -7351,7 +7145,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 5013
         }
@@ -7376,7 +7169,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7002
         }
@@ -7397,7 +7189,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4545
         }
@@ -7417,7 +7208,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8600
         }
@@ -7442,7 +7232,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4207
         }
@@ -7509,7 +7298,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3210
         }
@@ -7524,7 +7312,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "moink.nmsu.edu",
           "port": 8000
         }
@@ -7549,7 +7336,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7777
         }
@@ -7578,7 +7364,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7676
         }
@@ -7603,7 +7388,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9007
         }
@@ -7628,7 +7412,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8246
         }
@@ -7653,7 +7436,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 6050
         }
@@ -7672,7 +7454,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9002
         }
@@ -7697,7 +7478,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4279
         }
@@ -7762,7 +7542,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4567
         }
@@ -7782,7 +7561,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3307
         }
@@ -7807,7 +7585,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 6020
         }
@@ -7832,7 +7609,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2850
         }
@@ -7857,12 +7633,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7500
         },
         {
-          "blocked": true,
           "hostname": "134.241.143.4",
           "port": 5000
         }
@@ -7891,7 +7665,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 6666
         },
@@ -7923,12 +7696,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9797
         },
         {
-          "blocked": true,
           "hostname": "catskill.com",
           "port": 5000
         }
@@ -7949,7 +7720,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2574
         }
@@ -7974,7 +7744,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4260
         }
@@ -8000,7 +7769,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 6500
         }
@@ -8045,7 +7813,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3334
         }
@@ -8070,7 +7837,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8100
         }
@@ -8125,7 +7891,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8800
         }
@@ -8155,7 +7920,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9191
         },
@@ -8164,13 +7928,11 @@
           "port": 9191
         },
         {
-          "blocked": true,
           "hostname": "cachenet.com",
           "port": 1919,
           "blocked": true
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 1919,
           "blocked": true
@@ -8209,12 +7971,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "shadowrealms.org",
           "port": 2323
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 7070
         }
@@ -8239,7 +7999,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8200
         }
@@ -8268,7 +8027,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 5555
         }
@@ -8295,12 +8053,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9990
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 9999
         }
@@ -8320,7 +8076,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 2550
         }
@@ -8334,7 +8089,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "benden.erols.com",
           "port": 6666
         }
@@ -8349,7 +8103,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 2307
         }
@@ -8371,7 +8124,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "confusion.talkermud.com",
           "port": 2500
         }
@@ -8404,12 +8156,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3500
         },
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3501
         }
@@ -8438,7 +8188,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 4500
         }
@@ -8468,7 +8217,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 8080
         }
@@ -8554,7 +8302,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 6671
         }
@@ -8679,7 +8426,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "hivechat.net",
           "port": 6000
         }
@@ -8738,7 +8484,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "tangent.dune.net",
           "port": 8352
         }
@@ -8766,7 +8511,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 2000
         }
@@ -8793,17 +8537,14 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "helix.net",
           "port": 4040
         },
         {
-          "blocked": true,
           "hostname": "flames.trentu.ca",
           "port": 4040
         },
         {
-          "blocked": true,
           "hostname": "cn.talkers.org",
           "port": 4040
         }
@@ -8817,7 +8558,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "cnc.ewtoo.org",
           "port": 7111
         }
@@ -8919,12 +8659,10 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "zippy.spods.dcs.kcl.ac.uk",
           "port": 2131
         },
         {
-          "blocked": true,
           "hostname": "bungle.spods.dcs.kcl.ac.uk",
           "port": 6543
         },
@@ -8943,7 +8681,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "amber.org.uk",
           "port": 5000
         }
@@ -8958,7 +8695,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 5252
         }
@@ -8978,7 +8714,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "gateway.talker.com",
           "port": 8770
         }
@@ -9011,7 +8746,6 @@
           "port": 8888
         },
         {
-          "blocked": true,
           "hostname": "paintbox.dircon.co.uk",
           "port": 4040
         }
@@ -9086,7 +8820,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "172.16.1.240",
           "port": 4321
         }
@@ -9100,7 +8833,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "dune.net",
           "port": 4560
         }
@@ -9220,7 +8952,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "redclaw.org.uk",
           "port": 2000
         }
@@ -9304,7 +9035,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "mytalker.org",
           "port": 1111
         }
@@ -9374,7 +9104,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "yerevan.acp.da.ru",
           "port": 4523
         }
@@ -9430,7 +9159,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "cafe.ee"
         }
       ]
@@ -9471,7 +9199,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "euclid.earth.ox.ac.uk",
           "port": 23
         }
@@ -9486,7 +9213,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "moomin.cs.ut.ee",
           "port": 2010
         }
@@ -9507,7 +9233,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "mumu.oanet.com",
           "port": 4321
         }
@@ -9568,7 +9293,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "lara.dune.net"
         }
       ]
@@ -9609,7 +9333,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 3200
         }
@@ -9637,7 +9360,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "talker.com",
           "port": 6789
         }
@@ -9735,7 +9457,6 @@
       "textcaps": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "pl122d.eecs.lehigh.edu",
           "port": 6969
         }
@@ -10037,6 +9758,26 @@
       "dataOrigin": "greatbiglist"
     },
     {
+      "name": "CyberCity",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.wild.net/~deo/cybercity.phtml"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "lama.wild.net",
+          "port": 6969,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigin": "greatbiglist"
+    },
+    {
       "name": "The Dark Abyss",
       "resources": [
         {
@@ -10223,7 +9964,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "hal.sir.arizona.edu",
           "port": 5000
         }
@@ -10245,7 +9985,6 @@
           "blocked": true
         },
         {
-          "blocked": true,
           "hostname": "ewtoo.org",
           "port": 2222
         }
@@ -10365,7 +10104,6 @@
           "blocked": true
         },
         {
-          "blocked": true,
           "hostname": "204.186.5.29",
           "port": 2010
         }

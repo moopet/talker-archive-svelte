@@ -46,9 +46,9 @@
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
       alt: "",
-      name: `${item.hostname}:${item.port}`,
+      name: item?.port ? `${item.hostname}:${item.port}` : item.hostname,
       type: 'host',
-      url: `telnet:${item.hostname}:${item.port}`,
+      url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
       description: ""
     };
   });
