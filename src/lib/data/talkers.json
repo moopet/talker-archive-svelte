@@ -210,7 +210,7 @@
       "name": "ArIEN",
       "family": "nuts",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "amnuts",
@@ -219,7 +219,7 @@
       "description": "Andy's modified NUTS",
       "family": "nuts",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "mamnuts",
@@ -227,12 +227,12 @@
       "repo": "https://github.com/talkersource/mamnuts",
       "family": "nuts",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "cams",
       "name": "CAMS",
-      "plaform": "*nix"
+      "plaform": "UNIX/Linux"
     },
     {
       "shortName": "nuts",
@@ -240,7 +240,7 @@
       "description": "Neil's Unix Talk Server",
       "family": "nuts",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "retrobar",
@@ -255,14 +255,14 @@
       "name": "Tombstone",
       "family": "ewtoo",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "talkeros",
       "name": "TalkerOS",
       "family": "nuts",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "rnuts",
@@ -270,7 +270,7 @@
       "name": "rNUTS",
       "family": "nuts",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "talkernode",
@@ -285,7 +285,7 @@
       "name": "BOLTS",
       "language": "C",
       "family": "nuts",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "ncohafmuta",
@@ -293,27 +293,27 @@
       "family": "nuts",
       "name": "Ncohafmuta",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "sinco",
       "family": "ncohafmuta",
       "name": "Sinco",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "ewtoo",
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
-      "platform": "*nix",
+      "platform": "UNIX/Linux",
       "language": "C"
     },
     {
       "shortName": "pg96",
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground '96",
-      "platform": "*nix",
+      "platform": "UNIX/Linux",
       "family": "ewtoo",
       "language": "C"
     },
@@ -321,7 +321,7 @@
       "shortName": "pgplus",
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground+",
-      "platform": "*nix",
+      "platform": "UNIX/Linux",
       "family": "ewtoo",
       "language": "C"
     },
@@ -330,21 +330,21 @@
       "name": "Summink",
       "family": "ewtoo",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "sensipg",
       "name": "Sensi-Playground",
       "family": "ewtoo",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "sensisummink",
       "name": "Sensi-Summink",
       "family": "ewtoo",
       "language": "C",
-      "platform": "*nix"
+      "platform": "UNIX/Linux"
     },
     {
       "shortName": "talker",
@@ -356,7 +356,7 @@
       "shortName": "vints",
       "family": "NUTS",
       "name": "VINTS",
-      "platform": "*nix",
+      "platform": "UNIX/Linux",
       "language": "C"
     },
     {
