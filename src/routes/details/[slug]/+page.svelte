@@ -1,9 +1,10 @@
 <script lang="ts">
   import { page } from '$app/state';
   import slugify from 'slugify';
-  import type { Codebase, DataOrigin, Talker } from '$lib/types';
-  import { findTalkerBySlug } from '$lib/utils.ts';
-  import { codebases, dataOrigins, talkers } from '$lib/data/talkers.json';
+  import type { DataOrigin, Talker } from '$lib/types';
+  import { findTalkerBySlug, getNounArticle } from '$lib/utils.ts';
+  import { Codebase } from '$lib/Talker';
+  import { dataOrigins, talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
 
@@ -14,16 +15,22 @@
   const talker: Talker = findTalkerBySlug(page.params?.slug ?? "") ?? nullTalker;
 
   const getCodebaseDescription = (codebaseName: string): string => {
-    const codebase: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebaseName.toLowerCase());
+    const codebase = new Codebase(codebaseName);
 
     if (!codebase) {
-      return '';
+      return;
     }
 
-    let codebaseDescription: string = `The talker is (was?) based on the codebase, "${codebase.name}"`;
+    let codebaseDescription: string = `The talker is (was?) based on the codebase, ${codebase.getFormattedName()}`;
 
-    if (codebase?.family?.name) {
-      codebaseDescription += `, a ${codebase.family.name} derivative`;
+    if (codebase.family) {
+      const family = new Codebase(codebase.family);
+
+      codebaseDescription += `, ${getNounArticle(codebase.family)} ${family.getFormattedName()} derivative`;
+    }
+
+    if (codebase.platform || codebase.language) {
+      codebaseDescription += ` (${[codebase.language, codebase.platform].join(', ')})`
     }
 
     return `${codebaseDescription}.`;
@@ -101,7 +108,7 @@
 
   const heroImage = screencaps.length > 0 ? `/screencaps/${screencaps[0]}` : '/placeholder.png';
   const citation = getCitation(talker?.dataOrigin ?? '');
-  const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
+  const codebaseDescription = talker?.codebase ? getCodebaseDescription(talker.codebase) : undefined;
 </script>
 
 {#if talker}
@@ -137,7 +144,7 @@
 
     {#if codebaseDescription}
       <p>
-        {codebaseDescription}
+        {@html codebaseDescription}
       </p>
     {/if}
 
