@@ -41,37 +41,6 @@ const isValidPort = (port: number): boolean => {
   return Number.isInteger(port) && port >= 1 && port <= 65535;
 };
 
-const isKnownDefunctHost = (hostname: string): boolean => {
-  const patterns: RegExp[] = [
-    /\.ac\.uk$/,
-    /amber\.org\.uk$/,
-    /atlantis\.org$/,
-    /custard\.org$/,
-    /\.edu$/,
-    /\.edu\.au$/,
-    /ewtoo\.org$/,
-    /homeip\.net/,
-    /ilserv\.com$/,
-    /infomagic\.com$/,
-    /mopemansions\.org/,
-    /mytalker\.org$/,
-    /no-ip\.org/,
-    /offswn\.net$/,
-    /spod\.org$/,
-    /talker\.com$/,
-    /talkernet\.net$/,
-    /talkerhost\.com$/,
-    /talkers\.org$/,
-    /talkers\.ws$/,
-    /temple2k\.org/,
-    /themanor\.org$/,
-    /tirsek\.com$/,
-    /yuss\.org$/,
-  ];
-
-  return patterns.some(pattern => pattern.test(hostname));
-};
-
 const getAllPotentialHosts = (): Host[] => {
   return talkersData.talkers
     .filter(talker => talker?.hosts?.length > 0)
@@ -87,7 +56,6 @@ const getAllPotentialHosts = (): Host[] => {
     .filter(host => !host?.blocked)
     .filter(host => host?.hostname && host?.port)
     .filter(host => !isValidIPv4(host.hostname))
-    .filter(host => !isKnownDefunctHost(host.hostname))
     .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));
 };
 
