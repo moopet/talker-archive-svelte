@@ -18,6 +18,13 @@ export async function getActiveTalkers() {
   return await response.json();
 }
 
+export function getNounArticle(noun: string): string {
+  const initial = noun.toLowerCase()[0];
+  const vowelish = "aeiouy";
+
+  return vowelish.includes(initial) ? 'an' : 'a';
+}
+
 export async function isTalkerActive(talker: Talker): Promise<boolean> {
   const activeTalkers = await getActiveTalkers();
 
