@@ -141,6 +141,11 @@
       "name": "Facebook group chats"
     },
     {
+      "shortName": "kesey",
+      "name": "Kesey's Telnet Talker Links",
+      "link": "http://alg.dune.net/Telnet-Talker-Links.html"
+    },
+    {
       "shortName": "galaxy",
       "name": "Galaxy/einet :: Talkers",
       "link": "https://www.einet.net/dir68120/Talkers.htm"
@@ -390,7 +395,9 @@
     {
       "name": "Mope Mansions",
       "admins": [
-        "Moopet"
+        "Moopet",
+        "Excy",
+        "Lurker"
       ],
       "coders": [
         "Moopet"
@@ -419,8 +426,28 @@
     {
       "name": "Addicted",
       "disambiguation": "Not to be confused with <a href=\"/details/addictive\" data-sveltekit-reload>Addictive</a>.",
+      "textcreencaps": [
+        "login/addicted.notbbc.co.uk_4444.txt"
+      ],
+      "screencaps": [
+        "login/addicted.notbbc.co.uk_4444.png"
+      ],
+      "admins": [
+        "Boneist",
+        "Frogger"
+      ],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "addicted.notbbc.co.uk",
+          "port": 4444
+        },
+        {
+          "blocked": true,
+          "hostname": "mudhole.spodnet.uk.com",
+          "port": 4444
+        },
         {
           "blocked": true,
           "hostname": "sun1.gwent.ac.uk",
@@ -496,6 +523,7 @@
         "Smokey",
         "Moopet",
         "Nairn",
+        "Keyeri",
         "Sub"
       ],
       "coders": [
@@ -3294,6 +3322,10 @@
         {
           "hostname": "the-dating-game.net",
           "port": 5959
+        },
+        {
+          "hostname": "talker.com",
+          "port": 5959
         }
       ]
     },
@@ -3948,6 +3980,34 @@
       ]
     },
     {
+      "name": "General Hospital",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 6020
+        }
+      ]
+    },
+    {
+      "name": "Castle of Lost Dreams",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cold.agm.net",
+          "port": 5678
+        }
+      ]
+    },
+    {
       "name": "NoWhereLand",
       "screencaps": [],
       "textcaps": [],
@@ -4412,6 +4472,20 @@
           "blocked": true,
           "hostname": "cyberwaves.cgl.com",
           "port": 5500 
+        }
+      ]
+    },
+    {
+      "name": "CyberCiist",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "alfa.ist.utl.pt",
+          "port": 5555 
         }
       ]
     },
@@ -5029,6 +5103,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "caliburn.signwave.com",
+          "port": 8888
+        },
+        {
+          "blocked": true,
           "hostname": "user1.megalinx.net",
           "port": 8888
         }
@@ -5349,6 +5428,9 @@
     },
     {
       "name": "Cyber Eden",
+      "aka": [
+        "CyberEden"
+      ],
       "dataOrigin": "talkers.ws",
       "screencaps": [],
       "textcaps": [],
@@ -5358,6 +5440,20 @@
           "blocked": true,
           "hostname": "208.200.226.2",
           "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Cyber Manhatten",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4321
         }
       ]
     },
@@ -5445,6 +5541,9 @@
     },
     {
       "name": "Deep Space 9",
+      "aka": [
+        "Deep Space Nine"
+      ],
       "dataOrigin": "talkers.ws",
       "description": "Talker based on the popular Deep Space Nine",
       "screencaps": [],
@@ -5637,7 +5736,23 @@
       ]
     },
     {
+      "name": "Fantasy Island",
+      "disambiguation": "Not to be confused with <a href=\"/details/fantasy-land\" data-sveltekit-reload>Fantasy Land</a>.",
+      "dataOrigin": "talkers.ws",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasyisland.org",
+          "port": 7525
+        }
+      ]
+    },
+    {
       "name": "Fantasy Land",
+      "disambiguation": "Not to be confused with <a href=\"/details/fantasy-island\" data-sveltekit-reload>Fantasy Island</a>.",
       "aka": [
         "FantasyLand"
       ],
@@ -6469,6 +6584,11 @@
         {
           "blocked": true,
           "hostname": "talker.com",
+          "port": 2500
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
           "port": 2502
         }
       ]
@@ -6519,6 +6639,9 @@
     },
     {
       "name": "AfterDEATH",
+      "aka": [
+        "After Death"
+      ],
       "description": "A talker based on the theme 'What happens next?', you start off life (or whatever) as a Spirit, and if you're lucky, wind up an Angel or Demon with your own personal room. Once on, you can battle to the death (or whatever) in Valhalla with another user, have a few glasses of beer, or turn into a tap-dancing penguin for the amusement of others. If you're not feeling adventurous though, you can just talk to people. The only rules are no swearing and don't annoy other users. And don't ask for promotion. And no multiple accounts. And don't...",
       "codebase": "nuts",
       "dataOrigin": "talker.com",
@@ -6799,6 +6922,90 @@
       ]
     },
     {
+      "name": "Eden",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "msen.net",
+          "port": 6660
+        }
+      ]
+    },
+    {
+      "name": "East Bay",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "leodas.com",
+          "port": 4100
+        }
+      ]
+    },
+    {
+      "name": "Dyslexicon",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "chat.passport.ca",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Dolphin Cove",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dolphin.ju.edu",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Diversity University",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "moo.du.org",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "Bohemia",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mud.inna.net",
+          "port": 7000
+        }
+      ]
+    },
+    {
       "name": "The Black Cat",
       "codebase": "nuts",
       "description": "The Black Cat is a techno club for people who enjoy techno music and the Rave culture. All ages are welcome. But mature subjects only. Chat about your favorite artists, DJ's, or rekkids. Learn about upcoming parties, and meet many more people with your same interests.",
@@ -6812,6 +7019,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "joe.to",
+          "port": 7283
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -6927,6 +7139,20 @@
       ]
     },
     {
+      "name": "Castle Funky",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 6000
+        }
+      ]
+    },
+    {
       "name": "Candyland",
       "codebase": "nuts",
       "dataOrigin": "talker.com",
@@ -6940,6 +7166,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7575
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -6969,6 +7200,34 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 8001
+        }
+      ]
+    },
+    {
+      "name": "Crossroads TNG",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5150
+        }
+      ]
+    },
+    {
+      "name": "Crimson Talendar",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.ironrose.org",
+          "port": 3050
         }
       ]
     },
@@ -8647,6 +8906,20 @@
       ]
     },
     {
+      "name": "Dark Tower",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5432
+        }
+      ]
+    },
+    {
       "name": "The Dark Ages",
       "dataOrigin": "doughnuts",
       "screencaps": [],
@@ -8683,6 +8956,34 @@
           "blocked": true,
           "hostname": "the-funk.net",
           "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Realm",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "delphis.ict.org",
+          "port": 7700
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Cove",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "leodas.com",
+          "port": 6980
         }
       ]
     },
@@ -8897,6 +9198,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "205.161.214.30",
+          "port": 3000
+        },
+        {
+          "blocked": true,
           "hostname": "205.161.214.69",
           "port": 3000
         }
@@ -9090,6 +9396,20 @@
           "blocked": true,
           "hostname": "magic.kicks-ass.org",
           "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "Neon Lights",
+      "dataOrigin": "kesey",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8000
         }
       ]
     },
