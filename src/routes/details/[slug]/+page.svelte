@@ -41,7 +41,7 @@
     return `Information presented here was - at least in part - sourced from ${link}.`;
   };
 
-  const { name, hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
+  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
@@ -64,6 +64,12 @@
         description: ""
       };
   });
+
+  const staffResources: Array<Resource> = [
+   ...admins.filter(item => coders.includes(item)).sort().map(item => ({ type: 'admin/coder', name: item, url: `/spods/${item.toLowerCase()}`})),
+   ...admins.filter(item => !coders.includes(item)).sort().map(item => ({ type: 'admin', name: item, url: `/spods/${item.toLowerCase()}`})),
+   ...coders.filter(item => !admins.includes(item)).sort().map(item => ({ type: 'coder', name: item, url: `/spods/${item.toLowerCase()}`})),
+  ];
 
   const websiteResources: Array<Resource> = resources
     .filter(resource => ['website', 'wayback'].includes(resource.type))
@@ -154,7 +160,7 @@
 
   <section class="resources">
     <ResourceList title="Hosts" resources={hostResources} />
-    <ResourceList title="Contacts" resources={contactResources} />
+    <ResourceList title="Staff" resources={staffResources} />
     <ResourceList title="Websites" resources={websiteResources} />
     <ResourceList title="Other resources" resources={otherResources} />
     <ResourceList title="Other screen captures" resources={imageResources} />

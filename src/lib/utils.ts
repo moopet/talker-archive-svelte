@@ -51,6 +51,15 @@ export function getTalkerSlug(talker: Talker): string {
   return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/'/, '');
 }
 
+export function findTalkersBySpod(spodName: string): Talker[] {
+  return talkers.filter(talker => {
+    const admins = (talker?.admins ?? []).map(x => x.toLowerCase());
+    const coders = (talker?.coders ?? []).map(x => x.toLowerCase());
+
+    return [...coders, ...admins].includes(spodName.toLowerCase());
+  });
+}
+
 export function findTalkerBySlug(slug: string): Talker {
   const explicitSlugMatch = talkers.find(talker => talker?.slug === slug);
 
