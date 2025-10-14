@@ -1,0 +1,28 @@
+   _____     _ _             __   _   _            _____
+  |_   _|_ _| | | __   ___  / _| | |_| |__   ___  |_   _|____      ___ __
+    | |/ _` | | |/ /  / _ \| |_  | __| '_ \ / _ \   | |/ _ \ \ /\ / / '_ \
+    | | (_| | |   <  | (_) |  _| | |_| | | |  __/   | | (_) \ V  V /| | | |
+    |_|\__,_|_|_|\_\  \___/|_|    \__|_| |_|\___|   |_|\___/ \_/\_/ |_| |_|
+
+
+                                  .|        ,       +
+        +               *         | |      ((             *
+                                  |'|       `    ._____
+                    +     ___    |  |   *        |.   |' .---"|      .
+                  _    .-'   '-. |  |     .--'|  ||   | _|    |
+      .        .-'|  _.|  |    ||   '-__  |   |  |    ||      |
+               |' | |.    |    ||       | |   |  |    ||      |
+          _____|  '-'     '    ""       '-'   '-.'    '`      |____
+  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~~jgs~~
+
+  The vast skyline towers over you as you approach the city limits, looking
+  for a night of crazy partying, or perhaps simply a quiet dinner with that
+  special someone...
+                                                 
+                                            Enjoy your stay!
+                                        
+                                (Coders) enyc, spot, dreamcatcher
+ 
+                             (HCAdmin)  arianna, Raziel
+
+Please enter a name: (or 'who' or 'finger'):  

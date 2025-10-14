@@ -1106,6 +1106,7 @@
     },
     {
       "name": "Central Perk",
+      "notes": "Central Perk ran from 2001 to 2025.",
       "description": "Come and hang out with people from all over the world - virtually! Meet new people, share stories, experiences, and chat. Whether you want to escape reality or vent about it, there are always people around to relax and pass time with.<br>The friends at Central Perk are just like you! Looking for a talker where they can hang out and immerse themselves in conversations varying from the weather to the latest Friends episode, to spiritual and philosophical debates.",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "Cntprk",
@@ -1142,6 +1143,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "centralperk.us",
           "port": 2323
         },
@@ -2784,6 +2786,7 @@
     },
     {
       "name": "Scarlet Citadel",
+      "notes": "Although not a mud Scarlet is a talker that mudders may enjoy, many of members do mud on a regular basis.",
       "dataOrigins": ["spodlist"],
       "description": "A friendly place to chitchat",
       "codebase": "nuts",
@@ -3516,6 +3519,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/alice"
+        },
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/Paris/Metro/5858"
         }
       ],
       "hosts": [
@@ -7160,10 +7167,54 @@
       "hosts": []
     },
     {
+      "name": "Dockyard",
+      "notes": "This talker-themed MUD closed in 2014.",
+      "dataOrigins": ["mudstats"],
+      "screencaps": [
+        "login/wooooooooooooooy.com_4000.png"
+      ],
+      "textcaps": [
+        "login/wooooooooooooooy.com_4000.png"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "wooooooooooooooy.com",
+          "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "The Oaktree-house talker",
+      "description": "The Oaktree-house is a talker 'for Acorn users to talk about Acorny things'. It aims to be a nice place to talk, without the abusive language etc. often seen elsewhere. Anyone can log in, but if you use the talker regularly you are encouraged to get an account (which is free).",
+      "notes": "This talker closed in 2018.",
+      "dataOrigins": ["mudstats"],
+      "screencaps": [
+        "login/toth.org.uk_23.png"
+      ],
+      "textcaps": [
+        "login/toth.org.uk_23.txt"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "toth.org.uk",
+          "port": 23
+        }
+      ]
+    },
+    {
       "name": "Hall of the Silver Dragon",
-      "notes": "This talker was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>.",
-      "screencaps": [],
-      "textcaps": [],
+      "notes": "This talker-themed MUD was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>. It closed in 2013.",
+      "dataOrigins": ["mudstats"],
+      "screencaps": [
+        "login/dragon.talkernet.net_9889.png"
+      ],
+      "textcaps": [
+        "login/dragon.talkernet.net_9889.txt"
+      ],
       "resources": [
         {
           "type": "website",
@@ -7173,7 +7224,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "198.62.84.157",
+          "hostname": "dragon.talkernet.net",
           "port": 9889
         }
       ]
@@ -10710,12 +10761,43 @@
       ]
     },
     {
-      "name": "Flirt Town",
-      "dataOrigins": ["tdf"],
-      "screencaps": [],
-      "textcaps": [],
+      "name": "Talk of the Town",
+      "adult": true,
+      "notes": "Talk of the Town closed in 2015.",
+      "dataOrigins": ["tdf", "mudstats"],
+      "screencaps": [
+        "login/tott.enyc.org.uk_8688.png"
+      ],
+      "textcaps": [
+        "login/tott.enyc.org.uk_8688.txt"
+      ],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tott.enyc.org.uk",
+          "port": 8688
+        }
+      ]
+    },
+    {
+      "name": "Flirt Town",
+      "adult": true,
+      "notes": "Flirt Town closed in 2019.",
+      "dataOrigins": ["tdf", "mudstats"],
+      "screencaps": [
+        "login/talkercore.com_3200.png"
+      ],
+      "textcaps": [
+        "login/talkercore.com_3200.txt"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkercore.com",
+          "port": 3200
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
