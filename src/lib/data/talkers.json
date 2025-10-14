@@ -144,6 +144,10 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "wayback",
+      "name": "the wayback archive of its homepage"
+    },
+    {
       "shortName": "memory",
       "name": "my own fallible recollection"
     },
@@ -206,6 +210,21 @@
   ],
   "codebases": [
     {
+      "shortName": "vagrant",
+      "name": "VagraNT",
+      "description": "A talker running as a Windows NT service",
+      "platform": "Windows NT",
+      "language": "C"
+    },
+    {
+      "shortName": "frontiers",
+      "name": "Frontiers"
+    },
+    {
+      "shortName": "haven",
+      "name": "Haven"
+    },
+    {
       "shortName": "jats",
       "name": "JATS"
     },
@@ -216,6 +235,14 @@
     {
       "shortName": "ztalker",
       "name": "Ztalker"
+    },
+    {
+      "shortName": "darkrealm",
+      "name": "DarkRealm"
+    },
+    {
+      "shortName": "rivendel",
+      "name": "Rivendel"
     },
     {
       "shortName": "http",
@@ -1426,11 +1453,33 @@
       ]
     },
     {
+      "name": "Eagle's Nest",
+      "slug": "eagles-nest",
+      "dataOrigins": ["greatbiglist"],
+      "codebase": "haven",
+      "admins": [
+        "Insane",
+        "Hermit"
+      ],
+      "location": "USA",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "eagle.ibc.edu",
+          "port": 2525
+        }
+      ]
+    },
+    {
       "name": "Dusk Till Dawn",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "greatbiglist"],
+      "codebase": "haven",
       "screencaps": [
         "login/duskdawn.mytalker.org_4444.png"
       ],
+      "location": "USA",
       "textcaps": [],
       "resources": [],
       "hosts": [
@@ -1438,6 +1487,11 @@
           "blocked": true,
           "hostname": "duskdawn.mytalker.org",
           "port": 4444
+        },
+        {
+          "blocked": true,
+          "hostname": "hemi.com",
+          "port": 6776
         }
       ]
     },
@@ -5613,10 +5667,17 @@
       "aka": [
         "CyberEden"
       ],
-      "dataOrigins": ["talkers.ws"],
+      "codebase": "rivendel",
+      "dataOrigins": ["talkers.ws", "greatbiglist"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://rivendel.com/"
+        }
+      ],
+      "location": "USA",
       "hosts": [
         {
           "blocked": true,
@@ -5708,6 +5769,42 @@
       ]
     },
     {
+      "name": "A Good Buzz",
+      "codebase": "haven",
+      "dataOrigins": ["greatbiglist"],
+      "admins": [
+        "Wakeman"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "location": "USA",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "houdka.chem.ucla.edu",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Deep Space Gamma",
+      "aka": [
+        "Gamma Quadrant"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "205.197.159.2",
+          "port": 6000
+        }
+      ]
+    },
+    {
       "name": "Deep Space 36",
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
@@ -5755,6 +5852,31 @@
           "blocked": true,
           "hostname": "amber.org.uk",
           "port": 7890
+        }
+      ]
+    },
+    {
+      "name": "Dixieland",
+      "dataOrigins": ["greatbiglist"],
+      "location": "Norway",
+      "screencaps": [],
+      "textcaps": [],
+      "admins": [
+        "Cerberus",
+        "Grorin",
+        "Sententia"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.intercom.no/~dixiel/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dixieland.intercom.no",
+          "port": 3002
         }
       ]
     },
@@ -5840,10 +5962,39 @@
       ]
     },
     {
+      "name": "Dragon's Dawn",
+      "slug": "dragons-dawn",
+      "dataOrigins": ["greatbiglist"],
+      "admins": [
+        "Tbor",
+        "Lessa",
+        "Jaxom"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dialnet.net",
+          "port": 6505
+        }
+      ]
+    },
+    {
       "name": "Dragon's Lair",
       "slug": "dragons-lair",
-      "codebase": "pgplus",
-      "dataOrigins": ["talkers.ws"],
+      "location": "USA",
+      "codebase": "rivendel",
+      "notes": "Lists have conflicting information about Dragon's Lair. This might actually be two talkers with the same name.",
+      "dataOrigins": ["talkers.ws", "greatbiglist"],
+      "admins": [
+        "Gandalf",
+        "Elrond",
+        "Zeta",
+        "Bigben",
+        "Nova"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6755,6 +6906,7 @@
       "name": "The Globe",
       "codebase": "ncohafmuta",
       "location": "USA",
+      "adult": true,
       "admins": [
         "Touchstone"
       ],
@@ -7178,7 +7330,10 @@
     },
     {
       "name": "Dolphin Cove",
-      "dataOrigins": ["kesey"],
+      "aka": [
+        "Dolphin Cove"
+      ],
+      "dataOrigins": ["kesey", "greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9375,6 +9530,7 @@
     },
     {
       "name": "Republic",
+      "description": "Republic is a talker with a difference. No superusers. No wizards. No staff. Just people.",
       "dataOrigins": ["facebook"],
       "screencaps": [
         "login/republic.snowplains.org_4001.png"
@@ -9382,7 +9538,12 @@
       "textcaps": [
         "login/republic.snowplains.org_4001.txt"
       ],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://republic.snowplains.org:4002"
+        }
+      ],
       "hosts": [
         {
           "hostname": "republic.snowplains.org",
@@ -9955,6 +10116,50 @@
       ]
     },
     {
+      "name": "Frontiers",
+      "codebase": "frontiers",
+      "description": "The Frontiers Project ('Frontiers') is a multi-user environment which can be used for the purpose of international socialising on the Internet. Though not dissimilar to other forms of multi-user Internet resource (eg MOO, MUD, MUX, etc), the Frontiers environment is simultaneously a talker and game system.<br>Frontiers is being written as part of a final year Software Engineering project by Unicorn, a student at the Sheffield Hallam University in England. However, Frontiers will continue to exist and grow even after Unicorn has spread his wings (hold on, surely that should be 'Pegasus'...) and gone off into the big wide world to be unemployed.",
+      "location": "UK",
+      "admins": [
+        "Bergon"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.uni-corn.demon.co.uk/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "linux2.cms.shu.ac.uk",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Freezone",
+      "codebase": "haven",
+      "location": "USA",
+      "admins": [
+        "Bergon"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "walker.cioe.com",
+          "port": 2525
+        }
+      ]
+    },
+    {
       "name": "The Farm",
       "codebase": "joot",
       "location": "USA",
@@ -9990,12 +10195,14 @@
     },
     {
       "name": "Pern",
+      "description": "Pern is a chat server modeled after the world created by Anne McCaffrey in her series The DragonRiders of Pern. It's a friendly place dedicated to chatting and meeting people the world over.<br>You'll find a lot of friendly people there. Pern is hosted by Cubby and Thangalin. Our coders are Dave Xavier and Ken Savage and the site is courtesy of MadPoet and the Loopers. Special thanks to Bono in developing programs for user utilites on the OOT code and for the Pern maps. You will also find a friendly and helpful team of wizards. We pride ourselves on our friendly and diverse user base.",
+      "adult": true,
       "codebase": "joot",
       "admins": [
         "Cubby",
         "Thangalin"
       ],
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "wayback"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -12544,7 +12751,44 @@
       "screencaps": []
     },
     {
+      "name": "DarkRealm",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "darkrealm",
+      "location": "Netherlands",
+      "admins": [
+        "BlackAngel",
+        "Procyon"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "145.24.247.103",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Cyber Love Boat",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "oot",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "abyss.bvl.net",
+          "port": 4000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Cactus",
+      "description": "Coolest internet talker in the world.",
       "dataOrigins": [ "greatbiglist" ],
       "adult": true,
       "codebase": "iforms",
@@ -12559,6 +12803,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cactus.org",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "acad.stewards.edu",
@@ -13102,6 +13351,67 @@
           "blocked": true,
           "hostname": "dodo.crown.net",
           "port": 7777
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Acme Looniversity",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "oot",
+      "admins": [
+        "BigEars"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "207.211.60.224",
+          "port": 5500
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Backstage",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "haven",
+      "admins": [
+        "BassBoy",
+        "X-Factor"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://backstage.apocyber.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "petri.cs.louisville.edu",
+          "port": 6969
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Brock University",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "oot",
+      "notes": "Open to students only.",
+      "location": "Canada",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "locutus.ac.brocku.ca",
+          "port": 8888
         }
       ],
       "textcaps": [],
