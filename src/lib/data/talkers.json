@@ -3256,6 +3256,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "du.kelotz.net",
           "port": 2003
         }
@@ -3319,6 +3320,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "206.245.154.72",
           "port": 6666
         }
