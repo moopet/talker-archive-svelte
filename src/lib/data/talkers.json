@@ -10118,12 +10118,13 @@
     {
       "name": "Frontiers",
       "codebase": "frontiers",
-      "description": "The Frontiers Project ('Frontiers') is a multi-user environment which can be used for the purpose of international socialising on the Internet. Though not dissimilar to other forms of multi-user Internet resource (eg MOO, MUD, MUX, etc), the Frontiers environment is simultaneously a talker and game system.<br>Frontiers is being written as part of a final year Software Engineering project by Unicorn, a student at the Sheffield Hallam University in England. However, Frontiers will continue to exist and grow even after Unicorn has spread his wings (hold on, surely that should be 'Pegasus'...) and gone off into the big wide world to be unemployed.",
+      "description": "The Frontiers Project ('Frontiers') is a multi-user environment which can be used for the purpose of international socialising on the Internet. Though not dissimilar to other forms of multi-user Internet resource (eg MOO, MUD, MUX, etc), the Frontiers environment is simultaneously a talker and game system.",
+      "notes": "Frontiers is being written as part of a final year Software Engineering project by Unicorn, a student at the Sheffield Hallam University in England. However, Frontiers will continue to exist and grow even after Unicorn has spread his wings (hold on, surely that should be 'Pegasus'...) and gone off into the big wide world to be unemployed.",
       "location": "UK",
       "admins": [
         "Bergon"
       ],
-      "dataOrigins": ["greatbiglist"],
+      "dataOrigins": ["greatbiglist", "wayback"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
