@@ -2388,6 +2388,20 @@
       ]
     },
     {
+      "name": "North America",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5500
+        }
+      ]
+    },
+    {
       "name": "North Keep",
       "description": "Gorean role play fantasy realm.",
       "screencaps": [],
@@ -3296,7 +3310,23 @@
       ]
     },
     {
+      "name": "The Matrix",
+      "slug": "the-matrix",
+      "disambiguation": "Not to be confused with <a href=\"/details/shell-matrix\" data-sveltekit-reload>Shell Matrix</a>.",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "206.245.154.72",
+          "port": 6666
+        }
+      ]
+    },
+    {
       "name": "Shell Matrix",
+      "disambiguation": "Not to be confused with <a href=\"/details/the-matrix\" data-sveltekit-reload>The Matrix</a>.",
       "codebase": "sm",
       "screencaps": [],
       "textcaps": [],
@@ -3991,6 +4021,34 @@
       ]
     },
     {
+      "name": "Virtual City",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "random.cc.ttu.ee",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Vision Quest",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 6000
+        }
+      ]
+    },
+    {
       "name": "General Hospital",
       "dataOrigins": ["kesey"],
       "screencaps": [],
@@ -4158,6 +4216,11 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tzone.kuci.org",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "tzone.homeip.net",
@@ -4717,6 +4780,62 @@
       ]
     },
     {
+      "name": "The Outer Limits",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkernet.net",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "Omega",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 3200
+        }
+      ]
+    },
+    {
+      "name": "Olohof",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "olohof.et.tudelft.nl",
+          "port": 2993
+        }
+      ]
+    },
+    {
+      "name": "Ocean Home",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4000
+        }
+      ]
+    },
+    {
       "name": "Ocean",
       "location": "USA",
       "dataOrigins": ["rosen"],
@@ -5032,6 +5151,7 @@
     },
     {
       "name": "Chapel of Love",
+      "disambiguation": "Possibly the same talker as <a href=\"/details/lintilla-the-chapel\" data-sveltekit-reload>Lintilla The Chapel</a>.",
       "adult": true,
       "dataOrigins": ["rosen"],
       "screencaps": [],
@@ -5442,7 +5562,10 @@
     },
     {
       "name": "Lodis Island",
-      "dataOrigins": ["crypt"],
+      "aka": [
+        "Lodis' Island"
+      ],
+      "dataOrigins": ["crypt", "kesey"],
       "codebase": "crypt",
       "screencaps": [],
       "textcaps": [],
@@ -5983,7 +6106,7 @@
     {
       "name": "The Institution",
       "location": "USA",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6002,7 +6125,7 @@
     },
     {
       "name": "The Jolly Butt",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6036,7 +6159,7 @@
     },
     {
       "name": "Legacy Of The Damned",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6050,7 +6173,7 @@
     },
     {
       "name": "Legends Of The Night",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6065,7 +6188,7 @@
     {
       "name": "The Mansion",
       "codebase": "pgplus",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6080,7 +6203,7 @@
     {
       "name": "Limbo",
       "codebase": "pgplus",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6094,7 +6217,7 @@
     },
     {
       "name": "MadHouse",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws", "kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6113,7 +6236,7 @@
     },
     {
       "name": "The Metaverse",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6127,7 +6250,7 @@
     },
     {
       "name": "Midnight",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6141,7 +6264,7 @@
     },
     {
       "name": "Mirage",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6155,7 +6278,7 @@
     },
     {
       "name": "Misty Falls",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6174,7 +6297,7 @@
     },
     {
       "name": "Milliways",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6202,7 +6325,7 @@
       "aka": [
         "MPFT"
       ],
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6231,7 +6354,7 @@
     {
       "name": "Next Millenium",
       "codebase": "pgplus",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6251,7 +6374,7 @@
     {
       "name": "Necrolith",
       "codebase": "pgplus",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6270,7 +6393,7 @@
     },
     {
       "name": "Mostly Harmless",
-      "dataorigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6284,7 +6407,7 @@
     },
     {
       "name": "PL Chat",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "UK Parent-Link chat rooms",
       "screencaps": [],
       "textcaps": [],
@@ -6299,7 +6422,7 @@
     },
     {
       "name": "Project X",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "codebase": "pgplus",
       "screencaps": [],
       "textcaps": [],
@@ -6314,7 +6437,7 @@
     },
     {
       "name": "Pure Exxtacy",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "adult": true,
       "screencaps": [],
       "textcaps": [],
@@ -6329,7 +6452,7 @@
     },
     {
       "name": "Purple Goo",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6348,7 +6471,7 @@
     },
     {
       "name": "Red Dwarf",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "codebase": "playground",
       "ewtooAbbr": "RDW",
       "description": "Based on the TV program Red Dwarf",
@@ -6370,7 +6493,7 @@
     },
     {
       "name": "The Metro Hotel",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "codebase": "nuts",
       "description": "Popular, heavily modified NUTS, very different",
       "screencaps": [],
@@ -6386,7 +6509,7 @@
     },
     {
       "name": "Excalibur",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "codebase": "pgplus",
       "description": "Brilliant pgplus talker, based on Excalibur",
       "screencaps": [],
@@ -6402,7 +6525,7 @@
     },
     {
       "name": "Amiga Forever",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "The Amiga Forever talker, for amiga fans",
       "screencaps": [],
       "textcaps": [],
@@ -6416,8 +6539,36 @@
       ]
     },
     {
+      "name": "Selene",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9930
+        }
+      ]
+    },
+    {
+      "name": "Prisoner",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "linux2.cms.shu.ac.uk",
+          "port": 5678
+        }
+      ]
+    },
+    {
       "name": "Wentworth",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "Based on the cult series, Prisoner Cell Block H",
       "screencaps": [],
       "textcaps": [],
@@ -6432,7 +6583,7 @@
     },
     {
       "name": "Miracle",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "A compact 'from scratch' Su-less code",
       "screencaps": [],
       "textcaps": [],
@@ -6448,7 +6599,7 @@
     {
       "name": "Tel'aran'rhiod",
       "slug": "tel-aran-rhiod",
-      "dataorigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6462,7 +6613,7 @@
     },
     {
       "name": "Terminus",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "Good staff, great residents, excellent code, basically we're fantastic!",
       "codebase": "pgplus",
       "screencaps": [],
@@ -6478,7 +6629,7 @@
     },
     {
       "name": "Revival Of Evil",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "The Revival Of evil Mud is totally original",
       "hide": true,
       "screencaps": [],
@@ -6519,7 +6670,7 @@
       "name": "1st Mission",
       "codebase": "lpmud",
       "hide": true,
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "Amber's 1st LP-MUD with 100s of areas to play.",
       "screencaps": [],
       "textcaps": [],
@@ -6534,7 +6685,7 @@
     },
     {
       "name": "Fox",
-      "dataorigin": "amber",
+      "dataOrigins": ["amber"],
       "description": "The Su-Free spodding area",
       "screencaps": [],
       "textcaps": [],
@@ -7702,7 +7853,7 @@
       ]
     },
     {
-      "name": "Movie Megaplex",
+      "name": "The Movie Megaplex",
       "description": "The Movie Megaplex is a relaxing atmosphere to, well, relax! :) All decent topics are welcome, keeping in mind that we are a talker, not a mud, mush, or anything of that sort.",
       "dataOrigins": ["talker.com"],
       "codebase": "ncohafmuta",
@@ -7722,6 +7873,11 @@
         {
           "blocked": true,
           "hostname": "talker.com",
+          "port": 7000
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
           "port": 7002
         }
       ]
@@ -7730,7 +7886,7 @@
       "name": "Myst",
       "description": "Myst is a new and exciting talker set in the idyllic surrounds of a mystical island. Operating in real time, 24 hours a day, 7 days a week, 365 days a year, Myst is a free and secure chat-service for people from around the world to meet, talk and exchange messages. Myst is an Ew-Too style talker, based on the popular PlayGround96 code, with heavy modifications made in presentation, features and usage.",
       "codebase": "pg96",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7740,6 +7896,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "myst.eu.org",
+          "port": 4545
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -8075,6 +8236,11 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "talker.com",
+          "port": 2020,
+          "blocked": true
+        },
         {
           "hostname": "utopia.clara.net",
           "port": 4444,
@@ -8448,9 +8614,12 @@
     },
     {
       "name": "Shadow Lands",
+      "aka": [
+        "Shadowlands"
+      ],
       "description": "",
       "codebase": "",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8962,6 +9131,104 @@
       ]
     },
     {
+      "name": "Werewood",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "werewood.signwave.com",
+          "port": 6000
+        }
+      ]
+    },
+    {
+      "name": "Unitopia",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "unitopia.uni-stuttgart.de",
+          "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "Treasure Island",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "194.47.252.37",
+          "port": 4410
+        }
+      ]
+    },
+    {
+      "name": "Tardis",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tardis.linex.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Stingray",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rome.servint.com",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "The Subway",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "chat.islandnet.com",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "Street Dreams",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "shell.dialnet.net",
+          "port": 6500
+        }
+      ]
+    },
+    {
       "name": "Dark Tower",
       "dataOrigins": ["kesey"],
       "screencaps": [],
@@ -9221,6 +9488,161 @@
           "blocked": true,
           "hostname": "lod.com",
           "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "Lintilla General Chat",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Women-Women",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5001
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Men-Men",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5002
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Funny",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5003
+        }
+      ]
+    },
+    {
+      "name": "Lintilla The Retreat",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5004
+        }
+      ]
+    },
+    {
+      "name": "Lintilla The Chapel",
+      "disambiguation": "Possibly the same talker as <a href=\"/details/chapel-of-love\" data-sveltekit-reload>Chapel of Love</a>.",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5005
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Roissy",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5009
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Beach",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5006
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Animal Friends",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5010
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Dungeon",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 5013
+        }
+      ]
+    },
+    {
+      "name": "Lintilla Intimate Delights",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 6969
         }
       ]
     },
@@ -10155,12 +10577,102 @@
       ]
     },
     {
-      "name": "Sleepy's Men's Corner",
-      "dataOrigins": ["facebook"],
+      "name": "Sleepy General",
+      "dataOrigins": ["kesey"],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
-      "hosts": []
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Sleepys Men's Corner",
+      "dataOrigins": ["kesey"],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5020
+        }
+      ]
+    },
+    {
+      "name": "Sleepy Dungeon",
+      "dataOrigins": ["kesey"],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5013
+        }
+      ]
+    },
+    {
+      "name": "Sleepy Forest",
+      "dataOrigins": ["kesey"],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5010
+        }
+      ]
+    },
+    {
+      "name": "Sleepy Mystic Castle",
+      "dataOrigins": ["kesey"],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5007
+        }
+      ]
+    },
+    {
+      "name": "Sleepy Ocean Port",
+      "dataOrigins": ["kesey"],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5003
+        }
+      ]
+    },
+    {
+      "name": "Sleepys Women's Lib",
+      "dataOrigins": ["kesey"],
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5001
+        }
+      ]
     },
     {
       "name": "StarShip",
@@ -11182,6 +11694,11 @@
         }
       ],
       "hosts": [
+        {
+          "hostname": "moomin.ee",
+          "port": 2010,
+          "blocked": true
+        },
         {
           "hostname": "moomin.wcfauna.ee",
           "port": 2010,
