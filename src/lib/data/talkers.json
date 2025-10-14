@@ -4674,20 +4674,6 @@
       ]
     },
     {
-      "name": "Heavenly Cosmos",
-      "dataOrigins": ["rosen"],
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.brecknet.com",
-          "port": 3000
-        }
-      ]
-    },
-    {
       "name": "Hell Fire",
       "location": "Australia",
       "dataOrigins": ["rosen"],
