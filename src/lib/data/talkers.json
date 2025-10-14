@@ -144,6 +144,11 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "mudstats",
+      "name": "MUDStats",
+      "link": "https://www.mudstats.com"
+    },
+    {
       "shortName": "homepage",
       "name": "its own homepage"
     },
@@ -1165,7 +1170,16 @@
     },
     {
       "name": "Children of the Night",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "homepage"],
+      "coders": [
+        "enyc"
+      ],
+      "admins": [
+        "Atropos",
+        "SilverMoonLight",
+        "Satellite"
+      ],
+      "adult": true,
       "description": "We cater ta the forsaken o'society - gays, lesbians, bisexuals, transsexuals, crossdressers, goths, pagans, & freaks in general. Normal people are welcome.  Its jist that they scare us *grin*.",
       "codebase": "nuts",
       "ewtooAbbr": "cotn",
@@ -1174,6 +1188,10 @@
         "login/cn.talkers.org_4040.png"
       ],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://cotn.subnigra.com"
+        },
         {
           "type": "email",
           "url": "cotn@enyc.org.uk"
@@ -2586,6 +2604,7 @@
     },
     {
       "name": "Dark Shadows",
+      "description": "An EW-style talker, loosely based on White Wolf's roleplaying game Vampire: the Masquerade.",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "ds",
       "screencaps": [
@@ -3272,12 +3291,7 @@
       "textcaps": [
         "login/bc.kelotz.net_2018.txt"
       ],
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://hades-talker.org"
-        }
-      ],
+      "resources": [],
       "hosts": [
         {
           "hostname": "bc.kelotz.net",
@@ -3340,6 +3354,7 @@
     {
       "name": "Selva Virtual",
       "description": "O primeiro e ainda existente Mundo Virtual Português...",
+      "language": "Portuguese",
       "codebase": "mamnuts",
       "screencaps": [
         "login/selva.grogue.org_8888.png"
@@ -3355,6 +3370,11 @@
           "port": 9999
         },
         {
+          "hostname": "portugal-virtual.org",
+          "port": 6969
+        },
+        {
+          "blocked": true,
           "hostname": "selva.grogue.org",
           "port": 8888
         }
@@ -4298,10 +4318,20 @@
     },
     {
       "name": "Twilight Zone",
-      "screencaps": [],
-      "textcaps": [],
+      "dataOrigins": ["mudstats"],
+      "description": "The Twilight Zone is a Talker based originally on NUTS but highly customized. It was very popular in the mid to late 1990's then disappeared for about 3 years. It's now back and regaining popularity.",
+      "screencaps": [
+        "login/tzone.ddns.net_5000.png"
+      ],
+      "textcaps": [
+        "login/tzone.ddns.net_5000.txt"
+      ],
       "resources": [],
       "hosts": [
+        {
+          "hostname": "tzone.ddns.net",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "tzone.kuci.org",
