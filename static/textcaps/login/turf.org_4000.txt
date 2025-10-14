@@ -1,0 +1,40 @@
+_______________________________________________________________________________
+|                .                             __,..--.--..,.--._,..__        |
+|   .            .         .               __/^   ^   /          \   ^\__     |
+|    ..          .       ..               /^   /    /        |   \    \  '\_  |
+|      ..    ...:::..  ..                /   /    |     |    |  |     |    ^\ |
+|        ...:::::::::::..                |   |    |    \     /        \      ||
+|         .:::::::::::::.            ___  \._.___.._....______..._..__...__../|
+|        .:::::::::::::::.          /   \__                     / / /  /      |
+| .  .. :.:___________  :... .. .  /       \__                  / //  /       |
+|          XXXXXXXXXXX|        ___/           \                / //  /        |
+|          XXXXXXXXXXX| ______/                \     ______    / /  /         |
+|         :    XXX|:::.  ___   ___    ___ ____  \   XXXXXXX\  / /  /          |
+|       .      XXX|    :.XXX|  XXX|   XXXxXXXX\  \ XXXXXXXXX| / / /           |
+|     .        XXX|      XXX|  XXX|   XXXXXXXXX|  \XXX/  XXX|/ / /____        |
+|             /XXX|      XXX|  XXX|   XXX|  XXX|   XXX|      /__ _- //        |
+|            / XXX|      XXX|  XXX|   XXX|     ____XXX|____     - / /         |
+|           /  XXX|      XXX|  XXX|   XXX|     XXXXXXXXXXXX|    / //          |
+|     _____/   XXX|      XXX|  XXX|   XXX|     XXXXXXXXXXXX|    / /           |
+|    /         XXX|       XXXXXXXX|   XXX|         XXX| \      /-/            |
+|   /          XXX|             ^^^                XXX|  \     //             |
+|==================================================XXX|=======//==============|
+|                 XXXXXXXXXXXXX   XXXXXXXXXXX  XXXXXXX|       /               |
+|          XXXXXXXXXXXXXX  XXXXXXXXXXXX XXXXXXXXXXXXX/       /                |
+|        XXXXXX                                            Turf Version 4.24  |
+|_____________________________________________________________________________|
+
+             A Mud/Talker based around the code of Merc and Envy,
+      offering privacy for its residents, whilst retaining MUD features.
+   Original Diku created by Hans Henrik Staerfeldt, Katja Nyboe, Tom Madsen,
+                   Michael Seifert and Sebastian Hammer.
+        Further design and implementation by the Turf Development Team.
+            Email turf@turf.org with comments/queries/complaints.
+        For a dumb-link please put a ! at the end of your chosen name.
+               Title screen courtesy of Nog's artistic genius.
+            A few WWW pages can be found at http://www.turf.org/
+            A web interface can be found at http://turf.org:443/
+Turf started up at 10.23:21 PM - Wed, 26 April 2023
+The system time is  9.06:54 PM - Tue, 14 October 2025
+By what name do you wish to be known? 
+

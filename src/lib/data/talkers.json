@@ -4317,6 +4317,29 @@
       "hosts": []
     },
     {
+      "name": "Turf",
+      "description": "A Mud/Talker based around the code of Merc and Envy, offering privacy for its residents, whilst retaining MUD features.",
+      "dataOrigins": ["mudstats"],
+      "screencaps": [
+        "login/turf.org_4000.png"
+      ],
+      "textcaps": [
+        "login/turf.org_4000.txt"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.turf.org"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "turf.org",
+          "port": 4000
+        }
+      ]
+    },
+    {
       "name": "Twilight Zone",
       "dataOrigins": ["mudstats"],
       "description": "The Twilight Zone is a Talker based originally on NUTS but highly customized. It was very popular in the mid to late 1990's then disappeared for about 3 years. It's now back and regaining popularity.",
