@@ -37,6 +37,13 @@
       "type": "Website",
       "description": "Talker list",
       "icon": "Article",
+      "name": "Kesey's Telnet Talker List",
+      "url": "http://alg.dune.net/Telnet-Talker-Links.html"
+    },
+    {
+      "type": "Website",
+      "description": "Talker list",
+      "icon": "Article",
       "name": "The Razor's Edge Talker list",
       "url": "https://geocities.datacellar.net/SiliconValley/Park/7853/"
     },
@@ -136,6 +143,10 @@
     }
   ],
   "dataOrigins": [
+    {
+      "shortName": "memory",
+      "name": "my own fallible recollection"
+    },
     {
       "shortName": "facebook",
       "name": "Facebook group chats"
@@ -372,7 +383,7 @@
   "talkers": [
     {
       "name": "The A-Team",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "ateam",
       "screencaps": [
         "login/ateam.darksilence.net_1972.png"
@@ -402,7 +413,7 @@
       "coders": [
         "Moopet"
       ],
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist", "memory"],
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
       "codebase": "sensisummink",
       "screencaps": [
@@ -425,6 +436,7 @@
     },
     {
       "name": "Addicted",
+      "dataOrigins": ["kesey"],
       "disambiguation": "Not to be confused with <a href=\"/details/addictive\" data-sveltekit-reload>Addictive</a>.",
       "textcreencaps": [
         "login/addicted.notbbc.co.uk_4444.txt"
@@ -457,7 +469,7 @@
     {
       "name": "Addictive",
       "disambiguation": "Not to be confused with <a href=\"/details/addicted\" data-sveltekit-reload>Addicted</a>.",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "resources": [],
       "hosts": [
         {
@@ -469,7 +481,7 @@
     },
     {
       "name": "Alcatraz",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "resources": [
         {
           "type": "website",
@@ -486,7 +498,7 @@
     },
     {
       "name": "Atlantis",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist", "memory"],
       "ewtooAbbr": "atl",
       "notes": "Originally based on Sensi-Summink, but extended heavily, first by Swish, and then later by Muppet, Atlantis was a smaller talker with a core of regulars who were prepared to put up with a lot of sarcasm and in-jokes - but it still welcomed newbies if they didn't mind the \"relaxed rules\".",
       "codebase": "sensisummink",
@@ -562,7 +574,7 @@
       "name": "Atlantis II",
       "codebase": "nuts",
       "location": "USA",
-      "dataOrigin": "razor",
+      "dataOrigins": ["razor"],
       "resources": [
         {
           "type": "website",
@@ -608,7 +620,7 @@
     },
     {
       "name": "Bag End",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/bagend.tzo.org_2060.png"
       ],
@@ -625,7 +637,7 @@
     {
       "name": "Brigandine",
       "ewtooAbbr": "brigandine",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "pgplus",
       "coders": [
         "enyc",
@@ -748,7 +760,7 @@
     },
     {
       "name": "Blame Canada",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "BC",
       "screencaps": [
         "login/blamecanada.bering.gl_1977_2.png",
@@ -767,7 +779,7 @@
     {
       "name": "The 'Burbs",
       "location": "USA",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "burbs",
       "screencaps": [
         "login/burbs.org_4567.png"
@@ -803,7 +815,7 @@
     },
     {
       "name": "Camelot",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "description": "An all ages talker embracing the romance from the greatest legend ever -- Camelot. There is a collection of files online dealing with romance and relationships that is avaiable to all users. The staff is friendly and courteous, and atmosphere is light and fun. Many socials and original features are there to make your stay as enjoyable as possible.",
       "screencaps": [
         "login/vampire.dune.net_3333.png"
@@ -868,7 +880,7 @@
       "name": "The Camp Ground",
       "location": "USA",
       "codebase": "ewtoo",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -908,7 +920,7 @@
     {
       "name": "The Castle",
       "slug": "the-castle",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "disambiguation": "Not to be confused with <a href=\"/details/castle\" data-sveltekit-reload>Castle</a>.",
       "location": "USA",
       "codebase": "nuts",
@@ -932,7 +944,7 @@
         "Beaver"
       ],
       "slug": "castle",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
       "disambiguation": "Not to be confused with <a href=\"/details/the-castle\" data-sveltekit-reload>The Castle</a>.",
       "codebase": "pgplus",
@@ -963,7 +975,7 @@
       "aka": [
         "DarkHold"
       ],
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "UK",
       "screencaps": [],
       "textcaps": [],
@@ -991,7 +1003,7 @@
       "slug": "the-caves",
       "disambiguation": "Not to be confused with <a href=\"/details/caves\" data-sveltekit-reload>Caves</a>.",
       "location": "Norway",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "codebase": "ztalker",
       "screencaps": [],
       "textcaps": [],
@@ -1010,7 +1022,7 @@
       "disambiguation": "Not to be confused with <a href=\"/details/the-caves\" data-sveltekit-reload>The Caves</a>.",
       "description": "Caves is a 3 year old talker based loosely on the neanderthal/dinosaur eras.<br>It is now out of its infancy, and is growing in size every day.<br>It is certainly small and friendly, and always welcomes any new users into its family like atmosphere.",
       "ewtooAbbr": "Caves",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "admins": [
         "Balloon"
       ],
@@ -1046,7 +1058,7 @@
     {
       "name": "Central Perk",
       "description": "Come and hang out with people from all over the world - virtually! Meet new people, share stories, experiences, and chat. Whether you want to escape reality or vent about it, there are always people around to relax and pass time with.<br>The friends at Central Perk are just like you! Looking for a talker where they can hang out and immerse themselves in conversations varying from the weather to the latest Friends episode, to spiritual and philosophical debates.",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "Cntprk",
       "codebase": "pgplus",
       "screencaps": [
@@ -1093,7 +1105,7 @@
     },
     {
       "name": "BOBNet",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/cheekynet.com.au_4242.png"
       ],
@@ -1109,7 +1121,7 @@
     },
     {
       "name": "Children of the Night",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "description": "We cater ta the forsaken o'society - gays, lesbians, bisexuals, transsexuals, crossdressers, goths, pagans, & freaks in general. Normal people are welcome.  Its jist that they scare us *grin*.",
       "codebase": "nuts",
       "ewtooAbbr": "cotn",
@@ -1155,7 +1167,7 @@
         "Nexus"
       ],
       "location": "Canada",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/crazylands.org_6969.png"
       ],
@@ -1198,7 +1210,7 @@
     },
     {
       "name": "The Cult",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "UK",
       "screencaps": [],
       "textcaps": [],
@@ -1223,7 +1235,7 @@
     },
     {
       "name": "Cultural Wasteland",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "waste",
       "screencaps": [
         "login/culturalwasteland.tv_4000.png"
@@ -1271,7 +1283,7 @@
     {
       "name": "Genesis",
       "location": "USA",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -1287,7 +1299,7 @@
       "name": "Cut",
       "location": "UK",
       "ewtooAbbr": "cut",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/cut.pre.org_4040.png"
       ],
@@ -1313,7 +1325,7 @@
     },
     {
       "name": "Marooned",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/ddngr.org.uk_4001.png"
       ],
@@ -1329,7 +1341,7 @@
     },
     {
       "name": "The Pub",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/doughnuts.co.uk_4000.png"
       ],
@@ -1350,7 +1362,7 @@
     },
     {
       "name": "Tasmania",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/draconic.fyremoon.net_2424.png"
       ],
@@ -1381,7 +1393,7 @@
     },
     {
       "name": "Infinite Spirit",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/dune.net_3003.png"
       ],
@@ -1406,7 +1418,7 @@
     },
     {
       "name": "Dusk Till Dawn",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/duskdawn.mytalker.org_4444.png"
       ],
@@ -1422,7 +1434,7 @@
     },
     {
       "name": "Law And Order",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/eeek.org.uk_3000.png"
       ],
@@ -1438,7 +1450,7 @@
     },
     {
       "name": "The Airport",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/eeek.org.uk_4321.png"
       ],
@@ -1454,7 +1466,7 @@
     },
     {
       "name": "Hollywood Central",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/eeek.org.uk_5000.png"
       ],
@@ -1470,7 +1482,7 @@
     },
     {
       "name": "Elemental World",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "ICE",
       "screencaps": [
         "login/elementalworld.net_5555.png"
@@ -1492,7 +1504,7 @@
     },
     {
       "name": "Elite",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "description": "Heavily modified ewtoo talker based on Elite",
       "codebase": "ewtoo",
       "screencaps": [
@@ -1520,7 +1532,7 @@
         "Berry",
         "Jarel"
       ],
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "SP",
       "description": "The theme of the talker (or MUG or MUSH or whatever you wish to call it, but it's not really a MUD) is, erm, a snowplain. The guides, superusers and admin are all penguins of varying sorts (Chocolate, Royal and King/Emperor as appropriate).",
       "resources": [
@@ -1580,7 +1592,7 @@
     },
     {
       "name": "LightHouse",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "codebase": "jats",
       "resources": [
         {
@@ -1600,7 +1612,7 @@
     },
     {
       "name": "Revival",
-      "dataOrigin": "facebook",
+      "dataOrigins": ["facebook"],
       "codebase": "pgplus",
       "resources": [
         {
@@ -1644,7 +1656,7 @@
     {
       "name": "Reunion",
       "location": "UK",
-      "dataOrigin": "facebook",
+      "dataOrigins": ["facebook"],
       "codebase": "pgplus",
       "screencaps": [],
       "textcaps": [],
@@ -1670,7 +1682,7 @@
     },
     {
       "name": "Unknown",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/ewtoo.org_5252.png"
       ],
@@ -1707,7 +1719,7 @@
     {
       "name": "UglyMUG",
       "description": "UglyMUG is an online, interactive, user-extensible world. It is the longest running in the UK.<br>Here people from around the world meet 24 hours a day, make friends, and form their own little communities. The landscape of Ugly is made of places that vary from the fantastic and enchanting, to the downright surreal and confusing. Ugly is not one specific game that can be described, rather it is a collection of the creative output of its players so it is constantly evolving.",
-      "dataOrigin": "user",
+      "dataOrigins": ["user"],
       "screencaps": [
         "login/uglymug.org.uk_6239.png"
       ],
@@ -1762,7 +1774,7 @@
     {
       "name": "The Vineyard",
       "location": "USA",
-      "dataOrigin": "user",
+      "dataOrigins": ["user"],
       "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
@@ -1796,7 +1808,7 @@
     },
     {
       "name": "Somewhere Else",
-      "dataOrigin": "user",
+      "dataOrigins": ["user"],
       "location": "USA",
       "codebase": "ewtoo",
       "screencaps": [],
@@ -1823,7 +1835,7 @@
       "name": "Foothills",
       "location": "USA",
       "ewtooAbbr": "fh",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "ewtoo",
       "resources": [
         {
@@ -1921,7 +1933,7 @@
     },
     {
       "name": "Inspector Gadget's Talker",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/gadget.ewtoo.org_7000.png"
       ],
@@ -1937,7 +1949,7 @@
     },
     {
       "name": "ICE-II - The Re-Freeze",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "ICE",
       "screencaps": [
         "login/ice.offswn.net_4444.png"
@@ -1986,7 +1998,7 @@
     {
       "name": "Astral Planes",
       "location": "Canada",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "pg96",
       "screencaps": [
         "login/madrory.com_4444.png"
@@ -2008,7 +2020,7 @@
     },
     {
       "name": "The Crystal Labyrinth",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/magic.kicks-ass.org_4000.png"
       ],
@@ -2029,7 +2041,7 @@
     },
     {
       "name": "Comatose: Blissful Sleep",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/mysterious.mytalker.org_9999.png"
       ],
@@ -2054,7 +2066,7 @@
         "Blimey",
         "Doolittle"
       ],
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "talker",
       "screencaps": [
         "login/mytalker.org_2222.png"
@@ -2103,7 +2115,7 @@
     },
     {
       "name": "USS Enterprise NCC-1701-D",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/ncc.spod.org_1701.png"
       ],
@@ -2135,7 +2147,7 @@
       "name": "Cat's Cradle",
       "slug": "cats-cradle",
       "location": "USA",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/phoenix.lsds.com_9876.png"
       ],
@@ -2166,7 +2178,7 @@
     {
       "name": "Caverns",
       "location": "USA",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2180,7 +2192,7 @@
     },
     {
       "name": "Forest",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "location": "Australia",
       "resources": [
         {
@@ -2222,7 +2234,7 @@
     },
     {
       "name": "The Gimp",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/redclaw.org.uk_7777.png"
       ],
@@ -2245,7 +2257,7 @@
       "name": "Sasslantis 2000",
       "codebase": "nuts",
       "ewtooAbbr": "s2k",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/sass.jg.ee_2010.png"
       ],
@@ -2278,7 +2290,7 @@
     },
     {
       "name": "The Magic Toaster",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/sirius.zepa.net_8500.png"
       ],
@@ -2295,7 +2307,7 @@
     {
       "name": "Spod.org",
       "ewtooAbbr": "spod.org",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/spod.org_2010.png"
       ],
@@ -2316,7 +2328,7 @@
         "The Pleasure Dome"
       ],
       "ewtooAbbr": "dome",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/spod.org_3003.png"
       ],
@@ -2347,7 +2359,7 @@
     },
     {
       "name": "Glantri's Labyrinth II",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/talker.com_2200.png"
       ],
@@ -2392,7 +2404,7 @@
     {
       "name": "Paradox",
       "ewtooAbbr": "Paradox",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "description": "Ours is a queer safe talker that has been on the net for the past 5 years or so. We are a large community of people from around the world who share many interests and come online to meet new friends and chat with old ones. We protect all our users against any persons who come to our talker to harass our community and will take whatever measures are necessary to resolve those problems.",
       "codebase": "pgplus",
       "screencaps": [
@@ -2437,7 +2449,7 @@
     {
       "name": "TW's Talker",
       "ewtooAbbr": "tws",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/talker.rekka.net_4242.png"
       ],
@@ -2462,7 +2474,7 @@
     },
     {
       "name": "Eire",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "pgplus",
       "screencaps": [
         "login/tb.yi.org_1221.png"
@@ -2489,7 +2501,7 @@
     },
     {
       "name": "Dark Shadows",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "ds",
       "screencaps": [
         "login/ds.enyc.org.uk_8688.png"
@@ -2540,7 +2552,7 @@
     },
     {
       "name": "Dark Sins",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/tdf.ca_8888.png"
       ],
@@ -2557,7 +2569,7 @@
     {
       "name": "The Resort",
       "location": "USA",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "resort",
       "description": "The Resort is a free, full featured virtual chat community, specially designed to be a fun, comfortable, and secure atmosphere to make new friends, and meet people.",
       "screencaps": [
@@ -2611,7 +2623,7 @@
     {
       "name": "Surfers",
       "location": "UK",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "surfers",
       "admins": [
         "Sanman"
@@ -2668,7 +2680,7 @@
     },
     {
       "name": "Scarlet Citadel",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "description": "A friendly place to chitchat",
       "codebase": "nuts",
       "ewtooAbbr": "sc",
@@ -2693,7 +2705,7 @@
     {
       "name": "The World",
       "location": "USA",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "ewtoo",
       "ewtooAbbr": "TWD",
       "screencaps": [
@@ -2747,7 +2759,7 @@
     },
     {
       "name": "IdleToo",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "ewtooAbbr": "idletoo",
       "screencaps": [],
       "textcaps": [],
@@ -2763,7 +2775,7 @@
     {
       "name": "London: Parliament of Blood",
       "ewtooAbbr": "LondonPOB",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2778,7 +2790,7 @@
     {
       "name": "Don't Panic",
       "ewtooAbbr": "DPanic",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2792,7 +2804,7 @@
     },
     {
       "name": "Playground Too",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2807,7 +2819,7 @@
     {
       "name": "The Meeting Place",
       "ewtooAbbr": "tmp",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2827,7 +2839,7 @@
     {
       "name": "Kama'aina Requiem",
       "ewtooAbbr": "KR",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2842,7 +2854,7 @@
     {
       "name": "Eternal Night",
       "ewtooAbbr": "EN",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2857,7 +2869,7 @@
     {
       "name": "Paradise's Haven",
       "ewtooAbbr": "PH",
-      "dataOrigin": "ewtoo",
+      "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2896,7 +2908,7 @@
     {
       "name": "Temple",
       "disambiguation": "Not to be confused with <a href=\"/details/temple2k\" data-sveltekit-reload>Temple 2K</a>.",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -2911,7 +2923,7 @@
     {
       "name": "Temple 2K",
       "disambiguation": "Not to be confused with <a href=\"/details/temple\" data-sveltekit-reload>Temple</a>.",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/temple2k.org_2222.png"
       ],
@@ -2936,7 +2948,7 @@
     },
     {
       "name": "The Manor",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "manor",
       "screencaps": [
         "login/themanor.org_4242.png"
@@ -2958,7 +2970,7 @@
     },
     {
       "name": "TrueFriends",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/truefriends.org.uk_3000.png"
       ],
@@ -2982,7 +2994,7 @@
     },
     {
       "name": "Enchantment Under The Sea",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "eutsii",
       "codebase": "arien",
       "screencaps": [
@@ -3099,7 +3111,7 @@
     },
     {
       "name": "Emerald Isle",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "ewtooAbbr": "ei",
       "resources": [
         {
@@ -3261,7 +3273,7 @@
     {
       "name": "Dominia",
       "description": "Dominia: The Multiverse of Existence.<br>Dominia is a talker where you can meet other people, talk, go to various rooms, execute commands, write messages on the boards, mail other people, and a wide variety of other things.<br>Theme wise, in the Magic: The Gathering universe, Dominia is the name for \"the multiverse of existence\", a group of \"planes\", or seperate universes, all linked together. Powerful spellcrafters called Planeswalkers have the ablity to transcend these planes at will.",
-      "dataOrigin": "galaxy",
+      "dataOrigins": ["galaxy"],
       "codebase": "amnuts",
       "screencaps": [],
       "textcaps": [],
@@ -3633,7 +3645,7 @@
     },
     {
       "name": "Tulac",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -3759,7 +3771,7 @@
       "name": "Valdemar",
       "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
       "notes": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
-      "dataOrigin": "galaxy",
+      "dataOrigins": ["galaxy"],
       "ewtooAbbr": "Val",
       "codebase": "pgplus",
       "screencaps": [
@@ -3947,7 +3959,7 @@
     {
       "name": "Castle of Desire",
       "description": "A companion talker to the Desire MUD.",
-      "dataOrigin": "galaxy",
+      "dataOrigins": ["galaxy"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -3980,7 +3992,7 @@
     },
     {
       "name": "General Hospital",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -3993,8 +4005,50 @@
       ]
     },
     {
+      "name": "Home Fires",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "homefires.molehill.org",
+          "port": 6906
+        }
+      ]
+    },
+    {
+      "name": "Heart's Paradise",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "205.161.214.18",
+          "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Generic",
+      "dataOrigins": ["kesey"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gothic.blackhand.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
       "name": "Castle of Lost Dreams",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4079,7 +4133,7 @@
       "name": "Detroit City",
       "location": "USA",
       "description": "Detroit City came about when City closed down",
-      "dataOrigin": "nick",
+      "dataOrigins": ["nick"],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
@@ -4119,7 +4173,7 @@
     {
       "name": "Zeta Aquilae",
       "ewtooAbbr": "zeta",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "codebase": "ewtoo",
       "screencaps": [
         "login/zeta.aquilae.org_3456.png"
@@ -4136,7 +4190,7 @@
     },
     {
       "name": "AlTeReD BeAsTs",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4152,7 +4206,7 @@
       "name": "The Abyss",
       "description": "The main room is an abyss. A deep, dark pit with multi-colored holes in the walls. Each one of these holes leads to a different room. There are several magic/rune socials, among many others, available to characters.",
       "codebase": "ewtoo",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4175,7 +4229,7 @@
     },
     {
       "name": "36 Chambers",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4189,7 +4243,7 @@
     },
     {
       "name": "America",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4206,7 +4260,7 @@
       "aka": [
         "Lands of Ansalon"
       ],
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4220,7 +4274,7 @@
     },
     {
       "name": "Attitude",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4234,7 +4288,7 @@
     },
     {
       "name": "Atomic Gardens",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4247,7 +4301,7 @@
     },
     {
       "name": "Asylum",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4281,7 +4335,7 @@
     {
       "name": "Aurora",
       "location": "Australia",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4295,7 +4349,7 @@
     },
     {
       "name": "Australia",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4309,7 +4363,7 @@
     },
     {
       "name": "The City",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "notes": "The City and The City II ran on the same host and port, so are possibly continuations of one another.",
       "screencaps": [],
       "textcaps": [],
@@ -4330,7 +4384,7 @@
     {
       "name": "Civil Anarchy ][",
       "slug": "civil-anarchy",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4354,7 +4408,7 @@
       ],
       "location": "USA",
       "codebase": "ncohafmuta",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4373,7 +4427,7 @@
         "Shark"
       ],
       "codebase": "ncohafmuta",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4391,7 +4445,7 @@
       "admins": [
         "Mav"
       ],
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4410,7 +4464,7 @@
     },
     {
       "name": "The Cruise",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4429,7 +4483,7 @@
     },
     {
       "name": "The Crusade",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4443,7 +4497,7 @@
     },
     {
       "name": "Cruiser",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4462,7 +4516,7 @@
     },
     {
       "name": "Cyberwaves",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4476,7 +4530,7 @@
     },
     {
       "name": "CyberCiist",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4490,7 +4544,7 @@
     },
     {
       "name": "Eniac",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4505,7 +4559,7 @@
     {
       "name": "Freeknet",
       "location": "Canada",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4519,7 +4573,7 @@
     },
     {
       "name": "The Guide",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4538,7 +4592,7 @@
     },
     {
       "name": "Heavenly Cosmos",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4553,7 +4607,7 @@
     {
       "name": "Hell Fire",
       "location": "Australia",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4567,7 +4621,7 @@
     },
     {
       "name": "The Hideout",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4581,7 +4635,7 @@
     },
     {
       "name": "Iskul Bukol",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4606,7 +4660,7 @@
         "Sunshine"
       ],
       "location": "Mexico",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4621,7 +4675,7 @@
     {
       "name": "Kelewan",
       "location": "Australia",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4635,7 +4689,7 @@
     },
     {
       "name": "Magic",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4650,7 +4704,7 @@
     {
       "name": "Nuthouse",
       "location": "USA",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4665,7 +4719,7 @@
     {
       "name": "Ocean",
       "location": "USA",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4679,7 +4733,7 @@
     },
     {
       "name": "Paradise Lost",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4693,7 +4747,7 @@
     },
     {
       "name": "Polster",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4707,7 +4761,7 @@
     },
     {
       "name": "RainForest",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4721,7 +4775,7 @@
     },
     {
       "name": "Rocky Connection",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4735,7 +4789,7 @@
     },
     {
       "name": "The Slopes",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4754,7 +4808,7 @@
     },
     {
       "name": "Snowcrash",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4782,7 +4836,7 @@
     },
     {
       "name": "Swantis",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -4801,7 +4855,7 @@
     },
     {
       "name": "Terminal V",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4816,7 +4870,7 @@
     {
       "name": "Volcanic Isle",
       "codebase": "joot",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "location": "USA",
       "admins": [
@@ -4835,7 +4889,7 @@
     {
       "name": "Way of the Force",
       "codebase": "ncohafmuta",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "location": "USA",
       "admins": [
@@ -4859,7 +4913,7 @@
     },
     {
       "name": "XTC",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4874,7 +4928,7 @@
     {
       "name": "Fantasia's Island",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4889,7 +4943,7 @@
     {
       "name": "Fantasia's Castle",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4904,7 +4958,7 @@
     {
       "name": "Fantasia's Ancient Rome",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4919,7 +4973,7 @@
     {
       "name": "Fantasia's Buccaneers",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4934,7 +4988,7 @@
     {
       "name": "Fantasia's Wild West",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4949,7 +5003,7 @@
     {
       "name": "Fantasia's Dream World",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4964,7 +5018,7 @@
     {
       "name": "Fantasia's Black Velvet",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4979,7 +5033,7 @@
     {
       "name": "Chapel of Love",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -4994,7 +5048,7 @@
     {
       "name": "LoveBoat",
       "adult": true,
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5008,7 +5062,7 @@
     },
     {
       "name": "Xtreme",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5023,7 +5077,7 @@
     {
       "name": "Batcave",
       "location": "Australia",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5042,7 +5096,7 @@
     },
     {
       "name": "Boardwalk",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "screencaps": [],
       "textcaps": [],
@@ -5062,7 +5116,7 @@
     },
     {
       "name": "Cemetary Gates",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5076,7 +5130,7 @@
     },
     {
       "name": "Cerulian Skies",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5090,7 +5144,7 @@
     },
     {
       "name": "Caliburn",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5114,7 +5168,7 @@
     },
     {
       "name": "Chat Manila",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5128,7 +5182,7 @@
     },
     {
       "name": "Argoed",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5152,7 +5206,7 @@
     },
     {
       "name": "Appeal's chat rooms",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5165,7 +5219,7 @@
     },
     {
       "name": "Circus World",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5179,7 +5233,7 @@
     },
     {
       "name": "Brew City",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "codebase": "pgplus",
       "description": "Our talker is just a place to sit back and enjoy talking to your friends, with less lag than a bigger talker. We have a Milwaukee theme to ourselves, and yes beer is somewhat on the mind. We look to expand, and we look to become one of the better known places out there.",
       "screencaps": [],
@@ -5204,7 +5258,7 @@
     },
     {
       "name": "Bored, The Talker",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5218,7 +5272,7 @@
     },
     {
       "name": "Bare Necessities",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5232,7 +5286,7 @@
     },
     {
       "name": "B.H.S.",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5246,7 +5300,7 @@
     },
     {
       "name": "Chaos",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "screencaps": [],
       "textcaps": [],
@@ -5261,7 +5315,7 @@
     },
     {
       "name": "Cheese Factory",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "admins": [
         "Nachoman",
         "McBain",
@@ -5287,7 +5341,7 @@
     },
     {
       "name": "Cicely's Place",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "screencaps": [],
       "textcaps": [],
@@ -5307,7 +5361,7 @@
     },
     {
       "name": "Cirque De Chaos",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5321,7 +5375,7 @@
     },
     {
       "name": "ApHrOdItE",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5335,7 +5389,7 @@
     },
     {
       "name": "Aetheria",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5349,7 +5403,7 @@
     },
     {
       "name": "The Crypt",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "location": "USA",
       "codebase": "summink",
       "screencaps": [],
@@ -5388,7 +5442,7 @@
     },
     {
       "name": "Lodis Island",
-      "dataOrigin": "crypt",
+      "dataOrigins": ["crypt"],
       "codebase": "crypt",
       "screencaps": [],
       "textcaps": [],
@@ -5412,7 +5466,7 @@
     },
     {
       "name": "Surfside Inn",
-      "dataOrigin": "crypt",
+      "dataOrigins": ["crypt"],
       "codebase": "crypt",
       "screencaps": [],
       "textcaps": [],
@@ -5430,7 +5484,7 @@
       "aka": [
         "CyberEden"
       ],
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5444,7 +5498,7 @@
     },
     {
       "name": "Cyber Manhatten",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5458,7 +5512,7 @@
     },
     {
       "name": "CyberCoven",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "description": "A very friendly pagan oriented talker",
       "screencaps": [],
       "textcaps": [],
@@ -5479,7 +5533,7 @@
     {
       "name": "Da Luv Thing",
       "location": "UK",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5498,7 +5552,7 @@
     },
     {
       "name": "Darknyte Manor",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5512,7 +5566,7 @@
     },
     {
       "name": "De",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5526,7 +5580,7 @@
     },
     {
       "name": "Deep Space 36",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5543,7 +5597,7 @@
       "aka": [
         "Deep Space Nine"
       ],
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "description": "Talker based on the popular Deep Space Nine",
       "screencaps": [],
       "textcaps": [],
@@ -5563,7 +5617,7 @@
     },
     {
       "name": "Delta Force",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5577,7 +5631,7 @@
     },
     {
       "name": "Dimensions",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5596,7 +5650,7 @@
     },
     {
       "name": "Dolphim",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5611,7 +5665,7 @@
     {
       "name": "Dragonsbane",
       "location": "USA",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5630,7 +5684,7 @@
     },
     {
       "name": "Ektosphere",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5644,7 +5698,7 @@
     },
     {
       "name": "The Eleventh Kingdom",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5660,7 +5714,7 @@
       "name": "Dragon's Lair",
       "slug": "dragons-lair",
       "codebase": "pgplus",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5684,7 +5738,7 @@
     },
     {
       "name": "Dream Island",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5703,7 +5757,7 @@
     },
     {
       "name": "Dreamscape",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5722,7 +5776,7 @@
     },
     {
       "name": "Enchanted Bayou",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5737,7 +5791,7 @@
     {
       "name": "Fantasy Island",
       "disambiguation": "Not to be confused with <a href=\"/details/fantasy-land\" data-sveltekit-reload>Fantasy Land</a>.",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5755,7 +5809,7 @@
       "aka": [
         "FantasyLand"
       ],
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5780,7 +5834,7 @@
     {
       "name": "Fear The Penguin",
       "codebase": "sensisummink",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5794,7 +5848,7 @@
     },
     {
       "name": "50 Miles Underground",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5808,7 +5862,7 @@
     },
     {
       "name": "Freehold",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5822,7 +5876,7 @@
     },
     {
       "name": "Funny Farm",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5836,7 +5890,7 @@
     },
     {
       "name": "The Global Summer Camp",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5850,7 +5904,10 @@
     },
     {
       "name": "Globe Chat",
-      "dataOrigin": "talkers.ws",
+      "aka": [
+        "GlobeChat"
+      ],
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5864,7 +5921,7 @@
     },
     {
       "name": "GNAT",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5878,7 +5935,7 @@
     },
     {
       "name": "Gotham City 2000",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5892,7 +5949,7 @@
     },
     {
       "name": "H(o)(o)TERS",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5911,7 +5968,7 @@
     },
     {
       "name": "Homecoming",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5959,7 +6016,7 @@
     },
     {
       "name": "Labyrinth",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "description": "Themed upon the classic movie Labyrinth starring David Bowie and Jennifer Connelly. Set in a fantasy world, with goblins and fairies. Welcome to the world of Labyrinth where nothing is as it seems and things are further than you think.",
       "screencaps": [],
       "textcaps": [],
@@ -6492,7 +6549,7 @@
     },
     {
       "name": "Gates Of Heaven",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6516,7 +6573,7 @@
       "admins": [
         "Cygnus"
       ],
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6544,7 +6601,7 @@
       "admins": [
         "Touchstone"
       ],
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6570,7 +6627,7 @@
       "name": "Abbey Road",
       "description": "Beatles, Classic Rock and music in general.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6595,7 +6652,7 @@
     {
       "name": "Clouds",
       "location": "USA",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6619,7 +6676,7 @@
     },
     {
       "name": "Above The Clouds",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6643,7 +6700,7 @@
       ],
       "description": "A talker based on the theme 'What happens next?', you start off life (or whatever) as a Spirit, and if you're lucky, wind up an Angel or Demon with your own personal room. Once on, you can battle to the death (or whatever) in Valhalla with another user, have a few glasses of beer, or turn into a tap-dancing penguin for the amusement of others. If you're not feeling adventurous though, you can just talk to people. The only rules are no swearing and don't annoy other users. And don't ask for promotion. And no multiple accounts. And don't...",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6668,7 +6725,7 @@
       "name": "Alpha House",
       "description": "Alpha House is based on a sorority house. Frat house is the jail. We do try to have fun. Nice place to hang out and meet new friends. Like a big, happy family there, and growing !",
       "codebase": "amnuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6694,7 +6751,7 @@
       "codebase": "nuts",
       "description": "American Romance is an over-18 talker. Enjoy laughter with friends or get away to a romantic setting.",
       "adult": true,
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6751,7 +6808,7 @@
       "name": "Ancient Worlds",
       "codebase": "nuts",
       "description": "Open to all ages; come and have a good time!",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6772,7 +6829,7 @@
       "name": "Animal House",
       "codebase": "pg96",
       "location": "USA",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6805,7 +6862,7 @@
     },
     {
       "name": "Austin Chat",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6824,7 +6881,7 @@
     },
     {
       "name": "Avalon",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6843,7 +6900,7 @@
     },
     {
       "name": "Blue Juice",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "codebase": "pgplus",
       "screencaps": [],
       "textcaps": [],
@@ -6860,7 +6917,7 @@
       "name": "Avalon Isle",
       "description": "Exciting, new, advanced talker run by very friendly staff!",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6880,7 +6937,7 @@
     {
       "name": "Belle's Sanctuary",
       "codebase": "ncohafmuta",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6903,7 +6960,7 @@
     },
     {
       "name": "Bimini Bay",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6922,7 +6979,7 @@
     },
     {
       "name": "Eden",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6936,7 +6993,7 @@
     },
     {
       "name": "East Bay",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6950,7 +7007,7 @@
     },
     {
       "name": "Dyslexicon",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6964,7 +7021,7 @@
     },
     {
       "name": "Dolphin Cove",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6978,7 +7035,7 @@
     },
     {
       "name": "Diversity University",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6992,7 +7049,7 @@
     },
     {
       "name": "Bohemia",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -7008,7 +7065,7 @@
       "name": "The Black Cat",
       "codebase": "nuts",
       "description": "The Black Cat is a techno club for people who enjoy techno music and the Rave culture. All ages are welcome. But mature subjects only. Chat about your favorite artists, DJ's, or rekkids. Learn about upcoming parties, and meet many more people with your same interests.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7033,7 +7090,7 @@
     {
       "name": "Blue Ridge",
       "description": "A talker based on the blue ridge mountains of North Carolina. It is hopefully going to be a peaceful, fun place for users to go to.... it is an 'everyone' talker that we hope people will want to come to.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7056,7 +7113,7 @@
     },
     {
       "name": "Sprawls",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7075,7 +7132,7 @@
     },
     {
       "name": "Spy vs Spy",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7095,7 +7152,7 @@
     {
       "name": "The Talker",
       "slug": "the-talker",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7116,7 +7173,7 @@
       "name": "Brecktown",
       "description": "Based on the real-life town of Breckenridge, Colorado, the rooms at Brecktown reflect the aura and atmosphere of real places. Wander at your leisure through our town, get to know the locals and for God's sake, don't GAPE at everything!  The talker is open to all ages, all opinions and we welcome maturity and respect for others.",
       "codebase": "Iforms",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7139,7 +7196,7 @@
     },
     {
       "name": "Castle Funky",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -7154,7 +7211,7 @@
     {
       "name": "Candyland",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "adult": true,
       "screencaps": [],
       "textcaps": [],
@@ -7181,7 +7238,7 @@
       "name": "Chakrams & Scrolls",
       "description": "This talker is based on Xena: Warrior Princess and is a place where fans of the show can meet and discuss episodes, etc. Many games to play and new commands in this ancient Greek world! ",
       "codebase": "Iforms",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7204,7 +7261,7 @@
     },
     {
       "name": "Crossroads TNG",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -7218,7 +7275,7 @@
     },
     {
       "name": "Crimson Talendar",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -7234,7 +7291,7 @@
       "name": "City Of Dreams",
       "description": "City of Dreams is an under-18 talker. Join everyone there and follow your dreams, laugh and have lots of fun!",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7258,7 +7315,7 @@
     {
       "name": "Crimson Dawn",
       "codebase": "ewtoo",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7288,7 +7345,7 @@
       "name": "Cross Roads",
       "description": "CrossRoads, The Next Generation, is a place for friends, both old and new, to gather and chat about almost anything. Opened shortly after the original CrossRoads closed in early 1997, CrossRoads TNG carries on the tradition started by Jesse, Sparky and all the others who made CrossRoads one of the mosr popular talkers on the net. Please stop by, kick your shoes off, grab something to drink and enjoy your stay.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7353,7 +7410,7 @@
     {
       "name": "Eye of the World",
       "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7378,7 +7435,7 @@
       "name": "Harem",
       "description": "Harem is a talker for adults 18 and over. Harem is a mature atmosphere, dedicated to alternitive life-styles, role-play and interacting with others.",
       "adult": true,
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7403,7 +7460,7 @@
       "name": "Heaven",
       "description": "The heaven: el mejor chat en espaniol del mundo. :)",
       "codebase": "pgplus",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7429,7 +7486,7 @@
       "name": "Hideaway",
       "description": "The place to run and hide...your fantasy getaway! Anything you could imagine is waiting for you at Hideaway. If you don't see it, then ask for it...your wish just may come true for you! But don't get your hopes up! ;) If anything, just come and get away from the people you despise most at the other talkers.",
       "codebase": "amnuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7454,7 +7511,7 @@
       "name": "An Illville",
       "description": "A talker based on a city where everybody is game.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7475,7 +7532,7 @@
       "name": "Insane World",
       "description": "It's an insane world out there, so why can't it be an insane internet world? That's what the talker is all about.",
       "codebase": "ewtoo",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7496,7 +7553,7 @@
       "name": "Interstate America",
       "description": "Lonesome is a truck driver from Texas. We based this talker on his journeys. We welcome all travelers to come in and have some coffee, or just sit around to shoot the breeze. Ya may be surprised! Ya'll come see us!",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7516,7 +7573,7 @@
     {
       "name": "Invasion",
       "description": "This is a talker where anything can happen, but watch out 'cause you could be abducted! This talker has it's own spaceship. You may go to Earth or Mars. Visit with the cute aliens. Keep watch though because they could be in disguise!",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
@@ -7539,7 +7596,7 @@
       "slug": "the-jungle",
       "disambiguation": "Not to be confused with <a href=\"/details/jungle\" data-sveltekit-reload>Jungle</a>.",
       "description": "The Jungle is a fun and friendly place to chat!",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7569,7 +7626,7 @@
         "Gyrfalcon",
         "Ulli"
       ],
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7598,7 +7655,7 @@
     {
       "name": "KAOS",
       "description": "Key kids! KAOS is the best talker there is! Hands down! See ya there!!",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7622,7 +7679,7 @@
     {
       "name": "Mountain Ranch",
       "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
@@ -7647,7 +7704,7 @@
     {
       "name": "Movie Megaplex",
       "description": "The Movie Megaplex is a relaxing atmosphere to, well, relax! :) All decent topics are welcome, keeping in mind that we are a talker, not a mud, mush, or anything of that sort.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "codebase": "ncohafmuta",
       "screencaps": [],
       "textcaps": [],
@@ -7673,7 +7730,7 @@
       "name": "Myst",
       "description": "Myst is a new and exciting talker set in the idyllic surrounds of a mystical island. Operating in real time, 24 hours a day, 7 days a week, 365 days a year, Myst is a free and secure chat-service for people from around the world to meet, talk and exchange messages. Myst is an Ew-Too style talker, based on the popular PlayGround96 code, with heavy modifications made in presentation, features and usage.",
       "codebase": "pg96",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7693,7 +7750,7 @@
     {
       "name": "Mystic Forces of Evil",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7713,7 +7770,7 @@
     {
       "name": "Pan Pipes",
       "description": "This talker is a zoo talker and fur friendly for those looking for good friends to chat with.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
@@ -7739,7 +7796,7 @@
       "name": "Paradise Island",
       "disambiguation": "Not to be confused with <a href=\"/details/paradise\" data-sveltekit-reload>Paradise</a>.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7781,7 +7838,7 @@
     {
       "name": "Paris By Night",
       "description": "-=[Paris By Night]=- Who Never Dreamed of Visiting Paris, The Most Romantic City in the World?  You Are Looking For A Romantic Place?  You Are Looking For A Funny Place?  Come On Paris By Night, Chat in The Louvre, Meet In The Eiffel Tower, Have Fun in The Hotel… We Are All Waiting For You!  -=[Paris By Night]=- Main Port: 3210 Sysadmin(s): Arny & Spicey Who Port: 3212 Http:// www.talker.com/paris ",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7805,7 +7862,7 @@
     {
       "name": "House Party",
       "description": "Looking for a great place to hang out and chat with your friends around the world. If your answer is yes then come to House Party. You can play a nice game of paintball, send ascii pictures to your friends, or just hang out and chat. Lots more fun stuff is waiting for you.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -7821,7 +7878,7 @@
       "name": "Party Time",
       "codebase": "nuts",
       "description": "A talker for all ages. Come, chat, play games, or do whatever else you want to do. We are continually updating code to make your stay more enjoyable. Stop on by and check us out.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7845,7 +7902,7 @@
     {
       "name": "Philadelphia",
       "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.<br>Welcome To Philly The Talker! This talker is running TalkerOs which was written by William. Based on Nuts 3.3.3 which was written by Neil Robertson. Our original code was modified by Whizkid. We welcome users over 18 years of age who have an interest in chatting with others from all over the globe.",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "codebase": "talkeros",
       "screencaps": [],
       "textcaps": [],
@@ -7875,7 +7932,7 @@
       "name": "Reality",
       "description": "A fun place to go!!" ,
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7900,7 +7957,7 @@
       "name": "Realm Of The Seeker",
       "description": "Realm of the Seeker is based on the 'Sword of Truth' series of books by Terry Goodkind. Come join one of the most promising talkers online.",
       "codebase": "amnuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7925,7 +7982,7 @@
       "name": "Rome",
       "description": "Ancient Rome was a myriad of contradiction and irony, a military-based civilization celebrating the beauty of classical Greece, architecture, poetry and philosophy, but also thriving on brutality of amphitheatres and slavery and on the politics of religion. Although too complex for acurate representation in our humble talker, the ancient empire inspires this atmosphere of pleasure & terror, peace & imprisionment, spirituality & passion. The purpose here is to break physical limits through communication. Make sure you are prepared.", 
       "codebase": "rome",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7948,7 +8005,7 @@
     },
     {
       "name": "Your World",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7969,7 +8026,7 @@
       "name": "Xanth",
       "description": "Xanth: you have read the books by Piers Anthony, now come play the MUD loosely based on his series. 'Xanth' and all references to it are copyrighted by Piers Anthony and are used by us only by his permission.",
       "codebase": "rom",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7996,7 +8053,7 @@
       "location": "UK",
       "adult": true,
       "codebase": "ncohafmuta",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8034,7 +8091,7 @@
       "name": "The Urge",
       "description": "",
       "codebase": "moenuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8058,7 +8115,7 @@
     {
       "name": "Unforgiven",
       "codebase": "pg96",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8079,7 +8136,7 @@
       "name": "Toon Town",
       "description": "",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8104,7 +8161,7 @@
       "name": "Trauma Bay",
       "description": "",
       "codebase": "amnuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8129,7 +8186,7 @@
       "name": "The Tropics",
       "description": "The breeze in your hair and the sound of the steel drums This the tropics. This talker's theme is one of the islands where every thing is eire man.",
       "codebase": "",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8159,7 +8216,7 @@
       "name": "Typo Town",
       "codebase": "mamnuts",
       "description": "",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [
         "login/typotown.net_6666.png"
       ],
@@ -8195,7 +8252,7 @@
       ],
       "description": "A unique 'Mall' atmosphere talker for college aged students",
       "codebase": "BDTalkerD",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8225,7 +8282,7 @@
       "name": "Way Out West",
       "description": "West is a friendly place set in a wild west town. It's really for all ages, but anything usually goes ;) (gotta love private rooms ;) It's laid back, fun, and the people are nice and always ready to help out a newbie. So why don't you stop into town one day? You'll like it... Trust me ;)",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8246,7 +8303,7 @@
       "name": "WhoDunIt",
       "description": "WhoDunIt. A talker with a twist. Come solve the mystery of Who Dun It (the murder), what room, and with what weapon. If this is not your cup of tea, please come and enjoy the chat and all the neat features in this new talker.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8272,7 +8329,7 @@
       "description": "Western theme, +18 talker. Meet people, have fun and enjoy!",
       "codebase": "nuts",
       "adult": true,
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8298,7 +8355,7 @@
       "description": "The talkers are here to give a laid-back atmosphere for those over 18 years old. It focuses heavily on roleplaying one's personal life-style and interacting with others.",
       "codebase": "nuts",
       "adult": true,
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8317,7 +8374,7 @@
       "name": "Writers BBS Chat Room",
       "description": "A friendly place to meet authors and poets. Discussions range from using the Internet to pets to getting one's writing published for the first time. All are welcome to join in",
       "codebase": "http",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8342,7 +8399,7 @@
       "name": "School Chat",
       "description": "This talker is based on a school theme and is open to all ages. Feel free to ask any of our staff if you have any problems.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8367,7 +8424,7 @@
       "name": "Seventh Heaven",
       "description": "If you're looking for a fun, friendly and relaxing place to hang out for a while, drop by Seventh Heaven. We're an all ages talker open to anyone and everyone, as long as you respect one another and have fun! Drop by and play a game of Tic-Tac-Toe with Zeus, the coolest bot on the web. Or try your hand at Hangman. Think you're smart? Answer today's Riddle. Trust me, there's tons to do, great people to meet and fabulous friends to make. So come on into Heaven!",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8393,7 +8450,7 @@
       "name": "Shadow Lands",
       "description": "",
       "codebase": "",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8423,7 +8480,7 @@
       "location": "USA",
       "description": "Silver Circle is a highly modified PG96 talker aimed at Wiccans, Pagans and spiritually open minded people on the internet. Our goal is to share ideas, thoughts, wisdom, laughs and some good times. Silver Circle also serves as a stepping stone and as a source of a wealth of information for those who seek information about Paganism and Wicca. We are open to people of all paths; the only thing we ask is that you have an open mind.",
       "codebase": "pg96",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8481,7 +8538,7 @@
       "name": "Shadow Realms",
       "description": "A talker designed to run the White Wolf (tm) World of Darkness System (tm). Incorporates Vampires, Werewolves, Changelings and Wraiths with the aid of storytellers.",
       "codebase": "ewtoo",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8511,7 +8568,7 @@
       "name": "Sim City",
       "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
       "codebase": "cuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8536,7 +8593,7 @@
       "name": "Sommerland II",
       "description": "Sommerland is a talker open to anyone who has an open mind and isn't oppressed by people of different sexual orientations. This is not a sex talker, but rather a place for people to relax, have fun, and discuss issues in a themepark setting.",
       "codebase": "ncohafmuta",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8565,7 +8622,7 @@
       "name": "Spellbinder",
       "description": "This is an all age talker with a witchcraft theme. There are numerous facts and and fiction about the Wiccan ways surrounding SpellBinder. Merry Meet and Merry Part!!",
       "codebase": "ncohafmuta",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "location": "USA",
@@ -8596,7 +8653,7 @@
     {
       "name": "Stairway To Heaven",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8615,7 +8672,7 @@
     },
     {
       "name": "Remote Control",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8630,7 +8687,7 @@
     {
       "name": "Serentiy",
       "codebase": "pgplus",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8646,7 +8703,7 @@
       "name": "Land of Confusion",
       "disambiguation": "Not to be confused with <a href=\"/details/state-of-confusion-university\" data-sveltekit-reload>State of Confusion University</a>.",
       "codebase": "joot",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "admins": [
         "Dirk",
@@ -8668,7 +8725,7 @@
       "name": "State of Confusion University",
       "disambiguation": "Not to be confused with <a href=\"/details/land-of-confusion\" data-sveltekit-reload>Land of Confusion</a>.",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "admins": [
         "Deltazeta"
@@ -8706,7 +8763,7 @@
       "name": "Strawberry Fields",
       "description": "Let us take you down, cause we're goin' to Strawberry Fields, nothing is real, and nothing to get .nuked about :) Strawberry Fields Forever!",
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8736,7 +8793,7 @@
       "description": "The Sushi Bar is an adult, all-kinds chat catering to whatever one's preferences may be. *Anyone* over he age of 18 who wants to meet friends, indulge in *whatever*, and is tolerant of other peoples' *whatevers* is welcome to join in.",
       "adult": true,
       "codebase": "nuts",
-      "dataOrigin": "talker.com",
+      "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8763,7 +8820,7 @@
     },
     {
       "name": "Home Sweet Home",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "description": "A new talker, the theme is based around a home. Rooms are Living Room, Dining Room, etc! A cozy place to come and enjoy yourself! This talker has been up for 3 weeks, we have *java* chat<br>Open for people of all ages, talker rated \"G\". Stop by! ",
       "screencaps": [],
       "textcaps": [],
@@ -8785,7 +8842,7 @@
       "name": "Soaring Emporium",
       "codebase": "ztalker",
       "location": "Norway",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
       "screencaps": [],
       "textcaps": [],
@@ -8810,7 +8867,7 @@
     },
     {
       "name": "Flex's Saloon",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
       "screencaps": [],
       "textcaps": [],
@@ -8835,7 +8892,7 @@
     },
     {
       "name": "Forbidden Dawn",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8850,7 +8907,7 @@
     {
       "name": "ICE",
       "codebase": "ice",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8864,7 +8921,7 @@
     },
     {
       "name": "Horror Haven",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8878,7 +8935,7 @@
     },
     {
       "name": "Multiple World",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8892,7 +8949,7 @@
     },
     {
       "name": "Ri-Ra The Talker",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8906,7 +8963,7 @@
     },
     {
       "name": "Dark Tower",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8920,7 +8977,7 @@
     },
     {
       "name": "The Dark Ages",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8939,7 +8996,7 @@
     },
     {
       "name": "The Funk",
-      "dataOrigin": "galaxy",
+      "dataOrigins": ["galaxy"],
       "codebase": "amnuts",
       "description": "100% more cheese than other talkers ...",
       "screencaps": [],
@@ -8960,7 +9017,7 @@
     },
     {
       "name": "Dragon's Realm",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8974,7 +9031,7 @@
     },
     {
       "name": "Dragon's Cove",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8988,7 +9045,7 @@
     },
     {
       "name": "The Dragon's Cove 2",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9002,7 +9059,7 @@
     },
     {
       "name": "The Hive",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9016,7 +9073,7 @@
     },
     {
       "name": "The Neverending Story",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9030,7 +9087,7 @@
     },
     {
       "name": "Yuss",
-      "dataOrigin": "doughnuts",
+      "dataOrigins": ["doughnuts"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9044,7 +9101,7 @@
     },
     {
       "name": "Republic",
-      "dataOrigin": "facebook",
+      "dataOrigins": ["facebook"],
       "screencaps": [
         "login/republic.snowplains.org_4001.png"
       ],
@@ -9061,7 +9118,7 @@
     },
     {
       "name": "A Pallid Moon",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9075,7 +9132,7 @@
     },
     {
       "name": "Battletech: The Frontier Lands",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9089,7 +9146,7 @@
     },
     {
       "name": "Blink",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9103,7 +9160,7 @@
     },
     {
       "name": "Cirrus Nebula",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9140,7 +9197,7 @@
     },
     {
       "name": "CNC",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9155,7 +9212,7 @@
     {
       "name": "Majick",
       "description": "A talker based on the majicks of the talker universe, ..many new coding and commands, ..bustling little place, ..not to old, ..come join us at Majick.",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9170,7 +9227,7 @@
     {
       "name": "The Sport Zone",
       "description": "The \"Lintilla Sport Zone\" is Lintilla's first foray into a talker with a sports theme. The administration of the Sport Zone and it's regular users are all either athletes, coaches, or avid sports fans who enjoy a good chat about a whole variety of professional and amateur sports from around the globe.<br>A hilighted feature is the group of sport themed chat rooms -- each representing a particular sport ranging from soccer to baseball.<br><br>The mood is relaxed and friendly and we of the Sport Zone would like you to be our welcomed guest.",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9190,7 +9247,7 @@
     {
       "name": "Crystal Forest",
       "description": "Crystal Forest has been built around a MYSTICAL or Magical theme with room names like 'Stonehenge' and 'Meadow', and of course a dozen or so others. It's meant to give the user a feeling of tranquility and peace.<br> There isn't any promotional process to go through or any such madness.... we welcome everyone. From your very first login you are considered a 'resident'. We invite you to come and at least visit us, we'd love the chance to say 'hi'.",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9209,7 +9266,7 @@
     },
     {
       "name": "Crystal Palace",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/cptalker.com_9900.png",
         "maps/crystal-palace.map.png"
@@ -9238,7 +9295,7 @@
     },
     {
       "name": "DotUK",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9271,7 +9328,7 @@
     },
     {
       "name": "Flump",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9286,7 +9343,7 @@
     {
       "name": "GateWay 2005",
       "ewtooAbbr": "GateWay",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9301,7 +9358,7 @@
     {
       "name": "Gateway: St Louis at Night",
       "slug": "gateway-st-louis-at-night",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9320,7 +9377,7 @@
     },
     {
       "name": "In Through The Out Door",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9334,7 +9391,7 @@
     },
     {
       "name": "The Inner Circle",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9353,7 +9410,7 @@
     },
     {
       "name": "Jaffa",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9372,7 +9429,7 @@
     },
     {
       "name": "Lame Talker",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9386,7 +9443,7 @@
     },
     {
       "name": "Myth And Magic",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9400,7 +9457,7 @@
     },
     {
       "name": "Neon Lights",
-      "dataOrigin": "kesey",
+      "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9414,7 +9471,7 @@
     },
     {
       "name": "Neon Umbra",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9428,7 +9485,7 @@
     },
     {
       "name": "Panorama",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9442,7 +9499,7 @@
     },
     {
       "name": "Paradigm Shift",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9456,7 +9513,7 @@
     },
     {
       "name": "Parthenon",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9476,7 +9533,7 @@
         "Murray",
         "Europol"
       ],
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9490,7 +9547,7 @@
     },
     {
       "name": "The Phantom Menace",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9509,7 +9566,7 @@
         "Cubby",
         "Thangalin"
       ],
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9533,7 +9590,7 @@
     },
     {
       "name": "Polaris",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9547,7 +9604,7 @@
     },
     {
       "name": "Post Partum",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9562,7 +9619,7 @@
     {
       "name": "Red Claw",
       "ewtooAbbr": "redclaw",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9576,7 +9633,7 @@
     },
     {
       "name": "The ShadowGate",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9590,7 +9647,7 @@
     },
     {
       "name": "Southern Sanity",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9604,7 +9661,7 @@
     },
     {
       "name": "Star Trek",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9618,7 +9675,7 @@
     },
     {
       "name": "The Downtown",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9632,7 +9689,7 @@
     },
     {
       "name": "The Dreaming",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9646,7 +9703,7 @@
     },
     {
       "name": "The Hundred Acre Woods",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9660,7 +9717,7 @@
     },
     {
       "name": "The Lownge",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9674,7 +9731,7 @@
     },
     {
       "name": "The Mob",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9688,7 +9745,7 @@
     },
     {
       "name": "The Valley",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9702,7 +9759,7 @@
     },
     {
       "name": "Trekker's Rest",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9716,7 +9773,7 @@
     },
     {
       "name": "Underground",
-      "dataOrigin": "spodlist",
+      "dataOrigins": ["spodlist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9730,7 +9787,7 @@
     },
     {
       "name": "Palace Of Pleasures",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9744,7 +9801,7 @@
     },
     {
       "name": "Baren Touhk",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9758,7 +9815,7 @@
     },
     {
       "name": "Bondage Bay",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9772,7 +9829,7 @@
     },
     {
       "name": "Cafe",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9785,7 +9842,7 @@
     },
     {
       "name": "CrossTalker",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9799,7 +9856,7 @@
     },
     {
       "name": "E N E R G Y",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9813,7 +9870,7 @@
     },
     {
       "name": "Euclid Bullet",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9828,7 +9885,7 @@
     {
       "name": "MuMu Land",
       "disambiguation": "Not to be confused with <a href=\"/details/land-of-mu\" data-sveltekit-reload>The Land of Mu</a>.",
-      "dataOrigin": "rosen",
+      "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9844,7 +9901,7 @@
       "name": "The Land of Mu",
       "disambiguation": "Not to be confused with <a href=\"/details/mumu-land\" data-sveltekit-reload>MuMu Land</a>.",
       "description": "This is the Majestic land of Mu. A place for people of any race, religion, age, gender or sexual preference *grin* to gather and converse with one another. The Land of Mu is a thematic talker. Our theme is that of Magic and Mystery.",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9864,7 +9921,7 @@
     {
       "name": "On Stage",
       "description": "You float down slowly, onto a hardwood stage...the curtains are drawn, and it is pitch black, you can hear the antisipation of everyone on stage. The crowd grows silent, as the curtains are thrust open with emensity, the lights flicker on, putting you in the spot light... you start what you rehearsed and converse with the other people on stage..<br>An all age place to chat, open 24/7",
-      "dataOrigin": "galaxy",
+      "dataOrigins": ["galaxy"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9878,7 +9935,7 @@
     {
       "name": "The Forever Beyond",
       "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.<br>We are a talker for all ages, with color. We have the Starship Enterprise section and a plethora of interesting users from all over. The server is running only this talker, so the lag is at a minimum. Come on over for a good time, because this is new! Up since Jan 1997 and it has only a 5 to 10 user load at night, CST. Come on by! ",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9910,7 +9967,7 @@
     },
     {
       "name": "Lara",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9923,7 +9980,7 @@
     },
     {
       "name": "The Leisure Zone",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9937,7 +9994,7 @@
     },
     {
       "name": "Ennersea",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9951,7 +10008,7 @@
     },
     {
       "name": "Flirt Town",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9965,7 +10022,7 @@
     },
     {
       "name": "Whole Year Inn",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9979,7 +10036,7 @@
     },
     {
       "name": "Castle Corners",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -9993,7 +10050,7 @@
     },
     {
       "name": "Iron Rose",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -10007,7 +10064,7 @@
     },
     {
       "name": "Ice Fire",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -10021,7 +10078,7 @@
     },
     {
       "name": "Portugal Medieval",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -10035,7 +10092,7 @@
     },
     {
       "name": "Club Life",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -10049,7 +10106,7 @@
     },
     {
       "name": "Eternal Covenant",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -10063,7 +10120,7 @@
     },
     {
       "name": "Lintilla",
-      "dataOrigin": "facebook",
+      "dataOrigins": ["facebook"],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
@@ -10071,8 +10128,11 @@
     },
     {
       "name": "Lighthouse",
+      "aka": [
+        "The Light House"
+      ],
       "description": "The LightHouse is a great fun place to hang out. With a fantastic web interface and an offline who, you can always see when your friends are on. There are lotsa people there to chat with. They are fun, intelligent and always there for you to lean on and get cheered up! Drop by, you won't regret it! Also the program their running JATS rocks! Offers lotsa commands and stuff for everyone!!",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "resources": [
         {
           "type": "website",
@@ -10086,12 +10146,17 @@
           "blocked": true,
           "hostname": "pl122d.eecs.lehigh.edu",
           "port": 6969
+        },
+        {
+          "blocked": true,
+          "hostname": "mookie.com",
+          "port": 6969
         }
       ]
     },
     {
       "name": "Sleepy's Men's Corner",
-      "dataOrigin": "facebook",
+      "dataOrigins": ["facebook"],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
@@ -10099,7 +10164,7 @@
     },
     {
       "name": "StarShip",
-      "dataOrigin": "nick",
+      "dataOrigins": ["nick"],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
@@ -10115,7 +10180,7 @@
       "name": "Walt",
       "location": "Scotland",
       "description": "A Disney-based talker",
-      "dataOrigin": "nick",
+      "dataOrigins": ["nick"],
       "resources": [
         {
           "type": "website",
@@ -10134,7 +10199,7 @@
     },
     {
       "name": "Winter's Edge",
-      "dataOrigin": "tdf",
+      "dataOrigins": ["tdf"],
       "resources": [],
       "screencaps": [
         "login/winter.mushpark.com_3000.png"
@@ -10149,7 +10214,7 @@
     },
     {
       "name": "The Hotel",
-      "dataOrigin": "talkers.ws",
+      "dataOrigins": ["talkers.ws"],
       "resources": [],
       "screencaps": [],
       "textcaps": [],
@@ -10165,7 +10230,7 @@
       "name": "Hectic House",
       "notes": "The first NUTS talker, from 1992.",
       "codebase": "nuts",
-      "dataOrigin": "",
+      "dataOrigins": [""],
       "resources": [
         {
           "type": "website",
@@ -10179,7 +10244,7 @@
     {
       "name": "Barenaked On Ice",
       "description": "We are simply put, the most fun place online. We only have one rule: respect others. We don't care if you swear, make raunchy jokes, sit on people, etc. All we ask is that you don't attack others. Aside from all that, we are a unique talker because we chose the band, Barenaked Ladies as our theme (if that isn't serious fandom, I don't know what is!) and there are a lot of goofy rooms and commands, including .kraft, which has you tossing boxes of Kraft Dinner at each other :) Besides, if you come on, you get to see why they voted me \"User Most Likely To Go To School Naked!\" Can't beat that, eh?",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "resources": [
         {
           "type": "website",
@@ -10198,7 +10263,7 @@
     },
     {
       "name": "The Slide",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "codebase": "ncohafmuta",
       "admins": [
@@ -10222,7 +10287,7 @@
     },
     {
       "name": "The Polyester Lounge",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "codebase": "ncohafmuta",
       "admins": [
@@ -10241,7 +10306,7 @@
     },
     {
       "name": "Pod's Inn",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "description": "Pod's Inn is a JOOT based talker that welcome users of all ages. We are striving to have a good talker that will welcome new users, and make them feel at home! We would appreciate your stopping by, and giving us a try. And tell them Footsie personaly invited you! I am there quite often. I'd be glad to see you! Thanks :)",
       "location": "USA",
       "codebase": "joot",
@@ -10265,7 +10330,7 @@
       "name": "Dragon's Isle",
       "slug": "dragons-isle",
       "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
-      "dataOrigin": "",
+      "dataOrigins": [""],
       "resources": [
         {
           "type": "website",
@@ -10286,7 +10351,7 @@
       "name": "The Rainbow Room",
       "description": "The Rainbow Room is the friendliest cyber community online. The Rainbow room is a small talker which seems to attract dynamic people who enjoy intelligent conversation and many laughs. This is a family talker that is open to all ages for people of the lesbian/bisexual/gay/transgendered communities and their friends.<br>This talker encourages users to participate strongly by contributing rooms, room descriptions, and other assorted files. The Rainbow Room is constantly changing with the users and the seasons.<br>On this talker users are also encouraged to take advantage of the standing offer to make tailor made special occasion rooms, perfect for net.weddings. One last thing, Bottom, our bot, we like him, hope you do too!",
       "codebase": "nuts",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "resources": [
         {
           "type": "website",
@@ -10309,7 +10374,7 @@
       "name": "Weave's World",
       "notes": "Weave's World ran from 1996 to 2001, hosted on a 486.<br>Read more on <a href=\"http://deater.net/weave/cool/talker.html\">Vince Weaver's homepage</a>.",
       "codebase": "vints",
-      "dataOrigin": "",
+      "dataOrigins": [""],
       "resources": [
         {
           "type": "website",
@@ -10338,7 +10403,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "AFMP",
@@ -10352,7 +10417,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "rosen"
+      "dataOrigins": ["rosen"]
     },
     {
       "name": "Anukka",
@@ -10367,7 +10432,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "rosen"
+      "dataOrigins": ["rosen"]
     },
     {
       "name": "Beach",
@@ -10382,7 +10447,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Dark Abyss",
@@ -10401,7 +10466,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Da Luv Thing",
@@ -10426,7 +10491,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The DarkSide of Nothing",
@@ -10446,7 +10511,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Depravity",
@@ -10461,7 +10526,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Diner",
@@ -10476,7 +10541,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "DotUK",
@@ -10496,7 +10561,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Dreamland",
@@ -10516,7 +10581,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Ecstasy",
@@ -10536,7 +10601,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Elsewhere",
@@ -10561,7 +10626,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Elysium",
@@ -10578,7 +10643,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "rosen"
+      "dataOrigins": ["rosen"]
     },
     {
       "name": "The Elysium",
@@ -10600,7 +10665,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Embers",
@@ -10625,7 +10690,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Future",
@@ -10645,7 +10710,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Galaxy",
@@ -10665,7 +10730,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Gamehendge",
@@ -10680,7 +10745,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Grange",
@@ -10700,7 +10765,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Graveyard",
@@ -10720,7 +10785,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Highways",
@@ -10740,7 +10805,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Icezone",
@@ -10755,7 +10820,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Inferno",
@@ -10774,7 +10839,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Immortal Realms",
@@ -10794,7 +10859,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "KnightMare",
@@ -10808,7 +10873,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Knight's Chamber",
@@ -10828,7 +10893,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Jaffa Cake",
@@ -10848,7 +10913,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Jyhad",
@@ -10862,7 +10927,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Kama Sutra",
@@ -10887,7 +10952,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Kether",
@@ -10907,7 +10972,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Legacy of the Damned",
@@ -10927,7 +10992,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Lollapalooza II",
@@ -10942,7 +11007,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Lone Knight",
@@ -10962,7 +11027,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Lonesome October",
@@ -10982,7 +11047,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Looney Bin",
@@ -10996,7 +11061,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "rosen"
+      "dataOrigins": ["rosen"]
     },
     {
       "name": "Looney Tunes",
@@ -11016,7 +11081,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "M275",
@@ -11031,7 +11096,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Main Street",
@@ -11051,7 +11116,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Margaritaville",
@@ -11071,7 +11136,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Meadow",
@@ -11086,7 +11151,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Midnight",
@@ -11101,7 +11166,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Moominvalley",
@@ -11130,7 +11195,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Nemesis",
@@ -11150,7 +11215,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Necropolis",
@@ -11170,7 +11235,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Neo Chat",
@@ -11190,7 +11255,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Nirvana",
@@ -11210,7 +11275,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Oasis",
@@ -11235,7 +11300,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Obsession",
@@ -11260,7 +11325,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Olympus",
@@ -11280,7 +11345,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "On Distant Shores",
@@ -11295,7 +11360,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Pale Moon",
@@ -11314,7 +11379,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Oyaron Hill",
@@ -11329,7 +11394,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Paradise",
@@ -11360,7 +11425,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Pharcyde Cafe",
@@ -11380,12 +11445,12 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Pirates",
       "location": "UK",
-      "dataOrigin": "greatbiglist",
+      "dataOrigins": ["greatbiglist"],
       "resources": [
         {
           "type": "website",
@@ -11405,7 +11470,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Playground",
@@ -11425,7 +11490,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Portal",
@@ -11440,7 +11505,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "PRIDE!",
@@ -11455,7 +11520,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Quickening",
@@ -11470,7 +11535,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Reality Bytes",
@@ -11497,7 +11562,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Road Trip",
@@ -11512,7 +11577,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Safari",
@@ -11532,7 +11597,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Sea of Tranquility",
@@ -11552,7 +11617,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Shogun",
@@ -11577,7 +11642,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Siege",
@@ -11592,7 +11657,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Spaceboy's Multiple Worlds: Planet M",
@@ -11612,7 +11677,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Spaceboy's Multiple Worlds: Demon Knight",
@@ -11632,7 +11697,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Spaceboy's Multiple Worlds: Tower of High Sorcery",
@@ -11652,7 +11717,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Starship",
@@ -11672,7 +11737,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The SunsetStrip",
@@ -11687,7 +11752,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "SWiX-Chat",
@@ -11702,7 +11767,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Tainted Love",
@@ -11722,7 +11787,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Talho",
@@ -11737,7 +11802,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Tavern",
@@ -11757,7 +11822,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Timeworlds",
@@ -11777,7 +11842,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Tower",
@@ -11798,7 +11863,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Tropics",
@@ -11818,7 +11883,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "University",
@@ -11838,7 +11903,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Void",
@@ -11858,7 +11923,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Warp",
@@ -11878,7 +11943,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "Windy City",
@@ -11898,7 +11963,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     },
     {
       "name": "The Zoo",
@@ -11927,7 +11992,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigin": "greatbiglist"
+      "dataOrigins": ["greatbiglist"]
     }
   ]
 }

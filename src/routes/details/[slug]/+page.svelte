@@ -29,16 +29,20 @@
     return `${codebaseDescription}.`;
   };
 
-  const getCitation = (dataOriginName: string): string => {
-    const dataOrigin: DataOrigin = dataOrigins.find(item => item.shortName.toLowerCase() === dataOriginName.toLowerCase());
+  const getCitation = (dataOriginNames: string[]): string => {
+    console.log(dataOriginNames);
+    const matches: DataOrigin[] = dataOriginNames
+      .map(dataOriginName => dataOrigins.find(item => item.shortName.toLowerCase() === dataOriginName.toLowerCase()))
+      .filter(x => x)
+      .map(dataOrigin => dataOrigin.link ? `<a href="${dataOrigin.link}">${dataOrigin.name}</a>` : dataOrigin.name);
+      console.log(matches);
 
-    if (!dataOrigin) {
+
+    if (matches.length === 0) {
       return '';
     }
 
-    const link = dataOrigin.link ? `<a href="${dataOrigin.link}">${dataOrigin.name}</a>` : dataOrigin.name;
-
-    return `Information presented here was - at least in part - sourced from ${link}.`;
+    return `Information presented here was - at least in part - sourced from ${matches.join(", and ")}.`;
   };
 
   const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
@@ -106,7 +110,7 @@
   }).slice(1);
 
   const heroImage = screencaps.length > 0 ? `/screencaps/${screencaps[0]}` : '/placeholder.png';
-  const citation = getCitation(talker?.dataOrigin ?? '');
+  const citation = getCitation(talker?.dataOrigins ?? []);
   const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
 </script>
 
