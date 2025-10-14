@@ -222,6 +222,15 @@
       "name": "HTTP Chat"
     },
     {
+      "shortName": "iforms",
+      "name": "IFORMS",
+      "description": "Interactive FORum Multiplexor Software",
+      "family": "nuts",
+      "language": "C",
+      "repo": "https://github.com/talkersource/iforms",
+      "platform": "UNIX/Linux"
+    },
+    {
       "shortName": "arien",
       "name": "ArIEN",
       "family": "nuts",
