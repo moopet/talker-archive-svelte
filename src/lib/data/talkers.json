@@ -221,6 +221,10 @@
       "name": "Frontiers"
     },
     {
+      "shortName": "republic",
+      "name": "Republic"
+    },
+    {
       "shortName": "haven",
       "name": "Haven"
     },
@@ -3112,7 +3116,11 @@
     },
     {
       "name": "The Village",
-      "codebase": "tiptop",
+      "location": "USA",
+      "admins": [
+	      "Rico",
+	      "Bud"
+      ],
       "screencaps": [
         "login/ubervillage.org_3131.png"
       ],
@@ -9532,6 +9540,7 @@
       "name": "Republic",
       "description": "Republic is a talker with a difference. No superusers. No wizards. No staff. Just people.",
       "dataOrigins": ["facebook"],
+      "codebase": "republic",
       "screencaps": [
         "login/republic.snowplains.org_4001.png"
       ],
