@@ -12523,6 +12523,350 @@
       "textcaps": [],
       "screencaps": [],
       "dataOrigins": ["greatbiglist"]
+    },
+
+
+
+
+
+    { XXXXXXXXXXXXXXXXXXXXXXXXXXXXX },
+
+
+
+
+
+    {
+      "name": "",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+      ],
+      "location": "",
+      "resources": [
+        {
+          "type": "website",
+          "url": ""
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "",
+          "port": 
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+
+
+
+
+
+    {
+      "name": "Ballpark",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+	      "Jened",
+	      "Harlequin"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.xmission.com/~ballpark/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "armstrong.cs.buffalo.edu",
+          "port": 9595
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Cactus",
+      "dataOrigins": [ "greatbiglist" ],
+      "adult": true,
+      "codebase": "iforms",
+      "admins": [
+	      "Sishka"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ecpi.com/~vijay/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "acad.stewards.edu",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Cafe Charabia",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+	      "Joelie",
+	      "Changeling"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "frodo.inxpress.co.uk",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Circuit Board",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "circuitb.microserve.com",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Dark Side",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "linex1.linex.com",
+          "port": 9000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Delerium",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+	      "Matrix"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "grasshopper.iliad.com",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "End of the Line",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+	      "Scar"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "eol.qns.com",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Enterprise",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "adult": true,
+      "admins": [
+	      "Jess", "Dazey", "Tabby"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "trek.sirens.net",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Forum",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "adult": true,
+      "admins": [
+	      "Reign",
+	      "Ike",
+	      "Chip"
+      ],
+      "location": "USA",
+      "resources": [
+	      {
+		      "type": "website",
+	      "url": "http://europa.cs.mun.ca/~sonya1/forum.html"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "net2.intserv.com",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Grease!",
+      "slug": "grease",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "adult": true,
+      "admins": [
+	      "Bullet",
+	      "Sensuous"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "grease.talkermud.com",
+          "port": 4000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Heavenly Cosmos",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+	      "Princess",
+	      "Risk"
+      ],
+      "location": "USA",
+      "resources": [
+	      {
+		      "type": "website",
+      "url": "http://www2.brecknet.com/cosmos/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.brecknet.com",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Iron Rose",
+      "aka": [
+	      "Iron Rose 2"
+      ],
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+	      "Ketzer",
+	      "MistressKim"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ironrose.nai.net",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Kuentos Cafe",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [],
+      "location": "USA",
+      "resources": [
+	      {
+		      "type": "website",
+      "url": "http://www.guam.net/home/bhshaw2/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "buri.kuentos.guam.net",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Millenium",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+      "Mickey"
+      ],
+      "location": "USA",
+      "resources": [
+	      {
+		      "type": "website",
+      "url": "http://talkermud.com/~milenium/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "millenium.talkermud.com",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
     }
   ]
 }
