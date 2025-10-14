@@ -3593,6 +3593,7 @@
           "port": 8008
         },
         {
+          "blocked": true,
           "hostname": "underworld.jilted.com",
           "port": 2011
         },
@@ -8673,6 +8674,7 @@
           "port": 9191
         },
         {
+          "blocked": true,
           "hostname": "canadagaming.com",
           "port": 9191
         },
