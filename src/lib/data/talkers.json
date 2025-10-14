@@ -144,6 +144,10 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "homepage",
+      "name": "its own homepage"
+    },
+    {
       "shortName": "wayback",
       "name": "the wayback archive of its homepage"
     },
@@ -9539,7 +9543,7 @@
     {
       "name": "Republic",
       "description": "Republic is a talker with a difference. No superusers. No wizards. No staff. Just people.",
-      "dataOrigins": ["facebook"],
+      "dataOrigins": ["facebook", "homepage"],
       "codebase": "republic",
       "screencaps": [
         "login/republic.snowplains.org_4001.png"
