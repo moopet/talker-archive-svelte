@@ -4048,10 +4048,18 @@
     },
     {
       "name": "Vision Quest",
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "greatbiglist"],
+      "admins": [
+        "Wolfdreamer"
+      ],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://smaug.talker.com/vision/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -12525,34 +12533,6 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
-      "name": "",
-      "dataOrigins": [ "greatbiglist" ],
-      "codebase": "iforms",
-      "admins": [
-      ],
-      "location": "",
-      "resources": [
-        {
-          "type": "website",
-          "url": ""
-        }
-      ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "",
-          "port": 
-        }
-      ],
-      "textcaps": [],
-      "screencaps": []
-    },
-
-
-
-
-
-    {
       "name": "Ballpark",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
@@ -12852,6 +12832,290 @@
           "blocked": true,
           "hostname": "millenium.talkermud.com",
           "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Misty's Beach House",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+      "Misty"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "nowaksg.chem.md.edu",
+          "port": 3371
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Noctropolis",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Darksheer",
+        "Blade"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "broadsword.netdoor.com",
+          "port": 9999
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Prelude",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Jazzin",
+        "Averil"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://irc.netdoor.com/~jazzin/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "prelude.netdoor.com",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Purple Haze",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rome.servint.com",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Queen Vic",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Blue",
+        "Kes"
+      ],
+      "adult": true,
+      "location": "UK",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://members.tripod.com/~RCJ/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "vic.emap.com",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Seas",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Wookey"
+      ],
+      "location": "Netherlands",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "galjoen.cs.vu.nl",
+          "port": 1971
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Sin City",
+      "adult": true,
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Tangent",
+        "Daddy",
+        "Catnolack"
+      ],
+      "location": "Netherlands",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://sincity.signwave.com/~tangent/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bbs.signwave.com",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Slopes",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Skiing"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.fortnet.org/~zenki/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "slopes.mhv.net",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Sommerland",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Sommer",
+        "Jordan"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5555
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Star Wars: The Rebels",
+      "slug": "star-wars-the-rebels",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+        "Brad",
+        "Peter"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cosmo.marymount.edu",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Tardis 2",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "adult": true,
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "linex1.linex.com",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Virtual Oneonta",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "adult": true,
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.wpe.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gunner.wpe.com",
+          "port": 3000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Woodstock",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "adult": true,
+      "admins": [
+        "Sweeper",
+        "Risk",
+        "Sausage"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.crown.net/~sweeper/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dodo.crown.net",
+          "port": 7777
         }
       ],
       "textcaps": [],

@@ -133,6 +133,10 @@
       </p>
     {/if}
 
+    {#if talker?.adult}
+      <p class="adult">For at least some of its run, this talker was open to adults only.</p>
+    {/if}
+
     {#if aka.length > 0}
       <p class="aka">Also known as {aka.map(name => `"${name}"`).join(', ')}.</p>
     {/if}
