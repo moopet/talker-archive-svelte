@@ -3104,6 +3104,10 @@
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "eutsii",
       "codebase": "arien",
+      "admins": [
+        "Adonis",
+        "Ardant"
+      ],
       "screencaps": [
         "login/euts.org_2000.png"
       ],
