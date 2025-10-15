@@ -2155,6 +2155,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dracosia.dune.net",
           "port": 1977
         }
@@ -2188,6 +2189,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4201
         }
@@ -2222,10 +2224,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4202
         },
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4206
         }
@@ -2258,6 +2262,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4203
         }
@@ -2288,6 +2293,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4204
         }
@@ -2324,6 +2330,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4205
         }
@@ -2355,10 +2362,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4206
         },
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4208
         }
@@ -2393,10 +2402,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4207
         },
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4201
         }
@@ -2430,10 +2441,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4208
         },
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4202
         }
@@ -2466,6 +2479,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4209
         }
@@ -2500,10 +2514,12 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4210
         },
         {
+          "blocked": true,
           "hostname": "planes.org",
           "port": 4213
         }
