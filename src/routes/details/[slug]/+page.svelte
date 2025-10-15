@@ -22,8 +22,9 @@
 
     let codebaseDescription: string = `The talker is (was?) based on the codebase, "${codebase.name}"`;
 
-    if (codebase?.family?.name) {
-      codebaseDescription += `, a ${codebase.family.name} derivative`;
+    if (codebase?.family) {
+      const codebaseFamily: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebase.family.toLowerCase());
+      codebaseDescription += `, a ${codebaseFamily.name} derivative`;
     }
 
     return `${codebaseDescription}.`;
