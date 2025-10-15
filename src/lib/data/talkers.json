@@ -1802,6 +1802,9 @@
     {
       "name": "Cat Chat",
       "codebase": "lpmud",
+      "coders": [
+        "Cat"
+      ],
       "resources": [
         {
           "type": "Fandom entry",
@@ -1845,6 +1848,9 @@
     },
     {
       "name": "Cheeseplants House",
+      "aka": [
+        "Cheesehouse"
+      ],
       "codebase": "ewtoo",
       "resources": [
         {
@@ -1986,19 +1992,23 @@
         },
         {
           "blocked": true,
-          "hostname": "loligo.cc.fsu.edu"
+          "hostname": "loligo.cc.fsu.edu",
+          "port": 2010
         },
         {
           "blocked": true,
-          "hostname": "backus.mtsu.edu"
+          "hostname": "backus.mtsu.edu",
+          "port": 2010
         },
         {
           "blocked": true,
-          "hostname": "vulture.dcs.king.ac.uk"
+          "hostname": "vulture.dcs.king.ac.uk",
+          "port": 2010
         },
         {
           "blocked": true,
-          "hostname": "marble.bu.edu"
+          "hostname": "marble.bu.edu",
+          "port": 2010
         }
       ]
     },
@@ -2732,23 +2742,33 @@
     },
     {
       "name": "Marble Madness",
+      "location": "UK",
+      "notes": "The talker eventually became <a data-sveltekit-reload href=\"/details/surfers\">Surfers</a>",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
           "blocked": true,
-          "hostname": "shadowfax.surr.ac.uk"
+          "hostname": "shadowfax.surr.ac.uk",
+          "port": 2010
         }
       ]
     },
     {
       "name": "Surfers",
       "location": "UK",
+      "description": "A talker inhabited by a group of lazy long-haired, tanned layabouts who bum around on the beach all day desperately trying not to do any work.",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "surfers",
+      "coders": [
+        "Saraphale"
+      ],
       "admins": [
-        "Sanman"
+        "Demi",
+        "Sanman",
+        "Fysh",
+        "Furry"
       ],
       "resources": [
         {
