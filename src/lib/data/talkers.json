@@ -1075,6 +1075,10 @@
       "name": "The Caves",
       "slug": "the-caves",
       "disambiguation": "Not to be confused with <a href=\"/details/caves\" data-sveltekit-reload>Caves</a>.",
+      "admins": [
+        "Zodi",
+        "Ajax"
+      ],
       "location": "Norway",
       "dataOrigins": ["greatbiglist"],
       "codebase": "ztalker",
@@ -2197,6 +2201,12 @@
     },
     {
       "name": "The Plane of Magic",
+      "aka": [
+        "Magick",
+        "The Plane of Magic and Religion",
+        "Mysticism",
+        "Myst"
+      ],
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
         "Hellefire",
@@ -2301,6 +2311,11 @@
     },
     {
       "name": "The Plane of Extroversion",
+      "aka": [
+        "Plane of Lust",
+        "Lust",
+        "POL"
+      ],
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "adult": true,
       "admins": [
@@ -2338,6 +2353,9 @@
     },
     {
       "name": "The Plane of Animals",
+      "aka": [
+        "POA"
+      ],
       "adult": true,
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
@@ -2375,9 +2393,14 @@
     },
     {
       "name": "The Plane of Women",
+      "aka": [
+        "POW",
+        "Womyn",
+        "Fyre and Ice"
+      ],
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
-        "Shy",
+        "Shyy",
         "Qui"
       ],
       "adult": true,
@@ -2415,6 +2438,9 @@
     },
     {
       "name": "The Plane of Men",
+      "aka": [
+        "POM"
+      ],
       "adult": true,
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
@@ -2454,6 +2480,11 @@
     },
     {
       "name": "The Plane of Peace",
+      "aka": [
+        "POP",
+        "Dolphins",
+        "POD"
+      ],
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
         "Dolfin"
@@ -2487,6 +2518,9 @@
     },
     {
       "name": "The Plane of Darkness",
+      "aka": [
+        "POD"
+      ],
       "adult": true,
       "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
@@ -2524,6 +2558,23 @@
           "port": 4213
         }
       ]
+    },
+    {
+      "name": "The Place of Dolphins",
+      "notes": "Was originally <a data-sveltekit-reload href=\"/details/plane-of-peace\">The Plane of Peace</a> until 1998.",
+      "admins": [
+        "Dolfin"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        }
+      ],
+      "hosts": []
     },
     {
       "name": "Lo Riviero",
@@ -2908,7 +2959,33 @@
       ]
     },
     {
+      "name": "Glantri's Labyrinth",
+      "slug": "glantris-labyrinth",
+      "dataOrigins": ["greatbiglist"],
+      "admins": [
+        "Calysto",
+        "Toni"
+      ],
+      "codebase": "oot",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "email",
+          "url": "glantri@diversion.com"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "user1.megalinx.net",
+          "port": 1138
+        }
+      ]
+    },
+    {
       "name": "Glantri's Labyrinth II",
+      "slug": "glantris-labyrinth-ii",
       "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/talker.com_2200.png"
@@ -4228,6 +4305,11 @@
     {
       "name": "The Gathering",
       "description": "The Gathering is a fun and exciting place where you can meet people from all around the world. But then aren't all talkers like that? What makes The Gathering so special is that there are no SuperUsers or whatever telling you want you can or cannot do. _YOU_ the users are the ones that do that.<br> Every user gets to decide if they don't want to hear someone, or if they should be allowed in the group with a unique democratic voting system. So come and try it today - you _KNOW_ you want to.",
+      "location": "UK",
+      "codebase": "gatherer",
+      "admins": [
+        "Maddy"
+      ],
       "screencaps": [
         "login/gathering.org.uk_5000.png"
       ],
@@ -4664,14 +4746,30 @@
     },
     {
       "name": "Home Fires",
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "greatbiglist"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "admins": [
+        "Six",
+        "Velvetfawn"
+      ],
+      "codebase": "iforms",
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.eoni.com/~mystique/Home/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "homefires.molehill.org",
+          "port": 6906
+        },
+        {
+          "blocked": true,
+          "hostname": "kdcol.com",
           "port": 6906
         }
       ]
@@ -6272,6 +6370,12 @@
       "aka": [
         "CyberEden"
       ],
+      "admins": [
+        "Gandalf",
+        "Zeta",
+        "Bigben",
+        "Nova"
+      ],
       "codebase": "rivendel",
       "dataOrigins": ["talkers.ws", "greatbiglist"],
       "screencaps": [],
@@ -6428,6 +6532,13 @@
       "aka": [
         "Deep Space Nine"
       ],
+      "admins": [
+        "Captain",
+        "Gandalf",
+        "Zeta",
+        "Bigben",
+        "Imzadi"
+      ],
       "dataOrigins": ["talkers.ws"],
       "description": "Talker based on the popular Deep Space Nine",
       "screencaps": [],
@@ -6464,6 +6575,11 @@
       "name": "Dixieland",
       "dataOrigins": ["greatbiglist"],
       "location": "Norway",
+      "admins": [
+        "Cerberus",
+        "Grorin",
+        "Sententia"
+      ],
       "screencaps": [],
       "textcaps": [],
       "admins": [
@@ -6563,6 +6679,33 @@
           "blocked": true,
           "hostname": "gobbyland.co.uk",
           "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "The Dungeon",
+      "dataOrigins": ["greatbiglist"],
+      "location": "Germany",
+      "admins": [
+        "Kestra",
+        "Oxlip",
+        "Roadkill",
+        "Cocacola",
+        "Hollywood",
+        "Meow",
+        "Demi",
+        "Tongue",
+        "Kaiwas",
+        "Kiwi"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "stud-mailer.uni-marburg.de",
+          "port": 7575
         }
       ]
     },
@@ -6867,10 +7010,16 @@
     },
     {
       "name": "Homecoming",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "greatbiglist"],
+      "location": "Greece",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.cc.ece.ntua.gr/~hcadm/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -7994,7 +8143,10 @@
     {
       "name": "Dolphin Cove",
       "aka": [
-        "Dolphin Cove"
+        "Dolphin Cave"
+      ],
+      "admins": [
+        "Rael"
       ],
       "dataOrigins": ["kesey", "greatbiglist"],
       "screencaps": [],
@@ -8148,6 +8300,10 @@
       "name": "Brecktown",
       "description": "Based on the real-life town of Breckenridge, Colorado, the rooms at Brecktown reflect the aura and atmosphere of real places. Wander at your leisure through our town, get to know the locals and for God's sake, don't GAPE at everything!  The talker is open to all ages, all opinions and we welcome maturity and respect for others.",
       "codebase": "Iforms",
+      "admins": [
+        "Yacko",
+        "Jman"
+      ],
       "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
@@ -9846,6 +10002,11 @@
       "name": "Flex's Saloon",
       "dataOrigins": ["greatbiglist"],
       "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
+      "location": "Norway",
+      "admins": [
+        "Murray",
+        "Europol"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -10092,6 +10253,13 @@
     },
     {
       "name": "Dragon's Realm",
+      "aka": [
+        "Dragon's Realm CyberChat"
+      ],
+      "admins": [
+        "Morph",
+        "Jaggy"
+      ],
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
@@ -11961,6 +12129,12 @@
     {
       "name": "Dragon's Isle",
       "slug": "dragons-isle",
+      "admins": [
+        "Calysto",
+        "Europol",
+        "Rhiannon"
+      ],
+      "adult": true,
       "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
       "dataOrigins": [""],
       "resources": [
@@ -11982,7 +12156,11 @@
     {
       "name": "The Rainbow Room",
       "description": "The Rainbow Room is the friendliest cyber community online. The Rainbow room is a small talker which seems to attract dynamic people who enjoy intelligent conversation and many laughs. This is a family talker that is open to all ages for people of the lesbian/bisexual/gay/transgendered communities and their friends.<br>This talker encourages users to participate strongly by contributing rooms, room descriptions, and other assorted files. The Rainbow Room is constantly changing with the users and the seasons.<br>On this talker users are also encouraged to take advantage of the standing offer to make tailor made special occasion rooms, perfect for net.weddings. One last thing, Bottom, our bot, we like him, hope you do too!",
+      "adult": true,
       "codebase": "nuts",
+      "admins": [
+        "Swantis"
+      ],
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
@@ -13686,6 +13864,26 @@
       "screencaps": []
     },
     {
+      "name": "Dave's World",
+      "slug": "daves-world",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "oot",
+      "location": "USA",
+      "admins": [
+        "Davet"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "unix4.darkstar.net",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "DarkRealm",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "darkrealm",
@@ -13892,6 +14090,48 @@
       "screencaps": []
     },
     {
+      "name": "Hatfield Plaza",
+      "dataOrigins": [ "greatbiglist" ],
+      "location": "UK",
+      "codebase": "tnet",
+      "admins": [
+        "Chris",
+        "Wotcha",
+        "Ali",
+        "Kudos"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://homepages.enterprise.net/dodgy/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "elvis.eee.strath.ac.uk",
+          "port": 5050
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Gwynedd",
+      "dataOrigins": [ "greatbiglist" ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mathlab.sunysb.edu",
+          "port": 12345
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Grease!",
       "slug": "grease",
       "dataOrigins": [ "greatbiglist" ],
@@ -13908,6 +14148,58 @@
           "blocked": true,
           "hostname": "grease.talkermud.com",
           "port": 4000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Highlands",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "oot",
+      "admins": [
+	      "Nefilim"
+      ],
+      "location": "Sweden",
+      "resources": [
+	      {
+		      "type": "website",
+          "url": "http://www.dalnet.se/~mulder/highlands/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "flash.dalnet.se",
+          "port": 7777
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Hella",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "oot",
+      "admins": [
+	      "Gonzo",
+	      "Oldirty",
+	      "Emanon",
+	      "Madpoet"
+      ],
+      "adult": true,
+      "location": "USA",
+      "resources": [
+	      {
+		      "type": "website",
+          "url": "https://web.archive.org/web/19970724003937/http://www.wonderd.com/hella/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sidhe.wonderd.com",
+          "port": 6000
         }
       ],
       "textcaps": [],
