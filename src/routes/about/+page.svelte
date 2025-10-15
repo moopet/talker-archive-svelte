@@ -1,6 +1,14 @@
 <section>
-  <h1>About this project</h1>
-  <h2>API</h2>
+  <h1>F.A.Q. about this project</h1>
+
+  <h2>Does this list contain MUDs?</h2>
+  <p>Sometimes. A few. But they have to be talker-style MUDs, i.e. MUDs that are primarly used for social chat.</p>
+  <p>If you think one is here by mistake, report it.</p>
+
+  <h2>Some talkers change their name over time, don't they?</h2>
+  <p>Yes, and I've tried to add notes and links about that but it's a bit like sewing with spaghetti.</p>
+
+  <h2>Is there an API?</h2>
   <p>
     If you want a list of active talkers in JSON format, you can get it from <a href="https://talkers.moopet.net/api/active-talkers">/api/active-talkers</a>.
     This may or may not be particularly up-to-date.
@@ -9,10 +17,8 @@
   <p>
     If you want the raw data for all the talkers, look in the <a href="https://github.com/moopet/talker-archive-svelte/blob/main/src/lib/data/talkers.json">talkers.json file in the repository</a>.
   </p>
-</section>
 
-<section>
-  <h2>Helping out</h2>
+  <h2>How can I help out?</h2>
   <p>
     This is work in progress.<br>
     A lot of links are from the Wayback Machine or my own memory. A lot of info might simply be <em>wrong</em>.
@@ -25,19 +31,8 @@
   <p>
     Drop me a line at <a href="mailto:ben@moopet.net">ben@moopet.net</a> or raise an issue on the <a href="https://github.com/moopet/talker-archive-svelte/issues">GitHub repository</a>.
   </p>
-</section>
 
-<section>
-  <h2>F.A.Q</h2>
-
-  <h3>Does this list contain MUDs?</h3>
-  <p>Sometimes. A few. But they have to be talker-style MUDs, i.e. MUDs that are primarly used for social chat.</p>
-  <p>If you think one is here by mistake, report it.</p>
-
-  <h3>Some talkers change their name over time, don't they?</h3>
-  <p>Yes, and I've tried to add notes and links about that but it's a bit like sewing with spaghetti.</p>
-
-  <h3>How do I get in touch with [spod]?</h3>
+  <h2>How do I get in touch with [spod]?</h2>
   <p>I probably can't help you there.</p>
   <p>Until recently there have been a few bigger Facebook groups that would help out, but that feature is being shut down.</p>
 </section>
@@ -47,8 +42,8 @@ h1 {
   margin-block-end: 3rem;
 }
 
-p + h3 {
-  margin-block-start: 3rem;
+p + h2 {
+  margin-block-start: 4rem;
 }
 
 section {
