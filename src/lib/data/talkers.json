@@ -989,6 +989,9 @@
       "aka": [
         "Castle2k"
       ],
+      "coders": [
+        "Beaver"
+      ],
       "admins": [
         "Beaver"
       ],
@@ -1502,7 +1505,10 @@
     },
     {
       "name": "Dusk Till Dawn",
-      "dataOrigins": ["spodlist", "greatbiglist"],
+      "dataOrigins": ["spodlist", "greatbiglist", "facebook"],
+      "admins": [
+        "Nightprowler"
+      ],
       "codebase": "haven",
       "screencaps": [
         "login/duskdawn.mytalker.org_4444.png"
@@ -2607,8 +2613,11 @@
     {
       "name": "Dark Shadows",
       "description": "An EW-style talker, loosely based on White Wolf's roleplaying game Vampire: the Masquerade.",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "facebook"],
       "ewtooAbbr": "ds",
+      "coders": [
+        "Sparkster"
+      ],
       "screencaps": [
         "login/ds.enyc.org.uk_8688.png"
       ],
@@ -2695,6 +2704,12 @@
         {
           "type": "website",
           "url": "http://www.resort.org"
+        },
+        {
+          "type": "Facebook community",
+          "icon": "Facebook",
+          "name": "Resort Spods",
+          "url": "https://www.facebook.com/groups/resort.spods/"
         }
       ],
       "hosts": [
@@ -2815,6 +2830,9 @@
       "dataOrigins": ["spodlist"],
       "codebase": "ewtoo",
       "ewtooAbbr": "TWD",
+      "coders": [
+        "Kevin"
+      ],
       "screencaps": [
         "login/nosuchluck.incredulous.org_7979.png"
       ],
@@ -4717,7 +4735,13 @@
     },
     {
       "name": "Cruiser",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "facebook"],
+      "coders": [
+        "Trojan"
+      ],
+      "admins": [
+        "Trojan"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6197,7 +6221,11 @@
     {
       "name": "Fear The Penguin",
       "codebase": "sensisummink",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "facebook"],
+      "notes": "Possibly evolved into <a data-sveltekit-reload href=\"/details/the-politburo\">The Politburo</a>.",
+      "admins": [
+        "Gentoo"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6208,6 +6236,16 @@
           "port": 9000
         }
       ]
+    },
+    {
+      "name": "The Politburo",
+      "codebase": "pgplus",
+      "dataOrigins": ["facebook"],
+      "notes": "Possibly evolved from <a data-sveltekit-reload href=\"/details/fear-the-penguin\">Fear The Penguin</a>.",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": []
     },
     {
       "name": "50 Miles Underground",
@@ -8937,7 +8975,10 @@
       "location": "USA",
       "description": "Silver Circle is a highly modified PG96 talker aimed at Wiccans, Pagans and spiritually open minded people on the internet. Our goal is to share ideas, thoughts, wisdom, laughs and some good times. Silver Circle also serves as a stepping stone and as a source of a wealth of information for those who seek information about Paganism and Wicca. We are open to people of all paths; the only thing we ask is that you have an open mind.",
       "codebase": "pg96",
-      "dataOrigins": ["talker.com"],
+      "coders": [
+        "Sparkster"
+      ],
+      "dataOrigins": ["facebook", "homepage"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9984,7 +10025,7 @@
     },
     {
       "name": "Crystal Palace",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "facebook"],
       "screencaps": [
         "login/cptalker.com_9900.png",
         "maps/crystal-palace.map.png"
