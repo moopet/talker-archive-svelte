@@ -1905,6 +1905,7 @@
     },
     {
       "name": "Somewhere Else",
+      "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/elsewhere\">Elsewhere</a> or <a data-sveltekit-reload href=\"/details/_elsewhere\">Elsewhere</a>.",
       "dataOrigins": ["user"],
       "location": "USA",
       "codebase": "ewtoo",
@@ -11532,6 +11533,35 @@
     },
     {
       "name": "Elsewhere",
+      "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/_elsewhere\">Elsewhere</a>.",
+      "notes": "Elsewhere was what eventually became <a data-sveltekit-reload href=\"/details/foothills\">Foothills</a>.",
+      "coders": [
+        "Burble"
+      ],
+      "location": "UK",
+      "codebase": "ewtoo",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "lily.warwick.ac.uk",
+          "port": 2010,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["memory"]
+    },
+    {
+      "name": "Elsewhere",
+      "slug": "_elsewhere",
+      "codebase": "ewtoo",
+      "description": "Elsewhere is a EW-too based talker. The name and theme come from Canadian singer Sarah McLachlan's song of the same title and was created as a place where people could go to have fun and enjoy friends. We've tried to create an atmosphere in the Orchids (our main room) that is comfortable for everyone. We are very much like a family...that is growing every day. So come join the family!",
+      "notes": "Watch out...Dj might hit you with his famous (or is that infamous?) typo-bomb...KhYbErX might play a round of basketball with you (I won't even tell you where the basketball comes from)...hObBeS definitely out-mischiefs Calvin (where did he get all those waterballoons anyways?)...Warlock is forever picking up pins (I guess he has nothing better to do)...tie yourself to something stationary so eXtrEmIs doesn't snowball you off the program...but whatever you do, don't say \"duck\" when Amory is logged on!",
+      "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/elsewhere\">Elsewhere</a>.",
+      "coders": [
+        "Burble"
+      ],
       "location": "Canada",
       "codebase": "ewtoo",
       "resources": [
@@ -11544,10 +11574,6 @@
         {
           "hostname": "genesis.skl.com",
           "port": 4444,
-          "blocked": true
-        },
-        {
-          "hostname": "lily.warwick.ac.uk",
           "blocked": true
         }
       ],
