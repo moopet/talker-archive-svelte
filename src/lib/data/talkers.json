@@ -262,20 +262,41 @@
       "name": "HTTP Chat"
     },
     {
+      "shortName": "exile",
+      "name": "Exile",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
+      "shortName": "acorn",
+      "name": "Acorn",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
+      "shortName": "planes",
+      "name": "Planes",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
       "shortName": "iforms",
       "name": "IFORMS",
       "description": "Interactive FORum Multiplexor Software",
       "family": "nuts",
       "language": "C",
       "repo": "https://github.com/talkersource/iforms",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "arien",
       "name": "ArIEN",
       "family": "nuts",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "amnuts",
@@ -284,7 +305,7 @@
       "description": "Andy's modified NUTS",
       "family": "nuts",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "mamnuts",
@@ -292,12 +313,12 @@
       "repo": "https://github.com/talkersource/mamnuts",
       "family": "nuts",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "cams",
       "name": "CAMS",
-      "plaform": "UNIX/Linux"
+      "plaform": "Unix-like"
     },
     {
       "shortName": "nuts",
@@ -305,7 +326,7 @@
       "description": "Neil's Unix Talk Server",
       "family": "nuts",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "retrobar",
@@ -320,14 +341,14 @@
       "name": "Tombstone",
       "family": "ewtoo",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "talkeros",
       "name": "TalkerOS",
       "family": "nuts",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "rnuts",
@@ -335,7 +356,7 @@
       "name": "rNUTS",
       "family": "nuts",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "talkernode",
@@ -350,7 +371,7 @@
       "name": "BOLTS",
       "language": "C",
       "family": "nuts",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "ncohafmuta",
@@ -358,27 +379,27 @@
       "family": "nuts",
       "name": "Ncohafmuta",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "sinco",
       "family": "ncohafmuta",
       "name": "Sinco",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "ewtoo",
       "repo": "https://github.com/talkersource/ew-too",
       "name": "EW-Too",
-      "platform": "UNIX/Linux",
+      "platform": "Unix-like",
       "language": "C"
     },
     {
       "shortName": "pg96",
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground '96",
-      "platform": "UNIX/Linux",
+      "platform": "Unix-like",
       "family": "ewtoo",
       "language": "C"
     },
@@ -386,7 +407,7 @@
       "shortName": "pgplus",
       "repo": "https://github.com/talkers/pgplus",
       "name": "Playground+",
-      "platform": "UNIX/Linux",
+      "platform": "Unix-like",
       "family": "ewtoo",
       "language": "C"
     },
@@ -395,21 +416,21 @@
       "name": "Summink",
       "family": "ewtoo",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "sensipg",
       "name": "Sensi-Playground",
       "family": "ewtoo",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "sensisummink",
       "name": "Sensi-Summink",
       "family": "ewtoo",
       "language": "C",
-      "platform": "UNIX/Linux"
+      "platform": "Unix-like"
     },
     {
       "shortName": "talker",
@@ -421,7 +442,7 @@
       "shortName": "vints",
       "family": "NUTS",
       "name": "VINTS",
-      "platform": "UNIX/Linux",
+      "platform": "Unix-like",
       "language": "C"
     },
     {
@@ -2102,6 +2123,32 @@
           "port": 8008
         }
       ]
+    },
+    {
+      "name": "Lo Riviero",
+      "notes": "Part of the \"Worlds of Sirius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a>.",
+      "codebase": "exile",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": []
+    },
+    {
+      "name": "Blade Jack",
+      "notes": "Part of the \"Worlds of Sirius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/lo-riviero\">Lo Riviero</a>.",
+      "codebase": "exile",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": []
+    },
+    {
+      "name": "Planes of Existence",
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": []
     },
     {
       "name": "Astral Planes",
@@ -5238,7 +5285,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5253,7 +5305,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5268,7 +5325,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5283,7 +5345,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5298,7 +5365,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5313,7 +5385,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5328,7 +5405,12 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9851,10 +9933,23 @@
     },
     {
       "name": "Lintilla General Chat",
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "coders": [
+        "Graeme"
+      ],
       "dataOrigins": ["kesey"],
+      "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9865,10 +9960,23 @@
     },
     {
       "name": "Lintilla Women-Women",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9879,10 +9987,23 @@
     },
     {
       "name": "Lintilla Men-Men",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
       "dataOrigins": ["kesey"],
+      "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9893,10 +10014,23 @@
     },
     {
       "name": "Lintilla Funny",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
       "dataOrigins": ["kesey"],
+      "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9907,10 +10041,23 @@
     },
     {
       "name": "Lintilla The Retreat",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9921,11 +10068,24 @@
     },
     {
       "name": "Lintilla The Chapel",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "disambiguation": "Possibly the same talker as <a href=\"/details/chapel-of-love\" data-sveltekit-reload>Chapel of Love</a>.",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9936,10 +10096,23 @@
     },
     {
       "name": "Lintilla Roissy",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9950,10 +10123,23 @@
     },
     {
       "name": "Lintilla Beach",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9964,10 +10150,23 @@
     },
     {
       "name": "Lintilla Animal Friends",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9978,10 +10177,23 @@
     },
     {
       "name": "Lintilla Dungeon",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9992,10 +10204,23 @@
     },
     {
       "name": "Lintilla Intimate Delights",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -10006,6 +10231,14 @@
     },
     {
       "name": "The Sport Zone",
+      "coders": [
+        "Graeme"
+      ],
+      "admins": [
+        "Bushtail",
+        "Ratatosk"
+      ],
+      "codebase": "nuts",
       "description": "The \"Lintilla Sport Zone\" is Lintilla's first foray into a talker with a sports theme. The administration of the Sport Zone and it's regular users are all either athletes, coaches, or avid sports fans who enjoy a good chat about a whole variety of professional and amateur sports from around the globe.<br>A hilighted feature is the group of sport themed chat rooms -- each representing a particular sport ranging from soccer to baseball.<br><br>The mood is relaxed and friendly and we of the Sport Zone would like you to be our welcomed guest.",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
@@ -10014,6 +10247,10 @@
         {
           "type": "website",
           "url": "http://lintilla.df.lth.se/~ipkiss/"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
       "hosts": [
@@ -10046,6 +10283,19 @@
     },
     {
       "name": "Crystal Palace",
+      "aka": [
+        "Palace",
+        "CP"
+      ],
+      "notes": "Part of the \"Worlds of Sirius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a> and <a data-sveltekit-reload href=\"/details/lo-riviera\">Lo Riviera</a>.",
+      "adult": true,
+      "admins": [
+        "Virus"
+      ],
+      "coders": [
+        "Virus"
+      ],
+      "codebase": "acorn",
       "dataOrigins": ["spodlist", "facebook"],
       "screencaps": [
         "login/cptalker.com_9900.png",
@@ -10977,14 +11227,6 @@
       ]
     },
     {
-      "name": "Lintilla",
-      "dataOrigins": ["facebook"],
-      "resources": [],
-      "screencaps": [],
-      "textcaps": [],
-      "hosts": []
-    },
-    {
       "name": "Lighthouse",
       "aka": [
         "The Light House"
@@ -11014,8 +11256,16 @@
     },
     {
       "name": "Sleepy General",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11027,9 +11277,18 @@
       ]
     },
     {
-      "name": "Sleepys Men's Corner",
+      "name": "Sleepy Men's Corner",
+      "slug": "sleepy-mens-corner",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11042,8 +11301,16 @@
     },
     {
       "name": "Sleepy Dungeon",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11056,8 +11323,16 @@
     },
     {
       "name": "Sleepy Forest",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11070,8 +11345,16 @@
     },
     {
       "name": "Sleepy Mystic Castle",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11084,8 +11367,16 @@
     },
     {
       "name": "Sleepy Ocean Port",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11097,9 +11388,18 @@
       ]
     },
     {
-      "name": "Sleepys Women's Lib",
+      "name": "Sleepy Women's Lib",
+      "slug": "sleepy-womens-lib",
+      "admins": [
+        "Sleepy"
+      ],
       "dataOrigins": ["kesey"],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -11304,6 +11604,10 @@
         {
           "type": "website",
           "url": "http://lintilla.df.lth.se/~swantis/"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
       "screencaps": [
