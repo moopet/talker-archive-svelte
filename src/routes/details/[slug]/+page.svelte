@@ -85,7 +85,8 @@
       };
   });
 
-  const otherResources: Array<Resource> = [];
+  const otherResources: Array<Resource> = resources
+    .filter(resource => resource.type === 'Facebook community');
 
   if (ewtooAbbr) {
     otherResources.push({
