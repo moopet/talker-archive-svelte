@@ -1,0 +1,15 @@
+
+                     T H E    T W I L I G H T    Z O N E
+                            F A R M   H O U S E
+
+                                   /^\    @
+                          Outhouse [(]   | | Silo
+                            _______      |_|
+                           / Attic \      _
+                          /--- -----\    /\\
+          Back to        / Farm |TV  \  ||||| Red
+          Willoughby <-- | House Room|  ||X|| Barn
+                          - -- ------
+                          \_Porch_\
+
+

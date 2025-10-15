@@ -4360,7 +4360,12 @@
         "login/tzone.ddns.net_5000.png"
       ],
       "textcaps": [
-        "login/tzone.ddns.net_5000.txt"
+        "login/tzone.ddns.net_5000.txt",
+        "maps/twilight-zone.world.map.txt",
+        "maps/twilight-zone.airport.map.txt",
+        "maps/twilight-zone.spaceport.map.txt",
+        "maps/twilight-zone.willoughby.map.txt",
+        "maps/twilight-zone.farmhouse.map.txt"
       ],
       "resources": [],
       "hosts": [
