@@ -2125,8 +2125,39 @@
       ]
     },
     {
+      "name": "Dracosia",
+      "adult": true,
+      "codebase": "exile",
+      "admins": [
+        "Xavier"
+      ],
+      "coders": [
+        "Wire",
+        "Xaria"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://dracosia.dune.net"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/2996039"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "dracosia.dune.net",
+          "port": 1977
+        }
+      ]
+    },
+    {
       "name": "Lo Riviero",
-      "notes": "Part of the \"Worlds of Sirius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a>.",
+      "adult": true,
+      "notes": "Part of the \"Worlds of Syrius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a>.",
       "codebase": "exile",
       "screencaps": [],
       "textcaps": [],
@@ -2135,7 +2166,8 @@
     },
     {
       "name": "Blade Jack",
-      "notes": "Part of the \"Worlds of Sirius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/lo-riviero\">Lo Riviero</a>.",
+      "adult": true,
+      "notes": "Part of the \"Worlds of Syrius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/lo-riviero\">Lo Riviero</a>.",
       "codebase": "exile",
       "screencaps": [],
       "textcaps": [],
@@ -8946,26 +8978,6 @@
       ]
     },
     {
-      "name": "Worlds Of Syrius",
-      "description": "The talkers are here to give a laid-back atmosphere for those over 18 years old. It focuses heavily on roleplaying one's personal life-style and interacting with others.",
-      "codebase": "nuts",
-      "adult": true,
-      "dataOrigins": ["talker.com"],
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [
-        {
-          "type": "email",
-          "url": "syrius@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/syrius"
-        }
-      ],
-      "hosts": []
-    },
-    {
       "name": "Writers BBS Chat Room",
       "description": "A friendly place to meet authors and poets. Discussions range from using the Internet to pets to getting one's writing published for the first time. All are welcome to join in",
       "codebase": "http",
@@ -10283,6 +10295,7 @@
     },
     {
       "name": "Crystal Palace",
+      "description": "The talkers are here to give a laid-back atmosphere for those over 18 years old. It focuses heavily on roleplaying one's personal life-style and interacting with others.",
       "aka": [
         "Palace",
         "CP"
@@ -10296,7 +10309,7 @@
         "Virus"
       ],
       "codebase": "acorn",
-      "dataOrigins": ["spodlist", "facebook"],
+      "dataOrigins": ["spodlist", "talker.com", "facebook"],
       "screencaps": [
         "login/cptalker.com_9900.png",
         "maps/crystal-palace.map.png"
@@ -10309,6 +10322,14 @@
           "type": "website",
           "name": "Web client",
           "url": "http://cptalker.com:9901/cp"
+        },
+        {
+          "type": "email",
+          "url": "syrius@talker.com"
+        },
+        {
+          "type": "website",
+          "url": "http://www.talker.com/syrius"
         }
       ],
       "hosts": [
