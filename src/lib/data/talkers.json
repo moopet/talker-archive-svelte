@@ -2129,7 +2129,9 @@
       "adult": true,
       "codebase": "exile",
       "admins": [
-        "Xavier"
+        "Xavier",
+        "Kaata",
+        "Xaria"
       ],
       "coders": [
         "Wire",
@@ -2143,6 +2145,10 @@
           "url": "http://dracosia.dune.net"
         },
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20080509074004/http://dracosia.dune.net/"
+        },
+        {
           "type": "website",
           "url": "https://en-academic.com/dic.nsf/enwiki/2996039"
         }
@@ -2151,6 +2157,355 @@
         {
           "hostname": "dracosia.dune.net",
           "port": 1977
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Wisdom",
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Cat",
+        "Rashkae"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4201
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Magic",
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Hellefire",
+        "Godys",
+        "Vamp"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4202
+        },
+        {
+          "hostname": "planes.org",
+          "port": 4206
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Madness",
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Guardian"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4203
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Love",
+      "adult": true,
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4204
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Extroversion",
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "adult": true,
+      "admins": [
+        "Erotica",
+        "Cheryl",
+        "Schoolgirl",
+        "Sabrina"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4205
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Animals",
+      "adult": true,
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Bar",
+        "Rashkae",
+        "Horse"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4206
+        },
+        {
+          "hostname": "planes.org",
+          "port": 4208
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Women",
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Shy",
+        "Qui"
+      ],
+      "adult": true,
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4207
+        },
+        {
+          "hostname": "planes.org",
+          "port": 4201
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Men",
+      "adult": true,
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Ashke"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4208
+        },
+        {
+          "hostname": "planes.org",
+          "port": 4202
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Peace",
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Dolfin"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4209
+        }
+      ]
+    },
+    {
+      "name": "The Plane of Darkness",
+      "adult": true,
+      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "admins": [
+        "Godys",
+        "Vamp"
+      ],
+      "coders": [
+        "Paul",
+        "ThePhoenix",
+        "Cat",
+        "Kiwi"
+      ],
+      "codebase": "planes",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+        },
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "planes.org",
+          "port": 4210
+        },
+        {
+          "hostname": "planes.org",
+          "port": 4213
         }
       ]
     },
@@ -2169,14 +2524,6 @@
       "adult": true,
       "notes": "Part of the \"Worlds of Syrius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/lo-riviero\">Lo Riviero</a>.",
       "codebase": "exile",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": []
-    },
-    {
-      "name": "Planes of Existence",
-      "codebase": "planes",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
