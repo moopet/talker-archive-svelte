@@ -26,7 +26,11 @@
 </script>
 
 <section>
-  <h1>Spod disambiguation</h1>
+  <h1>Spod cross-reference</h1>
+
+  <p>
+    Note: just like in real life, it's entirely possible for more than one person to have the same spod name. Don't rely on jdoe being the same jdoe you knew from somewhere else.
+  </p>
 
   {#if talkers.length > 0}
     <h2>{spodName}</h2>
