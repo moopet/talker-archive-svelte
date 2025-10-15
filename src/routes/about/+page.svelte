@@ -1,39 +1,5 @@
-<script lang="ts">
-  import { resources } from '$lib/data/talkers.json';
-
-  import ResourceList from '$lib/components/ResourceList.svelte';
-
-  const articleResourceTypes: Array<string> = [
-    'Article'
-  ];
-
-  const communityResourceTypes: Array<string>  = [
-    'Facebook group',
-    'Livejournal community'
-  ];
-
-  const sourceCodeResourceTypes: Array<string>  = [
-    'Repository'
-  ];
-
-  const otherResourceTypes: Array<string>  = [
-    'Hosting',
-    'Website'
-  ];
-</script>
-
 <section>
   <h1>About this project</h1>
-  <h2>Resources</h2>
-  <p>
-    This is an attempt to collect talker-related resources that might get missed on a casual web search.
-  </p>
-  <p>
-    This sort of page used to be called "bookmarks", or "useful links" back in the day. Nobody used to read them then, either.
-  </p>
-</section>
-
-<section>
   <h2>API</h2>
   <p>
     If you want a list of active talkers in JSON format, you can get it from <a href="https://talkers.moopet.net/api/active-talkers">/api/active-talkers</a>.
@@ -61,14 +27,30 @@
   </p>
 </section>
 
-<section class="resources">
-  <ResourceList title="Articles" resources={resources.filter(resource => articleResourceTypes.includes(resource.type))} />
-  <ResourceList title="Community" resources={resources.filter(resource => communityResourceTypes.includes(resource.type))} />
-  <ResourceList title="Source code" resources={resources.filter(resource => sourceCodeResourceTypes.includes(resource.type))} />
-  <ResourceList title="Other" resources={resources.filter(resource => otherResourceTypes.includes(resource.type))} />
+<section>
+  <h2>F.A.Q</h2>
+
+  <h3>Does this list contain MUDs?</h3>
+  <p>Sometimes. A few. But they have to be talker-style MUDs, i.e. MUDs that are primarly used for social chat.</p>
+  <p>If you think one is here by mistake, report it.</p>
+
+  <h3>Some talkers change their name over time, don't they?</h3>
+  <p>Yes, and I've tried to add notes and links about that but it's a bit like sewing with spaghetti.</p>
+
+  <h3>How do I get in touch with [spod]?</h3>
+  <p>I probably can't help you there.</p>
+  <p>Until recently there have been a few bigger Facebook groups that would help out, but that feature is being shut down.</p>
 </section>
 
 <style>
+h1 {
+  margin-block-end: 3rem;
+}
+
+p + h3 {
+  margin-block-start: 3rem;
+}
+
 section {
   text-align: left;
 }
@@ -84,24 +66,5 @@ h2 {
   border-block-end-width: 1px;
   border-style: solid;
   border-color: var(--border-color);
-}
-
-.resources {
-  max-width: calc(100% - 2rem);
-  display: flex;
-  gap: 1rem;
-  flex-direction: column;
-}
-
-@media (min-width: 560px) {
-  .resources {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 768px) {
-  .resources {
-    gap: 2rem;
-  }
 }
 </style>

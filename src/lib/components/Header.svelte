@@ -7,6 +7,7 @@
   <nav>
     <a href="/">Grid</a>
     <a href="/list">List</a>
+    <a href="/resources">Resources</a>
     <a href="/about">About</a>
   </nav>
 </header>
