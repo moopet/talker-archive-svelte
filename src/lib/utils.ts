@@ -51,6 +51,10 @@ export function getTalkerSlug(talker: Talker): string {
   return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/'/, '');
 }
 
+export function findTalkersByMultiWorld(multiWorldName: string): Talker[] {
+  return talkers.filter(talker => (talker?.multiWorld ?? '').toLowerCase() === multiWorldName.toLowerCase());
+}
+
 export function findTalkersBySpod(spodName: string): Talker[] {
   return talkers.filter(talker => {
     const admins = (talker?.admins ?? []).map(x => x.toLowerCase());

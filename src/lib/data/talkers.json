@@ -455,6 +455,24 @@
       "name": "Custom"
     }
   ],
+  "multiWorlds": [
+    {
+      "shortName": "sleepy",
+      "name": "Sleepy's worlds"
+    },
+    {
+      "shortName": "fantasia",
+      "name": "Fantasia"
+    },
+    {
+      "shortName": "lintilla",
+      "name": "Lintilla"
+    },
+    {
+      "shortName": "planes",
+      "name": "The Planes of Existence"
+    }
+  ],
   "talkers": [
     {
       "name": "The A-Team",
@@ -2193,7 +2211,7 @@
     },
     {
       "name": "The Plane of Wisdom",
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Cat",
         "Rashkae"
@@ -2233,7 +2251,7 @@
         "Mysticism",
         "Myst"
       ],
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Hellefire",
         "Godys",
@@ -2273,7 +2291,7 @@
     },
     {
       "name": "The Plane of Madness",
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Guardian"
       ],
@@ -2307,7 +2325,7 @@
     {
       "name": "The Plane of Love",
       "adult": true,
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "coders": [
         "Paul",
         "ThePhoenix",
@@ -2342,7 +2360,7 @@
         "Lust",
         "POL"
       ],
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "adult": true,
       "admins": [
         "Erotica",
@@ -2379,11 +2397,11 @@
     },
     {
       "name": "The Plane of Animals",
+      "multiWorld": "planes",
       "aka": [
         "POA"
       ],
       "adult": true,
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
       "admins": [
         "Bar",
         "Rashkae",
@@ -2424,7 +2442,7 @@
         "Womyn",
         "Fyre and Ice"
       ],
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Shyy",
         "Qui"
@@ -2468,7 +2486,7 @@
         "POM"
       ],
       "adult": true,
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Ashke"
       ],
@@ -2511,7 +2529,7 @@
         "Dolphins",
         "POD"
       ],
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Dolfin"
       ],
@@ -2548,7 +2566,7 @@
         "POD"
       ],
       "adult": true,
-      "notes": "Part of the \"Planes of Existence\" multiple-worlds group.",
+      "multiWorld": "planes",
       "admins": [
         "Godys",
         "Vamp"
@@ -2588,6 +2606,7 @@
     {
       "name": "The Place of Dolphins",
       "notes": "Was originally <a data-sveltekit-reload href=\"/details/plane-of-peace\">The Plane of Peace</a> until 1998.",
+      "multiWorld": "planes",
       "admins": [
         "Dolfin"
       ],
@@ -6201,6 +6220,7 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
+      "multiWorld": "fantasia",
       "resources": [
         {
           "type": "website",
@@ -6219,6 +6239,7 @@
       "name": "Fantasia's Castle",
       "adult": true,
       "dataOrigins": ["rosen"],
+      "multiWorld": "fantasia",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6238,6 +6259,7 @@
     {
       "name": "Fantasia's Ancient Rome",
       "adult": true,
+      "multiWorld": "fantasia",
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
@@ -6259,6 +6281,7 @@
       "name": "Fantasia's Buccaneers",
       "adult": true,
       "dataOrigins": ["rosen"],
+      "multiWorld": "fantasia",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6279,6 +6302,7 @@
       "name": "Fantasia's Wild West",
       "adult": true,
       "dataOrigins": ["rosen"],
+      "multiWorld": "fantasia",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6298,6 +6322,7 @@
     {
       "name": "Fantasia's Dream World",
       "adult": true,
+      "multiWorld": "fantasia",
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
@@ -6320,6 +6345,7 @@
       "adult": true,
       "dataOrigins": ["rosen"],
       "screencaps": [],
+      "multiWorld": "fantasia",
       "textcaps": [],
       "resources": [
         {
@@ -6339,6 +6365,7 @@
       "name": "Chapel of Love",
       "disambiguation": "Possibly the same talker as <a href=\"/details/lintilla-the-chapel\" data-sveltekit-reload>Lintilla The Chapel</a>.",
       "adult": true,
+      "multiWorld": "lintilla",
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
@@ -6357,6 +6384,7 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
+      "multiWorld": "lintilla",
       "resources": [],
       "hosts": [
         {
@@ -10988,6 +11016,7 @@
       "coders": [
         "Graeme"
       ],
+      "multiWorld": "lintilla",
       "dataOrigins": ["kesey"],
       "codebase": "nuts",
       "screencaps": [],
@@ -11008,6 +11037,7 @@
     },
     {
       "name": "Lintilla Women-Women",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11035,6 +11065,7 @@
     },
     {
       "name": "Lintilla Men-Men",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11062,6 +11093,7 @@
     },
     {
       "name": "Lintilla Funny",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11089,6 +11121,7 @@
     },
     {
       "name": "Lintilla The Retreat",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11116,6 +11149,7 @@
     },
     {
       "name": "Lintilla The Chapel",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11144,6 +11178,7 @@
     },
     {
       "name": "Lintilla Roissy",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11171,6 +11206,7 @@
     },
     {
       "name": "Lintilla Beach",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11198,6 +11234,7 @@
     },
     {
       "name": "Lintilla Animal Friends",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11225,6 +11262,7 @@
     },
     {
       "name": "Lintilla Dungeon",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11252,6 +11290,7 @@
     },
     {
       "name": "Lintilla Intimate Delights",
+      "multiWorld": "lintilla",
       "coders": [
         "Graeme"
       ],
@@ -11288,6 +11327,7 @@
       ],
       "codebase": "nuts",
       "description": "The \"Lintilla Sport Zone\" is Lintilla's first foray into a talker with a sports theme. The administration of the Sport Zone and it's regular users are all either athletes, coaches, or avid sports fans who enjoy a good chat about a whole variety of professional and amateur sports from around the globe.<br>A hilighted feature is the group of sport themed chat rooms -- each representing a particular sport ranging from soccer to baseball.<br><br>The mood is relaxed and friendly and we of the Sport Zone would like you to be our welcomed guest.",
+      "multiWorld": "lintilla",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
@@ -12299,6 +12339,7 @@
     },
     {
       "name": "Sleepy General",
+      "multiWorld": "sleepy",
       "admins": [
         "Sleepy"
       ],
@@ -12321,6 +12362,7 @@
     },
     {
       "name": "Sleepy Men's Corner",
+      "multiWorld": "sleepy",
       "slug": "sleepy-mens-corner",
       "admins": [
         "Sleepy"
@@ -12344,6 +12386,7 @@
     },
     {
       "name": "Sleepy Dungeon",
+      "multiWorld": "sleepy",
       "admins": [
         "Sleepy"
       ],
@@ -12366,6 +12409,7 @@
     },
     {
       "name": "Sleepy Forest",
+      "multiWorld": "sleepy",
       "admins": [
         "Sleepy"
       ],
@@ -12388,6 +12432,7 @@
     },
     {
       "name": "Sleepy Mystic Castle",
+      "multiWorld": "sleepy",
       "admins": [
         "Sleepy"
       ],
@@ -12410,6 +12455,7 @@
     },
     {
       "name": "Sleepy Ocean Port",
+      "multiWorld": "sleepy",
       "admins": [
         "Sleepy"
       ],
@@ -12432,6 +12478,7 @@
     },
     {
       "name": "Sleepy Women's Lib",
+      "multiWorld": "sleepy",
       "slug": "sleepy-womens-lib",
       "admins": [
         "Sleepy"
