@@ -21,11 +21,24 @@
       return '';
     }
 
-    let codebaseDescription: string = `The talker is (was?) based on the codebase, "${codebase.name}"`;
+    let codebaseDescription: string = "The talker is (was?) based on the codebase, ";
+
+    if (codebase.description) {
+      codebaseDescription += `"<abbr title="${codebase.description}">${codebase.name}</abbr>"`;
+    }
+    else {
+      codebaseDescription += `"${codebase.name}"`;
+    }
 
     if (codebase?.family) {
       const codebaseFamily: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebase.family.toLowerCase());
-      codebaseDescription += `, a ${codebaseFamily.name} derivative`;
+
+      if (codebaseFamily.description) {
+        codebaseDescription += `, a <abbr title="${codebaseFamily.description}">${codebaseFamily.name}</abbr> derivative`;
+      }
+      else {
+        codebaseDescription += `, a ${codebaseFamily.name} derivative`;
+      }
     }
 
     return `${codebaseDescription}.`;
@@ -152,7 +165,7 @@
 
     {#if codebaseDescription}
       <p>
-        {codebaseDescription}
+        {@html codebaseDescription}
       </p>
     {/if}
 
