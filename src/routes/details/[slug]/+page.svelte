@@ -6,6 +6,7 @@
   import { codebases, dataOrigins, multiWorlds, talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
+  import MultiWorld from '$lib/components/MultiWorld.svelte';
 
   const nullTalker = {
     name: "Talker not found"
@@ -28,16 +29,6 @@
     }
 
     return `${codebaseDescription}.`;
-  };
-
-  const getMultiWorldLink = (multiWorldName: string): string => {
-    const multiWorld = multiWorlds.find(item => item.shortName.toLowerCase() === multiWorldName.toLowerCase());
-
-    if (!multiWorld) {
-      return '';
-    }
-
-    return `<a data-sveltekit-reload href="/multi-world/${multiWorld.shortName}">${multiWorld.name}</a>`;
   };
 
   const getCitation = (dataOriginNames: string[]): string => {
@@ -139,12 +130,6 @@
   </section>
 
   <section class="information">
-    {#if talker?.multiWorld}
-      <p class="disambiguation">
-        This talker is part of the multi-world system, "{@html getMultiWorldLink(talker.multiWorld)}".
-      </p>
-    {/if}
-
     {#if talker?.disambiguation}
       <p class="disambiguation">
         {@html talker?.disambiguation}
@@ -175,6 +160,10 @@
       <p class="data-origin">
         {@html citation}
       </p>
+    {/if}
+
+    {#if talker?.multiWorld}
+      <MultiWorld talker={talker} />
     {/if}
 
     <p class="disclaimer">

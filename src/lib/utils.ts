@@ -32,10 +32,6 @@ export async function isTalkerActive(talker: Talker): Promise<boolean> {
 }
 
 export async function getTalkerStatus(talker: Talker): Promise<string> {
-  if (talker.hosts.length === 0) {
-    return 'unknown';
-  }
-
   if (talker.hosts.every(host => host?.blocked)) {
     return 'defunct';
   }

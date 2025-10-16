@@ -54,6 +54,10 @@ export type Talker = {
   textcaps?: Array<string>;
 };
 
+export type MultiWorldProps = {
+  talker: Talker;
+};
+
 export type TalkerCardProps = {
   talkers: Talker;
 };
