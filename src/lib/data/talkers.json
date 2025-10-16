@@ -144,6 +144,11 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "haven",
+      "name": "The Havens List",
+      "link": "https://haven.zeal.net"
+    },
+    {
       "shortName": "mudstats",
       "name": "MUDStats",
       "link": "https://www.mudstats.com"
@@ -1931,6 +1936,27 @@
           "blocked": true,
           "hostname": "vineyard.igc.net",
           "port": 4242
+        }
+      ]
+    },
+    {
+      "name": "Somewhere In Time",
+      "dataOrigins": ["greatbiglist"],
+      "location": "USA",
+      "codebase": "haven",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "admins": [
+        "BassBoy",
+        "WarmFuzzy",
+        "Jaime"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "pyrotechnics.com",
+          "port": 4444
         }
       ]
     },
@@ -4696,6 +4722,11 @@
     },
     {
       "name": "Virtual City",
+      "location": "Estonia",
+      "admins": [
+        "Stefan",
+        "Lo-vi"
+      ],
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
@@ -4835,6 +4866,109 @@
           "blocked": true,
           "hostname": "nowhereland.dune.net",
           "port": 1234
+        }
+      ]
+    },
+    {
+      "name": "Melrose Chat",
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "admins": [
+        "ratboy"
+      ],
+      "textcaps": [],
+      "codebase": "haven",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "curryco.com",
+          "port": 4616
+        }
+      ]
+    },
+    {
+      "name": "Metaverse Internet Chat",
+      "disambiguation": "Not to be confused with <a href=\"/details/metaverse\" data-sveltekit-reload>The Metaverse</a>.",
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "admins": [
+        "ratboy"
+      ],
+      "textcaps": [],
+      "codebase": "haven",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "curryco.com",
+          "port": 1111
+        }
+      ]
+    },
+    {
+      "name": "Floodland",
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "admins": [
+        "Speedracer"
+      ],
+      "textcaps": [],
+      "codebase": "haven",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "moloko.insync.net",
+          "port": 2525
+        }
+      ]
+    },
+    {
+      "name": "St James' Haven",
+      "slug": "st-james-haven",
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "haven",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "stjames.ml.org",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Illusions",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "haven",
+      "admins": [
+        "Kazi",
+        "Badgirl",
+        "MaidMarion",
+        "Terminator",
+        "Vampyre"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.io.com/illusions/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "illusions.zeal.net",
+          "port": 6969
+        },
+        {
+          "blocked": true,
+          "hostname": "piglet.cc.utexas.edu",
+          "port": 6969
         }
       ]
     },
@@ -5439,17 +5573,295 @@
       ]
     },
     {
+      "name": "Vanalinna",
+      "location": "Estonia",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.apollos.ttu.ee/~valitsus/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "apollos.ttu.ee",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Under the Big Top",
+      "location": "USA",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "adult": true,
+      "admins": [
+        "Wbeb",
+        "Pwk"
+      ],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.153.44.70",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "TV Studio",
+      "location": "USA",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "oot",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "kirk.dnaco.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "TreeTops",
+      "location": "Philippines",
+      "admins": [
+        "Daimyo"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "oot",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "polgas.ps.admu.edu.ph",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "TownSquare",
+      "location": "USA",
+      "admins": [
+        "Dave"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "custom",
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.fhsu.edu/students/dave/townsquare/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dave.fhsu.edu",
+          "port": 5050
+        }
+      ]
+    },
+    {
+      "name": "Timeless",
+      "location": "USA",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hemi.com",
+          "port": 6776
+        }
+      ]
+    },
+    {
+      "name": "Temple of Slack",
+      "location": "USA",
+      "admins": [
+        "Tiamat"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "prairiedog.cs.indiana.edu",
+          "port": 2323
+        }
+      ]
+    },
+    {
+      "name": "Satellite of Love",
+      "admins": [
+        "Snostorm"
+      ],
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "khazad-dum.ccsi.com",
+          "port": 1807
+        },
+        {
+          "blocked": true,
+          "hostname": "rootaction.net",
+          "port": 1807
+        }
+      ]
+    },
+    {
+      "name": "Hotel California",
+      "admins": [
+        "Tsunami"
+      ],
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "khazad-dum.ccsi.com",
+          "port": 6969
+        },
+        {
+          "blocked": true,
+          "hostname": "rootaction.net",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Candlelight Masquerade",
+      "admins": [
+        "Alora",
+        "Selina"
+      ],
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "stjames.ml.org",
+          "port": 2022
+        }
+      ]
+    },
+    {
+      "name": "Castle Greens",
+      "admins": [
+        "MaidMarion"
+      ],
+      "dataOrigins": ["haven"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sherwood.brevard.com",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Jade",
+      "admins": [
+        "Kazi"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "zeal.net",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "IHOP",
+      "location": "USA",
+      "admins": [
+        "Vampyre"
+      ],
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "codebase": "haven",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mu.chau.net",
+          "port": 7767
+        }
+      ]
+    },
+    {
+      "name": "Tartu",
+      "location": "Estonia",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "193.40.11.12",
+          "port": 4002
+        }
+      ]
+    },
+    {
+      "name": "Jutukas Nimetu",
+      "language": "Estonian",
+      "location": "Estonia",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sneezy.net.ut.ee",
+          "port": 4002
+        }
+      ]
+    },
+    {
       "name": "Jungle",
       "slug": "jungle",
       "disambiguation": "Not to be confused with <a href=\"/details/the-jungle\" data-sveltekit-reload>The Jungle</a>.",
       "codebase": "ncohafmuta",
-      "admins": [
-        "Ike",
-        "Melinda",
-        "Viper",
-        "Chip",
-        "Sunshine"
-      ],
       "location": "Mexico",
       "dataOrigins": ["rosen"],
       "screencaps": [],
@@ -5717,14 +6129,20 @@
     {
       "name": "Volcanic Isle",
       "codebase": "joot",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "greatbiglist"],
       "screencaps": [],
       "location": "USA",
+      "adult": true,
       "admins": [
         "Koala"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.uq.edu.au/~zzwmcgli/vi.html"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5736,7 +6154,7 @@
     {
       "name": "Way of the Force",
       "codebase": "ncohafmuta",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "greatbiglist"],
       "screencaps": [],
       "location": "USA",
       "admins": [
@@ -5744,7 +6162,12 @@
         "Lightsabre"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.talker.com/wotf/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -7161,6 +7584,7 @@
     },
     {
       "name": "The Metaverse",
+      "disambiguation": "Not to be confused with <a href=\"/details/metaverse-internet-chat\" data-sveltekit-reload>Metaverse Internet Chat</a>.",
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
@@ -8723,11 +9147,36 @@
       ]
     },
     {
+      "name": "Kenbridge",
+      "location": "USA",
+      "codebase": "oot",
+      "description": "The Jungle is a fun and friendly place to chat!",
+      "dataOrigins": ["talker.com", "greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "msinets.com",
+          "port": 5000
+        }
+      ]
+    },
+    {
       "name": "The Jungle",
       "slug": "the-jungle",
+      "location": "USA",
       "disambiguation": "Not to be confused with <a href=\"/details/jungle\" data-sveltekit-reload>Jungle</a>.",
       "description": "The Jungle is a fun and friendly place to chat!",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "greatbiglist"],
+      "admins": [
+        "Ike",
+        "Melinda",
+        "Viper",
+        "Chip",
+        "Sunshine"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8745,6 +9194,11 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 3050
+        },
+        {
+          "blocked": true,
+          "hostname": "net2.intserv.com",
+          "port": 3000
         }
       ]
     },
@@ -8759,7 +9213,9 @@
       ],
       "dataOrigins": ["talker.com"],
       "screencaps": [],
-      "textcaps": [],
+      "textcaps": [
+        "maps/journeys.map.txt"
+      ],
       "resources": [
         {
           "type": "email",
@@ -9698,6 +10154,25 @@
       ]
     },
     {
+      "name": "Space Runner",
+      "codebase": "musa",
+      "location": "UK",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "admins": [
+        "Vyper"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hope.cc.strath.ac.uk",
+          "port": 4321
+        }
+      ]
+    },
+    {
       "name": "Sim City",
       "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
       "codebase": "cuts",
@@ -9725,6 +10200,7 @@
     {
       "name": "Sommerland II",
       "description": "Sommerland is a talker open to anyone who has an open mind and isn't oppressed by people of different sexual orientations. This is not a sex talker, but rather a place for people to relax, have fun, and discuss issues in a themepark setting.",
+      "disambiguation": "It appears this talker replaced the original IFORMS-based <a data-sveltekit-reload href=\"/details/sommerland\">Sommerland</a>.",
       "codebase": "ncohafmuta",
       "dataOrigins": ["talker.com"],
       "screencaps": [],
@@ -9833,8 +10309,32 @@
       ]
     },
     {
+      "name": "Megadiner",
+      "dataOrigins": ["greatbiglist"],
+      "screencaps": [],
+      "admins": [
+        "Rathead",
+        "Keef",
+        "Evil_Ed",
+        "Sony500",
+        "Edog",
+        "Oxlip"
+      ],
+      "location": "USA",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "themob.com",
+          "port": 6969
+        }
+      ]
+    },
+    {
       "name": "Land of Confusion",
       "disambiguation": "Not to be confused with <a href=\"/details/state-of-confusion-university\" data-sveltekit-reload>State of Confusion University</a>.",
+      "adult": true,
       "codebase": "joot",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
@@ -9857,6 +10357,7 @@
     {
       "name": "State of Confusion University",
       "disambiguation": "Not to be confused with <a href=\"/details/land-of-confusion\" data-sveltekit-reload>Land of Confusion</a>.",
+      "adult": true,
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
       "screencaps": [],
@@ -9975,6 +10476,10 @@
       "name": "Soaring Emporium",
       "codebase": "ztalker",
       "location": "Norway",
+      "admins": [
+        "Zodi",
+        "Ajax"
+      ],
       "dataOrigins": ["greatbiglist"],
       "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
       "screencaps": [],
@@ -11709,20 +12214,6 @@
       ]
     },
     {
-      "name": "Iron Rose",
-      "dataOrigins": ["tdf"],
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.ironrose.org",
-          "port": 3000
-        }
-      ]
-    },
-    {
       "name": "Ice Fire",
       "dataOrigins": ["tdf"],
       "screencaps": [],
@@ -12086,10 +12577,27 @@
       ]
     },
     {
+      "name": "Pooh",
+      "dataOrigins": ["greatbiglist"],
+      "location": "Estonia",
+      "adult": true,
+      "resources": [],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "vw1.chem.et.ee",
+          "port": 6666
+        }
+      ]
+    },
+    {
       "name": "The Polyester Lounge",
       "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "codebase": "ncohafmuta",
+      "adult": true,
       "admins": [
         "Both"
       ],
@@ -13649,6 +14157,30 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
+      "name": "The Tavern (at the End of the Universe)",
+      "slug": "tavern-at-the-end-of-the-universe",
+      "location": "Germany",
+      "admins": [
+        "Kestra"
+      ],
+      "resources": [
+        {
+          "type": "email",
+          "url": "kestra@shocking.com"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "stud-mailer.uni-marberg.de",
+          "port": 7777,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["greatbiglist"]
+    },
+    {
       "name": "The Tavern",
       "location": "USA",
       "resources": [
@@ -14235,6 +14767,7 @@
       "aka": [
 	      "Iron Rose 2"
       ],
+      "adult": true,
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
@@ -14300,7 +14833,29 @@
       "screencaps": []
     },
     {
+      "name": "The Ottawa Fair",
+      "slug": "mistys-beach-house",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "iforms",
+      "admins": [
+      "Morningstar",
+      "Thangalin"
+      ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "magmacom.com",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Misty's Beach House",
+      "slug": "mistys-beach-house",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
@@ -14333,6 +14888,31 @@
           "blocked": true,
           "hostname": "broadsword.netdoor.com",
           "port": 9999
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Promised Land",
+      "dataOrigins": [ "greatbiglist" ],
+      "codebase": "haven",
+      "admins": [
+        "Jazzin",
+        "Averil"
+      ],
+      "location": "USA",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/SiliconValley/9737/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rs6000.zgs.com",
+          "port": 8888
         }
       ],
       "textcaps": [],
@@ -14478,6 +15058,7 @@
     },
     {
       "name": "Sommerland",
+      "disambiguation": "It apears this iforms talker was replaced by the ncohafmuta-based <a data-sveltekit-reload href=\"/details/sommerland-ii\">Sommerland II</a>.",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
@@ -14557,7 +15138,90 @@
       "screencaps": []
     },
     {
+      "name": "Zodiac",
+      "dataOrigins": [ "greatbiglist" ],
+      "location": "USA",
+      "codebase": "oot",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "abyss.bcl.net",
+          "port": 5000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Capsi",
+      "dataOrigins": [ "haven" ],
+      "resources": [],
+      "admins": [
+        "Cap"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "capsi.cx",
+          "port": 2300
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Green Room",
+      "dataOrigins": [ "haven" ],
+      "admins": [
+        "Thalia"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rootaction.net",
+          "port": 9999
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Up above it",
+      "dataOrigins": [ "haven" ],
+      "admins": [
+        "Angelo"
+      ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "up-above-it.org",
+          "port": 9999
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "X",
+      "dataOrigins": [ "greatbiglist" ],
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "becker1.u.washington.edu",
+          "port": 2424
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Woodstock",
+      "description": "Welcome to Woodstock, a multi user chat line based on the festival in 1969.",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "adult": true,

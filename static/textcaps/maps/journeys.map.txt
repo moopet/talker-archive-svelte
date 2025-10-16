@@ -1,0 +1,22 @@
+                              Journeys Map             {Admin.Area)
+ Courtroom - Embassy - Customs  -Airport- Luxury_Condos -Owners_Condo
+.----------.{Computer} {Talker}     |      {Wizard Room}-Mari's_Budoir
+| Executive| Assistance Areas       |              |----Empress_Enclave
+| Chambers |                        |              |------Happy_Room
+`----------'  {To Hotel} Limousine -|- Nerf_arena  `--------Condo_4
+                                    |
+              Texas -------- Boeing_747sp -- Sweden -- Alpine_forest
+Texas_Stadium --| .-----------'  |              | Ski_resort-|-After_ski
+Ranch_House ----| |        Malaysia  West_Coast-|            `-Cottage
+Meadow ---------| |   Langkawi-|   Midnight_Sun-|
+Lake -----------' |Kuala_Lumpur' Ulli's_Terrace |  _____/Penthouse\_____
+                .-'               `Island_house-| Room_701--|^|--Room_702
+             Hawaii            Yacht-v-Harbour--' Room_601--|^|--Room_602
+Waikiki_Beach -|- Chips_Lagoon       |            Room_501--|^|--Room_502
+ Beach_House --^-- Bungalow         Sea           Room_401--|^|--Room_402
+                                                  Room_301--|^|--Room_302
+.----------------.               Hotel           Cats_Suite-|^|--Room_202
+|Bermuda_Triangle| Private_club-{Lobby}-Lounge    Room_101--|^|--Room_102
+`----------------'  Lavender_Room-|-Restaurant    1st_Elev--'X`--2nd_Elev
+                                  `--------------------------'
+                        -=** .map or .h map **=-        {Elevators)
