@@ -3813,7 +3813,9 @@
           "url": "http://www.alpha4.com"
         }
       ],
-      "screencaps": [],
+      "screencaps": [
+        "login/mba4.org_3214.png"
+      ],
       "textcaps": [],
       "hosts": [
         {
@@ -4050,6 +4052,11 @@
       "hosts": [
         {
           "hostname": "sm.kelotz.net",
+          "port": 2223
+        },
+        {
+          "blocked": true,
+          "hostname": "chat.shell-matrix.com",
           "port": 2223
         }
       ]
@@ -4929,6 +4936,44 @@
           "blocked": true,
           "hostname": "curryco.com",
           "port": 1111
+        }
+      ]
+    },
+    {
+      "name": "Comix",
+      "dataOrigins": [""],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://comix.sunfire.org"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "sunfire.org",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "Bonds of Beauty",
+      "description": "Once upon a time, long ago in a far away land, a beautiful maiden was put to sleep by an evil spell. It was rumored that any man brave enough to fight the perils surrounding her castle and kiss the sleeping princess would be her one true love for the rest of their lives. And so begins the tale of Sleeping Beauty.",
+      "dataOrigins": [""],
+      "screencaps": [],
+      "adult": true,
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010405154127/http://beauty.binhost.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "beauty.binhost.com",
+          "port": 7878
         }
       ]
     },
@@ -6732,8 +6777,18 @@
       "dataOrigins": ["rosen"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "Facebook community",
+          "url": "https://www.facebook.com/groups/33480928360/"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "buten.mozcom.com",
+          "port": 8787
+        },
         {
           "blocked": true,
           "hostname": "chat.mozcom.com",
@@ -8594,6 +8649,10 @@
         {
           "type": "website",
           "url": "http://realms.palni.edi"
+        },
+        {
+          "type": "Facebook community",
+          "url": "https://www.facebook.com/groups/118290644913994/"
         }
       ],
       "hosts": [
@@ -9027,11 +9086,20 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "website",
+          "url": "https://candylandtalker.org/"
+        },
+        {
           "type": "email",
           "url": "candy@talker.com"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "candylandtalker.org",
+          "port": 7575
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -12369,7 +12437,9 @@
       "name": "The Forever Beyond",
       "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.<br>We are a talker for all ages, with color. We have the Starship Enterprise section and a plethora of interesting users from all over. The server is running only this talker, so the lag is at a minimum. Come on over for a good time, because this is new! Up since Jan 1997 and it has only a 5 to 10 user load at night, CST. Come on by! ",
       "dataOrigins": ["greatbiglist"],
-      "screencaps": [],
+      "screencaps": [
+        "login/foreverbeyond.org_7000.png"
+      ],
       "textcaps": [],
       "resources": [
         {
@@ -12383,6 +12453,10 @@
         {
           "type": "website",
           "url": "http://www.foreverbeyond.org/"
+        },
+        {
+          "type": "Facebook community",
+          "url": "https://www.facebook.com/groups/theforeverbeyond/"
         }
       ],
       "hosts": [
@@ -15087,8 +15161,18 @@
 	      "MistressKim"
       ],
       "location": "USA",
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.iron-rose.com"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.ironrose.org",
+          "port": 3000
+        },
         {
           "blocked": true,
           "hostname": "ironrose.nai.net",
