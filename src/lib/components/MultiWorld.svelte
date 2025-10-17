@@ -14,10 +14,14 @@
     <h2>{multiWorld.name}</h2>
     <p>
       {@html multiWorld.description}
+
+      {#if multiWorld.url}
+        (<a href={multiWorld.url}>read more&hellip;</a>)
+      {/if}
     </p>
   {/if}
 
-  <h2>Other talkers in the "{multiWorld.name}" multi-world group</h2>
+  <h2>Other talkers in the "{multiWorld.name}" group</h2>
 
   <table>
     <thead>

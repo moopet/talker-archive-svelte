@@ -458,15 +458,20 @@
   "multiWorlds": [
     {
       "shortName": "sleepy",
-      "name": "Sleepy's worlds"
+      "name": "Sleepy's Multiple Worlds",
+      "url": "https://web.archive.org/web/20001215074200/http://www.sleepy.net/herstory.html"
     },
     {
       "shortName": "fantasia",
-      "name": "Fantasia"
+      "name": "Fantasia's Multiple Worlds",
+      "description": "Fantasia's multiple worlds was an adult-orientated talker that ran NUTS 2.1. It began initially while \"Fantasia\" was Super User of lintilla in 1995, then was hosted on lintilla itself, and eventually became its own Multiple Worlds in its own right.<br>It operated from July 1995-late 2002.",
+      "url": "https://web.archive.org/web/20010616190247/fantasia.galaxynet.com/fant.htm"
     },
     {
       "shortName": "lintilla",
-      "name": "Lintilla"
+      "description": "Lintilla was started in 1994 by Bushtail. Bushtail had a vision, which eventually evolved into what Lintilla is today. She envisioned a place in which women were free to explore the different aspects of their sexuality in a secure and friendly environment.<br>It was her idea that this could most effectively be accomplished by having a talker that was completely managed and administered by women...and so Lintilla Multiple Worlds was born.",
+      "name": "Lintilla's Multiple Worlds",
+      "url": "https://web.archive.org/web/20081227101618/http://lintilla.df.lth.se/index.html"
     },
     {
       "shortName": "planes",
@@ -2440,7 +2445,7 @@
       "name": "The Plane of Women",
       "aka": [
         "POW",
-        "Womyn",
+        "Wymyn",
         "Fyre and Ice"
       ],
       "multiWorld": "planes",
@@ -3830,6 +3835,7 @@
     },
     {
       "name": "Emerald Isle",
+      "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/fantasia-emerald-isle\">Fantasia Emerald Isle</a>.",
       "dataOrigins": ["spodlist", "mudstats", "facebook"],
       "description": "Sparkling water splashes over a stone ledge high overhead and into the waters of an emerald green lagoon. The call of an island bird can barely be deemed audible over the loud, seemingly primal roar of the crashing water. The water is warm and inviting, a sharp contrast to the brute power personified by the waterfall. Behind the curtain of water is what seems to be a cave in the rock face. This world exists for lesbian and bi women.",
       "ewtooAbbr": "ei",
@@ -4925,6 +4931,14 @@
           "port": 1111
         }
       ]
+    },
+    {
+      "name": "Speedway",
+      "dataOrigins": [""],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": []
     },
     {
       "name": "Floodland",
@@ -6216,7 +6230,10 @@
       ]
     },
     {
-      "name": "Fantasia's Island",
+      "name": "Fantasia Island",
+      "coders": [
+        "Tick"
+      ],
       "adult": true,
       "dataOrigins": ["rosen"],
       "screencaps": [],
@@ -6224,8 +6241,8 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/island.htm"
         }
       ],
       "hosts": [
@@ -6233,11 +6250,21 @@
           "blocked": true,
           "hostname": "lintilla.df.lth.se",
           "port": 4000
+        },
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4000
         }
       ]
     },
     {
-      "name": "Fantasia's Castle",
+      "name": "Fantasia Emerald Isle",
+      "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/emerald-isle\">Emerald Isle</a>.",
+      "description": " Sparkling water splashes over a stone ledge high overhead and into the waters of an emerald green lagoon. The call of an island bird can barely be deemed audible over the loud, seemingly primal roar of the crashing water. The water is warm and inviting, a sharp contrast to the brute power personified by the waterfall. Behind the curtain of water is what seems to be a cave in the rock face.",
+      "coders": [
+        "Tick"
+      ],
       "adult": true,
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
@@ -6245,8 +6272,8 @@
       "textcaps": [],
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010118164100/http://fantasia.galaxynet.com/emerald.htm"
         }
       ],
       "hosts": [
@@ -6254,11 +6281,45 @@
           "blocked": true,
           "hostname": "lintilla.df.lth.se",
           "port": 4010
+        },
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4010
         }
       ]
     },
     {
-      "name": "Fantasia's Ancient Rome",
+      "name": "Fantasia Castle",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["rosen"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/castle.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4010
+        },
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4010
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Ancient Rome",
       "adult": true,
       "multiWorld": "fantasia",
       "dataOrigins": ["rosen"],
@@ -6279,7 +6340,162 @@
       ]
     },
     {
-      "name": "Fantasia's Buccaneers",
+      "name": "Fantasia Furry Haven",
+      "description": "You find yourself in the center of a large, lush valley...looking out over a peaceful lake. A clear, cold mountain stream flows into the lake from the east. On all sides of the valley are virgin forests with trails leading into and through them. Snow-capped mountains are visible in the distance, beyond the forest. The scent of wild-flowers floats on the soft breezes. Friendship and harmony reign here, as all creatures of the land gather to converse or play. Enter and be at peace...for all are welcomed here...",
+      "adult": true,
+      "admins": [
+        "Xaara"
+      ],
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010209092940/http://fantasia.galaxynet.com/furry_haven.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Vampire's Cathedral",
+      "slug": "fantasia-vampires-cathedral",
+      "adult": true,
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/vampires.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4050
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Trinity",
+      "adult": true,
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/trinity.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4070
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Steel & Shield Tavern",
+      "slug": "fantasia-steel-shield-tavern",
+      "adult": true,
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/enter_gor.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4035
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Moon Magick",
+      "adult": true,
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/moon.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4085
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Men's Club",
+      "slug": "fantasia-mens-club",
+      "adult": true,
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/club.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4025
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Jungle Fever",
+      "adult": true,
+      "dataOrigins": ["homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/jungle.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4095
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Buccaneers",
+      "description": "Bold & Daring!",
       "adult": true,
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
@@ -6287,8 +6503,8 @@
       "textcaps": [],
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/buccan.htm"
         }
       ],
       "hosts": [
@@ -6296,11 +6512,16 @@
           "blocked": true,
           "hostname": "lintilla.df.lth.se",
           "port": 4030
+        },
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4030
         }
       ]
     },
     {
-      "name": "Fantasia's Wild West",
+      "name": "Fantasia Wild West",
       "adult": true,
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
@@ -6308,8 +6529,8 @@
       "textcaps": [],
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/wild.htm"
         }
       ],
       "hosts": [
@@ -6317,11 +6538,16 @@
           "blocked": true,
           "hostname": "lintilla.df.lth.se",
           "port": 4040
+        },
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4040
         }
       ]
     },
     {
-      "name": "Fantasia's Dream World",
+      "name": "Fantasia Dream World",
       "adult": true,
       "multiWorld": "fantasia",
       "dataOrigins": ["rosen"],
@@ -6342,7 +6568,7 @@
       ]
     },
     {
-      "name": "Fantasia's Black Velvet",
+      "name": "Fantasia Black Velvet",
       "adult": true,
       "dataOrigins": ["rosen"],
       "screencaps": [],
@@ -11015,6 +11241,8 @@
         "Ratatosk"
       ],
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "multiWorld": "lintilla",
@@ -11068,6 +11296,8 @@
       "name": "Lintilla Men-Men",
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11096,6 +11326,8 @@
       "name": "Lintilla Funny",
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11122,8 +11354,14 @@
     },
     {
       "name": "Lintilla The Retreat",
+      "aka": [
+        "The Haven",
+        "The Biker's Haven"
+      ],
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11152,6 +11390,8 @@
       "name": "Lintilla The Chapel",
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11181,6 +11421,8 @@
       "name": "Lintilla Roissy",
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11207,8 +11449,13 @@
     },
     {
       "name": "Lintilla Beach",
+      "aka": [
+        "The Hippie House"
+      ],
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11235,8 +11482,13 @@
     },
     {
       "name": "Lintilla Animal Friends",
+      "aka": [
+        "The Zoo"
+      ],
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11265,6 +11517,8 @@
       "name": "Lintilla Dungeon",
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11293,6 +11547,8 @@
       "name": "Lintilla Intimate Delights",
       "multiWorld": "lintilla",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -11320,6 +11576,8 @@
     {
       "name": "The Sport Zone",
       "coders": [
+        "Casey",
+        "Birddog",
         "Graeme"
       ],
       "admins": [
@@ -12340,6 +12598,9 @@
     },
     {
       "name": "Sleepy General",
+      "aka": [
+        "IWBE"
+      ],
       "multiWorld": "sleepy",
       "admins": [
         "Sleepy"
@@ -12479,6 +12740,9 @@
     },
     {
       "name": "Sleepy Women's Lib",
+      "aka": [
+        "Wymyn's Chat"
+      ],
       "multiWorld": "sleepy",
       "slug": "sleepy-womens-lib",
       "admins": [
