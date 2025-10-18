@@ -231,6 +231,10 @@
       "language": "C"
     },
     {
+      "shortName": "ice",
+      "name": "ICE"
+    },
+    {
       "shortName": "frontiers",
       "name": "Frontiers"
     },
@@ -1037,6 +1041,20 @@
       ]
     },
     {
+      "name": "Callyn",
+      "location": "UK",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "callyn.com",
+          "port": 333
+        }
+      ]
+    },
+    {
       "name": "Castle",
       "aka": [
         "Castle2k"
@@ -1048,10 +1066,18 @@
         "Beaver"
       ],
       "slug": "castle",
+      "location": "UK",
       "dataOrigins": ["spodlist"],
       "description": "Castle was started back in ye last millennium by ye olde peasant Cheesetong and ye olde miser Beaver. Together with ay small bande of merrie spods they went about their duties forming a bande of cut-throats, peasants and thieves and generaly any mad person who wanted to join.",
       "disambiguation": "Not to be confused with <a href=\"/details/the-castle\" data-sveltekit-reload>The Castle</a>.",
       "codebase": "pgplus",
+      "admins": [
+	      "Cheesetong",
+	      "Beaver"
+      ],
+      "coders": [
+	      "GreyWolf"
+      ],
       "screencaps": [
         "login/castle2k.org.uk_5050.png"
       ],
@@ -1636,9 +1662,17 @@
     {
       "name": "Elemental World",
       "dataOrigins": ["spodlist"],
-      "codebase": "ICE",
+      "codebase": "ice",
       "screencaps": [
         "login/elementalworld.net_5555.png"
+      ],
+      "admins": [
+	      "Ruby",
+	      "Velvet",
+	      "Wyera"
+      ],
+      "coders": [
+	      "Wolf"
       ],
       "textcaps": [],
       "resources": [
@@ -2134,8 +2168,12 @@
     },
     {
       "name": "ICE-II - The Re-Freeze",
+      "slug": "ice-ii",
       "dataOrigins": ["spodlist"],
-      "codebase": "ICE",
+      "codebase": "ice",
+      "coders": [
+	      "Wolf"
+      ],
       "screencaps": [
         "login/ice.offswn.net_4444.png"
       ],
@@ -3641,6 +3679,7 @@
     {
       "name": "Temple 2K",
       "disambiguation": "Not to be confused with <a href=\"/details/temple\" data-sveltekit-reload>Temple</a>.",
+      "location": "UK",
       "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/temple2k.org_2222.png"
@@ -3660,6 +3699,11 @@
         {
           "blocked": true,
           "hostname": "temple2k.org",
+          "port": 2222
+        },
+        {
+          "blocked": true,
+          "hostname": "storm.blue-lightning.co.uk",
           "port": 2222
         }
       ]
@@ -3682,6 +3726,11 @@
         {
           "blocked": true,
           "hostname": "themanor.org",
+          "port": 4242
+        },
+        {
+          "blocked": true,
+          "hostname": "manor.omn.net",
           "port": 4242
         }
       ]
