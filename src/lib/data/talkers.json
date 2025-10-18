@@ -2695,6 +2695,7 @@
     },
     {
       "name": "Comatose: Blissful Sleep",
+      "slug": "comatose-blissful-sleep",
       "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/mysterious.mytalker.org_9999.png"
