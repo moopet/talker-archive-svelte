@@ -12372,14 +12372,25 @@
     },
     {
       "name": "Trekker's Rest",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "homepage"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "codebase": "pgplus",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://trekkers-rest.org.uk"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "trekkers-rest.org.uk",
+          "port": 3000
+        },
+        {
+          "blocked": true,
+          "hostname": "tr3.org",
           "port": 3000
         }
       ]

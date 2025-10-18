@@ -60,7 +60,7 @@ span {
 
 img {
   width: 260px;
-  height: 135px;
+  height: 185px;
 }
 </style>
 
