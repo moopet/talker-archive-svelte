@@ -3445,7 +3445,12 @@
         "login/scarlet-citadel.co.uk_2000.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "website",
+          "url": "scarlet-citadel.co.uk"
+        }
+      ],
       "hosts": [
         {
           "hostname": "scarlet-citadel.co.uk",
