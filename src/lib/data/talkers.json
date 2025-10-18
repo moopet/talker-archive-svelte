@@ -1934,7 +1934,6 @@
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "uglymug.org.uk",
           "port": 6239
         }
@@ -3449,7 +3448,6 @@
       "resources": [],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "scarlet-citadel.co.uk",
           "port": 2000
         },
