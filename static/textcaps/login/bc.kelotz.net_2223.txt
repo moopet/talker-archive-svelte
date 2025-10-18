@@ -1,0 +1,21 @@
+  Main: telnet bc.kelotz.net 2223 Wiz: telnet bc.kelotz.net 2224
+                                                     
+          _|_|_|   _|    _|   _|_|_|_|   _|         _|        
+        _|         _|    _|   _|         _|         _|        
+          _|_|     _|_|_|_|   _|_|_|     _|         _|        
+              _|   _|    _|   _|         _|         _|        
+        _|_|_|     _|    _|   _|_|_|_|   _|_|_|_|   _|_|_|_|  
+                                                      
+                                                                                                                       
+    _|      _|     _|_|     _|_|_|_|_|   _|_|_|     _|_|_|   _|      _|  
+    _|_|  _|_|   _|    _|       _|       _|    _|     _|       _|  _|    
+    _|  _|  _|   _|_|_|_|       _|       _|_|_|       _|         _|      
+    _|      _|   _|    _|       _|       _|    _|     _|       _|  _|    
+    _|      _|   _|    _|       _|       _|    _|   _|_|_|   _|      _|  
+  
+         A place you've never been.  A story you will never forget.                    
+
+
+         -=[ Welcome to ^Shell-Matrix e5.12^ Home of [329] users. ]=-
+
+What's your callsign:  

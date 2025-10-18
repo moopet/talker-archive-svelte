@@ -1,0 +1,20 @@
+                           
+                             INVITE ONLY
+                                 .|
+                                 | |
+                                 |'|            ._____
+                         ___    |  |            |.   |' .---"|
+                 _    .-'   '-. |  |     .--'|  ||   | _|    |
+              .-'|  _.|  |    ||   '-__  |   |  |    ||      |
+              |' | |.    |    ||       | |   |  |    ||      |
+           ___|  '-'     '    ""       '-'   '-.'    '`      |____
+  .-----------------------------------------------------------------.
+  |                     WELCOME TO DIMENSIONS MUX                   |
+  |                 http://dimensionmux.wikidot.com/                |
+  |                                                                 |
+  | 'create Name password' creates a new character                  |
+  | 'connect Name password' connects you to an existing character   |
+  .-----------------------------------------------------------------.
+        
+          'connect Citizen' connects you to a guest account
+
