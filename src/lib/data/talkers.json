@@ -144,6 +144,11 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "maddhouse",
+      "name": "Madd's Talklist",
+      "link": "http://www.maddhouse.com/talkers/"
+    },
+    {
       "shortName": "haven",
       "name": "The Havens List",
       "link": "https://haven.zeal.net"
@@ -554,7 +559,12 @@
         "Boneist",
         "Frogger"
       ],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://mudhole.ehche.ac.uk/~addicted/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "addicted.notbbc.co.uk",
@@ -1590,6 +1600,7 @@
     },
     {
       "name": "Dusk Till Dawn",
+      "description": "A Dragonlance-themed talker.",
       "dataOrigins": ["spodlist", "greatbiglist", "facebook"],
       "admins": [
         "Nightprowler"
@@ -1631,6 +1642,20 @@
       ]
     },
     {
+      "name": "Airshow",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "myanmar.dynip.com",
+          "port": 9213
+        }
+      ]
+    },
+    {
       "name": "The Airport",
       "dataOrigins": ["spodlist"],
       "screencaps": [
@@ -1643,6 +1668,11 @@
           "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 4321
+        },
+        {
+          "blocked": true,
+          "hostname": "airprt.ml.org",
+          "port": 3210
         }
       ]
     },
@@ -1697,6 +1727,9 @@
       "dataOrigins": ["spodlist"],
       "description": "Heavily modified ewtoo talker based on Elite",
       "codebase": "ewtoo",
+      "admins": [
+        "Pooh"
+      ],
       "screencaps": [
         "login/elite.snowplains.org_8000.png"
       ],
@@ -2889,6 +2922,7 @@
       "name": "Forest",
       "dataOrigins": ["spodlist"],
       "location": "Australia",
+      "notes": "Forest was one of a very few talkers that did not have any admins.",
       "resources": [
         {
           "type": "Facebook community",
@@ -3211,6 +3245,10 @@
       "name": "Eire",
       "dataOrigins": ["spodlist"],
       "codebase": "pgplus",
+      "admins": [
+        "ShadowDream",
+        "Remy"
+      ],
       "screencaps": [
         "login/tb.yi.org_1221.png"
       ],
@@ -3435,9 +3473,12 @@
     },
     {
       "name": "Scarlet Citadel",
+      "description": "A friendly place to chitchat.<br>Scarlet is a medieval themed talker that has been running for around 8 years now.<br>The chat comes from our wide and ever growing user base. Scarlet has over 100 users, from different backgrounds and countries. Everyone is welcome to join in, which makes the topic of conversation diverse and always interesting.<br>Scarlet has lots of fun features including, Objects, Socials, Internal/External emails, Ranks and privs and bots. ",
       "notes": "Although not a mud Scarlet is a talker that mudders may enjoy, many of members do mud on a regular basis.",
       "dataOrigins": ["spodlist"],
-      "description": "A friendly place to chitchat",
+      "admins": [
+        "Goolies"
+      ],
       "codebase": "nuts",
       "ewtooAbbr": "sc",
       "screencaps": [
@@ -4172,6 +4213,19 @@
       ]
     },
     {
+      "name": "Alien Nation",
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "pgplus",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "tb.dynip.com",
+          "port": 7070
+        }
+      ]
+    },
+    {
       "name": "Hades",
       "screencaps": [
         "login/hades-talker.org_6660.png"
@@ -4199,6 +4253,7 @@
         "login/dune.net_4405.png"
       ],
       "adult": true,
+      "codebase": "nuts",
       "textcaps": [],
       "resources": [
         {
@@ -4224,6 +4279,10 @@
         {
           "type": "website",
           "url": "http://www.geocities.com/Paris/Metro/5858"
+        },
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/SoHo/4514/alg.htm"
         }
       ],
       "hosts": [
@@ -5338,6 +5397,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gate.imaginary.com",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "abyss.talker.com",
@@ -7796,8 +7860,24 @@
       "hosts": []
     },
     {
+      "name": "Absolute",
+      "dataOrigins": ["greatbiglist"],
+      "codebase": "pgplus",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "question.ml.org",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "50 Miles Underground",
       "dataOrigins": ["greatbiglist"],
+      "codebase": "pgplus",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8747,6 +8827,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/romance"
+        },
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/Paris/Metro/5884"
         }
       ],
       "hosts": [
@@ -9879,6 +9963,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "panpipes.org",
+          "port": 6969
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -11346,6 +11435,7 @@
     },
     {
       "name": "Republic",
+      "notes": "Republic is one of a very few talkers that does not have any admins.",
       "description": "Republic is a talker with a difference. No superusers. No wizards. No staff. Just people.",
       "dataOrigins": ["facebook", "homepage"],
       "codebase": "republic",
@@ -13285,18 +13375,59 @@
       ]
     },
     {
-      "name": "14AD",
+      "name": "14AD - The Roman World",
+      "slug": "14ad",
+      "aka": [
+        "14AD"
+      ],
       "resources": [],
       "hosts": [
         {
           "hostname": "clark.net",
           "port": 5057,
           "blocked": true
+        },
+        {
+          "hostname": "ad14.megalinx.net",
+          "port": 3003,
+          "blocked": true
         }
       ],
       "textcaps": [],
       "screencaps": [],
       "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Acadia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://www.geocities.com/SiliconValley/Pines/1867/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "zeek.murlin.com",
+          "port": 5000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The 19th Hole",
+      "dataOrigins": ["maddhouse"],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "zeek.murlin.com",
+          "port": 2020,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
     },
     {
       "name": "AFMP",
@@ -13405,6 +13536,44 @@
       "textcaps": [],
       "screencaps": [],
       "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Genie's Lamp",
+      "slug": "genies-lamp",
+      "dataOrigins": ["maddhouse"],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "maddhouse.com",
+          "port": 4500,
+          "blocked": true
+        }
+      ],
+      "adult": true,
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Maddhouse",
+      "dataOrigins": ["homepage"],
+      "admins": [
+        "Madd"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.maddhouse.com/maddhouse.html"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "maddhouse.com",
+          "port": 3000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
     },
     {
       "name": "Depravity",
