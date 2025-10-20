@@ -4,9 +4,15 @@
   <h2>Does this list contain MUDs?</h2>
   <p>Sometimes. A few. But they have to be talker-style MUDs, i.e. MUDs that are primarly used for social chat.</p>
   <p>If you think one is here by mistake, report it.</p>
+  <p>There's a similar project out there called the <a href="https://mudmuseum.com">MudMuseum</a> which will help out if it's MUDding you're after.</p>
+
+  <h2>How come most of these talkers don't have any description or other info?</h2>
+  <p>It's mostly a manual process, looking things up on the Wayback machine. Sometimes I can't find anything beyond a single reference to a talker.</p>
+  <p>Hopefully more will get fleshed out as time goes by.</p>
 
   <h2>Some talkers change their name over time, don't they?</h2>
   <p>Yes, and I've tried to add notes and links about that but it's a bit like sewing with spaghetti.</p>
+  <p>Unfortunately, there <em>will</em> be duplicates here. There will also be talkers with the same name that I've accidentally lumped together.</p>
 
   <h2>Is there an API?</h2>
   <p>
@@ -55,6 +61,7 @@ section + section {
 }
 
 h2 {
+  color: rgb(235, 235, 170);
   border-inline-start-width: 0;
   border-inline-end-width: 0;
   border-block-start-width: 0;
