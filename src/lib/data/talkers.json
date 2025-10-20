@@ -960,6 +960,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "user1.megalinx.net",
+          "port": 4242
+        },
+        {
+          "blocked": true,
           "hostname": "camelot.megalinx.net",
           "port": 4242
         },
@@ -1041,6 +1046,7 @@
       "dataOrigins": ["greatbiglist"],
       "disambiguation": "Not to be confused with <a href=\"/details/castle\" data-sveltekit-reload>Castle</a>.",
       "location": "USA",
+      "adult": true,
       "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
@@ -1050,6 +1056,11 @@
           "blocked": true,
           "hostname": "athens.serverint.com",
           "port": 4014
+        },
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 3500
         }
       ]
     },
@@ -1142,6 +1153,37 @@
       ]
     },
     {
+      "name": "Celtic Mist",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "209.12.127.21",
+          "port": 4500
+        }
+      ]
+    },
+    {
+      "name": "The Caverns",
+      "slug": "the-caves",
+      "disambiguation": "Not to be confused with <a href=\"/details/the-caves\" data-sveltekit-reload>The Caves</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "caverns.citycom.net",
+          "port": 5050
+        }
+      ]
+    },
+    {
       "name": "The Caves",
       "slug": "the-caves",
       "disambiguation": "Not to be confused with <a href=\"/details/caves\" data-sveltekit-reload>Caves</a>.",
@@ -1193,6 +1235,11 @@
         {
           "blocked": true,
           "hostname": "caves.tf",
+          "port": 5000
+        },
+        {
+          "blocked": true,
+          "hostname": "caves.ilserv.com",
           "port": 5000
         },
         {
@@ -1373,6 +1420,7 @@
     {
       "name": "The Cult",
       "dataOrigins": ["greatbiglist"],
+      "codebase": "ewtoo",
       "location": "UK",
       "screencaps": [],
       "textcaps": [],
@@ -2893,6 +2941,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "user1.megalinx.net",
+          "port": 4444
+        },
+        {
+          "blocked": true,
           "hostname": "cats.megalinx.net",
           "port": 4444
         },
@@ -4377,6 +4430,10 @@
           "url": "http://mudstats.com/World/TheChattingZone(TCZ)"
         },
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://tcz.galaxsw.co.uk/"
+        },
+        {
           "type": "website",
           "url": "http://thechattingzone.uk/"
         },
@@ -4400,6 +4457,11 @@
       "hosts": [
         {
           "hostname": "thechattingzone.uk",
+          "port": 8342
+        },
+        {
+          "blocked": true,
+          "hostname": "tcz.galaxsw.co.uk",
           "port": 8342
         },
         {
@@ -5560,12 +5622,18 @@
           "blocked": true,
           "hostname": "toybox.infomagic.com",
           "port": 4567
+        },
+        {
+          "blocked": true,
+          "hostname": "ncats.newaygo.mi.us",
+          "port": 7000
         }
       ]
     },
     {
       "name": "Civil Anarchy ][",
-      "slug": "civil-anarchy",
+      "disambiguation": "Replaced <a href=\"/details/civil-anarchy\" data-sveltekit-reload>CiViL aNaRcHy</a>.",
+      "slug": "civil-anarchy-ii",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
@@ -5584,21 +5652,139 @@
       ]
     },
     {
-      "name": "Computer Chat",
-      "admins": [
-        "Sidekick"
-      ],
-      "location": "USA",
-      "codebase": "ncohafmuta",
-      "dataOrigins": ["rosen"],
+      "name": "Computer's World",
+      "slug": "computers-world",
+      "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
           "blocked": true,
+          "hostname": "193.226.155.2",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "ComputerLink",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "chat.compulink.com",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "Computer Chat",
+      "admins": [
+        "Sidekick"
+      ],
+      "location": "USA",
+      "codebase": "ncohafmuta",
+      "dataOrigins": ["rosen", "maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://www.talker.com/computerchat/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "Crossroads, the Next Generation",
+      "slug": "crossroads-the-next-generation",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://www.geocities.com/CollegePark/Quad/5911/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5150
+        }
+      ]
+    },
+    {
+      "name": "Crazy Family",
+      "language": "Italian",
+      "location": "Italy",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://www.siel.it/cf/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "155.185.1.15",
+          "port": 7576
+        }
+      ]
+    },
+    {
+      "name": "Crafti",
+      "dataOrigins": ["maddhouse"],
+      "location": "Australia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "Crafti.com.au",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Cool Guy",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.205.135.2",
+          "port": 1234
+        }
+      ]
+    },
+    {
+      "name": "Confirmed ObLiVioN",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "figz.com",
+          "port": 9900
         }
       ]
     },
@@ -5609,7 +5795,7 @@
         "Shark"
       ],
       "codebase": "ncohafmuta",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -5618,6 +5804,11 @@
           "blocked": true,
           "hostname": "gadget.newaygo.mi.us",
           "port": 8000
+        },
+        {
+          "blocked": true,
+          "hostname": "muc.muohio.edu",
+          "port": 6500
         }
       ]
     },
@@ -6926,6 +7117,10 @@
       "resources": [
         {
           "type": "website",
+          "url": "http://caliburn.signwave.com"
+        },
+        {
+          "type": "website",
           "url": "http://www.seis.com/~caliburn"
         }
       ],
@@ -7085,7 +7280,23 @@
       ]
     },
     {
-      "name": "Chaos",
+      "name": "Chateau Noir",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "209.12.127.21",
+          "port": 4200
+        }
+      ]
+    },
+    {
+      "name": "Chaos!",
+      "slug": "chaos",
       "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "screencaps": [],
@@ -7299,8 +7510,25 @@
       ]
     },
     {
+      "name": "Cyber Space",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bill.newaygo.mi.us",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "Cyber Manhatten",
-      "dataOrigins": ["kesey"],
+      "aka": [
+        "Cyber-Manhattan"
+      ],
+      "dataOrigins": ["kesey", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -8717,10 +8945,14 @@
     {
       "name": "Clouds",
       "location": "USA",
-      "dataOrigins": ["greatbiglist"],
+      "dataOrigins": ["greatbiglist", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://clouds.pre.org/~clouds/"
+        },
         {
           "type": "website",
           "url": "http://www.fly.net/~clouds/"
@@ -9420,6 +9652,35 @@
           "blocked": true,
           "hostname": "talker.ironrose.org",
           "port": 3050
+        }
+      ]
+    },
+    {
+      "name": "CiViL aNaRcHy",
+      "disambiguation": "Replaced by <a href=\"/details/civil-anarchy-ii\" data-sveltekit-reload>CiViL aNaRcHy ][</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bird.ml.org",
+          "port": 1998
+        }
+      ]
+    },
+    {
+      "name": "City Of Love",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "198.188.136.7",
+          "port": 7000
         }
       ]
     },
@@ -11941,10 +12202,40 @@
       ]
     },
     {
+      "name": "Cuckoo's Next",
+      "slug": "cuckoos-nest",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "server.seis.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Crystal Dawn",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "doggie.axionet.com",
+          "port": 7000
+        }
+      ]
+    },
+    {
       "name": "Crystal Forest",
       "description": "Crystal Forest has been built around a MYSTICAL or Magical theme with room names like 'Stonehenge' and 'Meadow', and of course a dozen or so others. It's meant to give the user a feeling of tranquility and peace.<br> There isn't any promotional process to go through or any such madness.... we welcome everyone. From your very first login you are considered a 'resident'. We invite you to come and at least visit us, we'd love the chance to say 'hi'.",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
+      "codebase": "nuts",
       "textcaps": [],
       "resources": [],
       "hosts": [
@@ -15186,6 +15477,64 @@
           "blocked": true,
           "hostname": "abyss.bvl.net",
           "port": 4000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Carrier Direct",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [
+        {
+          "type": "website",
+          "url": ""
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "carrier-direct.ml.org",
+          "port": 4321
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Candy Store",
+      "dataOrigins": [ "maddhouse" ],
+      "codebase": "amnuts",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://candystore.dune.net"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 6428
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Cactus Creek",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303111031/http://bugsy.it.gvsu.edu/%7Ecactus"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bugsy.it.gvsu.edu",
+          "port": 4681
         }
       ],
       "textcaps": [],
