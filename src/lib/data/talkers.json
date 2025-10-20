@@ -4113,6 +4113,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "204.122.16.31",
           "port": 7777
         }
@@ -4395,6 +4396,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "str.mushland.com",
           "port": 1701
         }
@@ -5204,6 +5206,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "sunfire.org",
           "port": 4321
         }
@@ -5224,6 +5227,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "beauty.binhost.com",
           "port": 7878
         }
