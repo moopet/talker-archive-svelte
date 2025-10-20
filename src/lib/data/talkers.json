@@ -4105,6 +4105,20 @@
       ]
     },
     {
+      "name": "DragonsFire",
+      "adult": true,
+      "codebase": "retrobar",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "204.122.16.31",
+          "port": 7777
+        }
+      ]
+    },
+    {
       "name": "Retro Bar",
       "disambiguation": "Not to be confused with <a href=\"/details/retro-chat\" data-sveltekit-reload>Retro Chat</a>.",
       "adult": true,
@@ -4126,18 +4140,29 @@
     {
       "name": "Down Under",
       "codebase": "amnuts",
+      "location": "Australia",
       "screencaps": [
         "login/du.kelotz.net_2003.png"
       ],
       "textcaps": [
         "login/du.kelotz.net_2003.txt"
       ],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.zip.com.au/~jon/DU/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "du.kelotz.net",
           "port": 2003
+        },
+        {
+          "blocked": true,
+          "hostname": "snafu.net.au",
+          "port": 6000
         }
       ]
     },
@@ -5352,7 +5377,7 @@
     {
       "name": "Turf",
       "description": "A Mud/Talker based around the code of Merc and Envy, offering privacy for its residents, whilst retaining MUD features.",
-      "dataOrigins": ["mudstats"],
+      "dataOrigins": ["mudstats", "maddhouse"],
       "screencaps": [
         "login/turf.org_4000.png"
       ],
@@ -5369,6 +5394,10 @@
         {
           "hostname": "turf.org",
           "port": 4000
+        },
+        {
+          "hostname": "figz.com",
+          "port": 3307
         }
       ]
     },
@@ -5986,6 +6015,20 @@
       ]
     },
     {
+      "name": "High School",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "205.244.242.15",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "The Hideout",
       "dataOrigins": ["rosen"],
       "screencaps": [],
@@ -5995,6 +6038,11 @@
         {
           "blocked": true,
           "hostname": "elvis.allencol.edu",
+          "port": 4321
+        },
+        {
+          "blocked": true,
+          "hostname": "hideout.sunfire.org",
           "port": 4321
         }
       ]
@@ -6633,6 +6681,30 @@
           "blocked": true,
           "hostname": "ipgnet.com",
           "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Bourbon Street",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "multiWorld": "fantasia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/island.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4010
         }
       ]
     },
@@ -7679,7 +7751,12 @@
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://globegate.utm.edu/deepspace/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8013,8 +8090,92 @@
       ]
     },
     {
+      "name": "Eclipse",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "adult": true,
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://dragon.palni.edu/%7Eeclipse"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "eclipse.muve.ml.org",
+          "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "e-Cafe",
+      "codebase": "amnuts",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.pseudoreality.com/e-Cafe/index.html"
+        }
+      ],
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.245.158.160",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "D/s Dreams",
+      "slug": "ds-dreams",
+      "adult": true,
+      "codebase": "amnuts",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.lightninghawk.org/talker/"
+        }
+      ],
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lightninghawk.org",
+          "port": 6900
+        }
+      ]
+    },
+    {
       "name": "Dreamscape",
+      "disambiguation": "Not to be confused with <a href=\"/details/dreamscape\" data-sveltekit-reload>the <em>other</em> Dreamscape</a>.",
+      "slug": "_dreamscape",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cps217.cps.cmich.edu",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Dreamscape",
+      "disambiguation": "Not to be confused with <a href=\"/details/_dreamscape\" data-sveltekit-reload>the <em>other</em> Dreamscape</a>.",
+      "slug": "dreamscape",
       "dataOrigins": ["talkers.ws"],
+      "codebase": "ewtoo",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8028,6 +8189,115 @@
           "blocked": true,
           "hostname": "dreamscape.bernstein.com",
           "port": 4040
+        }
+      ]
+    },
+    {
+      "name": "Europa",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "europa.dei.uc.pt",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Escape from Reality",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bbs.signwave.com",
+          "port": 4500
+        }
+      ]
+    },
+    {
+      "name": "Envirochat",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.envirolink.org/home/chat/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "chat.envirolink.org",
+          "port": 2000
+        }
+      ]
+    },
+    {
+      "name": "Entropy",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "entropy.muc.muohio.edu",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "English Crumpet",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "crumpet.infonaut.org",
+          "port": 3143
+        }
+      ]
+    },
+    {
+      "name": "The Enchanted Village",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bbs.signwave.com",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Enchanted Castle",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "amnuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://enchantedcastle.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 4444
         }
       ]
     },
@@ -8046,6 +8316,25 @@
       ]
     },
     {
+      "name": "Farrawae",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.talker.com/farrawae/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7333
+        }
+      ]
+    },
+    {
       "name": "Fantasy Island",
       "disambiguation": "Not to be confused with <a href=\"/details/fantasy-land\" data-sveltekit-reload>Fantasy Land</a>.",
       "dataOrigins": ["talkers.ws"],
@@ -8056,6 +8345,11 @@
         {
           "blocked": true,
           "hostname": "fantasyisland.org",
+          "port": 7525
+        },
+        {
+          "blocked": true,
+          "hostname": "dune.net",
           "port": 7525
         }
       ]
@@ -8221,6 +8515,34 @@
       ]
     },
     {
+      "name": "Happy Chat",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "relat.interbit.ro",
+          "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "Gotham X",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "arh0249.urh.uiuc.edu",
+          "port": 6666
+        }
+      ]
+    },
+    {
       "name": "Gotham City 2000",
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
@@ -8269,6 +8591,11 @@
         {
           "blocked": true,
           "hostname": "evros.cc.ece.ntua.gr",
+          "port": 5050
+        },
+        {
+          "blocked": true,
+          "hostname": "hc.cc.ece.ntua.gr",
           "port": 5050
         }
       ]
@@ -8680,7 +9007,7 @@
     },
     {
       "name": "Excalibur",
-      "dataOrigins": ["amber"],
+      "dataOrigins": ["amber", "maddhouse"],
       "codebase": "pgplus",
       "description": "Brilliant pgplus talker, based on Excalibur",
       "screencaps": [],
@@ -8691,6 +9018,11 @@
           "blocked": true,
           "hostname": "amber.org.uk",
           "port": 3333
+        },
+        {
+          "blocked": true,
+          "hostname": "ads.vl.ro",
+          "port": 7000
         }
       ]
     },
@@ -8870,11 +9202,47 @@
       ]
     },
     {
+      "name": "GenXXX",
+      "codebase": "amnuts",
+      "disambiguation": "Not to be confused with <a href=\"/details/generation-x\" data-sveltekit-reload>Generation X</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 5979
+        }
+      ]
+    },
+    {
+      "name": "Generation X",
+      "disambiguation": "Not to be confused with <a href=\"/details/genxxx\" data-sveltekit-reload>GenXXX</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "crafti.com.au",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "Gates Of Heaven",
+      "adult": true,
       "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.talker.com/heavens"
+        },
         {
           "type": "email",
           "url": "cruiser@talker.com"
@@ -8885,6 +9253,11 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 4415
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4410
         }
       ]
     },
@@ -9401,7 +9774,8 @@
     {
       "name": "Dolphin Cove",
       "aka": [
-        "Dolphin Cave"
+        "Dolphin Cave",
+        "Dolphin's Cove"
       ],
       "admins": [
         "Rael"
@@ -9835,9 +10209,56 @@
       ]
     },
     {
+      "name": "The Family",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bugsy.it.gvsu.edu",
+          "port": 1923
+        }
+      ]
+    },
+    {
+      "name": "Fallout Zone",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "meep.org",
+          "port": 7979
+        }
+      ]
+    },
+    {
+      "name": "Fallen Angels",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.maddhouse.com/talkers/listd_h.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "137.229.130.134",
+          "port": 4242
+        }
+      ]
+    },
+    {
       "name": "Eye of the World",
       "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -9855,6 +10276,11 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 9502
+        },
+        {
+          "blocked": true,
+          "hostname": "user1.megalinx.net",
+          "port": 9001
         }
       ]
     },
@@ -9884,7 +10310,41 @@
       ]
     },
     {
+      "name": "Heaven's Gate",
+      "slug": "heavens-gate",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": "true",
+          "hostname": "heavens.ml.org",
+          "port": 4410
+        }
+      ]
+    },
+    {
       "name": "Heaven",
+      "slug": "heaven",
+      "disambiguation": "Not to be confused with <a href=\"/details/_heaven\" data-sveltekit-reload>Heaven</a>.",
+      "codebase": "futurecode",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": "true",
+          "hostname": "dune.net",
+          "port": 2200
+        }
+      ]
+    },
+    {
+      "name": "Heaven",
+      "slug": "_heaven",
+      "disambiguation": "Not to be confused with <a href=\"/details/heaven\" data-sveltekit-reload>Heaven</a>.",
       "description": "The heaven: el mejor chat en espaniol del mundo. :)",
       "codebase": "pgplus",
       "dataOrigins": ["talker.com"],
@@ -11385,6 +11845,7 @@
       "dataOrigins": ["greatbiglist"],
       "description": "Great talker, lots of special features like roulette, slot machines, black jack etc... There's several talkers linked together so you can go between the talkers without logging off... Not too many users yet, but the ones who go there are very friendly!",
       "location": "Norway",
+      "codebase": "ztalker",
       "admins": [
         "Murray",
         "Europol"
@@ -12551,6 +13012,34 @@
       ]
     },
     {
+      "name": "Garden of Eden",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "msen.com",
+          "port": 6660
+        }
+      ]
+    },
+    {
+      "name": "Gangsters",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gangsters.cybermac.net",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "Parthenon",
       "dataOrigins": ["spodlist"],
       "screencaps": [],
@@ -12761,7 +13250,10 @@
     },
     {
       "name": "The Downtown",
-      "dataOrigins": ["spodlist"],
+      "aka": [
+        "Down Town"
+      ],
+      "dataOrigins": ["spodlist", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -12770,6 +13262,11 @@
           "blocked": true,
           "hostname": "downtown.notnet.co.uk",
           "port": 5051
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8500
         }
       ]
     },
@@ -13486,9 +13983,106 @@
       ]
     },
     {
+      "name": "House Party",
+      "slug": "_house-party",
+      "disambiguation": "Not to be confused with <a href=\"/details/house-party\" data-sveltekit-reload>the <em>other</em> House Party</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "moink.nmsu.edu",
+          "port": 8000
+        }
+      ]
+    },
+    {
+      "name": "House Party",
+      "slug": "house-party",
+      "disambiguation": "Not to be confused with <a href=\"/details/_house-party\" data-sveltekit-reload>the <em>other</em> House Party</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://yukari.univnorthco.edu/houseparty/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "yukari.univnorthco.edu",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "House of Ska",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.geocities.com/Colosseum/Track/3982/Ska.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "camelot.wwi.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Hotel Metro",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "resources": [ ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tb.dynip.com",
+          "port": 4500
+        }
+      ]
+    },
+    {
+      "name": "The Hotel of Desire",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://funcity.ml.org/%7Edesire"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "199.3.14.3",
+          "port": 7006
+        }
+      ]
+    },
+    {
       "name": "The Hotel",
-      "dataOrigins": ["talkers.ws"],
-      "resources": [],
+      "dataOrigins": ["talkers.ws", "maddhouse"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.geocities.com/CollegePark/Campus/3353/hotel.html"
+        }
+      ],
       "screencaps": [],
       "textcaps": [],
       "hosts": [
@@ -13840,6 +14434,7 @@
     },
     {
       "name": "The DarkSide of Nothing",
+      "disambiguation": "Not to be confused with <a href=\"/details/darkside\" data-sveltekit-reload>Darkside</a>.",
       "location": "Canada",
       "resources": [
         {
@@ -13861,6 +14456,7 @@
     {
       "name": "Genie's Lamp",
       "slug": "genies-lamp",
+      "codebase": "talkeros",
       "dataOrigins": ["maddhouse"],
       "resources": [],
       "hosts": [
@@ -13968,11 +14564,12 @@
     },
     {
       "name": "Ecstasy",
+      "codebase": "ewtoo",
       "location": "USA",
       "resources": [
         {
           "type": "website",
-          "url": "http://ecstasy-online.ml.org/~khatri/ecstasy"
+          "url": "https://web.archive.org/web/20010215004713/http://ecstasy-online.ml.org/~khatri/ecstasy/"
         }
       ],
       "hosts": [
@@ -13984,7 +14581,7 @@
       ],
       "textcaps": [],
       "screencaps": [],
-      "dataOrigins": ["greatbiglist"]
+      "dataOrigins": ["greatbiglist", "maddhouse"]
     },
     {
       "name": "Elsewhere",
@@ -15478,6 +16075,7 @@
     },
     {
       "name": "DarkRealm",
+      "disambiguation": "Not to be confused with <a href=\"/details/dark-realms\" data-sveltekit-reload>Dark Realms</a>.",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "darkrealm",
       "location": "Netherlands",
@@ -15671,6 +16269,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "brockhouse.com",
+          "port": 7000
+        },
+        {
+          "blocked": true,
           "hostname": "grasshopper.iliad.com",
           "port": 5000
         }
@@ -15706,7 +16309,12 @@
 	      "Jess", "Dazey", "Tabby"
       ],
       "location": "USA",
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.enterprise.linex.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15759,6 +16367,10 @@
         {
           "type": "website",
           "url": "http://homepages.enterprise.net/dodgy/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.strath.ac.uk/~cadp59/hp/"
         }
       ],
       "hosts": [
@@ -15809,20 +16421,64 @@
       "screencaps": []
     },
     {
+      "name": "Home",
+      "adult": true,
+      "dataOrigins": [ "maddhouse" ],
+      "codebase": "joot",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.talker.com/home/index.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9010
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Hole",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gotmilk.nmclites.edu",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Highlands",
       "dataOrigins": [ "greatbiglist" ],
-      "codebase": "oot",
+      "codebase": "joot",
       "admins": [
 	      "Nefilim"
       ],
       "location": "Sweden",
       "resources": [
 	      {
+		      "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://highlands.ml.org/"
+	      },
+	      {
 		      "type": "website",
           "url": "http://www.dalnet.se/~mulder/highlands/"
 	      }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "highlands.ml.org",
+          "port": 7777
+        },
         {
           "blocked": true,
           "hostname": "flash.dalnet.se",
@@ -15833,7 +16489,7 @@
       "screencaps": []
     },
     {
-      "name": "Hella",
+      "name": "HellA",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "oot",
       "admins": [
@@ -16419,6 +17075,209 @@
           "blocked": true,
           "hostname": "petri.cs.louisville.edu",
           "port": 6969
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "DarkHaven",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkhaven.auburn.net",
+          "port": 23
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "DCI Chat",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://home.megalinx.net/~bbuxton/index.html"
+        }
+      ],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "user1.megalinx.net",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Depot",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "depot.signwave.com",
+          "port": 4000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Davenport Beach",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "129.74.80.116",
+          "port": 3371
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Darkstar",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "88.net",
+          "port": 8888
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Darkside of the Force",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8888
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Darkside",
+      "disambiguation": "Not to be confused with <a href=\"/details/darkside-of-nothing\" data-sveltekit-reload>Darkside of Nothing</a>.",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "linex1.linex.com",
+          "port": 9000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Dark Visions",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "numb.selah.net",
+          "port": 4747
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Dark Sun",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "funcity.ml.org",
+          "port": 1673
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Dark Realms",
+      "disambiguation": "Not to be confused with <a href=\"/details/darkrealm\" data-sveltekit-reload>DarkRealm</a>.",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkrealm.amused.net",
+          "port": 4242
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Dark Bindings",
+      "dataOrigins": [ "maddhouse" ],
+      "codebase": "amnuts",
+      "resources": [],
+      "adult": true,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 2370
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Dagger's Den of Iniquity",
+      "slug": "daggers-den-of-iniquity",
+      "adult": true,
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010215004713/http://www.talker.com/ddi"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4279
         }
       ],
       "textcaps": [],
