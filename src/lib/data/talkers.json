@@ -7111,10 +7111,19 @@
     },
     {
       "name": "Caliburn",
-      "dataOrigins": ["rosen"],
+      "description": "You enter an old abandoned ruin at the edge of town. The ruin is on the edge of a lake that you have walked around many times. But as you enter one room, you see something you've never seen before. Through the crack in one wall, with a broken mirror still hanging there, you see an enchanted land. A land of mystery, of wizards and warlocks, of knights and ladies. A single signpost shows the way to this enchanted land, as you step through the portal. The name on the signpost?<br>Caliburn.",
+      "dataOrigins": ["rosen", "maddhouse", "homepage"],
+      "location": "USA",
+      "codebase": "nuts",
       "screencaps": [],
-      "textcaps": [],
+      "textcaps": [
+        "maps/caliburn.map.txt"
+      ],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010309004700/http://caliburn.signwave.com/"
+        },
         {
           "type": "website",
           "url": "http://caliburn.signwave.com"
@@ -7127,7 +7136,27 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "bbs.signwave.com",
+          "port": 8888
+        },
+        {
+          "blocked": true,
           "hostname": "caliburn.signwave.com",
+          "port": 8888
+        },
+        {
+          "blocked": true,
+          "hostname": "kits.cs.vu.ml",
+          "port": 8888
+        },
+        {
+          "blocked": true,
+          "hostname": "galjoen.cs.vu.ml",
+          "port": 8888
+        },
+        {
+          "blocked": true,
+          "hostname": "server.seis.com",
           "port": 8888
         },
         {
@@ -15523,7 +15552,11 @@
     },
     {
       "name": "Cactus Creek",
-      "dataOrigins": [ "maddhouse" ],
+      "dataOrigins": [ "maddhouse", "homepage" ],
+      "admins": [
+        "Shadowman"
+      ],
+      "codebase": "nuts",
       "resources": [
         {
           "type": "wayback",
@@ -15543,7 +15576,7 @@
     {
       "name": "Cactus",
       "description": "Coolest internet talker in the world.",
-      "dataOrigins": [ "greatbiglist" ],
+      "dataOrigins": [ "greatbiglist", "homepage" ],
       "adult": true,
       "codebase": "iforms",
       "admins": [

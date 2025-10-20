@@ -1,0 +1,20 @@
+
+     N                                                    | Faery_mist is
+     |                         Throne_Room                | connected to all
+    /|\                             |                     | rooms except the
+W-<|OXO|>-E            Tavern -- Corridor *X* Pillory     | Pillory
+    \|/                             |                     |___________________
+     |                Cemetary -- Court -- Monastery
+     S                              |
+                                Drawbridge
+                                    |
+               Hills        Grove   |   Creek             Holy_Ground
+                  \            \    |    /                    /
+           Cave -- Clearing --- Main_Road --- Village -- River
+                  /            /    |    \                    \
+             Highlands       Pond   | Chapel_Ruins         Waterfall
+                                    |
+                          Lake -- Forest -- Old_Shack
+                                    |
+                                 Oaktree
+
