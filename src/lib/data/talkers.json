@@ -89,6 +89,13 @@
       "url": "https://github.com/talkers/"
     },
     {
+      "type": "Repository",
+      "description": "Source code archive",
+      "icon": "Article",
+      "name": "Emergency Holographic Talker",
+      "url": "https://www.fysh.org/~zefram/eht/"
+    },
+    {
       "type": "Article",
       "description": "Wikipedia entry",
       "icon": "School",

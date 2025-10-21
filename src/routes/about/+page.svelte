@@ -38,6 +38,10 @@
     Drop me a line at <a href="mailto:ben@moopet.net">ben@moopet.net</a> or raise an issue on the <a href="https://github.com/moopet/talker-archive-svelte/issues">GitHub repository</a>.
   </p>
 
+  <h2>I want to run my own talker. Where do I get started?</h2>
+  <p>Most talker source code has been archived at <a href="https://talkersource.com/">TalkerSource.com</a>. Some codebases might run on modern operating systems, but you might need a programming background in C to get them working.</p>
+  <p>If you want a quick taste of what it's like to have a talker, you can run Zefram's <a href="https://www.fysh.org/~zefram/eht/">Emergency Holographic Talker</a> on anything with Perl.</p>
+
   <h2>How do I get in touch with [spod]?</h2>
   <p>I probably can't help you there.</p>
   <p>Until recently there have been a few bigger Facebook groups that would help out, but that feature is being shut down.</p>
