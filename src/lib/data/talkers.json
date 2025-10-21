@@ -64,8 +64,16 @@
     {
       "type": "Website",
       "icon": "Article",
+      "description": "MUD/talker list",
       "name": "MUDStats",
       "url": "http://mudstats.com/"
+    },
+    {
+      "type": "Website",
+      "icon": "Article",
+      "description": "Like this talker archive, but for MUDs",
+      "name": "MudMuseum",
+      "url": "http://mudmuseum.com/"
     },
     {
       "type": "Repository",
