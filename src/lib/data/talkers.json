@@ -1312,6 +1312,34 @@
       ]
     },
     {
+      "name": "Oddballz",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "figz.com",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "OC",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "134.100.204.1",
+          "port": 2600
+        }
+      ]
+    },
+    {
       "name": "Kharduin's Zoo",
       "slug": "kharduins-zoo",
       "dataOrigins": ["maddhouse"],
@@ -4015,7 +4043,42 @@
       ]
     },
     {
+      "name": "Playing Field",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/Colosseum/Track/2183/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "argo.umn.edu",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Playground",
+      "dataOrigins": ["maddhouse"],
+      "disambiguation": "Replaced by <a href=\"/details/playground-too\" data-sveltekit-reload>Playground Too</a>.",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "magic.netdtw.com",
+          "port": 2060
+        }
+      ]
+    },
+    {
       "name": "Playground Too",
+      "disambiguation": "Replaced <a href=\"/details/playground\" data-sveltekit-reload>Playground</a>.",
       "dataOrigins": ["ewtoo"],
       "screencaps": [],
       "textcaps": [],
@@ -4681,6 +4744,7 @@
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "hades-talker.org",
           "port": 6660
         }
@@ -6880,11 +6944,38 @@
       ]
     },
     {
-      "name": "Omega",
-      "dataOrigins": ["kesey"],
+      "name": "The Order",
+      "notes": "Age 13+",
+      "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.mergetel.com/%7Edomingo"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mergetel.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Omega",
+      "notes": "Age 13+",
+      "dataOrigins": ["kesey", "maddhouse"],
+      "codebase": "rnuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.fortunecity.com/millenium/rainbow/284/omega.htm"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -6909,10 +7000,15 @@
     },
     {
       "name": "Ocean Home",
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.talker.com/ocean/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15021,6 +15117,66 @@
       ]
     },
     {
+      "name": "Post Partum",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "pgplus",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.liquid.spod.org/%7Emodifier"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "oi.liquid.spod.org",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "The Portcullis",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://th6c30111/tcnj.edu:8080/"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "159.91.49.76",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "PooP!",
+      "slug": "poop",
+      "dataOrigins": ["maddhouse"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://poop.whispers.org/"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "whispers.org",
+          "port": 3333
+        }
+      ]
+    },
+    {
       "name": "Pooh",
       "dataOrigins": ["greatbiglist"],
       "location": "Estonia",
@@ -15058,7 +15214,8 @@
     },
     {
       "name": "Pod's Inn",
-      "dataOrigins": ["greatbiglist"],
+      "slug": "pods-inn",
+      "dataOrigins": ["greatbiglist", "maddhouse"],
       "description": "Pod's Inn is a JOOT based talker that welcome users of all ages. We are striving to have a good talker that will welcome new users, and make them feel at home! We would appreciate your stopping by, and giving us a try. And tell them Footsie personaly invited you! I am there quite often. I'd be glad to see you! Thanks :)",
       "location": "USA",
       "codebase": "joot",
@@ -15071,6 +15228,11 @@
       "screencaps": [],
       "textcaps": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "blackbox.wonderd.com",
+          "port": 4444
+        },
         {
           "blocked": true,
           "hostname": "linux.syspac.com",
@@ -16203,11 +16365,17 @@
     },
     {
       "name": "Oasis",
+      "slug": "oasis",
+      "disambiguation": "Not to be confused with <a href=\"/details/_oasis\" data-sveltekit-reload>the <em>other</em> Oasis</a>.",
       "location": "USA",
       "resources": [
         {
           "type": "website",
           "url": "http://www.mudservices.com/~oasis/"
+        },
+        {
+          "type": "website",
+          "url": "http://oasis.mudservices.com/"
         }
       ],
       "hosts": [
@@ -16215,6 +16383,23 @@
           "hostname": "oasis.mudservices.com",
           "port": 4242,
           "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Oasis",
+      "slug": "_oasis",
+      "disambiguation": "Not to be confused with <a href=\"/details/oasis\" data-sveltekit-reload>the <em>other</em> Oasis</a>.",
+      "dataOrigins": ["maddhouse"],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bigun.c-gate.net",
+          "port": 9696
         },
         {
           "blocked": true,
@@ -16223,8 +16408,22 @@
         }
       ],
       "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Observatory",
+      "dataOrigins": ["maddhouse"],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rodeo.uwyo.edu",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
       "screencaps": [],
-      "dataOrigins": ["greatbiglist"]
+      "dataOrigins": ["maddhouse"]
     },
     {
       "name": "Obsession",
@@ -16253,6 +16452,7 @@
     },
     {
       "name": "Olympus",
+      "disambiguation": "Not to be confused with <a href=\"/details/olympia\" data-sveltekit-reload>Olympia</a>.",
       "location": "UK",
       "resources": [
         {
@@ -16270,6 +16470,40 @@
       "textcaps": [],
       "screencaps": [],
       "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "The Opium Den",
+      "resources": [ ],
+      "hosts": [
+        {
+          "hostname": "204.132.158.10",
+          "port": 1234,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["maddhouse"]
+    },
+    {
+      "name": "Olympia",
+      "disambiguation": "Not to be confused with <a href=\"/details/olympus\" data-sveltekit-reload>Olympus</a>.",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://funcity.ncats.net/~hyde/"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "funcity.ncats.net",
+          "port": 7500,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["maddhouse"]
     },
     {
       "name": "On Distant Shores",
@@ -16344,6 +16578,11 @@
         {
           "hostname": "paradise.xxedgexx.com",
           "port": 9009,
+          "blocked": true
+        },
+        {
+          "hostname": "zepa.net",
+          "port": 7000,
           "blocked": true
         }
       ],
@@ -17540,21 +17779,93 @@
       "screencaps": []
     },
     {
-      "name": "The Ottawa Fair",
-      "slug": "mistys-beach-house",
-      "dataOrigins": [ "greatbiglist" ],
-      "codebase": "iforms",
-      "admins": [
-      "Morningstar",
-      "Thangalin"
+      "name": "Painted Lady",
+      "adult": true,
+      "dataOrigins": [ "maddhouse" ],
+      "codebase": "amnuts",
+      "resources": [
+	      {
+		      "type": "wayback",
+      "url": "https://web.archive.org/web/20010304125315/http://www.dune.net/%7Eplady/index.html"
+	      }
       ],
-      "location": "USA",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 1839
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "OZ",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [
+	      {
+		      "type": "wayback",
+      "url": "https://web.archive.org/web/20010304125315/http://nucleus.com/~gsm/OZ.html"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "129.76.64.1",
+          "port": 4000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Over the Rainbow",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [
+	      {
+		      "type": "wayback",
+      "url": "https://web.archive.org/web/20010304125315/http://www.infinet.com/~gwennis"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rainbox.megalinx.net",
+          "port": 5050
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Outerspace",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 1234
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "The Ottawa Fair",
+      "dataOrigins": [ "greatbiglist", "maddhouse" ],
+      "codebase": "joot",
       "resources": [],
       "hosts": [
         {
           "blocked": true,
           "hostname": "magmacom.com",
           "port": 5000
+        },
+        {
+          "blocked": true,
+          "hostname": "fair.wonderd.com",
+          "port": 3000
         }
       ],
       "textcaps": [],
