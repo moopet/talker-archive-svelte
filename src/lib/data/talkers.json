@@ -1183,6 +1183,48 @@
       ]
     },
     {
+      "name": "Mangrove Island",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mailhub.ics.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Malaysian Connection",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "funcity.ml.org",
+          "port": 6500
+        }
+      ]
+    },
+    {
+      "name": "The Magical Journey",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "journey.ml.org",
+          "port": 1308
+        }
+      ]
+    },
+    {
       "name": "Lykos",
       "dataOrigins": ["maddhouse"],
       "screencaps": [],
@@ -2932,6 +2974,7 @@
       "name": "Leather Lounge",
       "dataOrigins": ["maddhouse"],
       "adult": true,
+      "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -2979,6 +3022,7 @@
     },
     {
       "name": "Land of Paradise!",
+      "codebase": "pgplus",
       "slug": "land-of-paradise",
       "dataOrigins": ["maddhouse"],
       "screencaps": [],
@@ -4080,6 +4124,7 @@
     {
       "name": "The Manor",
       "dataOrigins": ["spodlist"],
+      "location": "UK",
       "ewtooAbbr": "manor",
       "screencaps": [
         "login/themanor.org_4242.png"
@@ -4095,6 +4140,11 @@
         {
           "blocked": true,
           "hostname": "themanor.org",
+          "port": 4242
+        },
+        {
+          "blocked": true,
+          "hostname": "manor.talkers.uk.com",
           "port": 4242
         },
         {
