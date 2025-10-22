@@ -1169,6 +1169,168 @@
       ]
     },
     {
+      "name": "Lyoness",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "166.66.34.42",
+          "port": 8000
+        }
+      ]
+    },
+    {
+      "name": "Lykos",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lykos.midsouth.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Lost Eden",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "alfa.ist.utl.pt",
+          "port": 1414
+        }
+      ]
+    },
+    {
+      "name": "The Kraal",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "kraal.cis.co.az",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Koala Blue",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "maddhouse.com",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Kharduin's Zoo",
+      "slug": "kharduins-zoo",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://zoo.kharduin.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "zoo.kharduin.net",
+          "port": 2952
+        }
+      ]
+    },
+    {
+      "name": "KerplunK",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://darkridge.eecs.lehigh.edu/~kerplunk/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkridge.eecs.lehigh.edu",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "Joplin's Jukebox",
+      "slug": "joplins-jukebox",
+      "dataOrigins": ["maddhouse"],
+      "adult": true,
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://jukebox.wonderdigital.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hobbes.chasing-memories.com",
+          "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "Joey's Playhouse",
+      "slug": "joeys-playhouse",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Jaguar's Lair",
+      "slug": "jaguars-lair",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "inquo.net",
+          "port": 7777
+        }
+      ]
+    },
+    {
       "name": "Celtic Mist",
       "adult": true,
       "dataOrigins": ["maddhouse"],
@@ -2767,14 +2929,104 @@
       "hosts": []
     },
     {
+      "name": "Leather Lounge",
+      "dataOrigins": ["maddhouse"],
+      "adult": true,
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.lounge.cybermac.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":"cybermac.net",
+          "port": 3100
+        }
+      ]
+    },
+    {
+      "name": "Laputa",
+      "dataOrigins": ["maddhouse"],
+      "location": "UK",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":"ayton.tees.ac.uk",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Land of Nephi",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":"dragon.palni.edu",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Land of Paradise!",
+      "slug": "land-of-paradise",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":"funcity.org",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "The Lair",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.talker.com/lair/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":" talker.com",
+          "port": 7890
+        }
+      ]
+    },
+    {
       "name": "Lo Riviero",
+      "dataOrigins": ["maddhouse"],
       "adult": true,
       "notes": "Part of the \"Worlds of Syrius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a>.",
       "codebase": "exile",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
-      "hosts": []
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":" talker.com",
+          "port": 9920
+        }
+      ]
     },
     {
       "name": "Blade Jack",
@@ -6399,8 +6651,27 @@
       ]
     },
     {
+      "name": "Magic Lands",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.skl.com/~magic/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 3456
+        }
+      ]
+    },
+    {
       "name": "Magic",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -6408,6 +6679,11 @@
         {
           "blocked": true,
           "hostname": "mnl.cyb-live.com",
+          "port": 7000
+        },
+        {
+          "blocked": true,
+          "hostname": "magic.cnl.net",
           "port": 7000
         }
       ]
@@ -7029,6 +7305,7 @@
     },
     {
       "name": "Fantasia Truth or Date",
+      "description": "Water fountains flank the grand open-air lounge, set overlooking the ocean and appointed with cozy love seats and exotic flower arrangements. The view is spectacular, and the atmosphere is relaxed so that you can take your time absorbing it all as you indulge in drinks and appetizers. As the sun sets, the pounding surf rolls in and the palm trees are silhouetted against the heavenly blue water of the ocean. Padded, high-backed stools sit in front of the bar to your right. The mood is sensual, romantic, almost magical.<br>Someone whispers, \"Care to play a game of Truth or Dare with a lovin' touch?\"",
       "adult": true,
       "dataOrigins": ["maddhouse", "homepage"],
       "multiWorld": "fantasia",
@@ -8839,6 +9116,7 @@
     },
     {
       "name": "Legacy Of The Damned",
+      "adult": true,
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
@@ -8847,6 +9125,11 @@
         {
           "blocked": true,
           "hostname": "talker.com",
+          "port": 8008
+        },
+        {
+          "blocked": true,
+          "hostname": "legacy.talker.com",
           "port": 8008
         }
       ]
@@ -8881,7 +9164,56 @@
       ]
     },
     {
+      "name": "ISCA",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "whip.isca.uiowa.edu",
+          "port": 23
+        }
+      ]
+    },
+    {
+      "name": "In the Garden of Eden",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://warp.geo.uaic.ro/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "vela.uaic.ro",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "In Limbo",
+      "disambiguation": "Not to be confused with <a href=\"/details/limbo\" data-sveltekit-reload>Limbo</a>.",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "argo.unm.edu",
+          "port": 7000
+        }
+      ]
+    },
+    {
       "name": "Limbo",
+      "disambiguation": "Not to be confused with <a href=\"/details/in-limbo\" data-sveltekit-reload>In Limbo</a>.",
       "codebase": "pgplus",
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
@@ -8892,6 +9224,11 @@
           "blocked": true,
           "hostname": "limbo.dune.net",
           "port": 3333
+        },
+        {
+          "blocked": true,
+          "hostname": "ps.cus.umist.ac.uk",
+          "port": 7000
         }
       ]
     },
@@ -10666,11 +11003,21 @@
       "location": "USA",
       "codebase": "oot",
       "description": "The Jungle is a fun and friendly place to chat!",
-      "dataOrigins": ["talker.com", "greatbiglist"],
+      "dataOrigins": ["talker.com", "greatbiglist", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://cs.wm.edu/~hwmint/"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "128.239.1.14",
+          "port": 9000
+        },
         {
           "blocked": true,
           "hostname": "msinets.com",
@@ -12533,6 +12880,9 @@
     },
     {
       "name": "Lintilla Women-Women",
+      "aka": [
+        "Lintilla Women to Women"
+      ],
       "multiWorld": "lintilla",
       "coders": [
         "Graeme"
@@ -12561,6 +12911,9 @@
     },
     {
       "name": "Lintilla Men-Men",
+      "aka": [
+        "Lintilla Men to Men"
+      ],
       "multiWorld": "lintilla",
       "coders": [
         "Casey",
@@ -12590,7 +12943,7 @@
       ]
     },
     {
-      "name": "Lintilla Funny",
+      "name": "Lintilla Funny Chat",
       "multiWorld": "lintilla",
       "coders": [
         "Casey",
@@ -13093,10 +13446,18 @@
     },
     {
       "name": "Jaffa",
-      "dataOrigins": ["spodlist"],
+      "aka": [
+        "The Jaffa Cake Talker"
+      ],
+      "dataOrigins": ["spodlist", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.ifi.uio.no/~bjornmar/jaffa/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15147,11 +15508,20 @@
       "location": "USA",
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://ncohafmuta.com/~kether"
+        },
+        {
           "type": "website",
           "url": "http://www.wpi.edu/~simmons/kether.html"
         }
       ],
       "hosts": [
+        {
+          "hostname": "206.245.154.72",
+          "port": 3333,
+          "blocked": true
+        },
         {
           "hostname": "lod.com",
           "port": 3001,
@@ -15181,6 +15551,21 @@
       "textcaps": [],
       "screencaps": [],
       "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Lollapalooza",
+      "location": "USA",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "lintilla.df.lth.se",
+          "port": 6969,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["maddhouse"]
     },
     {
       "name": "Lollapalooza II",
@@ -15239,11 +15624,34 @@
     },
     {
       "name": "Looney Bin",
+      "slug": "looney-bin",
+      "disambiguation": "Not to be confused with <a href=\"/details/the-looney-bin\" data-sveltekit-reload>The Looney Bin</a>.",
       "resources": [],
       "hosts": [
         {
           "hostname": "decef.elf.stuba.sk",
           "port": 3000,
+          "blocked": true
+        },
+        {
+          "hostname": "fornax.elf.stuba.sk",
+          "port": 3000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["rosen"]
+    },
+    {
+      "name": "The Looney Bin",
+      "slug": "looney-bin",
+      "disambiguation": "Not to be confused with <a href=\"/details/looney-bin\" data-sveltekit-reload>Looney Bin</a>.",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "talkers.skl.com",
+          "port": 6868,
           "blocked": true
         }
       ],
@@ -16768,6 +17176,10 @@
 	      {
 		      "type": "website",
       "url": "http://www.guam.net/home/bhshaw2/"
+	      },
+	      {
+	        "type": "wayback",
+	        "url": "https://web.archive.org/web/20010303110404/http://cafe.guam.net/"
 	      }
       ],
       "hosts": [
