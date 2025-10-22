@@ -1183,7 +1183,36 @@
       ]
     },
     {
+      "name": "Musicfest",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cnknet.dyn.ml.org",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Music Shack",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sal.lamar.edu",
+          "port": 7000
+        }
+      ]
+    },
+    {
       "name": "Mangrove Island",
+      "codebast": "oot",
       "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
@@ -3508,6 +3537,20 @@
       ]
     },
     {
+      "name": "Nuts-R-Us",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 2525
+        }
+      ]
+    },
+    {
       "name": "North America",
       "dataOrigins": ["kesey"],
       "screencaps": [],
@@ -5411,6 +5454,7 @@
     },
     {
       "name": "Heart's Paradise",
+      "slug": "hearts-paradise",
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
@@ -5420,6 +5464,21 @@
           "blocked": true,
           "hostname": "205.161.214.18",
           "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Nature's Paradise",
+      "slug": "natures-paradise",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5700
         }
       ]
     },
@@ -5474,7 +5533,10 @@
       ]
     },
     {
-      "name": "Melrose Chat",
+      "name": "Melrose Place",
+      "aka": [
+        "Melrose Chat"
+      ],
       "dataOrigins": ["haven"],
       "screencaps": [],
       "admins": [
@@ -6559,6 +6621,56 @@
           "blocked": true,
           "hostname": "rootaction.net",
           "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Metropolis",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9092
+        }
+      ]
+    },
+    {
+      "name": "Max's Tavern",
+      "dataOrigins": ["maddhouse"],
+      "adult": true,
+      "slug": "maxs-tavern",
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://members.tripod.com/%7EFreAk20/maxs.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "starpoint.net",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "The Masquerade",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "205.232.151.35",
+          "port": 8888
         }
       ]
     },
@@ -9199,6 +9311,41 @@
       ]
     },
     {
+      "name": "Marlo Chat",
+      "dataOrigins": ["maddhouse"],
+      "location": "Australia",
+      "codebase": "talkeros",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.marlolake.com.au/marlochat"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "marlolake.com.au",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Mansion of Hornor",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "pax.werd.net",
+          "port": 7010
+        }
+      ]
+    },
+    {
       "name": "The Mansion",
       "codebase": "pgplus",
       "dataOrigins": ["greatbiglist"],
@@ -9317,12 +9464,46 @@
       ]
     },
     {
-      "name": "Midnight",
-      "dataOrigins": ["talkers.ws"],
+      "name": "Midnight Mansion",
+      "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mansion.telmaron.com",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Midnight Blue",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "midnightblue.net",
+          "port": 9799
+        }
+      ]
+    },
+    {
+      "name": "Midnight",
+      "location": "USA",
+      "dataOrigins": ["greatbiglist", "talkers.ws", "maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "zipcon.net",
+          "port": 7979,
+          "blocked": true
+        },
         {
           "blocked": true,
           "hostname": "midnight.zipcon.com",
@@ -9332,6 +9513,7 @@
     },
     {
       "name": "Mirage",
+      "codebase": "ewtoo",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
@@ -9440,7 +9622,7 @@
       ]
     },
     {
-      "name": "Necrolith",
+      "name": "The Necrolith",
       "codebase": "pgplus",
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
@@ -11178,7 +11360,8 @@
     {
       "name": "Mountain Ranch",
       "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
-      "dataOrigins": ["talker.com"],
+      "adult": true,
+      "dataOrigins": ["talker.com", "maddhouse"],
       "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
@@ -11196,6 +11379,11 @@
         {
           "blocked": true,
           "hostname": "talker.com",
+          "port": 5013
+        },
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
           "port": 5013
         }
       ]
@@ -11239,6 +11427,10 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://welcome.to/myst"
+        },
+        {
           "type": "email",
           "url": "myst@talker.com"
         }
@@ -11253,6 +11445,60 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 4545
+        }
+      ]
+    },
+    {
+      "name": "Natural Wonders",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "paris",
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 3210
+        }
+      ]
+    },
+    {
+      "name": "Mystic Dreams",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "joot",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.geocities.com/Area51/Realm/8281/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "milliways.hyperglyphics.com",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Mystic",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.kharduin.net/%7Eannerice/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "kharduin.net",
+          "port": 8005
         }
       ]
     },
@@ -13550,8 +13796,31 @@
       ]
     },
     {
-      "name": "Neon Lights",
-      "dataOrigins": ["kesey"],
+      "name": "The New Republic",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010303110404/http://www.talker.com/republic/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 2000
+        }
+      ]
+    },
+    {
+      "name": "Neon Nights",
+      "aka": [
+        "Neon Lights"
+      ],
+      "dataOrigins": ["maddhouse"],
+      "adult": true,
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -14073,11 +14342,16 @@
     {
       "name": "MuMu Land",
       "disambiguation": "Not to be confused with <a href=\"/details/land-of-mu\" data-sveltekit-reload>The Land of Mu</a>.",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cronus.oanet.com",
+          "port": 4321
+        },
         {
           "blocked": true,
           "hostname": "moomin.cs.ut.ee",
@@ -15800,21 +16074,6 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
-      "name": "Midnight",
-      "location": "USA",
-      "resources": [],
-      "hosts": [
-        {
-          "hostname": "zipcon.net",
-          "port": 7979,
-          "blocked": true
-        }
-      ],
-      "textcaps": [],
-      "screencaps": [],
-      "dataOrigins": ["greatbiglist"]
-    },
-    {
       "name": "Moominvalley",
       "location": "Estonia",
       "resources": [
@@ -15867,6 +16126,20 @@
       "textcaps": [],
       "screencaps": [],
       "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Necropolis City",
+      "resources": [],
+      "hosts": [
+        {
+          "hostname": "158.152.52.245",
+          "port": 7000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["maddhouse"]
     },
     {
       "name": "Necropolis",
@@ -17302,6 +17575,48 @@
           "blocked": true,
           "hostname": "nowaksg.chem.md.edu",
           "port": 3371
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "NoWhereLand",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "216.172.181.2",
+          "port": 9999
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Nothing",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cps211.cps.cmich.edu",
+          "port": 3001
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Nocturnal Island",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bbs.signwave.com",
+          "port": 6969
         }
       ],
       "textcaps": [],
