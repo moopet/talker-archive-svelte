@@ -6704,6 +6704,128 @@
       ]
     },
     {
+      "name": "Fantasia The Sanctuary",
+      "slug": "fantasia-sanctuary",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "multiWorld": "fantasia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/sanct.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4060
+        }
+      ]
+    },
+    {
+      "name": "Fantasia The Lodge",
+      "slug": "fantasia-lodge",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "multiWorld": "fantasia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/lodge.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4075
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Hideaway",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "multiWorld": "fantasia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/hideaway.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4020
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Hideaway",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "multiWorld": "fantasia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/carnal.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4020
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Carnal Voyage",
+      "coders": [
+        "Tick"
+      ],
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "multiWorld": "fantasia",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/carnal.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4090
+        }
+      ]
+    },
+    {
       "name": "Fantasia Bourbon Street",
       "coders": [
         "Tick"
@@ -6902,6 +7024,48 @@
           "blocked": true,
           "hostname": "fantasia.galaxynet.com",
           "port": 4070
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Truth or Date",
+      "adult": true,
+      "dataOrigins": ["maddhouse", "homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/truth.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4005
+        }
+      ]
+    },
+    {
+      "name": "Fantasia Sweethearts",
+      "adult": true,
+      "dataOrigins": ["maddhouse", "homepage"],
+      "multiWorld": "fantasia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/sweet.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fantasia.galaxynet.com",
+          "port": 4080
         }
       ]
     },
