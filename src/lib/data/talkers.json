@@ -497,6 +497,10 @@
       "url": "https://web.archive.org/web/20081227101618/http://lintilla.df.lth.se/index.html"
     },
     {
+      "shortName": "sterling",
+      "name": "Sterling's"
+    },
+    {
       "shortName": "planes",
       "description": "The planes of existence talker was inspired by lintilla, as an adult-orientated multiple worlds talker and Envirochat|Envirochat, for its human rights elements.",
       "url": "https://web.archive.org/web/19991117033032/http://www.planes.org/",
@@ -1169,6 +1173,120 @@
       ]
     },
     {
+      "name": "Rugrats",
+      "dataOrigins": ["maddhouse"],
+      "location": "Australia",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "snafu.net.au",
+          "port": 7500
+        }
+      ]
+    },
+    {
+      "name": "Roadkill",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "194.204.0.1",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "RJ's",
+      "slug": "rjs",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rj.ravensoft.com",
+          "port": 2048
+        }
+      ]
+    },
+    {
+      "name": "Return to Paradise",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hearts.signwave.com",
+          "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "Psychedelic Sunrise",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "navajo.dtcc.edu",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Quantum",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.230.41.250",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "The Reality of the World",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9003
+        }
+      ]
+    },
+    {
+      "name": "Power World",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hott.com",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "Lyoness",
       "dataOrigins": ["maddhouse"],
       "screencaps": [],
@@ -1336,6 +1454,44 @@
           "blocked": true,
           "hostname": "134.100.204.1",
           "port": 2600
+        }
+      ]
+    },
+    {
+      "name": "The Realm of Lothos",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://realm.signwave.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "realm.signwave.com",
+          "port": 6660
+        }
+      ]
+    },
+    {
+      "name": "The Slime Pit",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://admin.flevel.co.uk:3080/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "admin.flevel.co.uk",
+          "port": 3000
         }
       ]
     },
@@ -1828,6 +1984,7 @@
     {
       "name": "The Pub",
       "dataOrigins": ["spodlist"],
+      "codebase": "ewtoo",
       "screencaps": [
         "login/doughnuts.co.uk_4000.png"
       ],
@@ -2398,6 +2555,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "www.cvent.net",
+          "port": 2010
+        },
         {
           "blocked": true,
           "hostname": "wibble.merlin.net",
@@ -6657,6 +6819,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "talker.com",
+          "port": 3050
+        },
+        {
+          "blocked": true,
           "hostname": "khazad-dum.ccsi.com",
           "port": 1807
         },
@@ -6756,6 +6923,21 @@
           "blocked": true,
           "hostname": "stjames.ml.org",
           "port": 2022
+        }
+      ]
+    },
+    {
+      "name": "Sherwood",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "codebase": "rnuts",
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "rnuts.cybermac.net",
+          "port": 7000
         }
       ]
     },
@@ -6966,6 +7148,45 @@
       ]
     },
     {
+      "name": "Silent Screams",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.silentscreams.com%20/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.silentscreams.com",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "The Sugar Shack...",
+      "slug": "sugar-shack",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://sugarshack.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sugarshack.dune.net",
+          "port": 1313
+        }
+      ]
+    },
+    {
       "name": "Omega",
       "notes": "Age 13+",
       "dataOrigins": ["kesey", "maddhouse"],
@@ -7092,10 +7313,14 @@
     },
     {
       "name": "The Slopes",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.fortnet.org/~zenki/"
+        },
         {
           "type": "website",
           "url": "http://www1.mhv.net/~laws/"
@@ -9784,12 +10009,17 @@
       ]
     },
     {
-      "name": "Pure Exxtacy",
-      "dataOrigins": ["greatbiglist"],
+      "name": "Pure Exxxtacy",
+      "dataOrigins": ["greatbiglist", "maddhouse"],
       "adult": true,
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.ncohafmuta.com/scrappy/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9892,7 +10122,22 @@
       ]
     },
     {
+      "name": "Seraglio",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "littled.kingsnet.com",
+          "port": 2222
+        }
+      ]
+    },
+    {
       "name": "Selene",
+      "adult": true,
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
@@ -10380,6 +10625,9 @@
     },
     {
       "name": "Hall of the Silver Dragon",
+      "aka": [
+        "The Silver Dragon"
+      ],
       "notes": "This talker-themed MUD was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>. It closed in 2013.",
       "dataOrigins": ["mudstats"],
       "screencaps": [
@@ -10389,6 +10637,10 @@
         "login/dragon.talkernet.net_9889.txt"
       ],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/SouthBeach/Marina/7618/"
+        },
         {
           "type": "website",
           "url": "http://realms.palni.edi"
@@ -10533,6 +10785,25 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 7050
+        }
+      ]
+    },
+    {
+      "name": "Sanctuary",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.winternet.com/~cindy/sanctuary.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sanctuary.mpls.mn.us",
+          "port": 7300
         }
       ]
     },
@@ -11790,10 +12061,14 @@
       "name": "Reality",
       "description": "A fun place to go!!" ,
       "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.bigfoot.com%5C%7Etalkers/"
+        },
         {
           "type": "email",
           "url": "josh@talker.com"
@@ -11804,6 +12079,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "techwiz.dynip.com",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -12247,6 +12527,10 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/TimesSquare/Lair/5680/"
+        },
+        {
           "type": "email",
           "url": "talker@talker.com"
         },
@@ -12267,10 +12551,14 @@
       "name": "Seventh Heaven",
       "description": "If you're looking for a fun, friendly and relaxing place to hang out for a while, drop by Seventh Heaven. We're an all ages talker open to anyone and everyone, as long as you respect one another and have fun! Drop by and play a game of Tic-Tac-Toe with Zeus, the coolest bot on the web. Or try your hand at Hangman. Think you're smart? Answer today's Riddle. Trust me, there's tons to do, great people to meet and fabulous friends to make. So come on into Heaven!",
       "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://7thheaven.ml.org/"
+        },
         {
           "type": "email",
           "url": "7-heaven@talker.com"
@@ -12286,6 +12574,26 @@
           "blocked": true,
           "hostname": "lod.com",
           "port": 1998
+        }
+      ]
+    },
+    {
+      "name": "Shades of Blue",
+      "codebase": "talkeros",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://members.xoom.com/shadesblues"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 4321
         }
       ]
     },
@@ -12409,6 +12717,11 @@
         },
         {
           "blocked": true,
+          "hostname": "shadows.netsync.net",
+          "port": 2323
+        },
+        {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 7070
         }
@@ -12434,6 +12747,26 @@
       ]
     },
     {
+      "name": "Slap Shot",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://hockey.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 5500
+        }
+      ]
+    },
+    {
       "name": "Sim City",
       "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
       "codebase": "cuts",
@@ -12441,6 +12774,10 @@
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/Hollywood/Lot/1186/"
+        },
         {
           "type": "email",
           "url": "SimCity@talker.com"
@@ -12485,6 +12822,25 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Spellbound",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.talker.com/castle/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.248",
+          "port": 8000
         }
       ]
     },
@@ -12551,6 +12907,26 @@
           "blocked": true,
           "hostname": "benden.erols.com",
           "port": 6666
+        }
+      ]
+    },
+    {
+      "name": "Seven Realms",
+      "codebase": "ramtits",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://realms.talker.org/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.org",
+          "port": 4500
         }
       ]
     },
@@ -12669,6 +13045,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/strawberry"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.dialnet.net/streetdreams/"
         },
         {
           "type": "wayback",
@@ -12923,11 +13303,89 @@
       ]
     },
     {
-      "name": "Stingray",
-      "dataOrigins": ["kesey"],
+      "name": "Sweet Dreams",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.dialnet.net/streetdreams/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "shell.dialnet.net",
+          "port": 6500
+        }
+      ]
+    },
+    {
+      "name": "Storm Chaser Central",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "166.66.34.42",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Storm",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://talkers.skl.com/%7Espeedtlk/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "The Stonewall Cafe (Women's Space)",
+      "slug": "stonewall-cafe",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/WestHollywood/8477/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "medsys.med.wayne.edu",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Stingray",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.stairway.org/stingray/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -12937,11 +13395,84 @@
       ]
     },
     {
-      "name": "The Subway",
-      "dataOrigins": ["kesey"],
+      "name": "Sterling's Sacred Stone",
+      "slug": "sterling-sacred-stone",
+      "multiWorld": "sterling",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.245.154.72",
+          "port": 5011
+        }
+      ]
+    },
+    {
+      "name": "Sterling's Black Dagger",
+      "slug": "sterling-black-dagger",
+      "multiWorld": "sterling",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.245.154.72",
+          "port": 5012
+        }
+      ]
+    },
+    {
+      "name": "Sterling's Mountain Ranch",
+      "slug": "sterling-mountain-ranch",
+      "multiWorld": "sterling",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.245.154.72",
+          "port": 5013
+        }
+      ]
+    },
+    {
+      "name": "Sterling's Surfside Inn",
+      "slug": "sterling-surfside-inn",
+      "multiWorld": "sterling",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.245.154.72",
+          "port": 5010
+        }
+      ]
+    },
+    {
+      "name": "The Subway",
+      "dataOrigins": ["kesey", "maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.islandnet.com/~rb/subway.html"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -13111,6 +13642,7 @@
     },
     {
       "name": "Republic",
+      "disambiguation": "Not to be confused with <a href=\"/details/republic-inn\" data-sveltekit-reload>Republic Inn</a>.",
       "notes": "Republic is one of a very few talkers that does not have any admins.",
       "description": "Republic is a talker with a difference. No superusers. No wizards. No staff. Just people.",
       "dataOrigins": ["facebook", "homepage"],
@@ -13131,6 +13663,37 @@
         {
           "hostname": "republic.snowplains.org",
           "port": 4001
+        }
+      ]
+    },
+    {
+      "name": "Scout Talk",
+      "notes": "\"For Kids\"",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "screencaps": [ ],
+      "textcaps": [ ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "hostname": "dryn.kharduin.net",
+          "port": 1908
+        }
+      ]
+    },
+    {
+      "name": "Republic Inn",
+      "disambiguation": "Not to be confused with <a href=\"/details/republic\" data-sveltekit-reload>Republic</a>.",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "screencaps": [ ],
+      "textcaps": [ ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "hostname": "cybermac.com",
+          "port": 4200
         }
       ]
     },
@@ -14739,6 +15302,29 @@
         "Sleepy"
       ],
       "dataOrigins": ["kesey"],
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
+        }
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "206.54.38.11",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Sleepy IWBF",
+      "multiWorld": "sleepy",
+      "admins": [
+        "Sleepy"
+      ],
+      "dataOrigins": ["maddhouse"],
       "resources": [
         {
           "type": "website",
@@ -16760,6 +17346,11 @@
           "hostname": "safari.megalinx.net",
           "port": 7979,
           "blocked": true
+        },
+        {
+          "hostname": "user1.megalinx.net",
+          "port": 7979,
+          "blocked": true
         }
       ],
       "textcaps": [],
@@ -17961,7 +18552,7 @@
       "name": "The Promised Land",
       "notes": "Christian-based talker, open to all ages",
       "dataOrigins": [ "greatbiglist" ],
-      "codebase": "haven",
+      "codebase": "talkeros",
       "admins": [
         "Jazzin",
         "Averil"
@@ -18026,8 +18617,28 @@
       "screencaps": []
     },
     {
+      "name": "Secrets",
+      "dataOrigins": [ "maddhouse" ],
+      "adult": true,
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://members.tripod.com/%7Esecrets4010/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "205.171.56.10",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Queen Vic",
-      "dataOrigins": [ "greatbiglist" ],
+      "dataOrigins": [ "greatbiglist", "maddhouse" ],
       "codebase": "iforms",
       "admins": [
         "Blue",
@@ -18036,6 +18647,10 @@
       "adult": true,
       "location": "UK",
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.brunel.ac.uk/~hs95jem/qvhome/"
+        },
         {
           "type": "website",
           "url": "http://members.tripod.com/~RCJ/"
@@ -18058,9 +18673,13 @@
       "admins": [
         "Wookey"
       ],
-      "location": "Netherlands",
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bugsy.it.gvsu.edu",
+          "port": 1971
+        },
         {
           "blocked": true,
           "hostname": "galjoen.cs.vu.nl",
@@ -18088,6 +18707,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 3200
+        },
         {
           "blocked": true,
           "hostname": "bbs.signwave.com",
@@ -18122,6 +18746,47 @@
       "screencaps": []
     },
     {
+      "name": "Spaghetti House",
+      "language": "Italian",
+      "location": "Italy",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://mangusta.unimo.it/~sphouse/" 
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "155.185.1.15",
+          "port": 5050
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Southern Comfort",
+      "dataOrigins": [ "maddhouse" ],
+      "codebase": "talkeros",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.dbscom.com/sc/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "nickel.dbscom.com",
+          "port": 8000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Sommerland",
       "disambiguation": "It apears this iforms talker was replaced by the ncohafmuta-based <a data-sveltekit-reload href=\"/details/sommerland-ii\">Sommerland II</a>.",
       "dataOrigins": [ "greatbiglist" ],
@@ -18131,7 +18796,12 @@
         "Jordan"
       ],
       "location": "USA",
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010304125315/http://www.talker.com/sommer/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
