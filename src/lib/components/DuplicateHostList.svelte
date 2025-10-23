@@ -27,7 +27,7 @@
     <h2>Other talkers that share the same address (host and port)</h2>
 
     <p>
-      These are potentially duplicates, replacements or mistakes in the data library.
+      These could simply be different talkers reusing the same ports over time, but they are also potentially duplicates, replacements or mistakes in the data library.
     </p>
 
     <table>
