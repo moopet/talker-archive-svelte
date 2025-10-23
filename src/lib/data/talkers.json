@@ -480,6 +480,14 @@
   ],
   "multiWorlds": [
     {
+      "shortName": "syrius",
+      "name": "Worlds of Syrius"
+    },
+    {
+      "shortName": "illusions",
+      "name": "World of Illusions"
+    },
+    {
       "shortName": "sleepy",
       "name": "Sleepy's Multiple Worlds",
       "url": "https://web.archive.org/web/20001215074200/http://www.sleepy.net/herstory.html"
@@ -3277,7 +3285,7 @@
       "name": "Lo Riviero",
       "dataOrigins": ["maddhouse"],
       "adult": true,
-      "notes": "Part of the \"Worlds of Syrius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a>.",
+      "multiWorld": "syrius",
       "codebase": "exile",
       "screencaps": [],
       "textcaps": [],
@@ -3293,7 +3301,7 @@
     {
       "name": "Blade Jack",
       "adult": true,
-      "notes": "Part of the \"Worlds of Syrius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/crystal-palace\">Crystal Palace</a> and <a data-sveltekit-reload href=\"/details/lo-riviero\">Lo Riviero</a>.",
+      "multiWorld": "syrius",
       "codebase": "exile",
       "screencaps": [],
       "textcaps": [],
@@ -5129,7 +5137,13 @@
       "screencaps": [],
       "textcaps": [],
       "resources": [],
-      "hosts": []
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "host.vivid.net",
+          "port": 8008
+        }
+      ]
     },
     {
       "name": "Underworld",
@@ -5257,6 +5271,7 @@
       "name": "Uberworld",
       "location": "Netherlands",
       "ewtooAbbr": "uber",
+      "codebase": "ewtoo",
       "screencaps": [
         "login/uberworld.org_2020.png"
       ],
@@ -5596,6 +5611,20 @@
       ]
     },
     {
+      "name": "Virtual World",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "login.arq.net",
+          "port": 3283
+        }
+      ]
+    },
+    {
       "name": "Virtual City",
       "location": "Estonia",
       "admins": [
@@ -5842,11 +5871,25 @@
     },
     {
       "name": "Speedway",
-      "dataOrigins": [""],
+      "aka": [
+        "Tele-Chat Speedway"
+      ],
+      "dataOrigins": ["maddhouse"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
-      "hosts": []
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.talker.com/speedway/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7888
+        }
+      ]
     },
     {
       "name": "Floodland",
@@ -6027,7 +6070,12 @@
         "maps/twilight-zone.willoughby.map.txt",
         "maps/twilight-zone.farmhouse.map.txt"
       ],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.kuci.uci.edu/~tzone/"
+        }
+      ],
       "hosts": [
         {
           "hostname": "tzone.ddns.net",
@@ -6051,19 +6099,43 @@
       ]
     },
     {
+      "name": "Zhanaroth",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [ ],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "silver.ucs.indiane.edu",
+          "port": 1200
+        }
+      ]
+    },
+    {
       "name": "Zeta Aquilae",
       "ewtooAbbr": "zeta",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "maddhouse"],
       "codebase": "ewtoo",
       "screencaps": [
         "login/zeta.aquilae.org_3456.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://zeta.whiting.co.uk/%7Eaquilae/INDEX.HTML"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "zeta.aquilae.org",
+          "port": 3456
+        },
+        {
+          "blocked": true,
+          "hostname": "zeta..org",
           "port": 3456
         }
       ]
@@ -6693,6 +6765,60 @@
       ]
     },
     {
+      "name": "Unicorn Haven",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "ewtoo",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bigmouth.hot1.net",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Under the Sky",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "talkeros",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.maddhouse.com/%7Euts"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "maddhouse.com",
+          "port": 8000
+        }
+      ]
+    },
+    {
+      "name": "Under the Canopy",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://utc.talkernet.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkernet.net",
+          "port": 2000
+        }
+      ]
+    },
+    {
       "name": "Under the Big Top",
       "location": "USA",
       "dataOrigins": ["greatbiglist"],
@@ -6784,6 +6910,92 @@
           "blocked": true,
           "hostname": "hemi.com",
           "port": 6776
+        }
+      ]
+    },
+    {
+      "name": "Time Worlds",
+      "dataOrigins": ["maddhouse"],
+      "adult": true,
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://tworlds.telmaron.com/~tworlds/" 
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tworlds.telmaron.com",
+          "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Tierra Promesa",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.kharduin.net/%7Eannerice" 
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "kharduin.net",
+          "port": 8003
+        }
+      ]
+    },
+    {
+      "name": "Theme Park",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://totally.dappy.com/jamie/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "totally.dappy.com",
+          "port": 7050
+        }
+      ]
+    },
+    {
+      "name": "Theatre in the Round",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "acad.stedwards.edu",
+          "port": 4444
+        }
+      ]
+    },
+    {
+      "name": "TeRRoRtoWeR",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "eola.ao.net",
+          "port": 9000
         }
       ]
     },
@@ -7423,7 +7635,7 @@
     {
       "name": "Way of the Force",
       "codebase": "ncohafmuta",
-      "dataOrigins": ["rosen", "greatbiglist"],
+      "dataOrigins": ["rosen", "greatbiglist", "maddhouse"],
       "screencaps": [],
       "location": "USA",
       "admins": [
@@ -7433,11 +7645,20 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.geocities.com/Area51/Shadowlands/8870"
+        },
+        {
           "type": "website",
           "url": "http://www.talker.com/wotf/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkernet.net",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -10137,8 +10358,9 @@
     },
     {
       "name": "Selene",
+      "multiWorld": "syrius",
       "adult": true,
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -11030,18 +11252,76 @@
       ]
     },
     {
-      "name": "The Talker",
-      "slug": "the-talker",
-      "dataOrigins": ["greatbiglist"],
+      "name": "Tanelorn",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 2345
+        }
+      ]
+    },
+    {
+      "name": "The Tedder",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "user1.megalinx.net",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Telecafe",
+      "codebase": "pgplus",
+      "dataOrigins": ["greatbiglist", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.telecafe.com/telecafe/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "telecafe.com",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "The Talker",
+      "slug": "the-talker",
+      "codebase": "pgplus",
+      "dataOrigins": ["greatbiglist", "maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://talk.to/TheTalker"
+        },
         {
           "type": "website",
           "url": "http://www.thetalker.org"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hbjcom.nl.eu.org",
+          "port": 4242
+        },
         {
           "blocked": true,
           "hostname": "thetalker.org",
@@ -12161,6 +12441,39 @@
       ]
     },
     {
+      "name": "Vice Versa",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cps213.cps.cmich.edu",
+          "port": 1965
+        }
+      ]
+    },
+    {
+      "name": "Vampire Haven",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://abyss.bcl.net/~zodiac/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "abyss.bcl.net",
+          "port": 6666
+        }
+      ]
+    },
+    {
       "name": "Xanth",
       "description": "Xanth: you have read the books by Piers Anthony, now come play the MUD loosely based on his series. 'Xanth' and all references to it are copyrighted by Piers Anthony and are used by us only by his permission.",
       "codebase": "rom",
@@ -12182,6 +12495,20 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 4279
+        }
+      ]
+    },
+    {
+      "name": "Utopia Parkway",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "hostname": "blacktape.cs.uchicago.edu",
+          "port": 3000,
+          "blocked": true
         }
       ]
     },
@@ -12276,6 +12603,25 @@
       ]
     },
     {
+      "name": "Tornado Alley",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://marauder.millersv.edu/%7Ejpn47788/TA.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "166.66.34.42",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "Toon Town",
       "description": "",
       "codebase": "nuts",
@@ -12328,7 +12674,7 @@
     {
       "name": "The Tropics",
       "description": "The breeze in your hair and the sound of the steel drums This the tropics. This talker's theme is one of the islands where every thing is eire man.",
-      "codebase": "",
+      "codebase": "ewtoo",
       "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
@@ -12336,6 +12682,10 @@
         {
           "type": "email",
           "url": "trpoics@talker.com"
+        },
+        {
+          "type": "website",
+          "url": "http://www.geocities.com/TheTropics/6851/"
         },
         {
           "type": "website",
@@ -12350,6 +12700,11 @@
         },
         {
           "blocked": true,
+          "hostname": "tropics.ml.org",
+          "port": 5000
+        },
+        {
+          "blocked": true,
           "hostname": "134.241.143.4",
           "port": 5000
         }
@@ -12357,6 +12712,9 @@
     },
     {
       "name": "Typo Town",
+      "aka": [
+        "TypoTown"
+      ],
       "codebase": "mamnuts",
       "description": "",
       "dataOrigins": ["talker.com"],
@@ -12423,12 +12781,19 @@
     },
     {
       "name": "Way Out West",
+      "aka": [
+        "West"
+      ],
       "description": "West is a friendly place set in a wild west town. It's really for all ages, but anything usually goes ;) (gotta love private rooms ;) It's laid back, fun, and the people are nice and always ready to help out a newbie. So why don't you stop into town one day? You'll like it... Trust me ;)",
       "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.talker.com:2577/"
+        },
         {
           "type": "email",
           "url": "west@talker.com"
@@ -12443,9 +12808,29 @@
       ]
     },
     {
+      "name": "Wilderland",
+      "codebase": "talkeros",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://maddhouse.com/%7Etalkeros/home.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "maddhouse.com",
+          "port": 9999
+        }
+      ]
+    },
+    {
       "name": "WhoDunIt",
       "description": "WhoDunIt. A talker with a twist. Come solve the mystery of Who Dun It (the murder), what room, and with what weapon. If this is not your cup of tea, please come and enjoy the chat and all the neat features in this new talker.",
-      "codebase": "nuts",
+      "codebase": "talkeros",
       "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
@@ -12468,11 +12853,32 @@
       ]
     },
     {
+      "name": "Wild Bill's Watering Hole",
+      "slug": "wild-bills-watering-hole",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.adnc.com/web/jonm/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "128.180.98.86",
+          "port": 4000
+        }
+      ]
+    },
+    {
       "name": "Wild West",
       "description": "Western theme, +18 talker. Meet people, have fun and enjoy!",
       "codebase": "nuts",
       "adult": true,
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -12483,6 +12889,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/wildwest"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.cswnet.com/~wildwest/"
         }
       ],
       "hosts": [
@@ -12494,7 +12904,8 @@
       ]
     },
     {
-      "name": "Writers BBS Chat Room",
+      "name": "Writer's BBS Chat",
+      "slug": "writers-bbs-chat",
       "description": "A friendly place to meet authors and poets. Discussions range from using the Internet to pets to getting one's writing published for the first time. All are welcome to join in",
       "codebase": "http",
       "dataOrigins": ["talker.com"],
@@ -12507,7 +12918,7 @@
         },
         {
           "type": "website",
-          "url": "http://www.talker.com/"
+          "url": "http://www.talker.com/writersb/"
         }
       ],
       "hosts": [
@@ -13064,6 +13475,25 @@
       ]
     },
     {
+      "name": "Whatever",
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://164.116.34.2/~whatever"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "164.116.34.2",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "The Sushi Bar",
       "description": "The Sushi Bar is an adult, all-kinds chat catering to whatever one's preferences may be. *Anyone* over he age of 18 who wants to meet friends, indulge in *whatever*, and is tolerant of other peoples' *whatevers* is welcome to join in.",
       "adult": true,
@@ -13248,7 +13678,8 @@
     },
     {
       "name": "Werewood",
-      "dataOrigins": ["kesey"],
+      "adult": true,
+      "dataOrigins": ["kesey", "maddhouse"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -13275,15 +13706,50 @@
       ]
     },
     {
-      "name": "Treasure Island",
-      "dataOrigins": ["kesey"],
+      "name": "Tree Tops",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "oot",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
           "blocked": true,
-          "hostname": "194.47.252.37",
+          "hostname": "polgas.ps.admu.edu.ph",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "World of Illusions: Sinnocense",
+      "adult": true,
+      "slug": "illusions-sinnocense",
+      "multiWorld": "illusions",
+      "dataOrigins": ["kesey", "maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
+          "port": 4400
+        }
+      ]
+    },
+    {
+      "name": "World of Illusions: Treasure Island",
+      "adult": true,
+      "slug": "illusions-treasure-island",
+      "multiWorld": "illusions",
+      "dataOrigins": ["kesey", "maddhouse"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lintilla.df.lth.se",
           "port": 4410
         }
       ]
@@ -13293,11 +13759,21 @@
       "dataOrigins": ["kesey"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://www.tardis.linex.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "tardis.linex.com",
+          "port": 3000
+        },
+        {
+          "blocked": true,
+          "hostname": "sirens.net",
           "port": 3000
         }
       ]
@@ -14236,13 +14712,34 @@
       ]
     },
     {
+      "name": "Black Jade",
+      "multiWorld": "syrius",
+      "adult": true,
+      "dataOrigins": ["maddhouse"],
+      "screencaps": [ ],
+      "textcaps": [ ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://smaug.talker.com/syrius/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9910
+        }
+      ]
+    },
+    {
       "name": "Crystal Palace",
       "description": "The talkers are here to give a laid-back atmosphere for those over 18 years old. It focuses heavily on roleplaying one's personal life-style and interacting with others.",
       "aka": [
         "Palace",
         "CP"
       ],
-      "notes": "Part of the \"Worlds of Sirius\" multiple-worlds group, along with <a data-sveltekit-reload href=\"/details/blade-jack\">Blade Jack</a> and <a data-sveltekit-reload href=\"/details/lo-riviera\">Lo Riviera</a>.",
+      "multiWorld": "syrius",
       "adult": true,
       "admins": [
         "Virus"
@@ -17648,28 +18145,7 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
-      "name": "Tropics",
-      "location": "USA",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://www.geocities.com/TheTropics/6851/"
-        }
-      ],
-      "hosts": [
-        {
-          "hostname": "134.241.143.4",
-          "port": 5000,
-          "blocked": true
-        }
-      ],
-      "textcaps": [],
-      "screencaps": [],
-      "dataOrigins": ["greatbiglist"]
-    },
-    {
       "name": "University",
-      "location": "",
       "resources": [
         {
           "type": "website",
@@ -17680,6 +18156,41 @@
         {
           "hostname": "virtual-cafe.com",
           "port": 2000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Wastelands",
+      "resources": [ ],
+      "hosts": [
+        {
+          "hostname": "brockhouse.com",
+          "port": 6000,
+          "blocked": true
+        }
+      ],
+      "textcaps": [],
+      "screencaps": [],
+      "dataOrigins": ["greatbiglist"]
+    },
+    {
+      "name": "Warrnambool",
+      "location": "Australia",
+      "codebase": "amnuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://snafu.net.au/%7Etalker"
+        }
+      ],
+      "hosts": [
+        {
+          "hostname": "snafu.net.au",
+          "port": 4200,
           "blocked": true
         }
       ],
@@ -17729,6 +18240,9 @@
     },
     {
       "name": "Windy City",
+      "aka": [
+        "Windy City Chat"
+      ],
       "location": "USA",
       "resources": [],
       "hosts": [
@@ -17764,6 +18278,11 @@
         {
           "hostname": "jag.ntrek.com",
           "port": 2952,
+          "blocked": true
+        },
+        {
+          "hostname": "thezoo.ncohafmuta.com",
+          "port": 2222,
           "blocked": true
         },
         {
@@ -18834,6 +19353,20 @@
       "screencaps": []
     },
     {
+      "name": "Teardrop",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "benden.erols.com",
+          "port": 5555
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
       "name": "Tardis 2",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
@@ -18874,10 +19407,15 @@
     },
     {
       "name": "Zodiac",
-      "dataOrigins": [ "greatbiglist" ],
+      "dataOrigins": [ "greatbiglist", "maddhouse"],
       "location": "USA",
       "codebase": "oot",
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001209094000/http://abyss.bcl.net/~zodiac/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -18934,6 +19472,34 @@
           "blocked": true,
           "hostname": "up-above-it.org",
           "port": 9999
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "YOE Cafe",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "the-next-girl.ils.nwu.edu",
+          "port": 7000
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "X-Files",
+      "dataOrigins": [ "maddhouse" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "xfiles.dune.net",
+          "port": 8888
         }
       ],
       "textcaps": [],
