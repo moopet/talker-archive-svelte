@@ -8,6 +8,12 @@
   <p>I do occasionally use AI to answer questions where I can't find a good explanation elsewhere or I want to see some comparative points between two libraries, for example.</p>
 
   <p>And that's about it.</p>
+
+  <aside>
+    <p>
+      If you're wondering why this page/disclaimer exists, read the <a href="https://www.bydamo.la/p/ai-manifesto">/ai 'manifesto'</a>.
+    </p>
+  </aside>
 </section>
 
 <style>
@@ -17,5 +23,9 @@ h1 {
 
 section {
   text-align: left;
+}
+
+aside {
+  margin-block-start: 2rem;
 }
 </style>
