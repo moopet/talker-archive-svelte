@@ -3299,16 +3299,6 @@
       ]
     },
     {
-      "name": "Blade Jack",
-      "adult": true,
-      "multiWorld": "syrius",
-      "codebase": "exile",
-      "screencaps": [],
-      "textcaps": [],
-      "resources": [],
-      "hosts": []
-    },
-    {
       "name": "Astral Planes",
       "location": "Canada",
       "dataOrigins": ["spodlist"],
@@ -13721,9 +13711,9 @@
       ]
     },
     {
-      "name": "World of Illusions: Sinnocense",
+      "name": "World of Illusions: Sinnocence",
       "adult": true,
-      "slug": "illusions-sinnocense",
+      "slug": "illusions-sinnocence",
       "multiWorld": "illusions",
       "dataOrigins": ["kesey", "maddhouse"],
       "screencaps": [],
