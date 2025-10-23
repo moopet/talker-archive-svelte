@@ -51,6 +51,12 @@ export function findTalkersByMultiWorld(multiWorldName: string): Talker[] {
   return talkers.filter(talker => (talker?.multiWorld ?? '').toLowerCase() === multiWorldName.toLowerCase());
 }
 
+export function findTalkersByHost(hostname: string, port: number): Talker[] {
+  return talkers.filter(talker => {
+    return (talker?.hosts ?? []).some(h => h.hostname === hostname && h.port === port);
+  });
+}
+
 export function findTalkersBySpod(spodName: string): Talker[] {
   return talkers.filter(talker => {
     const admins = (talker?.admins ?? []).map(x => x.toLowerCase());

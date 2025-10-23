@@ -1446,7 +1446,6 @@
     },
     {
       "name": "The Caverns",
-      "slug": "the-caves",
       "disambiguation": "Not to be confused with <a href=\"/details/the-caves\" data-sveltekit-reload>The Caves</a>.",
       "dataOrigins": ["maddhouse"],
       "screencaps": [],
@@ -1484,11 +1483,11 @@
     },
     {
       "name": "Caves",
-      "slug": "the-caves",
+      "slug": "caves",
       "disambiguation": "Not to be confused with <a href=\"/details/the-caves\" data-sveltekit-reload>The Caves</a>.",
       "description": "Caves is a 3 year old talker based loosely on the neanderthal/dinosaur eras.<br>It is now out of its infancy, and is growing in size every day.<br>It is certainly small and friendly, and always welcomes any new users into its family like atmosphere.",
       "ewtooAbbr": "Caves",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "homepage", "memory"],
       "admins": [
         "Balloon"
       ],
@@ -5300,6 +5299,9 @@
     {
       "name": "Western World",
       "codebase": "pg96",
+      "admins": [
+        "LaWMaN"
+      ],
       "screencaps": [
         "login/western.mytalker.org_2010.png"
       ],
@@ -15289,7 +15291,9 @@
       "screencaps": [
         "maps/rainbow-room.map.png"
       ],
-      "textcaps": [],
+      "textcaps": [
+        "maps/rainbow-room.map.txt"
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -17955,6 +17959,7 @@
     },
     {
       "name": "The Promised Land",
+      "notes": "Christian-based talker, open to all ages",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "haven",
       "admins": [

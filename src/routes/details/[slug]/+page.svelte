@@ -7,6 +7,8 @@
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
   import MultiWorld from '$lib/components/MultiWorld.svelte';
+  import DuplicateHostList from '$lib/components/DuplicateHostList.svelte';
+  import Disclaimer from '$lib/components/Disclaimer.svelte';
 
   const nullTalker = {
     name: "Talker not found"
@@ -62,7 +64,6 @@
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
-      alt: "",
       name: item?.port ? `${item.hostname}:${item.port}` : item.hostname,
       type: 'host',
       url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
@@ -179,9 +180,9 @@
       <MultiWorld talker={talker} />
     {/if}
 
-    <p class="disclaimer">
-      It's <em>highly</em> likely that most of the links presented here haven't worked for years.
-    </p>
+    <DuplicateHostList talker={talker} />
+
+    <Disclaimer />
   </section>
 
   <section class="resources">

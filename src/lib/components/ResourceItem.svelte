@@ -6,7 +6,7 @@
   {#if resource.type === 'image'}
     <img src={resource.url} alt={resource.alt} />
   {:else}
-    <a href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
+    <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
   {/if}
 
   <span>{resource?.description ?? resource.type}</span>
