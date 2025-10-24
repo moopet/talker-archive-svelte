@@ -2,7 +2,7 @@
   import { page } from '$app/state';
   import slugify from 'slugify';
   import type { Codebase, DataOrigin, Talker } from '$lib/types';
-  import { findTalkerBySlug } from '$lib/utils.ts';
+  import { findTalkerBySlug } from '$lib/utils';
   import { codebases, dataOrigins, multiWorlds, talkers } from '$lib/data/talkers.json';
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
@@ -47,8 +47,8 @@
   };
 
   const getCitation = (dataOriginNames: string[]): string => {
-    const matches: DataOrigin[] = dataOriginNames
-      .map(dataOriginName => dataOrigins.find(item => item.shortName.toLowerCase() === dataOriginName.toLowerCase()))
+    const matches: string[] = dataOriginNames
+      .map(dataOriginName => dataOrigins.find(item => item.shortName.toLowerCase() === dataOriginName.toLowerCase()) as DataOrigin)
       .filter(x => x)
       .map(dataOrigin => dataOrigin.link ? `<a href="${dataOrigin.link}">${dataOrigin.name}</a>` : dataOrigin.name);
 
@@ -177,7 +177,7 @@
     {/if}
 
     {#if talker?.multiWorld}
-      <MultiWorld talker={talker} />
+      <MultiWorld shortName={talker.multiWorld} />
     {/if}
 
     <DuplicateHostList talker={talker} />

@@ -347,7 +347,7 @@
     {
       "shortName": "cams",
       "name": "CAMS",
-      "plaform": "Unix-like"
+      "platform": "Unix-like"
     },
     {
       "shortName": "nuts",
@@ -4824,10 +4824,10 @@
       "disambiguation": "Not to be confused with <a href=\"/details/the-matrix\" data-sveltekit-reload>The Matrix</a>.",
       "codebase": "sm",
       "screencaps": [
-        "login/bc.kelotz.net_2223.png"
+        "login/sm.kelotz.net_2223.png"
       ],
       "textcaps": [
-        "login/bc.kelotz.net_2223.txt"
+        "login/sm.kelotz.net_2223.txt"
       ],
       "resources": [],
       "hosts": [

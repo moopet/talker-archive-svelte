@@ -1,12 +1,11 @@
-import type { Snippet } from 'svelte';
-
 export type Codebase = {
-  language: string;
+  language?: string;
   name: string;
   platform?: string;
   repo?: string;
   family?: string;
   shortName: string;
+  description?: string;
 };
 
 export type DataOrigin = {
@@ -35,20 +34,24 @@ export type ResourceListProps = {
 
 export type Host = {
   hostname: string;
-  port: number;
+  port?: number;
+  blocked?: boolean;
 };
 
 export type Talker = {
   codebase?: string;
-  dataOrigin?: string;
+  dataOrigins?: Array<string>;
+  adult?: boolean;
   description?: string;
   disambiguation?: string;
   notes?: string;
+  multiWorld?: string;
   location?: string;
   ewtooAbbr?: string;
   hosts?: Array<Host>;
   name: string;
   admins?: Array<string>;
+  coders?: Array<string>;
   aka?: Array<string>;
   resources?: Array<Resource>;
   screencaps?: Array<string>;
@@ -56,7 +59,7 @@ export type Talker = {
 };
 
 export type MultiWorldProps = {
-  talker: Talker;
+  shortName: string;
 };
 
 export type TalkerCardProps = {

@@ -1,7 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { findTalkersBySpod, getTalkerSlug } from '$lib/utils.ts';
-  import ResourceList from '$lib/components/ResourceList.svelte';
 
   const spodName: string = page.params?.slug ?? "";
   const talkers: Talker[] = findTalkersBySpod(spodName)

@@ -18,8 +18,6 @@
   };
 
   const talkers = getDuplicateTalkers(talker?.hosts ?? []);
-
-  console.log({talkers});
 </script>
 
 {#if talkers.length > 0}

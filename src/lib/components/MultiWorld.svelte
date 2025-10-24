@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { findTalkersByMultiWorld, getTalkerSlug } from '$lib/utils.ts';
+  import { findTalkersByMultiWorld, getTalkerSlug } from '$lib/utils';
   import { multiWorlds } from '$lib/data/talkers.json';
 
-  let { talker }: MultiWorldProps = $props();
-  const multiWorld = multiWorlds.find(item => item.shortName === talker?.multiWorld);
-  const talkers: Talker[] = findTalkersByMultiWorld(talker?.multiWorld ?? '')
-    .filter(item => talker.name !== item.name)
+  let { shortName }: MultiWorldProps = $props();
+  const multiWorld = multiWorlds.find(item => item.shortName === shortName) as MultiWorld;
+
+  const talkers: Talker[] = findTalkersByMultiWorld(shortName)
     .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));
 </script>
 
@@ -21,7 +21,7 @@
     </p>
   {/if}
 
-  <h2>Other talkers in the "{multiWorld.name}" group</h2>
+  <h2>Talkers in the "{multiWorld.name}" group</h2>
 
   <table>
     <thead>
@@ -41,9 +41,9 @@
 </section>
 
 <style>
-section {
-  text-align: left;
-  width: 100%;
-  max-width: 100%;
-}
+  section {
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+  }
 </style>
