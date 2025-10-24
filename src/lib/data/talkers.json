@@ -242,6 +242,11 @@
       "name": "The Razor's Edge Talker List"
     },
     {
+      "shortName": "talkernet",
+      "name": "TalkerNet database",
+      "link": "http://talkernet.net/talker/"
+    },
+    {
       "shortName": "talkers.ws",
       "name": "talkers.ws",
       "link": "http://talkers.ws"
@@ -630,8 +635,13 @@
     },
     {
       "name": "Alcatraz",
-      "dataOrigins": ["greatbiglist"],
+      "description": "We have taken the average Ew-Too talker and set it up to resemble a prison. We have renamed the Admins to Warden... and SU's to Guards, etc. We have Smokes as our talker's currency to buy and manipulate cool stuff in our net world. We have cool socials and room descriptions that will make your Coed experience of our Prison life interesting to say the least. We also have a few games for you to play while at Alcatraz. There is Paper Rock Scissors, Dice, slots, familiars, and now you can even morph yourself into just about anything.",
+      "dataOrigins": ["greatbiglist", "wayback"],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981206084829/http://talkers.skl.com/%7Echarming/"
+        },
         {
           "type": "website",
           "url": "http://talkers.skl.com/~charming"
@@ -745,6 +755,11 @@
       "textcaps": [],
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "student-h48.at.utm.edu",
+          "port": 2000
+        },
         {
           "blocked": true,
           "hostname": "206.135.49.8",
@@ -2148,11 +2163,17 @@
     {
       "name": "The Airport",
       "dataOrigins": ["spodlist"],
+      "codebase": "nuts",
       "screencaps": [
         "login/eeek.org.uk_4321.png"
       ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981212012456/http://airprt.ml.org/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -4890,6 +4911,7 @@
       "resources": [],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "tb.dynip.com",
           "port": 7070
         }
@@ -5577,7 +5599,12 @@
     {
       "name": "Castle of Desire",
       "description": "A companion talker to the Desire MUD.",
-      "dataOrigins": ["galaxy"],
+      "dataOrigins": ["galaxy", "talkernet"],
+      "admins": [
+        "Honeybear",
+        "Shimmer"
+      ],
+      "codebase": "talkeros",
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -5600,6 +5627,11 @@
           "blocked": true,
           "hostname": "dune.net",
           "port": 4748
+        },
+        {
+          "blocked": true,
+          "hostname": "phoenix.bcl.net",
+          "port": 7000
         },
         {
           "blocked": true,
@@ -5849,7 +5881,13 @@
     {
       "name": "Bonds of Beauty",
       "description": "Once upon a time, long ago in a far away land, a beautiful maiden was put to sleep by an evil spell. It was rumored that any man brave enough to fight the perils surrounding her castle and kiss the sleeping princess would be her one true love for the rest of their lives. And so begins the tale of Sleeping Beauty.",
-      "dataOrigins": [""],
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Maxim",
+        "Aurora",
+        "Sable",
+        "Juli"
+      ],
       "screencaps": [],
       "adult": true,
       "textcaps": [],
@@ -6077,6 +6115,11 @@
       "hosts": [
         {
           "hostname": "tzone.ddns.net",
+          "port": 5000
+        },
+        {
+          "blocked": true,
+          "hostname": "falco.kuci.uci.edu",
           "port": 5000
         },
         {
@@ -6423,6 +6466,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "kitten.ndscs.nodak.edu",
+          "port": 1977
+        },
         {
           "blocked": true,
           "hostname": "toybox.infomagic.com",
@@ -10752,16 +10800,203 @@
       ]
     },
     {
+      "name": "Castle in the Sky",
+      "admins": [
+        "Amano",
+        "Metho",
+        "Rynelf"
+      ],
+      "codebase": "nuts",
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.angelfire.com/la/ethersoft"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "allitnil.df.lth.se",
+          "port": 6100
+        }
+      ]
+    },
+    {
+      "name": "Chardonnay",
+      "admins": [
+        "Melissa"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "niagara.com",
+          "port": 1234
+        }
+      ]
+    },
+    {
+      "name": "Castle Corners",
+      "admins": [
+        "Lorrcarr"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.talker.com/castlecorners"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 6789
+        }
+      ]
+    },
+    {
+      "name": "Casino Classic",
+      "admins": [
+        "Romi"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://vmg.vil.ee/golden/~casino"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "vmg.vil.ee",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "Camp Looney",
+      "codebase": "amnuts",
+      "admins": [
+        "Dragon",
+        "Tootse"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.talkernet.net/nopage.php3"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.org",
+          "port": 2225
+        }
+      ]
+    },
+    {
+      "name": "Aotearoa",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Joelie"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://aotearoa.ncohafmuta.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 4444
+        }
+      ]
+    },
+    {
+      "name": "Amazon",
+      "codebase": "talkeros",
+      "admins": [
+        "Skyguy"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://snafu.net.au/~skyguy"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "snafu.net.au",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "AfterDARK",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Joebob",
+        "Jackhandy"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://afterdark.emisle.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "emisle.com",
+          "port": 8000
+        }
+      ]
+    },
+    {
       "name": "Abbey Road",
       "description": "Beatles, Classic Rock and music in general.",
-      "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "codebase": "amnuts",
+      "admins": [
+        "Realm"
+      ],
+      "dataOrigins": ["talker.com", "talkernet"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
           "type": "email",
           "url": "abbey@talker.com"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.talker.com/abbeyroad"
         }
       ],
       "hosts": [
@@ -10881,7 +11116,7 @@
     {
       "name": "American Romance",
       "codebase": "nuts",
-      "description": "American Romance is an over-18 talker. Enjoy laughter with friends or get away to a romantic setting.",
+      "description": "American Romance is an over-18 talker. The theme of the talker is romantic places across the Americas. Enjoy laughter with friends or get away to a romantic setting.",
       "adult": true,
       "dataOrigins": ["talker.com"],
       "screencaps": [],
@@ -10896,8 +11131,8 @@
           "url": "http://www.talker.com/romance"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/Paris/Metro/5884"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010428075947/http://www.geocities.com/Paris/Metro/5884/"
         }
       ],
       "hosts": [
@@ -10914,6 +11149,10 @@
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020413231345/http://www.palni.edu/~tom/AR/"
+        },
         {
           "type": "website",
           "url": "http://realms.palni.edi"
@@ -11226,6 +11465,19 @@
           "blocked": true,
           "hostname": "chat.passport.ca",
           "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Da Place",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "daplace.intercom.no",
+          "port": 5000
         }
       ]
     },
@@ -11608,13 +11860,25 @@
       "name": "City Of Dreams",
       "description": "City of Dreams is an under-18 talker. Join everyone there and follow your dreams, laugh and have lots of fun!",
       "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "coders": [
+        "Kesey"
+      ],
+      "admins": [
+        "Elizabeth",
+        "Kesey",
+        "Sadi"
+      ],
+      "dataOrigins": ["talker.com", "homepage"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
           "type": "email",
           "url": "dreams@talker.com"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010428095824/http://www.geocities.com/SouthBeach/Boardwalk/8359/"
         },
         {
           "type": "website",
@@ -11624,7 +11888,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "talker.com",
+          "hostname": "dreams.talker.com",
           "port": 4605
         }
       ]
@@ -16590,6 +16854,11 @@
     },
     {
       "name": "Acadia",
+      "description": "Acadia is a NUTS based talker with modifications being done by Jeff. The main theme of Acadia is that of a small community making it a very friendly place to have a chat.",
+      "coders": [
+        "Jeff"
+      ],
+      "codebase": "nuts",
       "resources": [
         {
           "type": "wayback",
@@ -16603,7 +16872,9 @@
           "blocked": true
         }
       ],
-      "textcaps": [],
+      "textcaps": [
+        "maps/acadia.map.txt"
+      ],
       "screencaps": []
     },
     {

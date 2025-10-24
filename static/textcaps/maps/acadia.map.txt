@@ -1,0 +1,15 @@
+                  City  Dolphin Cove     You can return to Town Square
+                    \    /                 at any time by typing .go
+        Wilderness--Portal     Precinct
+                        \
+           Swings        \       Jail        Dance Club
+             |            \                   /
+   Bench----Park---------Town Square----Downtown---Sports Bar
+             |                |          /    \
+ Clearing--Woods--Waterfall   |   Drugstore   Restaurant
+           / |                |
+          /  |     Walmart    |  Elsewhere   Back Porch---House
+Hollow Log   Pond        \    |                     \    /  |  \
+                         Main Street-----Highway-----Farm---+--Pasture
+                         /    |              |           \  |  /
+               Thrift Shop  Library        Beach          Red Barn
