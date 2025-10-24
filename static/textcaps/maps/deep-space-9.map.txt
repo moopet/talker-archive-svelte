@@ -1,0 +1,24 @@
+
+                                   (ops)
+                                                                     (wormhole)
+                           (communications)
+                                   \                      (holosuite)
+                                (turblift1)--(comm)            |
+   (school)--(crew_qtrs)           / |                     (quarks)
+        \          \__ (engineering) |  (irmys)           /    |
+         \__________  \___           |   /        _______/ (holosuite2)
+                    \___   \         |  /   _____/
+          (cargo_bay)   \___\_____   | / __/         (transporter)
+                 \                \  |/ /                 |
+(docking_bay)-(turbolift2)------(promenade)---------(observation)
+                 /          ______/  |  \____
+          (guest_qtrs)     /         |       \
+                          /          |        \___________
+                         / (DS_qtrs) |                    \  (brig1)
+                        /          \ |                     \    :
+                       /       (turbolift3)--(Blazes_qtrs)  (security)
+                   (stores)         /                           :
+                            (Ferengi_qtrs)                   (brig2)
+
+
+

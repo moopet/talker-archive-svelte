@@ -159,6 +159,11 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "dune",
+      "name": "Dune.net customer list",
+      "link": "http://enigma.dune.net/customers/index.sphp"
+    },
+    {
       "shortName": "maddhouse",
       "name": "Madd's Talklist",
       "link": "http://www.maddhouse.com/talkers/"
@@ -941,10 +946,6 @@
         {
           "type": "website",
           "url": "http://www.burbs.org"
-        },
-        {
-          "type": "website",
-          "url": "http://toybox.infomagic.com/~city/"
         }
       ],
       "hosts": [
@@ -4449,7 +4450,8 @@
         "EUTS"
       ],
       "description": "Enchantment Under the Sea is the world's most popular NUTS based English language Talker -- Come join us under the sea! Meet hundreds of interesting and diverse users, play games, and get your own free email address and subdomain.<br>MUD user friendly.",
-      "dataOrigins": ["spodlist"],
+      "notes": "Imagine diving into an underwater world, one full of magical places to explore. Imagine meeting and interacting with thousands of pepole from around the world. Imagine dozens of games, hundreds of commands, and fun events and activities you can enjoy with other users. Imagination is not necessary, for this is reality. Won't you give us a try?",
+      "dataOrigins": ["spodlist", "dune"],
       "ewtooAbbr": "eutsii",
       "codebase": "arien",
       "admins": [
@@ -4474,8 +4476,14 @@
           "port": 2000
         },
         {
+          "blocked": true,
           "hostname": "euts.org",
           "port": 1997
+        },
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 1998
         }
       ]
     },
@@ -6131,6 +6139,97 @@
       ]
     },
     {
+      "name": "Tadiiri",
+      "description": "Tadiiri is an 18+ (Role players welcomed) Talker based on a unique concept .. It is basically divided into two halves part based on the John Normal Novels a Gorean Tade city on the southern tip of the Sadar Mountains...The other half is a mid western college town..Rather you wish a place to chat or the role play all are welcome...",
+      "adult": true,
+      "dataOrigins": ["dune"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 4100
+        }
+      ]
+    },
+    {
+      "name": "Pothole",
+      "description": "Pothole is really neat.",
+      "dataOrigins": ["dune", "homepage"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://pothole.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Resort City of Venna",
+      "description": "A Gorean talker based on the novels of John Norman.",
+      "adult": true,
+      "dataOrigins": ["dune", "homepage"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://gorean.dune.net/venna.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 7600
+        }
+      ]
+    },
+    {
+      "name": "The Whitehouse",
+      "description": "The Whitehouse is a place where people from all over the world can come together and chat, so sit back, relax, and prepare to meet people from all over the world.<br>There is no age restriction here.",
+      "dataOrigins": ["dune", "homepage"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://whitehouse.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "whitehouse.dune.net",
+          "port": 8000
+        }
+      ]
+    },
+    {
+      "name": "Whatsomatta U",
+      "dataOrigins": ["dune", "homepage"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dante.dune.net",
+          "port": 1500
+        }
+      ]
+    },
+    {
       "name": "AlTeReD BeAsTs",
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
@@ -6146,9 +6245,9 @@
     },
     {
       "name": "The Abyss",
-      "description": "The main room is an abyss. A deep, dark pit with multi-colored holes in the walls. Each one of these holes leads to a different room. There are several magic/rune socials, among many others, available to characters.",
-      "codebase": "ewtoo",
-      "dataOrigins": ["talkers.ws"],
+      "description": "We here at Abyss sport an interesting atmosphere, friendly admins, bunches of socials, and a small tightly knit community. We are always looking for new residents and are always open to suggestions to make our home better.<br>The main room is an abyss. A deep, dark pit with multi-colored holes in the walls. Each one of these holes leads to a different room. There are several magic/rune socials, among many others, available to characters.",
+      "codebase": "pgplus",
+      "dataOrigins": ["talkers.ws", "homepage"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -6175,16 +6274,19 @@
       ]
     },
     {
-      "name": "36 Chambers",
-      "dataOrigins": ["talkers.ws"],
+      "name": "unixpunx chat",
+      "dataOrigins": ["homepage"],
+      "coders": [
+        "Oddity"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
 	        "blocked": true,
-          "hostname": "valinor.rivendel.com",
-          "port": 4000
+          "hostname": "chat.unixpunx.org",
+          "port": 50
         }
       ]
     },
@@ -6317,7 +6419,7 @@
       "resources": [
         {
           "type": "website",
-          "url": "http://www.infomagic.com/~city"
+          "url": "http://toybox.infomagic.com/~city/"
         }
       ],
       "hosts": [
@@ -7369,9 +7471,9 @@
       ]
     },
     {
-      "name": "The Sugar Shack...",
-      "slug": "sugar-shack",
-      "dataOrigins": ["maddhouse"],
+      "name": "The Sugar Shack",
+      "description": "The Sugar Shack... is a friendly, upbeat talker for all ages. Stop on in, or visit our homepage. All our users are guaranteed privacy and a harassment free environment.",
+      "dataOrigins": ["maddhouse", "dune", "homepage"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -8738,10 +8840,8 @@
       ]
     },
     {
-      "name": "Cyber Eden",
-      "aka": [
-        "CyberEden"
-      ],
+      "name": "CyberEden",
+      "description": "Welcome to CyberEden, a lost paradise on the edge of the galaxy.<br>CyberEden was built in 1993 and financed by Rivendell International Communications. It is a fully functional CyberSpace station with both public and private rooms available. CyberEden also boasts an additional 20 rooms for your recreation pleasure. Other facilities include a pool room, a full service bar, training rooms, and a massage area.",
       "admins": [
         "Gandalf",
         "Zeta",
@@ -8749,13 +8849,15 @@
         "Nova"
       ],
       "codebase": "rivendel",
-      "dataOrigins": ["talkers.ws", "greatbiglist"],
+      "dataOrigins": ["talkers.ws", "greatbiglist", "homepage"],
       "screencaps": [],
-      "textcaps": [],
+      "textcaps": [
+        "maps/cybereden.map.txt"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://rivendel.com/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000816194207/http://rivendel.com/~ric/talkers/ce/cyberedn.html"
         }
       ],
       "location": "USA",
@@ -8924,7 +9026,8 @@
     {
       "name": "Deep Space 9",
       "aka": [
-        "Deep Space Nine"
+        "Deep Space Nine",
+        "DS9"
       ],
       "admins": [
         "Captain",
@@ -8933,11 +9036,18 @@
         "Bigben",
         "Imzadi"
       ],
-      "dataOrigins": ["talkers.ws"],
-      "description": "Talker based on the popular Deep Space Nine",
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "description": "Welcome to Deep Space 9, a talker brought to you by Rivendell International Communications.<br>Situated on the edge of Cardassian space, Deep Space 9 sits on the portal of the only stable wormho le into the Gamma Quadrant. This station while owned by the Bajorans is ran with the assistance of the Federation.<br>Senior station officers are Captain/Gandalf, Zeta and Bigben.",
       "screencaps": [],
-      "textcaps": [],
-      "resources": [],
+      "textcaps": [
+        "maps/deep-space-9.map.txt"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001028193550/http://rivendel.com/~ric/talkers/ds9/ds9.html"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9194,6 +9304,7 @@
     {
       "name": "Dragon's Lair",
       "slug": "dragons-lair",
+      "description": "We encourage you to explore the world of the Dragon's Lair. Unlike other Rivendell realms, one can not easily obtain a map here. You will need to use all of your skills to navigate through the maze like trails. Many of the rooms can not be seen by the unknowing mortal eye.<br>The wizards often play here in the ether... perhaps they may help you on your journey.",
       "location": "USA",
       "codebase": "rivendel",
       "notes": "Lists have conflicting information about Dragon's Lair. This might actually be two talkers with the same name.",
@@ -9209,6 +9320,10 @@
       "textcaps": [],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000816194207/http://rivendel.com/~ric/talkers/dl/dlair.html"
+        },
+        {
           "type": "website",
           "url": "http://www.angelfire.com/mt/DragonsLair"
         }
@@ -9218,6 +9333,11 @@
           "blocked": true,
           "hostname": "dragonslair.talker.com",
           "port": 3131
+        },
+        {
+          "blocked": true,
+          "hostname": "208.200.226.2",
+          "port": 7777
         },
         {
           "blocked": true,
@@ -9949,7 +10069,12 @@
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://limbo.dune.net/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -12389,6 +12514,7 @@
     {
       "name": "Rome",
       "description": "Ancient Rome was a myriad of contradiction and irony, a military-based civilization celebrating the beauty of classical Greece, architecture, poetry and philosophy, but also thriving on brutality of amphitheatres and slavery and on the politics of religion. Although too complex for acurate representation in our humble talker, the ancient empire inspires this atmosphere of pleasure & terror, peace & imprisionment, spirituality & passion. The purpose here is to break physical limits through communication. Make sure you are prepared.", 
+      "adult": true,
       "codebase": "rome",
       "dataOrigins": ["talker.com"],
       "screencaps": [],
@@ -12399,11 +12525,20 @@
           "url": "rawhide@talker.com"
         },
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://rome.dune.net/"
+        },
+        {
           "type": "website",
           "url": "http://www.talker.com/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 6050
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -12594,7 +12729,8 @@
     },
     {
       "name": "Tornado Alley",
-      "dataOrigins": ["maddhouse"],
+      "description": "A weather-related talker",
+      "dataOrigins": ["maddhouse", "dune"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -12608,6 +12744,11 @@
           "blocked": true,
           "hostname": "166.66.34.42",
           "port": 3000
+        },
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 7700
         }
       ]
     },
@@ -13149,14 +13290,17 @@
     },
     {
       "name": "Slap Shot",
-      "adult": true,
-      "dataOrigins": ["maddhouse"],
+      "aka": [
+        "Slap Shot Hockey Arena"
+      ],
+      "description": "A great place to hang out and chat with new friends, or old friends and have a few laughs. Don't forget to bring your skates!",
+      "dataOrigins": ["dune", "homepage"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010304125315/http://hockey.dune.net/"
+          "url": "https://web.archive.org/web/20010429163928/http://hockey.dune.net/"
         }
       ],
       "hosts": [
@@ -14803,6 +14947,11 @@
           "blocked": true,
           "hostname": "dotuk.org.uk",
           "port": 2131
+        },
+        {
+          "hostname": "dotuk.org.uk",
+          "port": 6543,
+          "blocked": true
         }
       ]
     },
@@ -15111,6 +15260,7 @@
     },
     {
       "name": "The Farm",
+      "description": "Stop on by and meet the Amish and their animals.",
       "codebase": "joot",
       "location": "USA",
       "admins": [
@@ -15120,8 +15270,18 @@
       "dataOrigins": ["greatbiglist"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://dune.net/~marvel"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 3300
+        },
         {
           "blocked": true,
           "hostname": "shell.acmenet.net",
@@ -15219,10 +15379,16 @@
     },
     {
       "name": "The ShadowGate",
-      "dataOrigins": ["spodlist"],
+      "description": "The ShadowGate is a roleplay talker based on the \"Vampire: The Masquerade\" series of books developed by Justin Achilli and by White Wolf Publishing Inc.<br>While there are no age restrictions, we suggest 18+ as content is not always monitored. Whether you're a V:tM veteran or a person who just thinks vampires are cool, drop in and give us a try. Newcomers are always welcome.",
+      "dataOrigins": ["spodlist", "dune", "homepage"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://www.dune.net/~shadowgate/index.html"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15583,14 +15749,17 @@
     },
     {
       "name": "Lara",
+      "description": "18+ Gorean City of Lara, based on books by John Norman.<br>A unique city of Gor, where peace and tranquility can be found on this concentual port or/one can role-play in the non-concentual area. Follow where your path may lead you and come to visit.",
       "dataOrigins": ["tdf"],
+      "adult": true,
       "screencaps": [],
       "textcaps": [],
       "resources": [],
       "hosts": [
         {
           "blocked": true,
-          "hostname": "lara.dune.net"
+          "hostname": "lara.dune.net",
+          "port": 1691
         }
       ]
     },
@@ -16622,26 +16791,6 @@
         {
           "hostname": "obsidian.king.ac.uk",
           "port": 2222,
-          "blocked": true
-        }
-      ],
-      "textcaps": [],
-      "screencaps": [],
-      "dataOrigins": ["greatbiglist"]
-    },
-    {
-      "name": "DotUK",
-      "location": "UK",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://dotuk.org.uk/~dotuk/"
-        }
-      ],
-      "hosts": [
-        {
-          "hostname": "dotuk.org.uk",
-          "port": 6543,
           "blocked": true
         }
       ],
@@ -18956,8 +19105,45 @@
       "screencaps": []
     },
     {
+      "name": "36 Chambers",
+      "note": "Please note that \"36 Chambers\" is restricted to those who study the martial arts. You must pre-register before being granted permission to use this site.",
+      "dataOrigins": [ "homepage"],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "valinor.rivendel.com",
+          "port": 4000
+        }
+      ],
+      "textcaps": [
+        "maps/36-chambers.map.txt"
+      ],
+      "screencaps": []
+    },
+    {
+      "name": "The Reference Desk",
+      "note": "Please note that \"The Reference Desk\" is used for educational purposes and is not an open talker for social chat",
+      "dataOrigins": [ "homepage" ],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "208.200.226.3",
+          "port": 6000
+        }
+      ],
+      "textcaps": [
+        "maps/the-reference-desk.map.txt"
+      ],
+      "screencaps": []
+    },
+    {
       "name": "The Ottawa Fair",
       "dataOrigins": [ "greatbiglist", "maddhouse" ],
+      "admins": [
+        "Morningstar"
+      ],
       "codebase": "joot",
       "resources": [],
       "hosts": [
@@ -18996,10 +19182,201 @@
       "screencaps": []
     },
     {
-      "name": "NoWhereLand",
-      "dataOrigins": [ "maddhouse" ],
-      "resources": [],
+      "name": "Aberration",
+      "dataOrigins": [ "dune" ],
+      "resources": [ ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 2345
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Bloodstone's Gorean Haven",
+      "slug": "bloodstones-gorean-haven",
+      "description": "This is a strictly 18+ roleplay/learning talker, based on the John Norman series. If you are unfamiliar with the series, are 18+, and would like to know more, feel free to stop by and check us out.",
+      "adult": true,
+      "dataOrigins": [ "dune" ],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://haven.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 8114
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Caged Heat",
+      "description": "A BDSM talker set inside a prison. Lots of fun, but please be over 18 years of age.",
+      "adult": true,
+      "dataOrigins": [ "dune" ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 9500
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Forgotten Memories",
+      "dataOrigins": [ "dune" ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 8400
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Hawke's Fantasia",
+      "dataOrigins": [ "dune" ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 1957
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Hidden Desires",
+      "description": "A place for those over 18 to explore their Hidden Desires. From BDSM, fetishes, and even Vanilla sensuality!",
+      "adult": true,
+      "description": "A groovy place to hang out and make some friends. Please be 18 or older!",
+      "dataOrigins": [ "dune" ],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://hidden-desires.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 4500
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Milisake",
+      "adult": true,
+      "description": "A groovy place to hang out and make some friends. Please be 18 or older!",
+      "dataOrigins": [ "dune" ],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 7600
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Morning Star: Across the Horizon",
+      "slug": "morning-star",
+      "description": "A SWR coded modified. This mud has dimension shifting and time traveling. It is also an RPG mud. There is restricted PKing. The MUD offers custom ships and player homes. We will be offering quest further down the line. We are still a young mud.",
+      "dataOrigins": [ "dune", "homepage" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://anime.heaven.tripod.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 1286
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Mount Olympus",
+      "description": "Tired of talking to the same old annoying people day after day. Come talk to the annoying people at our talker site instead.",
+      "dataOrigins": [ "dune", "homepage" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://olympus.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 2424
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "Myanmar Talker",
+      "description": "A place for all Burmese and non-Burmese to hang out!",
+      "dataOrigins": [ "dune", "homepage" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://myanmar.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 3030
+        }
+      ],
+      "textcaps": [],
+      "screencaps": []
+    },
+    {
+      "name": "NoWhereLand",
+      "description": "Realm of the Fab Four! - The Beatles! If you are 18+ - Let's ROCK N ROLL!",
+      "dataOrigins": [ "maddhouse", "dune", "homepage" ],
+      "adult": true,
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://nowhereland.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 1234
+        },
         {
           "blocked": true,
           "hostname": "216.172.181.2",
@@ -19483,8 +19860,13 @@
     },
     {
       "name": "X-Files",
-      "dataOrigins": [ "maddhouse" ],
-      "resources": [],
+      "dataOrigins": [ "maddhouse", "dune", "homepage" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429163928/http://xfiles.dune.net/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,

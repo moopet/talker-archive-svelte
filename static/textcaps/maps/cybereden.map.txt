@@ -1,0 +1,25 @@
+
+				bridge 7
+                                 (# *)
+
+                            commander_room (# *) 3
+                                    |
+                      3 tech_room-| | |---library 3
+                                  | | |
+                              3 elevator_2---shuttle 3
+                                    |
+                        1 bar-----| | |----docking_bay 0
+                                  | | |
+               1 restroom--------gallery-------pool_room 1
+                                 | | | |
+             1 3D_Movies---------| | | |------training_room 1
+                                 | | |
+                 1 transporter---| | |---xxxxxxxxxxxx 1
+                                   |
+                                elevator_1 2
+                                 |  |  |
+                 2 xxxxxxxxxxx---|  |  |----xxxxxxxxxxxx 2
+                                    |
+                                showers 2
+
+

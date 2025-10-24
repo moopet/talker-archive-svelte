@@ -14,7 +14,7 @@
   let activeTalkers = $state([]);
 
   const sortedTalkers = talkers
-    .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));
+    .sort((a, b) => a.name.replace(/^the /i, '').replace("'", '').localeCompare(b.name.replace(/^the /i, '').replace("'", '')))
 
   async function highlightActiveTalkers() {
     loading = true;

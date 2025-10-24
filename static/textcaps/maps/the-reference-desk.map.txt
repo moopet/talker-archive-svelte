@@ -1,0 +1,18 @@
+
+   (stuarts_Office)____                                ____(office_4)
+                       |       (head_librarian)       |
+         (office_2)____|                              |____(office_5)
+                       |-------(faculty_lounge)-------|
+         (office_3)____|             |                |____(staff_office)
+                                     |
+                                     |
+            (studyhall_1)            |               (conference_1)
+                   \                 |                 /
+  (studyhall_2)-(book_room)---(reference_desk)---(tech_room)-(conference_2)
+                   /                 |                 \
+            (studyhall_3)            |               (conference_3)
+                                     |
+                                     |
+   (janitors_closet)           (the_stacks)                (computer_room)
+
+
