@@ -44,6 +44,7 @@
 
   <h2>How do I get in touch with [spod]?</h2>
   <p>I probably can't help you there.</p>
+  <p>There is a <a href="/spods">rudimentary staff-listing page</a> which lists all spods marked as a coder or admin of any talker here.</p>
   <p>Until recently there have been a few bigger Facebook groups that would help out, but that feature is being shut down.</p>
 </section>
 
