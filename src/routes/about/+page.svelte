@@ -65,7 +65,7 @@ section + section {
 }
 
 h2 {
-  color: rgb(235, 235, 170);
+  color: rgb(179, 160, 125);
   border-inline-start-width: 0;
   border-inline-end-width: 0;
   border-block-start-width: 0;
