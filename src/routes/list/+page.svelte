@@ -27,17 +27,19 @@
 
       const activeTalkerNames = activeTalkers.map(talker => talker.name);
 
-      allTalkers.forEach(talker => {
-        const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
+      allTalkers
+        .filter(t => t.hosts)
+        .forEach(talker => {
+          const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
 
-        talker.isClosed = talker.hosts.every(h => h?.blocked);
+          talker.isClosed = talker.hosts.every(h => h?.blocked);
 
-        if (match) {
-          talker.isActive = true;
-          talker.hostname = match.hostname;
-          talker.port = match.port;
-        }
-      });
+          if (match) {
+            talker.isActive = true;
+            talker.hostname = match.hostname;
+            talker.port = match.port;
+          }
+        });
     } catch (err) {
       error = err.message;
     }
