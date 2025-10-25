@@ -1465,7 +1465,8 @@
     {
       "name": "Kharduin's Zoo",
       "slug": "kharduins-zoo",
-      "dataOrigins": ["maddhouse"],
+      "description": "Kharduin's Zoo is 24-hour service that allows anyone with access to the Internet to log on and chat with other users free of charge. Affectionately known as \"Da Zoo,\" the talker operates with one thought in mind: Maximum fun for everyone!",
+      "dataOrigins": ["maddhouse", "homepage"],
       "resources": [
         {
           "type": "wayback",
@@ -16344,6 +16345,10 @@
         {
           "type": "website",
           "url": "http://surf.to/scoobydoo"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990225134417/http://www.angelfire.com/nm/travfarley/myhome.html"
         }
       ],
       "hosts": [
@@ -17965,14 +17970,40 @@
       ]
     },
     {
+      "name": "Evolution",
+      "location": "Guam",
+      "resources": [
+	      {
+	        "type": "website",
+	        "url": "http://huego.guam.net/Evolution"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "huego.guam.net",
+          "port": 2000
+        },
+        {
+          "blocked": true,
+          "hostname": "buri.kuentos.guam.net",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "Kuentos Cafe",
+      "location": "Guam",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "location": "USA",
       "resources": [
 	      {
 		      "type": "website",
-      "url": "http://www.guam.net/home/bhshaw2/"
+          "url": "http://www.guam.net/home/bhshaw2/"
+	      },
+	      {
+		      "type": "website",
+          "url": "http://huego.guam.net/cafe2000"
 	      },
 	      {
 	        "type": "wayback",
@@ -17980,6 +18011,11 @@
 	      }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "huego.guam.net",
+          "port": 2000
+        },
         {
           "blocked": true,
           "hostname": "buri.kuentos.guam.net",
