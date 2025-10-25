@@ -28,6 +28,12 @@
       const activeTalkerNames = activeTalkers.map(talker => talker.name);
 
       allTalkers
+        .filter(t => (t?.hosts ?? []).length === 0)
+        .forEach(talker => {
+          talker.isClosed = true;
+        });
+
+      allTalkers
         .filter(t => t.hosts)
         .forEach(talker => {
           const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
