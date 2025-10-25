@@ -859,9 +859,17 @@
     {
       "name": "Forgotten Island",
       "disambiguation": "Not to be confused with <a href=\"/details/forgotten-isle\" data-sveltekit-reload>Forgotten Isle</a>.",
+      "codebase": "moenuts",
+      "admins": [
+        "Moe"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://welcome.to/forgotten-island"
+        },
         {
           "type": "website",
           "url": "http://island.talkernet.net"
@@ -871,6 +879,11 @@
         {
           "blocked": true,
           "hostname": "island.talkernet.net",
+          "port": 8100
+        },
+        {
+          "blocked": true,
+          "hostname": "darkfantastic.net",
           "port": 8100
         },
         {
@@ -901,8 +914,8 @@
       "textcaps": [],
       "resources": [
         {
-          "type": "website",
-          "url": "http://forgottenisle.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.forgottenisle.net/"
         },
         {
           "type": "website",
@@ -1242,7 +1255,11 @@
     },
     {
       "name": "Return to Paradise",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "talkernet"],
+      "admins": [
+        "Matty",
+        "Valley"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -1250,6 +1267,11 @@
         {
           "blocked": true,
           "hostname": "hearts.signwave.com",
+          "port": 3333
+        },
+        {
+          "blocked": true,
+          "hostname": "bbs.signwave.com",
           "port": 3333
         }
       ]
@@ -3222,6 +3244,9 @@
       "name": "Leather Lounge",
       "dataOrigins": ["maddhouse"],
       "adult": true,
+      "admins": [
+        "Mags"
+      ],
       "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
@@ -3232,6 +3257,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname":"talker.com",
+          "port": 3100
+        },
         {
           "blocked": true,
           "hostname":"cybermac.net",
@@ -3761,10 +3791,18 @@
     },
     {
       "name": "North America",
-      "dataOrigins": ["kesey"],
+      "admins": [
+        "Hypergeek"
+      ],
+      "dataOrigins": ["kesey", "talkernet"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.talker.com/NA"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -4472,7 +4510,7 @@
       ],
       "description": "Enchantment Under the Sea is the world's most popular NUTS based English language Talker -- Come join us under the sea! Meet hundreds of interesting and diverse users, play games, and get your own free email address and subdomain.<br>MUD user friendly.",
       "notes": "Imagine diving into an underwater world, one full of magical places to explore. Imagine meeting and interacting with thousands of pepole from around the world. Imagine dozens of games, hundreds of commands, and fun events and activities you can enjoy with other users. Imagination is not necessary, for this is reality. Won't you give us a try?",
-      "dataOrigins": ["spodlist", "dune"],
+      "dataOrigins": ["spodlist", "dune", "talkernet"],
       "ewtooAbbr": "eutsii",
       "codebase": "arien",
       "admins": [
@@ -4489,6 +4527,10 @@
         {
           "type": "website",
           "url": "http://www.euts.org/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://seashell.dune.net/"
         }
       ],
       "hosts": [
@@ -4620,6 +4662,9 @@
       "dataOrigins": ["spodlist", "mudstats", "facebook"],
       "ewtooAbbr": "ei",
       "codebase": "amnuts",
+      "admins": [
+        "Bristol"
+      ],
       "resources": [
         {
           "type": "Facebook community",
@@ -4641,6 +4686,10 @@
       ],
       "textcaps": [],
       "hosts": [
+        {
+          "hostname": "talker.org",
+          "port": 5000
+        },
         {
           "hostname": "emisle.com",
           "port": 5000
@@ -5291,6 +5340,13 @@
       "name": "Uberworld",
       "location": "Netherlands",
       "ewtooAbbr": "uber",
+      "admins": [
+        "Silver",
+        "Jimbob"
+      ],
+      "coders": [
+        "Silver"
+      ],
       "codebase": "ewtoo",
       "screencaps": [
         "login/uberworld.org_2020.png"
@@ -6666,6 +6722,47 @@
       ]
     },
     {
+      "name": "Club Infinity",
+      "admins": [
+        "DarkAngel"
+      ],
+      "codebase": "ramtits",
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.org",
+          "port": 2000
+        }
+      ]
+    },
+    {
+      "name": "Club 40",
+      "admins": [
+        "Lorrie"
+      ],
+      "notes": "For ages 40+",
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.angelfire.com/journal/club"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4050
+        }
+      ]
+    },
+    {
       "name": "The Club",
       "codebase": "ncohafmuta",
       "admins": [
@@ -6723,19 +6820,19 @@
     },
     {
       "name": "Cruiser",
-      "dataOrigins": ["rosen", "facebook"],
+      "dataOrigins": ["rosen", "facebook", "talkernet"],
       "coders": [
         "Trojan"
       ],
       "admins": [
-        "Trojan"
+        "Ben"
       ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
-          "type": "website",
-          "url": "http://cruiser.vo.com/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://cruiser.vo.com/"
         }
       ],
       "hosts": [
@@ -6941,7 +7038,11 @@
     },
     {
       "name": "Under the Canopy",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "talkernet"],
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Tensai"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -7467,10 +7568,15 @@
     },
     {
       "name": "The Outer Limits",
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "talkernet"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://limits.talkernet.net/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9661,10 +9767,19 @@
     {
       "name": "Fantasy Island",
       "disambiguation": "Not to be confused with <a href=\"/details/fantasy-land\" data-sveltekit-reload>Fantasy Land</a>.",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "talkernet"],
       "screencaps": [],
+      "codebase": "amnuts",
+      "admins": [
+        "Baadpuppy"
+      ],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.fantasyisland.org/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -10016,6 +10131,9 @@
       "name": "Marlo Chat",
       "dataOrigins": ["maddhouse"],
       "location": "Australia",
+      "admins": [
+        "Bomber"
+      ],
       "codebase": "talkeros",
       "screencaps": [],
       "textcaps": [],
@@ -10114,6 +10232,10 @@
       "name": "Limbo",
       "disambiguation": "Not to be confused with <a href=\"/details/in-limbo\" data-sveltekit-reload>In Limbo</a>.",
       "codebase": "pgplus",
+      "admins": [
+        "Spy",
+        "Zion"
+      ],
       "dataOrigins": ["talkers.ws"],
       "screencaps": [],
       "textcaps": [],
@@ -10886,6 +11008,402 @@
       ]
     },
     {
+      "name": "Haflinger's Hof",
+      "slug": "haflingers-hof",
+      "codebase": "damnuts",
+      "admins": [
+        "Haflinger"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://haflinger.talker.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5010
+        }
+      ]
+    },
+    {
+      "name": "Magic Kingdom",
+      "admins": [
+        "Jarod"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://magic.talker.org/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.org",
+          "port": 8700
+        }
+      ]
+    },
+    {
+      "name": "Troubled Waters",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "ScubaDude"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "imshosting.nl",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "YAT",
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "codebase": "amnuts",
+      "admins": [
+        "Daniel"
+      ],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://yat.penguintek.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "yat.yi.org",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Magic Kingdom 2",
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://magic.talker.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8700
+        }
+      ]
+    },
+    {
+      "name": "The Dark Naga",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Vladimir"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "maddhouse.com",
+          "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "Star",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Lopo"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://star.sjf.stuba.sk/talker"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "star.sjf.stuba.sk",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "South Park",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Chaz"
+      ],
+      "codebase": "spamnuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://charles.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 1515
+        }
+      ]
+    },
+    {
+      "name": "Q Talker",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Darx"
+      ],
+      "codebase": "nuts",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://q.talker.ee/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "q.talker.ee",
+          "port": 6666
+        }
+      ]
+    },
+    {
+      "name": "Phase",
+      "location": "UK",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Bloke"
+      ],
+      "codebase": "circle",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "spod.org",
+          "port": 5001
+        }
+      ]
+    },
+    {
+      "name": "Masqued Cincinnatus",
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "nemo"
+      ],
+      "codebase": "sensisummink",
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://masqued.talker.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "masqued.talker.com",
+          "port": 6700
+        }
+      ]
+    },
+    {
+      "name": "Magical Kingdom",
+      "aka": [
+        "Magick Kingdom"
+      ],
+      "dataOrigins": ["talkernet"],
+      "admins": [
+        "Jordan"
+      ],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://magic.talker.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8705
+        }
+      ]
+    },
+    {
+      "name": "Jailhouse",
+      "codebase": "talkeros",
+      "admins": [
+        "Alford"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://snafu.net.au/~alford"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "snafu.net.au",
+          "port": 5500
+        }
+      ]
+    },
+    {
+      "name": "House of Chains",
+      "codebase": "nuts",
+      "admins": [
+        "Dysc",
+        "Neo"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://talker.com/ipex"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7700
+        }
+      ]
+    },
+    {
+      "name": "High Note",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "Poet"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.geocities.com/the_highnote"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 7800
+        }
+      ]
+    },
+    {
+      "name": "DarkCastle",
+      "codebase": "ncohafmuta",
+      "admins": [
+        "DKnight"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.castle.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 5700
+        }
+      ]
+    },
+    {
+      "name": "CyberScape",
+      "codebase": "ramtits",
+      "admins": [
+        "Det"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://cyberscape.talkernet.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkernet.net",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "CoastChat",
+      "codebase": "amnuts",
+      "admins": [
+        "MickTheAussie"
+      ],
+      "dataOrigins": ["talkernet"],
+      "screencaps": [],
+      "textcaps": [],
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.coastchat.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "coastart.dune.net",
+          "port": 7900
+        }
+      ]
+    },
+    {
       "name": "Camp Looney",
       "codebase": "amnuts",
       "admins": [
@@ -10895,12 +11413,7 @@
       "dataOrigins": ["talkernet"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20000930151253/http://www.talkernet.net/nopage.php3"
-        }
-      ],
+      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -11205,6 +11718,10 @@
         "The Silver Dragon"
       ],
       "notes": "This talker-themed MUD was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>. It closed in 2013.",
+      "admin": [
+        "Gerky"
+      ],
+      "codebase": "realms",
       "dataOrigins": ["mudstats"],
       "screencaps": [
         "login/dragon.talkernet.net_9889.png"
@@ -11802,6 +12319,10 @@
     {
       "name": "Crossroads TNG",
       "dataOrigins": ["kesey"],
+      "admins": [
+        "Aviator"
+      ],
+      "codebase": "nuts",
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -12040,6 +12561,9 @@
       "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
       "dataOrigins": ["talker.com", "maddhouse"],
       "screencaps": [],
+      "admins": [
+        "Excalibur"
+      ],
       "textcaps": [],
       "resources": [
         {
@@ -12068,7 +12592,11 @@
       "name": "Harem",
       "description": "Harem is a talker for adults 18 and over. Harem is a mature atmosphere, dedicated to alternitive life-styles, role-play and interacting with others.",
       "adult": true,
-      "dataOrigins": ["talker.com"],
+      "admins": [
+        "Misskitty",
+        "Mystery"
+      ],
+      "dataOrigins": ["talker.com", "talkernet"],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -12077,8 +12605,8 @@
           "url": "@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/harem"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.talker.com/harem"
         }
       ],
       "hosts": [
@@ -12626,7 +13154,10 @@
     {
       "name": "Paris By Night",
       "description": "-=[Paris By Night]=- Who Never Dreamed of Visiting Paris, The Most Romantic City in the World?  You Are Looking For A Romantic Place?  You Are Looking For A Funny Place?  Come On Paris By Night, Chat in The Louvre, Meet In The Eiffel Tower, Have Fun in The Hotel… We Are All Waiting For You!  -=[Paris By Night]=- Main Port: 3210 Sysadmin(s): Arny & Spicey Who Port: 3212 Http:// www.talker.com/paris ",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "talkernet"],
+      "admins": [
+        "Arny"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -12637,6 +13168,10 @@
         {
           "type": "website",
           "url": "http://www.talker.com/paris"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://paris.talker.com/"
         }
       ],
       "hosts": [
@@ -12690,8 +13225,12 @@
     {
       "name": "Philadelphia",
       "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.<br>Welcome To Philly The Talker! This talker is running TalkerOs which was written by William. Based on Nuts 3.3.3 which was written by Neil Robertson. Our original code was modified by Whizkid. We welcome users over 18 years of age who have an interest in chatting with others from all over the globe.",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "talkernet"],
       "codebase": "talkeros",
+      "admins": [
+        "Arora",
+        "Bub"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
@@ -13110,9 +13649,12 @@
       "aka": [
         "TypoTown"
       ],
+      "admins": [
+        "Galadriel"
+      ],
       "codebase": "mamnuts",
       "description": "",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "talkernet"],
       "screencaps": [
         "login/typotown.net_6666.png"
       ],
@@ -13580,12 +14122,19 @@
       "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
       "codebase": "cuts",
       "dataOrigins": ["talker.com"],
+      "admins": [
+        "Cusack"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/Hollywood/Lot/1186/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.zepa.net/simcity"
         },
         {
           "type": "email",
@@ -13597,6 +14146,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "zepa.net",
+          "port": 8200
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -13691,10 +14245,17 @@
       "dataOrigins": ["talker.com"],
       "screencaps": [],
       "textcaps": [],
+      "admins": [
+        "Arden"
+      ],
       "resources": [
         {
           "type": "email",
           "url": "arden@talker.com"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://stairway.talker.org/"
         }
       ],
       "hosts": [
@@ -14075,12 +14636,23 @@
       ]
     },
     {
-      "name": "Werewood",
+      "name": "Werewood Forest",
+      "aka": [
+        "Werewood"
+      ],
       "adult": true,
-      "dataOrigins": ["kesey", "maddhouse"],
+      "dataOrigins": ["kesey", "maddhouse", "talkernet"],
+      "admins": [
+        "Onyx"
+      ],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://werewood.signwave.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -14371,11 +14943,27 @@
     },
     {
       "name": "Dark Tower",
-      "dataOrigins": ["kesey"],
+      "aka": [
+        "Dark Towers"
+      ],
+      "admins": [
+        "Drac"
+      ],
+      "dataOrigins": ["kesey", "talkernet"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.compu-aid.com/drac/"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dt.compu-aid.com",
+          "port": 3000
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -14407,12 +14995,19 @@
       "dataOrigins": ["galaxy"],
       "codebase": "amnuts",
       "description": "100% more cheese than other talkers ...",
+      "admins": [
+        "Sol"
+      ],
       "screencaps": [],
       "textcaps": [],
       "resources": [
         {
           "type": "website",
           "url": "http://www.the-funk.net/talker/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://the-funk.net/talker"
         }
       ],
       "hosts": [
@@ -14432,11 +15027,22 @@
         "Morph",
         "Jaggy"
       ],
-      "dataOrigins": ["kesey"],
+      "codebase": "dgd",
+      "dataOrigins": ["kesey", "talkernet"],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.arthurian.nu/~drealm/"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dr.arthurian.nu",
+          "port": 7700
+        },
         {
           "blocked": true,
           "hostname": "delphis.ict.org",
@@ -14446,10 +15052,19 @@
     },
     {
       "name": "Dragon's Cove",
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "talkernet"],
+      "admins": [
+        "Squirt"
+      ],
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "codebase": "ramtits",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://dragons.talker.org/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -14546,10 +15161,12 @@
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
       "screencaps": [ ],
+          "blocked": true,
       "textcaps": [ ],
       "resources": [ ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "dryn.kharduin.net",
           "port": 1908
         }
@@ -14566,6 +15183,7 @@
       "resources": [ ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "cybermac.com",
           "port": 4200
         }
@@ -15574,7 +16192,8 @@
       "codebase": "joot",
       "admins": [
         "Cubby",
-        "Thangalin"
+        "Thangalin",
+        "Rigby"
       ],
       "dataOrigins": ["spodlist", "wayback"],
       "screencaps": [],
@@ -15692,9 +16311,14 @@
     {
       "name": "The Downtown",
       "aka": [
-        "Down Town"
+        "Down Town",
+        "DownTown"
       ],
-      "dataOrigins": ["spodlist", "maddhouse"],
+      "admins": [
+        "Darthvader"
+      ],
+      "codebase": "amnuts",
+      "dataOrigins": ["spodlist", "maddhouse", "talkernet"],
       "screencaps": [],
       "textcaps": [],
       "resources": [],
@@ -15975,7 +16599,10 @@
     {
       "name": "The Forever Beyond",
       "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.<br>We are a talker for all ages, with color. We have the Starship Enterprise section and a plethora of interesting users from all over. The server is running only this talker, so the lag is at a minimum. Come on over for a good time, because this is new! Up since Jan 1997 and it has only a 5 to 10 user load at night, CST. Come on by! ",
-      "dataOrigins": ["greatbiglist"],
+      "dataOrigins": ["greatbiglist", "talkernet"],
+      "admins": [
+        "Ribbon"
+      ],
       "screencaps": [
         "login/foreverbeyond.org_7000.png"
       ],
@@ -15999,6 +16626,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tfb.dhs.org",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "scott.luther.edu",
@@ -16030,13 +16662,28 @@
     {
       "name": "The Leisure Zone",
       "dataOrigins": ["tdf"],
+      "admins": [
+        "Pleaser",
+        "Hope"
+      ],
+      "codebase": "ncohafmuta",
       "screencaps": [],
       "textcaps": [],
-      "resources": [],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.geocities.com/leisure_zone"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "leisure.omnifarious.org",
+          "port": 3000
+        },
+        {
+          "blocked": true,
+          "hostname": "omnifarious.mn.org",
           "port": 3000
         }
       ]
@@ -19100,8 +19747,10 @@
     {
       "name": "Home",
       "adult": true,
-      "dataOrigins": [ "maddhouse" ],
-      "codebase": "joot",
+      "dataOrigins": [ "maddhouse", "talkernet"],
+      "admins": [
+        "Ranman"
+      ],
       "resources": [
         {
           "type": "wayback",
@@ -19109,6 +19758,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "southfayette.org",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "talker.com",
@@ -19168,7 +19822,7 @@
     {
       "name": "HellA",
       "dataOrigins": [ "greatbiglist" ],
-      "codebase": "oot",
+      "codebase": "joot",
       "admins": [
 	      "Gonzo",
 	      "Oldirty",
@@ -19184,6 +19838,11 @@
 	      }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hella.lagmonster.org",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "sidhe.wonderd.com",
@@ -19418,6 +20077,11 @@
       "codebase": "joot",
       "resources": [],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "geckotech.com",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "magmacom.com",
@@ -19719,9 +20383,18 @@
         {
           "type": "website",
           "url": "http://www.geocities.com/SiliconValley/9737/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://promised-land.2y.net/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 5999
+        },
         {
           "blocked": true,
           "hostname": "rs6000.zgs.com",
