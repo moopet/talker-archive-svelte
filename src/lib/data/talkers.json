@@ -1500,12 +1500,15 @@
     {
       "name": "Joplin's Jukebox",
       "slug": "joplins-jukebox",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "homepage"],
+      "admins": [
+        "Hobbes"
+      ],
       "adult": true,
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010303110404/http://jukebox.wonderdigital.com/"
+          "url": "https://web.archive.org/web/20010302133419/http://jukebox.wonderdigital.com/"
         }
       ],
       "hosts": [
@@ -4598,12 +4601,6 @@
       "name": "Shell Matrix",
       "disambiguation": "Not to be confused with <a href=\"/details/the-matrix\" data-sveltekit-reload>The Matrix</a>.",
       "codebase": "sm",
-      "screencaps": [
-        "login/sm.kelotz.net_2223.png"
-      ],
-      "textcaps": [
-        "login/sm.kelotz.net_2223.txt"
-      ],
       "hosts": [
         {
           "hostname": "sm.kelotz.net",
@@ -10058,6 +10055,7 @@
     },
     {
       "name": "YAT",
+      "description": "Yet Another Talker",
       "dataOrigins": ["talkernet"],
       "codebase": "amnuts",
       "admins": [
@@ -10070,6 +10068,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "yat.penguintek.net",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "yat.yi.org",
@@ -11696,8 +11699,8 @@
           "url": "journeys@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/journeys"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990202084403/http://www.talker.com/journeys/"
         }
       ],
       "hosts": [
@@ -14466,18 +14469,32 @@
       ]
     },
     {
-      "name": "Jaffa",
-      "aka": [
-        "The Jaffa Cake Talker"
+      "name": "The Jaffa Cake Talker",
+      "location": "UK",
+      "dataOrigins": ["spodlist", "maddhouse", "homepage"],
+      "admins": [
+        "kJell",
+        "Savannah"
       ],
-      "dataOrigins": ["spodlist", "maddhouse"],
+      "coders": [
+        "ruGG"
+      ],
       "resources": [
+        {
+          "type": "website",
+          "url": "http://www.ifi.uio.no/~bjornmar/jaffa/"
+        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010303110404/http://www.ifi.uio.no/~bjornmar/jaffa/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "adams.bathl.westnet.net.uk",
+          "port": 4040
+        },
         {
           "blocked": true,
           "hostname": "spod.org",
@@ -16333,24 +16350,6 @@
         {
           "hostname": "tb.dynip.com",
           "port": 5252,
-          "blocked": true
-        }
-      ],
-      "dataOrigins": ["greatbiglist"]
-    },
-    {
-      "name": "The Jaffa Cake",
-      "location": "UK",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://www.ifi.uio.no/~bjornmar/jaffa/"
-        }
-      ],
-      "hosts": [
-        {
-          "hostname": "adams.bathl.westnet.net.uk",
-          "port": 4040,
           "blocked": true
         }
       ],
@@ -18754,10 +18753,23 @@
     {
       "name": "X-Files",
       "dataOrigins": [ "maddhouse", "dune", "homepage" ],
+      "coders": [
+        "Babyface"
+      ],
+      "admins": [
+        "Cat",
+        "Nowhereman"
+      ],
+      "screencaps": [
+        "maps/x-files.map.png"
+      ],
+      "textcaps": [
+        "maps/x-files.map.txt"
+      ],
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010429163928/http://xfiles.dune.net/"
+          "url": "https://web.archive.org/web/19991127122655/http://xfiles.dune.net/"
         }
       ],
       "hosts": [
