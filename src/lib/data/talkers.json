@@ -726,6 +726,7 @@
     },
     {
       "name": "Atlantis II",
+      "description": "This place is Atlantis-][, one of the best talkers on the net today. Atlantis has achieved this through the belief that our users make the talker what it is. Our Staff is always ready to assist you in any way they can. Over 1000 people daily come to chat there...",
       "codebase": "nuts",
       "location": "USA",
       "dataOrigins": ["razor"],
@@ -733,9 +734,18 @@
         {
           "type": "website",
           "url": "http://www.cs.stedwards.edu/~tmendol/atlantis"
+        },
+        {
+          "type": "website",
+          "url": "http://atlantis.midsouth.net"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "atlantis.midsouth.net",
+          "port": 3030
+        },
         {
           "blocked": true,
           "hostname": "acad.stewards.edu",
@@ -920,11 +930,18 @@
     },
     {
       "name": "Blame Canada",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "homepage"],
       "ewtooAbbr": "BC",
+      "codebase": "pgplus",
       "screencaps": [
         "login/blamecanada.bering.gl_1977_2.png",
         "login/blamecanada.bering.gl_1977.png"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20021130152632/http://blamecanada.bering.gl/"
+        }
       ],
       "hosts": [
         {
@@ -6000,8 +6017,13 @@
     },
     {
       "name": "Asylum",
+      "description": "You pass over a slight rise and are surprised by what you find on the other side. Before you stretches, what appears to be an abandoned section of the asylum. Tall, decaying gray buildings gaze at each other with weary and weathered faces. The wind whips between the buildings and kicks the gray-white dust into the air and onto your clothes. The street is filled with an eerie silence. You can't help but feel that there is something amiss about this place. It almost feels like there is someone, something here that remembers when it wasn't abandoned. Far ahead of you you can almost make out some figures through the swirling dust.<br>You take a few steps toward the figures and find...",
       "dataOrigins": ["talkers.ws"],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010430123557/http://128.192.176.3/Asylum/"
+        },
         {
           "type": "website",
           "url": "http://w3.one.net/~strycher/asylum.html"
@@ -7952,12 +7974,20 @@
     },
     {
       "name": "Argoed",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "homepage"],
       "resources": [
         {
           "type": "website",
           "url": "http://www.spods.dcs.kcl.ac.uk/~argoed/"
         }
+      ],
+      "screencaps": [
+        "login/argoed.ilserv.com_3000.png",
+        "maps/argoed.map.jpg"
+      ],
+      "admins": [
+        "dEEjaY",
+        "Terminator"
       ],
       "hosts": [
         {
@@ -7995,8 +8025,14 @@
     },
     {
       "name": "Brew City",
-      "dataOrigins": ["talkers.ws"],
+      "description": "We opened shortly after May 1st, and gave grown to over 100 residency relativly quickly although now we are at one of the slowest periods in talker time, The Summer. We hope you will still visit us and maybe you can help populate us as the summer goes on.",
+      "dataOrigins": ["talkers.ws", "homepage"],
       "codebase": "pgplus",
+      "admins": [
+        "CeReAlKiLlEr",
+        "PhAnToM",
+        "Ricosuave"
+      ],
       "description": "Our talker is just a place to sit back and enjoy talking to your friends, with less lag than a bigger talker. We have a Milwaukee theme to ourselves, and yes beer is somewhat on the mind. We look to expand, and we look to become one of the better known places out there.",
       "resources": [
         {
@@ -8004,8 +8040,8 @@
           "url": "brewcity@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/timessquare/arcade/6542"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010521141314/http://www.geocities.com/TimesSquare/arcade/6542/"
         }
       ],
       "hosts": [
@@ -10507,17 +10543,21 @@
     },
     {
       "name": "Alpha House",
-      "description": "Alpha House is based on a sorority house. Frat house is the jail. We do try to have fun. Nice place to hang out and meet new friends. Like a big, happy family there, and growing !",
+      "description": "Alpha House is based on a sorority house. Frat house is the jail. We do try to have fun. Nice place to hang out and meet new friends. Like a big, happy family there, and growing!",
+      "notes": "Alpha House opened August 10, 1997.",
       "codebase": "amnuts",
       "dataOrigins": ["talker.com"],
+      "textcaps": [
+        "maps/alpha-house.map.txt"
+      ],
       "resources": [
         {
           "type": "email",
           "url": "elissa@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/CollegePark/Campus/9704"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990220083944/http://www.geocities.com/CollegePark/Campus/9704/" 
         }
       ],
       "hosts": [
@@ -10782,11 +10822,16 @@
     {
       "name": "Belle's Sanctuary",
       "codebase": "ncohafmuta",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "homepage"],
+      "admins": [
+        "Belle",
+        "Arielle",
+        "Firewalker"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.talker.com/sanctuary"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010429040527/http://www.talker.com/sanctuary/"
         },
         {
           "type": "email",
@@ -10929,14 +10974,17 @@
       "name": "Blue Ridge",
       "description": "A talker based on the blue ridge mountains of North Carolina. It is hopefully going to be a peaceful, fun place for users to go to.... it is an 'everyone' talker that we hope people will want to come to.",
       "dataOrigins": ["talker.com"],
+      "admins": [
+        "Arny"
+      ],
       "resources": [
         {
           "type": "email",
           "url": "smiley@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/blueridge"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990209022340/http://www.talker.com/blueridge/"
         }
       ],
       "hosts": [
@@ -11053,7 +11101,7 @@
     },
     {
       "name": "Brecktown",
-      "description": "Based on the real-life town of Breckenridge, Colorado, the rooms at Brecktown reflect the aura and atmosphere of real places. Wander at your leisure through our town, get to know the locals and for God's sake, don't GAPE at everything!  The talker is open to all ages, all opinions and we welcome maturity and respect for others.",
+      "description": "Based on the real-life town of Breckenridge, Colorado, the rooms at Brecktown reflect the aura and atmosphere of real places. Wander at your leisure through our town, get to know the locals and for God's sake, don't GAPE at everything!<br>The talker is open to all ages, all opinions and we welcome maturity and respect for others.",
       "codebase": "Iforms",
       "admins": [
         "Yacko",
@@ -11066,8 +11114,8 @@
           "url": "yacko@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/brecktown"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20040529080914/http://www.talker.com/brecktown/"
         }
       ],
       "hosts": [
@@ -15546,7 +15594,7 @@
     },
     {
       "name": "Barenaked On Ice",
-      "description": "We are simply put, the most fun place online. We only have one rule: respect others. We don't care if you swear, make raunchy jokes, sit on people, etc. All we ask is that you don't attack others. Aside from all that, we are a unique talker because we chose the band, Barenaked Ladies as our theme (if that isn't serious fandom, I don't know what is!) and there are a lot of goofy rooms and commands, including .kraft, which has you tossing boxes of Kraft Dinner at each other :) Besides, if you come on, you get to see why they voted me \"User Most Likely To Go To School Naked!\" Can't beat that, eh?",
+      "description": "We are simply put, the most fun place online. We only have one rule: respect others. We don't care if you swear, make raunchy jokes, sit on people, etc. All we ask is that you don't attack others. Aside from all that, we are a unique talker because we chose the band, Barenaked Ladies as our theme (if that isn't serious fandom, I don't know what is!) and there are a lot of goofy rooms and commands, including .kraft, which has you tossing boxes of Kraft Dinner at each other :)<br>Besides, if you come on, you get to see why they voted me \"User Most Likely To Go To School Naked!\" Can't beat that, eh?",
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
