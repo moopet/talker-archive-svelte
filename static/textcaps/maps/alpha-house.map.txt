@@ -1,0 +1,23 @@
+
+
+          balcony        bedroom            pool
+               \      /              gazebo  |  hottub    grooms   brides
+                stairs -- shower          \  |   /           \     /
+                   \                        patio             chapel
+                     \                       |               /
+        study_hall -- hallway -- lounge -- Foyer -- rose_garden -- music_hall
+                     /           /    \      |
+              bathroom   basement   closet   |
+                                        comedy_club -- food_court
+                                             |                   \
+                                            park               stadium
+                                          /  | \
+                                jungle_gym   |  sandbox
+                                           swings
+
+        **************                         **************
+        * elite_room *                        * frat_house *
+        **************                         **************
+
+
+
