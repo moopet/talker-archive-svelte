@@ -1,26 +1,26 @@
 export type Codebase = {
+  description?: string;
+  family?: string;
   language?: string;
   name: string;
   platform?: string;
   repo?: string;
-  family?: string;
   shortName: string;
-  description?: string;
 };
 
 export type DataOrigin = {
+  link?: string;
   name: string;
   shortName: string;
-  link?: string;
 };
 
 export type Resource = {
+  alt?: string;
+  description?: string;
   icon?: string;
   name?: string;
-  description?: string;
   type: string;
   url: string;
-  alt?: string;
 };
 
 export type ResourceItemProps = {
@@ -28,34 +28,36 @@ export type ResourceItemProps = {
 };
 
 export type ResourceListProps = {
+  resources: Resource[];
   title: string;
-  resources: Array<Resource>;
 };
 
 export type Host = {
+  blocked?: boolean;
   hostname: string;
   port?: number;
-  blocked?: boolean;
 };
 
 export type Talker = {
-  codebase?: string;
-  dataOrigins?: Array<string>;
+  admins?: string[];
   adult?: boolean;
+  aka?: string[];
+  codebase?: string;
+  coders?: string[];
+  dataOrigins?: string[];
   description?: string;
   disambiguation?: string;
-  notes?: string;
-  multiWorld?: string;
-  location?: string;
   ewtooAbbr?: string;
-  hosts?: Array<Host>;
+  hosts?: Host[];
+  isClosed?: boolean;
+  isConnectable?: boolean;
+  location?: string;
+  multiWorld?: string;
   name: string;
-  admins?: Array<string>;
-  coders?: Array<string>;
-  aka?: Array<string>;
-  resources?: Array<Resource>;
-  screencaps?: Array<string>;
-  textcaps?: Array<string>;
+  notes?: string;
+  resources?: Resource[];
+  screencaps?: string[];
+  textcaps?: string[];
 };
 
 export type MultiWorldProps = {
@@ -67,5 +69,10 @@ export type TalkerCardProps = {
 };
 
 export type TalkerListProps = {
-  talkers: Array<Talker>;
+  talkers: Talker[];
 };
+
+export type ActiveTalkerList = {
+  dateChecked: string;
+  talkers: Talker[];
+}

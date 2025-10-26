@@ -1,10 +1,13 @@
 import slugify from 'slugify';
 import { talkers } from '$lib/data/talkers.json';
 
-export async function getActiveTalkers() {
+const CACHE_TTL_MINUTES = 10;
+
+export async function getActiveTalkers(): Promise<ActiveTalkerList> {
   const now = new Date();
+
   // Cache lasts 10 minutes.
-  const cacheBust = `${now.getDate()}-${now.getHours()}-${Math.floor(now.getMinutes() / 10)}`;
+  const cacheBust = `${now.getDate()}-${now.getHours()}-${Math.floor(now.getMinutes() / CACHE_TTL_MINUTES)}`;
 
   const response = await fetch(`/api/active-talkers?cb=${cacheBust}`, {
     method: 'GET',
@@ -64,6 +67,10 @@ export function findTalkersBySpod(spodName: string): Talker[] {
 
     return [...coders, ...admins].includes(spodName.toLowerCase());
   });
+}
+
+export function sortTalkersByName(talkers: Talker[]): Talker[] {
+  return talkers.sort((a, b) => getTalkerSlug(a).replace('_', '').localeCompare(getTalkerSlug(b).replace('_', '')));
 }
 
 export function findTalkerBySlug(slug: string): Talker {
