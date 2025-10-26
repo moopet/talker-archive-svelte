@@ -21,7 +21,7 @@
     </p>
   {/if}
 
-  <h2>Talkers in the "{multiWorld.name}" group</h2>
+  <h3>Talkers in the "{multiWorld.name}" group</h3>
 
   <table>
     <thead>

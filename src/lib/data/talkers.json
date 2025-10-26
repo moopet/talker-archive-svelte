@@ -490,6 +490,10 @@
   ],
   "multiWorlds": [
     {
+      "shortName": "spaceboy",
+      "name": "Spaceboy's Multiple Worlds"
+    },
+    {
       "shortName": "syrius",
       "name": "Worlds of Syrius"
     },
@@ -17133,6 +17137,7 @@
     },
     {
       "name": "Spaceboy's Multiple Worlds: Planet M",
+      "multiWorld": "spaceboy",
       "location": "USA",
       "resources": [
         {
@@ -17151,6 +17156,7 @@
     },
     {
       "name": "Spaceboy's Multiple Worlds: Demon Knight",
+      "multiWorld": "spaceboy",
       "location": "USA",
       "resources": [
         {
@@ -17169,6 +17175,7 @@
     },
     {
       "name": "Spaceboy's Multiple Worlds: Tower of High Sorcery",
+      "multiWorld": "spaceboy",
       "location": "USA",
       "resources": [
         {

@@ -118,6 +118,20 @@ h6 {
   font-family: var(--font-heading);
 }
 
+h2 {
+  border-inline-start-width: 0;
+  border-inline-end-width: 0;
+  border-block-start-width: 0;
+  border-block-end-width: 1px;
+  border-style: solid;
+  border-color: var(--border-color);
+}
+
+h2,
+h3 {
+  color: rgb(179, 160, 125);
+}
+
 main {
   margin-inline-start: auto;
   margin-inline-end: auto;
