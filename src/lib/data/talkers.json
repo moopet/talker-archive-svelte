@@ -586,13 +586,16 @@
     },
     {
       "name": "Addicted",
+      "location": "UK",
       "dataOrigins": ["kesey"],
       "disambiguation": "Not to be confused with <a href=\"/details/addictive\" data-sveltekit-reload>Addictive</a>.",
-      "textcreencaps": [
-        "login/addicted.notbbc.co.uk_4444.txt"
+      "textcaps": [
+        "login/addicted.notbbc.co.uk_4444.txt",
+        "maps/addicted.map.txt"
       ],
       "screencaps": [
-        "login/addicted.notbbc.co.uk_4444.png"
+        "login/addicted.notbbc.co.uk_4444.png",
+        "maps/addicted.map.png"
       ],
       "admins": [
         "Boneist",
