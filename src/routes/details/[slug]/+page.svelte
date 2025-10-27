@@ -1,57 +1,53 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import slugify from 'slugify';
   import type { Codebase, DataOrigin, Talker } from '$lib/types';
-  import { findTalkerBySlug } from '$lib/utils';
-  import { codebases, dataOrigins, multiWorlds, talkers } from '$lib/data/talkers.json';
+  import { getCodebase, getDataOrigins, getMultiWorld, getTalker } from '$lib/database';
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
   import MultiWorld from '$lib/components/MultiWorld.svelte';
   import DuplicateHostList from '$lib/components/DuplicateHostList.svelte';
   import Disclaimer from '$lib/components/Disclaimer.svelte';
 
-  const nullTalker = {
+  const nullTalker: Talker = {
     name: "Talker not found"
   };
 
-  const talker: Talker = findTalkerBySlug(page.params?.slug ?? "") ?? nullTalker;
+  const talker: Talker = page.params.slug ? getTalker({slug: page.params.slug}) : nullTalker;
 
   const getCodebaseDescription = (codebaseName: string): string => {
-    const codebase: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebaseName.toLowerCase());
+    const codebase = getCodebase(codebaseName);
 
     if (!codebase) {
       return '';
     }
 
-    let codebaseDescription: string = "The talker is (was?) based on the codebase, ";
+    let description = "The talker is (was?) based on the codebase, ";
 
     if (codebase.description) {
-      codebaseDescription += `"<abbr title="${codebase.description}">${codebase.name}</abbr>"`;
+      description += `"<abbr title="${codebase.description}">${codebase.name}</abbr>"`;
     }
     else {
-      codebaseDescription += `"${codebase.name}"`;
+      description += `"${codebase.name}"`;
     }
 
-    if (codebase?.family) {
-      const codebaseFamily: Codebase = codebases.find(item => item.shortName.toLowerCase() === codebase.family.toLowerCase());
+    if (codebase.family) {
+      const family = getCodebase(codebase.family);
 
-      if (codebaseFamily.description) {
-        codebaseDescription += `, a <abbr title="${codebaseFamily.description}">${codebaseFamily.name}</abbr> derivative`;
+      if (family.description) {
+        description += `, a <abbr title="${family.description}">${family.name}</abbr> derivative`;
       }
       else {
-        codebaseDescription += `, a ${codebaseFamily.name} derivative`;
+        description += `, a ${family.name} derivative`;
       }
     }
 
-    return `${codebaseDescription}.`;
+    return `${description}.`;
   };
 
   const getCitation = (dataOriginNames: string[]): string => {
-    const matches: string[] = dataOriginNames
-      .map(dataOriginName => dataOrigins.find(item => item.shortName.toLowerCase() === dataOriginName.toLowerCase()) as DataOrigin)
-      .filter(x => x)
-      .map(dataOrigin => dataOrigin.link ? `<a href="${dataOrigin.link}">${dataOrigin.name}</a>` : dataOrigin.name);
-
+    const matches = getDataOrigins()
+      .filter(x => dataOriginNames.includes(x.shortName))
+      .map(x => x.link ? `<a href="${x.link}">${x.name}</a>` : x.name);
 
     if (matches.length === 0) {
       return '';

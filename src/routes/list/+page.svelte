@@ -3,18 +3,89 @@
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
   import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
-  import { talkers } from '$lib/data/talkers.json';
+  import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
+
+  type SortDirection = 'asc' | 'desc' | null;
+
+  let sortKey: SortKey | null = null;
+  let sortDirection: SortDirection = null;
 
   let loading: boolean = $state(true);
   let error: string = $state('');
   let lastCheckedDate = $state(null);
   let showClosedTalkers: boolean = $state(false);
+  let codebaseFilter: string = $state(null);
+  let searchFilter: string = $state(null);
 
-  let allTalkers = $state(talkers);
+  let allTalkers = $state(getTalkers());
   let activeTalkers = $state([]);
 
-  const sortedTalkers = talkers
-    .sort((a, b) => a.name.replace(/^the /i, '').replace("'", '').localeCompare(b.name.replace(/^the /i, '').replace("'", '')))
+  let filteredTalkers = $derived(
+    allTalkers
+      .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
+      .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
+      .filter(x => showClosedTalkers || !x.isClosed)
+  );
+
+  const handleSort = (key: string): void => {
+    if (sortKey === key) {
+      sortDirection = sortDirection === 'asc' ? 'desc' : 
+                      sortDirection === 'desc' ? null : 'asc';
+    }
+    else {
+      sortKey = key;
+      sortDirection = 'asc';
+    }
+
+    switch (key) {
+      case 'name':
+        allTalkers.sort((a: Talker, b: Talker): number => {
+          const aSlug: string = (a.slug ?? getSlug(a.name)).replace('_', '');
+          const bSlug: string = (b.slug ?? getSlug(b.name)).replace('_', '');
+
+          if (sortDirection === 'asc') {
+            return bSlug.localeCompare(aSlug);
+          }
+
+          return aSlug.localeCompare(bSlug);
+        });
+        break;
+
+      case 'address':
+        allTalkers.sort((a: Talker, b: Talker): number => {
+          const aAddress: string = a.hostname ? `${a.hostname}{a.port}` : '';
+          const bAddress: string = b.hostname ? `${b.hostname}{b.port}` : '';
+
+          if (sortDirection === 'asc') {
+            return bAddress.localeCompare(aAddress);
+          }
+
+          return aAddress.localeCompare(bAddress);
+        });
+        break;
+
+      case 'codebase':
+        allTalkers.sort((a: Talker, b: Talker): number => {
+          const aCodebase: string = a.codebase ?? '';
+          const bCodebase: string = b.codebase ?? '';
+
+          if (sortDirection === 'asc') {
+            return bCodebase.localeCompare(aCodebase);
+          }
+
+          return aCodebase.localeCompare(bCodebase);
+        });
+        break;
+
+        break;
+
+      case 'status':
+        break;
+
+      default:
+        break;
+    }
+  };
 
   async function highlightActiveTalkers() {
     loading = true;
@@ -28,7 +99,7 @@
       const activeTalkerNames = activeTalkers.map(talker => talker.name);
 
       allTalkers
-        .filter(t => (t?.hosts ?? []).length === 0)
+        .filter(t => (t.hosts ?? []).length === 0)
         .forEach(talker => {
           talker.isClosed = true;
         });
@@ -54,12 +125,13 @@
   }
 
   onMount(() => {
+  console.log("mounted");
    highlightActiveTalkers();
   });
 </script>
 
 <section>
-  <h1>Talker Connectivity Checker</h1>
+  <h1>Talker List</h1>
 
   {#if error}
     <p class="error">There was an error fetching the data.</p>
@@ -76,6 +148,23 @@
     <p>Last update: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}</p>
   {/if}
 
+  <fieldset class="filters">
+    <div class="search">
+      <label for="search-filter">Name</label>
+      <input type="text" placeholder="Partial name search" bind:value={searchFilter} id="search-filter" />
+    </div>
+
+    <div class="options">
+      <label for="codebase-filter">Codebase</label>
+      <select bind:value={codebaseFilter} id="codebase-filter">
+        <option value="">- Any -</option>
+        {#each getCodebases() as codebase}
+          <option value={codebase.shortName}>{codebase.name}</option>
+        {/each}
+      </select>
+    </div>
+  </fieldset>
+
   <fieldset>
     <div class="show-closed-talkers">
       <input type="checkbox" bind:checked={showClosedTalkers} id="show-closed-talkers-toggle" />
@@ -83,44 +172,51 @@
     </div>
   </fieldset>
 
+  <p>
+  Showing {filteredTalkers.length} {filteredTalkers.length === 1 ? 'result' : 'results'}.
+  </p>
+
   <table>
     <thead>
       <tr>
-        <th>Talker name</th>
-        <th>Address</th>
-        <th>Status</th>
+        <th on:click={() => handleSort('name')}>Name</th>
+        <th on:click={() => handleSort('address')}>Address</th>
+        <th on:click={() => handleSort('codebase')}>Codebase</th>
+        <th on:click={() => handleSort('status')}>Status</th>
       </tr>
     </thead>
 
     <tbody>
-      {#each allTalkers as talker}
-        {#if showClosedTalkers || !talker.isClosed}
-          <tr>
-            <td><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
+      {#each filteredTalkers as talker}
+        <tr>
+          <td><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
 
-            <td>
-              {#if talker.isActive}
-                <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
-              {:else}
-                <span>n/a</span>
-              {/if}
-            </td>
-
-            {#if loading}
-                <td class="status-loading">...</td>
+          <td>
+            {#if talker.isActive}
+              <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
             {:else}
-              {#if talker.isActive}
-                <td class="status-up">UP</td>
+              <span>n/a</span>
+            {/if}
+          </td>
+
+          <td class={talker.codebase ? 'codebase' : 'unknown'}>
+            {talker.codebase ? getCodebase(talker.codebase)?.name : 'Unknown'}
+          </td>
+
+          {#if loading}
+              <td class="status-loading">...</td>
+          {:else}
+            {#if talker.isActive}
+              <td class="status-up">UP</td>
+            {:else}
+              {#if talker.isClosed}
+                <td class="status-closed">CLOSED</td>
               {:else}
-                {#if talker.isClosed}
-                  <td class="status-closed">CLOSED</td>
-                {:else}
-                  <td class="status-down">DOWN</td>
-                {/if}
+                <td class="status-down">DOWN</td>
               {/if}
             {/if}
-          </tr>
-        {/if}
+          {/if}
+        </tr>
       {/each}
     </tbody>
   </table>
@@ -142,6 +238,7 @@
     font-weight: bold;
   }
 
+  .unknown,
   .status-closed {
     color: #555;
   }
@@ -169,6 +266,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    &.filters {
+      justify-content: space-between;
+    }
+
+    + fieldset {
+      padding-block-start: 0;
+    }
   }
 
   [type=checkbox] {
