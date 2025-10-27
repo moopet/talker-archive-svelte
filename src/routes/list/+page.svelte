@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
-  import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
+  import { getActiveTalkers, getSortArrow, getTalkerSlug } from '$lib/utils.ts';
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
 
   type SortDirection = 'asc' | 'desc' | null;
@@ -26,6 +26,20 @@
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
       .filter(x => showClosedTalkers || !x.isClosed)
   );
+
+  const getSortIndicator = (key: string): string => {
+    if (key === sortKey) {
+      if (sortDirection == 'asc') {
+        return '↑';
+      }
+
+      if (sortDirection == 'asc') {
+        return '↓';
+      }
+    }
+
+    return '⇵';
+  };
 
   const handleSort = (key: string): void => {
     if (sortKey === key) {
@@ -77,9 +91,40 @@
         });
         break;
 
+      case 'multi-world':
+        allTalkers.sort((a: Talker, b: Talker): number => {
+          if (typeof a.multiWorld === typeof b.multiWorld) {
+            return 0;
+          }
+
+          if (sortDirection === 'asc' && typeof a.multiWorld === 'string') {
+            return 1;
+          }
+
+          if (sortDirection === 'desc' && typeof b.multiWorld === 'string') {
+            return 1;
+          }
+
+          return -1;
+        });
         break;
 
       case 'status':
+        allTalkers.sort((a: Talker, b: Talker): number => {
+          if (a.isConnectable === b.isConnectable) {
+            return 0;
+          }
+
+          if (sortDirection === 'asc' && a.isConnectable) {
+            return 1;
+          }
+
+          if (sortDirection === 'desc' && b.isConnectable) {
+            return 1;
+          }
+
+          return -1;
+        });
         break;
 
       default:
@@ -112,7 +157,7 @@
           talker.isClosed = talker.hosts.every(h => h?.blocked);
 
           if (match) {
-            talker.isActive = true;
+            talker.isConnectable = true;
             talker.hostname = match.hostname;
             talker.port = match.port;
           }
@@ -125,7 +170,6 @@
   }
 
   onMount(() => {
-  console.log("mounted");
    highlightActiveTalkers();
   });
 </script>
@@ -179,10 +223,30 @@
   <table>
     <thead>
       <tr>
-        <th on:click={() => handleSort('name')}>Name</th>
-        <th on:click={() => handleSort('address')}>Address</th>
-        <th on:click={() => handleSort('codebase')}>Codebase</th>
-        <th on:click={() => handleSort('status')}>Status</th>
+        <th on:click={() => handleSort('name')}>
+          Name
+          <span class="sort-direction">{getSortIndicator('name')}</span>
+        </th>
+
+        <th on:click={() => handleSort('address')}>
+          Address
+          <span class="sort-direction">{getSortIndicator('address')}</span>
+        </th>
+
+        <th on:click={() => handleSort('codebase')}>
+          Codebase
+          <span class="sort-direction">{getSortIndicator('codebase')}</span>
+        </th>
+
+        <th on:click={() => handleSort('multi-world')}>
+          Multi-world?
+          <span class="sort-direction">{getSortIndicator('multi-world')}</span>
+        </th>
+
+        <th on:click={() => handleSort('status')}>
+          Status
+          <span class="sort-direction">{getSortIndicator('status')}</span>
+        </th>
       </tr>
     </thead>
 
@@ -192,7 +256,7 @@
           <td><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
 
           <td>
-            {#if talker.isActive}
+            {#if talker.isConnectable}
               <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
             {:else}
               <span>n/a</span>
@@ -200,13 +264,17 @@
           </td>
 
           <td class={talker.codebase ? 'codebase' : 'unknown'}>
-            {talker.codebase ? getCodebase(talker.codebase)?.name : 'Unknown'}
+            {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
+          </td>
+
+          <td class={talker.multiWorld ? 'multi-world' : 'unknown'}>
+            {talker.multiWorld ? 'Yes' : 'No'}
           </td>
 
           {#if loading}
-              <td class="status-loading">...</td>
+            <td class="status-loading">...</td>
           {:else}
-            {#if talker.isActive}
+            {#if talker.isConnectable}
               <td class="status-up">UP</td>
             {:else}
               {#if talker.isClosed}
@@ -240,7 +308,7 @@
 
   .unknown,
   .status-closed {
-    color: #555;
+    color: #444;
   }
 
   .status-up {
@@ -254,6 +322,14 @@
 
   td span {
     opacity: 0.3;
+  }
+
+  th {
+    min-width: 8rem;
+
+    span {
+      float: right;
+    }
   }
 
   fieldset {
