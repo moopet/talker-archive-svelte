@@ -860,6 +860,11 @@
         },
         {
           "blocked": true,
+          "hostname": "kepler.midco.net",
+          "port": 9390
+        },
+        {
+          "blocked": true,
           "hostname": "brigandine.black-ops.net",
           "port": 9390
         }
@@ -1206,6 +1211,43 @@
       ]
     },
     {
+      "name": "Gryphonscraig",
+      "ageRestriction": "18+",
+      "description": "Gryphonscraig is a NUTS-based talker set in a medieval town where people are free to explore their inner, and often outward, desires to live a D/s lifestyle. Many of the people visiting and inhabiting the town of Gryphonscraig, its governing castle and surrounding woods are doing just that: living the life of a Dominant Citizen or a submissive servant, or simply living the life of a courtesan, neither Dominant nor submissive.",
+      "admins": [
+        "Lynsey",
+        "Lord"
+      ],
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010301211458/http://lynsey.df.lth.se/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lynsey.df.lth.se",
+          "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "Grimlivm",
+      "ageRestriction": "all-age",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "ewtoo",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ewtoo.org",
+          "port": 2000
+        }
+      ]
+    },
+    {
       "name": "Rugrats",
       "dataOrigins": ["maddhouse"],
       "location": "Australia",
@@ -1242,6 +1284,7 @@
     },
     {
       "name": "Return to Paradise",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse", "talkernet"],
       "admins": [
         "Matty",
@@ -1257,6 +1300,38 @@
           "blocked": true,
           "hostname": "bbs.signwave.com",
           "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "Scarlet",
+      "ageRestriction": "all-age",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011126090109/http://www.scarlet.a-h.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "scarlet.a-h.net",
+          "port": 23
+        }
+      ]
+    },
+    {
+      "name": "The Rose Maze",
+      "ageRestriction": "18+",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "talkeros",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.foobarhouse.com",
+          "port": 3040
         }
       ]
     },
@@ -1283,7 +1358,8 @@
       ]
     },
     {
-      "name": "The Reality of the World",
+      "name": "The Reality of the New World",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -1420,7 +1496,6 @@
     {
       "name": "Oddballz",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -1432,7 +1507,6 @@
     {
       "name": "OC",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -1534,7 +1608,21 @@
       ]
     },
     {
+      "name": "Kratos",
+      "ageRestriction": "all-age",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ns3.datasys.com.mx",
+          "port": 6660
+        }
+      ]
+    },
+    {
       "name": "Joey's Playhouse",
+      "ageRestriction": "all-age",
       "slug": "joeys-playhouse",
       "dataOrigins": ["maddhouse"],
       "hosts": [
@@ -1547,6 +1635,7 @@
     },
     {
       "name": "Jaguar's Lair",
+      "ageRestriction": "all-age",
       "slug": "jaguars-lair",
       "dataOrigins": ["maddhouse"],
       "hosts": [
@@ -2143,6 +2232,7 @@
     {
       "name": "Elite",
       "dataOrigins": ["spodlist"],
+      "ageRestriction": "all-age",
       "description": "Heavily modified ewtoo talker based on Elite",
       "codebase": "ewtoo",
       "admins": [
@@ -2602,6 +2692,7 @@
     },
     {
       "name": "ICE-II - The Re-Freeze",
+      "ageRestriction": "all-age",
       "slug": "ice-ii",
       "dataOrigins": ["spodlist"],
       "codebase": "ice",
@@ -3104,7 +3195,6 @@
       "name": "Laputa",
       "dataOrigins": ["maddhouse"],
       "location": "UK",
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -3114,9 +3204,40 @@
       ]
     },
     {
-      "name": "Land of Nephi",
+      "name": "Lincoln County",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":"funcity.org",
+          "port": 8503
+        }
+      ]
+    },
+    {
+      "name": "Lynsey's Castle",
+      "ageRestriction": "18+",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011124124131/http://lynsey.df.lth.se%20comments=the%20lynsey/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname":"lynsey.df.lth.se",
+          "port": 4010
+        }
+      ]
+    },
+    {
+      "name": "Land of Nephi",
+      "ageRestriction": "all-age",
+      "dataOrigins": ["maddhouse"],
       "hosts": [
         {
           "blocked": true,
@@ -3130,7 +3251,6 @@
       "codebase": "pgplus",
       "slug": "land-of-paradise",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -3944,6 +4064,7 @@
     },
     {
       "name": "The World",
+      "ageRestriction": "all-age",
       "location": "USA",
       "dataOrigins": ["spodlist"],
       "codebase": "ewtoo",
@@ -5159,6 +5280,7 @@
     },
     {
       "name": "Valdemar",
+      "ageRestriction": "all-age",
       "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
       "notes": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
       "dataOrigins": ["galaxy"],
@@ -5830,8 +5952,6 @@
     {
       "name": "Zhanaroth",
       "dataOrigins": ["maddhouse"],
-      "screencaps": [ ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -5872,7 +5992,6 @@
       "description": "Tadiiri is an 18+ (Role players welcomed) Talker based on a unique concept .. It is basically divided into two halves part based on the John Normal Novels a Gorean Tade city on the southern tip of the Sadar Mountains...The other half is a mid western college town..Rather you wish a place to chat or the role play all are welcome...",
       "ageRestriction": "18+",
       "dataOrigins": ["dune"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -6309,7 +6428,7 @@
       "admins": [
         "Lorrie"
       ],
-      "notes": "For ages 40+",
+      "ageRestriction": "40+",
       "dataOrigins": ["talkernet"],
       "resources": [
         {
@@ -6530,7 +6649,6 @@
       "name": "Unicorn Haven",
       "dataOrigins": ["maddhouse"],
       "codebase": "ewtoo",
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -6541,6 +6659,7 @@
     },
     {
       "name": "Under the Sky",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "codebase": "talkeros",
       "resources": [
@@ -6797,7 +6916,6 @@
     {
       "name": "Metropolis",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -6855,6 +6973,7 @@
     },
     {
       "name": "Sherwood",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "codebase": "rnuts",
       "hosts": [
@@ -7062,6 +7181,7 @@
     },
     {
       "name": "The Sugar Shack",
+      "ageRestriction": "all-age",
       "description": "The Sugar Shack... is a friendly, upbeat talker for all ages. Stop on in, or visit our homepage. All our users are guaranteed privacy and a harassment free environment.",
       "dataOrigins": ["maddhouse", "dune", "homepage"],
       "resources": [
@@ -7458,6 +7578,11 @@
           "blocked": true,
           "hostname": "lintilla.df.lth.se",
           "port": 4010
+        },
+        {
+          "blocked": true,
+          "hostname": "bigun.c-gate.net",
+          "port": 6969
         }
       ]
     },
@@ -8058,6 +8183,7 @@
       "name": "Brew City",
       "description": "We opened shortly after May 1st, and gave grown to over 100 residency relativly quickly although now we are at one of the slowest periods in talker time, The Summer. We hope you will still visit us and maybe you can help populate us as the summer goes on.",
       "dataOrigins": ["talkers.ws", "homepage"],
+      "ageRestriction": "all-age",
       "codebase": "pgplus",
       "admins": [
         "CeReAlKiLlEr",
@@ -8566,6 +8692,7 @@
       "description": "WELCOME to a place of peace in the center of the universe. In every direction, you see portals to other dimensions...<br> Some lead to the future, some to the past, some to other existences. You may stand at a portal and watch the world pass by...<br>Or you may sit and visit with others while time and the universe continue around you...",
       "disambiguation": "Not to be confused with <a href=\"/details/dimensions-mux\" data-sveltekit-reload>Dimensions MUX</a>.",
       "dataOrigins": ["talkers.ws", "homepage"],
+      "ageRestriction": "all-age",
       "codebase": "ewtoo",
       "admins": [
         "DarkFlame"
@@ -8682,6 +8809,7 @@
     },
     {
       "name": "Dragon's Lair",
+      "ageRestriction": "all-age",
       "slug": "dragons-lair",
       "description": "We encourage you to explore the world of the Dragon's Lair. Unlike other Rivendell realms, one can not easily obtain a map here. You will need to use all of your skills to navigate through the maze like trails. Many of the rooms can not be seen by the unknowing mortal eye.<br>The wizards often play here in the ether... perhaps they may help you on your journey.",
       "location": "USA",
@@ -8835,7 +8963,6 @@
     {
       "name": "Europa",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -8847,7 +8974,6 @@
     {
       "name": "Escape from Reality",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -8858,6 +8984,7 @@
     },
     {
       "name": "Envirochat",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "resources": [
         {
@@ -8908,6 +9035,7 @@
     },
     {
       "name": "Enchanted Castle",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "codebase": "amnuts",
       "resources": [
@@ -9143,6 +9271,7 @@
     },
     {
       "name": "H(o)(o)TERS",
+      "slug": "hooters",
       "dataOrigins": ["talkers.ws"],
       "hosts": [
         {
@@ -9720,6 +9849,7 @@
     },
     {
       "name": "Wentworth",
+      "ageRestriction": "all-age",
       "dataOrigins": ["amber"],
       "description": "Based on the cult series, Prisoner Cell Block H",
       "hosts": [
@@ -9832,7 +9962,6 @@
       "codebase": "amnuts",
       "disambiguation": "Not to be confused with <a href=\"/details/generation-x\" data-sveltekit-reload>Generation X</a>.",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -9845,7 +9974,6 @@
       "name": "Generation X",
       "disambiguation": "Not to be confused with <a href=\"/details/genxxx\" data-sveltekit-reload>GenXXX</a>.",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -9964,7 +10092,6 @@
         "Melissa"
       ],
       "dataOrigins": ["talkernet"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -10061,7 +10188,6 @@
       "admins": [
         "ScubaDude"
       ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -10120,7 +10246,6 @@
       "admins": [
         "Vladimir"
       ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -10199,7 +10324,6 @@
         "Bloke"
       ],
       "codebase": "circle",
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -10360,6 +10484,7 @@
     },
     {
       "name": "CoastChat",
+      "ageRestriction": "all-age",
       "codebase": "amnuts",
       "admins": [
         "MickTheAussie"
@@ -10387,7 +10512,6 @@
         "Tootse"
       ],
       "dataOrigins": ["talkernet"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -10956,6 +11080,41 @@
       ]
     },
     {
+      "name": "Cecelia",
+      "dataOrigins": ["maddhouse"],
+      "ageRestriction": "18+",
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkfantastic.net",
+          "port": 7100
+        }
+      ]
+    },
+    {
+      "name": "Budweiser",
+      "dataOrigins": ["maddhouse"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "curryco.com",
+          "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "The Borg Collective",
+      "dataOrigins": ["maddhouse"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "borgc.ml.org",
+          "port": 6000
+        }
+      ]
+    },
+    {
       "name": "Bohemia",
       "dataOrigins": ["kesey"],
       "hosts": [
@@ -11051,8 +11210,8 @@
     },
     {
       "name": "Tanelorn",
+      "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -11064,7 +11223,6 @@
     {
       "name": "The Tedder",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -11093,6 +11251,7 @@
     },
     {
       "name": "The Talker",
+      "ageRestriction": "all-age",
       "slug": "the-talker",
       "codebase": "pgplus",
       "dataOrigins": ["greatbiglist", "maddhouse"],
@@ -11265,6 +11424,7 @@
     {
       "name": "City Of Dreams",
       "description": "City of Dreams is an under-18 talker. Join everyone there and follow your dreams, laugh and have lots of fun!",
+      "ageRestriction": "all-age",
       "codebase": "nuts",
       "coders": [
         "Kesey"
@@ -11389,7 +11549,6 @@
     {
       "name": "The Family",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -11401,7 +11560,6 @@
     {
       "name": "Fallout Zone",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -11844,7 +12002,6 @@
       "name": "Natural Wonders",
       "dataOrigins": ["maddhouse"],
       "codebase": "paris",
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -12178,7 +12335,6 @@
     {
       "name": "Vice Versa",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -12230,7 +12386,6 @@
     {
       "name": "Utopia Parkway",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "hostname": "blacktape.cs.uchicago.edu",
@@ -12324,7 +12479,27 @@
       ]
     },
     {
+      "name": "Toy Story",
+      "ageRestriction": "18+",
+      "codebase": "amnuts",
+      "dataOrigins": ["maddhouse" ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011214035914/http://www.jasc.net/woody"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.jasc.net",
+          "port": 6699
+        }
+      ]
+    },
+    {
       "name": "Tornado Alley",
+      "ageRestriction": "all-age",
       "description": "A weather-related talker",
       "dataOrigins": ["maddhouse", "dune"],
       "resources": [
@@ -12527,6 +12702,7 @@
     },
     {
       "name": "Wilderland",
+      "ageRestriction": "all-age",
       "codebase": "talkeros",
       "dataOrigins": ["maddhouse"],
       "resources": [
@@ -12870,6 +13046,7 @@
     },
     {
       "name": "Sim City",
+      "ageRestriction": "all-age",
       "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
       "codebase": "cuts",
       "dataOrigins": ["talker.com"],
@@ -13020,6 +13197,7 @@
     },
     {
       "name": "Seven Realms",
+      "ageRestriction": "all-age",
       "codebase": "ramtits",
       "dataOrigins": ["maddhouse"],
       "resources": [
@@ -13290,6 +13468,7 @@
     },
     {
       "name": "ICE",
+      "ageRestriction": "all-age",
       "codebase": "ice",
       "dataOrigins": ["doughnuts"],
       "hosts": [
@@ -13451,7 +13630,6 @@
     {
       "name": "Storm Chaser Central",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -13587,7 +13765,14 @@
     },
     {
       "name": "Street Dreams",
+      "ageRestriction": "18+",
       "dataOrigins": ["kesey"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011126090109/http://www.dialnet.net/streetdreams/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -13763,6 +13948,7 @@
     },
     {
       "name": "Republic",
+      "ageRestriction": "all-age",
       "disambiguation": "Not to be confused with <a href=\"/details/republic-inn\" data-sveltekit-reload>Republic Inn</a>.",
       "notes": "Republic is one of a very few talkers that does not have any admins.",
       "description": "Republic is a talker with a difference. No superusers. No wizards. No staff. Just people.",
@@ -13792,10 +13978,7 @@
       "notes": "\"For Kids\"",
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
-      "screencaps": [ ],
           "blocked": true,
-      "textcaps": [ ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -13810,9 +13993,6 @@
       "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
-      "screencaps": [ ],
-      "textcaps": [ ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -14310,12 +14490,36 @@
       ]
     },
     {
+      "name": "Boar's Nest",
+      "ageRestriction": "18+",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "kharduin.net",
+          "port": 4444
+        }
+      ]
+    },
+    {
+      "name": "Black Forest",
+      "ageRestriction": "18+",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "slack.net",
+          "port": 9050
+        }
+      ]
+    },
+    {
       "name": "Black Jade",
       "multiWorld": "syrius",
       "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
-      "screencaps": [ ],
-      "textcaps": [ ],
       "resources": [
         {
           "type": "wayback",
@@ -15066,6 +15270,7 @@
     },
     {
       "name": "The Forever Beyond",
+      "ageRestriction": "all-age",
       "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.<br>We are a talker for all ages, with color. We have the Starship Enterprise section and a plethora of interesting users from all over. The server is running only this talker, so the lag is at a minimum. Come on over for a good time, because this is new! Up since Jan 1997 and it has only a 5 to 10 user load at night, CST. Come on by! ",
       "dataOrigins": ["greatbiglist", "talkernet"],
       "admins": [
@@ -15520,7 +15725,6 @@
       "slug": "_house-party",
       "disambiguation": "Not to be confused with <a href=\"/details/house-party\" data-sveltekit-reload>the <em>other</em> House Party</a>.",
       "dataOrigins": ["maddhouse"],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -15569,7 +15773,6 @@
       "name": "Hotel Metro",
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -15751,7 +15954,27 @@
       ]
     },
     {
+      "name": "QuakeWorld2000",
+      "ageRestriction": "all-age",
+      "dataOrigins": ["maddhouse"],
+      "codebase": "ramtits",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011126090109/http://www.q2000.com"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "xt.hsik.edu.ee",
+          "port": 23
+        }
+      ]
+    },
+    {
       "name": "Pod's Inn",
+      "ageRestriction": "all-age",
       "slug": "pods-inn",
       "dataOrigins": ["greatbiglist", "maddhouse"],
       "description": "Pod's Inn is a JOOT based talker that welcome users of all ages. We are striving to have a good talker that will welcome new users, and make them feel at home! We would appreciate your stopping by, and giving us a try. And tell them Footsie personaly invited you! I am there quite often. I'd be glad to see you! Thanks :)",
@@ -16014,6 +16237,7 @@
     },
     {
       "name": "Genie's Lamp",
+      "ageRestriction": "all-age",
       "slug": "genies-lamp",
       "codebase": "talkeros",
       "dataOrigins": ["maddhouse"],
@@ -16776,6 +17000,7 @@
     {
       "name": "Oasis",
       "slug": "_oasis",
+      "ageRestriction": "all-age",
       "disambiguation": "Not to be confused with <a href=\"/details/oasis\" data-sveltekit-reload>the <em>other</em> Oasis</a>.",
       "dataOrigins": ["maddhouse"],
       "hosts": [
@@ -16847,7 +17072,6 @@
     },
     {
       "name": "The Opium Den",
-      "resources": [ ],
       "hosts": [
         {
           "hostname": "204.132.158.10",
@@ -17383,7 +17607,6 @@
     },
     {
       "name": "Wastelands",
-      "resources": [ ],
       "hosts": [
         {
           "hostname": "brockhouse.com",
@@ -17395,6 +17618,7 @@
     },
     {
       "name": "Warrnambool",
+      "ageRestriction": "all-age",
       "location": "Australia",
       "codebase": "amnuts",
       "resources": [
@@ -17873,7 +18097,6 @@
     {
       "name": "Hole",
       "dataOrigins": [ "maddhouse" ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -18171,6 +18394,7 @@
     },
     {
       "name": "The Ottawa Fair",
+      "ageRestriction": "all-age",
       "dataOrigins": [ "greatbiglist", "maddhouse" ],
       "admins": [
         "Morningstar"
@@ -18214,7 +18438,6 @@
     {
       "name": "Aberration",
       "dataOrigins": [ "dune" ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -18248,7 +18471,6 @@
       "description": "A BDSM talker set inside a prison. Lots of fun, but please be over 18 years of age.",
       "ageRestriction": "18+",
       "dataOrigins": [ "dune" ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -18260,7 +18482,6 @@
     {
       "name": "Forgotten Memories",
       "dataOrigins": [ "dune" ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -18272,7 +18493,6 @@
     {
       "name": "Hawke's Fantasia",
       "dataOrigins": [ "dune" ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,
@@ -18306,7 +18526,6 @@
       "ageRestriction": "18+",
       "description": "A groovy place to hang out and make some friends. Please be 18 or older!",
       "dataOrigins": [ "dune" ],
-      "resources": [ ],
       "hosts": [
         {
           "blocked": true,

@@ -310,7 +310,7 @@
           </td>
 
           <td class={talker.ageRestriction ? 'age-restriction' : 'unknown'}>
-            {talker.ageRestriction : 'Any'}
+            {talker.ageRestriction ?? 'Any'}
           </td>
 
           <td class={talker.multiWorld ? 'multi-world' : 'unknown'}>
