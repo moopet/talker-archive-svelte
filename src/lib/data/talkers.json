@@ -254,6 +254,11 @@
   ],
   "codebases": [
     {
+      "shortName": "tinymuck",
+      "name": "TinyMUCK",
+      "platform": "Unix-like"
+    },
+    {
       "shortName": "vagrant",
       "name": "VagraNT",
       "description": "A talker running as a Windows NT service",
@@ -5275,8 +5280,16 @@
       ]
     },
     {
-      "name": "Furtoonia",
+      "name": "FurToonia",
+      "codebase": "tinymuck",
+      "description": "FurToonia is a MUCK themed to furries, or anthropomorphic animals, and 'toons, and has a thriving anime district.<br>Originally designed back in 1994 around Toon characters and Furry animals, it has grown to become a HUGE world and surrounding Universe (w/ more worlds) with over 2500 characters of every type, over 68000 objects total, and themed areas for every taste.",
       "ewtooAbbr": "wank",
+      "admins": [
+        "Calico",
+        "Kahz",
+        "Squirrelly",
+        "Tabyathe"
+      ],
       "screencaps": [
         "login/ft.furtoonia.net_9999.png"
       ],
