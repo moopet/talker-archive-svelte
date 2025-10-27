@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
-  import { getActiveTalkers, getSortArrow, getTalkerSlug } from '$lib/utils.ts';
+  import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
 
   type SortDirection = 'asc' | 'desc' | null;
@@ -14,8 +14,9 @@
   let error: string = $state('');
   let lastCheckedDate = $state(null);
   let showClosedTalkers: boolean = $state(false);
-  let codebaseFilter: string = $state(null);
+  let codebaseFilter: string = $state('');
   let searchFilter: string = $state(null);
+  let ageFilter: string = $state('');
 
   let allTalkers = $state(getTalkers());
   let activeTalkers = $state([]);
@@ -24,6 +25,7 @@
     allTalkers
       .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
+      .filter(x => !ageFilter || x.ageFilter === ageFilter)
       .filter(x => showClosedTalkers || !x.isClosed)
   );
 
@@ -88,6 +90,27 @@
           }
 
           return aCodebase.localeCompare(bCodebase);
+        });
+        break;
+
+      case 'age-restriction':
+        allTalkers.sort((a: Talker, b: Talker): number => {
+          if (a.ageRestriction === b.ageRestriction) {
+            return 0;
+          }
+
+          const aAge = parseInt(a.ageRestriction ?? '0', 10) || 0;
+          const bAge = parseInt(b.ageRestriction ?? '0', 10) || 0;
+
+          if (sortDirection === 'asc' && aAge > bAge) {
+            return 1;
+          }
+
+          if (sortDirection === 'desc' && aAge < bAge) {
+            return 1;
+          }
+
+          return -1;
         });
         break;
 
@@ -175,7 +198,7 @@
 </script>
 
 <section>
-  <h1>Talker List</h1>
+  <h1>Talker database</h1>
 
   {#if error}
     <p class="error">There was an error fetching the data.</p>
@@ -188,17 +211,27 @@
 
   {#if lastCheckedDate}
     <h2><span class="active-count">{activeTalkers.length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
-
-    <p>Last update: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}</p>
   {/if}
 
   <fieldset class="filters">
     <div class="search">
       <label for="search-filter">Name</label>
-      <input type="text" placeholder="Partial name search" bind:value={searchFilter} id="search-filter" />
+      <input type="text" bind:value={searchFilter} id="search-filter" />
     </div>
 
-    <div class="options">
+    <div class="age">
+      <label for="age-filter">Age</label>
+      <select bind:value={ageFilter} id="age-filter">
+        <option value="">- Any -</option>
+        <!--
+        <option value="13+">13+</option>
+        -->
+        <option value="child">Child-friendly</option>
+        <option value="18+">Adult (18+)</option>
+      </select>
+    </div>
+
+    <div class="codebase">
       <label for="codebase-filter">Codebase</label>
       <select bind:value={codebaseFilter} id="codebase-filter">
         <option value="">- Any -</option>
@@ -217,33 +250,42 @@
   </fieldset>
 
   <p>
-  Showing {filteredTalkers.length} {filteredTalkers.length === 1 ? 'result' : 'results'}.
+    Showing <strong>{filteredTalkers.length}</strong> {filteredTalkers.length === 1 ? 'result' : 'results'}.
+
+    {#if lastCheckedDate}
+      Last update: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}
+    {/if}
   </p>
 
   <table>
     <thead>
       <tr>
-        <th on:click={() => handleSort('name')}>
+        <th onclick={() => handleSort('name')}>
           Name
           <span class="sort-direction">{getSortIndicator('name')}</span>
         </th>
 
-        <th on:click={() => handleSort('address')}>
+        <th onclick={() => handleSort('address')}>
           Address
           <span class="sort-direction">{getSortIndicator('address')}</span>
         </th>
 
-        <th on:click={() => handleSort('codebase')}>
+        <th onclick={() => handleSort('codebase')}>
           Codebase
           <span class="sort-direction">{getSortIndicator('codebase')}</span>
         </th>
 
-        <th on:click={() => handleSort('multi-world')}>
+        <th onclick={() => handleSort('age-restriction')}>
+          Ages
+          <span class="sort-direction">{getSortIndicator('age-restriction')}</span>
+        </th>
+
+        <th onclick={() => handleSort('multi-world')}>
           Multi-world?
           <span class="sort-direction">{getSortIndicator('multi-world')}</span>
         </th>
 
-        <th on:click={() => handleSort('status')}>
+        <th onclick={() => handleSort('status')}>
           Status
           <span class="sort-direction">{getSortIndicator('status')}</span>
         </th>
@@ -265,6 +307,10 @@
 
           <td class={talker.codebase ? 'codebase' : 'unknown'}>
             {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
+          </td>
+
+          <td class={talker.ageRestriction ? 'age-restriction' : 'unknown'}>
+            {talker.ageRestriction : 'Any'}
           </td>
 
           <td class={talker.multiWorld ? 'multi-world' : 'unknown'}>
@@ -291,6 +337,14 @@
 </section>
 
 <style>
+  section {
+    max-width: 60rem;
+  }
+
+  h2 {
+    border-width: 0;
+  }
+
   .error {
     color: red;
   }
@@ -362,6 +416,10 @@
     outline: medium auto currentColor;
   }
 
+  label:after {
+    content: ':';
+  }
+
   label[for=show-closed-talkers-toggle] {
 	  cursor: pointer;
 	  width: 40px;
@@ -403,6 +461,10 @@
 	  transform: translateX(-100%);
   }
 
+  input[type=text] {
+    width: 22rem;
+  }
+
   .show-closed-talkers {
     display: flex;
     flex-direction: column;
@@ -417,5 +479,9 @@
       margin-inline-start: 0;
       margin-block-start: 0;
     }
+  }
+
+  strong {
+    font-size: 1.25em;
   }
 </style>

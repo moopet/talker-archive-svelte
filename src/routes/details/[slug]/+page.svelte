@@ -146,8 +146,12 @@
       </p>
     {/if}
 
-    {#if talker?.adult}
+    {#if talker?.ageRestriction === '18+'}
       <p class="adult">For at least some of its run, this talker was open to adults only.</p>
+    {/if}
+
+    {#if talker?.ageRestriction === '13+'}
+      <p class="adult">For at least some of its run, this talker was open to adults and children over 13 only.</p>
     {/if}
 
     {#if aka.length > 0}

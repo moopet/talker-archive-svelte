@@ -40,7 +40,7 @@ export type Host = {
 
 export type Talker = {
   admins?: string[];
-  adult?: boolean;
+  ageRestriction?: string;
   aka?: string[];
   codebase?: string;
   coders?: string[];

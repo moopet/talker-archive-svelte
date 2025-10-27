@@ -909,7 +909,7 @@
       "name": "Forgotten Isle",
       "disambiguation": "Not to be confused with <a href=\"/details/forgotten-island\" data-sveltekit-reload>Forgotten Island</a>.",
       "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/dragons-isle\">Dragon's Isle</a>.",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "sinco",
       "admins": [
         "Europol",
@@ -1035,6 +1035,7 @@
           "port": 4242
         },
         {
+          "blocked": true,
           "hostname": "204.248.169.7",
           "port": 4242
         },
@@ -1107,7 +1108,7 @@
       "dataOrigins": ["greatbiglist"],
       "disambiguation": "Not to be confused with <a href=\"/details/castle\" data-sveltekit-reload>Castle</a>.",
       "location": "USA",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "nuts",
       "hosts": [
         {
@@ -1394,7 +1395,7 @@
     },
     {
       "name": "The Kraal",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -1406,7 +1407,7 @@
     },
     {
       "name": "Koala Blue",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -1517,7 +1518,7 @@
       "admins": [
         "Hobbes"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -1558,7 +1559,7 @@
     },
     {
       "name": "Celtic Mist",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -1714,9 +1715,11 @@
       "admins": [
         "Atropos",
         "SilverMoonLight",
+        "PaleMoonLight",
+        "Samuel",
         "Satellite"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "description": "We cater ta the forsaken o'society - gays, lesbians, bisexuals, transsexuals, crossdressers, goths, pagans, & freaks in general. Normal people are welcome.  Its jist that they scare us *grin*.",
       "codebase": "nuts",
       "ewtooAbbr": "cotn",
@@ -2648,7 +2651,7 @@
     },
     {
       "name": "Dracosia",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "exile",
       "admins": [
         "Xavier",
@@ -2790,7 +2793,7 @@
     },
     {
       "name": "The Plane of Love",
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "planes",
       "coders": [
         "Paul",
@@ -2825,7 +2828,7 @@
         "POL"
       ],
       "multiWorld": "planes",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Erotica",
         "Cheryl",
@@ -2863,7 +2866,7 @@
       "aka": [
         "POA"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Bar",
         "Rashkae",
@@ -2907,7 +2910,7 @@
         "Shyy",
         "Qui"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "coders": [
         "Paul",
         "ThePhoenix",
@@ -2943,7 +2946,7 @@
       "aka": [
         "POM"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "planes",
       "admins": [
         "Ashke"
@@ -3019,7 +3022,7 @@
       "aka": [
         "POD"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "planes",
       "admins": [
         "Godys",
@@ -3073,7 +3076,7 @@
     {
       "name": "Leather Lounge",
       "dataOrigins": ["maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Mags"
       ],
@@ -3156,7 +3159,7 @@
     {
       "name": "Lo Riviero",
       "dataOrigins": ["maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "syrius",
       "codebase": "exile",
       "hosts": [
@@ -3519,6 +3522,7 @@
     {
       "name": "Glantri's Labyrinth",
       "slug": "glantris-labyrinth",
+      "ageRestriction": "18+",
       "dataOrigins": ["greatbiglist"],
       "admins": [
         "Calysto",
@@ -3543,6 +3547,7 @@
       "name": "Glantri's Labyrinth II",
       "slug": "glantris-labyrinth-ii",
       "dataOrigins": ["spodlist"],
+      "ageRestriction": "18+",
       "screencaps": [
         "login/talker.com_2200.png"
       ],
@@ -3603,6 +3608,8 @@
     {
       "name": "North Keep",
       "description": "Gorean role play fantasy realm.",
+      "ageRestriction": "18+",
+      "codebase": "amnuts",
       "hosts": [
         {
           "blocked": true,
@@ -4495,7 +4502,7 @@
     },
     {
       "name": "DragonsFire",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "retrobar",
       "hosts": [
         {
@@ -4508,7 +4515,7 @@
     {
       "name": "Retro Bar",
       "disambiguation": "Not to be confused with <a href=\"/details/retro-chat\" data-sveltekit-reload>Retro Chat</a>.",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "retrobar",
       "screencaps": [
         "login/rb.kelotz.net_1981.png"
@@ -4703,7 +4710,7 @@
       "screencaps": [
         "login/dune.net_4405.png"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "nuts",
       "resources": [
         {
@@ -4772,7 +4779,7 @@
     },
     {
       "name": "Hot Mess",
-      "adult": true,
+      "ageRestriction": "18+",
       "screencaps": [
         "login/hot-mess.net_9900.png"
       ],
@@ -5596,7 +5603,7 @@
         "Sable",
         "Juli"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -5863,7 +5870,7 @@
     {
       "name": "Tadiiri",
       "description": "Tadiiri is an 18+ (Role players welcomed) Talker based on a unique concept .. It is basically divided into two halves part based on the John Normal Novels a Gorean Tade city on the southern tip of the Sadar Mountains...The other half is a mid western college town..Rather you wish a place to chat or the role play all are welcome...",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["dune"],
       "resources": [ ],
       "hosts": [
@@ -5895,7 +5902,7 @@
     {
       "name": "Resort City of Venna",
       "description": "A Gorean talker based on the novels of John Norman.",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["dune", "homepage"],
       "resources": [
         {
@@ -6575,7 +6582,7 @@
       "name": "Under the Big Top",
       "location": "USA",
       "dataOrigins": ["greatbiglist"],
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Wbeb",
         "Pwk"
@@ -6655,7 +6662,7 @@
     {
       "name": "Time Worlds",
       "dataOrigins": ["maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -6802,7 +6809,7 @@
     {
       "name": "Max's Tavern",
       "dataOrigins": ["maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "slug": "maxs-tavern",
       "codebase": "nuts",
       "resources": [
@@ -7254,7 +7261,7 @@
       "codebase": "joot",
       "dataOrigins": ["rosen", "greatbiglist"],
       "location": "USA",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Koala"
       ],
@@ -7326,7 +7333,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7349,7 +7356,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7371,7 +7378,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7393,7 +7400,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7415,7 +7422,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7437,7 +7444,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7459,7 +7466,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7488,7 +7495,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7515,7 +7522,7 @@
       "coders": [
         "Tick"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7539,7 +7546,7 @@
     },
     {
       "name": "Fantasia Ancient Rome",
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "fantasia",
       "dataOrigins": ["rosen"],
       "resources": [
@@ -7559,7 +7566,7 @@
     {
       "name": "Fantasia Furry Haven",
       "description": "You find yourself in the center of a large, lush valley...looking out over a peaceful lake. A clear, cold mountain stream flows into the lake from the east. On all sides of the valley are virgin forests with trails leading into and through them. Snow-capped mountains are visible in the distance, beyond the forest. The scent of wild-flowers floats on the soft breezes. Friendship and harmony reign here, as all creatures of the land gather to converse or play. Enter and be at peace...for all are welcomed here...",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Xaara"
       ],
@@ -7582,7 +7589,7 @@
     {
       "name": "Fantasia Vampire's Cathedral",
       "slug": "fantasia-vampires-cathedral",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7601,7 +7608,7 @@
     },
     {
       "name": "Fantasia Trinity",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7621,7 +7628,7 @@
     {
       "name": "Fantasia Truth or Date",
       "description": "Water fountains flank the grand open-air lounge, set overlooking the ocean and appointed with cozy love seats and exotic flower arrangements. The view is spectacular, and the atmosphere is relaxed so that you can take your time absorbing it all as you indulge in drinks and appetizers. As the sun sets, the pounding surf rolls in and the palm trees are silhouetted against the heavenly blue water of the ocean. Padded, high-backed stools sit in front of the bar to your right. The mood is sensual, romantic, almost magical.<br>Someone whispers, \"Care to play a game of Truth or Dare with a lovin' touch?\"",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse", "homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7640,7 +7647,7 @@
     },
     {
       "name": "Fantasia Sweethearts",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse", "homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7660,7 +7667,7 @@
     {
       "name": "Fantasia Steel & Shield Tavern",
       "slug": "fantasia-steel-shield-tavern",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7679,7 +7686,7 @@
     },
     {
       "name": "Fantasia Moon Magick",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7699,7 +7706,7 @@
     {
       "name": "Fantasia Men's Club",
       "slug": "fantasia-mens-club",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7718,7 +7725,7 @@
     },
     {
       "name": "Fantasia Jungle Fever",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["homepage"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7738,7 +7745,7 @@
     {
       "name": "Fantasia Buccaneers",
       "description": "Bold & Daring!",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7762,7 +7769,7 @@
     },
     {
       "name": "Fantasia Wild West",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7786,7 +7793,7 @@
     },
     {
       "name": "Fantasia Dream World",
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "fantasia",
       "dataOrigins": ["rosen"],
       "resources": [
@@ -7805,7 +7812,7 @@
     },
     {
       "name": "Fantasia Black Velvet",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "fantasia",
       "resources": [
@@ -7825,7 +7832,7 @@
     {
       "name": "Chapel of Love",
       "disambiguation": "Possibly the same talker as <a href=\"/details/lintilla-the-chapel\" data-sveltekit-reload>Lintilla The Chapel</a>.",
-      "adult": true,
+      "ageRestriction": "18+",
       "multiWorld": "lintilla",
       "dataOrigins": ["rosen"],
       "hosts": [
@@ -7838,7 +7845,7 @@
     },
     {
       "name": "LoveBoat",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "lintilla",
       "hosts": [
@@ -8111,7 +8118,7 @@
     },
     {
       "name": "Chateau Noir",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -8355,23 +8362,6 @@
       ]
     },
     {
-      "name": "Da Luv Thing",
-      "location": "UK",
-      "dataOrigins": ["talkers.ws"],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 8071
-        },
-        {
-          "blocked": true,
-          "hostname": "phymat.bham.ac.uk",
-          "port": 2111
-        }
-      ]
-    },
-    {
       "name": "Darknyte Manor",
       "dataOrigins": ["talkers.ws"],
       "hosts": [
@@ -8518,7 +8508,7 @@
     },
     {
       "name": "DS Wonderland",
-      "adult": true,
+      "ageRestriction": "18+",
       "description": "DS Wonderland is an adult oriented interactive world, where like-minded individuals come to discuss and experiment with female dominance and the BDSM scene. The staff is open and friendly, and willing to happily answer any questions you may have. We have fantastic games coded into the talker, such as trivia, a full working casino and lots of shops to choose from that offer plenty of clothing and fetish wear. Everyone 18+ is welcome, so stop by and chat with us today!",
       "notes": "Custom codebase written in Python",
       "dataOrigins": ["mudstats"],
@@ -8753,7 +8743,7 @@
     {
       "name": "Eclipse",
       "dataOrigins": ["maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -8790,7 +8780,7 @@
     {
       "name": "D/s Dreams",
       "slug": "ds-dreams",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "amnuts",
       "dataOrigins": ["maddhouse"],
       "resources": [
@@ -9238,7 +9228,7 @@
     },
     {
       "name": "Legacy Of The Damned",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["talkers.ws"],
       "hosts": [
         {
@@ -9598,7 +9588,7 @@
     {
       "name": "Pure Exxxtacy",
       "dataOrigins": ["greatbiglist", "maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -9707,7 +9697,7 @@
     {
       "name": "Selene",
       "multiWorld": "syrius",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["kesey", "maddhouse"],
       "hosts": [
         {
@@ -9866,7 +9856,7 @@
     },
     {
       "name": "Gates Of Heaven",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["talker.com"],
       "resources": [
         {
@@ -9921,7 +9911,7 @@
       "name": "The Globe",
       "codebase": "ncohafmuta",
       "location": "USA",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Touchstone"
       ],
@@ -10602,7 +10592,7 @@
       "name": "American Romance",
       "codebase": "nuts",
       "description": "American Romance is an over-18 talker. The theme of the talker is romantic places across the Americas. Enjoy laughter with friends or get away to a romantic setting.",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["talker.com"],
       "resources": [
         {
@@ -11171,7 +11161,7 @@
       "name": "Candyland",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "website",
@@ -11470,7 +11460,7 @@
     {
       "name": "Harem",
       "description": "Harem is a talker for adults 18 and over. Harem is a mature atmosphere, dedicated to alternitive life-styles, role-play and interacting with others.",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Misskitty",
         "Mystery"
@@ -11768,7 +11758,7 @@
     {
       "name": "Mountain Ranch",
       "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["talker.com", "maddhouse"],
       "codebase": "nuts",
       "resources": [
@@ -12138,7 +12128,7 @@
     {
       "name": "Rome",
       "description": "Ancient Rome was a myriad of contradiction and irony, a military-based civilization celebrating the beauty of classical Greece, architecture, poetry and philosophy, but also thriving on brutality of amphitheatres and slavery and on the politics of religion. Although too complex for acurate representation in our humble talker, the ancient empire inspires this atmosphere of pleasure & terror, peace & imprisionment, spirituality & passion. The purpose here is to break physical limits through communication. Make sure you are prepared.", 
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "rome",
       "dataOrigins": ["talker.com"],
       "resources": [
@@ -12253,7 +12243,7 @@
       "name": "Utopia",
       "description": "Utopia is a talker for adults that started in 1995. We only permit users over 18 and strive to maintain a warm, friendly and mostly mature atmosphere, while still having fun. Utopia is set in an imaginary town where you will find a growing yet still close-knit community of wonderful people.",
       "location": "UK",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "ncohafmuta",
       "dataOrigins": ["talker.com"],
       "resources": [
@@ -12579,7 +12569,7 @@
     {
       "name": "Wild Bill's Watering Hole",
       "slug": "wild-bills-watering-hole",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "resources": [
         {
@@ -12599,7 +12589,7 @@
       "name": "Wild West",
       "description": "Western theme, +18 talker. Meet people, have fun and enjoy!",
       "codebase": "nuts",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["talker.com", "maddhouse"],
       "resources": [
         {
@@ -13081,7 +13071,7 @@
     {
       "name": "Land of Confusion",
       "disambiguation": "Not to be confused with <a href=\"/details/state-of-confusion-university\" data-sveltekit-reload>State of Confusion University</a>.",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "joot",
       "dataOrigins": ["greatbiglist"],
       "admins": [
@@ -13101,7 +13091,7 @@
     {
       "name": "State of Confusion University",
       "disambiguation": "Not to be confused with <a href=\"/details/land-of-confusion\" data-sveltekit-reload>Land of Confusion</a>.",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
       "admins": [
@@ -13186,7 +13176,7 @@
     {
       "name": "The Sushi Bar",
       "description": "The Sushi Bar is an adult, all-kinds chat catering to whatever one's preferences may be. *Anyone* over he age of 18 who wants to meet friends, indulge in *whatever*, and is tolerant of other peoples' *whatevers* is welcome to join in.",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
       "resources": [
@@ -13348,7 +13338,7 @@
       "aka": [
         "Werewood"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["kesey", "maddhouse", "talkernet"],
       "admins": [
         "Onyx"
@@ -13392,7 +13382,7 @@
     },
     {
       "name": "World of Illusions: Sinnocence",
-      "adult": true,
+      "ageRestriction": "18+",
       "slug": "illusions-sinnocence",
       "multiWorld": "illusions",
       "dataOrigins": ["kesey", "maddhouse"],
@@ -13406,7 +13396,7 @@
     },
     {
       "name": "World of Illusions: Treasure Island",
-      "adult": true,
+      "ageRestriction": "18+",
       "slug": "illusions-treasure-island",
       "multiWorld": "illusions",
       "dataOrigins": ["kesey", "maddhouse"],
@@ -13442,7 +13432,7 @@
     },
     {
       "name": "Sweet Dreams",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "resources": [ 
         {
@@ -13526,7 +13516,7 @@
       "name": "Sterling's Sacred Stone",
       "slug": "sterling-sacred-stone",
       "multiWorld": "sterling",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -13540,7 +13530,7 @@
       "name": "Sterling's Black Dagger",
       "slug": "sterling-black-dagger",
       "multiWorld": "sterling",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -13554,7 +13544,7 @@
       "name": "Sterling's Mountain Ranch",
       "slug": "sterling-mountain-ranch",
       "multiWorld": "sterling",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -13568,7 +13558,7 @@
       "name": "Sterling's Surfside Inn",
       "slug": "sterling-surfside-inn",
       "multiWorld": "sterling",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -13728,7 +13718,7 @@
       ]
     },
     {
-      "name": "The Dragon's Cove 2",
+      "name": "Dragon's Cove 2",
       "dataOrigins": ["doughnuts"],
       "hosts": [
         {
@@ -13817,7 +13807,7 @@
     {
       "name": "Republic Inn",
       "disambiguation": "Not to be confused with <a href=\"/details/republic\" data-sveltekit-reload>Republic</a>.",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
       "screencaps": [ ],
@@ -14322,7 +14312,7 @@
     {
       "name": "Black Jade",
       "multiWorld": "syrius",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "screencaps": [ ],
       "textcaps": [ ],
@@ -14348,7 +14338,7 @@
         "CP"
       ],
       "multiWorld": "syrius",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Virus"
       ],
@@ -14579,7 +14569,7 @@
         "Neon Lights"
       ],
       "dataOrigins": ["maddhouse"],
-      "adult": true,
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -14737,7 +14727,7 @@
     {
       "name": "Pern",
       "description": "Pern is a chat server modeled after the world created by Anne McCaffrey in her series The DragonRiders of Pern. It's a friendly place dedicated to chatting and meeting people the world over.<br>You'll find a lot of friendly people there. Pern is hosted by Cubby and Thangalin. Our coders are Dave Xavier and Ken Savage and the site is courtesy of MadPoet and the Loopers. Special thanks to Bono in developing programs for user utilites on the OOT code and for the Pern maps. You will also find a friendly and helpful team of wizards. We pride ourselves on our friendly and diverse user base.",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "joot",
       "admins": [
         "Cubby",
@@ -15124,7 +15114,7 @@
       "name": "Lara",
       "description": "18+ Gorean City of Lara, based on books by John Norman.<br>A unique city of Gor, where peace and tranquility can be found on this concentual port or/one can role-play in the non-concentual area. Follow where your path may lead you and come to visit.",
       "dataOrigins": ["tdf"],
-      "adult": true,
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -15173,7 +15163,7 @@
     },
     {
       "name": "Talk of the Town",
-      "adult": true,
+      "ageRestriction": "18+",
       "notes": "Talk of the Town closed in 2015.",
       "dataOrigins": ["tdf", "mudstats"],
       "screencaps": [
@@ -15192,7 +15182,7 @@
     },
     {
       "name": "Flirt Town",
-      "adult": true,
+      "ageRestriction": "18+",
       "notes": "Flirt Town closed in 2019.",
       "dataOrigins": ["tdf", "mudstats"],
       "screencaps": [
@@ -15590,7 +15580,7 @@
     },
     {
       "name": "The Hotel of Desire",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
       "resources": [
@@ -15734,7 +15724,7 @@
       "name": "Pooh",
       "dataOrigins": ["greatbiglist"],
       "location": "Estonia",
-      "adult": true,
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -15748,7 +15738,7 @@
       "dataOrigins": ["greatbiglist"],
       "location": "USA",
       "codebase": "ncohafmuta",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Both"
       ],
@@ -15793,7 +15783,7 @@
         "Europol",
         "Rhiannon"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
       "dataOrigins": [""],
       "resources": [
@@ -15813,7 +15803,7 @@
     {
       "name": "The Rainbow Room",
       "description": "The Rainbow Room is the friendliest cyber community online. The Rainbow room is a small talker which seems to attract dynamic people who enjoy intelligent conversation and many laughs. This is a family talker that is open to all ages for people of the lesbian/bisexual/gay/transgendered communities and their friends.<br>This talker encourages users to participate strongly by contributing rooms, room descriptions, and other assorted files. The Rainbow Room is constantly changing with the users and the seasons.<br>On this talker users are also encouraged to take advantage of the standing offer to make tailor made special occasion rooms, perfect for net.weddings. One last thing, Bottom, our bot, we like him, hope you do too!",
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "nuts",
       "admins": [
         "Swantis"
@@ -15971,6 +15961,7 @@
     },
     {
       "name": "Da Luv Thing",
+      "dataOrigins": ["talkers.ws"],
       "location": "UK",
       "resources": [
         {
@@ -15985,9 +15976,19 @@
           "blocked": true
         },
         {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8071
+        },
+        {
           "hostname": "phymat.bham.ac.uk",
           "port": 1708,
           "blocked": true
+        },
+        {
+          "blocked": true,
+          "hostname": "phymat.bham.ac.uk",
+          "port": 2111
         }
       ],
       "dataOrigins": ["greatbiglist"]
@@ -16023,7 +16024,7 @@
           "blocked": true
         }
       ],
-      "adult": true
+      "ageRestriction": "18+"
     },
     {
       "name": "Maddhouse",
@@ -17630,7 +17631,7 @@
       "name": "Cactus",
       "description": "Coolest internet talker in the world.",
       "dataOrigins": [ "greatbiglist", "homepage" ],
-      "adult": true,
+      "ageRestriction": "18+",
       "codebase": "iforms",
       "admins": [
 	      "Sishka"
@@ -17739,7 +17740,7 @@
       "name": "Enterprise",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
 	      "Jess", "Dazey", "Tabby"
       ],
@@ -17762,7 +17763,7 @@
       "name": "The Forum",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
 	      "Reign",
 	      "Ike",
@@ -17829,7 +17830,7 @@
       "slug": "grease",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
 	      "Bullet",
 	      "Sensuous"
@@ -17845,7 +17846,7 @@
     },
     {
       "name": "Home",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "maddhouse", "talkernet"],
       "admins": [
         "Ranman"
@@ -17922,7 +17923,7 @@
 	      "Emanon",
 	      "Madpoet"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "location": "USA",
       "resources": [
 	      {
@@ -17971,7 +17972,7 @@
       "aka": [
 	      "Iron Rose 2"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
@@ -18076,7 +18077,7 @@
     },
     {
       "name": "Painted Lady",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "maddhouse" ],
       "codebase": "amnuts",
       "resources": [
@@ -18226,7 +18227,7 @@
       "name": "Bloodstone's Gorean Haven",
       "slug": "bloodstones-gorean-haven",
       "description": "This is a strictly 18+ roleplay/learning talker, based on the John Norman series. If you are unfamiliar with the series, are 18+, and would like to know more, feel free to stop by and check us out.",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "dune" ],
       "resources": [ 
         {
@@ -18245,7 +18246,7 @@
     {
       "name": "Caged Heat",
       "description": "A BDSM talker set inside a prison. Lots of fun, but please be over 18 years of age.",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "dune" ],
       "resources": [ ],
       "hosts": [
@@ -18283,7 +18284,7 @@
     {
       "name": "Hidden Desires",
       "description": "A place for those over 18 to explore their Hidden Desires. From BDSM, fetishes, and even Vanilla sensuality!",
-      "adult": true,
+      "ageRestriction": "18+",
       "description": "A groovy place to hang out and make some friends. Please be 18 or older!",
       "dataOrigins": [ "dune" ],
       "resources": [ 
@@ -18302,7 +18303,7 @@
     },
     {
       "name": "Milisake",
-      "adult": true,
+      "ageRestriction": "18+",
       "description": "A groovy place to hang out and make some friends. Please be 18 or older!",
       "dataOrigins": [ "dune" ],
       "resources": [ ],
@@ -18373,7 +18374,7 @@
       "name": "NoWhereLand",
       "description": "Realm of the Fab Four! - The Beatles! If you are 18+ - Let's ROCK N ROLL!",
       "dataOrigins": [ "maddhouse", "dune", "homepage" ],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -18504,7 +18505,7 @@
     {
       "name": "Secrets",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
@@ -18527,7 +18528,7 @@
         "Blue",
         "Kes"
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "location": "UK",
       "resources": [
         {
@@ -18569,7 +18570,7 @@
     },
     {
       "name": "Sin City",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
@@ -18713,7 +18714,7 @@
       "name": "Tardis 2",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "adult": true,
+      "ageRestriction": "18+",
       "location": "USA",
       "hosts": [
         {
@@ -18727,7 +18728,7 @@
       "name": "Virtual Oneonta",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "adult": true,
+      "ageRestriction": "18+",
       "location": "USA",
       "resources": [
         {
@@ -18862,7 +18863,7 @@
       "description": "Welcome to Woodstock, a multi user chat line based on the festival in 1969.",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
-      "adult": true,
+      "ageRestriction": "18+",
       "admins": [
         "Sweeper",
         "Risk",
@@ -18925,7 +18926,7 @@
     {
       "name": "DarkHaven",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -18937,14 +18938,14 @@
     {
       "name": "DCI Chat",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
+      "ageRestriction": "18+",
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010215004713/http://home.megalinx.net/~bbuxton/index.html"
         }
       ],
-      "adult": true,
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -18956,8 +18957,8 @@
     {
       "name": "Depot",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -18969,8 +18970,8 @@
     {
       "name": "Davenport Beach",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -18982,8 +18983,8 @@
     {
       "name": "Darkstar",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -18995,8 +18996,8 @@
     {
       "name": "Darkside of the Force",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -19009,8 +19010,8 @@
       "name": "Darkside",
       "disambiguation": "Not to be confused with <a href=\"/details/darkside-of-nothing\" data-sveltekit-reload>Darkside of Nothing</a>.",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -19022,8 +19023,8 @@
     {
       "name": "Dark Visions",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -19035,8 +19036,8 @@
     {
       "name": "Dark Sun",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -19049,8 +19050,8 @@
       "name": "Dark Realms",
       "disambiguation": "Not to be confused with <a href=\"/details/darkrealm\" data-sveltekit-reload>DarkRealm</a>.",
       "dataOrigins": [ "maddhouse" ],
-      "adult": true,
-      "adult": true,
+      "ageRestriction": "18+",
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -19063,7 +19064,7 @@
       "name": "Dark Bindings",
       "dataOrigins": [ "maddhouse" ],
       "codebase": "amnuts",
-      "adult": true,
+      "ageRestriction": "18+",
       "hosts": [
         {
           "blocked": true,
@@ -19075,7 +19076,7 @@
     {
       "name": "Dagger's Den of Iniquity",
       "slug": "daggers-den-of-iniquity",
-      "adult": true,
+      "ageRestriction": "18+",
       "dataOrigins": [ "maddhouse" ],
       "resources": [
         {
