@@ -2164,11 +2164,15 @@
     {
       "name": "Snowplains",
       "location": "UK",
+      "codebase": "ewtoo",
+      "coders": [
+        "Jarel"
+      ],
       "admins": [
         "Berry",
         "Jarel"
       ],
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "homepage"],
       "ewtooAbbr": "SP",
       "description": "The theme of the talker (or MUG or MUSH or whatever you wish to call it, but it's not really a MUD) is, erm, a snowplain. The guides, superusers and admin are all penguins of varying sorts (Chocolate, Royal and King/Emperor as appropriate).",
       "resources": [
@@ -3826,6 +3830,7 @@
       "name": "Marble Madness",
       "location": "UK",
       "notes": "The talker eventually became <a data-sveltekit-reload href=\"/details/surfers\">Surfers</a>",
+      "codebase": "ewtoo",
       "hosts": [
         {
           "blocked": true,
@@ -3840,6 +3845,7 @@
       "description": "A talker inhabited by a group of lazy long-haired, tanned layabouts who bum around on the beach all day desperately trying not to do any work.",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "surfers",
+      "codebase": "ewtoo",
       "coders": [
         "Saraphale"
       ],
