@@ -1,0 +1,18 @@
+             *** Addicted's map of the system - 29/9/1997 ****
+
+                                             [POWER]
+       NIBBLE--\                               ||
+                >--ROM-----------BYTE          ==       Choc
+         BIT---/                   |           ||       Room
+                          RAM---MEMORY--------LEAD        |
+  YELLOW_LOUNGE--FLOPPY            |   _________|_____ Frog's ____ Beeker
+                    |              |  /         |      Lilypad
+   LILAC_LOUNGE---DISC----+----COMPUTER-----KEYBOARD
+                    |     |        |   _________|_____ Cat's Duvet
+                    | Joystick  LANGUAGE        |
+      MODEM--------MAT                        QWERTY--/--[CPU]
+                    |           ESCAPE          |
+                    |              |            |
+    [REGISTER]-/--MOUSE----------SCREEN--------PIXEL
+                                                          [WASTEBIN]
+
