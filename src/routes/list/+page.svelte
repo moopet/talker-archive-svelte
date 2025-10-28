@@ -13,10 +13,10 @@
   let loading: boolean = $state(true);
   let error: string = $state('');
   let lastCheckedDate = $state(null);
-  let showClosedTalkers: boolean = $state(false);
   let codebaseFilter: string = $state('');
   let searchFilter: string = $state(null);
   let ageFilter: string = $state('');
+  let statusFilter: string = $state('');
 
   let allTalkers = $state(getTalkers());
   let activeTalkers = $state([]);
@@ -26,7 +26,7 @@
       .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
       .filter(x => !ageFilter || x.ageFilter === ageFilter)
-      .filter(x => showClosedTalkers || !x.isClosed)
+      .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable))
   );
 
   const getSortIndicator = (key: string): string => {
@@ -223,10 +223,8 @@
       <label for="age-filter">Age</label>
       <select bind:value={ageFilter} id="age-filter">
         <option value="">- Any -</option>
-        <!--
-        <option value="13+">13+</option>
-        -->
         <option value="child">Child-friendly</option>
+        <option value="13+">13+</option>
         <option value="18+">Adult (18+)</option>
       </select>
     </div>
@@ -240,12 +238,14 @@
         {/each}
       </select>
     </div>
-  </fieldset>
 
-  <fieldset>
-    <div class="show-closed-talkers">
-      <input type="checkbox" bind:checked={showClosedTalkers} id="show-closed-talkers-toggle" />
-      <label for="show-closed-talkers-toggle"><span>show closed talkers</span></label>
+    <div class="status">
+      <label for="status-filter">Status</label>
+      <select bind:value={statusFilter} id="status-filter">
+        <option value="">- Any -</option>
+        <option value="open">Potentially open</option>
+        <option value="connectable">Connectable</option>
+      </select>
     </div>
   </fieldset>
 
@@ -260,32 +260,32 @@
   <table>
     <thead>
       <tr>
-        <th onclick={() => handleSort('name')}>
+        <th class="name" onclick={() => handleSort('name')}>
           Name
           <span class="sort-direction">{getSortIndicator('name')}</span>
         </th>
 
-        <th onclick={() => handleSort('address')}>
+        <th class="address" onclick={() => handleSort('address')}>
           Address
           <span class="sort-direction">{getSortIndicator('address')}</span>
         </th>
 
-        <th onclick={() => handleSort('codebase')}>
+        <th class="codebase" onclick={() => handleSort('codebase')}>
           Codebase
           <span class="sort-direction">{getSortIndicator('codebase')}</span>
         </th>
 
-        <th onclick={() => handleSort('age-restriction')}>
+        <th class="age-restriction" onclick={() => handleSort('age-restriction')}>
           Ages
           <span class="sort-direction">{getSortIndicator('age-restriction')}</span>
         </th>
 
-        <th onclick={() => handleSort('multi-world')}>
+        <th class="multi-world" onclick={() => handleSort('multi-world')}>
           Multi-world?
           <span class="sort-direction">{getSortIndicator('multi-world')}</span>
         </th>
 
-        <th onclick={() => handleSort('status')}>
+        <th class="status" onclick={() => handleSort('status')}>
           Status
           <span class="sort-direction">{getSortIndicator('status')}</span>
         </th>
@@ -295,9 +295,9 @@
     <tbody>
       {#each filteredTalkers as talker}
         <tr>
-          <td><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
+          <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
 
-          <td>
+          <td class="address">
             {#if talker.isConnectable}
               <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
             {:else}
@@ -305,28 +305,28 @@
             {/if}
           </td>
 
-          <td class={talker.codebase ? 'codebase' : 'unknown'}>
+          <td class={talker.codebase ? 'codebase' : 'codebase unknown'}>
             {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
           </td>
 
-          <td class={talker.ageRestriction ? 'age-restriction' : 'unknown'}>
+          <td class={talker.ageRestriction ? 'age-restriction' : 'age-restriction unknown'}>
             {talker.ageRestriction ?? 'Any'}
           </td>
 
-          <td class={talker.multiWorld ? 'multi-world' : 'unknown'}>
+          <td class={talker.multiWorld ? 'multi-world' : 'multi-world unknown'}>
             {talker.multiWorld ? 'Yes' : 'No'}
           </td>
 
           {#if loading}
-            <td class="status-loading">...</td>
+            <td class="status status-loading">...</td>
           {:else}
             {#if talker.isConnectable}
-              <td class="status-up">UP</td>
+              <td class="status status-up">UP</td>
             {:else}
               {#if talker.isClosed}
-                <td class="status-closed">CLOSED</td>
+                <td class="status status-closed">CLOSED</td>
               {:else}
-                <td class="status-down">DOWN</td>
+                <td class="status status-down">DOWN</td>
               {/if}
             {/if}
           {/if}
@@ -339,6 +339,7 @@
 <style>
   section {
     max-width: 60rem;
+    padding-block-start: 0;
   }
 
   h2 {
@@ -387,101 +388,102 @@
   }
 
   fieldset {
-    padding-inline-start: 2rem;
-    padding-inline-end: 2rem;
-    padding-block-start: 2rem;
-    padding-block-end: 2rem;
-    border-width: 0;
-    background-color: var(--card-background-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
-    &.filters {
-      justify-content: space-between;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-block-start: 1.5rem;
+    padding-block-end: 2rem;
+    border-width: 0;
+    background-color: var(--card-background-color);
+    gap: 0.75rem;
+
+    div {
+      text-align: right;
     }
-
-    + fieldset {
-      padding-block-start: 0;
-    }
-  }
-
-  [type=checkbox] {
-    opacity: 0;
-	  height: 0;
-	  width: 0;
-  }
-
-  .show-closed-talkers:focus-within {
-    outline: medium auto currentColor;
   }
 
   label:after {
     content: ':';
   }
 
-  label[for=show-closed-talkers-toggle] {
-	  cursor: pointer;
-	  width: 40px;
-	  height: 16px;
-	  background-color: var(--toggle-track-color-off);
-	  display: block;
-	  border-radius: 25px;
-	  position: relative;
-    margin-inline-start: 16rem;
-    margin-block-start: 1rem;
-    text-indent: -16rem;
-
-    span {
-      position: absolute;
-      right: 0;
-      top: -4px;
-    }
-
-    &:after {
-      content: '';
-      position: absolute;
-      top: -2px;
-      left: 0;
-      width: 20px;
-      height: 20px;
-      background-color: var(--toggle-knob-color-off);
-      border-radius: 25px;
-      transition: 0.3s;
-    }
-  }
-
-  input:checked + label {
-	  background-color: var(--toggle-track-color-on);
-  }
-
-  input:checked + label:after {
-	  left: calc(100% + 3px);
-	  background-color: var(--toggle-knob-color-on);
-	  transform: translateX(-100%);
-  }
-
+  select,
+  option,
   input[type=text] {
-    width: 22rem;
-  }
-
-  .show-closed-talkers {
-    display: flex;
-    flex-direction: column;
-  }
-
-  @media (min-width: 660px) {
-    fieldset {
-      flex-direction: row;
-    }
-
-    label[for=show-closed-talkers-toggle] {
-      margin-inline-start: 0;
-      margin-block-start: 0;
-    }
+    width: 14rem;
   }
 
   strong {
     font-size: 1.25em;
+  }
+
+  th, td {
+    &.address {
+      display: none;
+    }
+
+    &.codebase {
+      display: none;
+    }
+
+    &.age-restriction {
+      display: none;
+    }
+
+    &.multi-world {
+      display: none;
+    }
+  }
+
+  @media (min-width: 660px) {
+    section {
+      padding-block-start: 1rem;
+    }
+
+    fieldset {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    select,
+    option,
+    input[type=text] {
+      width: auto;
+    }
+
+  }
+
+  @media (min-width: 600px) {
+    th, td {
+      &.address {
+        display: table-cell;
+      }
+    }
+  }
+
+  @media (min-width: 770px) {
+    th, td {
+      &.codebase {
+        display: table-cell;
+      }
+    }
+  }
+
+  @media (min-width: 880px) {
+    th, td {
+      &.age-restriction {
+        display: table-cell;
+      }
+    }
+  }
+
+  @media (min-width: 950px) {
+    th, td {
+      &.multi-world {
+        display: table-cell;
+      }
+    }
   }
 </style>
