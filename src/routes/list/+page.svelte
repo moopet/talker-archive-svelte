@@ -25,7 +25,29 @@
     allTalkers
       .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
-      .filter(x => !ageFilter || x.ageFilter === ageFilter)
+      .filter(x => {
+        if (!ageFilter) {
+          return true;
+        }
+
+        if (!x.ageRestriction) {
+          return false;
+        }
+
+        if (ageFilter === 'child') {
+          return x.ageRestriction === 'all-age';
+        }
+
+        if (ageFilter === '13') {
+          return x.ageRestriction === '13+';
+        }
+
+        if (ageFilter === '18') {
+          return x.ageRestriction === '18+';
+        }
+
+        return false;
+      })
       .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable))
   );
 
@@ -224,8 +246,8 @@
       <select bind:value={ageFilter} id="age-filter">
         <option value="">- Any -</option>
         <option value="child">Child-friendly</option>
-        <option value="13+">13+</option>
-        <option value="18+">Adult (18+)</option>
+        <option value="13">13+</option>
+        <option value="18">Adult (18+)</option>
       </select>
     </div>
 
@@ -394,7 +416,7 @@
 
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
-    padding-block-start: 1.5rem;
+    padding-block-start: 2rem;
     padding-block-end: 2rem;
     border-width: 0;
     background-color: var(--card-background-color);
