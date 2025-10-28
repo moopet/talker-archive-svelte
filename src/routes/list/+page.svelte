@@ -18,8 +18,8 @@
   let ageFilter: string = $state('');
   let statusFilter: string = $state('');
 
-  let allTalkers = $state(getTalkers());
-  let activeTalkers = $state([]);
+  let allTalkers: Talker[] = $state(getTalkers());
+  let activeTalkers: Talker[] = $state([]);
 
   let filteredTalkers = $derived(
     allTalkers
@@ -394,7 +394,7 @@
   }
 
   .status-down {
-    color: var(--status-defunct-background-color);
+    background-color: var(--status-defunct-background-color);
   }
 
   td span {
@@ -442,6 +442,8 @@
   }
 
   th, td {
+    vertical-align: top;
+
     &.address {
       display: none;
     }

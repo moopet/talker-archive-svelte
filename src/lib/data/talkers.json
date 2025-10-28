@@ -259,23 +259,12 @@
       "platform": "Unix-like"
     },
     {
-      "shortName": "vagrant",
-      "name": "VagraNT",
-      "description": "A talker running as a Windows NT service",
-      "platform": "Windows NT",
-      "language": "C"
-    },
-    {
       "shortName": "ice",
       "name": "ICE"
     },
     {
       "shortName": "frontiers",
       "name": "Frontiers"
-    },
-    {
-      "shortName": "republic",
-      "name": "Republic"
     },
     {
       "shortName": "haven",
@@ -294,16 +283,8 @@
       "name": "Ztalker"
     },
     {
-      "shortName": "darkrealm",
-      "name": "DarkRealm"
-    },
-    {
       "shortName": "rivendel",
       "name": "Rivendel"
-    },
-    {
-      "shortName": "http",
-      "name": "HTTP Chat"
     },
     {
       "shortName": "exile",
@@ -372,14 +353,6 @@
       "platform": "Unix-like"
     },
     {
-      "shortName": "retrobar",
-      "name": "RetroBar"
-    },
-    {
-      "shortName": "sm",
-      "name": "SM"
-    },
-    {
       "shortName": "tombstone",
       "name": "Tombstone",
       "family": "ewtoo",
@@ -399,21 +372,6 @@
       "name": "rNUTS",
       "family": "nuts",
       "language": "C",
-      "platform": "Unix-like"
-    },
-    {
-      "shortName": "talkernode",
-      "repo": "https://github.com/talkersource/TalkerNode",
-      "name": "TalkerNode",
-      "language": "JavaScript",
-      "platform": "Any"
-    },
-    {
-      "shortName": "bolts",
-      "repo": "https://github.com/talkersource/bolts",
-      "name": "BOLTS",
-      "language": "C",
-      "family": "nuts",
       "platform": "Unix-like"
     },
     {
@@ -487,10 +445,6 @@
       "name": "VINTS",
       "platform": "Unix-like",
       "language": "C"
-    },
-    {
-      "shortName": "custom",
-      "name": "Custom"
     }
   ],
   "multiWorlds": [

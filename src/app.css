@@ -29,7 +29,7 @@
   --border-color: rgba(0, 0, 0, 0.1);
   --color-inactive: rgba(0, 0, 0, 0.3);
   --input-background-color: rgba(0, 0, 0, 0.1);
-  --status-defunct-background-color: rgba(255, 0, 0, 0.7);
+  --status-defunct-background-color: rgb(255, 50, 50);
   --status-defunct-color: #222;
   --status-active-background-color: rgba(0, 255, 0, 0.7);
   --status-active-color: #222;
