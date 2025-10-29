@@ -7,19 +7,18 @@
   import TalkerCard from '$lib/components/TalkerCard.svelte';
 
   const DEFAULT_VIEW_MODE = 'list';
-
-  type SortDirection = 'asc' | 'desc' | null;
-
-  let sortKey: SortKey | null = null;
-  let sortDirection: SortDirection = null;
+  const DEFAULT_SORT_KEY = 'name';
+  const DEFAULT_SORT_DIRECTION = 'asc';
 
   let loading: boolean = $state(true);
   let error: string = $state('');
   let lastCheckedDate = $state(null);
   let codebaseFilter: string = $state('');
-  let searchFilter: string = $state(null);
+  let searchFilter: string = $state('');
   let ageFilter: string = $state('');
-  let statusFilter: string = $state('');
+  let statusFilter: string = $state('open');
+  let sortKey: string = $state(DEFAULT_SORT_KEY);
+  let sortDirection: string = $state(DEFAULT_SORT_DIRECTION);
   let viewMode: string = $state(DEFAULT_VIEW_MODE);
 
   let allTalkers: Talker[] = $state(getTalkers());
@@ -53,29 +52,7 @@
     allTalkers
       .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
-      .filter(x => {
-        if (!ageFilter) {
-          return true;
-        }
-
-        if (!x.ageRestriction) {
-          return false;
-        }
-
-        if (ageFilter === 'child') {
-          return x.ageRestriction === 'all-age';
-        }
-
-        if (ageFilter === '13') {
-          return x.ageRestriction === '13+';
-        }
-
-        if (ageFilter === '18') {
-          return x.ageRestriction === '18+';
-        }
-
-        return false;
-      })
+      .filter(x => !ageFilter || x.ageRestriction === ageFilter)
       .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable))
   );
 
@@ -85,7 +62,7 @@
         return '↑';
       }
 
-      if (sortDirection == 'asc') {
+      if (sortDirection == 'desc') {
         return '↓';
       }
     }
@@ -93,14 +70,9 @@
     return '⇵';
   };
 
-  const handleSort = (key: string): void => {
-    if (sortKey === key) {
-      sortDirection = sortDirection === 'asc' ? 'desc' : 
-                      sortDirection === 'desc' ? null : 'asc';
-    }
-    else {
-      sortKey = key;
-      sortDirection = 'asc';
+  const handleSort = (key: string, toggleDirection: boolean = true): void => {
+    if (sortKey === key && toggleDirection) {
+      sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
     }
 
     switch (key) {
@@ -109,7 +81,7 @@
           const aSlug: string = (a.slug ?? getSlug(a.name)).replace('_', '');
           const bSlug: string = (b.slug ?? getSlug(b.name)).replace('_', '');
 
-          if (sortDirection === 'asc') {
+          if (sortDirection === 'desc') {
             return bSlug.localeCompare(aSlug);
           }
 
@@ -122,7 +94,7 @@
           const aAddress: string = a.hostname ? `${a.hostname}{a.port}` : '';
           const bAddress: string = b.hostname ? `${b.hostname}{b.port}` : '';
 
-          if (sortDirection === 'asc') {
+          if (sortDirection === 'desc') {
             return bAddress.localeCompare(aAddress);
           }
 
@@ -135,7 +107,7 @@
           const aCodebase: string = a.codebase ?? '';
           const bCodebase: string = b.codebase ?? '';
 
-          if (sortDirection === 'asc') {
+          if (sortDirection === 'desc') {
             return bCodebase.localeCompare(aCodebase);
           }
 
@@ -236,6 +208,13 @@
             talker.hostname = match.hostname;
             talker.port = match.port;
           }
+          else if (!talker.isClosed) {
+            const firstAvailableHost = talker.hosts.find(h => !h?.blocked);
+
+            talker.isConnectable = false;
+            talker.hostname = firstAvailableHost.hostname;
+            talker.port = firstAvailableHost.port;
+          }
         });
     } catch (err) {
       error = err.message;
@@ -276,9 +255,9 @@
       <label for="age-filter">Age restriction</label>
       <select bind:value={ageFilter} id="age-filter" oninput={saveSettings} >
         <option value="">- Any -</option>
-        <option value="child">Child-friendly</option>
-        <option value="13">13+</option>
-        <option value="18">Adult (18+)</option>
+        <option value="all-age">Child-friendly</option>
+        <option value="13+">13+</option>
+        <option value="18+">Adult (18+)</option>
       </select>
     </div>
 
@@ -305,19 +284,19 @@
   <fieldset>
     <div class="sort-key">
       <label for="sort-key">Sort by</label>
-      <select bind:value={sortKey} id="sort-key" oninput={saveSettings} >
+      <select bind:value={sortKey} id="sort-key" oninput={(e) => handleSort(e.target.value, false)}>
         <option value="name">Name</option>
         <option value="address">Address</option>
-        <option value="ageRestriction">Age restriction</option>
+        <option value="age-restriction">Age restriction</option>
         <option value="codebase">Codebase</option>
-        <option value="multiWorld">Multi-world</option>
+        <option value="multi-world">Multi-world</option>
         <option value="status">Status</option>
       </select>
     </div>
 
     <div class="sort-direction">
       <label for="sort-direction">Order</label>
-      <select bind:value={sortDirection} id="sort-direction" oninput={saveSettings} >
+      <select bind:value={sortDirection} id="sort-direction" oninput={(e) => handleSort(sortKey)}>
         <option value="asc">Ascending</option>
         <option value="desc">Descending</option>
       </select>
@@ -388,7 +367,7 @@
             <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
 
             <td class="address">
-              {#if talker.isConnectable}
+              {#if talker.hostname}
                 <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
               {:else}
                 <span>n/a</span>
