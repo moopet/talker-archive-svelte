@@ -4,6 +4,7 @@
   import { formatDistanceToNow } from 'date-fns';
   import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
+  import TalkerCard from '$lib/components/TalkerCard.svelte';
 
   type SortDirection = 'asc' | 'desc' | null;
 
@@ -17,6 +18,7 @@
   let searchFilter: string = $state(null);
   let ageFilter: string = $state('');
   let statusFilter: string = $state('');
+  let viewMode: string = $state('list');
 
   let allTalkers: Talker[] = $state(getTalkers());
   let activeTalkers: Talker[] = $state([]);
@@ -269,6 +271,14 @@
         <option value="connectable">Connectable</option>
       </select>
     </div>
+
+    <div class="view-mode">
+      <label for="view-mode">View as</label>
+      <select bind:value={viewMode} id="view-mode">
+        <option value="grid">Grid</option>
+        <option value="list">List</option>
+      </select>
+    </div>
   </fieldset>
 
   <p>
@@ -279,88 +289,96 @@
     {/if}
   </p>
 
-  <table>
-    <thead>
-      <tr>
-        <th class="name" onclick={() => handleSort('name')}>
-          Name
-          <span class="sort-direction">{getSortIndicator('name')}</span>
-        </th>
-
-        <th class="address" onclick={() => handleSort('address')}>
-          Address
-          <span class="sort-direction">{getSortIndicator('address')}</span>
-        </th>
-
-        <th class="codebase" onclick={() => handleSort('codebase')}>
-          Codebase
-          <span class="sort-direction">{getSortIndicator('codebase')}</span>
-        </th>
-
-        <th class="age-restriction" onclick={() => handleSort('age-restriction')}>
-          Ages
-          <span class="sort-direction">{getSortIndicator('age-restriction')}</span>
-        </th>
-
-        <th class="multi-world" onclick={() => handleSort('multi-world')}>
-          Multi-world?
-          <span class="sort-direction">{getSortIndicator('multi-world')}</span>
-        </th>
-
-        <th class="status" onclick={() => handleSort('status')}>
-          Status
-          <span class="sort-direction">{getSortIndicator('status')}</span>
-        </th>
-      </tr>
-    </thead>
-
-    <tbody>
-      {#each filteredTalkers as talker}
+  {#if viewMode === 'grid'}
+    <ol>
+      {#each filteredTalkers as talker: Talker, index (index)}
+        <li><TalkerCard {talker} /></li>
+      {/each}
+    </ol>
+  {:else}
+    <table>
+      <thead>
         <tr>
-          <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
+          <th class="name" onclick={() => handleSort('name')}>
+            Name
+            <span class="sort-direction">{getSortIndicator('name')}</span>
+          </th>
 
-          <td class="address">
-            {#if talker.isConnectable}
-              <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
-            {:else}
-              <span>n/a</span>
-            {/if}
-          </td>
+          <th class="address" onclick={() => handleSort('address')}>
+            Address
+            <span class="sort-direction">{getSortIndicator('address')}</span>
+          </th>
 
-          <td class={talker.codebase ? 'codebase' : 'codebase unknown'}>
-            {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
-          </td>
+          <th class="codebase" onclick={() => handleSort('codebase')}>
+            Codebase
+            <span class="sort-direction">{getSortIndicator('codebase')}</span>
+          </th>
 
-          <td class={talker.ageRestriction ? 'age-restriction' : 'age-restriction unknown'}>
-            {talker.ageRestriction ?? 'Any'}
-          </td>
+          <th class="age-restriction" onclick={() => handleSort('age-restriction')}>
+            Ages
+            <span class="sort-direction">{getSortIndicator('age-restriction')}</span>
+          </th>
 
-          <td class={talker.multiWorld ? 'multi-world' : 'multi-world unknown'}>
-            {talker.multiWorld ? 'Yes' : 'No'}
-          </td>
+          <th class="multi-world" onclick={() => handleSort('multi-world')}>
+            Multi-world?
+            <span class="sort-direction">{getSortIndicator('multi-world')}</span>
+          </th>
 
-          {#if loading}
-            <td class="status status-loading">...</td>
-          {:else}
-            {#if talker.isConnectable}
-              <td class="status status-up">UP</td>
-            {:else}
-              {#if talker.isClosed}
-                <td class="status status-closed">CLOSED</td>
+          <th class="status" onclick={() => handleSort('status')}>
+            Status
+            <span class="sort-direction">{getSortIndicator('status')}</span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {#each filteredTalkers as talker}
+          <tr>
+            <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
+
+            <td class="address">
+              {#if talker.isConnectable}
+                <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
               {:else}
-                <td class="status status-down">DOWN</td>
+                <span>n/a</span>
+              {/if}
+            </td>
+
+            <td class={talker.codebase ? 'codebase' : 'codebase unknown'}>
+              {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
+            </td>
+
+            <td class={talker.ageRestriction ? 'age-restriction' : 'age-restriction unknown'}>
+              {talker.ageRestriction ?? 'Any'}
+            </td>
+
+            <td class={talker.multiWorld ? 'multi-world' : 'multi-world unknown'}>
+              {talker.multiWorld ? 'Yes' : 'No'}
+            </td>
+
+            {#if loading}
+              <td class="status status-loading">...</td>
+            {:else}
+              {#if talker.isConnectable}
+                <td class="status status-up">UP</td>
+              {:else}
+                {#if talker.isClosed}
+                  <td class="status status-closed">CLOSED</td>
+                {:else}
+                  <td class="status status-down">DOWN</td>
+                {/if}
               {/if}
             {/if}
-          {/if}
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  {/if}
 </section>
 
 <style>
   section {
-    max-width: 60rem;
+    max-width: 70rem;
     padding-block-start: 0;
   }
 
@@ -509,5 +527,24 @@
         display: table-cell;
       }
     }
+  }
+
+  ol {
+    padding-inline-start: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  @media(min-width: 1100px) {
+    ol {
+      justify-content: space-between;
+    }
+  }
+
+  li {
+    list-style-type: none;
+    margin-block-end: 1rem;
   }
 </style>
