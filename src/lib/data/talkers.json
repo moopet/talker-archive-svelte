@@ -15226,17 +15226,6 @@
       ]
     },
     {
-      "name": "Castle Corners",
-      "dataOrigins": ["tdf"],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 6789
-        }
-      ]
-    },
-    {
       "name": "Ice Fire",
       "dataOrigins": ["tdf"],
       "hosts": [
