@@ -6,6 +6,8 @@
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
   import TalkerCard from '$lib/components/TalkerCard.svelte';
 
+  const DEFAULT_VIEW_MODE = 'list';
+
   type SortDirection = 'asc' | 'desc' | null;
 
   let sortKey: SortKey | null = null;
@@ -18,10 +20,34 @@
   let searchFilter: string = $state(null);
   let ageFilter: string = $state('');
   let statusFilter: string = $state('');
-  let viewMode: string = $state('list');
+  let viewMode: string = $state(DEFAULT_VIEW_MODE);
 
   let allTalkers: Talker[] = $state(getTalkers());
   let activeTalkers: Talker[] = $state([]);
+
+  const loadSettings = (): void => {
+    const settings = JSON.parse(window.localStorage.getItem('filters'), '{}');
+
+    codebaseFilter = settings?.codebaseFilter ?? '';
+    searchFilter = settings?.searchFilter ?? '';
+    ageFilter = settings?.ageFilter ?? '';
+    statusFilter = settings?.statusFilter ?? '';
+    viewMode = settings?.viewMode ?? DEFAULT_VIEW_MODE;
+    sortDirection = settings?.sortDirection ?? null;
+    sortKey = settings?.sortKey ?? null;
+  };
+
+  const saveSettings = (): void => {
+    window.localStorage.setItem('filters', JSON.stringify({
+      codebaseFilter,
+      searchFilter,
+      ageFilter,
+      statusFilter,
+      viewMode,
+      sortDirection,
+      sortKey
+    }));
+  };
 
   let filteredTalkers = $derived(
     allTalkers
@@ -177,6 +203,8 @@
       default:
         break;
     }
+
+    saveSettings();
   };
 
   async function highlightActiveTalkers() {
@@ -218,6 +246,7 @@
 
   onMount(() => {
    highlightActiveTalkers();
+   loadSettings();
   });
 </script>
 
@@ -240,12 +269,12 @@
   <fieldset class="filters">
     <div class="search">
       <label for="search-filter">Name</label>
-      <input type="text" bind:value={searchFilter} id="search-filter" />
+      <input type="text" bind:value={searchFilter} id="search-filter" oninput={saveSettings} />
     </div>
 
     <div class="age">
-      <label for="age-filter">Age</label>
-      <select bind:value={ageFilter} id="age-filter">
+      <label for="age-filter">Age restriction</label>
+      <select bind:value={ageFilter} id="age-filter" oninput={saveSettings} >
         <option value="">- Any -</option>
         <option value="child">Child-friendly</option>
         <option value="13">13+</option>
@@ -255,7 +284,7 @@
 
     <div class="codebase">
       <label for="codebase-filter">Codebase</label>
-      <select bind:value={codebaseFilter} id="codebase-filter">
+      <select bind:value={codebaseFilter} id="codebase-filter" oninput={saveSettings} >
         <option value="">- Any -</option>
         {#each getCodebases() as codebase}
           <option value={codebase.shortName}>{codebase.name}</option>
@@ -265,16 +294,38 @@
 
     <div class="status">
       <label for="status-filter">Status</label>
-      <select bind:value={statusFilter} id="status-filter">
+      <select bind:value={statusFilter} id="status-filter" oninput={saveSettings} >
         <option value="">- Any -</option>
         <option value="open">Potentially open</option>
         <option value="connectable">Connectable</option>
       </select>
     </div>
+  </fieldset>
+
+  <fieldset>
+    <div class="sort-key">
+      <label for="sort-key">Sort by</label>
+      <select bind:value={sortKey} id="sort-key" oninput={saveSettings} >
+        <option value="name">Name</option>
+        <option value="address">Address</option>
+        <option value="ageRestriction">Age restriction</option>
+        <option value="codebase">Codebase</option>
+        <option value="multiWorld">Multi-world</option>
+        <option value="status">Status</option>
+      </select>
+    </div>
+
+    <div class="sort-direction">
+      <label for="sort-direction">Order</label>
+      <select bind:value={sortDirection} id="sort-direction" oninput={saveSettings} >
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+      </select>
+    </div>
 
     <div class="view-mode">
       <label for="view-mode">View as</label>
-      <select bind:value={viewMode} id="view-mode">
+      <select bind:value={viewMode} id="view-mode" oninput={saveSettings} >
         <option value="grid">Grid</option>
         <option value="list">List</option>
       </select>
@@ -434,19 +485,35 @@
 
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
-    padding-block-start: 2rem;
-    padding-block-end: 2rem;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
     border-width: 0;
     background-color: var(--card-background-color);
     gap: 0.75rem;
 
     div {
       text-align: right;
+      flex-grow: 0;
+    }
+
+    + fieldset {
+      justify-content: flex-end;
+      padding-block-start: 0;
+      padding-block-end: 1.5rem;
+
+      div {
+        flex-grow: 0;
+      }
     }
   }
 
-  label:after {
-    content: ':';
+  label {
+    display: inline-block;
+    margin-block-end: 0.25rem;
+
+    &:after {
+      content: ':';
+    }
   }
 
   select,
@@ -487,12 +554,21 @@
     fieldset {
       flex-direction: row;
       justify-content: space-between;
+
+      div {
+        text-align: left;
+        text-indent: 2px;
+      }
+
+      + fieldset {
+        gap: 2rem;
+      }
     }
 
     select,
     option,
     input[type=text] {
-      width: auto;
+      width: 100%;
     }
 
   }
