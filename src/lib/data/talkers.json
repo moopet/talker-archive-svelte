@@ -4375,6 +4375,15 @@
     {
       "name": "The Bottomless Pit",
       "codebase": "pgplus",
+      "admins": [
+        "Ginny",
+        "Trinity"
+      ],
+      "coders": [
+        "DarkGoddess",
+        "Ghostrider",
+        "enyc"
+      ],
       "screencaps": [
         "login/pit.enyc.org.uk_7422.png"
       ],
