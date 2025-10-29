@@ -4293,6 +4293,12 @@
     {
       "name": "The Bottomless Pit",
       "codebase": "pgplus",
+      "screencaps": [
+        "login/pit.enyc.org.uk_7422.png"
+      ],
+      "textcaps": [
+        "login/pit.enyc.org.uk_7422.txt"
+      ],
       "hosts": [
         {
           "hostname": "pit.enyc.org.uk",
