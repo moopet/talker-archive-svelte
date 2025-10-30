@@ -6,7 +6,7 @@
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
   import TalkerCard from '$lib/components/TalkerCard.svelte';
 
-  const DEFAULT_VIEW_MODE = 'list';
+  const DEFAULT_VIEW_MODE = 'grid';
   const DEFAULT_SORT_KEY = 'name';
   const DEFAULT_SORT_DIRECTION = 'asc';
 
@@ -17,6 +17,7 @@
   let searchFilter: string = $state('');
   let ageFilter: string = $state('');
   let statusFilter: string = $state('open');
+  let screencapFilter: string = $state('hide');
   let sortKey: string = $state(DEFAULT_SORT_KEY);
   let sortDirection: string = $state(DEFAULT_SORT_DIRECTION);
   let viewMode: string = $state(DEFAULT_VIEW_MODE);
@@ -53,7 +54,8 @@
       .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
       .filter(x => !ageFilter || x.ageRestriction === ageFilter)
-      .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable))
+      .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable) || (statusFilter === 'down' && !x.isClosed && !x.isConnectable))
+      .filter(x => screencapFilter === 'show' || x.screencaps)
   );
 
   const getSortIndicator = (key: string): string => {
@@ -275,6 +277,7 @@
       <label for="status-filter">Status</label>
       <select bind:value={statusFilter} id="status-filter" oninput={saveSettings} >
         <option value="">- Any -</option>
+        <option value="down">Offline</option>
         <option value="open">Potentially open</option>
         <option value="connectable">Connectable</option>
       </select>
@@ -282,6 +285,14 @@
   </fieldset>
 
   <fieldset>
+    <div class="screencaps">
+      <label for="screencap-filter">Pictures</label>
+      <select bind:value={screencapFilter} id="screencap-filter" oninput={(e) => handleSort(sortKey, false)} disabled={viewMode === 'list'}>
+        <option value="hide">Hide talkers without pictures</option>
+        <option value="show">Show talkers without pictures</option>
+      </select>
+    </div>
+
     <div class="sort-key">
       <label for="sort-key">Sort by</label>
       <select bind:value={sortKey} id="sort-key" oninput={(e) => handleSort(e.target.value, false)}>
@@ -601,5 +612,13 @@
   li {
     list-style-type: none;
     margin-block-end: 1rem;
+  }
+  
+  .screencaps {
+    transition: opacity 0.3s;
+
+    &:has([disabled]) {
+      opacity: 0;
+    }
   }
 </style>
