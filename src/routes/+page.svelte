@@ -332,7 +332,7 @@
 
   {#if viewMode === 'grid'}
     <ol>
-      {#each filteredTalkers as talker: Talker, index (index)}
+      {#each filteredTalkers as talker: Talker, index (`${talker.slug ?? talker.name}`)}
         <li><TalkerCard {talker} /></li>
       {/each}
     </ol>
