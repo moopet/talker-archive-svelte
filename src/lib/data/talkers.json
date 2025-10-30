@@ -4650,8 +4650,11 @@
     {
       "name": "The Dating Game",
       "description": "100% more cheese than other talkers ...",
-      "daataOrigin": "galaxy",
-      "codebase": "tdg",
+      "dataOrigins": ["galaxy", "homepage"],
+      "codebase": "nuts",
+      "coders": [
+        "JamesRC"
+      ],
       "screencaps": [
         "login/the-dating-game_5959.png"
       ],
@@ -4674,6 +4677,7 @@
           "port": 5959
         },
         {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 5959
         }
