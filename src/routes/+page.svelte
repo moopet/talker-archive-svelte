@@ -297,17 +297,17 @@
       <label for="sort-key">Sort by</label>
       <select bind:value={sortKey} id="sort-key" oninput={(e) => handleSort(e.target.value, false)}>
         <option value="name">Name</option>
-        <option value="address">Address</option>
-        <option value="age-restriction">Age restriction</option>
-        <option value="codebase">Codebase</option>
-        <option value="multi-world">Multi-world</option>
+        <option value="address" disabled={viewMode === 'grid'}>Address</option>
+        <option value="age-restriction" disabled={viewMode === 'grid'}>Age restriction</option>
+        <option value="codebase" disabled={viewMode === 'grid'}>Codebase</option>
+        <option value="multi-world" disabled={viewMode === 'grid'}>Multi-world</option>
         <option value="status">Status</option>
       </select>
     </div>
 
     <div class="sort-direction">
       <label for="sort-direction">Order</label>
-      <select bind:value={sortDirection} id="sort-direction" oninput={(e) => handleSort(sortKey)}>
+      <select bind:value={sortDirection} id="sort-direction" oninput={() => handleSort(sortKey)}>
         <option value="asc">Ascending</option>
         <option value="desc">Descending</option>
       </select>
@@ -315,7 +315,7 @@
 
     <div class="view-mode">
       <label for="view-mode">View as</label>
-      <select bind:value={viewMode} id="view-mode" oninput={saveSettings} >
+      <select bind:value={viewMode} id="view-mode" oninput={() => handleSort(sortKey, false)} >
         <option value="grid">Grid</option>
         <option value="list">List</option>
       </select>
