@@ -12466,10 +12466,12 @@
       "description": "",
       "dataOrigins": ["talker.com", "talkernet"],
       "screencaps": [
-        "login/typotown.net_6666.png"
+        "login/typotown.net_6666.png",
+        "maps/typotown.map.png"
       ],
       "textcaps": [
-        "login/typotown.net_6666.txt"
+        "login/typotown.net_6666.txt",
+        "maps/typotown.map.txt"
       ],
       "resources": [
         {
