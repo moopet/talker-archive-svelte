@@ -489,6 +489,7 @@
     + fieldset {
       justify-content: flex-end;
       padding-block-start: 0;
+      border-block-start: 1px solid var(--border-color);
       padding-block-end: 1.5rem;
 
       div {
@@ -551,6 +552,7 @@
       }
 
       + fieldset {
+        padding-block-start: 0.5rem;
         gap: 2rem;
       }
     }
