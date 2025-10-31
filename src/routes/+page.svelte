@@ -57,7 +57,7 @@
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
       .filter(x => !ageFilter || x.ageRestriction === ageFilter)
       .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable) || (statusFilter === 'down' && !x.isClosed && !x.isConnectable))
-      .filter(x => screencapFilter === 'show' || x.screencaps)
+      .filter(x => screencapFilter === 'show' || x.screencaps || viewMode === 'list')
   );
 
   const getSortIndicator = (key: string): string => {
@@ -227,16 +227,13 @@
   }
 
   onMount(async () => {
-    console.log("onmount")
+    loadSettings();
+
     activeTalkersStore.subscribe(activeTalkerList => {
-    console.log("subscription event")
       if (activeTalkerList) {
         highlightActiveTalkers(activeTalkerList);
       }
-      console.log(activeTalkerList);
     });
-
-    loadSettings();
   });
 </script>
 
