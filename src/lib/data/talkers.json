@@ -567,6 +567,7 @@
       ],
       "dataOrigins": ["spodlist", "memory"],
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
+      "notes": "Mope ran on an IBM Thinkpad via a Bulldog ADSL connection in London. This was fast for consumer broadband at the time (the first to offer 2MB/512KB) but latency was an issue for users compared to more professionally-hosted talkers.<br>The name was a parody of \"Meep Towers\".",
       "codebase": "sensisummink",
       "screencaps": [
         "login/angst.mopemansions.org_2003.png"
@@ -665,9 +666,20 @@
     },
     {
       "name": "Atlantis",
+      "slug": "_atlantis",
+      "dataOrigins": ["spodlist"],
+      "disambiguation": "Not to be confused with <a href=\"/details/atlantis-ii\" data-sveltekit-reload>Atlantis II</a> or <a href=\"/details/atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
+      
+      "resources": [ ],
+      "hosts": []
+    },
+    {
+      "name": "Atlantis",
+      "slug": "atlantis",
+      "disambiguation": "Not to be confused with <a href=\"/details/atlantis-ii\" data-sveltekit-reload>Atlantis II</a> or <a href=\"/details/_atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
       "dataOrigins": ["spodlist", "memory"],
       "ewtooAbbr": "atl",
-      "notes": "Originally based on Sensi-Summink, but extended heavily, first by Swish, and then later by Muppet, Atlantis was a smaller talker with a core of regulars who were prepared to put up with a lot of sarcasm and in-jokes - but it still welcomed newbies if they didn't mind the \"relaxed rules\".",
+      "notes": "Originally based on Sensi-Summink, but extended heavily, first by Swish, and then later by Muppet, Atlantis was a smaller talker with a core of regulars who were prepared to put up with a lot of sarcasm and in-jokes - but it still welcomed newbies if they didn't mind the \"relaxed rules\".<br>For most of its existence, it was hosted on custard.org.",
       "codebase": "sensisummink",
       "resources": [
         {
@@ -738,6 +750,8 @@
     },
     {
       "name": "Atlantis II",
+      "slug": "atlantis-ii",
+      "disambiguation": "Not to be confused with either <a href=\"/details/atlantis\" data-sveltekit-reload>Atlantis</a> or <a href=\"/details/_atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
       "description": "This place is Atlantis-][, one of the best talkers on the net today. Atlantis has achieved this through the belief that our users make the talker what it is. Our Staff is always ready to assist you in any way they can. Over 1000 people daily come to chat there...",
       "codebase": "nuts",
       "location": "USA",
