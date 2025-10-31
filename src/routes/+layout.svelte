@@ -1,8 +1,11 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
+  import { onMount } from 'svelte';
   import { browser, dev } from '$app/environment';
   import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
   import { injectAnalytics } from '@vercel/analytics/sveltekit'
+  import { getActiveTalkers } from '$lib/client-active-talkers';
+  import { activeTalkersStore } from '$lib/stores/activeTalkers';
 
   injectSpeedInsights();
   injectAnalytics({ mode: dev ? 'development' : 'production' });
@@ -20,6 +23,15 @@
   };
 
 	let { children }: LayoutProps = $props();
+
+	onMount(async () => {
+    try {
+      const data = await getActiveTalkers();
+      activeTalkersStore.set(data);
+    } catch (err) {
+      console.error('Failed to load active talkers:', err);
+    }
+  });
 </script>
 
 <Header />

@@ -3990,6 +3990,9 @@
       "description": "A friendly place to chitchat.<br>Scarlet is a medieval themed talker that has been running for around 8 years now.<br>The chat comes from our wide and ever growing user base. Scarlet has over 100 users, from different backgrounds and countries. Everyone is welcome to join in, which makes the topic of conversation diverse and always interesting.<br>Scarlet has lots of fun features including, Objects, Socials, Internal/External emails, Ranks and privs and bots. ",
       "notes": "Although not a mud Scarlet is a talker that mudders may enjoy, many of members do mud on a regular basis.",
       "dataOrigins": ["spodlist"],
+      "coders": [
+        "david"
+      ],
       "admins": [
         "Goolies"
       ],
@@ -4000,12 +4003,13 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "scarlet-citadel.co.uk"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20060829112433/http://www.scarlet-citadel.co.uk/"
         }
       ],
       "hosts": [
         {
+          "blocked": true,
           "hostname": "scarlet-citadel.co.uk",
           "port": 2000
         },

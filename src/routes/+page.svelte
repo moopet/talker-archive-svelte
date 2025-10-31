@@ -2,8 +2,9 @@
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
-  import { getActiveTalkers, getTalkerSlug } from '$lib/utils.ts';
+  import { getTalkerSlug } from '$lib/utils.ts';
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
+  import { getActiveTalkers, activeTalkersStore } from '$lib/stores/activeTalkers';
   import TalkerCard from '$lib/components/TalkerCard.svelte';
 
   const DEFAULT_VIEW_MODE = 'grid';
@@ -38,6 +39,7 @@
   };
 
   const saveSettings = (): void => {
+  console.log("saving settings");
     window.localStorage.setItem('filters', JSON.stringify({
       codebaseFilter,
       searchFilter,
@@ -181,14 +183,11 @@
     saveSettings();
   };
 
-  async function highlightActiveTalkers() {
-    loading = true;
-
+  const highlightActiveTalkers = (activeTalkerList) => {
+        console.log("highlighting")
     try {
-      const results = await getActiveTalkers();
-
-      activeTalkers = results.talkers;
-      lastCheckedDate = new Date(results.dateChecked);
+      activeTalkers = activeTalkerList.talkers;
+      lastCheckedDate = new Date(activeTalkerList.dateChecked);
 
       const activeTalkerNames = activeTalkers.map(talker => talker.name);
 
@@ -218,6 +217,8 @@
             talker.port = firstAvailableHost.port;
           }
         });
+
+      error = '';
     } catch (err) {
       error = err.message;
     }
@@ -225,9 +226,17 @@
     loading = false;
   }
 
-  onMount(() => {
-   highlightActiveTalkers();
-   loadSettings();
+  onMount(async () => {
+    console.log("onmount")
+    activeTalkersStore.subscribe(activeTalkerList => {
+    console.log("subscription event")
+      if (activeTalkerList) {
+        highlightActiveTalkers(activeTalkerList);
+      }
+      console.log(activeTalkerList);
+    });
+
+    loadSettings();
   });
 </script>
 
@@ -237,6 +246,7 @@
   {#if error}
     <p class="error">There was an error fetching the data.</p>
 
+    <p>{error}</p>
     <p>
       Sorry, it looks like the connectivity checker service is offline at the moment.<br>
       Come back and try again later or pester the maintainer, if you can find them.
@@ -250,12 +260,12 @@
   <fieldset class="filters">
     <div class="search">
       <label for="search-filter">Name</label>
-      <input type="text" bind:value={searchFilter} id="search-filter" oninput={saveSettings} />
+      <input type="text" bind:value={searchFilter} id="search-filter" onchange={saveSettings} />
     </div>
 
     <div class="age">
       <label for="age-filter">Age restriction</label>
-      <select bind:value={ageFilter} id="age-filter" oninput={saveSettings} >
+      <select bind:value={ageFilter} id="age-filter" onchange={saveSettings} >
         <option value="">- Any -</option>
         <option value="all-age">Child-friendly</option>
         <option value="13+">13+</option>
@@ -265,7 +275,7 @@
 
     <div class="codebase">
       <label for="codebase-filter">Codebase</label>
-      <select bind:value={codebaseFilter} id="codebase-filter" oninput={saveSettings} >
+      <select bind:value={codebaseFilter} id="codebase-filter" onchange={saveSettings} >
         <option value="">- Any -</option>
         {#each getCodebases() as codebase}
           <option value={codebase.shortName}>{codebase.name}</option>
@@ -275,7 +285,7 @@
 
     <div class="status">
       <label for="status-filter">Status</label>
-      <select bind:value={statusFilter} id="status-filter" oninput={saveSettings} >
+      <select bind:value={statusFilter} id="status-filter" onchange={saveSettings} >
         <option value="">- Any -</option>
         <option value="down">Offline</option>
         <option value="open">Potentially open</option>
@@ -287,7 +297,7 @@
   <fieldset>
     <div class="screencaps">
       <label for="screencap-filter">Pictures</label>
-      <select bind:value={screencapFilter} id="screencap-filter" oninput={(e) => handleSort(sortKey, false)} disabled={viewMode === 'list'}>
+      <select bind:value={screencapFilter} id="screencap-filter" onchange={(e) => handleSort(sortKey, false)} disabled={viewMode === 'list'}>
         <option value="hide">Hide talkers without pictures</option>
         <option value="show">Show talkers without pictures</option>
       </select>
@@ -295,7 +305,7 @@
 
     <div class="sort-key">
       <label for="sort-key">Sort by</label>
-      <select bind:value={sortKey} id="sort-key" oninput={(e) => handleSort(e.target.value, false)}>
+      <select bind:value={sortKey} id="sort-key" onchange={(e) => handleSort(e.target.value, false)}>
         <option value="name">Name</option>
         <option value="address" disabled={viewMode === 'grid'}>Address</option>
         <option value="age-restriction" disabled={viewMode === 'grid'}>Age restriction</option>
@@ -307,7 +317,7 @@
 
     <div class="sort-direction">
       <label for="sort-direction">Order</label>
-      <select bind:value={sortDirection} id="sort-direction" oninput={() => handleSort(sortKey)}>
+      <select bind:value={sortDirection} id="sort-direction" onchange={() => handleSort(sortKey)}>
         <option value="asc">Ascending</option>
         <option value="desc">Descending</option>
       </select>
@@ -315,7 +325,7 @@
 
     <div class="view-mode">
       <label for="view-mode">View as</label>
-      <select bind:value={viewMode} id="view-mode" oninput={() => handleSort(sortKey, false)} >
+      <select bind:value={viewMode} id="view-mode" onchange={() => handleSort(sortKey, false)} >
         <option value="grid">Grid</option>
         <option value="list">List</option>
       </select>
