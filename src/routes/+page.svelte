@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { PageProps } from './$types';
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
@@ -10,6 +11,10 @@
   const DEFAULT_VIEW_MODE = 'grid';
   const DEFAULT_SORT_KEY = 'name';
   const DEFAULT_SORT_DIRECTION = 'asc';
+  const DEFAULT_STATUS_FILTER = 'open';
+  const DEFAULT_SCREENCAP_FILTER = 'hide';
+
+	let { data }: PageProps = $props();
 
   let loading: boolean = $state(true);
   let error: string = $state('');
@@ -32,19 +37,20 @@
     codebaseFilter = settings?.codebaseFilter ?? '';
     searchFilter = settings?.searchFilter ?? '';
     ageFilter = settings?.ageFilter ?? '';
-    statusFilter = settings?.statusFilter ?? '';
+    statusFilter = settings?.statusFilter ?? DEFAULT_STATUS_FILTER;
+    screencapFilter = settings?.screencapFilter ?? DEFAULT_SCREENCAP_FILTER;
+    sortDirection = settings?.sortDirection ?? DEFAULT_SORT_DIRECTION;
+    sortKey = settings?.sortKey ?? DEFAULT_SORT_KEY;
     viewMode = settings?.viewMode ?? DEFAULT_VIEW_MODE;
-    sortDirection = settings?.sortDirection ?? null;
-    sortKey = settings?.sortKey ?? null;
   };
 
   const saveSettings = (): void => {
-  console.log("saving settings");
     window.localStorage.setItem('filters', JSON.stringify({
       codebaseFilter,
       searchFilter,
       ageFilter,
       statusFilter,
+      screencapFilter,
       viewMode,
       sortDirection,
       sortKey
@@ -56,8 +62,16 @@
       .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
       .filter(x => !ageFilter || x.ageRestriction === ageFilter)
-      .filter(x => !statusFilter || (statusFilter === 'open' && !x.isClosed) || (statusFilter === 'connectable' && x.isConnectable) || (statusFilter === 'down' && !x.isClosed && !x.isConnectable))
+      .filter(x => !statusFilter
+        || (statusFilter === 'closed' && x.isClosed)
+        || (statusFilter === 'open' && !x.isClosed)
+        || (statusFilter === 'connectable' && x.isConnectable)
+      )
       .filter(x => screencapFilter === 'show' || x.screencaps || viewMode === 'list')
+      .map((talker, i) => ({
+          ...talker,
+          __key: talker.slug ?? talker.name ?? `talker-${i}`
+        }))
   );
 
   const getSortIndicator = (key: string): string => {
@@ -78,6 +92,8 @@
     if (sortKey === key && toggleDirection) {
       sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
     }
+
+    sortKey = key;
 
     switch (key) {
       case 'name':
@@ -184,7 +200,6 @@
   };
 
   const highlightActiveTalkers = (activeTalkerList) => {
-        console.log("highlighting")
     try {
       activeTalkers = activeTalkerList.talkers;
       lastCheckedDate = new Date(activeTalkerList.dateChecked);
@@ -284,7 +299,7 @@
       <label for="status-filter">Status</label>
       <select bind:value={statusFilter} id="status-filter" onchange={saveSettings} >
         <option value="">- Any -</option>
-        <option value="down">Offline</option>
+        <option value="closed">Closed</option>
         <option value="open">Potentially open</option>
         <option value="connectable">Connectable</option>
       </select>
@@ -314,7 +329,7 @@
 
     <div class="sort-direction">
       <label for="sort-direction">Order</label>
-      <select bind:value={sortDirection} id="sort-direction" onchange={() => handleSort(sortKey)}>
+      <select bind:value={sortDirection} id="sort-direction" onchange={() => handleSort(sortKey, false)}>
         <option value="asc">Ascending</option>
         <option value="desc">Descending</option>
       </select>
@@ -332,95 +347,103 @@
   <p>
     Showing <strong>{filteredTalkers.length}</strong> {filteredTalkers.length === 1 ? 'result' : 'results'}.
 
+    <span class="breakpoint">
+      Last database update: {formatDistanceToNow(data.databaseUpdateDate, { addSuffix: true })}.
+    </span>
+
     {#if lastCheckedDate}
-      Last update: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}
+      <span class="breakpoint">
+        Last connectivity check: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}.
+      </span>
     {/if}
   </p>
 
-  {#if viewMode === 'grid'}
-    <ol>
-      {#each filteredTalkers as talker: Talker, index (`${talker.slug ?? talker.name}`)}
-        <li><TalkerCard {talker} /></li>
-      {/each}
-    </ol>
-  {:else}
-    <table>
-      <thead>
-        <tr>
-          <th class="name" onclick={() => handleSort('name')}>
-            Name
-            <span class="sort-direction">{getSortIndicator('name')}</span>
-          </th>
-
-          <th class="address" onclick={() => handleSort('address')}>
-            Address
-            <span class="sort-direction">{getSortIndicator('address')}</span>
-          </th>
-
-          <th class="codebase" onclick={() => handleSort('codebase')}>
-            Codebase
-            <span class="sort-direction">{getSortIndicator('codebase')}</span>
-          </th>
-
-          <th class="age-restriction" onclick={() => handleSort('age-restriction')}>
-            Ages
-            <span class="sort-direction">{getSortIndicator('age-restriction')}</span>
-          </th>
-
-          <th class="multi-world" onclick={() => handleSort('multi-world')}>
-            Multi-world?
-            <span class="sort-direction">{getSortIndicator('multi-world')}</span>
-          </th>
-
-          <th class="status" onclick={() => handleSort('status')}>
-            Status
-            <span class="sort-direction">{getSortIndicator('status')}</span>
-          </th>
-        </tr>
-      </thead>
-
-      <tbody>
-        {#each filteredTalkers as talker}
+  {#if filteredTalkers.length > 0}
+    {#if viewMode === 'grid'}
+      <ol>
+        {#each filteredTalkers as talker (talker.id)}
+          <li><TalkerCard {talker} /></li>
+        {/each}
+      </ol>
+    {:else}
+      <table>
+        <thead>
           <tr>
-            <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
+            <th class="name" onclick={() => handleSort('name')}>
+              Name
+              <span class="sort-direction">{getSortIndicator('name')}</span>
+            </th>
 
-            <td class="address">
-              {#if talker.hostname}
-                <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
-              {:else}
-                <span>n/a</span>
-              {/if}
-            </td>
+            <th class="address" onclick={() => handleSort('address')}>
+              Address
+              <span class="sort-direction">{getSortIndicator('address')}</span>
+            </th>
 
-            <td class={talker.codebase ? 'codebase' : 'codebase unknown'}>
-              {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
-            </td>
+            <th class="codebase" onclick={() => handleSort('codebase')}>
+              Codebase
+              <span class="sort-direction">{getSortIndicator('codebase')}</span>
+            </th>
 
-            <td class={talker.ageRestriction ? 'age-restriction' : 'age-restriction unknown'}>
-              {talker.ageRestriction ?? 'Any'}
-            </td>
+            <th class="age-restriction" onclick={() => handleSort('age-restriction')}>
+              Ages
+              <span class="sort-direction">{getSortIndicator('age-restriction')}</span>
+            </th>
 
-            <td class={talker.multiWorld ? 'multi-world' : 'multi-world unknown'}>
-              {talker.multiWorld ? 'Yes' : 'No'}
-            </td>
+            <th class="multi-world" onclick={() => handleSort('multi-world')}>
+              Multi-world?
+              <span class="sort-direction">{getSortIndicator('multi-world')}</span>
+            </th>
 
-            {#if loading}
-              <td class="status status-loading">...</td>
-            {:else}
-              {#if talker.isConnectable}
-                <td class="status status-up">UP</td>
-              {:else}
-                {#if talker.isClosed}
-                  <td class="status status-closed">CLOSED</td>
+            <th class="status" onclick={() => handleSort('status')}>
+              Status
+              <span class="sort-direction">{getSortIndicator('status')}</span>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {#each filteredTalkers as talker (talker.id)}
+            <tr>
+              <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
+
+              <td class="address">
+                {#if talker.hostname}
+                  <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
                 {:else}
-                  <td class="status status-down">DOWN</td>
+                  <span>n/a</span>
+                {/if}
+              </td>
+
+              <td class={talker.codebase ? 'codebase' : 'codebase unknown'}>
+                {talker.codebase ? (getCodebase(talker.codebase)?.name ?? talker.codebase) : 'Unknown'}
+              </td>
+
+              <td class={talker.ageRestriction ? 'age-restriction' : 'age-restriction unknown'}>
+                {talker.ageRestriction ?? 'Any'}
+              </td>
+
+              <td class={talker.multiWorld ? 'multi-world' : 'multi-world unknown'}>
+                {talker.multiWorld ? 'Yes' : 'No'}
+              </td>
+
+              {#if loading}
+                <td class="status status-loading">...</td>
+              {:else}
+                {#if talker.isConnectable}
+                  <td class="status status-up">UP</td>
+                {:else}
+                  {#if talker.isClosed}
+                    <td class="status status-closed">CLOSED</td>
+                  {:else}
+                    <td class="status status-down">DOWN</td>
+                  {/if}
                 {/if}
               {/if}
-            {/if}
-          </tr>
-        {/each}
-      </tbody>
-    </table>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {/if}
   {/if}
 </section>
 
@@ -431,7 +454,13 @@
   }
 
   h2 {
+    margin-block-end: 2rem;
     border-width: 0;
+  }
+
+  p {
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
   }
 
   .error {
@@ -524,6 +553,10 @@
     font-size: 1.25em;
   }
 
+  .breakpoint {
+    display: block;
+  }
+
   th, td {
     vertical-align: top;
 
@@ -547,6 +580,10 @@
   @media (min-width: 660px) {
     section {
       padding-block-start: 1rem;
+    }
+
+    .breakpoint {
+      display: inline;
     }
 
     fieldset {

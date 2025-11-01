@@ -13,7 +13,11 @@ export function getTalker(params): Talker {
 
 export function getTalkers(params = {}): Talker[] {
   const order: string = (params.order ?? 'asc').toLowerCase();
-  let result: Talker[] = [...talkers];
+  let results: Talker[] = [...talkers];
+
+  results = results.map((talker, index) => {
+    return {...talker, id: index}
+  });
 
   if (params.codebase) {
     results = results.filter(talker => talker.codebase === params.codebase)
@@ -39,7 +43,7 @@ export function getTalkers(params = {}): Talker[] {
       .filter(talker => talker.hosts.some(x => x.hostname === params.host.hostname && x.port === params.host.port));
   }
 
-  result.sort((a: Talker, b: Talker): number => {
+  results.sort((a: Talker, b: Talker): number => {
     const aSlug: string = (a.slug ?? getSlug(a.name)).replace('_', '');
     const bSlug: string = (b.slug ?? getSlug(b.name)).replace('_', '');
 
@@ -47,10 +51,10 @@ export function getTalkers(params = {}): Talker[] {
   });
 
   if (order === 'desc') {
-    result.reverse();
+    results.reverse();
   }
 
-  return result;
+  return results;
 }
 
 export function getCodebase(shortName: string): Codebase {
