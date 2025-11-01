@@ -4947,10 +4947,12 @@
       "screencaps": [
         "login/thechattingzone.uk_8342.png",
         "login/thechattingzone.uk_8342_2.png",
-        "login/thechattingzone.uk_8342_3.png"
+        "login/thechattingzone.uk_8342_3.png",
+        "maps/the-chatting-zone.map.png"
       ],
       "textcaps": [
-        "thechattingzone.uk_8342_3.txt"
+        "login/thechattingzone.uk_8342_3.txt",
+        "maps/thechattingzone.map.txt"
       ],
       "hosts": [
         {
