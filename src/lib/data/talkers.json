@@ -4580,6 +4580,16 @@
     {
       "name": "Night Runners",
       "codebase": "amnuts",
+      "coders": [
+        "Backslash",
+        "AGENTx"
+      ],
+      "admin": [
+        "AGENTx",
+        "Kelotz", 
+        "Backslash",
+        "Reens"
+      ],
       "screencaps": [
         "login/nr.kelotz.net_2474.png"
       ],
@@ -4611,10 +4621,12 @@
       "ageRestriction": "18+",
       "codebase": "retrobar",
       "screencaps": [
-        "login/rb.kelotz.net_1981.png"
+        "login/rb.kelotz.net_1981.png",
+        "maps/retro-bar.map.png"
       ],
       "textcaps": [
-        "login/rb.kelotz.net_1981.txt"
+        "login/rb.kelotz.net_1981.txt",
+        "maps/retro-bar.map.txt"
       ],
       "hosts": [
         {
