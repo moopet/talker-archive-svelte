@@ -4340,10 +4340,12 @@
         "Ardant"
       ],
       "screencaps": [
-        "login/euts.org_2000.png"
+        "login/euts.org_2000.png",
+        "maps/euts.map.png"
       ],
       "textcaps": [
-        "login/euts.org_2000.txt"
+        "login/euts.org_2000.txt",
+        "maps/euts.map.txt"
       ],
       "resources": [
         {

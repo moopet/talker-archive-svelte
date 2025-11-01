@@ -1,0 +1,23 @@
+/-----------------------< ENCHANTMENT UNDER THE SEA >-------------------------\
+>-----< EUTS Map >------------------------------------------------------------<
+|                                                                             |
+| Neptune's Lounge                       Niteclub   "Personal Rooms"          |
+|          |                     Acro         |             |                 |
+|      Dance Hall    Peninsula   Room        Bar          Lobby               |
+|          |____________|__________|__________|_____________|                 |
+|                                  |                                          |
+|                                Palace   Paintball Arena                     |
+|                                  |      /                                   |
+|              Island --------  Mildred's ---- Manila Bay   Survivor Island   |
+|                                 Cave    \                /                  |
+|                                  |       --------TV Room --- Card Captors   |
+|                             Towne Square                                    |
+|          ________________________|___________________________               |
+|         |             |          |               |           |              |
+|    Marketplace      Cavern    Coral Reef        Range*      Casino          |
+|         |                       /      \         |              \           |
+|    Seaside Cafe        Observatory----Abyss    Amusement park*   Blackjack  |
+|                         /             /   \                         Room    |
+|          Sanctuary of Fate   Grave site   Ship wreck                        |
+|                                                                             |
+\-----------------------------------------------------------------------------/
