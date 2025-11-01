@@ -1,3 +1,7 @@
+<script>
+export const prerender = true;
+</script>
+
 <section>
   <h1>F.A.Q. about this project</h1>
 

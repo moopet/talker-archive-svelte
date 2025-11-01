@@ -1,3 +1,7 @@
+<script>
+export const prerender = true;
+</script>
+
 <section>
   <h1>AI use in this project</h1>
 
