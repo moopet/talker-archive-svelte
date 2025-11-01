@@ -14,8 +14,6 @@
   const DEFAULT_STATUS_FILTER = 'open';
   const DEFAULT_SCREENCAP_FILTER = 'hide';
 
-	let { data }: PageProps = $props();
-
   let loading: boolean = $state(true);
   let error: string = $state('');
   let lastCheckedDate = $state(null);
@@ -346,10 +344,6 @@
 
   <p>
     Showing <strong>{filteredTalkers.length}</strong> {filteredTalkers.length === 1 ? 'result' : 'results'}.
-
-    <span class="breakpoint">
-      Last database update: {formatDistanceToNow(data.databaseUpdateDate, { addSuffix: true })}.
-    </span>
 
     {#if lastCheckedDate}
       <span class="breakpoint">
