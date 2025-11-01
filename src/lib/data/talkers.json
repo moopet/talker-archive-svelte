@@ -631,7 +631,7 @@
       "name": "Atlantis",
       "slug": "atlantis",
       "disambiguation": "Not to be confused with <a href=\"/details/atlantis-ii\" data-sveltekit-reload>Atlantis II</a> or <a href=\"/details/_atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
-      "dataOrigins": ["spodlist", "memory"],
+      "dataOrigins": ["memory"],
       "ewtooAbbr": "atl",
       "notes": "Originally based on Sensi-Summink, but extended heavily, first by Swish, and then later by Muppet, Atlantis was a smaller talker with a core of regulars who were prepared to put up with a lot of sarcasm and in-jokes - but it still welcomed newbies if they didn't mind the \"relaxed rules\".<br>For most of its existence, it was hosted on custard.org.",
       "codebase": "sensisummink",
@@ -2287,24 +2287,6 @@
           "hostname": "snowplains.enquiries.com",
           "port": 3456,
           "blocked": true
-        }
-      ]
-    },
-    {
-      "name": "LightHouse",
-      "dataOrigins": ["greatbiglist"],
-      "codebase": "jats",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://www.lehigh.edu/~rjw4/LH/"
-        }
-      ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "pl122d.eecs.lehigh.edu",
-          "port": 6969
         }
       ]
     },
@@ -6721,6 +6703,9 @@
     },
     {
       "name": "TreeTops",
+      "aka": [
+        "Tree Tops"
+      ],
       "location": "Philippines",
       "admins": [
         "Daimyo"
@@ -6772,7 +6757,11 @@
     },
     {
       "name": "Time Worlds",
-      "dataOrigins": ["maddhouse"],
+      "aka": [
+        "Timeworlds"
+      ],
+      "location": "USA",
+      "dataOrigins": ["greatbiglist", "maddhouse"],
       "ageRestriction": "18+",
       "resources": [
         {
@@ -7743,7 +7732,7 @@
       ]
     },
     {
-      "name": "Fantasia Truth or Date",
+      "name": "Fantasia Truth or Dare",
       "description": "Water fountains flank the grand open-air lounge, set overlooking the ocean and appointed with cozy love seats and exotic flower arrangements. The view is spectacular, and the atmosphere is relaxed so that you can take your time absorbing it all as you indulge in drinks and appetizers. As the sun sets, the pounding surf rolls in and the palm trees are silhouetted against the heavenly blue water of the ocean. Padded, high-backed stools sit in front of the bar to your right. The mood is sensual, romantic, almost magical.<br>Someone whispers, \"Care to play a game of Truth or Dare with a lovin' touch?\"",
       "ageRestriction": "18+",
       "dataOrigins": ["maddhouse", "homepage"],
@@ -9348,23 +9337,6 @@
       ]
     },
     {
-      "name": "Legacy Of The Damned",
-      "ageRestriction": "18+",
-      "dataOrigins": ["talkers.ws"],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 8008
-        },
-        {
-          "blocked": true,
-          "hostname": "legacy.talker.com",
-          "port": 8008
-        }
-      ]
-    },
-    {
       "name": "Legends Of The Night",
       "dataOrigins": ["talkers.ws"],
       "hosts": [
@@ -9490,6 +9462,7 @@
     },
     {
       "name": "MadHouse",
+      "disambiguation": "Not to be confused with <a href=\"/details/maddhouse\" data-sveltekit-reload>Maddhouse</a>.",
       "dataOrigins": ["talkers.ws", "kesey"],
       "hosts": [
         {
@@ -11365,21 +11338,6 @@
       ]
     },
     {
-      "name": "Crossroads TNG",
-      "dataOrigins": ["kesey"],
-      "admins": [
-        "Aviator"
-      ],
-      "codebase": "nuts",
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 5150
-        }
-      ]
-    },
-    {
       "name": "Crimson Talendar",
       "dataOrigins": ["kesey"],
       "hosts": [
@@ -13040,6 +12998,7 @@
     },
     {
       "name": "Sim City",
+      "disambiguation": "Not to be confused with <a href=\"/details/sin-city\" data-sveltekit-reload>Sin City</a>.",
       "ageRestriction": "all-age",
       "description": "Sim City is based on the popular computer game Sim City. We have a great staff and friendly users. There are many functions and commands that other talkers do not offer, we aim to be different. So take a chance and drop by for a visit, we bet you will like it and become a regular user :)",
       "codebase": "cuts",
@@ -13538,18 +13497,6 @@
           "blocked": true,
           "hostname": "unitopia.uni-stuttgart.de",
           "port": 3333
-        }
-      ]
-    },
-    {
-      "name": "Tree Tops",
-      "dataOrigins": ["maddhouse"],
-      "codebase": "oot",
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "polgas.ps.admu.edu.ph",
-          "port": 5000
         }
       ]
     },
@@ -15195,6 +15142,7 @@
     },
     {
       "name": "E N E R G Y",
+      "slug": "energy",
       "dataOrigins": ["tdf"],
       "hosts": [
         {
@@ -15463,6 +15411,7 @@
       "aka": [
         "The Light House"
       ],
+      "codebase": "jats",
       "description": "The LightHouse is a great fun place to hang out. With a fantastic web interface and an offline who, you can always see when your friends are on. There are lotsa people there to chat with. They are fun, intelligent and always there for you to lean on and get cheered up! Drop by, you won't regret it! Also the program their running JATS rocks! Offers lotsa commands and stuff for everyone!!",
       "dataOrigins": ["greatbiglist"],
       "resources": [
@@ -15657,17 +15606,6 @@
           "blocked": true,
           "hostname": "206.54.38.11",
           "port": 5001
-        }
-      ]
-    },
-    {
-      "name": "StarShip",
-      "dataOrigins": ["nick"],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "starship.megalinx.net",
-          "port": 4567
         }
       ]
     },
@@ -16235,6 +16173,7 @@
     },
     {
       "name": "Maddhouse",
+      "disambiguation": "Not to be confused with <a href=\"/details/madhouse\" data-sveltekit-reload>Maddhouse</a>.",
       "dataOrigins": ["homepage"],
       "admins": [
         "Madd"
@@ -16658,6 +16597,8 @@
     {
       "name": "Legacy of the Damned",
       "location": "UK",
+      "ageRestriction": "18+",
+      "dataOrigins": ["talkers.ws"],
       "resources": [
         {
           "type": "website",
@@ -16669,6 +16610,16 @@
           "hostname": "legacy.tcat.ac.uk",
           "port": null,
           "blocked": true
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 8008
+        },
+        {
+          "blocked": true,
+          "hostname": "legacy.talker.com",
+          "port": 8008
         }
       ],
       "dataOrigins": ["greatbiglist"]
@@ -17423,7 +17374,7 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
-      "name": "Starship",
+      "name": "StarShip",
       "location": "USA",
       "resources": [
         {
@@ -17438,7 +17389,7 @@
           "blocked": true
         }
       ],
-      "dataOrigins": ["greatbiglist"]
+      "dataOrigins": ["greatbiglist", "nick"]
     },
     {
       "name": "The SunsetStrip",
@@ -17529,24 +17480,6 @@
         {
           "hostname": "andromeda.mt.ic.ac.uk",
           "port": 3456,
-          "blocked": true
-        }
-      ],
-      "dataOrigins": ["greatbiglist"]
-    },
-    {
-      "name": "Timeworlds",
-      "location": "USA",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://tworlds.telmaron.com/~tworlds/"
-        }
-      ],
-      "hosts": [
-        {
-          "hostname": "tworlds.telmaron.com",
-          "port": 7777,
           "blocked": true
         }
       ],
@@ -18772,6 +18705,7 @@
     },
     {
       "name": "Sin City",
+      "disambiguation": "Not to be confused with <a href=\"/details/sim-city\" data-sveltekit-reload>Sim City</a>.",
       "ageRestriction": "18+",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
