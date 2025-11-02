@@ -242,6 +242,8 @@
   onMount(async () => {
     loadSettings();
 
+    const activeTalkerList = getActiveTalkers();
+
     if (activeTalkerList) {
       console.log("early");
       highlightActiveTalkers(activeTalkerList);
