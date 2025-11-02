@@ -242,16 +242,20 @@
   onMount(async () => {
     loadSettings();
 
+      console.log("onmount");
     const activeTalkerList = getActiveTalkers();
+      console.log(activeTalkerList.length);
 
     if (activeTalkerList) {
       console.log("early");
       highlightActiveTalkers(activeTalkerList);
+      console.log(activeTalkerList.length);
     }
     else {
       activeTalkersStore.subscribe(activeTalkerList => {
         if (activeTalkerList) {
       console.log("on subscription");
+      console.log(activeTalkerList.length);
           highlightActiveTalkers(activeTalkerList);
         }
       });
