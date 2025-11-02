@@ -242,11 +242,19 @@
   onMount(async () => {
     loadSettings();
 
-    activeTalkersStore.subscribe(activeTalkerList => {
-      if (activeTalkerList) {
-        highlightActiveTalkers(activeTalkerList);
-      }
-    });
+    if (activeTalkerList) {
+      console.log("early");
+      highlightActiveTalkers(activeTalkerList);
+    }
+    else {
+      activeTalkersStore.subscribe(activeTalkerList => {
+        if (activeTalkerList) {
+      console.log("on subscription");
+          highlightActiveTalkers(activeTalkerList);
+        }
+      });
+    }
+
   });
 </script>
 
