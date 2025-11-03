@@ -3,6 +3,7 @@
   import type { TalkerCardProps } from '$lib/types';
   import slugify from 'slugify';
   import { getTalkerSlug, isTalkerActive } from '$lib/utils.ts';
+  import { activeTalkersStore } from '$lib/stores/activeTalkers';
 
   let { talker }: TalkerCardProps = $props();
 
@@ -18,6 +19,10 @@
 
   onMount(() => {
     checkActive();
+
+    activeTalkersStore.subscribe(activeTalkerList => {
+      checkActive();
+    });
   });
 </script>
 
