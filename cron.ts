@@ -37,10 +37,6 @@ const isValidIPv4 = (address: string): boolean => {
   return ipv4Regex.test(address);
 }
 
-const isValidPort = (port: number): boolean => {
-  return Number.isInteger(port) && port >= 1 && port <= 65535;
-};
-
 const getAllPotentialHosts = (): Host[] => {
   return talkersData.talkers
     .filter(talker => talker?.hosts?.length > 0)
@@ -55,7 +51,7 @@ const getAllPotentialHosts = (): Host[] => {
     .flatMap((talker: InputObject) => talker.hosts)
     .filter(host => !host?.blocked)
     .filter(host => host?.hostname && host?.port)
-    .filter(host => !isValidIPv4(host.hostname))
+    .filter(host => !isValidIPv4(host.hostname)) // Don't bother trying bare IP addresses; if it doesn't have a hostname, it's lost to time.
     .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));
 };
 
