@@ -14814,6 +14814,9 @@
       "admins": [
         "Bergon"
       ],
+      "textcaps": [
+        "maps/frontiers.map.txt"
+      ],
       "dataOrigins": ["greatbiglist", "wayback"],
       "resources": [
         {
