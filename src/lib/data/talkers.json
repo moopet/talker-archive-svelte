@@ -915,11 +915,17 @@
     },
     {
       "name": "Blame Canada",
+      "description": "Well, all talkers claim to have friendly staff members, friendly residents, friendly robots, etc. etc. We don't (claim it, that is). We encourage you to find out for yourself.<br>What makes us different is that we're fond of Canada and Canadians... in fact, we even let them log on to the talker.",
       "dataOrigins": ["spodlist", "homepage"],
       "ewtooAbbr": "BC",
+      "admins": [
+        "Dutchie",
+        "Skimo",
+        "fAitH",
+        "Fox"
+      ],
       "codebase": "pgplus",
       "screencaps": [
-        "login/blamecanada.bering.gl_1977_2.png",
         "login/blamecanada.bering.gl_1977.png"
       ],
       "resources": [
@@ -8063,10 +8069,6 @@
         },
         {
           "type": "website",
-          "url": "http://caliburn.signwave.com"
-        },
-        {
-          "type": "website",
           "url": "http://www.seis.com/~caliburn"
         }
       ],
@@ -15129,7 +15131,14 @@
     },
     {
       "name": "Bondage Bay",
-      "dataOrigins": ["tdf"],
+      "dataOrigins": ["tdf", "homepage"],
+      "description": "A talker for a community of BDSM lifestylers.",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20080514133407/http://bondagebay.dune.net/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
