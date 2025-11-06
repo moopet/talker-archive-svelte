@@ -1,7 +1,8 @@
 <script lang="ts">
 import { talkers } from '$lib/data/talkers.json';
+import { sortTalkersByName } from '$lib/utils';
 
-const talkersWithScreencaps = talkers.filter(x => x.screencaps).filter(x => x.name !== 'The Rainbow Room');
+const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencaps).filter(x => x.name !== 'The Rainbow Room');
 </script>
 
 <section>
@@ -15,8 +16,10 @@ const talkersWithScreencaps = talkers.filter(x => x.screencaps).filter(x => x.na
 <style>
 section {
   margin: 0;
+  padding: 0;
   width: 100%;
   max-width: 100%;
+  max-height: 1200px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -25,7 +28,8 @@ section {
 
 div {
   overflow: hidden;
-  max-height: 120px;
+  max-height: 137px;
+  border-top: 7px solid black;
   background-color: black;
 }
 
