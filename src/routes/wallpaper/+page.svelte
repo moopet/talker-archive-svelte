@@ -1,15 +1,15 @@
 <script lang="ts">
 import { talkers } from '$lib/data/talkers.json';
-import { sortTalkersByName } from '$lib/utils';
+import { sortTalkersByName, getTalkerSlug } from '$lib/utils';
 
 const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencaps).filter(x => !x.screencaps.every(path => path.includes('.map.')));
 </script>
 
 <section>
   {#each talkersWithScreencaps as talker}
-    <div>
+    <a href={`/details/${getTalkerSlug(talker)}`}>
       <img src={`/screencaps/${talker.screencaps[0]}`} alt={talker.name} />
-    </div>
+    </a>
   {/each}
 </section>
 
@@ -26,7 +26,8 @@ section {
   justify-content: flex-start;
 }
 
-div {
+a {
+  display: inline-block;
   overflow: hidden;
   max-height: 137px;
   border-top: 7px solid black;
