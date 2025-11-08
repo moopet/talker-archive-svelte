@@ -2,7 +2,7 @@
 import { talkers } from '$lib/data/talkers.json';
 import { sortTalkersByName } from '$lib/utils';
 
-const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencaps).filter(x => x.name !== 'The Rainbow Room');
+const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencaps).filter(x => !x.screencaps.every(path => path.includes('.map.')));
 </script>
 
 <section>
