@@ -4736,8 +4736,26 @@
     },
     {
       "name": "Shell Matrix",
+      "description": "Shell-Matrix Talker is designed for a chatter of all ages and all sexual orientation, who are looking for a different kind of chat room. The talker's theme is based on both magic and cybertechnology; it's a world within a world, and it keeps on expanding. In this system you can be a normal person who conforms to everything or you can be a warrior whose combat skills make him the ultimate warrior or perhaps a magician, possessing magical energies that once blanketed the world of long ago. Make your mark and become a legend.",
       "disambiguation": "Not to be confused with <a href=\"/details/the-matrix\" data-sveltekit-reload>The Matrix</a>.",
-      "codebase": "sm",
+      "dataOrigins": ["homepage"],
+      "codebase": "nuts",
+      "screencaps": [
+        "login/sm.kelotz.net_2223.png"
+      ],
+      "textcaps": [
+        "login/sm.kelotz.net_2223.txt"
+      ],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": ""
+	      },
+	      {
+		      "type": "website",
+		      "url": "http://demnet.wox.org/smatrix"
+	      }
+      ],
       "hosts": [
         {
           "hostname": "sm.kelotz.net",
