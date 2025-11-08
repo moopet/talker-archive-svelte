@@ -4748,8 +4748,8 @@
       ],
       "resources": [
 	      {
-		      "type": "wayback",
-		      "url": ""
+		      "type": "website",
+		      "url": "http://reanimated.shell-matrix.com"
 	      },
 	      {
 		      "type": "website",
