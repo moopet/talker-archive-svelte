@@ -7,6 +7,10 @@
   );
 </script>
 
+<svelte:head>
+  <title>Multi-world - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>Multi-world groups</h1>
 

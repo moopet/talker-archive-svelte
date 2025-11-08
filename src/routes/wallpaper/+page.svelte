@@ -5,6 +5,10 @@ import { sortTalkersByName, getTalkerSlug } from '$lib/utils';
 const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencaps).filter(x => !x.screencaps.every(path => path.includes('.map.')));
 </script>
 
+<svelte:head>
+  <title>Wallpaper - Talker archive</title>
+</svelte:head>
+
 <section>
   {#each talkersWithScreencaps as talker}
     <a href={`/details/${getTalkerSlug(talker)}`}>

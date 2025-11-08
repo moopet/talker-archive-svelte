@@ -22,6 +22,10 @@
   ];
 </script>
 
+<svelte:head>
+  <title>Resources - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>Resources</h1>
   <p>

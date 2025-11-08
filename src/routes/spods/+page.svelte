@@ -19,6 +19,10 @@
   };
 </script>
 
+<svelte:head>
+  <title>Staff - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>Talker Staff</h1>
 
