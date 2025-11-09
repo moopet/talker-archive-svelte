@@ -4681,6 +4681,12 @@
       "textcaps": [
         "login/selva.grogue.org_8888.txt"
       ],
+      "resources": [
+	      {
+		      "type": "website",
+		      "url": "https://selva.grogue.org/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
