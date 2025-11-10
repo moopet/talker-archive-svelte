@@ -324,6 +324,20 @@
       "platform": "Unix-like"
     },
     {
+      "shortName": "crypt",
+      "name": "Crypt",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
+      "shortName": "peanuts",
+      "name": "PeaNUTS",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
       "shortName": "amnuts",
       "repo": "https://github.com/talkersource/amnuts",
       "name": "AmNUTS",
@@ -886,6 +900,8 @@
       "codebase": "sinco",
       "admins": [
         "Europol",
+        "Stile",
+        "Knighthawk",
         "Whisper",
         "Druid"
       ],
@@ -1459,6 +1475,13 @@
       "name": "Koala Blue",
       "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
+      "admins": [
+        "Cherrie"
+      ],
+      "coders": [
+        "Madd",
+        "Cherrie"
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -3449,8 +3472,8 @@
           "url": "https://www.facebook.com/groups/5190394930/"
         },
         {
-          "type": "website",
-          "url": "http://forest.progsoc.uts.edu.au/forest"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970504203803/http://realm.progsoc.uts.edu.au/forest/"
         },
         {
           "type": "email",
@@ -4862,6 +4885,12 @@
       ],
       "ageRestriction": "18+",
       "codebase": "nuts",
+      "coders": [
+        "Kesey"
+      ],
+      "admins": [
+        "Kesey"
+      ],
       "resources": [
         {
           "type": "email",
@@ -4876,8 +4905,8 @@
           "url": "http://alg.dune.net/"
         },
         {
-          "type": "website",
-          "url": "http://users.nac.net/kesey/alg.htm"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010405224615/http://users.nac.net/kesey/alg.htm"
         },
         {
           "type": "website",
@@ -4901,6 +4930,11 @@
         {
           "blocked": true,
           "hostname": "alg.dune.net",
+          "port": 4405
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
           "port": 4405
         },
         {
@@ -5151,8 +5185,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.spods.dcs.kcl.ac.uk/~gatherer"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970508011701/http://www.spods.dcs.kcl.ac.uk/~gatherer/"
         },
         {
           "type": "website",
@@ -5505,6 +5539,9 @@
       "name": "Castle of Desire",
       "description": "A companion talker to the Desire MUD.",
       "dataOrigins": ["galaxy", "talkernet"],
+      "coders": [
+        "Weaver"
+      ],
       "admins": [
         "Honeybear",
         "Shimmer"
@@ -5514,6 +5551,10 @@
         {
           "type": "website",
           "url": "https://www.angelfire.com/stars2/shimmer4/Castle.html"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010404045307/http://www.bcl.net/~desire/"
         },
         {
           "type": "email",
@@ -8523,8 +8564,30 @@
     },
     {
       "name": "Darknyte Manor",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "codebase": "peanuts",
+      "admins": [
+        "Valley",
+        "Matt",
+        "Caron"
+      ],
+      "coders": [
+        "Valley",
+        "Matt",
+        "Damon"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010518183053/http://www.darknyte.com/"
+        }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darknyte.com",
+          "port": 3333
+        },
         {
           "blocked": true,
           "hostname": "darkfantastic.net",
@@ -9132,7 +9195,34 @@
       ]
     },
     {
+      "name": "Purgatori",
+      "dataOrigins": ["homepage"],
+      "codebase": "nuts",
+      "coders": [
+        "Jonas"
+      ],
+      "admins": [
+        "Demoniac",
+        "Glittergirl"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010502134327/http://blky.net/purgatori/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "purgatori.palsson.net",
+          "port": 10000
+        }
+      ]
+    },
+    {
       "name": "Fantasy Island",
+      "description": "Fantasy Island has been up since the first part of October 1998 and has grown to over 350 users in that short span of time.<br> Our major goal is to make our environment friendly and fun, the way talkers in general were designed (and supposed) to be.<br>We don't play head games here nor do we penalize users for being a part of another talker (wiz, admin etc.) or for owning your own talker. Ideas and suggestions are encouraged. After all, this talker is for YOU.",
+      "ageRestriction": "18+",
       "disambiguation": "Not to be confused with <a href=\"/details/fantasy-land\" data-sveltekit-reload>Fantasy Land</a>.",
       "dataOrigins": ["talkers.ws", "talkernet"],
       "codebase": "amnuts",
@@ -9191,6 +9281,12 @@
       "admins": [
         "Gentoo"
       ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000528085354/http://www.whispers.org/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9232,6 +9328,12 @@
     {
       "name": "Freehold",
       "dataOrigins": ["talkers.ws"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990423090934/http://freehold.signwave.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -10020,11 +10122,11 @@
     {
       "name": "Gates Of Heaven",
       "ageRestriction": "18+",
-      "dataOrigins": ["talker.com"],
+      "dataOrigins": ["talker.com", "homepage"],
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010215004713/http://www.talker.com/heavens"
+          "url": "https://web.archive.org/web/19990128194936/http://www.talker.com/heavens/"
         },
         {
           "type": "email",
@@ -10137,10 +10239,17 @@
     },
     {
       "name": "Castle Corners",
+      "coders": [
+        "Lodis",
+        "Kanoer"
+      ],
       "admins": [
+        "Lorrie",
         "Lorrcarr"
       ],
-      "dataOrigins": ["talkernet"],
+      "codebase": "crypt",
+      "ageRestriction": "18+",
+      "dataOrigins": ["talkernet", "homepage"],
       "resources": [
         {
           "type": "wayback",
@@ -10699,13 +10808,17 @@
       "aka": [
         "After Death"
       ],
+      "admins": [
+        "Dominic",
+        "mAdm Ac"
+      ],
       "description": "A talker based on the theme 'What happens next?', you start off life (or whatever) as a Spirit, and if you're lucky, wind up an Angel or Demon with your own personal room. Once on, you can battle to the death (or whatever) in Valhalla with another user, have a few glasses of beer, or turn into a tap-dancing penguin for the amusement of others. If you're not feeling adventurous though, you can just talk to people. The only rules are no swearing and don't annoy other users. And don't ask for promotion. And no multiple accounts. And don't...",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.talker.com/aftrdeth"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990203064122/http://www.talker.com/aftrdeth/"
         },
         {
           "type": "email",
@@ -10765,6 +10878,10 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010428075947/http://www.geocities.com/Paris/Metro/5884/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010502164655/http://users.nac.net/sadi/romance.htm"
         }
       ],
       "hosts": [
@@ -11591,12 +11708,6 @@
     {
       "name": "Fallen Angels",
       "dataOrigins": ["maddhouse"],
-      "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010215004713/http://www.maddhouse.com/talkers/listd_h.html"
-        }
-      ],
       "hosts": [
         {
           "blocked": true,
@@ -13851,12 +13962,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.the-funk.net/talker/"
-        },
-        {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20000930151253/http://the-funk.net/talker"
+          "url": "https://web.archive.org/web/20011205035214/http://www.the-funk.net/talker/"
         }
       ],
       "hosts": [
@@ -14928,6 +15035,7 @@
       "codebase": "joot",
       "location": "USA",
       "admins": [
+        "Marvel",
         "Murray",
         "Europol"
       ],
@@ -14939,6 +15047,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sycotic-asylum.com",
+          "port": 3300
+        },
         {
           "blocked": true,
           "hostname": "dune.net",
@@ -15432,6 +15545,10 @@
       "ageRestriction": "18+",
       "notes": "Flirt Town closed in 2019.",
       "dataOrigins": ["tdf", "mudstats"],
+      "codebase": "nuts",
+      "admins": [
+        "Powerman"
+      ],
       "screencaps": [
         "login/talkercore.com_3200.png"
       ],
@@ -16474,10 +16591,11 @@
     {
       "name": "Galaxy",
       "location": "Canada",
+      "description": "Many zany things accur on Galaxy, there are nice people to meet and good times to be had.<br>Galaxy is new and just opened and like everything else it is always being updated and improved on.<br> Galaxy's sole purpose is to provide a place where people can have a good time without having to worry about things getting out of hand. So give us a try and enjoy yourself.",
       "resources": [
         {
-          "type": "website",
-          "url": "http://genesis.skl.com/~galaxy/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970415095541/http://genesis.skl.com/~galaxy/"
         }
       ],
       "hosts": [
