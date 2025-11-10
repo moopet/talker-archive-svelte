@@ -11608,7 +11608,7 @@
     {
       "name": "Eye of the World",
       "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
-      "dataOrigins": ["talker.com", "maddhouse"],
+      "dataOrigins": ["talker.com", "maddhouse", "homepage"],
       "admins": [
         "Excalibur"
       ],
@@ -11618,8 +11618,8 @@
           "url": "zack@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/EOTW"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010630105401/http://www.talker.com/EOTW/"
         }
       ],
       "hosts": [
@@ -15243,7 +15243,18 @@
     {
       "name": "E N E R G Y",
       "slug": "energy",
-      "dataOrigins": ["tdf"],
+      "location": "Estonia",
+      "language": "Estonian",
+      "dataOrigins": ["tdf", "homepage"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030323033449/http://www.energy.talker.ee/"
+        }
+      ],
+      "screencaps": [
+        "maps/energy.map.png"
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15394,17 +15405,6 @@
           "blocked": true,
           "hostname": "omnifarious.mn.org",
           "port": 3000
-        }
-      ]
-    },
-    {
-      "name": "Ennersea",
-      "dataOrigins": ["tdf"],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "mush.ennersea.net",
-          "port": 4201
         }
       ]
     },

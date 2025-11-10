@@ -110,6 +110,9 @@
     });
   }
 
+  const loginScreencaps: Array<string> = screencaps.filter(filename => filename.includes('login'));
+  const heroImage: string = loginScreencaps.length > 0 ? `/screencaps/${loginScreencaps[0]}` : '/placeholder.png';
+
   const imageResources: Array<Resource> = screencaps.map(filename => {
     return {
       alt: "",
@@ -118,9 +121,8 @@
       url: `/screencaps/${filename}`,
       description: ""
     };
-  }).slice(1);
+  }).filter(resource => resource.url !== heroImage);
 
-  const heroImage = screencaps.length > 0 ? `/screencaps/${screencaps[0]}` : '/placeholder.png';
   const citation = getCitation(talker?.dataOrigins ?? []);
   const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
 </script>

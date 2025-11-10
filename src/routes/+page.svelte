@@ -57,7 +57,7 @@
 
   let filteredTalkers = $derived(
     allTalkers
-      .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()))
+      .filter(x => !searchFilter || x.name.toLowerCase().includes(searchFilter.toLowerCase()) || (x.slug ?? '').replace('-', ' ').includes(searchFilter.toLowerCase()))
       .filter(x => !codebaseFilter || x.codebase === codebaseFilter)
       .filter(x => !ageFilter || x.ageRestriction === ageFilter)
       .filter(x => !statusFilter

@@ -33,7 +33,7 @@ export function getTalkerSlug(talker: Talker): string {
     return talker.slug;
   }
 
-  return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/'/, '');
+  return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9]/, '');
 }
 
 export function findTalkersByMultiWorld(multiWorldName: string): Talker[] {
