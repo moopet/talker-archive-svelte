@@ -2,6 +2,10 @@
 export const prerender = true;
 </script>
 
+<svelte:head>
+  <title>AI - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>AI use in this project</h1>
 

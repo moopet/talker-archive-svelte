@@ -250,6 +250,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>Talker archive</title>
+</svelte:head>
+
 <section>
   <h1>Talker database</h1>
 

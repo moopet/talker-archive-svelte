@@ -125,6 +125,10 @@
   const codebaseDescription = getCodebaseDescription(talker?.codebase ?? '');
 </script>
 
+<svelte:head>
+  <title>Details - talker archive</title>
+</svelte:head>
+
 {#if talker}
   <TalkerStatus talker={talker} />
 

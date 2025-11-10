@@ -7,6 +7,10 @@
   const multiWorld = findTalkersByMultiWorld(slug);
 </script>
 
+<svelte:head>
+  <title>Multi-world - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>Multi-world information</h1>
 

@@ -24,6 +24,10 @@
     });
 </script>
 
+<svelte:head>
+  <title>Staff - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>Spod cross-reference</h1>
 

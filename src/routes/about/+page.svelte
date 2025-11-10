@@ -2,6 +2,10 @@
 export const prerender = true;
 </script>
 
+<svelte:head>
+  <title>About - talker archive</title>
+</svelte:head>
+
 <section>
   <h1>F.A.Q. about this project</h1>
 
