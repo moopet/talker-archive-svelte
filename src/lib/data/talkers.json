@@ -11086,6 +11086,10 @@
       "dataOrigins": ["talker.com"],
       "resources": [
         {
+          "type": "website",
+          "url": "http://talker.com/avalon"
+        },
+        {
           "type": "email",
           "url": "avalon@talker.com"
         }
@@ -11282,6 +11286,12 @@
       "codebase": "nuts",
       "description": "The Black Cat is a techno club for people who enjoy techno music and the Rave culture. All ages are welcome. But mature subjects only. Chat about your favorite artists, DJ's, or rekkids. Learn about upcoming parties, and meet many more people with your same interests.",
       "dataOrigins": ["talker.com"],
+      "admins": [
+        "Constantina",
+        "LadyHawke",
+        "Will",
+        "Nevar"
+      ],
       "resources": [
         {
           "type": "email",
@@ -11297,6 +11307,11 @@
         {
           "blocked": true,
           "hostname": "talker.com",
+          "port": 2114
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
           "port": 2112
         }
       ]
@@ -11306,7 +11321,10 @@
       "description": "A talker based on the blue ridge mountains of North Carolina. It is hopefully going to be a peaceful, fun place for users to go to.... it is an 'everyone' talker that we hope people will want to come to.",
       "dataOrigins": ["talker.com"],
       "admins": [
-        "Arny"
+        "Arny",
+        "Comic",
+        "Darwin",
+        "Smily"
       ],
       "resources": [
         {
@@ -11436,6 +11454,7 @@
       "codebase": "Iforms",
       "admins": [
         "Yacko",
+        "Alisa",
         "Jman"
       ],
       "dataOrigins": ["talker.com"],
