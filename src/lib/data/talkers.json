@@ -2191,8 +2191,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.elementalworld.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20060515220908/http://www.elementalworld.net/"
         }
       ],
       "hosts": [
@@ -4499,11 +4499,17 @@
     {
       "name": "Emerald Isle",
       "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/fantasia-emerald-isle\">Fantasia Emerald Isle</a>.",
-      "dataOrigins": ["spodlist", "mudstats", "facebook"],
+      "description": "The Emerald Isle design is based on Kodiak Alaska. Kodiak Island's nickname is The Emerald Isle.",
+      "dataOrigins": ["spodlist", "mudstats", "facebook", "homepage"],
       "ewtooAbbr": "ei",
       "codebase": "amnuts",
       "admins": [
         "Bristol"
+      ],
+      "coders": [
+        "brIStol",
+	"Betwap",
+	"Arion"
       ],
       "resources": [
         {
@@ -4512,6 +4518,10 @@
           "name": "[ei] The Emerald Isle Talker",
           "url": "https://www.facebook.com/groups/2400110497/"
         },
+	{
+		"type": "wayback",
+		"url": "https://web.archive.org/web/20010422001646/http://emisle.com/"
+	},
         {
           "type": "email",
           "url": "emerald@emisle.com"
@@ -4522,7 +4532,8 @@
         }
       ],
       "screencaps": [
-        "login/emisle.org_5000.png"
+        "login/emisle.org_5000.png",
+	"maps/emerald-isle.map.png"
       ],
       "hosts": [
         {
@@ -8912,11 +8923,12 @@
     {
       "name": "e-Cafe",
       "codebase": "amnuts",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "homepage"],
+      "description": " The e-Café is not just another web chat. It has many features which make your chatting experience a more enjoyable one.<br>We at the e-Café are interested in creating a more brighter and better talker environment.",
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010215004713/http://www.pseudoreality.com/e-Cafe/index.html"
+          "url": "https://web.archive.org/web/19980506060309/http://pseudoreality.com/e-Cafe/index.html"
         }
       ],
       "codebase": "nuts",
@@ -9048,6 +9060,12 @@
     {
       "name": "The Enchanted Village",
       "dataOrigins": ["maddhouse"],
+      "resources": [
+	      {
+		      "type": "website",
+		      "url": "http://evillage.signwave.com/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9077,7 +9095,17 @@
     },
     {
       "name": "Enchanted Bayou",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "admins": [
+	      "ariana"
+      ],
+      "description": "Enchanted Bayou is a Louisiana Plantation that is always open to visitors.<br>We began this talker so we and all of our friends on the net had a friendly place where we could go and chat and have fun. We hope you find the place as enjoyable as we do. And like I said....we like visitors.<br>So come for a visit and if you like it there, stay a spell and enjoy the good down-home atmosphere.",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030624180442/http://cafe.mudservices.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -13440,6 +13468,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "pimu.homelinux.com",
+          "port": 3278
+        },
+        {
+          "blocked": true,
           "hostname": "louise.netpower.no",
           "port": 3278
         },
@@ -14459,7 +14492,22 @@
       "description": "Crystal Forest has been built around a MYSTICAL or Magical theme with room names like 'Stonehenge' and 'Meadow', and of course a dozen or so others. It's meant to give the user a feeling of tranquility and peace.<br> There isn't any promotional process to go through or any such madness.... we welcome everyone. From your very first login you are considered a 'resident'. We invite you to come and at least visit us, we'd love the chance to say 'hi'.",
       "dataOrigins": ["greatbiglist"],
       "codebase": "nuts",
+      "admins": [
+	      "Jerkyboy",
+	      "Sadie"
+      ],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20010301235235/http://crystal.signwave.com/"
+	      }
+      ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "crystal.signwave.com",
+          "port": 3000
+        },
         {
           "blocked": true,
           "hostname": "205.161.214.30",
@@ -16292,7 +16340,7 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
+          "type": "wayback",
           "url": "https://web.archive.org/web/20010215004713/http://ecstasy-online.ml.org/~khatri/ecstasy/"
         }
       ],
@@ -16327,7 +16375,7 @@
       "name": "Elsewhere",
       "slug": "_elsewhere",
       "codebase": "ewtoo",
-      "description": "Elsewhere is a EW-too based talker. The name and theme come from Canadian singer Sarah McLachlan's song of the same title and was created as a place where people could go to have fun and enjoy friends. We've tried to create an atmosphere in the Orchids (our main room) that is comfortable for everyone. We are very much like a family...that is growing every day. So come join the family!",
+      "description": "Elsewhere is a EW-too based talker. The name and theme come from Canadian singer Sarah McLachlan's song of the same title and was created as a place where people could go to have fun and enjoy friends. We've tried to create an atmosphere in the Orchids (our main room) that is comfortable for everyone.<br>We are very much like a family...that is growing every day. So come join the family!",
       "notes": "Watch out...Dj might hit you with his famous (or is that infamous?) typo-bomb...KhYbErX might play a round of basketball with you (I won't even tell you where the basketball comes from)...hObBeS definitely out-mischiefs Calvin (where did he get all those waterballoons anyways?)...Warlock is forever picking up pins (I guess he has nothing better to do)...tie yourself to something stationary so eXtrEmIs doesn't snowball you off the program...but whatever you do, don't say \"duck\" when Amory is logged on!",
       "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/elsewhere\">Elsewhere</a>.",
       "coders": [
@@ -16348,7 +16396,7 @@
           "blocked": true
         }
       ],
-      "dataOrigins": ["greatbiglist"]
+      "dataOrigins": ["greatbiglist", "homepage"]
     },
     {
       "name": "Elysium",
@@ -18594,7 +18642,14 @@
     },
     {
       "name": "Nocturnal Island",
-      "dataOrigins": [ "maddhouse" ],
+      "dataOrigins": [ "maddhouse", "homepage" ],
+      "description": "There have been  people marooned on Nocturnal Island<br>You have entered Nocturnal Cove...",
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/19980129205500/http://nisland.signwave.com/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -19144,9 +19199,15 @@
     },
     {
       "name": "Depot",
-      "dataOrigins": [ "maddhouse" ],
+      "dataOrigins": [ "maddhouse", "homepage" ],
+      "description": "just another boring old chat room.  okay, you figured us out, right?  nope, your wrong.  this place is much different from anywhere else that you have been.  why's that?  why don't you just come and check us out.",
       "ageRestriction": "18+",
-      "ageRestriction": "18+",
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/19980214143821/http://depot.signwave.com/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
