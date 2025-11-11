@@ -1007,10 +1007,6 @@
         },
         {
           "type": "website",
-          "url": "http://www.talker.com/camelot"
-        },
-        {
-          "type": "website",
           "url": "http://user1.megalinx.net/~camelot/"
         },
         {
@@ -2691,15 +2687,16 @@
     },
     {
       "name": "Island",
+      "description": "Our talker is called Island, because we feel that we are an island amid the hordes of small, unprofessional, and unpredictible talkers. Since talkers essentially reflect the residents, we want to provide a great place to hang out, chat with friends, and make new friends.",
       "ewtooAbbr": "isl",
       "screencaps": [
         "login/island.subnigra.com_8000.png"
       ],
       "resources": [
-        {
-          "type": "website",
-          "url": "http://talkers.skl.com/~island/"
-        }
+	{
+		"type": "wayback",
+		"url": "https://web.archive.org/web/19970413225530/http://talkers.skl.com/~island/"
+	}
       ],
       "hosts": [
         {
@@ -3933,6 +3930,18 @@
       ]
     },
     {
+      "name": "Free Spirits",
+      "description": "A place to come and relax, hang out with friends when the craziness of the world gets to be too much.",
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7008
+        }
+      ]
+    },
+    {
       "name": "Marble Madness",
       "location": "UK",
       "notes": "The talker eventually became <a data-sveltekit-reload href=\"/details/surfers\">Surfers</a>",
@@ -3953,7 +3962,8 @@
       "ewtooAbbr": "surfers",
       "codebase": "ewtoo",
       "coders": [
-        "Saraphale"
+        "Saraphale",
+	"Athanasius"
       ],
       "admins": [
         "Demi",
@@ -5252,7 +5262,11 @@
         {
           "type": "website",
           "url": "http://members.tripod.com/~uberworld/"
-        }
+        },
+	{
+		"type": "wayback",
+		"url": "https://web.archive.org/web/20000606071808/http://uberworld.org/"
+	}
       ],
       "hosts": [
         {
@@ -5598,6 +5612,7 @@
     {
       "name": "Virtual City",
       "location": "Estonia",
+      "language": "Estonian",
       "admins": [
         "Stefan",
         "Lo-vi"
@@ -5944,7 +5959,34 @@
       ]
     },
     {
-      "name": "Dreamers"
+      "name": "Dreamers",
+      "description": "Dreamers is a telnet talker based on the LIMS code, which was custom written for the talker.<br>Once you are in Dreamers, you will find an extrordinarly relaxed atmosphere where almost anything goes, because we believe that you should not have to worry about a slip of the tongue landing you in a bunch of trouble. Topics range from the ordinary, to things out of this world.<br>Many things have yet to be done to both the code at Dreamers, and to this page, but for now, we encurage our users to send us pictures, so we can web your face! If you want your picture here, email it to the address at the bottom of the page.",
+      "codebase": "lims",
+      "coders": [
+	      "Cutter"
+      ],
+      "admins": [
+	      "Livn",
+	      "Sprout",
+	      "Mystery",
+	      "Cherub",
+	      "Vyper",
+	      "Ranzz"
+      ],
+      "dataOrigins": ["talker", "homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/19990224220653/http://www.talker.com/dreamers/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 6969
+        }
+      ]
     },
     {
       "name": "Turf",
@@ -6390,9 +6432,18 @@
     },
     {
       "name": "Crossroads, the Next Generation",
+      "description": "CrossRoads, The Next Generation, is a place for friends, both old and new, to gather and chat about almost anything. Opened shortly after the original CrossRoads closed in early 1997, CrossRoads TNG carries on the tradition started by Jesse, Sparky and all the others who made CrossRoads one of the mosr popular talkers on the net. Please stop by, kick your shoes off, grab something to drink and enjoy your stay.",
       "slug": "crossroads-the-next-generation",
       "dataOrigins": ["maddhouse"],
       "resources": [
+        {
+          "type": "email",
+          "url": "aviator@talker.com"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990222132845/http://www.talker.com/crossroads/"
+        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010303111031/http://www.geocities.com/CollegePark/Quad/5911/"
@@ -6461,9 +6512,12 @@
     },
     {
       "name": "The Concert",
+      "description": "Started long ago, and finally brought back. The Concert is a talker for music lovers of all types and ages. This talkr is great for any type of user, new or experienced, and all of the users here are great.",
       "location": "USA",
+      "ageRestriction": "all-age",
       "admins": [
-        "Shark"
+        "Shark",
+	"Tommygirl"
       ],
       "codebase": "ncohafmuta",
       "dataOrigins": ["rosen", "maddhouse"],
@@ -9717,8 +9771,8 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://talkers.skl.com/~drcow"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970525100407/http://talkers.skl.com/~drcow/"
         }
       ],
       "hosts": [
@@ -10901,8 +10955,8 @@
           "url": "https://web.archive.org/web/20020413231345/http://www.palni.edu/~tom/AR/"
         },
         {
-          "type": "website",
-          "url": "http://realms.palni.edi"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19980109071233/http://realms.palni.edu/"
         }
       ]
     },
@@ -10978,6 +11032,11 @@
         {
           "blocked": true,
           "hostname": "dragon.talkernet.net",
+          "port": 9889
+        },
+        {
+          "blocked": true,
+          "hostname": "dragon.palni.edu",
           "port": 9889
         }
       ]
@@ -11525,21 +11584,26 @@
       "description": "This talker is based on Xena: Warrior Princess and is a place where fans of the show can meet and discuss episodes, etc. Many games to play and new commands in this ancient Greek world! ",
       "codebase": "Iforms",
       "dataOrigins": ["talker.com"],
+      "admins": [
+	      "Gabby",
+	      "Hercules",
+	      "Xena"
+      ],
       "resources": [
         {
           "type": "email",
           "url": "xena@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/xena"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990507234430/http://talker.com/xena"
         }
       ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "talker.com",
-          "port": 8001
+          "port": 8000
         }
       ]
     },
@@ -11641,27 +11705,13 @@
       ]
     },
     {
-      "name": "Cross Roads",
-      "description": "CrossRoads, The Next Generation, is a place for friends, both old and new, to gather and chat about almost anything. Opened shortly after the original CrossRoads closed in early 1997, CrossRoads TNG carries on the tradition started by Jesse, Sparky and all the others who made CrossRoads one of the mosr popular talkers on the net. Please stop by, kick your shoes off, grab something to drink and enjoy your stay.",
-      "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
-      "resources": [
-        {
-          "type": "email",
-          "url": "aviator@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/crossroads"
-        }
+      "name": "CrossRoads",
+      "admins": [
+	      "Jess",
+	      "Sparky"
       ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 5150
-        }
-      ]
+      "codebase": "nuts",
+      "hosts": []
     },
     {
       "name": "Cyber City",
@@ -15561,10 +15611,11 @@
     },
     {
       "name": "Flirt Town",
+      "description": "Adult talker (18+) based now in Washington DC area, theme is Washington.",
       "ageRestriction": "18+",
       "notes": "Flirt Town closed in 2019.",
       "dataOrigins": ["tdf", "mudstats"],
-      "codebase": "nuts",
+      "codebase": "ncohafmuta",
       "admins": [
         "Powerman"
       ],
@@ -17031,11 +17082,18 @@
     },
     {
       "name": "Moominvalley",
+      "description": "The Moominvalley talker started using the EW-Too code somewhere in the summer of 1995 and has since grown considerably in features. It runs in Estonia and is used primarly among Estonians.",
       "location": "Estonia",
+      "admins": [
+	      "Helga",
+	      "Alvo",
+	      "Keegi",
+	      "Sondra"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://moomin.wcfauna.ee/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19971221105337/http://moomin.wcfauna.ee/"
         },
         {
           "type": "website",
@@ -17054,12 +17112,17 @@
           "blocked": true
         },
         {
+          "hostname": "moomin.cs.ut.ee",
+          "port": 2010,
+          "blocked": true
+        },
+        {
           "hostname": "brutus.cs.ut.ee",
           "port": 2010,
           "blocked": true
         }
       ],
-      "dataOrigins": ["greatbiglist"]
+      "dataOrigins": ["greatbiglist", "homepage"]
     },
     {
       "name": "Nemesis",
