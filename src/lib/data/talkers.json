@@ -812,6 +812,86 @@
       ]
     },
     {
+      "name": "Dragonsloft",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dragonsloft.dune.net",
+          "port": 6263
+        }
+      ]
+    },
+    {
+      "name": "Trouble",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hambleton.net",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "TPM-II",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "yerevan.acp.da.ru",
+          "port": 2468
+        }
+      ]
+    },
+    {
+      "name": "The Storm",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tassiedemononline.org",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "National SecurityDevision",
+      "codebase": "ewtoo",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "midnight-realm.org",
+          "port": 2345
+        }
+      ]
+    },
+    {
+      "name": "Harmonix",
+      "codebase": "ewtoo",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "my-harmonix.com",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "BHS",
+      "codebase": "ewtoo",
+      "dataOrigins": ["ewtoo"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "yerevan.acp.da.ru",
+          "port": 7777
+        }
+      ]
+    },
+    {
       "name": "Bag End",
       "dataOrigins": ["spodlist"],
       "screencaps": [
@@ -2061,6 +2141,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "storm.blue-lightning.co.uk",
+          "port": 4001
+        },
+        {
+          "blocked": true,
           "hostname": "ddngr.org.uk",
           "port": 4001
         }
@@ -2183,6 +2268,9 @@
     },
     {
       "name": "Law And Order",
+      "aka": [
+        "Law&Order"
+      ],
       "dataOrigins": ["spodlist"],
       "screencaps": [
         "login/eeek.org.uk_3000.png"
@@ -9542,6 +9630,10 @@
     },
     {
       "name": "H(o)(o)TERS",
+      "aka": [
+        "Hooters",
+        "H(o)(o)TERS~2000"
+      ],
       "slug": "hooters",
       "dataOrigins": ["talkers.ws"],
       "hosts": [
@@ -11478,6 +11570,11 @@
       "name": "The Borg Collective",
       "dataOrigins": ["maddhouse"],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "eeek.org.uk",
+          "port": 6666
+        },
         {
           "blocked": true,
           "hostname": "borgc.ml.org",
@@ -14313,6 +14410,11 @@
           "blocked": true,
           "hostname": "hivechat.net",
           "port": 6000
+        },
+        {
+          "blocked": true,
+          "hostname": "hive.yuss.org",
+          "port": 5000
         }
       ]
     },
@@ -15195,6 +15297,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "dune.net",
+          "port": 4560
+        },
+        {
+          "blocked": true,
           "hostname": "neonumbra.lycanthrope.org",
           "port": 4561
         }
@@ -15493,6 +15600,11 @@
       "name": "The Hundred Acre Woods",
       "dataOrigins": ["spodlist"],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hambleton.net",
+          "port": 1111
+        },
         {
           "blocked": true,
           "hostname": "mytalker.org",
