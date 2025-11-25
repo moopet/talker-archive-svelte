@@ -11,9 +11,7 @@
 </script>
 
 <section>
-  {#if group.name}
-    <h2>{group.name}</h2>
-  {/if}
+  <h2>Other talkers grouped with {talker.name}</h2>
 
   {#if group.description}
     <p>
@@ -23,18 +21,13 @@
         (<a href={group.url}>read more&hellip;</a>)
       {/if}
     </p>
-  {/if}
-
-  {#if group.name}
-    <h3>Other talkers grouped with {talker.name}</h3>
   {:else}
-    <h2>Other talkers grouped with {talker.name}</h2>
+    <p>
+      This could be because they're the same talker re-written or renamed,
+      because they're run by the same staff, or for literally any other reason.
+    </p>
   {/if}
 
-  <p>
-    This could be because they're the same talker re-written or renamed,
-    because they're run by the same staff, or for literally any other reason.
-  </p>
 
   <table>
     <thead>
