@@ -473,6 +473,23 @@
   ],
   "groups": [
     {
+      "name": "The Lost Isles",
+      "shortName": "lostisles",
+      "description": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code."
+    },
+    {
+      "shortName": "fear-politburo"
+    },
+    {
+      "shortName": "silver-dragon"
+    },
+    {
+      "shortName": "surfers"
+    },
+    {
+      "shortName": "foothills"
+    },
+    {
       "shortName": "atlantis"
     },
     {
@@ -563,10 +580,6 @@
         "login/angst.mopemansions.org_2003.png"
       ],
       "resources": [
-        {
-          "type": "website",
-          "url": "http://mopemansions.org"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20040605082348/http://mopemansions.org/"
@@ -918,7 +931,7 @@
     {
       "name": "Forgotten Isle",
       "disambiguation": "Not to be confused with <a href=\"/details/forgotten-island\" data-sveltekit-reload>Forgotten Island</a>.",
-      "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/dragons-isle\">Dragon's Isle</a>.",
+      "group": "lostisles",
       "ageRestriction": "18+",
       "codebase": "sinco",
       "admins": [
@@ -2595,6 +2608,7 @@
       "location": "USA",
       "ewtooAbbr": "fh",
       "dataOrigins": ["spodlist"],
+      "group": "foothills",
       "codebase": "ewtoo",
       "resources": [
         {
@@ -3985,6 +3999,7 @@
       "name": "Marble Madness",
       "location": "UK",
       "notes": "The talker eventually became <a data-sveltekit-reload href=\"/details/surfers\">Surfers</a>",
+      "group": "surfers",
       "codebase": "ewtoo",
       "hosts": [
         {
@@ -3996,6 +4011,7 @@
     },
     {
       "name": "Surfers",
+      "group": "surfers",
       "location": "UK",
       "description": "A talker inhabited by a group of lazy long-haired, tanned layabouts who bum around on the beach all day desperately trying not to do any work.",
       "dataOrigins": ["spodlist"],
@@ -9376,6 +9392,7 @@
     {
       "name": "Fear The Penguin",
       "codebase": "sensisummink",
+      "group": "fear-politburo",
       "dataOrigins": ["talkers.ws", "facebook"],
       "notes": "Possibly evolved into <a data-sveltekit-reload href=\"/details/the-politburo\">The Politburo</a>.",
       "admins": [
@@ -9399,6 +9416,7 @@
       "name": "The Politburo",
       "codebase": "pgplus",
       "dataOrigins": ["facebook"],
+      "group": "fear-politburo",
       "notes": "Possibly evolved from <a data-sveltekit-reload href=\"/details/fear-the-penguin\">Fear The Penguin</a>."
     },
     {
@@ -11013,6 +11031,7 @@
     {
       "name": "Ancient Realms",
       "notes": "This talker was launched in 1995 and replaced in 1997 by <a data-sveltekit-reload href=\"/details/hall-of-the-silver-dragon\">Hall of the Silver Dragon</a>, which used the same code.",
+      "group": "silver-dragon",
       "resources": [
         {
           "type": "wayback",
@@ -11063,6 +11082,7 @@
     },
     {
       "name": "Hall of the Silver Dragon",
+      "group": "silver-dragon",
       "aka": [
         "The Silver Dragon"
       ],
@@ -16302,6 +16322,7 @@
     },
     {
       "name": "Dragon's Isle",
+      "group": "lostisles",
       "slug": "dragons-isle",
       "admins": [
         "Calysto",
@@ -16309,7 +16330,6 @@
         "Rhiannon"
       ],
       "ageRestriction": "18+",
-      "notes": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code.<br>See also: <a data-sveltekit-reload href=\"/details/forgotten-isle\">Forgotten Isle</a>.",
       "dataOrigins": [""],
       "resources": [
         {
@@ -16638,6 +16658,7 @@
       "name": "Elsewhere",
       "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/_elsewhere\">Elsewhere</a>.",
       "notes": "Elsewhere was what eventually became <a data-sveltekit-reload href=\"/details/foothills\">Foothills</a>.",
+      "group": "foothills",
       "coders": [
         "Burble"
       ],
@@ -18959,6 +18980,7 @@
       "name": "The Promised Land",
       "notes": "Christian-based talker, open to all ages",
       "dataOrigins": [ "greatbiglist" ],
+      "ageRestriction": "all-ages",
       "codebase": "talkeros",
       "admins": [
         "Jazzin",
