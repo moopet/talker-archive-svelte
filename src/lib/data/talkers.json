@@ -3735,8 +3735,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.flevel.co.uk/~dome"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970612174136/http://www.flevel.co.uk/~dome/"
         }
       ],
       "hosts": [
@@ -4201,6 +4201,7 @@
     },
     {
       "name": "The World",
+      "description": "The general concept of our talker is to discover the wonders that we know none of us will ever see. It is with this in mind that we will strive to create the most countries and wonders of our Earth.",
       "ageRestriction": "all-age",
       "location": "USA",
       "dataOrigins": ["spodlist"],
@@ -4220,6 +4221,10 @@
         {
           "type": "website",
           "url": "https://nosuchluck.incredulous.org"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19980122023834/http://world.clara.net/"
         },
         {
           "type": "website",
@@ -5269,6 +5274,10 @@
       "name": "Underworld",
       "codebase": "pgplus",
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981206135710/http://www.underworld.pizza.org/noframes.htm"
+        },
         {
           "type": "website",
           "url": "http://www.riverbend.net/tower"
@@ -8531,9 +8540,26 @@
     },
     {
       "name": "Chaos!",
+      "description": "ChAoS boasts color, aliases, new and innovative commands, and a completely different look about it than other talkers do.<br>ChAoS is always open and waiting for your arrival, so do drop by.",
       "slug": "chaos",
-      "dataOrigins": ["greatbiglist"],
+      "dataOrigins": ["greatbiglist", "homepage"],
       "location": "USA",
+      "admins": [
+        "Jaycee",
+        "Raistlin"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19971224173609/http://darkstar.cortland.edu/~chaos/welcome2.html"
+        }
+      ],
+      "textcaps": [
+        "maps/chaos.map.txt"
+      ],
+      "screencaps": [
+        "maps/chaos.map.png"
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -9242,12 +9268,12 @@
       "name": "Dreamscape",
       "disambiguation": "Not to be confused with <a href=\"/details/_dreamscape\" data-sveltekit-reload>the <em>other</em> Dreamscape</a>.",
       "slug": "dreamscape",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "homepage"],
       "codebase": "ewtoo",
       "resources": [
         {
-          "type": "website",
-          "url": "http://dreamscape.bernstein.com/dreamscape"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990127102802/http://dreamscape.bernstein.com/dreamscape/"
         }
       ],
       "hosts": [
@@ -11059,10 +11085,29 @@
       ]
     },
     {
+      "name": "Whitewolf",
+      "location": "USA",
+      "admins": [
+        "jits"
+      ],
+      "hosts": []
+    },
+    {
       "name": "Clouds",
       "location": "USA",
-      "dataOrigins": ["greatbiglist", "maddhouse"],
+      "dataOrigins": ["greatbiglist", "maddhouse", "homepage"],
+      "coders": [
+        "Phypor"
+      ],
+      "admins": [
+        "Phypor",
+        "jits"
+      ],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990218074642/http://brooklyn.slack.net/%7Eclouds/"
+        },
         {
           "type": "website",
           "url": "http://clouds.pre.org/~clouds/"
@@ -12571,8 +12616,12 @@
     {
       "name": "Paradise Island",
       "disambiguation": "Not to be confused with <a href=\"/details/paradise\" data-sveltekit-reload>Paradise</a>.",
-      "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "codebase": "pg96",
+      "dataOrigins": ["talker.com", "homepage"],
+      "admins": [
+        "HeartBreakKid",
+        "Lex"
+      ],
       "resources": [
         {
           "type": "email",
@@ -17515,8 +17564,16 @@
     {
       "name": "Oasis",
       "slug": "oasis",
+      "codebase": "pg96",
       "disambiguation": "Not to be confused with <a href=\"/details/_oasis\" data-sveltekit-reload>the <em>other</em> Oasis</a>.",
+      "description": "A place designed for you to relax and enjoy conversing with your friends. We hope that you will find Oasis a haven from the heat of the desert!",
       "location": "USA",
+      "admins": [
+        "LauR",
+        "WENdy",
+        "JeSse",
+        "Kris"
+      ],
       "resources": [
         {
           "type": "website",
