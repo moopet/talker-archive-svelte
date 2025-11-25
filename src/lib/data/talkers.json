@@ -9988,6 +9988,17 @@
       ]
     },
     {
+      "name": "Big Top",
+      "dataOrigins": ["crossroads"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "wynch.dazone.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
       "name": "SpiderWeb",
       "dataOrigins": ["crossroads"],
       "resources": [
