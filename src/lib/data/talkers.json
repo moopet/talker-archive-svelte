@@ -9999,6 +9999,39 @@
       ]
     },
     {
+      "name": "New",
+      "dataOrigins": ["crossroads"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkstar.icdc.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Order",
+      "dataOrigins": ["crossroads"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mergetel.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Beyond the Grave",
+      "dataOrigins": ["crossroads"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "elwood.pionet.net",
+          "port": 7276
+        }
+      ]
+    },
+    {
       "name": "SpiderWeb",
       "dataOrigins": ["crossroads"],
       "resources": [
