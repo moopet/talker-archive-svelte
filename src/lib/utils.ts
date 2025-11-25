@@ -33,7 +33,11 @@ export function getTalkerSlug(talker: Talker): string {
     return talker.slug;
   }
 
-  return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9]/, '');
+  return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9-]/, '');
+}
+
+export function findTalkersByGroup(groupName: string): Talker[] {
+  return talkers.filter(talker => (talker?.group ?? '').toLowerCase() === groupName.toLowerCase());
 }
 
 export function findTalkersByMultiWorld(multiWorldName: string): Talker[] {

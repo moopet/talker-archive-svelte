@@ -60,6 +60,10 @@ export type Talker = {
   textcaps?: string[];
 };
 
+export type GroupProps = {
+  shortName: string;
+};
+
 export type MultiWorldProps = {
   shortName: string;
 };

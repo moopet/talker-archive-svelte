@@ -2,7 +2,7 @@ import slugify from 'slugify';
 import { codebases, dataOrigins, resources, talkers } from '$lib/data/talkers.json';
 
 export function getSlug(text: string): string {
-  return slugify(text.replace(/^A /, ''), { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9]/, '');
+  return slugify(text.replace(/^A /, ''), { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9-]/, '');
 }
 
 export function getTalker(params): Talker {

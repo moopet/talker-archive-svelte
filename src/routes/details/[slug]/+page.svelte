@@ -5,6 +5,7 @@
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
   import MultiWorld from '$lib/components/MultiWorld.svelte';
+  import Group from '$lib/components/Group.svelte';
   import DuplicateHostList from '$lib/components/DuplicateHostList.svelte';
   import Disclaimer from '$lib/components/Disclaimer.svelte';
 
@@ -184,6 +185,10 @@
 
     {#if talker?.multiWorld}
       <MultiWorld shortName={talker.multiWorld} />
+    {/if}
+
+    {#if talker?.group}
+      <Group {talker} shortName={talker.group} />
     {/if}
 
     <DuplicateHostList talker={talker} />

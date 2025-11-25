@@ -159,6 +159,16 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "horne",
+      "name": "Timothy Horne's talker list",
+      "link": "http://www.bucknell.edu/~horne/sub/talkers.html"
+    },
+    {
+      "shortName": "crossroads",
+      "name": "Crossroads, TNG talker list",
+      "link": "http://www.talker.com/crossroads/talkers.html"
+    },
+    {
       "shortName": "dune",
       "name": "Dune.net customer list",
       "link": "http://enigma.dune.net/customers/index.sphp"
@@ -461,6 +471,17 @@
       "language": "C"
     }
   ],
+  "groups": [
+    {
+      "shortName": "atlantis"
+    },
+    {
+      "shortName": "burbs"
+    },
+    {
+      "shortName": "romance"
+    }
+  ],
   "multiWorlds": [
     {
       "shortName": "spaceboy",
@@ -536,6 +557,7 @@
       "dataOrigins": ["spodlist", "memory"],
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
       "notes": "Mope ran on an IBM Thinkpad via a Bulldog ADSL connection in London. This was fast for consumer broadband at the time (the first to offer 2MB/512KB) but latency was an issue for users compared to more professionally-hosted talkers.<br>The name was a parody of \"Meep Towers\".",
+      "group": "atlantis",
       "codebase": "sensisummink",
       "screencaps": [
         "login/angst.mopemansions.org_2003.png"
@@ -643,6 +665,7 @@
     },
     {
       "name": "Atlantis",
+      "group": "atlantis",
       "slug": "atlantis",
       "disambiguation": "Not to be confused with <a href=\"/details/atlantis-ii\" data-sveltekit-reload>Atlantis II</a> or <a href=\"/details/_atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
       "dataOrigins": ["memory"],
@@ -961,10 +984,23 @@
     {
       "name": "The 'Burbs",
       "location": "USA",
+      "group": "burbs",
+      "notes": "Replaced <a href=\"/details/city\" data-sveltekit-reload>The City</a>.",
       "description": " The 'Burbs is a social type talker with multiple rooms. The system rooms all have a suburbs-like description, hence the name.<br>New players may log in at any time but must ask a Superuser for 'residency' in order to have their character saved.<br>Once a resident you will not only be saved, but will be able to send mail to other players, created rooms of your own, have a friends list, set sessions, and post news. This is a very friendly atmosphere, troublemakers are not tolerated!",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "burbs",
       "codebase": "summink",
+      "admins": [
+        "anDrea",
+        "Bratman",
+        "David",
+        "fuddrucker",
+        "Justin",
+        "kalypso",
+        "sparx",
+        "VirTue",
+        "Zaphod"
+      ],
       "screencaps": [
         "login/burbs.org_4567.png"
       ],
@@ -975,6 +1011,10 @@
         {
           "type": "email",
           "url": "burbs@burbs.org"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970606072944/http://www.infomagic.com/~city/"
         },
         {
           "type": "website",
@@ -4889,6 +4929,7 @@
     },
     {
       "name": "Alice's Looking Glass",
+      "group": "romance",
       "description": "A very friendly adult talker with a Lewis Carroll theme!",
       "screencaps": [
         "login/dune.net_4405.png"
@@ -6341,7 +6382,8 @@
     {
       "name": "The City",
       "dataOrigins": ["rosen"],
-      "notes": "The City and The City II ran on the same host and port, so are possibly continuations of one another.",
+      "notes": "The City and The City II ran on the same host and port, so are possibly continuations of one another. Eventually replaced by <a href=\"/details/burbs\" data-sveltekit-reload>The 'Burbs</a>.",
+      "group": "burbs",
       "resources": [
         {
           "type": "website",
@@ -9136,6 +9178,10 @@
     },
     {
       "name": "Envirochat",
+      "aka": [
+        "Enviro Chat"
+      ],
+      "description": "welcome to the greatest online community of environmentally concerned individuals.",
       "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "resources": [
@@ -9924,12 +9970,29 @@
       ]
     },
     {
+      "name": "Backyard",
+      "dataOrigins": ["crossroads"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "amarerasu.math.orst.edu",
+          "port": 1996
+        }
+      ]
+    },
+    {
       "name": "Purple Goo",
       "dataOrigins": ["greatbiglist"],
+      "admins": [
+        "OmegaAlpha",
+        "JediKnight",
+        "Shalaiah",
+        "Grimtooth"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://genesis.skl.com/~death"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970402215849/http://genesis.skl.com/~death/"
         }
       ],
       "hosts": [
@@ -10917,6 +10980,7 @@
     {
       "name": "American Romance",
       "codebase": "nuts",
+      "group": "romance",
       "description": "American Romance is an over-18 talker. The theme of the talker is romantic places across the Americas. Enjoy laughter with friends or get away to a romantic setting.",
       "ageRestriction": "18+",
       "dataOrigins": ["talker.com"],
@@ -11952,6 +12016,30 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 7411
+        }
+      ]
+    },
+    {
+      "name": "The Lonesome October",
+      "location": "USA",
+      "dataOrigins": ["horne", "greatbiglist", "homepage"],
+      "codebase": "pg96",
+      "admins": [
+        "Etrigan",
+        "Apocalypse",
+        "Hafnium"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970605195440/http://dilbert.shawnee.edu/~october"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dilbert.shawnee.edu",
+          "port": 3000
         }
       ]
     },
@@ -15257,8 +15345,14 @@
       "admins": [
         "Darthvader"
       ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000201152845/http://www.geocities.com/SunsetStrip/Palladium/5314"
+        }
+      ],
       "codebase": "amnuts",
-      "dataOrigins": ["spodlist", "maddhouse", "talkernet"],
+      "dataOrigins": ["spodlist", "maddhouse", "talkernet", "crossroads"],
       "hosts": [
         {
           "blocked": true,
@@ -16954,24 +17048,6 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
-      "name": "The Lonesome October",
-      "location": "USA",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://dilbert.shawnee.edu/~october/"
-        }
-      ],
-      "hosts": [
-        {
-          "hostname": "dilbert.shawnee.edu",
-          "port": 3000,
-          "blocked": true
-        }
-      ],
-      "dataOrigins": ["greatbiglist"]
-    },
-    {
       "name": "Looney Bin",
       "slug": "looney-bin",
       "disambiguation": "Not to be confused with <a href=\"/details/the-looney-bin\" data-sveltekit-reload>The Looney Bin</a>.",
@@ -17178,6 +17254,10 @@
         {
           "type": "website",
           "url": "http://www.geopages.com/broadway/2040/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010726110053/http://www.geocities.com/TimesSquare/2708/"
         }
       ],
       "hosts": [
@@ -17187,7 +17267,7 @@
           "blocked": true
         }
       ],
-      "dataOrigins": ["greatbiglist"]
+      "dataOrigins": ["greatbiglist", "horne"]
     },
     {
       "name": "Nirvana",
