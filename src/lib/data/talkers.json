@@ -5317,12 +5317,21 @@
     },
     {
       "name": "The Dominion",
+      "description": "The Dominion is a talker based on a medieval setting. The idea of Dominion is to provide a fun place to talk with other people, and to meet new people from all over the world. The medieval setting is reflected in various locations that you can visit, the main features being the Town and the Castle. Also, the various staff members of Dominion have titles based on the medieval genre, ranging from Scouts, who help new users become familiar with the system, through Chancellors, Guards, Knights, Lords, and Ladys up to the Archmage who is responsible for the system overall.",
       "notes": "The Dominion was run from from 28/09/1996 to 06/01/2004 by MushyPea.",
       "codebase": "ewtoo",
+      "coders": [
+	      "ArchMage"
+      ],
+      "admins": [
+	      "ArchMage",
+	      "Abel",
+	      "Gotan"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.dominion.net.uk/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000520023538/http://dominion.net.uk/"
         }
       ],
       "hosts": [
@@ -9018,7 +9027,8 @@
       "ageRestriction": "all-age",
       "codebase": "ewtoo",
       "admins": [
-        "DarkFlame"
+        "DarkFlame",
+	"DooM"
       ],
       "resources": [
         {
@@ -9176,11 +9186,24 @@
     },
     {
       "name": "Dream Island",
-      "dataOrigins": ["talkers.ws"],
+      "description": "One of the friendliest talkers on the net. We hope you enjoy your time here and hope you join our family as a member.",
+      "codebase": "pgplus",
+      "location": "UK",
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "coders": [
+	      "Taz"
+      ],
+      "admins": [
+	      "Jamie",
+	      "Melbernai",
+	      "Troble",
+	      "Rich",
+	      "Burrito"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://dream.custard.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000520063225/http://dream.custard.org/"
         }
       ],
       "hosts": [
