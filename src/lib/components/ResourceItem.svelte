@@ -4,7 +4,7 @@
 
 <div>
   {#if resource.type === 'image'}
-    <img src={resource.url} alt={resource.alt} />
+    <a href={resource.url}><img src={resource.url} alt={resource.alt} /></a>
   {:else}
     <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
   {/if}
