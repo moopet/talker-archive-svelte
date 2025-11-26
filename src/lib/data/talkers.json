@@ -493,6 +493,9 @@
       "shortName": "atlantis"
     },
     {
+      "shortName": "bored"
+    },
+    {
       "shortName": "burbs"
     },
     {
@@ -648,11 +651,24 @@
     {
       "name": "Alcatraz",
       "description": "We have taken the average Ew-Too talker and set it up to resemble a prison. We have renamed the Admins to Warden... and SU's to Guards, etc. We have Smokes as our talker's currency to buy and manipulate cool stuff in our net world. We have cool socials and room descriptions that will make your Coed experience of our Prison life interesting to say the least. We also have a few games for you to play while at Alcatraz. There is Paper Rock Scissors, Dice, slots, familiars, and now you can even morph yourself into just about anything.",
-      "dataOrigins": ["greatbiglist", "wayback"],
+      "dataOrigins": ["greatbiglist", "homepage"],
+      "coders": [
+	      "cLiFfORd",
+	      "Crash"
+      ],
+      "admins": [
+	      "Charmin",
+	      "cLiFfORd",
+	      "Crash"
+      ],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/19981206084829/http://talkers.skl.com/%7Echarming/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991001191146/http://www.geocities.com/TimesSquare/Lair/2401/"
         },
         {
           "type": "website",
@@ -888,6 +904,34 @@
           "blocked": true,
           "hostname": "yerevan.acp.da.ru",
           "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Hogwarts",
+      "dataOrigins": ["homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20041204084117/http://thetalker.nl.eu.org/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "thetalker.nl.eu.org",
+          "port": 7654
+        }
+      ]
+    },
+    {
+      "name": "The Island of Livonia",
+      "dataOrigins": ["homepage"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.alexx.net",
+          "port": 3730
         }
       ]
     },
@@ -1994,16 +2038,16 @@
           "url": "https://web.archive.org/web/20031203191027/http://crazylands.org/index.html"
         },
         {
-          "type": "website",
-          "url": "http://crazylands.org"
-        },
-        {
-          "type": "website",
-          "url": "http://crazy.skl.com/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970330200450/http://crazy.skl.com/"
         },
         {
           "type": "website",
           "url": "http://www.sgi.net/~jon/westhill.skl.com/~crazy"
+        },
+        {
+          "type": "website",
+          "url": "https://web.archive.org/web/19990208003921/http://crazylands.org/"
         }
       ],
       "hosts": [
@@ -5648,6 +5692,12 @@
       "screencaps": [
         "login/www.nsgso.co.uk_1929.png"
       ],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20020930193934/http://www.nsgso.co.uk/~chicago/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -6346,6 +6396,12 @@
     {
       "name": "AlTeReD BeAsTs",
       "dataOrigins": ["talkers.ws"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20010819014530/http://ncohafmuta.com/~wolfsong/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8504,7 +8560,20 @@
     },
     {
       "name": "Bored, The Talker",
-      "dataOrigins": ["talkers.ws"],
+      "description": "We started this talker in the begining of 1999. It was oroginaly intended as a way for Ben to kill time and play around with unix a little. However, the few people that were invited began to tell other people about \"bored\". Over time the user base has begun to grow. Currently we are in the process of adding more users",
+      "group": "bored",
+      "codebase": "pgplus",
+      "admins": [
+	      "Ben",
+	      "Adora"
+      ],
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20020213084458/http://bored.hambleton.net/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8515,7 +8584,14 @@
     },
     {
       "name": "Bare Necessities",
-      "dataOrigins": ["talkers.ws"],
+      "description": "In a cyberspace world that has been corrupted by net.sexers and idlers.. We introduce a revolutional talker. Bare Necessities, is just that.<br>Back to the basics What made talkers so popular?. A place where people from all over the world could come togather to chat in a \"real time\" enviroment. It almost seems primative in this cyberspace of socials, colours and games. Why re-invent the wheel?.<br>Our users are actively chatting in the main room. Come on in and dare to be different.",
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20010519085125/http://camelot.subnigra.com/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15670,7 +15746,21 @@
     },
     {
       "name": "The Hundred Acre Woods",
-      "dataOrigins": ["spodlist"],
+      "group": "bored",
+      "dataOrigins": ["spodlist", "homepage"],
+      "coders": [
+	      "Lokie"
+      ],
+      "admins": [
+	      "Bekky",
+	      "Ben"
+      ],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20041204203429/http://bored.hambleton.net/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
