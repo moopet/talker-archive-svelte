@@ -295,6 +295,10 @@
       "name": "JATS"
     },
     {
+      "shortName": "oot",
+      "name": "OOT"
+    },
+    {
       "shortName": "joot",
       "name": "JOOT"
     },
