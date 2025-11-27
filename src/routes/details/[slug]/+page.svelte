@@ -57,7 +57,7 @@
     return `Information presented here was - at least in part - sourced from ${matches.join(", and ")}.`;
   };
 
-  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, resources = [], dataOrigin }: Talker = talker;
+  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigin }: Talker = talker;
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
@@ -100,6 +100,19 @@
 
   const otherResources: Array<Resource> = resources
     .filter(resource => resource.type === 'Facebook community');
+
+
+  const getDateDescription = (yearOpened: number, yearClosed: number): string => {
+    if (yearOpened && yearClosed) {
+      return `The talker opened in ${yearOpened} and closed in ${yearClosed}.`;
+    }
+
+    if (yearClosed) {
+      return `The talker closed in ${yearClosed}.`;
+    }
+
+    return `The talker closed in ${yearClosed}.`;
+  };
 
   if (ewtooAbbr) {
     otherResources.push({
@@ -151,6 +164,10 @@
       <p class="disambiguation">
         {@html talker?.disambiguation}
       </p>
+    {/if}
+
+    {#if yearOpened || yearClosed}
+      <p class="dates">{getDateDescription(yearOpened, yearClosed)}</p>
     {/if}
 
     {#if talker?.ageRestriction === '18+'}

@@ -478,6 +478,9 @@
       "description": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code."
     },
     {
+      "shortName": "sommerland"
+    },
+    {
       "shortName": "fear-politburo"
     },
     {
@@ -491,6 +494,9 @@
     },
     {
       "shortName": "atlantis"
+    },
+    {
+      "shortName": "bored"
     },
     {
       "shortName": "burbs"
@@ -648,11 +654,24 @@
     {
       "name": "Alcatraz",
       "description": "We have taken the average Ew-Too talker and set it up to resemble a prison. We have renamed the Admins to Warden... and SU's to Guards, etc. We have Smokes as our talker's currency to buy and manipulate cool stuff in our net world. We have cool socials and room descriptions that will make your Coed experience of our Prison life interesting to say the least. We also have a few games for you to play while at Alcatraz. There is Paper Rock Scissors, Dice, slots, familiars, and now you can even morph yourself into just about anything.",
-      "dataOrigins": ["greatbiglist", "wayback"],
+      "dataOrigins": ["greatbiglist", "homepage"],
+      "coders": [
+	      "cLiFfORd",
+	      "Crash"
+      ],
+      "admins": [
+	      "Charmin",
+	      "cLiFfORd",
+	      "Crash"
+      ],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/19981206084829/http://talkers.skl.com/%7Echarming/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991001191146/http://www.geocities.com/TimesSquare/Lair/2401/"
         },
         {
           "type": "website",
@@ -888,6 +907,34 @@
           "blocked": true,
           "hostname": "yerevan.acp.da.ru",
           "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Hogwarts",
+      "dataOrigins": ["homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20041204084117/http://thetalker.nl.eu.org/"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "thetalker.nl.eu.org",
+          "port": 7654
+        }
+      ]
+    },
+    {
+      "name": "The Island of Livonia",
+      "dataOrigins": ["homepage"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.alexx.net",
+          "port": 3730
         }
       ]
     },
@@ -1994,16 +2041,16 @@
           "url": "https://web.archive.org/web/20031203191027/http://crazylands.org/index.html"
         },
         {
-          "type": "website",
-          "url": "http://crazylands.org"
-        },
-        {
-          "type": "website",
-          "url": "http://crazy.skl.com/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970330200450/http://crazy.skl.com/"
         },
         {
           "type": "website",
           "url": "http://www.sgi.net/~jon/westhill.skl.com/~crazy"
+        },
+        {
+          "type": "website",
+          "url": "https://web.archive.org/web/19990208003921/http://crazylands.org/"
         }
       ],
       "hosts": [
@@ -5107,6 +5154,7 @@
     {
       "name": "Star Trek: Resurrection",
       "notes": "STR used to be a MUSH, but closed and re-opened as a talker around 2012.",
+      "yearOpened": 2012,
       "resources": [
         {
           "type": "website",
@@ -5525,6 +5573,7 @@
       "ageRestriction": "all-age",
       "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
       "notes": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
+      "yearOpened": 1997,
       "dataOrigins": ["galaxy"],
       "ewtooAbbr": "Val",
       "codebase": "pgplus",
@@ -5648,6 +5697,12 @@
       "screencaps": [
         "login/www.nsgso.co.uk_1929.png"
       ],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20020930193934/http://www.nsgso.co.uk/~chicago/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -5660,6 +5715,7 @@
       "name": "FurToonia",
       "codebase": "tinymuck",
       "description": "FurToonia is a MUCK themed to furries, or anthropomorphic animals, and 'toons, and has a thriving anime district.<br>Originally designed back in 1994 around Toon characters and Furry animals, it has grown to become a HUGE world and surrounding Universe (w/ more worlds) with over 2500 characters of every type, over 68000 objects total, and themed areas for every taste.",
+      "yearOpened": 1994,
       "ewtooAbbr": "wank",
       "admins": [
         "Calico",
@@ -6346,6 +6402,12 @@
     {
       "name": "AlTeReD BeAsTs",
       "dataOrigins": ["talkers.ws"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20010819014530/http://ncohafmuta.com/~wolfsong/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -6597,6 +6659,7 @@
     {
       "name": "Crossroads, the Next Generation",
       "description": "CrossRoads, The Next Generation, is a place for friends, both old and new, to gather and chat about almost anything. Opened shortly after the original CrossRoads closed in early 1997, CrossRoads TNG carries on the tradition started by Jesse, Sparky and all the others who made CrossRoads one of the mosr popular talkers on the net. Please stop by, kick your shoes off, grab something to drink and enjoy your stay.",
+      "yearOpened": 1997,
       "slug": "crossroads-the-next-generation",
       "dataOrigins": ["maddhouse"],
       "resources": [
@@ -8504,7 +8567,21 @@
     },
     {
       "name": "Bored, The Talker",
-      "dataOrigins": ["talkers.ws"],
+      "description": "We started this talker in the begining of 1999. It was oroginaly intended as a way for Ben to kill time and play around with unix a little. However, the few people that were invited began to tell other people about \"bored\". Over time the user base has begun to grow. Currently we are in the process of adding more users",
+      "yearOpened": 1999,
+      "group": "bored",
+      "codebase": "pgplus",
+      "admins": [
+	      "Ben",
+	      "Adora"
+      ],
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20020213084458/http://bored.hambleton.net/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8515,7 +8592,14 @@
     },
     {
       "name": "Bare Necessities",
-      "dataOrigins": ["talkers.ws"],
+      "description": "In a cyberspace world that has been corrupted by net.sexers and idlers.. We introduce a revolutional talker. Bare Necessities, is just that.<br>Back to the basics What made talkers so popular?. A place where people from all over the world could come togather to chat in a \"real time\" enviroment. It almost seems primative in this cyberspace of socials, colours and games. Why re-invent the wheel?.<br>Our users are actively chatting in the main room. Come on in and dare to be different.",
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20010519085125/http://camelot.subnigra.com/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8729,6 +8813,7 @@
     {
       "name": "CyberEden",
       "description": "Welcome to CyberEden, a lost paradise on the edge of the galaxy.<br>CyberEden was built in 1993 and financed by Rivendell International Communications. It is a fully functional CyberSpace station with both public and private rooms available. CyberEden also boasts an additional 20 rooms for your recreation pleasure. Other facilities include a pool room, a full service bar, training rooms, and a massage area.",
+      "yearOpened": 1993,
       "admins": [
         "Gandalf",
         "Zeta",
@@ -9475,6 +9560,7 @@
     {
       "name": "Fantasy Island",
       "description": "Fantasy Island has been up since the first part of October 1998 and has grown to over 350 users in that short span of time.<br> Our major goal is to make our environment friendly and fun, the way talkers in general were designed (and supposed) to be.<br>We don't play head games here nor do we penalize users for being a part of another talker (wiz, admin etc.) or for owning your own talker. Ideas and suggestions are encouraged. After all, this talker is for YOU.",
+      "yearOpened": 1998,
       "ageRestriction": "18+",
       "disambiguation": "Not to be confused with <a href=\"/details/fantasy-land\" data-sveltekit-reload>Fantasy Land</a>.",
       "dataOrigins": ["talkers.ws", "talkernet"],
@@ -11203,7 +11289,7 @@
     {
       "name": "Alpha House",
       "description": "Alpha House is based on a sorority house. Frat house is the jail. We do try to have fun. Nice place to hang out and meet new friends. Like a big, happy family there, and growing!",
-      "notes": "Alpha House opened August 10, 1997.",
+      "yearOpened": 1997,
       "codebase": "amnuts",
       "dataOrigins": ["talker.com"],
       "textcaps": [
@@ -11262,7 +11348,9 @@
     },
     {
       "name": "Ancient Realms",
-      "notes": "This talker was launched in 1995 and replaced in 1997 by <a data-sveltekit-reload href=\"/details/hall-of-the-silver-dragon\">Hall of the Silver Dragon</a>, which used the same code.",
+      "notes": "This talker was launched in 1995 and was replaced in 1997 by <a data-sveltekit-reload href=\"/details/hall-of-the-silver-dragon\">Hall of the Silver Dragon</a>, which used the same code.",
+      "yearOpened": 1995,
+      "yearClosed": 1997,
       "group": "silver-dragon",
       "resources": [
         {
@@ -11277,7 +11365,7 @@
     },
     {
       "name": "Dockyard",
-      "notes": "This talker-themed MUD closed in 2014.",
+      "yearClosed": 2014,
       "dataOrigins": ["mudstats"],
       "screencaps": [
         "login/wooooooooooooooy.com_4000.png"
@@ -11296,7 +11384,7 @@
     {
       "name": "The Oaktree-house talker",
       "description": "The Oaktree-house is a talker 'for Acorn users to talk about Acorny things'. It aims to be a nice place to talk, without the abusive language etc. often seen elsewhere. Anyone can log in, but if you use the talker regularly you are encouraged to get an account (which is free).",
-      "notes": "This talker closed in 2018.",
+      "yearClosed": 2018,
       "dataOrigins": ["mudstats"],
       "screencaps": [
         "login/toth.org.uk_23.png"
@@ -11319,6 +11407,7 @@
         "The Silver Dragon"
       ],
       "notes": "This talker-themed MUD was launched in 1997 and used the same code as <a data-sveltekit-reload href=\"/details/ancient-realms\">Ancient Realms</a>. It closed in 2013.",
+      "yearOpened": 1997,
       "admin": [
         "Gerky"
       ],
@@ -12027,6 +12116,7 @@
     },
     {
       "name": "CrossRoads",
+      "yearClosed": 1997,
       "admins": [
 	      "Jess",
 	      "Sparky"
@@ -12109,6 +12199,7 @@
     {
       "name": "Eye of the World",
       "description": "The Eye of the World was started in February of 1995, based on the Wheel of Time saga by Robert Jordan. It is not a role-playing environment. It IS a very colorful, friendly environment where we encourage users to take part in the life of the talker. We do this by giving our users the opportunity to own one of our 36 rooms.",
+      "yearOpened": 1995,
       "dataOrigins": ["talker.com", "maddhouse", "homepage"],
       "admins": [
         "Excalibur"
@@ -12946,6 +13037,7 @@
     {
       "name": "Utopia",
       "description": "Utopia is a talker for adults that started in 1995. We only permit users over 18 and strive to maintain a warm, friendly and mostly mature atmosphere, while still having fun. Utopia is set in an imaginary town where you will find a growing yet still close-knit community of wonderful people.",
+      "yearOpened": 1995,
       "location": "UK",
       "ageRestriction": "18+",
       "codebase": "ncohafmuta",
@@ -13638,6 +13730,7 @@
     },
     {
       "name": "Sommerland II",
+      "group": "sommerland",
       "description": "Sommerland is a talker open to anyone who has an open mind and isn't oppressed by people of different sexual orientations. This is not a sex talker, but rather a place for people to relax, have fun, and discuss issues in a themepark setting.",
       "disambiguation": "It appears this talker replaced the original IFORMS-based <a data-sveltekit-reload href=\"/details/sommerland\">Sommerland</a>.",
       "codebase": "ncohafmuta",
@@ -15670,7 +15763,21 @@
     },
     {
       "name": "The Hundred Acre Woods",
-      "dataOrigins": ["spodlist"],
+      "group": "bored",
+      "dataOrigins": ["spodlist", "homepage"],
+      "coders": [
+	      "Lokie"
+      ],
+      "admins": [
+	      "Bekky",
+	      "Ben"
+      ],
+      "resources": [
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20041204203429/http://bored.hambleton.net/"
+	      }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -15897,6 +16004,7 @@
       "name": "The Forever Beyond",
       "ageRestriction": "all-age",
       "description": "The Forever Beyond is an all-ages chat talker that specializes in computers, fun, and interesting conversations.<br>We are a talker for all ages, with color. We have the Starship Enterprise section and a plethora of interesting users from all over. The server is running only this talker, so the lag is at a minimum. Come on over for a good time, because this is new! Up since Jan 1997 and it has only a 5 to 10 user load at night, CST. Come on by! ",
+      "yearOpened": 1997,
       "dataOrigins": ["greatbiglist", "talkernet"],
       "admins": [
         "Ribbon"
@@ -15983,7 +16091,7 @@
     {
       "name": "Talk of the Town",
       "ageRestriction": "18+",
-      "notes": "Talk of the Town closed in 2015.",
+      "yearClosed": 2015,
       "dataOrigins": ["tdf", "mudstats"],
       "screencaps": [
         "login/tott.enyc.org.uk_8688.png"
@@ -16003,7 +16111,7 @@
       "name": "Flirt Town",
       "description": "Adult talker (18+) based now in Washington DC area, theme is Washington.",
       "ageRestriction": "18+",
-      "notes": "Flirt Town closed in 2019.",
+      "yearClosed": 2019,
       "dataOrigins": ["tdf", "mudstats"],
       "codebase": "ncohafmuta",
       "admins": [
@@ -16417,7 +16525,8 @@
     },
     {
       "name": "Hectic House",
-      "notes": "The first NUTS talker, from 1992.",
+      "notes": "The first NUTS talker.",
+      "yearOpened": 1992,
       "codebase": "nuts",
       "dataOrigins": [""],
       "resources": [
@@ -16657,6 +16766,8 @@
     {
       "name": "Weave's World",
       "notes": "Weave's World ran from 1996 to 2001, hosted on a 486.<br>Read more on <a href=\"http://deater.net/weave/cool/talker.html\">Vince Weaver's homepage</a>.",
+      "yearOpened": 1996,
+      "yearClosed": 2001,
       "codebase": "vints",
       "dataOrigins": [""],
       "resources": [
@@ -17456,6 +17567,7 @@
     {
       "name": "Moominvalley",
       "description": "The Moominvalley talker started using the EW-Too code somewhere in the summer of 1995 and has since grown considerably in features. It runs in Estonia and is used primarly among Estonians.",
+      "yearOpened": 1995,
       "location": "Estonia",
       "admins": [
 	      "Helga",
@@ -19488,6 +19600,7 @@
     },
     {
       "name": "Sommerland",
+      "group": "sommerland",
       "disambiguation": "It apears this iforms talker was replaced by the ncohafmuta-based <a data-sveltekit-reload href=\"/details/sommerland-ii\">Sommerland II</a>.",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",

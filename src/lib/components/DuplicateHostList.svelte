@@ -9,6 +9,7 @@
     hosts.forEach(item => {
       findTalkersByHost(item.hostname, item.port)
         .filter(t => t.name !== talker.name)
+        .filter(t => !t.group || t.group !== talker.group)
         .map(t => ({...t, matchingHostname: item.hostname, matchingPort: item.port}))
         .forEach(t => duplicateTalkers.push(t));
     });
