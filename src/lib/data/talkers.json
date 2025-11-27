@@ -431,7 +431,7 @@
     {
       "shortName": "pgplus",
       "repo": "https://github.com/talkers/pgplus",
-      "name": "Playground+",
+      "name": "Playground Plus",
       "platform": "Unix-like",
       "family": "ewtoo",
       "language": "C"
@@ -942,6 +942,18 @@
       ]
     },
     {
+      "name": "Hallow: City of the Damned",
+      "slug": "hallow-city-of-the-damned",
+      "dataOrigins": ["homepage"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tdf.ca",
+          "port": 1031
+        }
+      ]
+    },
+    {
       "name": "Bag End",
       "dataOrigins": ["spodlist"],
       "screencaps": [
@@ -1127,8 +1139,8 @@
     {
       "name": "The 'Burbs",
       "location": "USA",
+      "yearOpened": 1996,
       "group": "burbs",
-      "notes": "Replaced <a href=\"/details/city\" data-sveltekit-reload>The City</a>.",
       "description": " The 'Burbs is a social type talker with multiple rooms. The system rooms all have a suburbs-like description, hence the name.<br>New players may log in at any time but must ask a Superuser for 'residency' in order to have their character saved.<br>Once a resident you will not only be saved, but will be able to send mail to other players, created rooms of your own, have a friends list, set sessions, and post news. This is a very friendly atmosphere, troublemakers are not tolerated!",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "burbs",
@@ -1527,6 +1539,23 @@
       ]
     },
     {
+      "name": "The New World",
+      "dataOrigins": ["talker"],
+      "resources": [
+        {
+          "type": "broken-website",
+          "url": "http://new-world.talker.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9003
+        }
+      ]
+    },
+    {
       "name": "The Reality of the New World",
       "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
@@ -1910,7 +1939,8 @@
     },
     {
       "name": "Central Perk",
-      "notes": "Central Perk ran from 2001 to 2025.",
+      "yearOpened": 2001,
+      "yearClosed": 2025,
       "description": "Come and hang out with people from all over the world - virtually! Meet new people, share stories, experiences, and chat. Whether you want to escape reality or vent about it, there are always people around to relax and pass time with.<br>The friends at Central Perk are just like you! Looking for a talker where they can hang out and immerse themselves in conversations varying from the weather to the latest Friends episode, to spiritual and philosophical debates.",
       "dataOrigins": ["spodlist"],
       "ewtooAbbr": "Cntprk",
@@ -2424,6 +2454,12 @@
       ],
       "screencaps": [
         "login/elite.snowplains.org_8000.png"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010614094616/http://www.snowplains.org/~elite/"
+        }
       ],
       "hosts": [
         {
@@ -5093,6 +5129,7 @@
       "screencaps": [
         "login/dune.net_4405.png"
       ],
+      "yearOpened": 1997,
       "ageRestriction": "18+",
       "codebase": "nuts",
       "coders": [
@@ -5102,10 +5139,6 @@
         "Kesey"
       ],
       "resources": [
-        {
-          "type": "email",
-          "url": "madhatter@taker.com"
-        },
         {
           "type": "email",
           "url": "alice@talker.com"
@@ -5127,8 +5160,8 @@
           "url": "http://www.geocities.com/Paris/Metro/5858"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/SoHo/4514/alg.htm"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990203105859/http://www.geocities.com/SoHo/4514/alg.htm"
         }
       ],
       "hosts": [
@@ -5369,12 +5402,13 @@
     {
       "name": "The Dominion",
       "description": "The Dominion is a talker based on a medieval setting. The idea of Dominion is to provide a fun place to talk with other people, and to meet new people from all over the world. The medieval setting is reflected in various locations that you can visit, the main features being the Town and the Castle. Also, the various staff members of Dominion have titles based on the medieval genre, ranging from Scouts, who help new users become familiar with the system, through Chancellors, Guards, Knights, Lords, and Ladys up to the Archmage who is responsible for the system overall.",
-      "notes": "The Dominion was run from from 28/09/1996 to 06/01/2004 by MushyPea.",
+      "notes": "The Dominion was run from from 28/09/1996 to 06/01/2004 by MushyPea. This may not have been the whole of its run, however.",
       "codebase": "ewtoo",
       "coders": [
 	      "ArchMage"
       ],
       "admins": [
+        "MushyPea",
 	      "ArchMage",
 	      "Abel",
 	      "Gotan"
@@ -5577,7 +5611,13 @@
       "description": "Welcome to Valdemar, a Fantasy Fiction talker for everyone! Faster and more flexible than web-chats, ideal for all ages and free.",
       "notes": "<h2>Valdemar's History...</h2>Valdemar came to life on the evening of Monday 15th September, 1997. We use PG+ code, which we feel is the most powerful and interesting code base in the talker community at this time. We started on a server run by talker.com, but as they grew in popularity the server became slower and slower. As a result, the Valdemar administrators built a server of their own. Finding it impossible to get the server sited at a sensible price, we donated the server to ewtoo.org in order that it may benefit the whole EW-Too talker community.<br><h2>What can people do on Valdemar?</h2>People do many different things. Most people come to talk with friends using something a lot quicker than the slow and clumsy web-chat services which have proliferated recently. Talkers are much quicker than web-chat, and offer far more facilities for you to express yourself. You can think, sing, emote, or use rooms for private conversations. Every resident has a list which allows them to choose friends, invite them into their room, or ignore those people who just can't help getting on your nerves!<br>Whatever it is you're looking for, the wide range of people on Valdemar mean you're sure to find someone who shares your interest or passion.",
       "yearOpened": 1997,
-      "dataOrigins": ["galaxy"],
+      "dataOrigins": ["galaxy", "homepage"],
+      "admins": [
+        "Dex",
+        "Ath",
+        "Mori",
+        "Red"
+      ],
       "ewtooAbbr": "Val",
       "codebase": "pgplus",
       "screencaps": [
@@ -8392,7 +8432,7 @@
       ]
     },
     {
-      "name": "Cemetary Gates",
+      "name": "Cemetery Gates",
       "dataOrigins": ["greatbiglist"],
       "hosts": [
         {
@@ -8403,7 +8443,7 @@
       ]
     },
     {
-      "name": "Cerulian Skies",
+      "name": "Cerulean Skies",
       "dataOrigins": ["greatbiglist"],
       "hosts": [
         {
@@ -11367,7 +11407,7 @@
       ]
     },
     {
-      "name": "Dockyard",
+      "name": "The Dockyard",
       "yearClosed": 2014,
       "dataOrigins": ["mudstats"],
       "screencaps": [
@@ -11377,6 +11417,11 @@
         "login/wooooooooooooooy.com_4000.png"
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dragonworld.ath.cx",
+          "port": 4000
+        },
         {
           "blocked": true,
           "hostname": "wooooooooooooooy.com",
@@ -12058,6 +12103,7 @@
       "name": "City Of Dreams",
       "description": "City of Dreams is an under-18 talker. Join everyone there and follow your dreams, laugh and have lots of fun!",
       "ageRestriction": "all-age",
+      "group": "romance",
       "codebase": "nuts",
       "coders": [
         "Kesey"

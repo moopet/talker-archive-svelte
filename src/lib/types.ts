@@ -21,6 +21,7 @@ export type Resource = {
   name?: string;
   type: string;
   url: string;
+  broken?: boolean;
 };
 
 export type ResourceItemProps = {

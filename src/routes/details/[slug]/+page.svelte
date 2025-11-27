@@ -87,14 +87,15 @@
   ];
 
   const websiteResources: Array<Resource> = resources
-    .filter(resource => ['website', 'wayback'].includes(resource.type))
+    .filter(resource => ['website', 'wayback', 'broken-website'].includes(resource.type))
     .map(websiteResource => {
       return {
         alt: "",
         name: websiteResource.type === "wayback" ? `http${websiteResource.url.split("/http")[1]}` : websiteResource.url,
         type: 'website',
         url: websiteResource.url,
-        description: websiteResource.type === "wayback" ? "(wayback machine copy)" : ""
+        description: websiteResource.type === "wayback" ? "(wayback machine copy)" : "",
+        broken: websiteResource.type === 'broken-website'
       };
   });
 
@@ -111,8 +112,8 @@
       return `The talker opened in ${yearOpened} and closed in ${yearClosed}.`;
     }
 
-    if (yearClosed) {
-      return `The talker closed in ${yearClosed}.`;
+    if (yearOpened) {
+      return `The talker opened in ${yearOpened}.`;
     }
 
     return `The talker closed in ${yearClosed}.`;
@@ -170,6 +171,12 @@
       </p>
     {/if}
 
+    {#if notes}
+      <p class="notes">
+        {@html notes}
+      </p>
+    {/if}
+
     {#if yearOpened || yearClosed}
       <p class="dates">{getDateDescription(yearOpened, yearClosed)}</p>
     {/if}
@@ -184,12 +191,6 @@
 
     {#if aka.length > 0}
       <p class="aka">Also known as {aka.map(name => `"${name}"`).join(', ')}.</p>
-    {/if}
-
-    {#if notes}
-      <p class="notes">
-        {@html notes}
-      </p>
     {/if}
 
     {#if codebaseDescription}

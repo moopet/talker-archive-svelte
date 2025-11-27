@@ -6,7 +6,11 @@
   {#if resource.type === 'image'}
     <a href={resource.url}><img src={resource.url} alt={resource.alt} /></a>
   {:else}
-    <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
+    {#if resource.broken}
+      <a class="broken-link" title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
+    {:else}
+      <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
+    {/if}
   {/if}
 
   <span>{resource?.description ?? resource.type}</span>
@@ -28,6 +32,11 @@ div {
 
 span {
   font-size: 0.9rem;
+}
+
+.broken-link {
+  text-decoration: line-through;
+  color: var(--color-inactive);
 }
 </style>
 
