@@ -260,6 +260,11 @@
       "shortName": "talkers.ws",
       "name": "talkers.ws",
       "link": "http://talkers.ws"
+    },
+    {
+      "shortName": "talker",
+      "name": "the member list on talker.com",
+      "link": "http://talker.com/members.html"
     }
   ],
   "codebases": [
@@ -954,6 +959,36 @@
       ]
     },
     {
+      "name": "The Party",
+      "codebase": "pgplus",
+      "dataOrigins": ["homepage"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20040924024258/http://the-party-talker.tripod.com/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkerworld.com",
+          "port": 5050
+        }
+      ]
+    },
+    {
+      "name": "Police Squad!",
+      "slug": "police-squad",
+      "codebase": "pgplus",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "policesquad.ewtoo.org",
+          "port": 5900
+        }
+      ]
+    },
+    {
       "name": "Bag End",
       "dataOrigins": ["spodlist"],
       "screencaps": [
@@ -1540,25 +1575,17 @@
     },
     {
       "name": "The New World",
-      "dataOrigins": ["talker"],
+      "aka": [
+        "The Reality of the New World"
+      ],
+      "ageRestriction": "all-age",
+      "dataOrigins": ["maddhouse", "talker"],
       "resources": [
         {
           "type": "broken-website",
           "url": "http://new-world.talker.com/"
         }
       ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 9003
-        }
-      ]
-    },
-    {
-      "name": "The Reality of the New World",
-      "ageRestriction": "all-age",
-      "dataOrigins": ["maddhouse"],
       "hosts": [
         {
           "blocked": true,
@@ -4739,12 +4766,16 @@
           "url": "http://mba4.org/"
         },
         {
-          "type": "website",
-          "url": "http://www.alpha4.com"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990208011300/http://alpha4.com/"
         }
       ],
       "screencaps": [
-        "login/mba4.org_3214.png"
+        "login/mba4.org_3214.png",
+        "maps/mba4.map.png"
+      ],
+      "textcaps": [
+        "maps/mba4.map.txt"
       ],
       "hosts": [
         {
@@ -15707,7 +15738,13 @@
     },
     {
       "name": "Post Partum",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "homepage"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20040924024258/http://the-party-talker.tripod.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -17977,8 +18014,8 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.pirates.org.uk"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990427232413/http://www.pirates.org.uk/"
         },
         {
           "type": "website",
