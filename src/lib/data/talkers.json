@@ -478,7 +478,8 @@
       "description": "The Lost Isles Talkers consist of two talkers. Forgotten Isle was created first with a general theme. It is currently running on the SiNCO code."
     },
     {
-      "shortName": "sommerland"
+      "shortName": "sommerland",
+      "description": "Sommerland used IFORMS, and was re-written using Ncohafmuta and re-branded Sommerland II."
     },
     {
       "shortName": "fear-politburo"
@@ -577,6 +578,8 @@
       "coders": [
         "Moopet"
       ],
+      "yearOpened": 2003,
+      "yearClosed": 2003,
       "dataOrigins": ["spodlist", "memory"],
       "description": "Mope was a quiet talker, mostly the testing area for features destined for Atlantis.",
       "notes": "Mope ran on an IBM Thinkpad via a Bulldog ADSL connection in London. This was fast for consumer broadband at the time (the first to offer 2MB/512KB) but latency was an issue for users compared to more professionally-hosted talkers.<br>The name was a parody of \"Meep Towers\".",
@@ -13732,7 +13735,6 @@
       "name": "Sommerland II",
       "group": "sommerland",
       "description": "Sommerland is a talker open to anyone who has an open mind and isn't oppressed by people of different sexual orientations. This is not a sex talker, but rather a place for people to relax, have fun, and discuss issues in a themepark setting.",
-      "disambiguation": "It appears this talker replaced the original IFORMS-based <a data-sveltekit-reload href=\"/details/sommerland\">Sommerland</a>.",
       "codebase": "ncohafmuta",
       "dataOrigins": ["talker.com"],
       "resources": [
@@ -19601,7 +19603,6 @@
     {
       "name": "Sommerland",
       "group": "sommerland",
-      "disambiguation": "It apears this iforms talker was replaced by the ncohafmuta-based <a data-sveltekit-reload href=\"/details/sommerland-ii\">Sommerland II</a>.",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [

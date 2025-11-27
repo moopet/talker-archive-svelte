@@ -103,6 +103,10 @@
 
 
   const getDateDescription = (yearOpened: number, yearClosed: number): string => {
+    if (yearOpened === yearClosed) {
+      return `This short-lived talker opened and closed in ${yearClosed}.`;
+    }
+
     if (yearOpened && yearClosed) {
       return `The talker opened in ${yearOpened} and closed in ${yearClosed}.`;
     }
