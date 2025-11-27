@@ -584,6 +584,10 @@
       display: inline;
     }
 
+    td.codebase {
+      white-space: nowrap;
+    }
+
     fieldset {
       flex-direction: row;
       justify-content: space-between;
