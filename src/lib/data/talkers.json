@@ -265,6 +265,11 @@
       "shortName": "talker",
       "name": "the member list on talker.com",
       "link": "http://talker.com/members.html"
+    },
+    {
+      "shortName": "mudlist",
+      "name": "Geoffrey Allen's talker list",
+      "link": "http://mudlist.geoffrey-allen.com/talkers/alpha.html"
     }
   ],
   "codebases": [
@@ -985,6 +990,17 @@
           "blocked": true,
           "hostname": "policesquad.ewtoo.org",
           "port": 5900
+        }
+      ]
+    },
+    {
+      "name": "SunCastle",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 9000
         }
       ]
     },
@@ -7759,7 +7775,16 @@
     {
       "name": "Snowcrash",
       "dataOrigins": ["rosen"],
+      "admins": [
+        "Elway",
+        "Wob",
+        "Krm"
+      ],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20041207031732/http://hcprobst.dyndns.org/interstellar/snowcrash/"
+        },
         {
           "type": "website",
           "url": "http://www.interstellar-designs.com/snowcrash"
@@ -10271,7 +10296,7 @@
       ]
     },
     {
-      "name": "Pure Exxxtacy",
+      "name": "Pure Exxtacy",
       "dataOrigins": ["greatbiglist", "maddhouse"],
       "ageRestriction": "18+",
       "resources": [
@@ -10948,7 +10973,12 @@
       ]
     },
     {
-      "name": "Q Talker",
+      "name": "Q",
+      "aka": [
+        "The Q Talker",
+        "Club Q"
+      ],
+      "description": "The Internet's best queer-safe talker.",
       "dataOrigins": ["talkernet"],
       "admins": [
         "Darx"
@@ -10958,6 +10988,10 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://q.talker.ee/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030803035351/http://qchat.dune.net/"
         }
       ],
       "hosts": [
@@ -11923,6 +11957,16 @@
           "blocked": true,
           "hostname": "fujit.cx",
           "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "Tanelorn's Playground",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tanelorn.ewtoo.org",
+          "port": 3456
         }
       ]
     },
@@ -14306,7 +14350,8 @@
     },
     {
       "name": "Tardis",
-      "dataOrigins": ["kesey"],
+      "ageRestriction": "18+",
+      "dataOrigins": ["kesey", "mudlist"],
       "resources": [
         {
           "type": "wayback",
@@ -18010,6 +18055,13 @@
     },
     {
       "name": "Pirates",
+      "admins": [
+        "Goon",
+        "sWiSh",
+        "Sanman",
+        "Smokey",
+        "Durzel"
+      ],
       "location": "UK",
       "dataOrigins": ["greatbiglist"],
       "resources": [
@@ -18018,7 +18070,7 @@
           "url": "https://web.archive.org/web/19990427232413/http://www.pirates.org.uk/"
         },
         {
-          "type": "website",
+          "type": "broken-website",
           "url": "http://goliath.mersinet.co.uk/~pirates/"
         }
       ],
