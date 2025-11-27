@@ -189,18 +189,6 @@
       "link": "https://www.mudstats.com"
     },
     {
-      "shortName": "homepage",
-      "name": "its own homepage"
-    },
-    {
-      "shortName": "wayback",
-      "name": "the wayback archive of its homepage"
-    },
-    {
-      "shortName": "memory",
-      "name": "my own fallible recollection"
-    },
-    {
       "shortName": "facebook",
       "name": "Facebook group chats"
     },
@@ -225,10 +213,6 @@
       "link": "http://www.sgi.net/~jon/chatlist.html"
     },
     {
-      "shortName": "user",
-      "name": "unverified user submission"
-    },
-    {
       "shortName": "ewtoo",
       "name": "Silver's talker charts on ewtoo.org",
       "link": "http://list.ewtoo.org"
@@ -249,11 +233,11 @@
     },
     {
       "shortName": "razor",
-      "name": "The Razor's Edge Talker List"
+      "name": "the Razor's Edge Talker List"
     },
     {
       "shortName": "talkernet",
-      "name": "TalkerNet database",
+      "name": "the TalkerNet database",
       "link": "http://talkernet.net/talker/"
     },
     {
@@ -270,6 +254,18 @@
       "shortName": "mudlist",
       "name": "Geoffrey Allen's talker list",
       "link": "http://mudlist.geoffrey-allen.com/talkers/alpha.html"
+    },
+    {
+      "shortName": "homepage",
+      "name": "its own homepage"
+    },
+    {
+      "shortName": "wayback",
+      "name": "the wayback archive of its homepage"
+    },
+    {
+      "shortName": "memory",
+      "name": "my own fallible recollection"
     }
   ],
   "codebases": [
@@ -2693,7 +2689,6 @@
     {
       "name": "UglyMUG",
       "description": "UglyMUG is an online, interactive, user-extensible world. It is the longest running in the UK.<br>Here people from around the world meet 24 hours a day, make friends, and form their own little communities. The landscape of Ugly is made of places that vary from the fantastic and enchanting, to the downright surreal and confusing. Ugly is not one specific game that can be described, rather it is a collection of the creative output of its players so it is constantly evolving.",
-      "dataOrigins": ["user"],
       "screencaps": [
         "login/uglymug.org.uk_6239.png"
       ],
@@ -2747,7 +2742,6 @@
     {
       "name": "The Vineyard",
       "location": "USA",
-      "dataOrigins": ["user"],
       "codebase": "ewtoo",
       "resources": [
         {
@@ -2798,7 +2792,6 @@
     {
       "name": "Somewhere Else",
       "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/elsewhere\">Elsewhere</a> or <a data-sveltekit-reload href=\"/details/_elsewhere\">Elsewhere</a>.",
-      "dataOrigins": ["user"],
       "location": "USA",
       "codebase": "ewtoo",
       "resources": [
@@ -3604,34 +3597,46 @@
     },
     {
       "name": "Amnesia House",
+      "description": "The Amnesia House Talker (AH) is a fun place to log on and chat, because you can let anyone in the world read messages that you type.<br>Feel free to strike up a conversation about absolutely any topic when you participate in this interactive public forum. You might decide to rendez-vous here to communicate with your friends, or introduce yourself to some of the regular users of this system.<br>If you're too busy to think up something witty to say, feel free to linger and let the others amuse you with their debate and banter.",
+      "notes": "One of the key features of Amnesia House is that there are no rules for the staff to enforce.<br>Not only does this provide a liberated experience for all the users, but also allows the staff to focus on providing a helpful service.",
+      "coders": [
+        "Arcadia",
+        "Blimey"
+      ],
       "admins": [
         "Blimey",
-        "Doolittle"
+        "Doolittle",
+        "pip",
+        "solaris"
       ],
-      "dataOrigins": ["spodlist"],
-      "codebase": "talker",
+      "dataOrigins": ["spodlist", "homepage"],
       "screencaps": [
         "login/mytalker.org_2222.png"
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://amnesia.mytalker.org"
-        },
-        {
-          "type": "website",
-          "url": "http://amnesiahouse.org"
-        },
-        {
-          "type": "website",
-          "url": "http://yuss.org/~blimey"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20031021045613/http://amnesia.mytalker.org/"
         },
         {
           "type": "wayback",
           "url": "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php"
+        },
+        {
+          "type": "broken-website",
+          "url": "http://amnesiahouse.org"
+        },
+        {
+          "type": "broken-website",
+          "url": "http://yuss.org/~blimey"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "trollied.org",
+          "port": 2222
+        },
         {
           "blocked": true,
           "hostname": "mytalker.org",
@@ -5788,8 +5793,16 @@
     },
     {
       "name": "Chicago",
+      "notes": "Chicago is no ordinary talker!<br>Our residents are divided into 4 gangs, competing for the highest score at the end of each stage of the competition. Gang members can earn points for their gangs by winning games, building up true spod time and not misbehaving.",
+      "description": "St.Valentines day, 1929.<br>A massacre worse than any before it was to take place that afternoon. This was the final straw after years of gang wars. Al Capone, Bugs Moran and Johhny Torrio, leaders of the local gangs got together to find an alternative...<br>Fortunately for them, a group of Techie-types, were close by . Hearing the mob leaders' cry for help, they leaped to the rescue. Now the gangs compete in a spodding competition. Instead of guns, they have games. Instead of running bootlegs, they build up spod time.<br>And now they're recruiting...",
       "screencaps": [
         "login/www.nsgso.co.uk_1929.png"
+      ],
+      "admins": [
+        "MrT",
+        "Nick",
+        "Lilia",
+        "Bishnabob"
       ],
       "resources": [
 	      {
@@ -5798,6 +5811,11 @@
 	      }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "www.chicagoll.com",
+          "port": 1919
+        },
         {
           "blocked": true,
           "hostname": "www.nsgso.co.uk",
@@ -10865,6 +10883,9 @@
     },
     {
       "name": "Troubled Waters",
+      "aka": [
+        "Scuba's Troubled Waters"
+      ],
       "dataOrigins": ["talkernet"],
       "admins": [
         "ScubaDude"
@@ -11277,7 +11298,9 @@
     {
       "name": "Abbey Road",
       "description": "Beatles, Classic Rock and music in general.",
+      "notes": "Abbey Road started out in 1995 as a BBS project.",
       "codebase": "amnuts",
+      "yearOpened": 1995,
       "admins": [
         "Realm"
       ],

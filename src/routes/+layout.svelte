@@ -20,9 +20,11 @@
 
   type LayoutProps = {
     children: Snippet;
+    data: { currentUrl: string };
   };
 
-	let { children }: LayoutProps = $props();
+	let { children, data }: LayoutProps = $props();
+  const { currentUrl } = data;
 
 	onMount(async () => {
     try {
@@ -33,6 +35,11 @@
     }
   });
 </script>
+
+<svelte:head>
+  <meta property="og:site_name" content="Talker Archive">
+  <meta property="og:url" content={currentUrl}>
+</svelte:head>
 
 <Header />
 <main>

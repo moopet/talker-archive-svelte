@@ -147,7 +147,9 @@
 </script>
 
 <svelte:head>
-  <title>Details - talker archive</title>
+  <title>{talker.name} | Talker Archive</title>
+  <meta property="og:title" content={talker.name}>
+  <meta property="og:image" content={heroImage}>
 </svelte:head>
 
 {#if talker}

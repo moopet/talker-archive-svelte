@@ -70,7 +70,7 @@ export function getDataOrigin(shortName: string): DataOrigin {
 }
 
 export function getDataOrigins(): DataOrigin[] {
-  return [...dataOrigins].sort((a, b) => a.shortName.localeCompare(b.shortName));
+  return [...dataOrigins];
 }
 
 export function getGroup(shortName: string): Group {
