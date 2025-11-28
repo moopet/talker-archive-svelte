@@ -39,6 +39,8 @@
 <svelte:head>
   <meta property="og:site_name" content="Talker Archive">
   <meta property="og:url" content={currentUrl}>
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
 </svelte:head>
 
 <Header />
