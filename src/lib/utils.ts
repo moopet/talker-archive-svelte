@@ -1,5 +1,5 @@
 import slugify from 'slugify';
-import { talkers } from '$lib/data/talkers.json';
+import { multiWorlds, talkers } from '$lib/data/talkers.json';
 import { get } from 'svelte/store';
 import { activeTalkersStore } from '$lib/stores/activeTalkers';
 
@@ -37,7 +37,7 @@ export function getTalkerSlug(talker: Talker): string {
 }
 
 export function getMultiWorld(shortName: string): MultiWorld {
-  return multiWorld = multiWorlds.find(item => item.shortName === shortName) as MultiWorld;
+  return multiWorlds.find(item => item.shortName === shortName) as MultiWorld;
 }
 
 export function findTalkersByGroup(groupName: string): Talker[] {
