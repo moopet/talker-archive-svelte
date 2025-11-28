@@ -6,7 +6,7 @@ const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencap
 </script>
 
 <svelte:head>
-  <title>Wallpaper - Talker archive</title>
+  <title>Wallpaper - Talker Archive</title>
 </svelte:head>
 
 <section>

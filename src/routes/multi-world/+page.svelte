@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>Multi-world - talker archive</title>
+  <title>Multi-world listing - Talker Archive</title>
 </svelte:head>
 
 <section>

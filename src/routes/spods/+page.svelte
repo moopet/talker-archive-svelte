@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-  <title>Staff - talker archive</title>
+  <title>Staff - Talker Archive</title>
 </svelte:head>
 
 <section>

@@ -251,7 +251,7 @@
 </script>
 
 <svelte:head>
-  <title>Talker archive</title>
+  <title>Talker Archive</title>
 </svelte:head>
 
 <section>

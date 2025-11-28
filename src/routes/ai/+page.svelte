@@ -3,7 +3,7 @@ export const prerender = true;
 </script>
 
 <svelte:head>
-  <title>AI - talker archive</title>
+  <title>AI - Talker Archive</title>
 </svelte:head>
 
 <section>

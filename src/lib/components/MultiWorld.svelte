@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { findTalkersByMultiWorld, getTalkerSlug } from '$lib/utils';
+  import { findTalkersByMultiWorld, getMultiWorld, getTalkerSlug } from '$lib/utils';
   import { multiWorlds } from '$lib/data/talkers.json';
 
   let { shortName }: MultiWorldProps = $props();
-  const multiWorld = multiWorlds.find(item => item.shortName === shortName) as MultiWorld;
+  const multiWorld = getMultiWorld(shortName);
 
   const talkers: Talker[] = findTalkersByMultiWorld(shortName)
     .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')));

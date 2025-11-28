@@ -4,11 +4,15 @@
   import { findTalkersByMultiWorld } from '$lib/utils';
 
   const slug: string = page.params?.slug ?? "";
-  const multiWorld = findTalkersByMultiWorld(slug);
+  const multiWorld = getByMultiWorld(slug);
 </script>
 
 <svelte:head>
-  <title>Multi-world - talker archive</title>
+  {#if multiWorld}
+    <title>{multiWorld.name} - Talker Archive</title>
+  {:else}
+    <title>Multi-world group not found</title>
+  {/if}
 </svelte:head>
 
 <section>
@@ -17,7 +21,7 @@
   {#if multiWorld}
     <MultiWorld shortName={slug} />
   {:else}
-    <p class="error">No such multi-world group: "{slug}"</p>
+    <p class="error">Multi-world group not found.</p>
   {/if}
 </section>
 

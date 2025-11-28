@@ -3,7 +3,7 @@ export const prerender = true;
 </script>
 
 <svelte:head>
-  <title>About - talker archive</title>
+  <title>About - Talker Archive</title>
 </svelte:head>
 
 <section>

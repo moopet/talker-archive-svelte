@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-  <title>Resources - talker archive</title>
+  <title>Resources - Talker Archive</title>
 </svelte:head>
 
 <section>

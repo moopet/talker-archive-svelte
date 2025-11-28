@@ -25,7 +25,8 @@
 </script>
 
 <svelte:head>
-  <title>Staff - talker archive</title>
+  <title>{spodName} - Talker Archive</title>
+  <meta property="og:title" content={spodName}>
 </svelte:head>
 
 <section>

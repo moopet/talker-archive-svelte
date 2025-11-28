@@ -36,6 +36,10 @@ export function getTalkerSlug(talker: Talker): string {
   return slugify(talker.name, { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9-]/, '');
 }
 
+export function getMultiWorld(shortName: string): MultiWorld {
+  return multiWorld = multiWorlds.find(item => item.shortName === shortName) as MultiWorld;
+}
+
 export function findTalkersByGroup(groupName: string): Talker[] {
   return talkers.filter(talker => (talker?.group ?? '').toLowerCase() === groupName.toLowerCase());
 }
