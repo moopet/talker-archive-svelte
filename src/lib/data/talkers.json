@@ -479,6 +479,13 @@
       "name": "VINTS",
       "platform": "Unix-like",
       "language": "C"
+    },
+    {
+      "shortName": "worlds",
+      "family": "NUTS",
+      "name": "Worlds",
+      "platform": "Unix-like",
+      "language": "C"
     }
   ],
   "groups": [
@@ -490,6 +497,18 @@
     {
       "shortName": "sommerland",
       "description": "Sommerland used IFORMS, and was re-written using Ncohafmuta and re-branded Sommerland II."
+    },
+    {
+      "shortName": "globegate",
+      "name": "Globe-gate",
+      "description": "Deep Space 36 is not alone in our GlobeGate Mudiverse. We are happy to support our new baby sister, GlobeChat... or maybe more like Siamese twins, really. They are run by the same program simultaneously, which makes coding simple, i.e. changes to one affect the other and vice-versa. Likewise, all accounts are shared between the two systems. GlobeChat's primary goal is to facilitate multilingual communication in a networked environment. Deep Space is (by design) a \"project talker\", designed to showcase the potential of NUTS as a multi-user interface. Its purpose is to facilitate interaction among students, faculty, etc. and to provide a unique environment for both recreational and educational communications online."
+    },
+    {
+      "shortName": "moe",
+      "url": "https://web.archive.org/web/20010201163100/http://island.darkfantastic.net/about.html"
+    },
+    {
+      "shortName": "civil-anarchy"
     },
     {
       "shortName": "fear-politburo"
@@ -702,11 +721,24 @@
     {
       "name": "Atlantis",
       "slug": "_atlantis",
-      "dataOrigins": ["spodlist"],
+      "location": "Slovakia",
+      "language": "Slovak",
+      "codebase": "nuts",
+      "dataOrigins": ["spodlist", "homepage"],
       "disambiguation": "Not to be confused with <a href=\"/details/atlantis-ii\" data-sveltekit-reload>Atlantis II</a> or <a href=\"/details/atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
-      
-      "resources": [ ],
-      "hosts": []
+      "resources": [ 
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010401231905/http://www.atlantis.sk/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "atlantis.sk",
+          "port": 7000
+        }
+      ]
     },
     {
       "name": "Atlantis",
@@ -764,7 +796,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "atlantis.org",
+          "hostname": "atlantis.org.uk",
           "port": 5050
         },
         {
@@ -1086,12 +1118,18 @@
       "disambiguation": "Not to be confused with <a href=\"/details/forgotten-isle\" data-sveltekit-reload>Forgotten Isle</a>.",
       "codebase": "moenuts",
       "admins": [
-        "Moe"
+        "Moe",
+        "Squirt"
       ],
+      "group": "moe",
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://welcome.to/forgotten-island"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010204185900/http://island.darkfantastic.net/"
         },
         {
           "type": "website",
@@ -6052,6 +6090,23 @@
       ]
     },
     {
+      "name": "Ceridwen's Cauldron",
+      "dataOrigins": ["mudlist"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010831152800/http://cauldron.offswn.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cauldron.offswn.net",
+          "port": 3333
+        }
+      ]
+    },
+    {
       "name": "Castle of Lost Dreams",
       "dataOrigins": ["kesey"],
       "hosts": [
@@ -6626,12 +6681,12 @@
           "url": "https://web.archive.org/web/20010430123557/http://128.192.176.3/Asylum/"
         },
         {
-          "type": "website",
-          "url": "http://w3.one.net/~strycher/asylum.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010410045455/http://francis.ads.uga.edu/Asylum"
         },
         {
-          "type": "website",
-          "url": "http://francis.ads.uga.edu/Asylum"
+          "type": "broken-website",
+          "url": "http://w3.one.net/~strycher/asylum.html"
         }
       ],
       "hosts": [
@@ -6705,7 +6760,19 @@
       ]
     },
     {
+      "name": "Anarchy",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "deemon.kuusalu.edu.ee",
+          "port": 7000
+        }
+      ]
+    },
+    {
       "name": "Civil Anarchy ][",
+      "group": "civil-anarchy",
       "disambiguation": "Replaced <a href=\"/details/civil-anarchy\" data-sveltekit-reload>CiViL aNaRcHy</a>.",
       "slug": "civil-anarchy-ii",
       "dataOrigins": ["greatbiglist"],
@@ -6793,6 +6860,31 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 5150
+        }
+      ]
+    },
+    {
+      "name": "Crystal Ball",
+      "dataOrigins": ["mudlist"],
+      "codebase": "amnuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 2030
+        }
+      ]
+    },
+    {
+      "name": "Crazy Talker",
+      "language": "Slovak",
+      "location": "Slovakia",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fornax.elf.stuba.sk",
+          "port": 6666
         }
       ]
     },
@@ -6931,12 +7023,27 @@
     },
     {
       "name": "The Cruise",
+      "yearOpened": 1997,
       "dataOrigins": ["greatbiglist"],
+      "codebase": "sensisummink",
+      "coders": [
+        "BigPhil"
+      ],
+      "admins": [
+        "BigPhil",
+        "Jonah"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.aston.ac.uk/~raithbsj/cruise/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970726221755/http://www.aston.ac.uk/~raithbsj/cruise/"
         }
+      ],
+      "screencaps": [
+        "login/ohms.electronic.co.uk_4242.png"
+      ],
+      "textcaps": [
+        "login/ohms.electronic.co.uk_4242.txt"
       ],
       "hosts": [
         {
@@ -9079,7 +9186,12 @@
     },
     {
       "name": "Deep Space 36",
-      "dataOrigins": ["talkers.ws"],
+      "aka": [
+        "DS36"
+      ],
+      "group": "globegate",
+      "codebase": "worlds",
+      "dataOrigins": ["talkers.ws", "homepage"],
       "resources": [
         {
           "type": "wayback",
@@ -9828,10 +9940,12 @@
     },
     {
       "name": "Globe Chat",
+      "group": "globegate",
+      "codebase": "worlds",
       "aka": [
         "GlobeChat"
       ],
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "homepage"],
       "hosts": [
         {
           "blocked": true,
@@ -10757,10 +10871,21 @@
     },
     {
       "name": "Castle in the Sky",
+      "aka": [
+        "PNX Labyrinth"
+      ],
+      "description": "Themed upon the classic movie Labyrinth starring David Bowie and Jennifer Connelly. Set in a fantasy world, with goblins and fairies.<br>Welcome to the world of Labyrinth where nothing is as it seems and things are further than you think.",
+      "coders": [
+        "Amano",
+        "Metho",
+        "Troll"
+      ],
       "admins": [
         "Amano",
         "Metho",
-        "Rynelf"
+        "Rynelf",
+        "Malia",
+        "Candy"
       ],
       "codebase": "nuts",
       "dataOrigins": ["talkernet"],
@@ -11216,6 +11341,28 @@
       ]
     },
     {
+      "name": "Bombay",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ccwf.cc.utexas.edu",
+          "port": 8888
+        }
+      ]
+    },
+    {
+      "name": "Area 51",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darktalker.org",
+          "port": 6000
+        }
+      ]
+    },
+    {
       "name": "Camp Looney",
       "codebase": "amnuts",
       "admins": [
@@ -11234,10 +11381,11 @@
     {
       "name": "Aotearoa",
       "codebase": "ncohafmuta",
+      "description": "Aotearoa - the land of the long white cloud.<br> The first ever talker based on New Zealand! We're a laid back, fun loving place, and always ready to meet new people! The code is based on Ncohafmuta 1.2.1 by Cygnus with modifications by Joelie. Stop by and see what we're all about! We look forward to meeting you!",
       "admins": [
         "Joelie"
       ],
-      "dataOrigins": ["talkernet"],
+      "dataOrigins": ["talkernet", "homepage"],
       "resources": [
         {
           "type": "wayback",
@@ -11275,19 +11423,31 @@
     },
     {
       "name": "AfterDARK",
+      "description": "AfterDARK, the Internet Speakeasy. Log on, grab a latte or fruit juice, kick up your feet and stay a while. We have over 20 rooms for you to explore and boast an amazing 75 socials! AfterDARK is available for your entertainment 24 hours a day, 7 days a week.<br>We're even open holidays!",
       "codebase": "ncohafmuta",
+      "yearOpened": 1997,
       "admins": [
+        "Tensai",
         "Joebob",
         "Jackhandy"
       ],
-      "dataOrigins": ["talkernet"],
+      "dataOrigins": ["talkernet", "mudlist"],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://afterdark.emisle.com/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20051217005340/http://afterdark.dragonfire.cx/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "afterdark.dragonfire.cx",
+          "port": 8000
+        },
         {
           "blocked": true,
           "hostname": "emisle.com",
@@ -11335,6 +11495,18 @@
         "jits"
       ],
       "hosts": []
+    },
+    {
+      "name": "Cloud City",
+      "location": "UK",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mw65-3.cov.ac.uk",
+          "port": 9000
+        }
+      ]
     },
     {
       "name": "Clouds",
@@ -11400,7 +11572,7 @@
         "Dominic",
         "mAdm Ac"
       ],
-      "description": "A talker based on the theme 'What happens next?', you start off life (or whatever) as a Spirit, and if you're lucky, wind up an Angel or Demon with your own personal room. Once on, you can battle to the death (or whatever) in Valhalla with another user, have a few glasses of beer, or turn into a tap-dancing penguin for the amusement of others. If you're not feeling adventurous though, you can just talk to people. The only rules are no swearing and don't annoy other users. And don't ask for promotion. And no multiple accounts. And don't...",
+      "description": "A talker based on the theme 'What happens next?', you start off life (or whatever) as a Spirit, and if you're lucky, wind up an Angel or Demon with your own personal room. Once on, you can battle to the death (or whatever) in Valhalla with another user, have a few glasses of beer, or turn into a tap-dancing penguin for the amusement of others. If you're not feeling adventurous though, you can just talk to people.<br>The only rules are no swearing and don't annoy other users. And don't ask for promotion. And no multiple accounts. And don't...",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
       "resources": [
@@ -11418,6 +11590,23 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 5678
+        }
+      ]
+    },
+    {
+      "name": "Alpha Chat",
+      "dataOrigins": ["mudlist"],
+      "resources": [
+        {
+          "type": "broken-website",
+          "url": "http://alphachat.cjb.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "alphalink.com.au",
+          "port": 7000
         }
       ]
     },
@@ -11595,6 +11784,10 @@
         {
           "type": "email",
           "url": "Aworlds@talker.com"
+        },
+        {
+          "type": "broken-website",
+          "url": "http://www.talker.com/ancientworlds"
         }
       ],
       "hosts": [
@@ -11656,6 +11849,17 @@
       ]
     },
     {
+      "name": "Babylon",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "mudhole.spodnet.uk.com",
+          "port": 5000
+        }
+      ]
+    },
+    {
       "name": "Avalon",
       "dataOrigins": ["rosen"],
       "hosts": [
@@ -11668,6 +11872,18 @@
           "blocked": true,
           "hostname": "dabirds.com",
           "port": 4242
+        }
+      ]
+    },
+    {
+      "name": "Blue Light District",
+      "dataOrigins": ["mudlist"],
+      "codebase": "iforms",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "bld.ml.org",
+          "port": 4321
         }
       ]
     },
@@ -11865,12 +12081,17 @@
     },
     {
       "name": "The Borg Collective",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "mudlist"],
       "hosts": [
         {
           "blocked": true,
           "hostname": "eeek.org.uk",
           "port": 6666
+        },
+        {
+          "blocked": true,
+          "hostname": "borgcollective.ml.org",
+          "port": 6000
         },
         {
           "blocked": true,
@@ -12181,6 +12402,7 @@
     {
       "name": "CiViL aNaRcHy",
       "disambiguation": "Replaced by <a href=\"/details/civil-anarchy-ii\" data-sveltekit-reload>CiViL aNaRcHy ][</a>.",
+      "group": "civil-anarchy",
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -14280,9 +14502,29 @@
       ]
     },
     {
+      "name": "House Of Pleasure And Ecstacy",
+      "group": "moe",
+      "aka": [
+        "Hope"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "chaos.talkermud.com",
+          "port": 6669
+        }
+      ]
+    },
+    {
       "name": "Horror Haven",
+      "group": "moe",
       "dataOrigins": ["doughnuts"],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkfantastic.net",
+          "port": 6669
+        },
         {
           "blocked": true,
           "hostname": "tdf.ca",
@@ -14688,6 +14930,7 @@
     },
     {
       "name": "Dragon's Cove",
+      "group": "moe",
       "dataOrigins": ["kesey", "talkernet"],
       "admins": [
         "Squirt"
@@ -14830,6 +15073,24 @@
           "blocked": true,
           "hostname": "btech-online.net",
           "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Bloodrose Manor",
+      "description": "BloodRose Manor is a talker designed for enjoyment of those who want to gather and have fun. It is also designed to be blind user friendly.",
+      "dataOrigins": ["mudlist"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20041202034858/http://bloodrose.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 7700
         }
       ]
     },
@@ -15328,7 +15589,21 @@
       ]
     },
     {
+      "name": "Black Hawk",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ouabache.abcs.com",
+          "port": 6000
+        }
+      ]
+    },
+    {
       "name": "Black Forest",
+      "aka": [
+        "Blackforest"
+      ],
       "ageRestriction": "18+",
       "dataOrigins": ["maddhouse"],
       "codebase": "ncohafmuta",
@@ -16690,6 +16965,23 @@
         {
           "type": "website",
           "url": "http://www.ogham.demon.co.uk/nuts.html"
+        }
+      ]
+    },
+    {
+      "name": "Bedlam",
+      "dataOrigins": ["mudlist"],
+      "resources": [
+        {
+          "type": "broken-website",
+          "url": "http://www.personal.dundee.ac.uk/~mwooldri/asylum.htm"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "calvin.docunetworks.com",
+          "port": 3000
         }
       ]
     },

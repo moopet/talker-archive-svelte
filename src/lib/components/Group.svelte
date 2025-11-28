@@ -25,9 +25,12 @@
     <p>
       This could be because they're the same talker re-written or renamed,
       because they're run by the same staff, or for literally any other reason.
+
+      {#if group.url}
+        (<a href={group.url}>read more&hellip;</a>)
+      {/if}
     </p>
   {/if}
-
 
   <table>
     <thead>
