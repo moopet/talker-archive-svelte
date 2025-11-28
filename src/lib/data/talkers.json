@@ -2521,6 +2521,7 @@
     },
     {
       "name": "Elemental World",
+      "group": "ice",
       "dataOrigins": ["spodlist"],
       "codebase": "ice",
       "screencaps": [
@@ -2997,6 +2998,7 @@
     },
     {
       "name": "ICE-II - The Re-Freeze",
+      "group": "ice",
       "ageRestriction": "all-age",
       "slug": "ice-ii",
       "dataOrigins": ["spodlist"],
@@ -12665,10 +12667,6 @@
       "dataOrigins": ["talker.com", "talkernet"],
       "resources": [
         {
-          "type": "email",
-          "url": "@talker.com"
-        },
-        {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://www.talker.com/harem"
         }
@@ -14544,6 +14542,7 @@
     },
     {
       "name": "ICE",
+      "group": "ice",
       "ageRestriction": "all-age",
       "codebase": "ice",
       "dataOrigins": ["doughnuts"],

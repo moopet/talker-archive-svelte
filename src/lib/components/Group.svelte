@@ -3,7 +3,9 @@
   import { groups } from '$lib/data/talkers.json';
 
   let { talker, shortName }: GroupProps = $props();
-  const group = groups.find(item => item.shortName === shortName) as Group;
+  const nullGroup: Group = { shortName };
+
+  const group = (groups.find(item => item.shortName === shortName) ?? nullGroup) as Group;
 
   const talkers: Talker[] = findTalkersByGroup(shortName)
     .filter(t => t.name !== talker.name)
@@ -11,7 +13,7 @@
 </script>
 
 <section>
-  <h2>Other talkers grouped with {talker.name}</h2>
+  <h2>Related talkers</h2>
 
   {#if group.description}
     <p>

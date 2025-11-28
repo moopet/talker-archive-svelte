@@ -33,7 +33,8 @@
     }
 
     if (codebase.family) {
-      const family = getCodebase(codebase.family);
+      const nullFamily = { shortName: codebase.family };
+      const family = getCodebase(codebase.family) ?? nullFamily;
 
       if (family.description) {
         description += `, a <abbr title="${family.description}">${family.name}</abbr> derivative`;
