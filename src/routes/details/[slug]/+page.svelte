@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { base } from '$app/paths';
+  import { asset } from '$app/paths';
   import { page } from '$app/state';
   import type { Codebase, DataOrigin, Talker } from '$lib/types';
   import { getCodebase, getDataOrigins, getMultiWorld, getTalker } from '$lib/database';
@@ -151,7 +151,7 @@
   {#if talker}
     <title>{talker.name} - Talker Archive</title>
     <meta property="og:title" content={talker.name}>
-    <meta property="og:image" content={`${base}${heroImage}`}>
+    <meta property="og:image" content={asset(heroImage)}>
   {:else}
     <title>Talker not found - Talker Archive</title>
   {/if}
