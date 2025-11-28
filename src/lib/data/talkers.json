@@ -1037,6 +1037,30 @@
       ]
     },
     {
+      "name": "Generic Talker",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "gothic.blackhand.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "Fantastic Planet",
+      "notes": "Based on the film of the same name.",
+      "dataOrigins": ["mudlist"],
+      "codebase": "talkeros",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 6050
+        }
+      ]
+    },
+    {
       "name": "Bag End",
       "dataOrigins": ["spodlist"],
       "screencaps": [
@@ -5184,6 +5208,32 @@
       ]
     },
     {
+      "name": "Herp Haven 2",
+      "description": "Herp Haven 2 was created by BlayZe BrightScale to provide an open adult atmostsphere for not only dragons, dinos, and other herps, but also furries, plushies, zoos, and all related communities.",
+      "ageRestriction": "18+",
+      "notes": "The talker is made to be a haven, so everything has been done to keep the typical 'politics' of these communities off this talker. Many time people who have been banned from other talkers for no good reason have found haven here. Anyone is welcome as long as they show everyone respect.<br>It is a yiffy (sexually) themed talker, and is open to almost any preference or fantasy. This being, full TS (Cybersex) is allowed on all areas of the talker. There are also many private areas to take this aside to if you aren't comfortable with public viewing of your yiff.",
+      "admins": [
+        "BlayZe BrightScale"
+      ],
+      "coders": [
+        "Valley"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001117215500/http://sd.plushie.org/zrnet/hh2.htm"
+
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tb.dynip.com",
+          "port": 7070
+        }
+      ]
+    },
+    {
       "name": "Alien Nation",
       "codebase": "pgplus",
       "hosts": [
@@ -5204,8 +5254,12 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://hades-talker.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20110714091845/http://hades-talker.org/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20041129010821/http://hades.zoit.net/"
         }
       ],
       "hosts": [
