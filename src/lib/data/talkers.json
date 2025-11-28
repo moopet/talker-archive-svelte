@@ -506,33 +506,6 @@
     {
       "shortName": "moe",
       "url": "https://web.archive.org/web/20010201163100/http://island.darkfantastic.net/about.html"
-    },
-    {
-      "shortName": "civil-anarchy"
-    },
-    {
-      "shortName": "fear-politburo"
-    },
-    {
-      "shortName": "silver-dragon"
-    },
-    {
-      "shortName": "surfers"
-    },
-    {
-      "shortName": "foothills"
-    },
-    {
-      "shortName": "atlantis"
-    },
-    {
-      "shortName": "bored"
-    },
-    {
-      "shortName": "burbs"
-    },
-    {
-      "shortName": "romance"
     }
   ],
   "multiWorlds": [
@@ -2523,7 +2496,6 @@
       "name": "Elemental World",
       "group": "ice",
       "dataOrigins": ["spodlist"],
-      "codebase": "ice",
       "screencaps": [
         "login/elementalworld.net_5555.png"
       ],
