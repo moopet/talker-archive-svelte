@@ -2926,12 +2926,14 @@
       "name": "Tombstone",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.compsoc.man.ac.uk/~seph/tombframe.html"
-        },
-        {
+          "broken": true,
           "type": "website",
           "url": "http://tombstone.base.org"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.compsoc.man.ac.uk/~seph/tombframe.html"
         }
       ],
       "hosts": [
@@ -3589,6 +3591,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://magic.kicks-ass.org"
         }
@@ -3693,14 +3696,19 @@
       "screencaps": [
         "login/ncc.spod.org_1701.png"
       ],
+      "admins": [
+        "Xanth",
+        "MooG"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://mrbounce.compsoc.man.ac.uk/~pip/ncc/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010724052001/http://ncc.spod.org/"
         },
         {
+          "broken": true,
           "type": "website",
-          "url": "http://ncc.spod.org"
+          "url": "http://mrbounce.compsoc.man.ac.uk/~pip/ncc/"
         }
       ],
       "hosts": [
@@ -3726,10 +3734,12 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://home.megalinx.net/~felines"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://home.megalinx.net/~safari/cats/"
         }
@@ -3835,8 +3845,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.sass.jg.ee"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030323041535/http://sass.jg.ee/"
         },
         {
           "type": "wayback",
@@ -3925,6 +3935,7 @@
     },
     {
       "name": "Glantri's Labyrinth",
+      "group": "glantri",
       "slug": "glantris-labyrinth",
       "ageRestriction": "18+",
       "dataOrigins": ["greatbiglist"],
@@ -3949,8 +3960,10 @@
     },
     {
       "name": "Glantri's Labyrinth II",
+      "group": "glantri",
       "slug": "glantris-labyrinth-ii",
       "dataOrigins": ["spodlist"],
+      "codebase": "ncohafmuta",
       "ageRestriction": "18+",
       "screencaps": [
         "login/talker.com_2200.png"
@@ -3961,8 +3974,12 @@
           "url": "glantri@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://talker.com/glantri"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20080420115840/http://talker.com/glantri/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20040803074609/http://www.livejournal.com/community/glantri/"
         }
       ],
       "hosts": [
@@ -4079,6 +4096,7 @@
           "url": "talker@rekka.net"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://talker.rekka.net"
         }
@@ -4104,6 +4122,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://eire.tb.dynip.com/"
         }
