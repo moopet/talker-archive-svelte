@@ -89,7 +89,7 @@
   ];
 
   const websiteResources: Array<Resource> = resources
-    .filter(resource => ['website', 'wayback', 'broken-website'].includes(resource.type))
+    .filter(resource => ['website', 'wayback'].includes(resource.type))
     .map(websiteResource => {
       return {
         alt: "",
@@ -97,7 +97,7 @@
         type: 'website',
         url: websiteResource.url,
         description: websiteResource.type === "wayback" ? "(wayback machine copy)" : "",
-        broken: websiteResource.type === 'broken-website'
+        broken: websiteResource.broken ?? false
       };
   });
 

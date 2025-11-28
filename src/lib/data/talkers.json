@@ -677,10 +677,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/19991001191146/http://www.geocities.com/TimesSquare/Lair/2401/"
-        },
-        {
-          "type": "website",
-          "url": "http://talkers.skl.com/~charming"
         }
       ],
       "hosts": [
@@ -692,7 +688,7 @@
       ]
     },
     {
-      "name": "Atlantis",
+      "name": "Atlantis (SK)",
       "slug": "_atlantis",
       "location": "Slovakia",
       "language": "Slovak",
@@ -737,10 +733,12 @@
           "url": "me@moopet.net"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://atlantis.org.uk"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://yuss.org/~muppet"
         },
@@ -799,15 +797,20 @@
       "dataOrigins": ["razor"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.cs.stedwards.edu/~tmendol/atlantis"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19971023214329/http://www.cs.stedwards.edu/~tmendol/atlantis/"
         },
         {
-          "type": "website",
-          "url": "http://atlantis.midsouth.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001010214520/http://atlantis.midsouth.net/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "atlantis.sysnet.net",
+          "port": 4040
+        },
         {
           "blocked": true,
           "hostname": "atlantis.midsouth.net",
@@ -947,6 +950,7 @@
     },
     {
       "name": "The Island of Livonia",
+      "codebase": "pgplus",
       "dataOrigins": ["homepage"],
       "hosts": [
         {
@@ -1084,8 +1088,8 @@
           "url": "http://brigandine.org/"
         },
         {
-          "type": "website",
-          "url": "http://bandicoot.merseine.nu/~talker/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20110823114152/http://bandicoot.merseine.nu/~talker/"
         }
       ],
       "hosts": [
@@ -1129,6 +1133,7 @@
           "url": "https://web.archive.org/web/20010204185900/http://island.darkfantastic.net/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://island.talkernet.net"
         }
@@ -1174,10 +1179,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://www.forgottenisle.net/"
-        },
-        {
-          "type": "website",
-          "url": "http://www.geocities.com/Broadway/1536/fi.html"
         }
       ],
       "hosts": [
@@ -1287,6 +1288,7 @@
           "url": "camelot@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://user1.megalinx.net/~camelot/"
         },
@@ -1345,6 +1347,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.skl.com/~camp/"
         }
@@ -1435,10 +1438,6 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.castle2k.org.uk"
-        },
-        {
           "type": "wayback",
           "url": "https://web.archive.org/web/20030215131935/http://www.castle2k.org.uk/"
         }
@@ -1458,12 +1457,6 @@
       ],
       "dataOrigins": ["greatbiglist"],
       "location": "UK",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://www.castle2k.org.uk"
-        }
-      ],
       "hosts": [
         {
           "blocked": true,
@@ -1633,7 +1626,8 @@
       "dataOrigins": ["maddhouse", "talker"],
       "resources": [
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://new-world.talker.com/"
         }
       ],
@@ -1725,8 +1719,13 @@
     },
     {
       "name": "Lykos",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "mudlist"],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "lykos.shadowwolf.net",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "lykos.midsouth.net",
@@ -1989,10 +1988,11 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.caves.tf"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011130083012/http://caves.tf/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.caves.uk.net"
         }
@@ -2038,10 +2038,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20060516143138/http://www.centralperk.us/"
-        },
-        {
-          "type": "website",
-          "url": "http://centralperk.us"
         },
         {
           "type": "email", 
@@ -2154,14 +2150,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/19970330200450/http://crazy.skl.com/"
-        },
-        {
-          "type": "website",
-          "url": "http://www.sgi.net/~jon/westhill.skl.com/~crazy"
-        },
-        {
-          "type": "website",
-          "url": "https://web.archive.org/web/19990208003921/http://crazylands.org/"
         }
       ],
       "hosts": [
@@ -2184,13 +2172,14 @@
     },
     {
       "name": "The Cult",
+      "description": "The Cult is a semi-roleplaying talker written by james (Slaine), which is a heavily mutilated and improved version of SensiSummink 2.6b.",
       "dataOrigins": ["greatbiglist"],
-      "codebase": "ewtoo",
+      "codebase": "sensisummink",
       "location": "UK",
       "resources": [
         {
-          "type": "website",
-          "url": "http://cult.meep.org/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990125085312/http://cult.meep.org/"
         }
       ],
       "hosts": [
@@ -2312,14 +2301,15 @@
     {
       "name": "The Pub",
       "dataOrigins": ["spodlist"],
+      "yearOpened": 1997,
       "codebase": "ewtoo",
       "screencaps": [
         "login/doughnuts.co.uk_4000.png"
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://thepub.doughnuts.co.uk"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20021212210256/http://www.thepub.doughnuts.co.uk/main.php"
         }
       ],
       "hosts": [
@@ -2365,6 +2355,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.anarch.org"
         },
@@ -2572,14 +2563,17 @@
           "url": "http://www.snowplains.org"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://squeak.fitz.cam.ac.uk/snowplains/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://bubble.chu.cam.ac.uk/snowplains/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://snowplains.enquiries.com/snowplains/"
         },
@@ -2632,6 +2626,7 @@
           "url": "https://www.facebook.com/groups/revivaltalker"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.revivaltalker.com"
         }
@@ -2735,10 +2730,6 @@
         {
           "type": "email",
           "url": "suggestions@uglymug.org.uk"
-        },
-        {
-          "type": "website",
-          "url": "https://uglymug.org.uk/"
         }
       ],
       "hosts": [
@@ -2778,14 +2769,18 @@
       "name": "The Vineyard",
       "location": "USA",
       "codebase": "ewtoo",
+      "admins": [
+        "Tarkon",
+        "Imagination"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.thevineyard.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990428142715/http://www.thevineyard.org/"
         },
         {
-          "type": "website",
-          "url": "http://gstv.gsu.edu/vineyard/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991006011515/http://gstv.gsu.edu/vineyard/"
         }
       ],
       "hosts": [
@@ -2831,10 +2826,12 @@
       "codebase": "ewtoo",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.merlin.net/somewhere"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://schnuggles.visi.net/~somewher/"
         }
@@ -2867,20 +2864,16 @@
           "url": "https://www.facebook.com/groups/15990781471/"
         },
         {
-          "type": "website",
-          "url": "http://foothills.tk"
-        },
-        {
-          "type": "website",
-          "url": "http://ulibnet.mtsu.edu/~jsloman/foothills.html"
-        },
-        {
-          "type": "website",
-          "url": "http://www.bcpl.net/~melissas/foothills/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020803034041/http://www.foothills.tk/"
         },
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20071006182503/http://www.foothills.tk/"
+          "url": "https://web.archive.org/web/20000831050139/http://www.onlinemagic.com/~jonathan/foothills/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20051126103835/http://www.bcpl.net/~melissas/foothills/"
         },
         {
           "type": "wayback",
@@ -3024,6 +3017,7 @@
       "name": "Dracosia",
       "ageRestriction": "18+",
       "codebase": "exile",
+      "yearOpened": 2005,
       "admins": [
         "Xavier",
         "Kaata",
@@ -3034,10 +3028,6 @@
         "Xaria"
       ],
       "resources": [
-        {
-          "type": "website",
-          "url": "http://dracosia.dune.net"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20080509074004/http://dracosia.dune.net/"
@@ -3659,11 +3649,13 @@
           "url": "http://web.archive.org/web/20080330223653/http://www.trollied.org/~amnesia/index.php"
         },
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://amnesiahouse.org"
         },
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://yuss.org/~blimey"
         }
       ],
@@ -4636,6 +4628,7 @@
       "name": "The Manor",
       "dataOrigins": ["spodlist"],
       "location": "UK",
+      "codebase": "sensisummink",
       "ewtooAbbr": "manor",
       "screencaps": [
         "login/themanor.org_4242.png"
@@ -4925,6 +4918,23 @@
         {
           "hostname": "cubanbar.hochstenbach.net",
           "port": 1234
+        }
+      ]
+    },
+    {
+      "name": "Nuke's Talker",
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://talker.base.org/",
+          "broken": true
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "leodas.com",
+          "port": 2000
         }
       ]
     },
@@ -6713,7 +6723,8 @@
           "url": "https://web.archive.org/web/20010410045455/http://francis.ads.uga.edu/Asylum"
         },
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://w3.one.net/~strycher/asylum.html"
         }
       ],
@@ -6955,6 +6966,28 @@
           "blocked": true,
           "hostname": "206.205.135.2",
           "port": 1234
+        }
+      ]
+    },
+    {
+      "name": "Ocean City",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tb.yi.org",
+          "port": 4444
+        }
+      ]
+    },
+    {
+      "name": "Oblivion",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "obliv.zoit.net",
+          "port": 6666
         }
       ]
     },
@@ -7837,8 +7870,22 @@
     },
     {
       "name": "Ocean Home",
-      "dataOrigins": ["kesey", "maddhouse"],
+      "aka": [
+        "Orca's Oceanhome"
+      ],
+      "ageRestriction": "18+",
+      "dataOrigins": ["kesey", "maddhouse", "homepage"],
+      "screencaps": [
+        "maps/oceanhome.map.png"
+      ],
+      "textcaps": [
+        "maps/oceanhome.map.txt"
+      ],
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010428211112/http://www2.hawaii.edu/~eldon/OCEAN_HOME/"
+        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010304125315/http://www.talker.com/ocean/"
@@ -10100,9 +10147,31 @@
     },
     {
       "name": "Labyrinth",
+      "coders": [
+        "Amano",
+        "Metho",
+        "Troll"
+      ],
+      "admins": [
+        "Amano",
+        "Metho",
+        "Rynelf",
+        "Malia",
+        "Candy"
+      ],
+      "codebase": "nuts",
+      "dataOrigins": ["talkernet", "homepage"],
+      "aka": [
+        "PNX Labyrinth",
+        "Castle in the Sky"
+      ],
       "dataOrigins": ["talkers.ws"],
       "description": "Themed upon the classic movie Labyrinth starring David Bowie and Jennifer Connelly. Set in a fantasy world, with goblins and fairies. Welcome to the world of Labyrinth where nothing is as it seems and things are further than you think.",
       "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000930151253/http://www.angelfire.com/la/ethersoft"
+        },
         {
           "type": "website",
           "url": "http://www.lintilla.df.lth.se/~amano/"
@@ -10309,6 +10378,34 @@
       ]
     },
     {
+      "name": "Monster Island",
+      "dataOrigins": ["mudlist"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010330184026/http://godzilla.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 3200
+        }
+      ]
+    },
+    {
+      "name": "The Mine",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "wwww.nu",
+          "port": 7777
+        }
+      ]
+    },
+    {
       "name": "Mirage",
       "codebase": "ewtoo",
       "dataOrigins": ["greatbiglist"],
@@ -10395,7 +10492,8 @@
       "resources": [
         {
           "type": "website",
-          "url": "http://talkers.skl.com/~milenia"
+          "url": "http://talkers.skl.com/~milenia",
+          "broken": true
         }
       ],
       "hosts": [
@@ -10448,10 +10546,25 @@
       ]
     },
     {
+      "name": "Insert Random Talker Name",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "randomseed.org",
+          "port": 2020
+        }
+      ]
+    },
+    {
       "name": "Project X",
       "dataOrigins": ["greatbiglist"],
       "codebase": "pgplus",
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "projectx.ath.cx",
+          "port": 6666
+        },
         {
           "blocked": true,
           "hostname": "zipcon.net",
@@ -10540,7 +10653,17 @@
     },
     {
       "name": "Just Like Heaven",
-      "dataOrigins": ["crossroads"],
+      "dataOrigins": ["crossroads", "mudlist", "homepage"],
+      "admins": [
+        "Tracy",
+        "Mikle"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990209025506/http://www.geocities.com/Colosseum/Loge/2204/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -10604,11 +10727,34 @@
       ]
     },
     {
+      "name": "Merlin's Hideaway",
+      "dataOrigins": ["mudlist"],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://www.talker.com/merlin",
+          "broken": true
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9876
+        }
+      ]
+    },
+    {
       "name": "The Metro Hotel",
       "dataOrigins": ["amber"],
       "codebase": "nuts",
       "description": "Popular, heavily modified NUTS, very different",
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cybermac.net",
+          "port": 4500
+        },
         {
           "blocked": true,
           "hostname": "amber.org.uk",
@@ -10894,40 +11040,6 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 9052
-        }
-      ]
-    },
-    {
-      "name": "Castle in the Sky",
-      "aka": [
-        "PNX Labyrinth"
-      ],
-      "description": "Themed upon the classic movie Labyrinth starring David Bowie and Jennifer Connelly. Set in a fantasy world, with goblins and fairies.<br>Welcome to the world of Labyrinth where nothing is as it seems and things are further than you think.",
-      "coders": [
-        "Amano",
-        "Metho",
-        "Troll"
-      ],
-      "admins": [
-        "Amano",
-        "Metho",
-        "Rynelf",
-        "Malia",
-        "Candy"
-      ],
-      "codebase": "nuts",
-      "dataOrigins": ["talkernet"],
-      "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20000930151253/http://www.angelfire.com/la/ethersoft"
-        }
-      ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "allitnil.df.lth.se",
-          "port": 6100
         }
       ]
     },
@@ -11284,7 +11396,19 @@
       ]
     },
     {
-      "name": "High Note",
+      "name": "Hocus Pocus",
+      "ageRestriction": "18+",
+      "dataOrigins": ["mudlist"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dialnet.net",
+          "port": 6505
+        }
+      ]
+    },
+    {
+      "name": "The High Note",
       "codebase": "ncohafmuta",
       "admins": [
         "Poet"
@@ -11626,7 +11750,8 @@
       "dataOrigins": ["mudlist"],
       "resources": [
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://alphachat.cjb.net/"
         }
       ],
@@ -11814,7 +11939,8 @@
           "url": "Aworlds@talker.com"
         },
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://www.talker.com/ancientworlds"
         }
       ],
@@ -15795,6 +15921,11 @@
           "blocked": true,
           "hostname": "yerevan.daemon.sh",
           "port": 6900
+        },
+        {
+          "blocked": true,
+          "hostname": "yerevan.acp.da.ru",
+          "port": 6900
         }
       ]
     },
@@ -15894,6 +16025,7 @@
     },
     {
       "name": "Neon Nights",
+      "codebase": "iforms",
       "aka": [
         "Neon Lights"
       ],
@@ -15908,7 +16040,7 @@
       ]
     },
     {
-      "name": "Neon Umbra",
+      "name": "The Neon Umbra",
       "dataOrigins": ["spodlist"],
       "hosts": [
         {
@@ -16510,6 +16642,21 @@
       "description": "18+ Gorean City of Lara, based on books by John Norman.<br>A unique city of Gor, where peace and tranquility can be found on this concentual port or/one can role-play in the non-concentual area. Follow where your path may lead you and come to visit.",
       "dataOrigins": ["tdf"],
       "ageRestriction": "18+",
+      "codebase": "amnuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20041129142720/http://lara.dune.net/"
+        }
+      ],
+      "admins": [
+        "Loreanna",
+        "Uzume"
+      ],
+      "coders": [
+        "Loreanna",
+        "Phoenix"
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -16607,6 +16754,15 @@
     {
       "name": "Ice Fire",
       "dataOrigins": ["tdf"],
+      "description": "It is Ice Fire's mission to be a safe, comfortable BDSM oriented place to learn and play online. To accomplish this by providing the basics of reliable information, entertainment, friendship and respect.",
+      "yearOpened": 1997,
+      "ageRestriction": "18+",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20090829012906/http://geocities.com/newicefire/welcome.html"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -16998,7 +17154,8 @@
       "dataOrigins": ["mudlist"],
       "resources": [
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://www.personal.dundee.ac.uk/~mwooldri/asylum.htm"
         }
       ],
@@ -17304,6 +17461,9 @@
     },
     {
       "name": "The 19th Hole",
+      "aka": [
+        "The 19th Hole Country Club"
+      ],
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
@@ -17517,6 +17677,7 @@
     },
     {
       "name": "Elsewhere",
+      "yearOpened": 1992,
       "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/_elsewhere\">Elsewhere</a>.",
       "notes": "Elsewhere was what eventually became <a data-sveltekit-reload href=\"/details/foothills\">Foothills</a>.",
       "group": "foothills",
@@ -17734,6 +17895,7 @@
       "name": "Inferno",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://inferno.talkers.org/~inferno"
         }
@@ -17765,6 +17927,17 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
+      "name": "KTV",
+      "hosts": [
+        {
+          "hostname": "snafu.net.au",
+          "port": 4642,
+          "blocked": true
+        }
+      ],
+      "dataOrigins": ["greatbiglist"]
+    },
+    {
       "name": "KnightMare",
       "hosts": [
         {
@@ -17780,12 +17953,12 @@
       "slug": "knights-chamber",
       "resources": [
         {
-          "type": "website",
-          "url": "http://surf.to/scoobydoo"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990225134417/http://www.angelfire.com/nm/travfarley/myhome.html"
         },
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/19990225134417/http://www.angelfire.com/nm/travfarley/myhome.html"
+          "url": "https://web.archive.org/web/19981207011911/http://surf.to/scoobydoo"
         }
       ],
       "hosts": [
@@ -18027,7 +18200,7 @@
       "dataOrigins": ["greatbiglist"]
     },
     {
-      "name": "Meadow",
+      "name": "The Meadow",
       "location": "UK",
       "hosts": [
         {
@@ -18414,7 +18587,8 @@
           "url": "https://web.archive.org/web/19990427232413/http://www.pirates.org.uk/"
         },
         {
-          "type": "broken-website",
+          "broken": true,
+          "type": "website",
           "url": "http://goliath.mersinet.co.uk/~pirates/"
         }
       ],
@@ -18512,6 +18686,11 @@
       "hosts": [
         {
           "hostname": "talkers.skl.com",
+          "port": 6669,
+          "blocked": true
+        },
+        {
+          "hostname": "ncohafmuta.com",
           "port": 6669,
           "blocked": true
         }
@@ -19751,6 +19930,7 @@
       "name": "Mount Olympus",
       "description": "Tired of talking to the same old annoying people day after day. Come talk to the annoying people at our talker site instead.",
       "dataOrigins": [ "dune", "homepage" ],
+      "codebase": "amnuts",
       "resources": [
         {
           "type": "wayback",
