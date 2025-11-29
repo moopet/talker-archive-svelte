@@ -1,11 +1,9 @@
 <script lang="ts">
   import { talkers } from '$lib/data/talkers.json';
 
-  const staff = [...new Set([
-      ...talkers.flatMap(talker => talker?.admins ?? []),
-      ...talkers.flatMap(talker => talker?.coders ?? [])
-    ])]
-    .sort((a, b) => a.localeCompare(b));
+  const coders = talkers.flatMap(talker => talker?.coders ?? []);
+  const admins = talkers.flatMap(talker => talker?.admins ?? []);
+  const staff = [...new Set([...coders, ...admins])].sort((a, b) => a.localeCompare(b));
 
   const initial = (index: number): string => {
     const name = staff[index];
@@ -32,6 +30,10 @@
     </p>
 
     <p>
+      Currently there are {staff.length} people in the database. Only adminstrators and coders are included.
+    </p>
+
+    <p>
       Standard disclaimer: more than one person may use the same name, people might be known under different names on different talkers, and people may change their names over time.
     </p>
   </aside>
@@ -41,6 +43,8 @@
       <tr>
         <th></th>
         <th>Spod name</th>
+        <th>Admin</th>
+        <th>Coder</th>
       </tr>
     </thead>
 
@@ -49,6 +53,12 @@
         <tr>
           <td class="initial">{initial(index)}</td>
           <td><a data-sveltekit-reload href={`/spods/${spodName.toLowerCase()}`}>{spodName}</a></td>
+          <td class={admins.includes(spodName) ? 'coder' : ''}>
+            {admins.includes(spodName) ? '✔' : ''}
+          </td>
+          <td class={coders.includes(spodName) ? 'coder' : ''}>
+            {coders.includes(spodName) ? '✔' : ''}
+          </td>
         </tr>
       {/each}
     </tbody>
