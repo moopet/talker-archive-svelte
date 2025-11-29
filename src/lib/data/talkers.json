@@ -21,55 +21,55 @@
       "url": "https://www.mudconnect.com/"
     },
     {
-      "type": "Website",
+      "type": "website",
       "icon": "Article",
       "name": "The MUD Connector",
       "url": "https://www.mudconnect.com/"
     },
     {
-      "type": "Website",
+      "type": "website",
       "description": "Talker list",
       "icon": "Article",
       "name": "Grim's list server",
       "url": "http://list.ewtoo.org"
     },
     {
-      "type": "Website",
+      "type": "website",
       "description": "Talker list",
       "icon": "Article",
       "name": "Kesey's Telnet Talker List",
       "url": "http://alg.dune.net/Telnet-Talker-Links.html"
     },
     {
-      "type": "Website",
+      "type": "website",
       "description": "Talker list",
       "icon": "Article",
       "name": "The Razor's Edge Talker list",
       "url": "https://geocities.datacellar.net/SiliconValley/Park/7853/"
     },
     {
-      "type": "Website",
+      "type": "website",
       "description": "Talker list",
       "icon": "Article",
       "name": "Galaxy/einet :: Talkers",
       "url": "https://www.einet.net/dir68120/Talkers.htm"
     },
     {
-      "type": "Website",
+      "type": "website",
       "description": "Talker list",
       "icon": "Article",
       "name": "The Great Big List of Talkers and Talk-Oriented Muds",
       "url": "http://proffa.cc.tut.fi/~k113973/talkers/"
     },
     {
-      "type": "Website",
+      "type": "website",
       "icon": "Article",
       "description": "MUD/talker list",
       "name": "MUDStats",
       "url": "http://mudstats.com/"
     },
     {
-      "type": "Website",
+      "type": "website",
       "icon": "Article",
       "description": "Like this talker archive, but for MUDs",
       "name": "MudMuseum",
@@ -348,7 +348,8 @@
       "name": "Crypt",
       "family": "nuts",
       "language": "C",
-      "platform": "Unix-like"
+      "platform": "Unix-like",
+      "repo": "https://web.archive.org/web/19990503003332/http://www.tendril.force9.co.uk/crypt/index.html"
     },
     {
       "shortName": "peanuts",
@@ -4044,7 +4045,16 @@
       "ewtooAbbr": "Paradox",
       "dataOrigins": ["spodlist"],
       "description": "Ours is a queer safe talker that has been on the net for the past 5 years or so. We are a large community of people from around the world who share many interests and come online to meet new friends and chat with old ones. We protect all our users against any persons who come to our talker to harass our community and will take whatever measures are necessary to resolve those problems.",
+      "yearOpened": 1995,
       "codebase": "pgplus",
+      "coders": [
+        "Taita"
+      ],
+      "admins": [
+        "glue",
+        "overjoyed",
+        "Roark"
+      ],
       "screencaps": [
         "login/talker.com_4040.png"
       ],
@@ -4054,18 +4064,15 @@
           "url": "paradox@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/paradox"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010616150401/http://talker.com/paradox/"
         },
         {
-          "type": "website",
-          "url": "http://paradox.talker.com"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20060531175326/http://geocities.com/doxer4life/"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/doxer4life/"
-        },
-        {
+          "broken": true,
           "type": "website",
           "url": "http://ag.arizona.edu/~dave/paradox.html"
         }
@@ -4312,10 +4319,15 @@
           "url": "surfers@fysh.org"
         },
         {
-          "type": "website",
-          "url": "http://surfers.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19980222075846/http://surfers.org/"
         },
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20031029070922/http://surfers.org/"
+        },
+        {
+          "broken": true,
           "type": "website",
           "url": "http://orangey-beard.csc.stu.mmu.ac.uk/~surfers"
         }
@@ -4775,16 +4787,26 @@
     },
     {
       "name": "The Village",
+      "description": "The Village is a Unix based chat line also commonly referred to as a talker. Anyone and everyone is welcomed to come in and join.<br>We have almost reached our 6th year anniversary and want to encourage a pleasant enviroment where people can meet, hangout, chat and whatever else they feel like doing.",
       "location": "USA",
       "admins": [
 	      "Rico",
 	      "Bud"
       ],
       "screencaps": [
-        "login/ubervillage.org_3131.png"
+        "login/ubervillage.org_3131.png",
+        "maps/village.map.png"
+      ],
+      "textcaps": [
+        "maps/village.map.txt"
       ],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990203014820/http://ns2.pb.net/%7Evillage/"
+        },
+        {
+          "broken": true,
           "type": "website",
           "url": "http://mathlab.sunysb.edu/~village"
         }
@@ -5113,10 +5135,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20020928120248/http://www.spellcrafter.net/"
-        },
-        {
-          "type": "website",
-          "url": "http://www.spellcrafter.net/"
         }
       ],
       "hosts": [
@@ -5383,7 +5401,7 @@
       "aka": [
         "TCZ"
       ],
-      "description": "With a highly international userbase, The Chatting Zone (TCZ) is a popular social mud with the option of exploring the many games and locations built by the userbase as well as creating your own. Many games are available to play, including Scrabble, LORD (RPG), GO, Poker, Boggle, Monopoly, Dominoes, Chess, Connect 4, Yahtzee, Lights Out, Bridge, Cribbage, Jeopardy and many, many more. Regular tournaments are held! A heavily used Bulletin Board System with many topics of discussion. The ability to create your own rooms/locations/games with the easy-to-learn/easy-to-master custom coding language. A 24-hour mud with a friendly and helpful admin team who are here to guide you through the first steps of being a newbie in a new world. Get chatting - Get on TCZ!",
+      "description": "With a highly international userbase, The Chatting Zone (TCZ) is a popular social mud with the option of exploring the many games and locations built by the userbase as well as creating your own. Many games are available to play, including Scrabble, LORD (RPG), GO, Poker, Boggle, Monopoly, Dominoes, Chess, Connect 4, Yahtzee, Lights Out, Bridge, Cribbage, Jeopardy and many, many more. Regular tournaments are held! A heavily used Bulletin Board System with many topics of discussion. The ability to create your own rooms/locations/games with the easy-to-learn/easy-to-master custom coding language.<br>A 24-hour mud with a friendly and helpful admin team who are here to guide you through the first steps of being a newbie in a new world. Get chatting - Get on TCZ!",
       "resources": [
         {
           "type": "Facebook community",
@@ -5398,28 +5416,27 @@
           "url": "https://twitter.com/thechattingzone"
         },
         {
-          "type": "Website",
-          "description": "MUDStats entry",
-          "icon": "Article",
-          "name": "The Chatting Zone (TCZ)",
-          "url": "https://grapevine.haus/games/tcz"
-        },
-        {
-          "type": "Website",
-          "description": "Grapevine entry",
-          "icon": "Article",
-          "name": "The Chatting Zone",
-          "url": "http://mudstats.com/World/TheChattingZone(TCZ)"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20221209134326/http://thechattingzone.uk/"
         },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010303111031/http://tcz.galaxsw.co.uk/"
         },
         {
-          "type": "website",
-          "url": "http://thechattingzone.uk/"
+          "type": "Grapevine entry",
+          "icon": "Article",
+          "name": "The Chatting Zone (TCZ)",
+          "url": "https://grapevine.haus/games/tcz"
         },
         {
+          "type": "MUDStats entry",
+          "icon": "Article",
+          "name": "The Chatting Zone",
+          "url": "http://mudstats.com/World/TheChattingZone(TCZ)"
+        },
+        {
+          "broken": true,
           "type": "website",
           "url": "http://tcz.anglianet.co.uk/tcz/tcz.html"
         },
@@ -5467,13 +5484,6 @@
         {
           "type": "website",
           "url": "https://chatmud.com/"
-        },
-        {
-          "type": "website",
-          "description": "Grapevine entry",
-          "icon": "Article",
-          "name": "ChatMUD connector",
-          "url": "https://grapevine.haus/games/tcz"
         }
       ],
       "textcaps": [
@@ -5514,10 +5524,7 @@
           "url": "https://web.archive.org/web/19981206135710/http://www.underworld.pizza.org/noframes.htm"
         },
         {
-          "type": "website",
-          "url": "http://www.riverbend.net/tower"
-        },
-        {
+          "broken": true,
           "type": "website",
           "url": "http://www.demon.co.uk/underworld/"
         }
@@ -5542,6 +5549,11 @@
           "blocked": true,
           "hostname": "dismayl.demon.co.uk",
           "port": 2010
+        },
+        {
+          "hostname": "underworld.pizza.org",
+          "port": 2010,
+          "blocked": true
         },
         {
           "hostname": "underworld.demon.co.uk",
@@ -5595,11 +5607,11 @@
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/19970508011701/http://www.spods.dcs.kcl.ac.uk/~gatherer/"
+          "url": "https://web.archive.org/web/19980204224457fw_/http://tg.spods.dcs.kcl.ac.uk/index.html"
         },
         {
           "type": "website",
-          "url": "https://www.gathering.org.uk"
+          "url": "https://web.archive.org/web/19990224031531/https://www.gathering.org.uk/"
         },
         {
           "type": "email",
@@ -5709,10 +5721,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010301202003/http://universe.tirsek.com/"
-        },
-        {
-          "type": "website",
-          "url": "http://universe.tirsek.com"
         }
       ],
       "hosts": [
@@ -5724,21 +5732,32 @@
       ]
     },
     {
+      "name": "Carnival",
+      "yearOpened": 1998,
+      "codebase": "pgplus",
+      "group": "unreal"
+    },
+    {
       "name": "Unreal",
       "description": " A place out of sync with reality",
+      "yearOpened": 1999,
+      "codebase": "pgplus",
+      "group": "unreal",
       "screencaps": [
         "login/unreal.snowplains.org_7777.png"
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.users.globalnet.co.uk/~dcrsp/simple/me/unreal.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20190122050450/http://www.users.globalnet.co.uk/~dcrsp/simple/me/unreal.html"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.unreal.amber.org.uk"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.madagascar.com/unreal"
         }
@@ -5784,12 +5803,8 @@
           "url": "https://web.archive.org/web/20030401235402/http://www.valdemar.org/"
         },
         {
-          "type": "website",
-          "url": "http://valdemar.ewtoo.org"
-        },
-        {
-          "type": "website",
-          "url": "http://www.valdemar.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991114131713/http://valdemar.ewtoo.org/"
         }
       ],
       "hosts": [
@@ -5814,6 +5829,7 @@
       "name": "Las Vegas",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.geocities.com/TimesSquare/6964/"
         }
@@ -5828,14 +5844,16 @@
     },
     {
       "name": "Vega$",
+      "description": "The most friendly talker out there, everyone is welcome. Join us to have fun, chat, play games, and just be.",
+      "codebase": "plplus",
+      "admins": [
+        "elayNNe",
+        "Python"
+      ],
       "screencaps": [
         "login/vegas.cep.net_7979.png"
       ],
       "resources": [
-        {
-          "type": "website",
-          "url": "http://www.vegas.cep.net/~vegas"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20030221075039/http://www.vegas.cep.net/~vegas/"
@@ -5978,7 +5996,7 @@
     {
       "name": "Castle of Desire",
       "description": "A companion talker to the Desire MUD.",
-      "dataOrigins": ["galaxy", "talkernet"],
+      "dataOrigins": ["galaxy", "talkernet", "homepage"],
       "coders": [
         "Weaver"
       ],
@@ -5989,8 +6007,8 @@
       "codebase": "talkeros",
       "resources": [
         {
-          "type": "website",
-          "url": "https://www.angelfire.com/stars2/shimmer4/Castle.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20210703072837/https://www.angelfire.com/stars2/shimmer4/Castle.html"
         },
         {
           "type": "wayback",
@@ -6060,6 +6078,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://smaug.talker.com/vision/"
         }
@@ -6094,8 +6113,8 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.eoni.com/~mystique/Home/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970626042011/http://www.eoni.com/~mystique/Home/"
         }
       ],
       "hosts": [
@@ -6176,14 +6195,16 @@
     },
     {
       "name": "NoWhereLand",
+      "description": "NoWhereLand is a true time ncohafmuta based talker. Its theme is loosely based on The Beatles, their music and history. But being a Beatles fan is not required. We like to rap or chat about all sorts of things here.",
+      "codebase": "ncohafmuta",
       "resources": [
         {
           "type": "email",
           "url": "nwlang@dune.net"
         },
         {
-          "type": "website",
-          "url": "http://nowhereland.dune.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20241205152254/http://nowhereland.dune.net/"
         }
       ],
       "hosts": [
@@ -6230,11 +6251,13 @@
     },
     {
       "name": "Comix",
-      "dataOrigins": [""],
+      "description": "Contrary to our name, which nobody wants to take credit for, we are not a comic book discussion group.<br>We are a small group who mostly login during US daytime hours to talk about the unimportant issues of the day and to mock the stupid. If you are stupid and have a tendency to become traumatized when textually ridiculed, please do not login.  Otherwise, please feel free to drop in and waste some online time with us.<br>Quick and clever wit not required, but helps.",
+      "dataOrigins": ["homepage"],
+      "codebase": "nuts",
       "resources": [
         {
-          "type": "website",
-          "url": "http://comix.sunfire.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20060613112156/http://www.comixetc.org/"
         }
       ],
       "hosts": [
@@ -6331,8 +6354,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.io.com/illusions/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990203170733/http://www.io.com/illusions/"
         }
       ],
       "hosts": [
@@ -6356,8 +6379,8 @@
           "url": "pixelsheeprl@gmail.com"
         },
         {
-          "type": "website",
-          "url": "http://illusions.dune.net/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20050404142230/http://illusions.dune.net/"
         }
       ],
       "hosts": [
@@ -6651,6 +6674,7 @@
           "url": "abyss@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://abyss.talker.com"
         }
@@ -6790,13 +6814,21 @@
     },
     {
       "name": "The City",
-      "dataOrigins": ["rosen"],
+      "dataOrigins": ["rosen", "homepage"],
       "notes": "The City and The City II ran on the same host and port, so are possibly continuations of one another. Eventually replaced by <a href=\"/details/burbs\" data-sveltekit-reload>The 'Burbs</a>.",
       "group": "burbs",
+      "coders": [
+        "David"
+      ],
+      "admins": [
+        "anDrea",
+        "David",
+        "Justin"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://toybox.infomagic.com/~city/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19980209043603/http://toybox.infomagic.com/~city/"
         }
       ],
       "hosts": [
@@ -6836,6 +6868,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.infomagic.com/~city"
         }
@@ -7214,11 +7247,12 @@
     },
     {
       "name": "The Guide",
+      "yearClosed": 1996,
       "dataOrigins": ["rosen"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.latech.edu/~jfond/guide.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19971211035623/http://www.latech.edu/~jfond/guide.html"
         }
       ],
       "hosts": [
@@ -7285,6 +7319,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.apollos.ttu.ee/~valitsus/"
         }
@@ -7408,6 +7443,7 @@
       "codebase": "custom",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.fhsu.edu/students/dave/townsquare/"
         }
@@ -7979,10 +8015,12 @@
       "dataOrigins": ["rosen", "maddhouse"],
       "resources": [
         {
+          "broken": true,
           "type": "wayback",
           "url": "https://web.archive.org/web/20010304125315/http://www.fortnet.org/~zenki/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www1.mhv.net/~laws/"
         }
@@ -8009,10 +8047,12 @@
           "url": "https://web.archive.org/web/20041207031732/http://hcprobst.dyndns.org/interstellar/snowcrash/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.interstellar-designs.com/snowcrash"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.rsabbs.com/snow/"
         }
@@ -8032,11 +8072,12 @@
     },
     {
       "name": "Swantis",
-      "dataOrigins": ["rosen"],
+      "description": " The conception of Swantisland began as an inside joke between friend and I.<br>As the story goes, Swantisland is a small island off the east coast of Africa. It is a multi-cultural society devoid of all social diseases, including homophobia. Swantisland's flag is a rainbow and every Swantislandian is an immigrant. Swantisland is a happy, peaceful place, where nobody wants for anything. The population is low though!",
+      "dataOrigins": ["rosen", "homepage"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://members.tripod.com/~swantis/index.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981201234908/http://members.tripod.com/%7ESwantis/index.html"
         }
       ],
       "hosts": [
@@ -8069,6 +8110,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.uq.edu.au/~zzwmcgli/vi.html"
         }
@@ -8096,8 +8138,8 @@
           "url": "https://web.archive.org/web/20001209094000/http://www.geocities.com/Area51/Shadowlands/8870"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/wotf/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981206185906/http://www.talker.com/wotf/"
         }
       ],
       "hosts": [
@@ -8680,6 +8722,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.interline.com.au/~mudman/"
         }
@@ -8698,6 +8741,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.geocities.com/thetropics/Shores/2120/"
         }
@@ -8747,6 +8791,7 @@
           "url": "https://web.archive.org/web/20010309004700/http://caliburn.signwave.com/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.seis.com/~caliburn"
         }
@@ -8811,8 +8856,8 @@
       "dataOrigins": ["talkers.ws", "homepage"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.spods.dcs.kcl.ac.uk/~argoed/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981205053831/http://www.spods.dcs.kcl.ac.uk/%7Eargoed/"
         }
       ],
       "screencaps": [
@@ -9013,6 +9058,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www2.vivid.net/~cicely/"
         }
@@ -9060,21 +9106,15 @@
     },
     {
       "name": "The Crypt",
-      "dataOrigins": ["talkers.ws"],
+      "description": "The Crypt is a multiuser talker, with a gothic theme.<br>It is mainly used by students at UK universities but also has users from the USA, Russia, Sweden, Norway amongst others.",
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "yearOpened": 1994,
       "location": "USA",
-      "codebase": "summink",
+      "codebase": "crypt",
       "resources": [
         {
-          "type": "website",
-          "url": "http://churchnet2.ucsm.ac.uk/~crypt"
-        },
-        {
-          "type": "website",
-          "url": "http://www.tendril.force9.co.uk/crypt/index.html"
-        },
-        {
-          "type": "website",
-          "url": "http://churchnet2.ucsm.ac.uk/~crypt/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990221000722/http://churchnet2.ucsm.ac.uk/%7Ecrypt/"
         }
       ],
       "hosts": [
@@ -9097,16 +9137,19 @@
     },
     {
       "name": "Lodis Island",
+      "description": "The talker is based in the United States but has over 200 users from all over the world. We are always happy to welcome new people to our lovely home. The islanders are very friendly (sometimes too friendly) but don't mind us we are just having a good time.<br>Come and visit us sometime. Hey you might even want to stay for a while and make new friends.",
+      "location": "USA",
+      "codebase": "crypt",
       "aka": [
-        "Lodis' Island"
+        "Lodis' Island",
+        "Lodis' Island the Illusion of Gaia"
+      ],
+      "admins": [
+        "lodis"
       ],
       "dataOrigins": ["crypt", "kesey"],
       "codebase": "crypt",
       "resources": [
-        {
-          "type": "website",
-          "url": "http://www.talker.com/lodis"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/19990202164419/http://www.talker.com/lodis/"
@@ -9364,6 +9407,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.intercom.no/~dixiel/"
         }
@@ -9392,10 +9436,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20070915081820/http://www.dswonderland.com/"
-        },
-        {
-          "type": "website",
-          "url": "http://dswonderland.com"
         }
       ],
       "hosts": [
@@ -10115,12 +10155,12 @@
     },
     {
       "name": "Homecoming",
-      "dataOrigins": ["talkers.ws", "greatbiglist"],
+      "dataOrigins": ["talkers.ws", "greatbiglist", "homepage"],
       "location": "Greece",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.cc.ece.ntua.gr/~hcadm/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990222100008/http://www.cc.ece.ntua.gr/%7Ehcadm/home.html"
         }
       ],
       "hosts": [
@@ -10192,8 +10232,8 @@
           "url": "https://web.archive.org/web/20000930151253/http://www.angelfire.com/la/ethersoft"
         },
         {
-          "type": "website",
-          "url": "http://www.lintilla.df.lth.se/~amano/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020930191917/http://www.lintilla.df.lth.se/~amano/"
         }
       ],
       "hosts": [
@@ -10483,10 +10523,12 @@
       "dataOrigins": ["talkers.ws"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.prairienet.org/python/talker.html"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.pythonline.com/mpft"
         }
@@ -10529,6 +10571,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.figz.com/~necrolith"
         }
@@ -10911,15 +10954,13 @@
     },
     {
       "name": "Hysteria",
+      "yearOpened": 1998,
+      "language": "Slovak",
       "codebase": "nuts",
       "resources": [
         {
-          "type": "website",
-          "url": "http://hysteria.sk/talker/"
-        },
-        {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20000918112252/http://hysteria.sk:80/talker/"
+          "url": "https://web.archive.org/web/20000918112252/http://hysteria.sk/talker/"
         }
       ],
       "hosts": [
@@ -11018,6 +11059,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.inxpress.net/~joelie/pinwheel.html"
         },
@@ -11681,6 +11723,8 @@
     },
     {
       "name": "Clouds",
+      "yearClosed": 1996,
+      "yearClosed": 1998,
       "location": "USA",
       "dataOrigins": ["greatbiglist", "maddhouse", "homepage"],
       "coders": [
@@ -11696,10 +11740,12 @@
           "url": "https://web.archive.org/web/19990218074642/http://brooklyn.slack.net/%7Eclouds/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://clouds.pre.org/~clouds/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.fly.net/~clouds/"
         }
@@ -19710,9 +19756,32 @@
       ]
     },
     {
+      "name": "Pacific Paradise",
+      "dataOrigins": [ "mudlist" ],
+      "codebase": "talkeros",
+      "resources": [
+	      {
+		      "type": "wayback",
+      "url": "https://web.archive.org/web/20041204083409/http://www.maddhouse.com/~jasmine"
+	      }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "maddhouse.com",
+          "port": 9900
+        }
+      ]
+    },
+    {
       "name": "OZ",
+      "description": "G'day Mate and welcome to OZ!<br>OZ is one of the very few internet talkers out there which are from Australia.",
       "dataOrigins": [ "maddhouse" ],
       "resources": [
+	      {
+		      "type": "wayback",
+      "url": "https://web.archive.org/web/20041205144758/http://oztalker.com/"
+	      },
 	      {
 		      "type": "wayback",
       "url": "https://web.archive.org/web/20010304125315/http://nucleus.com/~gsm/OZ.html"
@@ -19721,7 +19790,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "129.76.64.1",
+          "hostname": "oztalker.com",
           "port": 4000
         }
       ]

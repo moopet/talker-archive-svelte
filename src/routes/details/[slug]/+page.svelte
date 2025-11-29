@@ -59,7 +59,7 @@
     return `Information presented here was - at least in part - sourced from ${matches.join(", and ")}.`;
   };
 
-  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigin }: Talker = talker;
+  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigin, location, language }: Talker = talker;
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
@@ -96,14 +96,26 @@
         name: websiteResource.type === "wayback" ? `http${websiteResource.url.split("/http")[1]}` : websiteResource.url,
         type: 'website',
         url: websiteResource.url,
-        description: websiteResource.type === "wayback" ? "(wayback machine copy)" : "",
+        description: websiteResource.type === "wayback" ? "(archived)" : "",
         broken: websiteResource.broken ?? false
       };
   });
 
   const otherResources: Array<Resource> = resources
-    .filter(resource => resource.type === 'Facebook community');
+    .filter(resource => !['website', 'wayback', 'email'].includes(resource.type));
 
+
+  const getLocaleDescription = (location: string, language: string): string => {
+    if (location && language) {
+      return `This ${location}-based talker primarily used the ${language} language.`;
+    }
+
+    if (language) {
+      return `This talker primarily used the ${language} language.`;
+    }
+
+    return `This was a ${location}-based talker.`;
+  };
 
   const getDateDescription = (yearOpened: number, yearClosed: number): string => {
     if (yearOpened === yearClosed) {
@@ -162,7 +174,10 @@
   <TalkerStatus talker={talker} />
 
   <section class="hero">
-    <img src={heroImage} alt="" />
+    <div>
+      <img src={heroImage} alt="" />
+    </div>
+
     <div>
       <h1>{name}</h1>
 
@@ -183,6 +198,10 @@
       <p class="notes">
         {@html notes}
       </p>
+    {/if}
+
+    {#if location || language}
+      <p class="dates">{getLocaleDescription(location, language)}</p>
     {/if}
 
     {#if yearOpened || yearClosed}
@@ -300,7 +319,13 @@ img {
   max-width: 400px;
 }
 
-div {
+div:has(img) {
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+div:has(p) {
   flex-grow: 1;
   display: flex;
   flex-direction: column;

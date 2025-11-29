@@ -7,9 +7,9 @@
     <a href={resource.url}><img src={resource.url} alt={resource.alt} /></a>
   {:else}
     {#if resource.broken}
-      <a class="broken-link" title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
+      <a class="broken-link" title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
     {:else}
-      <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '')}</a>
+      <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
     {/if}
   {/if}
 
