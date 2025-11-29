@@ -4152,7 +4152,14 @@
       "description": "An EW-style talker, loosely based on White Wolf's roleplaying game Vampire: the Masquerade.",
       "dataOrigins": ["spodlist", "facebook"],
       "ewtooAbbr": "ds",
+      "admins": [
+        "arianna",
+        "Raziel"
+      ],
       "coders": [
+        "enyc",
+        "spot",
+        "dreamcatcher",
         "Sparkster"
       ],
       "screencaps": [
@@ -4163,10 +4170,12 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.geocities.com/athens/7001/index.html"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.geocities.com/TimesSquare/Lair/6665"
         },
@@ -4413,19 +4422,19 @@
       "resources": [
         {
           "type": "website",
-          "url": "http://toybox.infomagic.com/~world/"
-        },
-        {
-          "type": "website",
           "url": "https://nosuchluck.incredulous.org"
-        },
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19980122023834/http://world.clara.net/"
         },
         {
           "type": "website",
           "url": "https://slack.nosuchluck.net"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010519192812/http://toybox.infomagic.com/~world/"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19980122023834/http://world.clara.net/"
         }
       ],
       "hosts": [
@@ -4638,6 +4647,7 @@
           "url": "master@temple2k.org"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.temple2k.org"
         }
@@ -4657,10 +4667,21 @@
     },
     {
       "name": "The Manor",
+      "description": "The Manor is this great place enshrouded in a deep, strong, thick forest of trees... a place your friends brought you... down a twisting scenic brick trail which leads to a large semi medieval manor with aged paint and weathered bricks. Inside a comfortably muted atmosphere with sparse yet perfect natural lighting, and a large fireplace for night gatherings.<br>No electricity, no TV, no source for 'unpleasant' real life intrusion. The Manor is a scenic hideaway with aged rooms furnished with large overstuffed couches, tables that have settings for coffee or tea for the chatting acquaintances who reside in comfort, and happiness.",
+      "yearOpened": 1997,
+      "yearClosed": 2015,
       "dataOrigins": ["spodlist"],
       "location": "UK",
       "codebase": "sensisummink",
       "ewtooAbbr": "manor",
+      "coders": [
+        "beN",
+        "furry",
+        "lacrimosa"
+      ],
+      "admins": [
+        "ravyn"
+      ],
       "screencaps": [
         "login/themanor.org_4242.png"
       ],
@@ -4668,6 +4689,10 @@
         {
           "type": "website",
           "url": "http://www.themanor.org"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010401111345/http://themanor.org/"
         }
       ],
       "hosts": [
@@ -4735,8 +4760,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.euts.org/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20030928210715/http://www.euts.org/"
         },
         {
           "type": "wayback",
@@ -4827,6 +4852,7 @@
     {
       "name": "Mars Base Alpha 4",
       "aka": [
+        "Alpha 4",
         "MBA4"
       ],
       "codebase": "custom",
@@ -4857,8 +4883,8 @@
           "url": "https://web.archive.org/web/20240920095409/http://mba4.org/index.html"
         },
         {
-          "type": "website",
-          "url": "http://mba4.org/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20241102022407/http://mba4.org/"
         },
         {
           "type": "wayback",
@@ -4919,10 +4945,6 @@
         {
           "type": "email",
           "url": "emerald@emisle.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.emisle.com"
         }
       ],
       "screencaps": [
@@ -5094,6 +5116,7 @@
     },
     {
       "name": "Selva Virtual",
+      "group": "selva",
       "description": "O primeiro e ainda existente Mundo Virtual Português...",
       "language": "Portuguese",
       "codebase": "mamnuts",
@@ -7364,6 +7387,17 @@
       ]
     },
     {
+      "name": "TiLT",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ewtoo.org",
+          "port": 6667
+        }
+      ]
+    },
+    {
       "name": "Under the Canopy",
       "dataOrigins": ["maddhouse", "talkernet"],
       "codebase": "ncohafmuta",
@@ -9473,6 +9507,7 @@
       "aka": [
         "DM"
       ],
+      "yearOpened": 1997,
       "description": "WELCOME to a place of peace in the center of the universe. In every direction, you see portals to other dimensions...<br> Some lead to the future, some to the past, some to other existences. You may stand at a portal and watch the world pass by...<br>Or you may sit and visit with others while time and the universe continue around you...",
       "disambiguation": "Not to be confused with <a href=\"/details/dimensions-mux\" data-sveltekit-reload>Dimensions MUX</a>.",
       "dataOrigins": ["talkers.ws", "homepage"],
@@ -9484,8 +9519,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://dm.trica.com"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20070605233109/http://dm.trica.com/"
         }
       ],
       "hosts": [
@@ -9614,6 +9649,7 @@
           "url": "https://web.archive.org/web/20000816194207/http://rivendel.com/~ric/talkers/dl/dlair.html"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.angelfire.com/mt/DragonsLair"
         }
@@ -9830,6 +9866,7 @@
       "dataOrigins": ["maddhouse"],
       "resources": [
 	      {
+		      "broken": true,
 		      "type": "website",
 		      "url": "http://evillage.signwave.com/"
 	      }
@@ -12756,6 +12793,317 @@
       ]
     },
     {
+      "name": "Avalon Mists",
+      "codebase": "amnuts",
+      "aka": [
+        "Alice in Avalon"
+      ],
+      "admins": [
+        "CrazyChick"
+      ],
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011204204456/http://www.jasc.net/avalon/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.jasc.net",
+          "port": 6900
+        }
+      ]
+    },
+    {
+      "name": "Allisonia",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkfantastic.net",
+          "port": 3030
+        }
+      ]
+    },
+    {
+      "name": "Clepto's Castle",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cleptoscastle.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Shangrila",
+      "admins": [
+        "Caron"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.jasc.net",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Coder's Paradise",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tdf.ca",
+          "port": 6669
+        }
+      ]
+    },
+    {
+      "name": "Dark Dreams",
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "ageRestriction": "18+",
+      "codebase": "amnuts",
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020810205443/http://dreams.dune.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dreams.dune.net",
+          "port": 9696
+        }
+      ]
+    },
+    {
+      "name": "Cybermanhattan",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.dhs.org",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "Creepy Castle",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 2468
+        }
+      ]
+    },
+    {
+      "name": "Coyote Ugly",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 6886
+        }
+      ]
+    },
+    {
+      "name": "Elenia",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ewtoo.org",
+          "port": 4444
+        }
+      ]
+    },
+    {
+      "name": "Eternity",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ewtoo.org",
+          "port": 5559
+        }
+      ]
+    },
+    {
+      "name": "Generation XXX",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ods.org",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "Outlaw Canyon",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "link.idlegames.com",
+          "port": 7111
+        }
+      ]
+    },
+    {
+      "name": "Napstuff",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tangent.dune.net",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Ponder",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ponder.idlegames.com",
+          "port": 5678
+        }
+      ]
+    },
+    {
+      "name": "Sci Fi World",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "scifi.rtbm.net",
+          "port": 1701
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "iae.nsk.su",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Taj Mahal",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "login.tmahal.com",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "Tethys",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ewtoo.org",
+          "port": 3333
+        }
+      ]
+    },
+    {
+      "name": "The Edge of Darkness",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "edge.ofdarkness.net",
+          "port": 2001
+        }
+      ]
+    },
+    {
+      "name": "Thebes",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "funcity.org",
+          "port": 9000
+        }
+      ]
+    },
+    {
+      "name": "The Talker of Matti",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "matti.talker.ee",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Selva II",
+      "dataOrigins": ["talkers.ws"],
+      "language": "Portuguese",
+      "group": "selva",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "alumni.dee.uc.pt",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Smack Down Hotel",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "subnigra.com",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Teranet",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tera.dune.net",
+          "port": 9111
+        }
+      ]
+    },
+    {
+      "name": "Teranet",
+      "dataOrigins": ["talkers.ws"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "tera.dune.net",
+          "port": 9111
+        }
+      ]
+    },
+    {
       "name": "The Family",
       "dataOrigins": ["maddhouse"],
       "hosts": [
@@ -14761,6 +15109,9 @@
     },
     {
       "name": "Ri-Ra The Talker",
+      "aka": [
+        "RiRa"
+      ],
       "dataOrigins": ["doughnuts"],
       "hosts": [
         {
@@ -15272,6 +15623,9 @@
     },
     {
       "name": "A Pallid Moon",
+      "aka": [
+        "A Pallid Moonlight"
+      ],
       "dataOrigins": ["spodlist"],
       "hosts": [
         {
@@ -16127,6 +16481,11 @@
         {
           "blocked": true,
           "hostname": "172.16.1.240",
+          "port": 4321
+        },
+        {
+          "blocked": true,
+          "hostname": "193.128.134.29",
           "port": 4321
         }
       ]
