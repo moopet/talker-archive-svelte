@@ -7,7 +7,7 @@
     <a href={resource.url}><img src={resource.url} alt={resource.alt} /></a>
   {:else}
     {#if resource.broken}
-      <a class="broken-link" title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
+      <a disabled title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
     {:else}
       <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
     {/if}
@@ -34,9 +34,9 @@ span {
   font-size: 0.9rem;
 }
 
-.broken-link {
+[disabled] {
   text-decoration: line-through;
-  color: var(--color-inactive);
+  opacity: 0.5;
 }
 </style>
 

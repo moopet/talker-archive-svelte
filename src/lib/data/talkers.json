@@ -6117,6 +6117,12 @@
     {
       "name": "General Hospital",
       "dataOrigins": ["kesey"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981206165111/http://www.talker.com/toontown/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8045,29 +8051,6 @@
       ]
     },
     {
-      "name": "The Slopes",
-      "dataOrigins": ["rosen", "maddhouse"],
-      "resources": [
-        {
-          "broken": true,
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010304125315/http://www.fortnet.org/~zenki/"
-        },
-        {
-          "broken": true,
-          "type": "website",
-          "url": "http://www1.mhv.net/~laws/"
-        }
-      ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "slopes.mhv.net",
-          "port": 3000
-        }
-      ]
-    },
-    {
       "name": "Snowcrash",
       "dataOrigins": ["rosen"],
       "admins": [
@@ -8263,28 +8246,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/hideaway.htm"
-        }
-      ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "lintilla.df.lth.se",
-          "port": 4020
-        }
-      ]
-    },
-    {
-      "name": "Fantasia Hideaway",
-      "coders": [
-        "Tick"
-      ],
-      "ageRestriction": "18+",
-      "dataOrigins": ["maddhouse"],
-      "multiWorld": "fantasia",
-      "resources": [
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/carnal.htm"
         }
       ],
       "hosts": [
@@ -10813,6 +10774,7 @@
       "description": "Based on the TV program Red Dwarf",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.rdw.org.uk"
         }
@@ -12061,6 +12023,7 @@
       "dataOrigins": ["talker.com"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://home.megalinx.net/~animal/"
         },
@@ -12162,6 +12125,7 @@
       "dataOrigins": ["talker.com"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://talker.com/avalon"
         },
@@ -12435,6 +12399,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.electronic.co.uk/~segtor/"
         }
@@ -12452,6 +12417,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://spyvsspy.dhs.org"
         }
@@ -12527,6 +12493,7 @@
           "url": "https://web.archive.org/web/20001209094000/http://talk.to/TheTalker"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.thetalker.org"
         }
@@ -12590,8 +12557,8 @@
       "ageRestriction": "18+",
       "resources": [
         {
-          "type": "website",
-          "url": "https://candylandtalker.org/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20250415142516/https://www.candylandtalker.org/"
         },
         {
           "type": "email",
@@ -12704,6 +12671,7 @@
           "url": "https://web.archive.org/web/20010428095824/http://www.geocities.com/SouthBeach/Boardwalk/8359/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/dreams"
         }
@@ -12726,6 +12694,7 @@
           "url": "sarwat@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/crimsondawn"
         }
@@ -12771,10 +12740,12 @@
           "url": "duck@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/cybercity"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.wild.net/~deo/cybercity.phtml"
         }
@@ -13251,10 +13222,6 @@
         {
           "type": "email",
           "url": "hideaway@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/"
         }
       ],
       "hosts": [
@@ -13410,8 +13377,8 @@
           "url": "jungle@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/jungle"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990202095956/http://www.talker.com/jungle/"
         }
       ],
       "hosts": [
@@ -13486,47 +13453,21 @@
       ]
     },
     {
-      "name": "Mountain Ranch",
-      "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
-      "ageRestriction": "18+",
-      "dataOrigins": ["talker.com", "maddhouse"],
-      "codebase": "nuts",
-      "resources": [
-        {
-          "type": "email",
-          "url": "ranch@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/mountainranch"
-        }
-      ],
-      "hosts": [
-        {
-          "blocked": true,
-          "hostname": "talker.com",
-          "port": 5013
-        },
-        {
-          "blocked": true,
-          "hostname": "ncohafmuta.com",
-          "port": 5013
-        }
-      ]
-    },
-    {
       "name": "The Movie Megaplex",
       "description": "The Movie Megaplex is a relaxing atmosphere to, well, relax! :) All decent topics are welcome, keeping in mind that we are a talker, not a mud, mush, or anything of that sort.",
       "dataOrigins": ["talker.com"],
       "codebase": "ncohafmuta",
+      "admins": [
+        "Devilgirl"
+      ],
       "resources": [
         {
           "type": "email",
           "url": "devil@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/devil"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010628020211/http://www.talker.com/devil/"
         }
       ],
       "hosts": [
@@ -13646,6 +13587,7 @@
           "url": "furpaws@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/panpipes"
         }
@@ -13678,16 +13620,17 @@
           "url": "sd@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://pdisland.eni.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990208005745/http://pdisland.eni.net/"
         },
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20091027054451/http://geocities.com/TheTropics/4389/"
+        },
+        {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/paradiseisland"
-        },
-        {
-          "type": "website",
-          "url": "http://www.geocities.com/TheTropics/4389/"
         }
       ],
       "hosts": [
@@ -13710,19 +13653,16 @@
     },
     {
       "name": "Paris By Night",
-      "description": "-=[Paris By Night]=- Who Never Dreamed of Visiting Paris, The Most Romantic City in the World?  You Are Looking For A Romantic Place?  You Are Looking For A Funny Place?  Come On Paris By Night, Chat in The Louvre, Meet In The Eiffel Tower, Have Fun in The Hotel… We Are All Waiting For You!  -=[Paris By Night]=- Main Port: 3210 Sysadmin(s): Arny & Spicey Who Port: 3212 Http:// www.talker.com/paris ",
+      "description": "Who Never Dreamed of Visiting Paris, The Most Romantic City in the World?<br>You Are Looking For A Romantic Place?  You Are Looking For A Funny Place?  Come On Paris By Night, Chat in The Louvre, Meet In The Eiffel Tower, Have Fun in The Hotel…<br>We Are All Waiting For You!",
       "dataOrigins": ["talker.com", "talkernet"],
       "admins": [
-        "Arny"
+        "Arny",
+        "Spicey"
       ],
       "resources": [
         {
           "type": "email",
           "url": "paris@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/paris"
         },
         {
           "type": "wayback",
@@ -13760,6 +13700,7 @@
           "url": "partytim@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/partytim"
         }
@@ -13789,10 +13730,6 @@
         {
           "type": "email",
           "url": "philly@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/philadelphia"
         }
       ],
       "hosts": [
@@ -13810,14 +13747,16 @@
       "dataOrigins": ["talker.com", "maddhouse"],
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010304125315/http://www.bigfoot.com%5C%7Etalkers/"
+          "broken": true,
+          "type": "website",
+          "url": "http://www.bigfoot.com/%7Etalkers/"
         },
         {
           "type": "email",
           "url": "josh@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/reality"
         }
@@ -13872,10 +13811,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010429163928/http://rome.dune.net/"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/"
         }
       ],
       "hosts": [
@@ -13947,6 +13882,7 @@
           "url": "ddi@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/xanth"
         }
@@ -13984,16 +13920,13 @@
           "url": "utopia@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/SunsetStrip/4333"
-        },
-        {
-          "type": "website",
-          "url": "http://www.utopia.clara.net/"
-        },
-        {
           "type": "wayback",
           "url": "https://web.archive.org/web/19990429070918/http://www.geocities.com/SunsetStrip/4333"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.utopia.clara.net/"
         }
       ],
       "hosts": [
@@ -14025,6 +13958,7 @@
           "url": "music@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/urge"
         }
@@ -14109,6 +14043,7 @@
           "url": "toontown@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/toontown"
         }
@@ -14130,10 +14065,6 @@
         {
           "type": "email",
           "url": "vfib@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/"
         }
       ],
       "hosts": [
@@ -14206,8 +14137,8 @@
           "url": "typotown@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/typotown"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20050427094250/http://www.talker.com/typotown/"
         }
       ],
       "hosts": [
@@ -14236,6 +14167,7 @@
           "url": "tycorn@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/tysonscorners"
         }
@@ -14309,6 +14241,7 @@
           "url": "shadow@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/whodonit"
         }
@@ -15319,13 +15252,31 @@
     {
       "name": "Sterling's Mountain Ranch",
       "slug": "sterling-mountain-ranch",
+      "description": "A BDSM talker for those who areserious about their D/s lifestyles. Come and make your fantasies and dreams come true with us!",
       "multiWorld": "sterling",
       "ageRestriction": "18+",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["talker.com", "maddhouse"],
+      "codebase": "nuts",
+      "resources": [
+        {
+          "type": "email",
+          "url": "ranch@talker.com"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.talker.com/mountainranch"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.245.154.72",
+          "hostname": "talker.com",
+          "port": 5013
+        },
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
           "port": 5013
         }
       ]
@@ -15558,6 +15509,13 @@
     {
       "name": "Yuss",
       "dataOrigins": ["doughnuts"],
+      "resources": [
+        {
+          "broken": true,
+          "type": "website",
+          "url": "https://rdw.org.uk/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -16975,11 +16933,6 @@
           "blocked": true,
           "hostname": "cronus.oanet.com",
           "port": 4321
-        },
-        {
-          "blocked": true,
-          "hostname": "moomin.cs.ut.ee",
-          "port": 2010
         }
       ]
     },
@@ -17438,8 +17391,8 @@
       "dataOrigins": ["nick"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://genesis.skl.com/~walt/walt.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970502131131/http://genesis.skl.com/~walt/walt.html"
         }
       ],
       "hosts": [
@@ -17568,8 +17521,8 @@
       "dataOrigins": [""],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.ogham.demon.co.uk/nuts.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20200307221800/http://www.ogham.demon.co.uk/nuts.html"
         }
       ]
     },
@@ -17597,8 +17550,8 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.geocities.com/Hollywood/Set/9587/boi.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20000520062001/http://www.geocities.com/Hollywood/Set/9587/boi.html"
         }
       ],
       "hosts": [
@@ -17619,6 +17572,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://patriot.net/~siglite/slide.html"
         }
@@ -17827,8 +17781,8 @@
       "dataOrigins": [""],
       "resources": [
         {
-          "type": "website",
-          "url": "http://deater.net/weave/index.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20250524090255/https://www.deater.net/weave/index.html"
         }
       ],
       "hosts": [
@@ -17936,6 +17890,7 @@
       "name": "The Dark Abyss",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://thedarkabyss.org"
         }
@@ -17955,6 +17910,7 @@
       "location": "UK",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://webpages.marshall.edu/~blair9/dlt.html"
         }
@@ -17985,12 +17941,22 @@
     },
     {
       "name": "The DarkSide of Nothing",
+      "description": "DarkSide of NOthing is the place you have been looking for. We here at NOthing offer you a littany of commands, as a typical \"Chronic-Spod\". This is a place where you can meet people from all over the globe, searching for either intelligent conversation, or just to take a break from reality and have fun. Whatever way you decide to use this talker, is entirely your choice, although you MUST follow this one rule, which is by the way STRONGLY enforced, enjoy yourself!!",
       "disambiguation": "Not to be confused with <a href=\"/details/darkside\" data-sveltekit-reload>Darkside</a>.",
       "location": "Canada",
+      "admins": [
+        "DrowningFish",
+        "Snooze",
+        "FlaVor",
+        "Kain"
+      ],
+      "coders": [
+        "Kain"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://talkers.skl.com/~dfish99/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970331175324/http://talkers.skl.com/~dfish99/"
         }
       ],
       "hosts": [
@@ -18026,8 +17992,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.maddhouse.com/maddhouse.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001018195750/http://www.maddhouse.com/maddhouse.html"
         }
       ],
       "hosts": [
@@ -18067,8 +18033,8 @@
       "location": "Canada",
       "resources": [
         {
-          "type": "website",
-          "url": "http://talkers.skl.com/~dream/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970413225516/http://talkers.skl.com/~dream/"
         }
       ],
       "hosts": [
@@ -18133,8 +18099,8 @@
       "codebase": "ewtoo",
       "resources": [
         {
-          "type": "website",
-          "url": "http://genesis.skl.com/~orchid/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970415095528/http://genesis.skl.com/~orchid/"
         }
       ],
       "hosts": [
@@ -18184,8 +18150,8 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.skl.com/~embers/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990224083401/http://www.skl.com/%7Eembers/noframes/main.html"
         }
       ],
       "hosts": [
@@ -18255,6 +18221,7 @@
       "location": "UK",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://gstv.gsu.edu/~chrish/grange/"
         }
@@ -18546,7 +18513,7 @@
     },
     {
       "name": "The Looney Bin",
-      "slug": "looney-bin",
+      "slug": "the-looney-bin",
       "disambiguation": "Not to be confused with <a href=\"/details/looney-bin\" data-sveltekit-reload>Looney Bin</a>.",
       "hosts": [
         {
@@ -18560,10 +18527,15 @@
     {
       "name": "Looney Tunes",
       "location": "USA",
+      "codebase": "pg96",
+      "admins": [
+        "Tweety",
+        "Keet"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.geocities.com/Hollywood/Set/1820/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010519203130/http://www.geocities.com/Hollywood/Set/1820/"
         }
       ],
       "hosts": [
@@ -18592,6 +18564,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://local.uaa.alaska.edu/~asjlg7/mainstrt/"
         }
@@ -18610,6 +18583,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://genesis.skl.com/~puzzle/"
         }
@@ -18652,6 +18626,7 @@
           "url": "https://web.archive.org/web/19971221105337/http://moomin.wcfauna.ee/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.cs.ut.ee/~helger/muumi/"
         }
@@ -18685,6 +18660,7 @@
       "location": "Sweden",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://simba.uppbro.se/~nemesis/"
         }
@@ -18714,6 +18690,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://lightspeed.csh.rit.edu/~necro/"
         }
@@ -18731,10 +18708,6 @@
       "name": "Neo Chat",
       "location": "USA",
       "resources": [
-        {
-          "type": "website",
-          "url": "http://www.geopages.com/broadway/2040/"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010726110053/http://www.geocities.com/TimesSquare/2708/"
@@ -18754,8 +18727,8 @@
       "location": "Canada",
       "resources": [
         {
-          "type": "website",
-          "url": "http://talkers.skl.com/~nirvana/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19980109122410/http://talkers.skl.com/~nirvana/"
         }
       ],
       "hosts": [
@@ -18782,12 +18755,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.mudservices.com/~oasis/"
-        },
-        {
-          "type": "website",
-          "url": "http://oasis.mudservices.com/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970622171710/http://www.oasis.mudservices.com/"
         }
       ],
       "hosts": [
@@ -18835,6 +18804,7 @@
       "location": "UK",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://obs.netkonect.com/"
         }
@@ -18859,6 +18829,7 @@
       "location": "UK",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://bungle.spods.dcs.kcl.ac.uk/~olyweb/"
         }
@@ -18917,6 +18888,7 @@
       "name": "Pale Moon",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/palemoon"
         }
@@ -18946,10 +18918,21 @@
       "name": "Paradise",
       "disambiguation": "Not to be confused with <a href=\"/details/paradise-island\" data-sveltekit-reload>Paradise Island</a>.",
       "location": "USA",
+      "yearOpened": 1996,
+      "codebase": "ewtoo",
+      "coders": [
+        "choccy",
+        "Polsy"
+      ],
+      "admins": [
+        "choccy",
+        "Polsy",
+        "ShaZZer"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://paradise.spodnet.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990204033520/http://www.paradise.spodnet.org/"
         }
       ],
       "hosts": [
@@ -18981,6 +18964,7 @@
       "location": "Zaire",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.geocities.com/SiliconValley/3304/"
         }
@@ -19087,10 +19071,12 @@
       "location": "",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://kite.fcgnet.com/~reality/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://turnpike.net/metro/wolffman/rb.html"
         }
@@ -19126,6 +19112,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://safari.megalinx.net/~safari/"
         }
@@ -19149,6 +19136,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://bankswith.apollotrust.com/ps.html/"
         }
@@ -19167,6 +19155,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.netheaven.com/~hcprobst/brian/shogun.htm"
         }
@@ -19259,6 +19248,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://home.megalinx.net/~starship/"
         }
@@ -19301,6 +19291,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.isync.net/~almnahal/home.html"
         }
@@ -19353,6 +19344,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://134.241.143.4/"
         }
@@ -19389,6 +19381,7 @@
       "name": "University",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.virtual-cafe.com/~uni/"
         }
@@ -19438,6 +19431,7 @@
       "location": "",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://benland.muc.edu/~void/"
         }
@@ -19456,6 +19450,7 @@
       "location": "UK",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://asimov.fievel.co.uk/~warp/warp.html"
         }
@@ -19494,12 +19489,13 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.ntrek.com/~clef/zoo.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990222095417/http://www.thezoo.org/vz/"
         },
         {
+          "broken": true,
           "type": "website",
-          "url": "http://www.thezoo.org"
+          "url": "http://www.ntrek.com/~clef/zoo.html"
         }
       ],
       "hosts": [
@@ -19532,6 +19528,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.xmission.com/~ballpark/"
         }
@@ -19595,12 +19592,6 @@
     {
       "name": "Carrier Direct",
       "dataOrigins": [ "maddhouse" ],
-      "resources": [
-        {
-          "type": "website",
-          "url": ""
-        }
-      ],
       "hosts": [
         {
           "blocked": true,
@@ -19613,10 +19604,13 @@
       "name": "The Candy Store",
       "dataOrigins": [ "maddhouse" ],
       "codebase": "amnuts",
+      "admins": [
+        "Nemmy"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://candystore.dune.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991111120113/http://candystore.dune.net/"
         }
       ],
       "hosts": [
@@ -19660,8 +19654,8 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.ecpi.com/~vijay/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010515183529/http://ecpi.com/~vijay/"
         }
       ],
       "hosts": [
@@ -19793,6 +19787,7 @@
       "location": "USA",
       "resources": [
 	      {
+		      "broken": true,
 		      "type": "website",
 	      "url": "http://europa.cs.mun.ca/~sonya1/forum.html"
 	      }
@@ -19807,6 +19802,7 @@
     },
     {
       "name": "Hatfield Plaza",
+      "yearClosed": 1996,
       "dataOrigins": [ "greatbiglist" ],
       "location": "UK",
       "codebase": "tnet",
@@ -19818,12 +19814,8 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://homepages.enterprise.net/dodgy/"
-        },
-        {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010215004713/http://www.strath.ac.uk/~cadp59/hp/"
+          "url": "https://web.archive.org/web/19990224211335/http://homepages.enterprise.net/dodgy/"
         }
       ],
       "hosts": [
@@ -19912,10 +19904,12 @@
       "location": "Sweden",
       "resources": [
 	      {
+		      "broken": true,
 		      "type": "wayback",
-          "url": "https://web.archive.org/web/20010215004713/http://highlands.ml.org/"
+          "url": "http://highlands.ml.org/"
 	      },
 	      {
+		      "broken": true,
 		      "type": "website",
           "url": "http://www.dalnet.se/~mulder/highlands/"
 	      }
@@ -19947,7 +19941,7 @@
       "location": "USA",
       "resources": [
 	      {
-		      "type": "website",
+		      "type": "wayback",
           "url": "https://web.archive.org/web/19970724003937/http://www.wonderd.com/hella/"
 	      }
       ],
@@ -19975,6 +19969,7 @@
       "location": "USA",
       "resources": [
 	      {
+		      "broken": true,
 		      "type": "website",
       "url": "http://www2.brecknet.com/cosmos/"
 	      }
@@ -20002,6 +19997,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.iron-rose.com"
         }
@@ -20024,6 +20020,7 @@
       "location": "Guam",
       "resources": [
 	      {
+	        "broken": true,
 	        "type": "website",
 	        "url": "http://huego.guam.net/Evolution"
 	      }
@@ -20048,16 +20045,18 @@
       "codebase": "iforms",
       "resources": [
 	      {
+	        "type": "wayback",
+	        "url": "https://web.archive.org/web/20010303110404/http://cafe.guam.net/"
+	      },
+	      {
+		      "broken": true,
 		      "type": "website",
           "url": "http://www.guam.net/home/bhshaw2/"
 	      },
 	      {
+		      "broken": true,
 		      "type": "website",
           "url": "http://huego.guam.net/cafe2000"
-	      },
-	      {
-	        "type": "wayback",
-	        "url": "https://web.archive.org/web/20010303110404/http://cafe.guam.net/"
 	      }
       ],
       "hosts": [
@@ -20083,6 +20082,7 @@
       "location": "USA",
       "resources": [
 	      {
+		      "broken": true,
 		      "type": "website",
       "url": "http://talkermud.com/~milenium/"
 	      }
@@ -20493,10 +20493,6 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.geocities.com/SiliconValley/9737/"
-        },
-        {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://promised-land.2y.net/"
         }
@@ -20525,6 +20521,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://irc.netdoor.com/~jazzin/"
         }
@@ -20582,10 +20579,6 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010304125315/http://www.brunel.ac.uk/~hs95jem/qvhome/"
-        },
-        {
-          "type": "website",
-          "url": "http://members.tripod.com/~RCJ/"
         }
       ],
       "hosts": [
@@ -20630,6 +20623,7 @@
       "location": "Netherlands",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://sincity.signwave.com/~tangent/"
         }
@@ -20648,8 +20642,8 @@
       ]
     },
     {
-      "name": "Slopes",
-      "dataOrigins": [ "greatbiglist" ],
+      "name": "The Slopes",
+      "dataOrigins": ["rosen", "maddhouse", "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
         "Skiing"
@@ -20657,6 +20651,12 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
+          "type": "website",
+          "url": "http://www1.mhv.net/~laws/"
+        },
+        {
+          "broken": true,
           "type": "website",
           "url": "http://www.fortnet.org/~zenki/"
         }
@@ -20781,6 +20781,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.wpe.com/"
         }
@@ -20921,8 +20922,8 @@
       "location": "USA",
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.crown.net/~sweeper/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990202203232/http://pfunk.crown.net/%7Esweeper/"
         }
       ],
       "hosts": [
@@ -20960,6 +20961,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://backstage.apocyber.net/"
         }
