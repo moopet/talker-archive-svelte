@@ -2741,7 +2741,7 @@
       ]
     },
     {
-      "name": "Cheeseplants House",
+      "name": "Cheeseplant's House",
       "aka": [
         "Cheesehouse"
       ],
@@ -2756,6 +2756,16 @@
           "type": "Fandom entry",
           "name": "Cheeseplant's House",
           "url": "https://muds.fandom.com/wiki/Cheeseplant%27s_House"
+        },
+        {
+          "type": "Academic entry",
+          "name": "Cheeseplant's House",
+          "url": "https://en-academic.com/dic.nsf/enwiki/11524808"
+        },
+        {
+          "type": "Academic entry",
+          "name": "Cheesehouse",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1530448"
         }
       ],
       "hosts": [
@@ -2871,6 +2881,11 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000831050139/http://www.onlinemagic.com/~jonathan/foothills/"
+        },
+        {
+          "type": "Academic entry",
+          "name": "Foothills (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1530469"
         },
         {
           "type": "wayback",
@@ -3036,7 +3051,8 @@
           "url": "https://web.archive.org/web/20080509074004/http://dracosia.dune.net/"
         },
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Dracosia",
           "url": "https://en-academic.com/dic.nsf/enwiki/2996039"
         }
       ],
@@ -4242,11 +4258,17 @@
         },
         {
           "type": "website",
+          "url": "http://www.resort.org"
+        },
+        {
+          "broken": true,
+          "type": "website",
           "url": "http://ulibnet.mtsu.edu/~afoxson/resort"
         },
         {
-          "type": "website",
-          "url": "http://www.resort.org"
+          "type": "Academic entry",
+          "name": "The Resort (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/7571051"
         },
         {
           "type": "Facebook community",
@@ -4330,6 +4352,11 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/19980222075846/http://surfers.org/"
+        },
+        {
+          "type": "Academic entry",
+          "name": "Surfers (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1530514"
         },
         {
           "type": "wayback",
@@ -4686,10 +4713,6 @@
         "login/themanor.org_4242.png"
       ],
       "resources": [
-        {
-          "type": "website",
-          "url": "http://www.themanor.org"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010401111345/http://themanor.org/"
@@ -16199,6 +16222,11 @@
         {
           "type": "website",
           "url": "http://www.talker.com/syrius"
+        },
+        {
+          "type": "Academic entry",
+          "name": "Crystal Palace (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1527078"
         }
       ],
       "hosts": [
