@@ -5787,7 +5787,11 @@
       ],
       "codebase": "pgplus",
       "screencaps": [
-        "login/uberworld.org_2020.png"
+        "login/uberworld.org_2020.png",
+        "maps/uberworld.map.png"
+      ],
+      "textcaps": [
+        "maps/uberworld.map.txt"
       ],
       "resources": [
         {
