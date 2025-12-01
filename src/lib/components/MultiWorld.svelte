@@ -10,8 +10,11 @@
 </script>
 
 <section>
-  {#if multiWorld.description}
+  {#if multiWorld.name}
     <h2>{multiWorld.name}</h2>
+  {/if}
+
+  {#if multiWorld.description}
     <p>
       {@html multiWorld.description}
 
@@ -19,9 +22,16 @@
         (<a href={multiWorld.url}>read more&hellip;</a>)
       {/if}
     </p>
+  {:else}
+    {#if multiWorld.url}
+      <p>
+        This talker is part of a "multiple-worlds" group.
+        (<a href={multiWorld.url}>read more&hellip;</a>)
+      </p>
+    {/if}
   {/if}
 
-  <h3>Talkers in the "{multiWorld.name}" group</h3>
+  <h3>Talkers in the "{multiWorld.name}" multi-world group</h3>
 
   <table>
     <thead>

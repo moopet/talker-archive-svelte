@@ -10955,6 +10955,19 @@
       "multiWorld": "syrius",
       "ageRestriction": "18+",
       "dataOrigins": ["kesey", "maddhouse"],
+      "admins": [
+        "Rhianna",
+        "Virus"
+      ],
+      "coders": [
+        "Virus"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990427105430/http://www.talker.com/syrius/selene.html"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -16290,6 +16303,7 @@
       "multiWorld": "syrius",
       "ageRestriction": "18+",
       "admins": [
+        "Chase",
         "Sydb",
         "Virus"
       ],
