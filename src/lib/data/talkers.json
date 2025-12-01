@@ -159,6 +159,11 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "telnet",
+      "name": "TelNet servers list",
+      "link": "https://thedubber.altervista.org/other/telnetlist.htm"
+    },
+    {
       "shortName": "horne",
       "name": "Timothy Horne's talker list",
       "link": "http://www.bucknell.edu/~horne/sub/talkers.html"
@@ -1082,6 +1087,30 @@
       ]
     },
     {
+      "name": "Edge of Twilight",
+      "dataOrigins": ["telnet"],
+      "coders": [
+        "Johann"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://edgeoftwilight.net"
+        },
+        {
+          "type": "website",
+          "url": "https://www.angelfire.com/ny/Briata/EOT.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "edgeoftwilight.net",
+          "port": 2005
+        }
+      ]
+    },
+    {
       "name": "Bag End",
       "dataOrigins": ["spodlist"],
       "screencaps": [
@@ -1998,6 +2027,7 @@
     },
     {
       "name": "The Caves",
+      "codebase": "ztalker",
       "slug": "the-caves",
       "disambiguation": "Not to be confused with <a href=\"/details/caves\" data-sveltekit-reload>Caves</a>.",
       "admins": [
@@ -2006,12 +2036,27 @@
       ],
       "location": "Norway",
       "dataOrigins": ["greatbiglist"],
-      "codebase": "ztalker",
       "hosts": [
         {
           "blocked": true,
           "hostname": "louise.netpower.no",
           "port": 3279
+        },
+        {
+          "blocked": true,
+          "hostname": "ztalker.homelinux.com",
+          "port": 3279
+        }
+      ]
+    },
+    {
+      "name": "Wizard's Castle",
+      "codebase": "ztalker",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ztalker.homelinux.com",
+          "port": 3277
         }
       ]
     },
@@ -2668,6 +2713,11 @@
           "icon": "Facebook",
           "name": "Revival Talker",
           "url": "https://www.facebook.com/groups/revivaltalker"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.revival.talkerhome.com"
         },
         {
           "broken": true,
@@ -4757,13 +4807,15 @@
     {
       "name": "TrueFriends",
       "dataOrigins": ["spodlist"],
+      "group": "redclaw",
+      "yearOpened": 2001,
       "screencaps": [
         "login/truefriends.org.uk_3000.png"
       ],
       "resources": [
         {
           "type": "wayback",
-          "url": "http://www.truefriends.org.uk/"
+          "url": "https://web.archive.org/web/20050207193521/http://truefriends.org.uk/"
         }
       ],
       "hosts": [
@@ -5006,6 +5058,12 @@
     },
     {
       "name": "Cuban Bar",
+      "description": "The Cuban Bar is a telnet chat server created in 1995 at the University of Nijmegen by Patrick Hochstenbach (aka Fidel).<br>The service has been up and running, with some gaps, since this date.",
+      "yearOpened": 1995,
+      "codebase": "nuts",
+      "admins": [
+        "Fidel"
+      ],
       "screencaps": [
         "login/cubanbar.hochstenbach.net_1234.png"
       ],
@@ -15068,6 +15126,11 @@
           "blocked": true,
           "hostname": "ztalker.netpower.no",
           "port": 3280
+        },
+        {
+          "blocked": true,
+          "hostname": "ztalker.homelinux.com",
+          "port": 5000
         }
       ]
     },
@@ -15101,6 +15164,11 @@
         {
           "blocked": true,
           "hostname": "ztalker.netpower.no",
+          "port": 3278
+        },
+        {
+          "blocked": true,
+          "hostname": "ztalker.homelinux.com",
           "port": 3278
         }
       ]
@@ -16783,8 +16851,9 @@
       ]
     },
     {
-      "name": "Red Claw",
+      "name": "RedClaw",
       "ewtooAbbr": "redclaw",
+      "group": "redclaw",
       "dataOrigins": ["spodlist"],
       "hosts": [
         {
@@ -16940,7 +17009,16 @@
     },
     {
       "name": "Trekker's Rest",
+      "yearOpened": 2000,
       "dataOrigins": ["spodlist", "homepage"],
+      "group": "redclaw",
+      "coders": [
+        "Lokie"
+      ],
+      "admins": [
+        "Jeffrey",
+        "Barney"
+      ],
       "codebase": "pgplus",
       "resources": [
         {
