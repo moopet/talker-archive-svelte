@@ -521,7 +521,8 @@
     },
     {
       "shortName": "syrius",
-      "name": "Worlds of Syrius"
+      "name": "Worlds of Syrius",
+      "url": "https://web.archive.org/web/20001013013903/http://talker.com/syrius/informat.htm"
     },
     {
       "shortName": "illusions",
@@ -5674,7 +5675,7 @@
           "url": "https://web.archive.org/web/19980204224457fw_/http://tg.spods.dcs.kcl.ac.uk/index.html"
         },
         {
-          "type": "website",
+          "type": "wayback",
           "url": "https://web.archive.org/web/19990224031531/https://www.gathering.org.uk/"
         },
         {
@@ -5712,6 +5713,7 @@
     },
     {
       "name": "Uberworld",
+      "yearOpened": 1996,
       "location": "Netherlands",
       "ewtooAbbr": "uber",
       "admins": [
@@ -5721,7 +5723,7 @@
       "coders": [
         "Silver"
       ],
-      "codebase": "ewtoo",
+      "codebase": "pgplus",
       "screencaps": [
         "login/uberworld.org_2020.png"
       ],
@@ -11951,16 +11953,17 @@
           "url": "Romance@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/romance"
-        },
-        {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010428075947/http://www.geocities.com/Paris/Metro/5884/"
         },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010502164655/http://users.nac.net/sadi/romance.htm"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.talker.com/romance"
         }
       ],
       "hosts": [
@@ -13531,6 +13534,7 @@
           "url": "Kaosinxs@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/kaos"
         }
@@ -13876,6 +13880,7 @@
           "url": "richard@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/realm"
         }
@@ -14194,6 +14199,7 @@
           "url": "https://web.archive.org/web/19991005222223/http://www.geocities.com/TheTropics/6851/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/tropics"
         }
@@ -16146,10 +16152,6 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://lintilla.df.lth.se/~ipkiss/"
-        },
-        {
           "type": "Academic entry",
           "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
@@ -16288,6 +16290,7 @@
       "multiWorld": "syrius",
       "ageRestriction": "18+",
       "admins": [
+        "Sydb",
         "Virus"
       ],
       "coders": [
@@ -16313,8 +16316,8 @@
           "url": "syrius@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/syrius"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001018092956/http://www.talker.com/syrius/palace.html"
         },
         {
           "type": "Academic entry",
@@ -16339,10 +16342,12 @@
       "dataOrigins": ["spodlist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://dotuk.org.uk/~dotuk"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://bungle.spods.dcs.kcl.ac.uk/~dotuk"
         }
