@@ -251,6 +251,11 @@
       "link": "http://talker.com/members.html"
     },
     {
+      "shortName": "wildwest",
+      "name": "the Talker Central list",
+      "link": "http://cswnet.com/~wildwest/talkers.cgi"
+    },
+    {
       "shortName": "mudlist",
       "name": "Geoffrey Allen's talker list",
       "link": "http://mudlist.geoffrey-allen.com/talkers/alpha.html"
@@ -1035,6 +1040,39 @@
           "blocked": true,
           "hostname": "dune.net",
           "port": 6050
+        }
+      ]
+    },
+    {
+      "name": "Grimm Talker",
+      "dataOrigins": ["wildwest"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dune.net",
+          "port": 3637
+        }
+      ]
+    },
+    {
+      "name": "Eastbay",
+      "dataOrigins": ["wildwest"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4100
+        }
+      ]
+    },
+    {
+      "name": "Flux",
+      "dataOrigins": ["wildwest"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "prot.upsu.plym.ac.uk",
+          "port": 23
         }
       ]
     },
@@ -3080,11 +3118,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3119,11 +3154,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3155,11 +3187,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3184,11 +3213,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3224,11 +3250,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3261,7 +3284,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3300,11 +3324,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3340,11 +3361,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3381,11 +3399,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3417,11 +3432,8 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
-        },
-        {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ],
@@ -3448,8 +3460,9 @@
       "codebase": "planes",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19991117033032/http://www.planes.org"
+          "type": "Academic entry",
+          "name": "Planes of Existence (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/10462751"
         }
       ]
     },
@@ -8112,6 +8125,7 @@
     },
     {
       "name": "Swantis",
+      "group": "swantis",
       "description": " The conception of Swantisland began as an inside joke between friend and I.<br>As the story goes, Swantisland is a small island off the east coast of Africa. It is a multi-cultural society devoid of all social diseases, including homophobia. Swantisland's flag is a rainbow and every Swantislandian is an immigrant. Swantisland is a happy, peaceful place, where nobody wants for anything. The population is low though!",
       "dataOrigins": ["rosen", "homepage"],
       "resources": [
@@ -8702,6 +8716,13 @@
       "ageRestriction": "18+",
       "multiWorld": "lintilla",
       "dataOrigins": ["rosen"],
+      "resources": [
+        {
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8715,6 +8736,13 @@
       "ageRestriction": "18+",
       "dataOrigins": ["rosen"],
       "multiWorld": "lintilla",
+      "resources": [
+        {
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -12812,7 +12840,13 @@
     },
     {
       "name": "Allisonia",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "homepage"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010723110745/http://allisonia.allhere.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -14308,12 +14342,14 @@
           "url": "wildwest@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/wildwest"
         },
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001209094000/http://www.cswnet.com/~wildwest/"
+          "broken": true,
+          "type": "website",
+          "url": "http://www.cswnet.com/~wildwest/"
         }
       ],
       "hosts": [
@@ -14336,6 +14372,7 @@
           "url": "writersb@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/writersb/"
         }
@@ -14353,18 +14390,22 @@
       "description": "This talker is based on a school theme and is open to all ages. Feel free to ask any of our staff if you have any problems.",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
+      "admins": [
+        "Robin",
+        "Brenda"
+      ],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/TimesSquare/Lair/5680/"
         },
         {
-          "type": "email",
-          "url": "talker@talker.com"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20051231233959/http://www.talker.com/schoolchat/"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/schoolchat"
+          "type": "email",
+          "url": "talker@talker.com"
         }
       ],
       "hosts": [
@@ -14435,10 +14476,6 @@
           "url": "jaded@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.monmouth.com/~zaphod/shadow.html"
-        },
-        {
           "type": "wayback",
           "url": "https://web.archive.org/web/19990429034148/http://www.monmouth.com/~zaphod/shadow.html"
         }
@@ -14462,12 +14499,13 @@
       "dataOrigins": ["facebook", "homepage"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.geocities.com/Athen/7422/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20011205181638/http://www3.sympatico.ca/lucg/silvercircle.html"
         },
         {
+          "broken": true,
           "type": "website",
-          "url": "http://www3.sympatico.ca/lucg/silvercircle.html"
+          "url": "http://www.geocities.com/Athen/7422/"
         },
         {
           "type": "email",
@@ -14502,22 +14540,26 @@
     {
       "name": "Theatre Des Vampires",
       "description": "EW-too based telnet talker that has been up and running for two years. It's been home to a small, but growing community of residents interested in everything from vampires to books, music, digital art and the supernatural.",
+      "dataOrigins": ["homepage"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.cynage.com/theatre/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020204005350/http://www.cynage.com/theatre/"
         }
       ]
     },
     {
       "name": "Shadow Realms",
       "description": "A talker designed to run the White Wolf (tm) World of Darkness System (tm). Incorporates Vampires, Werewolves, Changelings and Wraiths with the aid of storytellers.",
-      "codebase": "ewtoo",
-      "dataOrigins": ["talker.com"],
+      "codebase": "shadowsummink",
+      "admins": [
+        "Kevin"
+      ],
+      "dataOrigins": ["talker.com", "homepage"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.shadowrealms.org"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20001007023035/https://www.shadowrealms.org/"
         },
         {
           "type": "email",
@@ -14603,6 +14645,7 @@
           "url": "SimCity@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/simcity"
         }
@@ -14630,10 +14673,6 @@
         {
           "type": "email",
           "url": "Sommer@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/sommer"
         },
         {
           "type": "wayback",
@@ -14818,10 +14857,12 @@
           "url": "delta@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/delta"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://dtc.net/~delta/scu.html"
         }
@@ -14843,19 +14884,20 @@
       "name": "Strawberry Fields",
       "description": "Let us take you down, cause we're goin' to Strawberry Fields, nothing is real, and nothing to get .nuked about :) Strawberry Fields Forever!",
       "codebase": "nuts",
+      "admins": [
+        "Devilgirl",
+        "Kipper",
+        "Magill"
+      ],
+      "coders": [
+        "Poe",
+        "Lightsaber"
+      ],
       "dataOrigins": ["talker.com"],
       "resources": [
         {
           "type": "email",
           "url": "strawb@talker.com"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talker.com/strawberry"
-        },
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010304125315/http://www.dialnet.net/streetdreams/"
         },
         {
           "type": "wayback",
@@ -14899,12 +14941,9 @@
           "url": "sunshine@talker.com"
         },
         {
+          "broken": true,
           "type": "website",
-          "url": "http://www.talker.com/sushibar"
-        },
-        {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/19990429034148/http://talker.com/sushibar"
+          "url": "http://talker.com/sushibar"
         }
       ],
       "hosts": [
@@ -15357,7 +15396,7 @@
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20011126090109/http://www.dialnet.net/streetdreams/"
+          "url": "https://web.archive.org/web/19971027171110/http://www.dialnet.net/streetdreams/"
         }
       ],
       "hosts": [
@@ -15659,18 +15698,14 @@
     {
       "name": "Cirrus Nebula",
       "dataOrigins": ["spodlist"],
+      "admins": [
+        "Jasz",
+        "Spike"
+      ],
       "resources": [
         {
           "type": "website",
           "url": "http://www.talkers.org"
-        },
-        {
-          "type": "website",
-          "url": "http://www.talkers.org/cn/"
-        },
-        {
-          "type": "website",
-          "url": "http://www.helix.net/~cirrus"
         }
       ],
       "hosts": [
@@ -15685,7 +15720,6 @@
           "port": 4040
         },
         {
-          "blocked": true,
           "hostname": "cn.talkers.org",
           "port": 4040
         }
@@ -15730,7 +15764,8 @@
       "codebase": "nuts",
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15759,7 +15794,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15790,7 +15826,8 @@
       "codebase": "nuts",
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15818,7 +15855,8 @@
       "codebase": "nuts",
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15850,7 +15888,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15879,7 +15918,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15907,7 +15947,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15938,7 +15979,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15969,7 +16011,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -15997,7 +16040,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -16025,7 +16069,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -16058,7 +16103,8 @@
           "url": "http://lintilla.df.lth.se/~ipkiss/"
         },
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Lintilla (talker)",
           "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
         }
       ],
@@ -16306,6 +16352,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.talker.com/gateway"
         }
@@ -16362,10 +16409,6 @@
         "ruGG"
       ],
       "resources": [
-        {
-          "type": "website",
-          "url": "http://www.ifi.uio.no/~bjornmar/jaffa/"
-        },
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010303110404/http://www.ifi.uio.no/~bjornmar/jaffa/"
@@ -16527,16 +16570,18 @@
       "notes": "Frontiers is being written as part of a final year Software Engineering project by Unicorn, a student at the Sheffield Hallam University in England. However, Frontiers will continue to exist and grow even after Unicorn has spread his wings (hold on, surely that should be 'Pegasus'...) and gone off into the big wide world to be unemployed.",
       "location": "UK",
       "admins": [
-        "Bergon"
+        "Bergon",
+        "Phoenix",
+        "Unicorn"
       ],
       "textcaps": [
         "maps/frontiers.map.txt"
       ],
-      "dataOrigins": ["greatbiglist", "wayback"],
+      "dataOrigins": ["greatbiglist", "homepage"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.uni-corn.demon.co.uk/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20021204195415/http://www.uni-corn.demon.co.uk/frontiers/"
         }
       ],
       "hosts": [
@@ -16622,8 +16667,8 @@
       "dataOrigins": ["spodlist", "wayback"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.wonderd.com/pern/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19970630195229/http://www.wonderd.com/pern/"
         }
       ],
       "hosts": [
@@ -16829,8 +16874,8 @@
       "codebase": "pgplus",
       "resources": [
         {
-          "type": "website",
-          "url": "http://trekkers-rest.org.uk"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20021201021405/http://trekkers-rest.org.uk/"
         }
       ],
       "hosts": [
@@ -16971,6 +17016,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://home.dmv.com/~keener/mumu.html"
         }
@@ -16986,11 +17032,14 @@
     {
       "name": "On Stage",
       "description": "You float down slowly, onto a hardwood stage...the curtains are drawn, and it is pitch black, you can hear the antisipation of everyone on stage. The crowd grows silent, as the curtains are thrust open with emensity, the lights flicker on, putting you in the spot light... you start what you rehearsed and converse with the other people on stage..<br>An all age place to chat, open 24/7",
-      "dataOrigins": ["galaxy"],
+      "dataOrigins": ["galaxy", "homepage"],
+      "admins": [
+        "Dinadan"
+      ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.angelfire.com/musicals/zacfaucher/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20190730115547/http://www.angelfire.com/musicals/zacfaucher/"
         }
       ]
     },
@@ -17012,12 +17061,8 @@
           "url": "https://web.archive.org/web/20070930191251/http://www.foreverbeyond.org/"
         },
         {
-          "type": "website",
+          "type": "wayback",
           "url": "https://web.archive.org/web/19970805053512/http://paul.luther.edu/~prallena/tfb.html"
-        },
-        {
-          "type": "website",
-          "url": "http://www.foreverbeyond.org/"
         },
         {
           "type": "Facebook community",
@@ -17219,6 +17264,7 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.lehigh.edu/~rjw4/LH/"
         }
@@ -17755,8 +17801,8 @@
       "dataOrigins": [""],
       "resources": [
         {
-          "type": "website",
-          "url": "http://www.angelfire.com/ga/dragonisle/index.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20200313142311/http://www.angelfire.com/ga/dragonisle/index.html"
         }
       ],
       "hosts": [
@@ -17769,6 +17815,7 @@
     },
     {
       "name": "The Rainbow Room",
+      "group": "swantis",
       "description": "The Rainbow Room is the friendliest cyber community online. The Rainbow room is a small talker which seems to attract dynamic people who enjoy intelligent conversation and many laughs. This is a family talker that is open to all ages for people of the lesbian/bisexual/gay/transgendered communities and their friends.<br>This talker encourages users to participate strongly by contributing rooms, room descriptions, and other assorted files. The Rainbow Room is constantly changing with the users and the seasons.<br>On this talker users are also encouraged to take advantage of the standing offer to make tailor made special occasion rooms, perfect for net.weddings. One last thing, Bottom, our bot, we like him, hope you do too!",
       "ageRestriction": "18+",
       "codebase": "nuts",
@@ -17778,12 +17825,8 @@
       "dataOrigins": ["greatbiglist"],
       "resources": [
         {
-          "type": "website",
-          "url": "http://lintilla.df.lth.se/~swantis/"
-        },
-        {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20081226082042/http://lintilla.df.lth.se/~swantis/"
         }
       ],
       "screencaps": [
@@ -18285,6 +18328,7 @@
       "location": "",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.uscom.com/~talkbox/"
         }
@@ -18405,6 +18449,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://cha.vivid.net/~kama/"
         }
@@ -18428,10 +18473,12 @@
       "location": "USA",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010303110404/http://ncohafmuta.com/~kether"
+          "broken": true,
+          "type": "website",
+          "url": "http://ncohafmuta.com/~kether"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.wpi.edu/~simmons/kether.html"
         }
@@ -18457,6 +18504,7 @@
       "dataOrigins": ["talkers.ws"],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.tcat.ac.uk/~legacy/"
         }
