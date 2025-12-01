@@ -1149,7 +1149,7 @@
         "login/brigandine_reconnect.png"
       ],
       "textcaps": [
-          "login/brigandine_reconnect.txt"
+        "login/brigandine_reconnect.txt"
       ],
       "resources": [
         {
@@ -3101,10 +3101,10 @@
         "login/island.subnigra.com_8000.png"
       ],
       "resources": [
-	{
-		"type": "wayback",
-		"url": "https://web.archive.org/web/19970413225530/http://talkers.skl.com/~island/"
-	}
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/19970413225530/http://talkers.skl.com/~island/"
+	      }
       ],
       "hosts": [
         {
@@ -4398,7 +4398,7 @@
       "codebase": "ewtoo",
       "coders": [
         "Saraphale",
-	"Athanasius"
+	      "Athanasius"
       ],
       "admins": [
         "Demi",
@@ -5021,8 +5021,8 @@
       ],
       "coders": [
         "brIStol",
-	"Betwap",
-	"Arion"
+	      "Betwap",
+	      "Arion"
       ],
       "resources": [
         {
@@ -5031,10 +5031,10 @@
           "name": "[ei] The Emerald Isle Talker",
           "url": "https://www.facebook.com/groups/2400110497/"
         },
-	{
-		"type": "wayback",
-		"url": "https://web.archive.org/web/20010422001646/http://emisle.com/"
-	},
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20010422001646/http://emisle.com/"
+	      },
         {
           "type": "email",
           "url": "emerald@emisle.com"
@@ -5042,7 +5042,7 @@
       ],
       "screencaps": [
         "login/emisle.org_5000.png",
-	"maps/emerald-isle.map.png"
+	      "maps/emerald-isle.map.png"
       ],
       "hosts": [
         {
@@ -5839,10 +5839,10 @@
       ],
       "admins": [
         "Emmie",
-	"Heaven",
-	"Qilily",
-	"Harvester",
-	"ShadowFox"
+	      "Heaven",
+	      "Qilily",
+	      "Harvester",
+	      "ShadowFox"
       ],
       "coders": [
         "Ghostrider"
@@ -7202,7 +7202,7 @@
       "ageRestriction": "all-age",
       "admins": [
         "Shark",
-	"Tommygirl"
+	      "Tommygirl"
       ],
       "codebase": "ncohafmuta",
       "dataOrigins": ["rosen", "maddhouse"],
@@ -9626,7 +9626,7 @@
       "codebase": "ewtoo",
       "admins": [
         "DarkFlame",
-	"DooM"
+	      "DooM"
       ],
       "resources": [
         {
@@ -15758,7 +15758,7 @@
       "notes": "\"For Kids\"",
       "dataOrigins": ["maddhouse"],
       "codebase": "nuts",
-          "blocked": true,
+      "blocked": true,
       "hosts": [
         {
           "blocked": true,
@@ -20012,7 +20012,7 @@
 	      {
 		      "broken": true,
 		      "type": "website",
-	      "url": "http://europa.cs.mun.ca/~sonya1/forum.html"
+	        "url": "http://europa.cs.mun.ca/~sonya1/forum.html"
 	      }
       ],
       "hosts": [
@@ -20194,7 +20194,7 @@
 	      {
 		      "broken": true,
 		      "type": "website",
-      "url": "http://www2.brecknet.com/cosmos/"
+          "url": "http://www2.brecknet.com/cosmos/"
 	      }
       ],
       "hosts": [
@@ -20300,14 +20300,14 @@
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
-      "Mickey"
+        "Mickey"
       ],
       "location": "USA",
       "resources": [
 	      {
 		      "broken": true,
 		      "type": "website",
-      "url": "http://talkermud.com/~milenium/"
+          "url": "http://talkermud.com/~milenium/"
 	      }
       ],
       "hosts": [
@@ -20326,7 +20326,7 @@
       "resources": [
 	      {
 		      "type": "wayback",
-      "url": "https://web.archive.org/web/20010304125315/http://www.dune.net/%7Eplady/index.html"
+          "url": "https://web.archive.org/web/20010304125315/http://www.dune.net/%7Eplady/index.html"
 	      }
       ],
       "hosts": [
@@ -20344,7 +20344,7 @@
       "resources": [
 	      {
 		      "type": "wayback",
-      "url": "https://web.archive.org/web/20041204083409/http://www.maddhouse.com/~jasmine"
+          "url": "https://web.archive.org/web/20041204083409/http://www.maddhouse.com/~jasmine"
 	      }
       ],
       "hosts": [
@@ -20362,11 +20362,11 @@
       "resources": [
 	      {
 		      "type": "wayback",
-      "url": "https://web.archive.org/web/20041205144758/http://oztalker.com/"
+          "url": "https://web.archive.org/web/20041205144758/http://oztalker.com/"
 	      },
 	      {
 		      "type": "wayback",
-      "url": "https://web.archive.org/web/20010304125315/http://nucleus.com/~gsm/OZ.html"
+          "url": "https://web.archive.org/web/20010304125315/http://nucleus.com/~gsm/OZ.html"
 	      }
       ],
       "hosts": [
@@ -20383,7 +20383,7 @@
       "resources": [
 	      {
 		      "type": "wayback",
-      "url": "https://web.archive.org/web/20010304125315/http://www.infinet.com/~gwennis"
+          "url": "https://web.archive.org/web/20010304125315/http://www.infinet.com/~gwennis"
 	      }
       ],
       "hosts": [
@@ -20467,7 +20467,7 @@
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
-      "Misty"
+        "Misty"
       ],
       "location": "USA",
       "hosts": [
@@ -21386,5 +21386,5 @@
         }
       ]
     }
-  ]
+      ]
 }
