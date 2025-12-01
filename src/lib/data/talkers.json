@@ -5804,14 +5804,10 @@
           "type": "website",
           "url": "http://www.uberworld.org"
         },
-        {
-          "type": "website",
-          "url": "http://members.tripod.com/~uberworld/"
-        },
-	{
-		"type": "wayback",
-		"url": "https://web.archive.org/web/20000606071808/http://uberworld.org/"
-	}
+	      {
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20000606071808/http://uberworld.org/"
+	      }
       ],
       "hosts": [
         {
