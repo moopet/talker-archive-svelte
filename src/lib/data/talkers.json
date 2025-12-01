@@ -5956,6 +5956,11 @@
       ],
       "resources": [
         {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010202133500/https://whispers.org/"
+        },
+        {
+          "broken": true,
           "type": "website",
           "url": "http://www.zipcon.net/ciaran/whispers"
         }
@@ -9529,6 +9534,7 @@
       ],
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://dimensionmux.wikifot.com"
         }
@@ -12049,6 +12055,7 @@
           "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/SouthBeach/Marina/7618/"
         },
         {
+          "broken": true,
           "type": "website",
           "url": "http://realms.palni.edi"
         },
@@ -14163,15 +14170,28 @@
       "name": "The Tropics",
       "description": "The breeze in your hair and the sound of the steel drums This the tropics. This talker's theme is one of the islands where every thing is eire man.",
       "codebase": "ewtoo",
-      "dataOrigins": ["talker.com"],
+      "yearOpened": 1997,
+      "dataOrigins": ["talker.com", "homepage"],
+      "admins": [
+        "Accolade",
+        "Papercutsuicide",
+        "Tdog",
+        "Bertable"
+      ],
+      "screencaps": [
+        "maps/the-tropics.map.png"
+      ],
+      "textcaps": [
+        "maps/the-tropics.map.txt"
+      ],
       "resources": [
         {
           "type": "email",
           "url": "trpoics@talker.com"
         },
         {
-          "type": "website",
-          "url": "http://www.geocities.com/TheTropics/6851/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991005222223/http://www.geocities.com/TheTropics/6851/"
         },
         {
           "type": "website",
@@ -17321,7 +17341,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17342,7 +17363,8 @@
       "dataOrigins": ["maddhouse"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17364,7 +17386,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17385,7 +17408,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17406,7 +17430,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17427,7 +17452,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17448,7 +17474,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -17473,7 +17500,8 @@
       "dataOrigins": ["kesey"],
       "resources": [
         {
-          "type": "website",
+          "type": "Academic entry",
+          "name": "Sleepy's multiple worlds",
           "url": "https://en-academic.com/dic.nsf/enwiki/1526790"
         }
       ],
@@ -19295,6 +19323,7 @@
       "location": "USA",
       "resources": [
         {
+          "broken": true,
           "type": "website",
           "url": "http://www.ids.net/~suffer/pm/"
         }
@@ -19312,12 +19341,6 @@
       "name": "Spaceboy's Multiple Worlds: Demon Knight",
       "multiWorld": "spaceboy",
       "location": "USA",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://www.ids.net/~suffer/pm/"
-        }
-      ],
       "hosts": [
         {
           "hostname": "conan.ids.net",
@@ -19331,12 +19354,6 @@
       "name": "Spaceboy's Multiple Worlds: Tower of High Sorcery",
       "multiWorld": "spaceboy",
       "location": "USA",
-      "resources": [
-        {
-          "type": "website",
-          "url": "http://www.ids.net/~suffer/pm/"
-        }
-      ],
       "hosts": [
         {
           "hostname": "conan.ids.net",
