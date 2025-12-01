@@ -630,6 +630,10 @@
       ],
       "resources": [
         {
+          "type": "website",
+          "url": "https://www.notbbc.co.uk/addicted/"
+        },
+        {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010303111031/http://mudhole.ehche.ac.uk/~addicted/"
         }
