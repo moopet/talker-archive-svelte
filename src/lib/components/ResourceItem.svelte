@@ -18,10 +18,16 @@
 
 <style>
 img {
-  max-width: 300px;
+  max-width: 100%;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1);
+}
+
+@media(min-width: 1024px) {
+  img {
+    max-width: 300px;
+  }
 }
 
 div {

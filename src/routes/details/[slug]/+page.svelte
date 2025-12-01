@@ -320,11 +320,12 @@ img {
 }
 
 div:has(img) {
-background-color: black;
-display: flex;
-flex-direction: column;
-justify-content: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 div:has(p) {
   flex-grow: 1;
   display: flex;

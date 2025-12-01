@@ -24,7 +24,12 @@
 <style>
 div {
   text-align: start;
-  flex-basis: 300px;
+}
+
+@media(min-width: 1024px) {
+  div {
+    flex-basis: 300px;
+  }
 }
 
 h2 {
