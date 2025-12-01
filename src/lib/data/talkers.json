@@ -5166,13 +5166,17 @@
 	      {
 		      "type": "website",
 		      "url": "https://selva.grogue.org/"
+	      },
+	      {
+		      "type": "Telegram bot",
+		      "name": "SelvaBot",
+		      "url": "http://t.me/SelvaVirtual_bot"
 	      }
       ],
       "hosts": [
         {
-          "blocked": true,
-          "hostname": "cognitio.no-ip.org",
-          "port": 9999
+          "hostname": "selva.grogue.org",
+          "port": 8888
         },
         {
           "hostname": "portugal-virtual.org",
@@ -5180,8 +5184,8 @@
         },
         {
           "blocked": true,
-          "hostname": "selva.grogue.org",
-          "port": 8888
+          "hostname": "cognitio.no-ip.org",
+          "port": 9999
         }
       ]
     },
@@ -5231,10 +5235,11 @@
       ],
       "resources": [
 	      {
-		      "type": "website",
-		      "url": "http://reanimated.shell-matrix.com"
+		      "type": "wayback",
+		      "url": "https://web.archive.org/web/20040310175746/http://reanimated.shell-matrix.com/"
 	      },
 	      {
+		      "broken": true,
 		      "type": "website",
 		      "url": "http://demnet.wox.org/smatrix"
 	      }
@@ -5271,8 +5276,8 @@
           "url": "http://the-dating-game.net"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/tdg"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20040805200936/http://www.talker.com/tdg/"
         }
       ],
       "hosts": [
@@ -5380,12 +5385,8 @@
           "url": "https://web.archive.org/web/20010405224615/http://users.nac.net/kesey/alg.htm"
         },
         {
-          "type": "website",
-          "url": "http://www.talker.com/alice"
-        },
-        {
-          "type": "website",
-          "url": "http://www.geocities.com/Paris/Metro/5858"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19991009043440/http://www.talker.com/alice/"
         },
         {
           "type": "wayback",
@@ -5417,12 +5418,16 @@
     },
     {
       "name": "Star Trek: Resurrection",
+      "aka": [
+        "Beyond the Rim",
+        "Sci-Fi Chat"
+      ],
       "notes": "STR used to be a MUSH, but closed and re-opened as a talker around 2012.",
       "yearOpened": 2012,
       "resources": [
         {
-          "type": "website",
-          "url": "http://str.mushland.com/"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20020628085737/http://str.mushland.com/"
         }
       ],
       "hosts": [
@@ -8236,8 +8241,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/sanct.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8259,8 +8265,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/lodge.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8281,8 +8288,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/hideaway.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8303,8 +8311,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/carnal.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8325,8 +8334,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/island.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8352,8 +8362,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/island.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8381,8 +8392,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010118164100/http://fantasia.galaxynet.com/emerald.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8408,8 +8420,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/castle.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8432,8 +8445,9 @@
       "dataOrigins": ["rosen"],
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8455,8 +8469,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20010209092940/http://fantasia.galaxynet.com/furry_haven.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8475,8 +8490,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/vampires.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8494,8 +8510,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/trinity.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8514,8 +8531,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/truth.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8533,8 +8551,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/sweet.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8553,8 +8572,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/enter_gor.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8572,8 +8592,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/moon.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8592,8 +8613,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/club.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8611,8 +8633,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/jungle.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8631,8 +8654,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/buccan.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8655,8 +8679,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20001216040000/http://fantasia.galaxynet.com/wild.htm"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8679,8 +8704,9 @@
       "dataOrigins": ["rosen"],
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
@@ -8698,8 +8724,9 @@
       "multiWorld": "fantasia",
       "resources": [
         {
-          "type": "website",
-          "url": "https://en-academic.com/dic.nsf/enwiki/1520123"
+          "type": "Academic entry",
+          "name": "Fantasia's multiple worlds",
+          "url": "https://en-academic.com/dic.nsf/enwiki/1520123#selection_index17"
         }
       ],
       "hosts": [
