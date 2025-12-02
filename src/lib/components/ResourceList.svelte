@@ -4,7 +4,7 @@
   const { title, resources }: ResourceListProps = $props();
 </script>
 
-<div>
+<div class={resources.length === 0 ? 'empty' : ''}>
   <h2>{title}</h2>
   <ul>
     {#if resources.length > 0}
@@ -24,11 +24,19 @@
 <style>
 div {
   text-align: start;
+
+  &.empty {
+    display: none;
+  }
 }
 
 @media(min-width: 1024px) {
   div {
     flex-basis: 300px;
+
+    &.empty {
+      display: block;
+    }
   }
 }
 
