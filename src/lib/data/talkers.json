@@ -159,6 +159,11 @@
   ],
   "dataOrigins": [
     {
+      "shortName": "realms",
+      "name": "Realms talker list",
+      "link": "http://realms.palni.edu/talkers"
+    },
+    {
       "shortName": "telnet",
       "name": "TelNet servers list",
       "link": "https://thedubber.altervista.org/other/telnetlist.htm"
@@ -1236,6 +1241,63 @@
           "blocked": true,
           "hostname": "savannah.ml.org",
           "port": 1111
+        }
+      ]
+    },
+    {
+      "name": "Corporate America",
+      "codebase": "ncohafmuta",
+      "dataOrigins": ["realms"],
+      "resources": [
+        {
+          "type": "website",
+          "broken": true,
+          "url": "http://patriot.net/~siglite/slide.html"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "patriot.net",
+          "port": 5000
+        }
+      ]
+    },
+    {
+      "name": "WJJM",
+      "dataOrigins": ["glantri"],
+      "codebase": "ncohafmuta",
+      "resources": [
+        {
+          "type": "website",
+          "broken": true,
+          "url": "http://members.tripod.com/~WJJM"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 9250
+        }
+      ]
+    },
+    {
+      "name": "Mystique",
+      "dataOrigins": ["glantri"],
+      "codebase": "ncohafmuta",
+      "resources": [
+        {
+          "type": "website",
+          "broken": true,
+          "url": "http://www.talker.com/mystique"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 4240
         }
       ]
     },
@@ -4360,6 +4422,7 @@
     },
     {
       "name": "Glantri's Labyrinth",
+      "description": "Glantri's Labyrinth is a general talker housed in a system of magical caverns. We are not a MUD or a MUSH, but role playing is optional. Our main purpose is fun and good chat!",
       "group": "glantri",
       "slug": "glantris-labyrinth",
       "ageRestriction": "18+",
@@ -4380,6 +4443,11 @@
           "blocked": true,
           "hostname": "user1.megalinx.net",
           "port": 1138
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 2200
         }
       ]
     },
@@ -10341,12 +10409,18 @@
     },
     {
       "name": "Entropy",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "realms"],
+      "codebase": "ncohafmuta",
       "hosts": [
         {
           "blocked": true,
           "hostname": "entropy.muc.muohio.edu",
           "port": 5000
+        },
+        {
+          "blocked": true,
+          "hostname": "gadget.newaygo.mi.us",
+          "port": 8000
         }
       ]
     },
@@ -15315,6 +15389,7 @@
     },
     {
       "name": "Spellbound",
+      "disambiguation": "Not to be confused with <a href=\"/details/spellbinder\" data-sveltekit-reload>Spellbinder</a>.",
       "dataOrigins": ["maddhouse"],
       "resources": [
         {
@@ -15332,6 +15407,7 @@
     },
     {
       "name": "Spellbinder",
+      "disambiguation": "Not to be confused with <a href=\"/details/spellbound\" data-sveltekit-reload>Spellbound</a>.",
       "description": "This is an all age talker with a witchcraft theme. There are numerous facts and and fiction about the Wiccan ways surrounding SpellBinder. Merry Meet and Merry Part!!",
       "codebase": "ncohafmuta",
       "dataOrigins": ["talker.com"],
@@ -15471,8 +15547,8 @@
       "name": "State of Confusion University",
       "disambiguation": "Not to be confused with <a href=\"/details/land-of-confusion\" data-sveltekit-reload>Land of Confusion</a>.",
       "ageRestriction": "18+",
-      "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "codebase": "ncohafmuta",
+      "dataOrigins": ["talker.com", "realms"],
       "admins": [
         "Deltazeta"
       ],
@@ -15589,6 +15665,7 @@
       "description": "A new talker, the theme is based around a home. Rooms are Living Room, Dining Room, etc! A cozy place to come and enjoy yourself! This talker has been up for 3 weeks, we have *java* chat<br>Open for people of all ages, talker rated \"G\". Stop by! ",
       "resources": [
         {
+          "broken": true,
           "type": "webpage",
           "url": "http://funcity.newaygo.mi.us/~hsh/"
         }
@@ -16059,11 +16136,16 @@
       "admins": [
         "Drac"
       ],
-      "dataOrigins": ["kesey", "talkernet"],
+      "dataOrigins": ["kesey", "talkernet", "realms"],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20000930151253/http://www.compu-aid.com/drac/"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.dp.deu.net/moosleiner/"
         }
       ],
       "hosts": [
@@ -17815,7 +17897,7 @@
       "description": "Adult talker (18+) based now in Washington DC area, theme is Washington.",
       "ageRestriction": "18+",
       "yearClosed": 2019,
-      "dataOrigins": ["tdf", "mudstats"],
+      "dataOrigins": ["tdf", "mudstats", "realms", "homepage"],
       "codebase": "ncohafmuta",
       "admins": [
         "Powerman"
@@ -17825,6 +17907,12 @@
       ],
       "textcaps": [
         "login/talkercore.com_3200.txt"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981206004245/http://www.talker.com/flirttown/"
+        }
       ],
       "hosts": [
         {
@@ -20397,6 +20485,7 @@
     },
     {
       "name": "Cafe Charabia",
+      "group": "xonia",
       "dataOrigins": [ "greatbiglist" ],
       "codebase": "iforms",
       "admins": [
@@ -20408,6 +20497,81 @@
         {
           "blocked": true,
           "hostname": "frodo.inxpress.co.uk",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Blue Note",
+      "dataOrigins": [ "realms" ],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 4000
+        }
+      ]
+    },
+    {
+      "name": "Chaos AD",
+      "dataOrigins": [ "realms" ],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cannabis.ml.org",
+          "port": 6900
+        }
+      ]
+    },
+    {
+      "name": "The Lost Highway",
+      "dataOrigins": [ "realms" ],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "funcity.newaygo.mi.us",
+          "port": 6660
+        }
+      ]
+    },
+    {
+      "name": "North Woods",
+      "dataOrigins": [ "realms" ],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 6000
+        }
+      ]
+    },
+    {
+      "name": "The Vortex",
+      "dataOrigins": [ "realms" ],
+      "codebase": "ncohafmuta",
+      "location": "USA",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "funcity.newago.mi.us",
+          "port": 6969
+        }
+      ]
+    },
+    {
+      "name": "Xonia",
+      "group": "xonia",
+      "dataOrigins": [ "realms" ],
+      "codebase": "ncohafmuta",
+      "location": "USA",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
           "port": 3000
         }
       ]
@@ -21378,7 +21542,7 @@
       "disambiguation": "Not to be confused with <a href=\"/details/sim-city\" data-sveltekit-reload>Sim City</a>.",
       "ageRestriction": "18+",
       "dataOrigins": [ "greatbiglist" ],
-      "codebase": "iforms",
+      "codebase": "ncohafmuta",
       "admins": [
         "Tangent",
         "Daddy",
