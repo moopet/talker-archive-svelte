@@ -266,6 +266,11 @@
       "link": "http://mudlist.geoffrey-allen.com/talkers/alpha.html"
     },
     {
+      "shortName": "news",
+      "name": "the alt.talker.* newsgroups",
+      "link": "https://groups.google.com/g/alt.talkers"
+    },
+    {
       "shortName": "homepage",
       "name": "its own homepage"
     },
@@ -283,6 +288,12 @@
       "shortName": "tinymuck",
       "name": "TinyMUCK",
       "platform": "Unix-like"
+    },
+    {
+      "shortName": "slimepit",
+      "name": "Slimepit",
+      "language": "Visual Basic",
+      "platform": "Windows"
     },
     {
       "shortName": "ice",
@@ -362,8 +373,27 @@
       "repo": "https://web.archive.org/web/19990503003332/http://www.tendril.force9.co.uk/crypt/index.html"
     },
     {
+      "shortName": "scrus",
+      "name": "SCRUS",
+      "platform": "Unix-like",
+      "repo": "https://web.archive.org/web/20010303040938/http://rome.scrus.com/scrus.html"
+    },
+    {
       "shortName": "peanuts",
       "name": "PeaNUTS",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
+      "shortName": "southwest",
+      "name": "SoutWest",
+      "language": "Visual Basic",
+      "platform": "Windows"
+    },
+    {
+      "shortName": "matrix",
+      "name": "MATRIX",
       "family": "nuts",
       "language": "C",
       "platform": "Unix-like"
@@ -373,6 +403,13 @@
       "repo": "https://github.com/talkersource/amnuts",
       "name": "AmNUTS",
       "description": "Andy's modified NUTS",
+      "family": "nuts",
+      "language": "C",
+      "platform": "Unix-like"
+    },
+    {
+      "shortName": "maxnuts",
+      "name": "MaxNuts",
       "family": "nuts",
       "language": "C",
       "platform": "Unix-like"
@@ -729,6 +766,7 @@
       "name": "Atlantis",
       "group": "atlantis",
       "slug": "atlantis",
+      "yearOpened": 1998,
       "disambiguation": "Not to be confused with <a href=\"/details/atlantis-ii\" data-sveltekit-reload>Atlantis II</a> or <a href=\"/details/_atlantis\" data-sveltekit-reload>the other Atlantis</a>.",
       "dataOrigins": ["memory"],
       "ewtooAbbr": "atl",
@@ -1020,7 +1058,11 @@
     },
     {
       "name": "SunCastle",
-      "dataOrigins": ["mudlist"],
+      "yearOpened": 1998,
+      "dataOrigins": ["mudlist", "news"],
+      "admins": [
+        "GraeWolve"
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -1107,6 +1149,266 @@
           "blocked": true,
           "hostname": "edgeoftwilight.net",
           "port": 2005
+        }
+      ]
+    },
+    {
+      "name": "Alexandria: of the Flesh and Spirit",
+      "aka": [
+        "Alexandria"
+      ],
+      "description": "Alexandria: of the Flesh and Spirit is a bisexual erotic chat and roleplaying talker. We are a queer-friendly, kink-positive, sex-positive talker that celebrates diversity.<br>All languages are welcome, and support is provided in English and, to a limited extent, Spanish. Anyone who has a positive attitude is welcome to visit, and harassers will be dealt with summarily. You must be 18+ to enter.",
+      "slug": "alexandria",
+      "admins": [
+        "Oriens"
+      ],
+      "ageRestriction": "18+",
+      "yearOpened": 2000,
+      "dataOrigins": ["news"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20031022150915/http://alexandria.betterbox.net/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "alexandria.betterbox.net",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Krynn",
+      "yearOpened": 2000,
+      "codebase": "pgplus",
+      "dataOrigins": ["news"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010305033401/http://krynn.empia.co.uk/"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "empia.co.uk",
+          "port": 4545
+        }
+      ]
+    },
+    {
+      "name": "Cotalk",
+      "dataOrigins": ["news"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "dingo.smig.net",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "Beatbox",
+      "dataOrigins": ["news"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "beatbox.ml.org",
+          "port": 4321
+        }
+      ]
+    },
+    {
+      "name": "Savannah",
+      "dataOrigins": ["news"],
+      "yearOpened": 1998,
+      "resources": [
+        {
+          "type": "website",
+          "url": "http://savannah.ml.org:8080/",
+          "broken": true
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "savannah.ml.org",
+          "port": 1111
+        }
+      ]
+    },
+    {
+      "name": "Stevo's Spodshack",
+      "yearOpened": 1998,
+      "dataOrigins": ["news"],
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "z-ha-dum.stunion.strath.ac.uk",
+          "port": 7777
+        }
+      ]
+    },
+    {
+      "name": "Southpark",
+      "disambiguation": "Not to be confused with <a href=\"/details/south-park\" data-sveltekit-reload>South Park</a>.",
+      "group": "metro",
+      "yearOpened": 1998,
+      "dataOrigins": ["news"],
+      "codebase": "nuts",
+      "admins": [
+        "Kenny"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "cybermac.net",
+          "port": 4500
+        }
+      ]
+    },
+    {
+      "name": "Sektor",
+      "yearOpened": 1999,
+      "location": "Estonia",
+      "dataOrigins": ["news"],
+      "codebase": "nuts",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "sektor.hg.edu.ee",
+          "port": 5555
+        }
+      ]
+    },
+    {
+      "name": "Mettal After Dark",
+      "yearOpened": 2001,
+      "dataOrigins": ["news"],
+      "ageRestriction": "21+",
+      "codebase": "amnuts",
+      "admins": [
+        "Bastion",
+        "Wookie"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "fruits.foobarhouse.com",
+          "port": 7000
+        }
+      ]
+    },
+    {
+      "name": "Hoth",
+      "dataOrigins": ["news"],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 3000
+        }
+      ]
+    },
+    {
+      "name": "SouthWest",
+      "dataOrigins": ["news"],
+      "yearOpened": 1999,
+      "codebase": "southwest",
+      "resources": [
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.talker.com/southwest"
+        }
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "averis.org",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Crime City",
+      "dataOrigins": ["news"],
+      "yearOpened": 2000,
+      "codebase": "pgplus",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "averis.org",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Averis",
+      "dataOrigins": ["news"],
+      "admins": [
+        "Wolf"
+      ],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "averis.org",
+          "port": 9999
+        }
+      ]
+    },
+    {
+      "name": "Undersea Adventure",
+      "dataOrigins": ["news"],
+      "ageRestrictions": "18+",
+      "codebase": "joot",
+      "admins": [
+        "Mickey"
+      ],
+      "yearOpened": 1998,
+      "yearClosed": 1998,
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "shell.acmenet.net",
+          "port": 7030
+        }
+      ]
+    },
+    {
+      "name": "Hightimes",
+      "dataOrigins": ["news"],
+      "codebase": "pgplus",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 7411
+        }
+      ]
+    },
+    {
+      "name": "Diamond Dust Inn",
+      "ageRestriction": "18+",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "darkfantastic.net",
+          "port": 7100
+        }
+      ]
+    },
+    {
+      "name": "Castle Keep",
+      "ageRestriction": "18+",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 3100
         }
       ]
     },
@@ -1639,7 +1941,8 @@
     {
       "name": "Scarlet",
       "ageRestriction": "all-age",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "news"],
+      "yearOpened": 1999,
       "codebase": "nuts",
       "resources": [
         {
@@ -1652,6 +1955,11 @@
           "blocked": true,
           "hostname": "scarlet.a-h.net",
           "port": 23
+        },
+        {
+          "blocked": true,
+          "hostname": "amber.org.uk",
+          "port": 2000
         }
       ]
     },
@@ -2333,6 +2641,7 @@
     {
       "name": "Genesis",
       "location": "USA",
+      "codebase": "ztalker",
       "dataOrigins": ["greatbiglist"],
       "hosts": [
         {
@@ -2411,14 +2720,28 @@
     },
     {
       "name": "Tasmania",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "news"],
+      "yearOpened": 1999,
+      "codebase": "pgplus",
       "screencaps": [
         "login/draconic.fyremoon.net_2424.png"
+      ],
+      "resources": [
+        {
+          "type": "website",
+          "broken": true,
+          "url": "/https://ncohafmuta.com/taz/"
+        }
       ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "draconic.fyremoon.net",
+          "port": 2424
+        },
+        {
+          "blocked": true,
+          "hostname": "ncoharmuta.com",
           "port": 2424
         }
       ]
@@ -2603,10 +2926,10 @@
     },
     {
       "name": "Elite",
-      "dataOrigins": ["spodlist"],
+      "dataOrigins": ["spodlist", "news"],
       "ageRestriction": "all-age",
       "description": "Heavily modified ewtoo talker based on Elite",
-      "codebase": "ewtoo",
+      "codebase": "pgplus",
       "admins": [
         "Pooh"
       ],
@@ -2617,6 +2940,11 @@
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010614094616/http://www.snowplains.org/~elite/"
+        },
+        {
+          "type": "website",
+          "broken": true,
+          "url": "http://fly.to/lave"
         }
       ],
       "hosts": [
@@ -2754,6 +3082,10 @@
     {
       "name": "Reunion",
       "location": "UK",
+      "admins": [
+        "Beaver",
+        "Hawkeye"
+      ],
       "dataOrigins": ["facebook"],
       "codebase": "pgplus",
       "resources": [
@@ -3060,7 +3392,8 @@
     },
     {
       "name": "Inspector Gadget's Talker",
-      "dataOrigins": ["spodlist"],
+      "yearOpened": 1999,
+      "dataOrigins": ["spodlist", "news"],
       "screencaps": [
         "login/gadget.ewtoo.org_7000.png"
       ],
@@ -3594,12 +3927,19 @@
     {
       "name": "Land of Nephi",
       "ageRestriction": "all-age",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "news"],
+      "yearOpened": 1998,
+      "codebase": "realms",
       "hosts": [
         {
           "blocked": true,
           "hostname":"dragon.palni.edu",
           "port": 5000
+        },
+        {
+          "blocked": true,
+          "hostname":"nephi.talkernet.net",
+          "port": 3333
         }
       ]
     },
@@ -4491,6 +4831,11 @@
         {
           "blocked": true,
           "hostname": "scarlet-citadel.co.uk",
+          "port": 2000
+        },
+        {
+          "blocked": true,
+          "hostname": "scarlet.eu.org",
           "port": 2000
         },
         {
@@ -5764,7 +6109,8 @@
     },
     {
       "name": "Tulac",
-      "dataOrigins": ["greatbiglist"],
+      "dataOrigins": ["greatbiglist", "news"],
+      "yearOpened": 2000,
       "hosts": [
         {
           "blocked": true,
@@ -6229,6 +6575,8 @@
     {
       "name": "General Hospital",
       "dataOrigins": ["kesey"],
+      "yearOpened": 1998,
+      "codebase": "slimepit",
       "resources": [
         {
           "type": "wayback",
@@ -6240,6 +6588,11 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 6020
+        },
+        {
+          "blocked": true,
+          "hostname": "168.20.197.116",
+          "port": 1234
         }
       ]
     },
@@ -6412,7 +6765,11 @@
     {
       "name": "Bonds of Beauty",
       "description": "Once upon a time, long ago in a far away land, a beautiful maiden was put to sleep by an evil spell. It was rumored that any man brave enough to fight the perils surrounding her castle and kiss the sleeping princess would be her one true love for the rest of their lives. And so begins the tale of Sleeping Beauty.",
-      "dataOrigins": ["talkernet"],
+      "dataOrigins": ["talkernet", "news"],
+      "codebase": "maxnuts",
+      "coders": [
+        "Maxim"
+      ],
       "admins": [
         "Maxim",
         "Aurora",
@@ -6430,6 +6787,11 @@
         {
           "blocked": true,
           "hostname": "beauty.binhost.com",
+          "port": 7878
+        },
+        {
+          "blocked": true,
+          "hostname": "beauty.dune.net",
           "port": 7878
         }
       ]
@@ -7202,10 +7564,17 @@
       "ageRestriction": "all-age",
       "admins": [
         "Shark",
-	      "Tommygirl"
+	      "Tommygirl",
+	      "Fugee"
       ],
       "codebase": "ncohafmuta",
-      "dataOrigins": ["rosen", "maddhouse"],
+      "dataOrigins": ["rosen", "maddhouse", "news"],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19981212013326/http://concert.ncohafmuta.com/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -7819,10 +8188,17 @@
       ]
     },
     {
-      "name": "Sherwood",
+      "name": "Sherwood Forest",
       "ageRestriction": "all-age",
       "dataOrigins": ["maddhouse"],
       "codebase": "rnuts",
+      "resources": [
+        {
+          "type": "website",
+          "url": "https://rnuts.cybermac.net/SherwoodForest/",
+          "broken": true
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -8048,8 +8424,12 @@
     {
       "name": "Omega",
       "ageRestriction": "13+",
-      "dataOrigins": ["kesey", "maddhouse"],
+      "yearOpened": 1998,
+      "dataOrigins": ["kesey", "maddhouse", "news"],
       "codebase": "rnuts",
+      "admins": [
+        "Solomon"
+      ],
       "resources": [
         {
           "type": "wayback",
@@ -9470,9 +9850,12 @@
       "aka": [
         "DS36"
       ],
+      "coders": [
+        "Jkurtz"
+      ],
       "group": "globegate",
       "codebase": "worlds",
-      "dataOrigins": ["talkers.ws", "homepage"],
+      "dataOrigins": ["talkers.ws", "news", "homepage"],
       "resources": [
         {
           "type": "wayback",
@@ -9500,6 +9883,7 @@
         "Bigben",
         "Imzadi"
       ],
+      "codebase": "rivendel",
       "dataOrigins": ["talkers.ws", "homepage"],
       "description": "Welcome to Deep Space 9, a talker brought to you by Rivendell International Communications.<br>Situated on the edge of Cardassian space, Deep Space 9 sits on the portal of the only stable wormho le into the Gamma Quadrant. This station while owned by the Bajorans is ran with the assistance of the Federation.<br>Senior station officers are Captain/Gandalf, Zeta and Bigben.",
       "textcaps": [
@@ -9808,6 +10192,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "dream.eni.net",
+          "port": 7777
+        },
+        {
+          "blocked": true,
           "hostname": "dream.custarg.org",
           "port": 2222
         }
@@ -9834,7 +10223,7 @@
     {
       "name": "e-Cafe",
       "codebase": "amnuts",
-      "dataOrigins": ["maddhouse", "homepage"],
+      "dataOrigins": ["maddhouse", "news", "homepage"],
       "description": " The e-Café is not just another web chat. It has many features which make your chatting experience a more enjoyable one.<br>We at the e-Café are interested in creating a more brighter and better talker environment.",
       "resources": [
         {
@@ -9846,7 +10235,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.245.158.160",
+          "hostname": "pseudoreality.com",
           "port": 8888
         }
       ]
@@ -10210,7 +10599,11 @@
       ]
     },
     {
-      "name": "The Global Summer Camp",
+      "name": "The Summercamp",
+      "aka": [
+        "The Global Summer Camp"
+      ],
+      "codebase": "matrix",
       "dataOrigins": ["talkers.ws"],
       "hosts": [
         {
@@ -10286,8 +10679,9 @@
         "Hooters",
         "H(o)(o)TERS~2000"
       ],
+      "yearOpened": 2000,
       "slug": "hooters",
-      "dataOrigins": ["talkers.ws"],
+      "dataOrigins": ["talkers.ws", "news"],
       "hosts": [
         {
           "blocked": true,
@@ -10405,7 +10799,7 @@
     },
     {
       "name": "Marlo Chat",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "news"],
       "location": "Australia",
       "admins": [
         "Bomber"
@@ -10668,6 +11062,7 @@
       "aka": [
         "MPFT"
       ],
+      "yearOpened": 1995,
       "dataOrigins": ["talkers.ws"],
       "resources": [
         {
@@ -10918,7 +11313,7 @@
     },
     {
       "name": "Red Dwarf",
-      "dataOrigins": ["amber"],
+      "dataOrigins": ["amber", "news"],
       "codebase": "playground",
       "ewtooAbbr": "RDW",
       "description": "Based on the TV program Red Dwarf",
@@ -10930,6 +11325,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ewtoo.org",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "rdw.org.uk",
@@ -10957,10 +11357,24 @@
     },
     {
       "name": "The Metro Hotel",
-      "dataOrigins": ["amber"],
+      "slug": "metro",
+      "aka": [
+        "Metro"
+      ],
+      "yearOpened": 1998,
+      "group": "metro",
+      "dataOrigins": ["amber", "news"],
+      "admins": [
+        "Kenny"
+      ],
       "codebase": "nuts",
       "description": "Popular, heavily modified NUTS, very different",
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "metro.cybermac.net",
+          "port": 4500
+        },
         {
           "blocked": true,
           "hostname": "cybermac.net",
@@ -11056,6 +11470,13 @@
       "ageRestriction": "all-age",
       "dataOrigins": ["amber"],
       "description": "Based on the cult series, Prisoner Cell Block H",
+      "resources": [
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://wentworth.amber.org.uk/"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
@@ -11212,13 +11633,13 @@
       ]
     },
     {
-      "name": "Pinwheels",
+      "name": "PinWHeeLs",
       "codebase": "ncohafmuta",
       "location": "USA",
       "admins": [
         "Cygnus"
       ],
-      "dataOrigins": ["greatbiglist"],
+      "dataOrigins": ["greatbiglist", "news"],
       "resources": [
         {
           "broken": true,
@@ -11226,11 +11647,21 @@
           "url": "http://www.inxpress.net/~joelie/pinwheel.html"
         },
         {
+          "broken": true,
+          "type": "website",
+          "url": "http://ncohafmuta.com:5030/"
+        },
+        {
           "type": "email",
           "url": "cygnus@misty.com"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "ncohafmuta.com",
+          "port": 5000
+        },
         {
           "blocked": true,
           "hostname": "pw.misty.com",
@@ -11466,9 +11897,13 @@
     },
     {
       "name": "South Park",
-      "dataOrigins": ["talkernet"],
+      "yearOpened": 1998,
+      "disambiguation": "Not to be confused with <a href=\"/details/southpark\" data-sveltekit-reload>Southpark</a>.",
+      "dataOrigins": ["talkernet", "news"],
       "admins": [
-        "Chaz"
+        "Chaz",
+        "FanCan",
+        "Michelle"
       ],
       "codebase": "spamnuts",
       "resources": [
@@ -11478,6 +11913,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talkers.skl.com",
+          "port": 5555
+        },
         {
           "blocked": true,
           "hostname": "dune.net",
@@ -11534,6 +11974,7 @@
     {
       "name": "Masqued Cincinnatus",
       "dataOrigins": ["talkernet"],
+      "yearOpened": 2000,
       "admins": [
         "nemo"
       ],
@@ -11974,7 +12415,9 @@
     },
     {
       "name": "Alpha Chat",
-      "dataOrigins": ["mudlist"],
+      "dataOrigins": ["mudlist", "news"],
+      "codebase": "nuts",
+      "location": "Australia",
       "resources": [
         {
           "broken": true,
@@ -12092,7 +12535,7 @@
       ]
     },
     {
-      "name": "The Oaktree-house talker",
+      "name": "The Oak Tree House",
       "description": "The Oaktree-house is a talker 'for Acorn users to talk about Acorny things'. It aims to be a nice place to talk, without the abusive language etc. often seen elsewhere. Anyone can log in, but if you use the talker regularly you are encouraged to get an account (which is free).",
       "yearClosed": 2018,
       "dataOrigins": ["mudstats"],
@@ -12103,6 +12546,11 @@
         "login/toth.org.uk_23.txt"
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "talker.oaktree.co.uk",
+          "port": 23
+        },
         {
           "blocked": true,
           "hostname": "toth.org.uk",
@@ -12227,6 +12675,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "ezchat.net",
+          "port": 7000
+        },
+        {
+          "blocked": true,
           "hostname": "talker.com",
           "port": 4400
         }
@@ -12260,7 +12713,7 @@
       ]
     },
     {
-      "name": "Blue Light District",
+      "name": "The Blue Light District",
       "dataOrigins": ["mudlist"],
       "codebase": "iforms",
       "hosts": [
@@ -12718,7 +13171,15 @@
     {
       "name": "Candyland",
       "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "yearOpened": 1998,
+      "dataOrigins": ["talker.com", "news"],
+      "admins": [
+        "Bobo",
+        "Jellybean",
+        "TeaCup",
+        "Ribbon",
+        "Lollipop"
+      ],
       "ageRestriction": "18+",
       "resources": [
         {
@@ -12745,6 +13206,11 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 7577
+        },
+        {
+          "blocked": true,
+          "hostname": "candyland.compu-aid.net",
+          "port": 7575
         }
       ]
     },
@@ -12778,6 +13244,7 @@
     },
     {
       "name": "Crimson Talendar",
+      "ageRestriction": "18+",
       "dataOrigins": ["kesey"],
       "hosts": [
         {
@@ -12879,6 +13346,7 @@
     },
     {
       "name": "CrossRoads",
+      "yearOpened": 1994,
       "yearClosed": 1997,
       "admins": [
 	      "Jess",
@@ -12890,15 +13358,13 @@
     {
       "name": "Cyber City",
       "location": "USA",
+      "yearOpened": 1998,
       "aka": [
         "CyberCity"
       ],
       "description": "Cyber City is based on the theme of what it would be like if people actually lived in Cyberspace. it is set up very much like a city. This talker is open to all ages, so come on in and enjoy the fun!",
       "codebase": "nuts",
-      "dataOrigins": [
-        "talker.com",
-        "greatbiglist"
-      ],
+      "dataOrigins": [ "talker.com", "greatbiglist", "news" ],
       "resources": [
         {
           "type": "email",
@@ -13349,7 +13815,16 @@
       "slug": "heaven",
       "disambiguation": "Not to be confused with <a href=\"/details/_heaven\" data-sveltekit-reload>Heaven</a>.",
       "codebase": "futurecode",
-      "dataOrigins": ["maddhouse"],
+      "dataOrigins": ["maddhouse", "news"],
+      "admins": [
+        "dogbomb"
+      ],
+      "resources": [
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20100620024906/http://www.heaven.affection.net/"
+        }
+      ],
       "hosts": [
         {
           "blocked": "true",
@@ -13404,7 +13879,10 @@
       ]
     },
     {
-      "name": "An Illville",
+      "name": "Illville",
+      "aka": [
+        "An Illville"
+      ],
       "description": "A talker based on a city where everybody is game.",
       "codebase": "nuts",
       "dataOrigins": ["talker.com"],
@@ -13419,6 +13897,11 @@
           "blocked": true,
           "hostname": "talker.com",
           "port": 3234
+        },
+        {
+          "blocked": true,
+          "hostname": "talker.com",
+          "port": 3232
         }
       ]
     },
@@ -13658,12 +14141,20 @@
     {
       "name": "Myst",
       "description": "Myst is a new and exciting talker set in the idyllic surrounds of a mystical island. Operating in real time, 24 hours a day, 7 days a week, 365 days a year, Myst is a free and secure chat-service for people from around the world to meet, talk and exchange messages. Myst is an Ew-Too style talker, based on the popular PlayGround96 code, with heavy modifications made in presentation, features and usage.",
+      "yearOpened": 1998,
       "codebase": "pg96",
-      "dataOrigins": ["talker.com", "kesey"],
+      "dataOrigins": ["talker.com", "kesey", "homepage"],
+      "admins": [
+        "Taita"
+      ],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010303110404/http://welcome.to/myst"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/19990208234556/http://www.talker.com/myst/"
         },
         {
           "type": "email",
@@ -13678,7 +14169,7 @@
         },
         {
           "blocked": true,
-          "hostname": "talker.com",
+          "hostname": "myst.talker.com",
           "port": 4545
         }
       ]
@@ -13887,9 +14378,12 @@
     },
     {
       "name": "Philadelphia",
+      "aka": [
+        "Philly the talker"
+      ],
       "description": "A general talker, based on the City of Philadelphia. Streets and points of interest in the city comprise the majority of the talker.<br>Welcome To Philly The Talker! This talker is running TalkerOs which was written by William. Based on Nuts 3.3.3 which was written by Neil Robertson. Our original code was modified by Whizkid. We welcome users over 18 years of age who have an interest in chatting with others from all over the globe.",
       "dataOrigins": ["talker.com", "talkernet"],
-      "codebase": "talkeros",
+      "codebase": "nuts",
       "admins": [
         "Arora",
         "Bub"
@@ -13974,12 +14468,16 @@
       "name": "Rome",
       "description": "Ancient Rome was a myriad of contradiction and irony, a military-based civilization celebrating the beauty of classical Greece, architecture, poetry and philosophy, but also thriving on brutality of amphitheatres and slavery and on the politics of religion. Although too complex for acurate representation in our humble talker, the ancient empire inspires this atmosphere of pleasure & terror, peace & imprisionment, spirituality & passion. The purpose here is to break physical limits through communication. Make sure you are prepared.", 
       "ageRestriction": "18+",
-      "codebase": "rome",
+      "codebase": "scrus",
       "dataOrigins": ["talker.com"],
       "resources": [
         {
           "type": "email",
           "url": "rawhide@talker.com"
+        },
+        {
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20010301081318/http://rome.scrus.com/"
         },
         {
           "type": "wayback",
@@ -14518,8 +15016,8 @@
     {
       "name": "School Chat",
       "description": "This talker is based on a school theme and is open to all ages. Feel free to ask any of our staff if you have any problems.",
-      "codebase": "nuts",
-      "dataOrigins": ["talker.com"],
+      "codebase": "amnuts",
+      "dataOrigins": ["talker.com", "news"],
       "admins": [
         "Robin",
         "Brenda"
@@ -14527,15 +15025,12 @@
       "resources": [
         {
           "type": "wayback",
-          "url": "https://web.archive.org/web/20010304125315/http://www.geocities.com/TimesSquare/Lair/5680/"
-        },
-        {
-          "type": "wayback",
           "url": "https://web.archive.org/web/20051231233959/http://www.talker.com/schoolchat/"
         },
         {
-          "type": "email",
-          "url": "talker@talker.com"
+          "broken": true,
+          "type": "website",
+          "url": "http://www.geocities.com/TimesSquare/Lair/5680/"
         }
       ],
       "hosts": [
@@ -14550,6 +15045,7 @@
       "name": "Seventh Heaven",
       "description": "If you're looking for a fun, friendly and relaxing place to hang out for a while, drop by Seventh Heaven. We're an all ages talker open to anyone and everyone, as long as you respect one another and have fun! Drop by and play a game of Tic-Tac-Toe with Zeus, the coolest bot on the web. Or try your hand at Hangman. Think you're smart? Answer today's Riddle. Trust me, there's tons to do, great people to meet and fabulous friends to make. So come on into Heaven!",
       "codebase": "nuts",
+      "ageRestriction": "all-age",
       "dataOrigins": ["talker.com", "maddhouse"],
       "resources": [
         {
@@ -15011,7 +15507,10 @@
       ]
     },
     {
-      "name": "Strawberry Fields",
+      "name": "Strawberry Fields Forever",
+      "aka": [
+        "Strawberry Fields"
+      ],
       "description": "Let us take you down, cause we're goin' to Strawberry Fields, nothing is real, and nothing to get .nuked about :) Strawberry Fields Forever!",
       "codebase": "nuts",
       "admins": [
@@ -17441,7 +17940,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17452,7 +17951,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.54.38.11",
+          "hostname": "general.sleepy.net",
           "port": 5000
         }
       ]
@@ -17486,7 +17985,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17497,7 +17996,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.54.38.11",
+          "hostname": "men.sleepy.net",
           "port": 5020
         }
       ]
@@ -17508,7 +18007,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17519,7 +18018,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.54.38.11",
+          "hostname": "dungeon.sleepy.net",
           "port": 5013
         }
       ]
@@ -17530,7 +18029,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17541,7 +18040,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.54.38.11",
+          "hostname": "forest.sleepy.net",
           "port": 5010
         }
       ]
@@ -17552,7 +18051,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17563,7 +18062,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.54.38.11",
+          "hostname": "mystic.sleepy.net",
           "port": 5007
         }
       ]
@@ -17574,7 +18073,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17600,7 +18099,7 @@
       "admins": [
         "Sleepy"
       ],
-      "dataOrigins": ["kesey"],
+      "dataOrigins": ["kesey", "news"],
       "resources": [
         {
           "type": "Academic entry",
@@ -17611,7 +18110,7 @@
       "hosts": [
         {
           "blocked": true,
-          "hostname": "206.54.38.11",
+          "hostname": "women.sleepy.net",
           "port": 5001
         }
       ]
@@ -19139,6 +19638,7 @@
     {
       "name": "Oyaron Hill",
       "location": "USA",
+      "yearOpened": 1998,
       "hosts": [
         {
           "hostname": "witten.hartwick.edu",
@@ -19153,6 +19653,7 @@
       "disambiguation": "Not to be confused with <a href=\"/details/paradise-island\" data-sveltekit-reload>Paradise Island</a>.",
       "location": "USA",
       "yearOpened": 1996,
+      "yearClosed": 1998,
       "codebase": "ewtoo",
       "coders": [
         "choccy",
@@ -20119,9 +20620,11 @@
     },
     {
       "name": "Highlands",
-      "dataOrigins": [ "greatbiglist" ],
+      "dataOrigins": [ "greatbiglist", "news" ],
+      "yearOpened": 1998,
       "codebase": "joot",
       "admins": [
+        "Maverick",
 	      "Nefilim"
       ],
       "location": "Sweden",
@@ -20147,6 +20650,21 @@
           "blocked": true,
           "hostname": "flash.dalnet.se",
           "port": 7777
+        },
+        {
+          "blocked": true,
+          "hostname": "tb.dynip.com",
+          "port": 9999
+        },
+        {
+          "blocked": true,
+          "hostname": "www.signwave.com",
+          "port": 9999
+        },
+        {
+          "blocked": true,
+          "hostname": "garfield.anderson.colimbus.oh.us",
+          "port": 9999
         }
       ]
     },
@@ -20559,6 +21077,11 @@
       "hosts": [
         {
           "blocked": true,
+          "hostname": "wiccan.net",
+          "port": 4500
+        },
+        {
+          "blocked": true,
           "hostname": "dune.net",
           "port": 4500
         }
@@ -20618,14 +21141,24 @@
     {
       "name": "Myanmar Talker",
       "description": "A place for all Burmese and non-Burmese to hang out!",
-      "dataOrigins": [ "dune", "homepage" ],
+      "dataOrigins": [ "dune", "news", "homepage" ],
       "resources": [
         {
           "type": "wayback",
           "url": "https://web.archive.org/web/20010429163928/http://myanmar.dune.net/"
+        },
+        {
+          "broken": true,
+          "type": "website",
+          "url": "http://www.faradic.net/~myanmar/"
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "faradic.net",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "dune.net",
@@ -20636,8 +21169,11 @@
     {
       "name": "NoWhereLand",
       "description": "Realm of the Fab Four! - The Beatles! If you are 18+ - Let's ROCK N ROLL!",
-      "dataOrigins": [ "maddhouse", "dune", "homepage" ],
+      "dataOrigins": [ "maddhouse", "dune", "homepage", "news" ],
       "ageRestriction": "18+",
+      "admins": [
+        "Man"
+      ],
       "resources": [
         {
           "type": "wayback",
@@ -20790,7 +21326,7 @@
     },
     {
       "name": "Queen Vic",
-      "dataOrigins": [ "greatbiglist", "maddhouse" ],
+      "dataOrigins": [ "greatbiglist", "maddhouse", "news" ],
       "codebase": "iforms",
       "admins": [
         "Blue",
@@ -20805,6 +21341,11 @@
         }
       ],
       "hosts": [
+        {
+          "blocked": true,
+          "hostname": "qv.ml.org",
+          "port": 7000
+        },
         {
           "blocked": true,
           "hostname": "vic.emap.com",
@@ -21316,7 +21857,7 @@
     {
       "name": "Dark Sun",
       "dataOrigins": [ "maddhouse" ],
-      "ageRestriction": "18+",
+      "yearOpened": 1999,
       "ageRestriction": "18+",
       "hosts": [
         {
