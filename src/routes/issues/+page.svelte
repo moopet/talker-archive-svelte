@@ -2,16 +2,24 @@
   import { talkers } from '$lib/data/talkers.json';
   import { getTalkerSlug } from '$lib/utils.ts';
 
-  const issues = {
-    wayback: []
-  };
+  const issues = [];
 
   talkers.forEach(t => {
-    const websites = (t?.resources ?? []).filter(r => r.type === 'website' && !r.broken);
+    if ((t.resources ?? []).some(r => {
+      if (r.type === 'website' || !r.broken) {
+        return true;
+      }
 
-    if (websites.length > 0) {
-      issues.wayback.push(t);
+      if (r.type === 'wayback') {
+        return true;
+      }
+
+      return false;
+    })) {
+      return;
     }
+
+    issues.push(t);
   });
 </script>
 
@@ -22,10 +30,10 @@
 <section>
   <h1>Issues</h1>
 
-  <h2>Websites to find on archive.org</h2>
+  <h2>Websites with no website or archive resources</h2>
 
   <ul>
-    {#each issues.wayback as talker}
+    {#each issues as talker}
       <li><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></li>
     {/each}
   </ul>

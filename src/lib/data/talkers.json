@@ -20502,6 +20502,18 @@
       ]
     },
     {
+      "name": "The Love Nest",
+      "dataOrigins": [ "news" ],
+      "codebase": "ncohafmuta",
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "hawkeye.signwave.com",
+          "port": 6667
+        }
+      ]
+    },
+    {
       "name": "Blue Note",
       "dataOrigins": [ "realms" ],
       "codebase": "ncohafmuta",
