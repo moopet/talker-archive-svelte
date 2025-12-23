@@ -244,7 +244,6 @@
 
     activeTalkersStore.subscribe(activeTalkerList => {
       if (activeTalkerList) {
-        console.log(activeTalkerList);
         highlightActiveTalkers(activeTalkerList);
       }
     });
