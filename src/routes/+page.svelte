@@ -244,6 +244,7 @@
 
     activeTalkersStore.subscribe(activeTalkerList => {
       if (activeTalkerList) {
+        console.log(activeTalkerList);
         highlightActiveTalkers(activeTalkerList);
       }
     });
@@ -268,7 +269,7 @@
   {/if}
 
   {#if lastCheckedDate}
-    <h2><span class="active-count">{activeTalkers.length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
+    <h2><span class="active-count">{allTalkers.filter(x => !x.isClosed).length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
   {/if}
 
   <fieldset class="filters">
