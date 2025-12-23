@@ -20,6 +20,6 @@ The data which drives everything lives in src/lib/data/talkers.json, and there a
 
 This is driven from a remote service, because Vercel hobby instances aren't good enough. So I made a simple cron task that could generate a JSON file instead.
 
-On a spare machine with no restrictions (a raspberry pi is fine) set up a cron job for `bun run cron` however often you like. Serve the JSON with, e.g. `node http-server static -p1234 --cors` and put the full URL into the STATUS_JSON_URL environment variable.
+On a spare machine with no restrictions (a raspberry pi is fine) set up a cron job for `bun run cron.ts` however often you like. Serve the JSON with, e.g. `darkhttpd static/status.json --port 1234 --single-file` and put the full URL into the STATUS_JSON_URL environment variable.
 
 Without this, nothing bad will happen, but the connection stats won't appear.
