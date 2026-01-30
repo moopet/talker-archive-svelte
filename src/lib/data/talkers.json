@@ -4727,6 +4727,7 @@
         "login/resort.org_2323.png",
         "maps/resort.map.png"
       ],
+      "codebase": "summink",
       "resources": [
         {
           "type": "email",
@@ -5115,6 +5116,7 @@
       "coders": [
         "enyc"
       ],
+      "codebase": "pgplus",
       "resources": [
         {
           "type": "email",
@@ -5225,6 +5227,7 @@
       "screencaps": [
         "login/truefriends.org.uk_3000.png"
       ],
+      "codebase": "pgplus",
       "resources": [
         {
           "type": "wayback",
@@ -6526,6 +6529,7 @@
       "screencaps": [
         "login/zmc-place.enyc.org.uk_8682.png"
       ],
+      "codebase": "pgplus",
       "textcaps": [
         "login/zmc-place.enyc.org.uk_8682.txt"
       ],
