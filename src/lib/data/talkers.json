@@ -13870,7 +13870,7 @@
       ],
       "hosts": [
         {
-          "blocked": "true",
+          "blocked": true,
           "hostname": "talker.com",
           "port": 6200
         }
@@ -13882,7 +13882,7 @@
       "dataOrigins": ["maddhouse"],
       "hosts": [
         {
-          "blocked": "true",
+          "blocked": true,
           "hostname": "heavens.ml.org",
           "port": 4410
         }
@@ -13905,7 +13905,7 @@
       ],
       "hosts": [
         {
-          "blocked": "true",
+          "blocked": true,
           "hostname": "dune.net",
           "port": 2200
         }
@@ -13926,12 +13926,12 @@
       ],
       "hosts": [
         {
-          "blocked": "true",
+          "blocked": true,
           "hostname": "dune.net",
           "port": 5555
         },
         {
-          "blocked": "true",
+          "blocked": true,
           "hostname": "talker.com",
           "port": 7770
         }
