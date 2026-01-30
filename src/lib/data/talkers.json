@@ -1425,7 +1425,7 @@
     {
       "name": "Undersea Adventure",
       "dataOrigins": ["news"],
-      "ageRestrictions": "18+",
+      "ageRestriction": "18+",
       "codebase": "joot",
       "admins": [
         "Mickey"
