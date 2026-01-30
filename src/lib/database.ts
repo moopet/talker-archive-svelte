@@ -1,17 +1,18 @@
 import slugify from 'slugify';
+import type { Codebase, DataOrigin, GetTalkerParams, GetTalkersParams, Group, MultiWorld, Resource, Talker } from '$lib/types';
 import { codebases, dataOrigins, groups, multiWorlds, resources, talkers } from '$lib/data/talkers.json';
 
 export function getSlug(text: string): string {
   return slugify(text.replace(/^A /, ''), { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9-]/, '');
 }
 
-export function getTalker(params): Talker {
-  const slug = params.slug ?? getSlug(params.name);
+export function getTalker(params: GetTalkerParams): Talker | undefined {
+  const slug = params.slug ?? getSlug(params.name ?? '');
 
   return talkers.find(talker => (talker.slug ?? getSlug(talker.name)) === slug);
 }
 
-export function getTalkers(params = {}): Talker[] {
+export function getTalkers(params: GetTalkersParams = {}): Talker[] {
   const order: string = (params.order ?? 'asc').toLowerCase();
   let results: Talker[] = [...talkers];
 
@@ -57,7 +58,7 @@ export function getTalkers(params = {}): Talker[] {
   return results;
 }
 
-export function getCodebase(shortName: string): Codebase {
+export function getCodebase(shortName: string): Codebase | undefined {
   return codebases.find(x => x.shortName === shortName);
 }
 
@@ -65,7 +66,7 @@ export function getCodebases(): Codebase[] {
   return [...codebases].sort((a, b) => a.shortName.localeCompare(b.shortName));
 }
 
-export function getDataOrigin(shortName: string): DataOrigin {
+export function getDataOrigin(shortName: string): DataOrigin | undefined {
   return dataOrigins.find(x => x.shortName === shortName);
 }
 
@@ -73,7 +74,7 @@ export function getDataOrigins(): DataOrigin[] {
   return [...dataOrigins];
 }
 
-export function getGroup(shortName: string): Group {
+export function getGroup(shortName: string): Group | undefined {
   return groups.find(x => x.shortName === shortName);
 }
 
@@ -81,7 +82,7 @@ export function getGroups(): Group[] {
   return [...groups].sort((a, b) => a.shortName.localeCompare(b.shortName));
 }
 
-export function getMultiWorld(shortName: string): MultiWorld {
+export function getMultiWorld(shortName: string): MultiWorld | undefined {
   return multiWorlds.find(x => x.shortName === shortName);
 }
 

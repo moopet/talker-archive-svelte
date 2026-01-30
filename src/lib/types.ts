@@ -49,6 +49,7 @@ export type Talker = {
   description?: string;
   disambiguation?: string;
   ewtooAbbr?: string;
+  group?: string;
   hosts?: Host[];
   isClosed?: boolean;
   isConnectable?: boolean;
@@ -58,7 +59,10 @@ export type Talker = {
   notes?: string;
   resources?: Resource[];
   screencaps?: string[];
+  slug?: string;
   textcaps?: string[];
+  yearClosed?: number;
+  yearOpened?: number;
 };
 
 export type GroupProps = {
@@ -75,6 +79,35 @@ export type TalkerCardProps = {
 
 export type TalkerListProps = {
   talkers: Talker[];
+};
+
+export type GetTalkerParams = {
+  slug?: string;
+  name?: string;
+};
+
+export type GetTalkersParams = {
+  order?: 'asc' | 'desc';
+  codebase?: string;
+  dataOrigin?: string;
+  group?: string;
+  multiWorld?: string;
+  host?: {
+    hostname: string;
+    port?: number;
+  };
+};
+
+export type Group = {
+  description?: string;
+  name?: string;
+  shortName: string;
+};
+
+export type MultiWorld = {
+  description?: string;
+  name: string;
+  shortName: string;
 };
 
 export type ActiveTalkerList = {

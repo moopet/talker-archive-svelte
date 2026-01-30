@@ -2,6 +2,7 @@ import slugify from 'slugify';
 import { multiWorlds, talkers } from '$lib/data/talkers.json';
 import { get } from 'svelte/store';
 import { activeTalkersStore } from '$lib/stores/activeTalkers';
+import type { ActiveTalkerList, Host, MultiWorld, Talker } from '$lib/types';
 
 export function getNounArticle(noun: string): string {
   const initial = noun.toLowerCase()[0];
@@ -21,7 +22,7 @@ export async function isTalkerActive(talker: Talker): Promise<boolean> {
 }
 
 export async function getTalkerStatus(talker: Talker): Promise<string> {
-  if (talker.hosts.every(host => host?.blocked)) {
+  if (talker.hosts?.every(host => host?.blocked)) {
     return 'defunct';
   }
 
@@ -67,14 +68,14 @@ export function sortTalkersByName(talkers: Talker[]): Talker[] {
   return talkers.sort((a, b) => getTalkerSlug(a).replace('_', '').localeCompare(getTalkerSlug(b).replace('_', '')));
 }
 
-export function findTalkerBySlug(slug: string): Talker {
+export function findTalkerBySlug(slug: string): Talker | undefined {
   const explicitSlugMatch = talkers.find(talker => talker?.slug === slug);
 
   if (explicitSlugMatch) {
     return explicitSlugMatch;
   }
 
-  const talker: Talker = talkers.find(talker => {
+  const talker: Talker | undefined = talkers.find(talker => {
     const talkerSlug = slugify(talker.name, {lower: true});
 
     return [talkerSlug, talkerSlug.replace(/^the-/, '').replace(/'/, '')].includes(slug);
