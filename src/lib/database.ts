@@ -1,5 +1,5 @@
 import slugify from 'slugify';
-import { codebases, dataOrigins, resources, talkers } from '$lib/data/talkers.json';
+import { codebases, dataOrigins, groups, multiWorlds, resources, talkers } from '$lib/data/talkers.json';
 
 export function getSlug(text: string): string {
   return slugify(text.replace(/^A /, ''), { lower: true }).replace(/^the-/, '').replace(/[^a-z0-9-]/, '');
@@ -74,7 +74,7 @@ export function getDataOrigins(): DataOrigin[] {
 }
 
 export function getGroup(shortName: string): Group {
-  return groups.find(x => a.shortName === shortName);
+  return groups.find(x => x.shortName === shortName);
 }
 
 export function getGroups(): Group[] {
