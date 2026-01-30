@@ -161,42 +161,42 @@
     {
       "shortName": "realms",
       "name": "Realms talker list",
-      "link": "http://realms.palni.edu/talkers"
+      "url": "http://realms.palni.edu/talkers"
     },
     {
       "shortName": "telnet",
       "name": "TelNet servers list",
-      "link": "https://thedubber.altervista.org/other/telnetlist.htm"
+      "url": "https://thedubber.altervista.org/other/telnetlist.htm"
     },
     {
       "shortName": "horne",
       "name": "Timothy Horne's talker list",
-      "link": "http://www.bucknell.edu/~horne/sub/talkers.html"
+      "url": "http://www.bucknell.edu/~horne/sub/talkers.html"
     },
     {
       "shortName": "crossroads",
       "name": "Crossroads, TNG talker list",
-      "link": "http://www.talker.com/crossroads/talkers.html"
+      "url": "http://www.talker.com/crossroads/talkers.html"
     },
     {
       "shortName": "dune",
       "name": "Dune.net customer list",
-      "link": "http://enigma.dune.net/customers/index.sphp"
+      "url": "http://enigma.dune.net/customers/index.sphp"
     },
     {
       "shortName": "maddhouse",
       "name": "Madd's Talklist",
-      "link": "http://www.maddhouse.com/talkers/"
+      "url": "http://www.maddhouse.com/talkers/"
     },
     {
       "shortName": "haven",
       "name": "The Havens List",
-      "link": "https://haven.zeal.net"
+      "url": "https://haven.zeal.net"
     },
     {
       "shortName": "mudstats",
       "name": "MUDStats",
-      "link": "https://www.mudstats.com"
+      "url": "https://www.mudstats.com"
     },
     {
       "shortName": "facebook",
@@ -205,32 +205,32 @@
     {
       "shortName": "kesey",
       "name": "Kesey's Telnet Talker Links",
-      "link": "http://alg.dune.net/Telnet-Talker-Links.html"
+      "url": "http://alg.dune.net/Telnet-Talker-Links.html"
     },
     {
       "shortName": "galaxy",
       "name": "Galaxy/einet :: Talkers",
-      "link": "https://www.einet.net/dir68120/Talkers.htm"
+      "url": "https://www.einet.net/dir68120/Talkers.htm"
     },
     {
       "shortName": "greatbiglist",
       "name": "The Great Big List of Talkers and Talk-Oriented Muds",
-      "link": "http://proffa.cc.tut.fi/~k113973/talkers/"
+      "url": "http://proffa.cc.tut.fi/~k113973/talkers/"
     },
     {
       "shortName": "rosen",
       "name": "Rosenpages Internet Talker List",
-      "link": "http://www.sgi.net/~jon/chatlist.html"
+      "url": "http://www.sgi.net/~jon/chatlist.html"
     },
     {
       "shortName": "ewtoo",
       "name": "Silver's talker charts on ewtoo.org",
-      "link": "http://list.ewtoo.org"
+      "url": "http://list.ewtoo.org"
     },
     {
       "shortName": "spodlist",
       "name": "the talker listing on spodlist.org",
-      "link": "http://spodlist.org"
+      "url": "http://spodlist.org"
     },
     {
       "shortName": "tdf",
@@ -239,7 +239,7 @@
     {
       "shortName": "nick",
       "name": "Nick's talker page",
-      "link": "http://gavush.toplessrabbit.com/talkers/talker.htm"
+      "url": "http://gavush.toplessrabbit.com/talkers/talker.htm"
     },
     {
       "shortName": "razor",
@@ -248,32 +248,32 @@
     {
       "shortName": "talkernet",
       "name": "the TalkerNet database",
-      "link": "http://talkernet.net/talker/"
+      "url": "http://talkernet.net/talker/"
     },
     {
       "shortName": "talkers.ws",
       "name": "talkers.ws",
-      "link": "http://talkers.ws"
+      "url": "http://talkers.ws"
     },
     {
       "shortName": "talker",
       "name": "the member list on talker.com",
-      "link": "http://talker.com/members.html"
+      "url": "http://talker.com/members.html"
     },
     {
       "shortName": "wildwest",
       "name": "the Talker Central list",
-      "link": "http://cswnet.com/~wildwest/talkers.cgi"
+      "url": "http://cswnet.com/~wildwest/talkers.cgi"
     },
     {
       "shortName": "mudlist",
       "name": "Geoffrey Allen's talker list",
-      "link": "http://mudlist.geoffrey-allen.com/talkers/alpha.html"
+      "url": "http://mudlist.geoffrey-allen.com/talkers/alpha.html"
     },
     {
       "shortName": "news",
       "name": "the alt.talker.* newsgroups",
-      "link": "https://groups.google.com/g/alt.talkers"
+      "url": "https://groups.google.com/g/alt.talkers"
     },
     {
       "shortName": "homepage",

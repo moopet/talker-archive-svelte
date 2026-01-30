@@ -50,7 +50,7 @@
   const getCitation = (dataOriginNames: string[]): string => {
     const matches = getDataOrigins()
       .filter(x => dataOriginNames.includes(x.shortName))
-      .map(x => x.link ? `<a href="${x.link}">${x.name}</a>` : x.name);
+      .map(x => x.url ? `<a href="${x.url}">${x.name}</a>` : x.name);
 
     if (matches.length === 0) {
       return '';

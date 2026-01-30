@@ -9,7 +9,7 @@ export type Codebase = {
 };
 
 export type DataOrigin = {
-  link?: string;
+  url?: string;
   name: string;
   shortName: string;
 };
