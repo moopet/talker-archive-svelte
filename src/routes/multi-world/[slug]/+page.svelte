@@ -1,10 +1,10 @@
 <script lang="ts">
   import { page } from '$app/state';
   import MultiWorld from '$lib/components/MultiWorld.svelte';
-  import { findTalkersByMultiWorld } from '$lib/utils';
+  import { getMultiWorld } from '$lib/database';
 
   const slug: string = page.params?.slug ?? "";
-  const multiWorld = getByMultiWorld(slug);
+  const multiWorld = getMultiWorld(slug);
 </script>
 
 <svelte:head>
