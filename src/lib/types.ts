@@ -58,6 +58,7 @@ export type Talker = {
   name: string;
   notes?: string;
   resources?: Resource[];
+  role?: string;
   screencaps?: string[];
   slug?: string;
   textcaps?: string[];

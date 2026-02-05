@@ -1,26 +1,27 @@
 <script lang="ts">
+  import type { Talker } from '$lib/types';
   import { page } from '$app/state';
   import { findTalkersBySpod, getTalkerSlug } from '$lib/utils';
 
   const spodName: string = page.params?.slug ?? "";
   const talkers: Talker[] = findTalkersBySpod(spodName)
     .sort((a, b) => a.name.replace(/^the /i, '').localeCompare(b.name.replace(/^the /i, '')))
-    .map(item => {
-      const coders = (item?.coders ?? []).map(x => x.toLowerCase())
-      const admins = (item?.admins ?? []).map(x => x.toLowerCase());
+    .map(talker => {
+      const coders = (talker?.coders ?? []).map(x => x.toLowerCase())
+      const admins = (talker?.admins ?? []).map(x => x.toLowerCase());
       const lowerName = spodName.toLowerCase();
 
       if (admins.includes(lowerName) && coders.includes(lowerName)) {
-        item.role = 'admin/coder';
+        talker.role = 'admin/coder';
       }
       else if (admins.includes(lowerName)) {
-        item.role = 'admin';
+        talker.role = 'admin';
       }
       else {
-        item.role = 'coder';
+        talker.role = 'coder';
       }
 
-      return item;
+      return talker;
     });
 </script>
 
