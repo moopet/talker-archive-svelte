@@ -27,7 +27,7 @@ export function getTalkers(params: GetTalkersParams = {}): Talker[] {
   if (params.dataOrigin) {
     results = results
       .filter(talker => talker.dataOrigins)
-      .filter(talker => talker.dataOrigins.some(x => x.dataOrigin === params.dataOrigin));
+      .filter(talker => talker.dataOrigins.some(dataOrigin => dataOrigin === params.dataOrigin));
   }
 
   if (params.group) {
