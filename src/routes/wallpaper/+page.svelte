@@ -2,7 +2,7 @@
 import { talkers } from '$lib/data/talkers.json';
 import { sortTalkersByName, getTalkerSlug } from '$lib/utils';
 
-const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencaps).filter(x => !x.screencaps.every(path => path.includes('.map.')));
+const sortedTalkers = sortTalkersByName(talkers);
 </script>
 
 <svelte:head>
@@ -10,10 +10,12 @@ const talkersWithScreencaps = sortTalkersByName(talkers).filter(x => x.screencap
 </svelte:head>
 
 <section>
-  {#each talkersWithScreencaps as talker}
-    <a href={`/details/${getTalkerSlug(talker)}`}>
-      <img src={`/screencaps/${talker.screencaps[0]}`} alt={talker.name} />
-    </a>
+  {#each sortedTalkers as talker}
+    {#if Array.isArray(talker.screencaps) && talker.screencaps.length > 0 && !talker.screencaps.every(path => path.includes('.map.'))}
+      <a href={`/details/${getTalkerSlug(talker)}`}>
+        <img src={`/screencaps/${talker.screencaps[0]}`} alt={talker.name} />
+      </a>
+    {/if}
   {/each}
 </section>
 
