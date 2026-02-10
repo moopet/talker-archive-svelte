@@ -59,7 +59,7 @@ export function getTalkers(params: GetTalkersParams = {}): Talker[] {
 }
 
 export function getCodebase(shortName: string): Codebase | undefined {
-  return codebases.find(x => x.shortName === shortName);
+  return codebases.find(x => x.shortName === shortName) as Codebase;
 }
 
 export function getCodebases(): Codebase[] {

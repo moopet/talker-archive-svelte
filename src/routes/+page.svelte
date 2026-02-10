@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { PageProps } from './$types';
+  import type { Host, PageProps, Talker } from './$types';
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
@@ -15,8 +15,8 @@
   const DEFAULT_SCREENCAP_FILTER = 'hide';
 
   let loading: boolean = $state(true);
-  let error: string = $state('');
-  let lastCheckedDate = $state(null);
+  let errorMessage: string = $state('');
+  let lastCheckedDate: Date = $state(null);
   let codebaseFilter: string = $state('');
   let searchFilter: string = $state('');
   let ageFilter: string = $state('');
@@ -215,7 +215,7 @@
         .forEach(talker => {
           const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
 
-          talker.isClosed = talker.hosts.every(h => h?.blocked);
+          talker.isClosed = talker.hosts.every((h: Host) => h?.blocked);
 
           if (match) {
             talker.isConnectable = true;
@@ -223,7 +223,7 @@
             talker.port = match.port;
           }
           else if (!talker.isClosed) {
-            const firstAvailableHost = talker.hosts.find(h => !h?.blocked);
+            const firstAvailableHost = talker.hosts.find((h: Host) => !h?.blocked);
 
             talker.isConnectable = false;
             talker.hostname = firstAvailableHost.hostname;
@@ -231,9 +231,9 @@
           }
         });
 
-      error = '';
+      errorMessage = '';
     } catch (err) {
-      error = err.message;
+      errorMessage = err.message ?? "An unknown error occurred.";
     }
 
     loading = false;
@@ -257,10 +257,10 @@
 <section>
   <h1>Talker database</h1>
 
-  {#if error}
+  {#if errorMessage}
     <p class="error">There was an error fetching the data.</p>
 
-    <p>{error}</p>
+    <p>{errorMessage}</p>
     <p>
       Sorry, it looks like the connectivity checker service is offline at the moment.<br>
       Come back and try again later or pester the maintainer, if you can find them.
@@ -319,7 +319,7 @@
 
     <div class="sort-key">
       <label for="sort-key">Sort by</label>
-      <select bind:value={sortKey} id="sort-key" onchange={(e) => handleSort(e.target.value, false)}>
+      <select bind:value={sortKey} id="sort-key" onchange={(e) => handleSort(e.target?.value, false)}>
         <option value="name">Name</option>
         <option value="address" disabled={viewMode === 'grid'}>Address</option>
         <option value="age-restriction" disabled={viewMode === 'grid'}>Age restriction</option>

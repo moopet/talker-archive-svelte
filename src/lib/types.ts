@@ -53,6 +53,7 @@ export type Talker = {
   hosts?: Host[];
   isClosed?: boolean;
   isConnectable?: boolean;
+  language?: string
   location?: string;
   multiWorld?: string;
   name: string;
@@ -75,7 +76,7 @@ export type MultiWorldProps = {
 };
 
 export type TalkerCardProps = {
-  talkers: Talker;
+  talker: Talker;
 };
 
 export type TalkerListProps = {

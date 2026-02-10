@@ -69,10 +69,6 @@ section {
   text-align: left;
 }
 
-section + section {
-  padding-block-start: 0;
-}
-
 h2 {
   color: rgb(179, 160, 125);
   border-inline-start-width: 0;

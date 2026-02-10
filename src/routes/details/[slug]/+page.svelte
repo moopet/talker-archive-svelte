@@ -1,7 +1,7 @@
 <script lang="ts">
   import { asset } from '$app/paths';
   import { page } from '$app/state';
-  import type { Codebase, DataOrigin, Talker } from '$lib/types';
+  import type { Codebase, DataOrigin, Resource, Talker } from '$lib/types';
   import { getCodebase, getDataOrigins, getMultiWorld, getTalker } from '$lib/database';
   import ResourceList from '$lib/components/ResourceList.svelte';
   import TalkerStatus from '$lib/components/TalkerStatus.svelte';
@@ -34,7 +34,7 @@
 
     if (codebase.family) {
       const nullFamily = { shortName: codebase.family };
-      const family = getCodebase(codebase.family) ?? nullFamily;
+      const family = getCodebase(codebase.family) ?? nullFamily as Codebase;
 
       if (family.description) {
         description += `, a <abbr title="${family.description}">${family.name}</abbr> derivative`;
@@ -59,7 +59,7 @@
     return `Information presented here was - at least in part - sourced from ${matches.join(", and ")}.`;
   };
 
-  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigin, location, language }: Talker = talker;
+  const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigins = [], location, language }: Talker = talker;
 
   const hostResources: Array<Resource> = hosts.map(item => {
     return {
@@ -105,7 +105,7 @@
     .filter(resource => !['website', 'wayback', 'email'].includes(resource.type));
 
 
-  const getLocaleDescription = (location: string, language: string): string => {
+  const getLocaleDescription = (location: string | undefined, language: string | undefined): string => {
     if (location && language) {
       return `This ${location}-based talker primarily used the ${language} language.`;
     }
@@ -117,7 +117,7 @@
     return `This was a ${location}-based talker.`;
   };
 
-  const getDateDescription = (yearOpened: number, yearClosed: number): string => {
+  const getDateDescription = (yearOpened: number | undefined, yearClosed: number | undefined): string => {
     if (yearOpened === yearClosed) {
       return `This short-lived talker opened and closed in ${yearClosed}.`;
     }
