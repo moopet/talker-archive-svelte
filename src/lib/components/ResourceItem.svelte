@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { ResourceItemProps } from '$lib/types';
   const { resource }: ResourceItemProps = $props();
 </script>
 
@@ -7,7 +8,7 @@
     <a href={resource.url}><img src={resource.url} alt={resource.alt} /></a>
   {:else}
     {#if resource.broken}
-      <a disabled title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
+      <span class="broken-link" title="This link does not have any archived copies">{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</span>
     {:else}
       <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
     {/if}
@@ -40,7 +41,7 @@ span {
   font-size: 0.9rem;
 }
 
-[disabled] {
+.broken-link {
   text-decoration: line-through;
   opacity: 0.5;
 }

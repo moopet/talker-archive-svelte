@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { ResourceListProps } from '$lib/types';
   import ResourceItem from '$lib/components/ResourceItem.svelte';
 
   const { title, resources }: ResourceListProps = $props();

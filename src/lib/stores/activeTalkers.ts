@@ -1,4 +1,3 @@
-// src/lib/stores/activeTalkers.ts
 import { get, writable } from 'svelte/store';
 import type { ActiveTalkerList } from '$lib/types';
 

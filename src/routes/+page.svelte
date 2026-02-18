@@ -1,9 +1,10 @@
 <script lang="ts">
-  import type { Host, PageProps, Talker } from './$types';
+  import type { PageProps } from './$types';
+  import type { ActiveTalkerList, Host, Talker } from '$lib/types';
   import { onMount } from 'svelte';
   import slugify from 'slugify';
   import { formatDistanceToNow } from 'date-fns';
-  import { getTalkerSlug } from '$lib/utils.ts';
+  import { getTalkerSlug } from '$lib/utils';
   import { getCodebase, getCodebases, getSlug, getTalkers } from '$lib/database';
   import { getActiveTalkers, activeTalkersStore } from '$lib/stores/activeTalkers';
   import TalkerCard from '$lib/components/TalkerCard.svelte';
@@ -16,7 +17,9 @@
 
   let loading: boolean = $state(true);
   let errorMessage: string = $state('');
-  let lastCheckedDate: Date = $state(null);
+  let lastCheckedDate: Date = $state(new Date());
+  let hasChecked: boolean = $state(false);
+
   let codebaseFilter: string = $state('');
   let searchFilter: string = $state('');
   let ageFilter: string = $state('');
@@ -30,7 +33,8 @@
   let activeTalkers: Talker[] = $state([]);
 
   const loadSettings = (): void => {
-    const settings = JSON.parse(window.localStorage.getItem('filters'), '{}');
+    const rawSettings = window.localStorage.getItem('filters') || '{}';
+    const settings = JSON.parse(rawSettings, '{}');
 
     codebaseFilter = settings?.codebaseFilter ?? '';
     searchFilter = settings?.searchFilter ?? '';
@@ -109,8 +113,8 @@
 
       case 'address':
         allTalkers.sort((a: Talker, b: Talker): number => {
-          const aAddress: string = a.hostname ? `${a.hostname}{a.port}` : '';
-          const bAddress: string = b.hostname ? `${b.hostname}{b.port}` : '';
+          const aAddress: string = a.hostname ? `${a.hostname}{a?.port || ''}` : '';
+          const bAddress: string = b.hostname ? `${b.hostname}{b?.port || ''}` : '';
 
           if (sortDirection === 'desc') {
             return bAddress.localeCompare(aAddress);
@@ -197,10 +201,11 @@
     saveSettings();
   };
 
-  const highlightActiveTalkers = (activeTalkerList) => {
+  const highlightActiveTalkers = (activeTalkerList: ActiveTalkerList) => {
     try {
       activeTalkers = activeTalkerList.talkers;
       lastCheckedDate = new Date(activeTalkerList.dateChecked);
+      hasChecked = true;
 
       const activeTalkerNames = activeTalkers.map(talker => talker.name);
 
@@ -223,7 +228,7 @@
             talker.port = match.port;
           }
           else if (!talker.isClosed) {
-            const firstAvailableHost = talker.hosts.find((h: Host) => !h?.blocked);
+            const firstAvailableHost = (talker?.hosts || []).find((h: Host) => !h?.blocked);
 
             talker.isConnectable = false;
             talker.hostname = firstAvailableHost.hostname;
@@ -267,7 +272,7 @@
     </p>
   {/if}
 
-  {#if lastCheckedDate}
+  {#if hasChecked}
     <h2><span class="active-count">{allTalkers.filter(x => !x.isClosed).length}</span> of <span class="total-count">{allTalkers.length}</span> talkers are <em>potentially</em> active</h2>
   {/if}
 
@@ -319,7 +324,7 @@
 
     <div class="sort-key">
       <label for="sort-key">Sort by</label>
-      <select bind:value={sortKey} id="sort-key" onchange={(e) => handleSort(e.target?.value, false)}>
+      <select bind:value={sortKey} id="sort-key" onchange={(e) => handleSort((e.target as HTMLSelectElement).value, false)}>
         <option value="name">Name</option>
         <option value="address" disabled={viewMode === 'grid'}>Address</option>
         <option value="age-restriction" disabled={viewMode === 'grid'}>Age restriction</option>
@@ -349,7 +354,7 @@
   <p>
     Showing <strong>{filteredTalkers.length}</strong> {filteredTalkers.length === 1 ? 'result' : 'results'}.
 
-    {#if lastCheckedDate}
+    {#if hasChecked}
       <span class="breakpoint">
         Last connectivity check: {formatDistanceToNow(lastCheckedDate, { addSuffix: true })}.
       </span>
@@ -359,7 +364,7 @@
   {#if filteredTalkers.length > 0}
     {#if viewMode === 'grid'}
       <ol>
-        {#each filteredTalkers as talker (talker.id)}
+        {#each filteredTalkers as talker (JSON.stringify(talker))}
           <li><TalkerCard {talker} /></li>
         {/each}
       </ol>
@@ -400,13 +405,17 @@
         </thead>
 
         <tbody>
-          {#each filteredTalkers as talker (talker.id)}
+          {#each filteredTalkers as talker (JSON.stringify(talker))}
             <tr>
               <td class="name"><a href={`/details/${getTalkerSlug(talker)}`}>{talker.name}</a></td>
 
               <td class="address">
                 {#if talker.hostname}
-                  <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
+                  {#if talker.port}
+                    <a href="telnet://{talker.hostname}:{talker.port}">{talker.hostname}:{talker.port}</a>
+                  {:else}
+                    <a href="telnet://{talker.hostname}">{talker.hostname}</a>
+                  {/if}
                 {:else}
                   <span>n/a</span>
                 {/if}

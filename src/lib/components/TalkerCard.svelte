@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import type { TalkerCardProps } from '$lib/types';
   import slugify from 'slugify';
-  import { getTalkerSlug, isTalkerActive } from '$lib/utils.ts';
+  import { getTalkerSlug, isTalkerActive } from '$lib/utils';
   import { activeTalkersStore } from '$lib/stores/activeTalkers';
 
   let { talker }: TalkerCardProps = $props();

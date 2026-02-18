@@ -51,7 +51,7 @@ export function findTalkersByMultiWorld(multiWorldName: string): Talker[] {
 
 export function findTalkersByHost(hostname: string, port: number): Talker[] {
   return talkers.filter(talker => {
-    return (talker?.hosts ?? []).some(h => h.hostname === hostname && h.port === port);
+    return (talker?.hosts ?? []).some(h => h.hostname === hostname && h?.port === port);
   });
 }
 

@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { findTalkersByHost, getTalkerSlug } from '$lib/utils.ts';
+  import type { Resource, Talker } from '$lib/types';
+  import { findTalkersByHost, getTalkerSlug } from '$lib/utils';
 
   let { talker } = $props();
 

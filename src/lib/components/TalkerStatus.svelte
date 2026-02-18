@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { getTalkerStatus } from '$lib/utils.ts';
+  import { getTalkerStatus } from '$lib/utils';
 
   const { talker } = $props();
   let status = $state('loading');

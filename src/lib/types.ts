@@ -51,6 +51,7 @@ export type Talker = {
   ewtooAbbr?: string;
   group?: string;
   hosts?: Host[];
+  hostname?: string;
   isClosed?: boolean;
   isConnectable?: boolean;
   language?: string
@@ -69,6 +70,7 @@ export type Talker = {
 
 export type GroupProps = {
   shortName: string;
+  talker: Talker;
 };
 
 export type MultiWorldProps = {
@@ -110,6 +112,7 @@ export type MultiWorld = {
   description?: string;
   name: string;
   shortName: string;
+  url?: string;
 };
 
 export type ActiveTalkerList = {
