@@ -27,7 +27,7 @@ export function getTalkers(params: GetTalkersParams = {}): Talker[] {
   if (params.dataOrigin) {
     results = results
       .filter(talker => talker.dataOrigins)
-      .filter(talker => talker.dataOrigins.some(dataOrigin => dataOrigin === params.dataOrigin));
+      .filter(talker => talker.dataOrigins!.some(dataOrigin => dataOrigin === params.dataOrigin));
   }
 
   if (params.group) {
@@ -41,7 +41,7 @@ export function getTalkers(params: GetTalkersParams = {}): Talker[] {
   if (params.host) {
     results = results
       .filter(talker => talker.hosts)
-      .filter(talker => talker.hosts.some(x => x.hostname === params.host.hostname && x.port === params.host.port));
+      .filter(talker => talker.hosts!.some(x => x.hostname === params.host!.hostname && x.port === params.host!.port));
   }
 
   results.sort((a: Talker, b: Talker): number => {

@@ -36,7 +36,7 @@ export type ResourceListProps = {
 export type Host = {
   blocked?: boolean;
   hostname: string;
-  port?: number;
+  port?: number | null;
 };
 
 export type Talker = {
@@ -59,6 +59,7 @@ export type Talker = {
   multiWorld?: string;
   name: string;
   notes?: string;
+  port?: number;
   resources?: Resource[];
   role?: string;
   screencaps?: string[];
@@ -106,6 +107,7 @@ export type Group = {
   description?: string;
   name?: string;
   shortName: string;
+  url?: string;
 };
 
 export type MultiWorld = {

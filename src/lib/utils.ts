@@ -11,7 +11,7 @@ export function getNounArticle(noun: string): string {
   return vowelish.includes(initial) ? 'an' : 'a';
 }
 
-export function getActiveTalkers(): Promise<ActiveTalkerList> {
+export function getActiveTalkers(): ActiveTalkerList | null {
   return get(activeTalkersStore);
 }
 
@@ -51,7 +51,7 @@ export function findTalkersByMultiWorld(multiWorldName: string): Talker[] {
 
 export function findTalkersByHost(hostname: string, port: number): Talker[] {
   return talkers.filter(talker => {
-    return (talker?.hosts ?? []).some(h => h.hostname === hostname && h?.port === port);
+    return (talker?.hosts ?? []).some(h => h.hostname === hostname && 'port' in h && h.port === port);
   });
 }
 

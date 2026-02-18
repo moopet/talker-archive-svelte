@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { MultiWorldProps, Talker } from '$lib/types';
   import { findTalkersByMultiWorld, getMultiWorld, getTalkerSlug } from '$lib/utils';
   import { multiWorlds } from '$lib/data/talkers.json';
 

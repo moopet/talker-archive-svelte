@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { GroupProps } from '$lib/types';
+  import type { Group, GroupProps, Talker } from '$lib/types';
   import { findTalkersByGroup, getTalkerSlug } from '$lib/utils';
   import { groups } from '$lib/data/talkers.json';
 

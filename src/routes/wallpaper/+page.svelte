@@ -1,8 +1,9 @@
 <script lang="ts">
+import type { Talker } from '$lib/types';
 import { talkers } from '$lib/data/talkers.json';
 import { sortTalkersByName, getTalkerSlug } from '$lib/utils';
 
-const sortedTalkers = sortTalkersByName(talkers);
+const sortedTalkers = sortTalkersByName(talkers as Talker[]);
 </script>
 
 <svelte:head>

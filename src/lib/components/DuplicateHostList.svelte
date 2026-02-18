@@ -1,17 +1,21 @@
 <script lang="ts">
-  import type { Resource, Talker } from '$lib/types';
+  import type { Host, Talker } from '$lib/types';
   import { findTalkersByHost, getTalkerSlug } from '$lib/utils';
 
   let { talker } = $props();
 
-  const getDuplicateTalkers = (hosts: Array<Resource>): Array<Talker> => {
-    const duplicateTalkers: Array<Talker> = [];
+  type TalkerWithMatch = Talker & { matchingHostname: string; matchingPort: number | null };
+
+  const getDuplicateTalkers = (hosts: Array<Host>): Array<TalkerWithMatch> => {
+    const duplicateTalkers: Array<TalkerWithMatch> = [];
 
     hosts.forEach(item => {
-      findTalkersByHost(item.hostname, item.port)
+      const port = item.port ?? null;
+      if (!port) return;
+      findTalkersByHost(item.hostname, port)
         .filter(t => t.name !== talker.name)
         .filter(t => !t.group || t.group !== talker.group)
-        .map(t => ({...t, matchingHostname: item.hostname, matchingPort: item.port}))
+        .map(t => ({...t, matchingHostname: item.hostname, matchingPort: port}))
         .forEach(t => duplicateTalkers.push(t));
     });
 

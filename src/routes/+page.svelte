@@ -34,7 +34,7 @@
 
   const loadSettings = (): void => {
     const rawSettings = window.localStorage.getItem('filters') || '{}';
-    const settings = JSON.parse(rawSettings, '{}');
+    const settings = JSON.parse(rawSettings) as Record<string, string> || {};
 
     codebaseFilter = settings?.codebaseFilter ?? '';
     searchFilter = settings?.searchFilter ?? '';
@@ -218,27 +218,30 @@
       allTalkers
         .filter(t => t.hosts)
         .forEach(talker => {
+          const hosts = talker.hosts!;
           const match = activeTalkers.find(activeTalker => activeTalker.name === talker.name);
 
-          talker.isClosed = talker.hosts.every((h: Host) => h?.blocked);
+          talker.isClosed = hosts.every((h: Host) => h?.blocked);
 
           if (match) {
             talker.isConnectable = true;
             talker.hostname = match.hostname;
-            talker.port = match.port;
+            talker.port = match.port ?? undefined;
           }
           else if (!talker.isClosed) {
-            const firstAvailableHost = (talker?.hosts || []).find((h: Host) => !h?.blocked);
+            const firstAvailableHost = hosts.find((h: Host) => !h?.blocked);
 
-            talker.isConnectable = false;
-            talker.hostname = firstAvailableHost.hostname;
-            talker.port = firstAvailableHost.port;
+            if (firstAvailableHost) {
+              talker.isConnectable = false;
+              talker.hostname = firstAvailableHost.hostname;
+              talker.port = firstAvailableHost.port ?? undefined;
+            }
           }
         });
 
       errorMessage = '';
     } catch (err) {
-      errorMessage = err.message ?? "An unknown error occurred.";
+      errorMessage = err instanceof Error ? err.message : "An unknown error occurred.";
     }
 
     loading = false;

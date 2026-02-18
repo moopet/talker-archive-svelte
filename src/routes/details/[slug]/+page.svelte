@@ -14,7 +14,8 @@
     name: "Talker not found"
   };
 
-  const talker: Talker = page.params.slug ? getTalker({slug: page.params.slug}) : nullTalker;
+  const foundTalker = page.params.slug ? getTalker({slug: page.params.slug}) : nullTalker;
+  const talker: Talker = foundTalker ?? nullTalker;
 
   const getCodebaseDescription = (codebaseName: string): string => {
     const codebase = getCodebase(codebaseName);
