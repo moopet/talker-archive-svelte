@@ -5725,6 +5725,10 @@
       ],
       "hosts": [
         {
+          "hostname": "shellmatrix.ovh",
+          "port": 2223
+        },
+        {
           "hostname": "sm.kelotz.net",
           "port": 2223
         },
