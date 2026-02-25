@@ -12356,7 +12356,7 @@
     {
       "name": "Abbey Road",
       "description": "Beatles, Classic Rock and music in general.",
-      "notes": "Abbey Road started out in 1995 as a BBS project.",
+      "notes": "Abbey Road started out in 1995 as a BBS project, and became a dedicated talker in 1997.",
       "codebase": "amnuts",
       "yearOpened": 1995,
       "admins": [
@@ -18659,6 +18659,9 @@
       ],
       "textcaps": [
         "maps/acadia.map.txt"
+      ],
+      "screencaps": [
+        "maps/acadia.map.png"
       ]
     },
     {
