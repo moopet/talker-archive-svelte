@@ -114,7 +114,7 @@
       return `This talker primarily used the ${language} language.`;
     }
 
-    return `This was a ${location}-based talker.`;
+    return `A ${location}-based talker.`;
   };
 
   const getDateDescription = (yearOpened: number, yearClosed: number): string => {
