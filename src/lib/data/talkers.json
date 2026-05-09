@@ -6197,17 +6197,19 @@
     {
       "name": "Uberworld",
       "yearOpened": 1996,
-      "location": "Netherlands",
+      "location": "USA",
       "ewtooAbbr": "uber",
       "admins": [
         "Silver",
         "Jimbob",
         "Jodrell",
+        "RidOfYou",
         "Raindog"
       ],
       "coders": [
         "Silver"
       ],
+      "description": "Orbiting the UberHomePlanet DeathWorld, this satellite is the home and meeting place of thousands of UberCitizens.",
       "codebase": "pgplus",
       "screencaps": [
         "login/uberworld.org_2020.png",
