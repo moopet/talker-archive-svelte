@@ -14,12 +14,12 @@
 <div>
   {#if resource.type === 'image'}
     <a href={resource.url}><img src={resource.url} alt={resource.alt} /></a>
+  {:else if resource.type === 'host' && resource.broken}
+    <span title="This host is no longer accessible">{resource.url.replace('telnet:', '')}</span>
+  {:else if resource.broken}
+    <a disabled title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
   {:else}
-    {#if resource.broken}
-      <a disabled title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
-    {:else}
-      <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
-    {/if}
+    <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
   {/if}
 
   <span>{resource?.description ?? resource.type}</span>

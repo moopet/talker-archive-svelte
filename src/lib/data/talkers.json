@@ -4854,6 +4854,7 @@
           "port": 4242
         },
         {
+          "blocked": true,
           "hostname": "surfers.org",
           "port": 4242
         },
