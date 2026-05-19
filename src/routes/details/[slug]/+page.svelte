@@ -66,7 +66,8 @@
       name: item?.port ? `${item.hostname}:${item.port}` : item.hostname,
       type: 'host',
       url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
-      description: ""
+      description: "",
+      broken: item.blocked ?? false
     };
   });
 

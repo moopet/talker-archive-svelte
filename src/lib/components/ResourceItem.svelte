@@ -1,5 +1,14 @@
 <script lang="ts">
   const { resource }: ResourceItemProps = $props();
+
+  if (resource.url && resource.url.includes('list.ewtoo.org') && !resource.url.includes('archive.org')) {
+    resource.url = `https://web.archive.org/web/20061229123856/${resource.url}`;
+    resource.description = '(archived)';
+  }
+
+  if (resource.url && resource.type === 'host' && resource.broken) {
+    resource.description = '(defunct)';
+  }
 </script>
 
 <div>
