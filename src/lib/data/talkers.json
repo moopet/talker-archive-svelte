@@ -3495,7 +3495,26 @@
       "screencaps": [
         "login/island.subnigra.com_8000.png"
       ],
+      "admins": [
+        "Wilbo",
+        "Ladida",
+        "Hex",
+        "LuKa",
+        "Monkey",
+        "MoRa",
+        "Rastarra",
+        "Sharpy"
+      ],
+      "coders": [
+        "Tonhe",
+        "Madrory"
+      ],
+      "yearOpened": 1997,
       "resources": [
+	      {
+		      "type": "website",
+		      "url": "http://island.subnigra.com"
+	      },
 	      {
 		      "type": "wayback",
 		      "url": "https://web.archive.org/web/19970413225530/http://talkers.skl.com/~island/"
