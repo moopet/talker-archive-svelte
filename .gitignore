@@ -26,3 +26,5 @@ vite.config.ts.timestamp-*
 
 # Runs on a different server
 static/status.json
+brute-force.ts
+static/status-all.json
