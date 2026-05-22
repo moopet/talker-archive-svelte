@@ -3508,7 +3508,6 @@
           "port": 8000
         },
         {
-          "blocked": true,
           "hostname": "island.subnigra.com",
           "port": 8000
         },
@@ -6046,7 +6045,6 @@
           "port": 7443
         },
         {
-          "blocked": true,
           "hostname": "chatmud.com",
           "port": 7777
         }
@@ -20099,11 +20097,11 @@
     {
       "name": "SWiX-Chat",
       "location": "Switzerland",
+      "language": "German",
       "hosts": [
         {
           "hostname": "swix.ch",
           "port": 2001,
-          "blocked": true
         }
       ],
       "dataOrigins": ["greatbiglist"]
