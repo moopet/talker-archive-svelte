@@ -61,15 +61,23 @@
 
   const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigin, location, language }: Talker = talker;
 
-  const hostResources: Array<Resource> = hosts.map(item => {
-    return {
-      name: item?.port ? `${item.hostname}:${item.port}` : item.hostname,
-      type: 'host',
-      url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
-      description: "",
-      broken: item.blocked ?? false
-    };
-  });
+  const hostResources: Array<Resource> = hosts
+    .map(item => {
+      return {
+        name: item?.port ? `${item.hostname}:${item.port}` : item.hostname,
+        type: 'host',
+        url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
+        description: "",
+        broken: item.blocked ?? false
+      };
+    })
+    .sort((a, b) => {
+      if (a.broken !== b.broken) {
+        return a.broken ? 1 : -1;
+      }
+
+      return 0;
+    });
 
   const contactResources: Array<Resource> = resources
     .filter(resource => resource.type === 'email')
