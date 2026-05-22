@@ -5814,6 +5814,7 @@
     },
     {
       "name": "Hades",
+      "description": "Hades is a telnet talker themed on the greek mythology of the underworld.<br>Most people think Hades is essentially hell but in greek mythology, hell was represented by Tartarus and heaven by Elysium. Hades was a kind of limbo where souls would wait to be judged, it was neither punishment nor reward.<br>Our talker is fairly loosely based on the mythology of the underworld these days, but please do pay us a visit.",
       "screencaps": [
         "login/hades-talker.org_6660.png"
       ],
