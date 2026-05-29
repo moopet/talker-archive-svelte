@@ -290,6 +290,13 @@
   ],
   "codebases": [
     {
+      "shortName": "calisto",
+      "name": "Calisto",
+      "platform": "Unix-like",
+      "language": "C",
+      "repo": "https://www.marutan.net/arcsite/calisto/index.php"
+    },
+    {
       "shortName": "tinymuck",
       "name": "TinyMUCK",
       "platform": "Unix-like"
@@ -10175,6 +10182,12 @@
     {
       "name": "Ektosphere",
       "dataOrigins": ["talkers.ws"],
+      "admins": [
+        "ekto"
+      ],
+      "coders": [
+        "ekto"
+      ],
       "hosts": [
         {
           "blocked": true,
