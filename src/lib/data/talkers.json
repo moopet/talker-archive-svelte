@@ -6233,6 +6233,7 @@
       "description": "Orbiting the UberHomePlanet DeathWorld, this satellite is the home and meeting place of thousands of UberCitizens.",
       "codebase": "pgplus",
       "screencaps": [
+        "login/uberworld.org_2020_web.png",
         "login/uberworld.org_2020.png",
         "maps/uberworld.map.png"
       ],
@@ -6267,11 +6268,23 @@
     },
     {
       "name": "Honeycomb",
+      "resources": [
+        {
+          "type": "website",
+          "broken": true,
+          "url": "http://cats.meow.at/honeycomb"
+        }
+      ],
       "hosts": [
         {
           "blocked": true,
           "hostname": "cats.meow.at",
           "port": 3000
+        },
+        {
+          "blocked": true,
+          "hostname": "cats.meow.at",
+          "port": 7000
         }
       ]
     },
@@ -6308,6 +6321,7 @@
     {
       "name": "Carnival",
       "yearOpened": 1998,
+      "notes": "Carnival existed for a couple of months before being re-launched as <a data-sveltekit-reload href=\"/details/unreal\">Unreal</a> in early 1999",
       "codebase": "pgplus",
       "group": "unreal"
     },
@@ -6322,8 +6336,8 @@
       ],
       "resources": [
         {
-          "type": "wayback",
-          "url": "https://web.archive.org/web/20190122050450/http://www.users.globalnet.co.uk/~dcrsp/simple/me/unreal.html"
+          "type": "website",
+          "url": "http://www.users.globalnet.co.uk/~dcrsp/simple/me/unreal.html"
         },
         {
           "broken": true,
@@ -17631,7 +17645,8 @@
       ],
       "admins": [
         "Jeffrey",
-        "Barney"
+        "Barney",
+        "Zozo"
       ],
       "codebase": "pgplus",
       "resources": [
