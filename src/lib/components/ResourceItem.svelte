@@ -9,6 +9,8 @@
   if (resource.url && resource.type === 'host' && resource.broken) {
     resource.description = '(defunct)';
   }
+
+  console.log(resource);
 </script>
 
 <div>

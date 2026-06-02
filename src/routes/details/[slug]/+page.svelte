@@ -61,6 +61,9 @@
 
   const { name, admins = [], coders = [], hosts = [], screencaps = [], textcaps = [], description, aka = [], notes, codebase, ewtooAbbr, yearOpened, yearClosed, resources = [], dataOrigin, location, language }: Talker = talker;
 
+  const isSecure: boolean = hosts.some(item => item.secure && !item.blocked);
+  const wasSecure: boolean = hosts.some(item => item.secure && item.blocked);
+
   const hostResources: Array<Resource> = hosts
     .map(item => {
       return {
@@ -215,6 +218,14 @@
 
     {#if yearOpened || yearClosed}
       <p class="dates">{getDateDescription(yearOpened, yearClosed)}</p>
+    {/if}
+
+    {#if isSecure}
+      <p class="secure">🔒 This talker accepts secure connections.</p>
+    {:else}
+      {#if wasSecure}
+        <p class="secure">🔒 This talker also accepted secure connections.</p>
+      {/if}
     {/if}
 
     {#if talker?.ageRestriction === '18+'}

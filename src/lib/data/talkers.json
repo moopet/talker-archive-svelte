@@ -5156,7 +5156,8 @@
       "hosts": [
         {
           "hostname": "haven.enyc.org.uk",
-          "port": 7777
+          "port": 7777,
+          "secure": true
         }
       ]
     },
@@ -6264,7 +6265,8 @@
       "hosts": [
         {
           "hostname": "uberworld.org",
-          "port": 2020
+          "port": 2020,
+          "secure": true
         },
         {
           "hostname": "uberworld.ml.org",
