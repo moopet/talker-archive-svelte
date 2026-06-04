@@ -9,6 +9,9 @@
   if (resource.url && resource.type === 'host' && resource.broken) {
     resource.description = '(defunct)';
   }
+  else if (resource.url && resource.type === 'host' && resource.secure) {
+    resource.description = '(secure)';
+  }
 
   console.log(resource);
 </script>
@@ -21,7 +24,7 @@
   {:else if resource.broken}
     <a disabled title="This link does not have any archived copies" href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
   {:else}
-    <a title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
+    <a class={resource.secure ? 'secure' : ''} title={resource.alt} href={resource.url}>{(resource.name ?? resource.url).replace(/^https?:\/\//, '').replace('www.', '').replace('%7E', '~')}</a>
   {/if}
 
   <span>{resource?.description ?? resource.type}</span>

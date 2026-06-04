@@ -71,12 +71,17 @@
         type: 'host',
         url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
         description: "",
-        broken: item.blocked ?? false
+        broken: item.blocked ?? false,
+        secure: item.secure ?? false
       };
     })
     .sort((a, b) => {
       if (a.broken !== b.broken) {
         return a.broken ? 1 : -1;
+      }
+
+      if (a.secure !== b.secure) {
+        return a.secure ? -1 : 1;
       }
 
       return 0;
