@@ -12,8 +12,6 @@
   else if (resource.url && resource.type === 'host' && resource.secure) {
     resource.description = '(secure)';
   }
-
-  console.log(resource);
 </script>
 
 <div>
