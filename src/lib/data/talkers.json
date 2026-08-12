@@ -5465,8 +5465,9 @@
       "disambiguation": "Not to be confused with <a data-sveltekit-reload href=\"/details/fantasia-emerald-isle\">Fantasia Emerald Isle</a>.",
       "description": "The Emerald Isle design is based on Kodiak Alaska. Kodiak Island's nickname is The Emerald Isle.",
       "dataOrigins": ["spodlist", "mudstats", "facebook", "homepage"],
+      "notes": "tHuNdEr rebuilt the talker in 2026 to use a new, custom, web interface. The host listed below is intended to be accessed by a browser rather than telnet.",
       "ewtooAbbr": "ei",
-      "codebase": "amnuts",
+      "codebase": "wets",
       "admins": [
         "tHuNdEr",
         "dAk",
@@ -5514,6 +5515,7 @@
           "port": 5000
         },
         {
+          "blocked": true,
           "hostname": "emisle.com",
           "port": 5000
         }

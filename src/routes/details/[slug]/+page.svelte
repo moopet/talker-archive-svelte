@@ -69,7 +69,7 @@
       return {
         name: item?.port ? `${item.hostname}:${item.port}` : item.hostname,
         type: 'host',
-        url: item?.port ? `telnet:${item.hostname}:${item.port}` : `telnet:${item.hostname}`,
+        url: item?.port ? (item.port === 443 ? `https://${item.hostname}` : `telnet:${item.hostname}:${item.port}`) : `telnet:${item.hostname}`,
         description: "",
         broken: item.blocked ?? false,
         secure: item.secure ?? false
