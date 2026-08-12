@@ -546,6 +546,11 @@
       "name": "Worlds",
       "platform": "Unix-like",
       "language": "C"
+    },
+    {
+      "shortName": "wets",
+      "family": "WETS",
+      "name": "Web Emerald Talker System"
     }
   ],
   "groups": [
@@ -5463,9 +5468,12 @@
       "ewtooAbbr": "ei",
       "codebase": "amnuts",
       "admins": [
+        "tHuNdEr",
+        "dAk",
         "Bristol"
       ],
       "coders": [
+        "tHuNdEr",
         "brIStol",
 	      "Betwap",
 	      "Arion"
@@ -5486,11 +5494,20 @@
           "url": "emerald@emisle.com"
         }
       ],
+      "textcaps": [
+        "login/emisle.hostango.com_443.png"
+      ],
       "screencaps": [
+        "login/emisle.hostango.com_443.png",
         "login/emisle.org_5000.png",
+	      "maps/emerald-isle-web.map.png",
 	      "maps/emerald-isle.map.png"
       ],
       "hosts": [
+        {
+          "hostname": "emisle.hostdango.com",
+          "port": 443 
+        },
         {
           "blocked": true,
           "hostname": "talker.org",
