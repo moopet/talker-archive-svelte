@@ -5496,13 +5496,14 @@
         }
       ],
       "textcaps": [
-        "login/emisle.hostango.com_443.png"
+        "login/emisle.hostango.com_443.png",
+        "maps/emerald-isle.map.txt"
       ],
       "screencaps": [
         "login/emisle.hostango.com_443.png",
         "login/emisle.org_5000.png",
-	      "maps/emerald-isle-web.map.png",
-	      "maps/emerald-isle.map.png"
+	"maps/emerald-isle-web.map.png",
+        "maps/emerald-isle.map.png"
       ],
       "hosts": [
         {

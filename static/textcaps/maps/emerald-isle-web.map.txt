@@ -1,0 +1,44 @@
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+ ~           \ | /           MAP OF THE EMERALD ISLE                        ~
+   ~ ~     - - O - -                                                    ~ ~  
+ ~           / | \            (Captain's Table Chart)                       ~  
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+ 
+                              [ HIGHWAY ]
+                                   |
+   +-------------------------------+-------------------+
+   |                               |                   |
+{ OUTPOSTS & NATURE }              |          { THE OTHER ISLAND }
+ |-- Airport                       |           |-- HoSeR Bridge
+     \-- Pen Air                   |               \-- Near Island
+      \-- Alaska Airlines          |                \-- Trident Basin
+ |-- Monashka Bay                  |                 \-- Boat Harbor
+ |-- Flats                         |
+ |-- Fort Abercrombie              |
+ |-- Gibson Cove                   |
+ |-- Hospital                      +---------------- USCG 
+ |-- White Sands                   |                 |-- Gym (Game room)
+ |-- City Dock                     |                 |-- Pool
+ \-- Three Sisters                 |                 \-- Golden Anchor
+     \-- Forest Drive              |
+      \-- iGLoo                    |
+                                   |
+   +-------------------------------+-----------------------+
+   |                               |                       |
+[ MILL BAY ROAD ]              [ SQUARE ]------------[ DOWNTOWN ]
+ |-- Buggys                     |-- Subway             |-- Kodiak Inn
+ |-- Kings Diner                |-- Orpheum Theatre    |-- Harborside Coffee
+ |-- Lilly Lake                 \-- Henrys             |-- Church
+ |-- USPO                                              |-- Macks
+ |-- Pillar Mountain                                   |-- Cannery Row
+ \-- Treasury                                          |-- Sutliffs
+                                       .-----------.   |-- Star of Kodiak
+~ [ ADRIFT IN THE FOG ] ~              | Jail Cell |   |-- Cross Fox
+City Hall - The Wizard Room            `-----------'   |-- VFW (Casino room)
+Skippers Stateroom - Skippers only                     |-- Harbor Master
+Shamans Shack - Shaman Business                        |-- Mission Road
+Acro Island - Where you can play .acro                 \-- Spruce Cape
+                                                           \-- Mission Beach
+Square - The main room for the talker                      
+Brackets Key: [ ROOM NAME ] versus { AREA NAME }
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
