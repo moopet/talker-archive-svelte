@@ -1152,17 +1152,28 @@
       ],
       "resources": [
         {
-          "type": "website",
-          "url": "http://edgeoftwilight.net"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20191122153458/http://edgeoftwilight.net/"
         },
         {
-          "type": "website",
-          "url": "https://www.angelfire.com/ny/Briata/EOT.html"
+          "type": "wayback",
+          "url": "https://web.archive.org/web/20191026092307/http://www.angelfire.com/ny/Briata/EOT.html"
+        },
+        {
+          "type": "Facebook community",
+          "icon": "Facebook",
+          "name": "Edge of Twilight",
+          "url": "https://www.facebook.com/groups/133559020045700/"
         }
+      ],
+      "screencaps": [
+        "login/edgeoftwilight.net_2005.png"
+      ],
+      "textcaps": [
+        "login/edgeoftwilight.net_2005.txt"
       ],
       "hosts": [
         {
-          "blocked": true,
           "hostname": "edgeoftwilight.net",
           "port": 2005
         }
