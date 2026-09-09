@@ -1148,6 +1148,7 @@
       "name": "Edge of Twilight",
       "dataOrigins": ["telnet"],
       "description": "On the other side of life lies something beyond your beliefs.  As with all things there are two sides to the \"coin\".  There is even another side of Night where stranger, more magical things happen and over there........and it's all real.",
+      "codebase": "summink",
       "coders": [
         "Johann"
       ],
