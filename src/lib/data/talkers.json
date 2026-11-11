@@ -3144,6 +3144,10 @@
       ],
       "hosts": [
         {
+          "hostname": "69.30.233.59",
+          "port": 7779
+        },
+        {
           "blocked": true,
           "hostname": "revivaltalker.com",
           "port": 7779
