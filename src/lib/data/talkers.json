@@ -3134,6 +3134,7 @@
       "name": "Revival",
       "dataOrigins": ["facebook"],
       "codebase": "pgplus",
+      "disambiguation": "Replaced <a href=\"/details/reunion\" data-sveltekit-reload>Reunion</a>.",
       "resources": [
         {
           "type": "Facebook community",
@@ -3195,6 +3196,7 @@
         "Hawkeye"
       ],
       "dataOrigins": ["facebook"],
+      "disambiguation": "Replaced by <a href=\"/details/revival\" data-sveltekit-reload>Revival</a>.",
       "codebase": "pgplus",
       "resources": [
         {
