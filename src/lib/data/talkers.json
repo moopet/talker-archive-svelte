@@ -3162,6 +3162,11 @@
         },
         {
           "blocked": true,
+          "hostname": "revivaltalker.ga",
+          "port": 7779
+        },
+        {
+          "blocked": true,
           "hostname": "revivaltalker.com",
           "port": 7779
         },
