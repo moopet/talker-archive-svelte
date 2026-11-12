@@ -3135,6 +3135,14 @@
       "dataOrigins": ["facebook"],
       "codebase": "pgplus",
       "disambiguation": "Replaced <a href=\"/details/reunion\" data-sveltekit-reload>Reunion</a>.",
+      "admins": [
+        "Beaver",
+        "Segtor",
+        "Griff"
+      ],
+      "coders": [
+        "Griff"
+      ],
       "resources": [
         {
           "type": "Facebook community",
