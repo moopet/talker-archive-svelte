@@ -2871,6 +2871,19 @@
       ]
     },
     {
+      "name": "Intrepid",
+      "dataOrigins": ["facebook"],
+      "resources": [],        {
+      "screencaps": [],
+      "hosts": [
+        {
+          "blocked": true,
+          "hostname": "intrepid.tk",
+          "port": 8765
+        }
+      ]
+    },
+    {
       "name": "Eagle's Nest",
       "slug": "eagles-nest",
       "dataOrigins": ["greatbiglist"],
